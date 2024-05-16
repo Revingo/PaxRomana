@@ -1,5 +1,4 @@
 rf_hellenic = {
-	name = hellenic_religion_family
 	graphical_faith = "orthodox_gfx"
 	hostility_doctrine = eastern_hostility_doctrine
 }

@@ -219,7 +219,6 @@
 		h_hellenic = {
 			color = { 0.94 0.97 1.0 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
 
 			#change to: athens, alexandria, pella, babylon, byzantium
 			holy_site = rome
@@ -227,8 +226,6 @@
 			holy_site = alexandria
 			holy_site = carthage
 			holy_site = olympus
-
-			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_astrology
 			doctrine = tenet_communal_identity
@@ -238,7 +235,6 @@
 		p_hellenic = {
 			color = { 0.2 0.2 0.6 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
 
 			holy_site = rome
 			holy_site = athens
@@ -246,22 +242,24 @@
 			holy_site = carthage
 			holy_site = olympus
 
-			doctrine = unreformed_faith_doctrine
-
+			#Main Group
 			doctrine = doctrine_spiritual_head
 
+			#Marriage
 			doctrine = doctrine_consanguinity_unrestricted
+
+			#Clerical Functions
+			doctrine = doctrine_funeral_mummification
 
 			doctrine = tenet_astrology
 			doctrine = tenet_communal_identity
-			doctrine = tenet_esotericism
+			doctrine = tenet_divine_marriage
 		}
 
 		#still need to add the right localization for the gods
 		r_hellenic = {
 			color = { 0.4 0.01 0.24 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
 
 			holy_site = rome
 			holy_site = athens
@@ -269,11 +267,14 @@
 			holy_site = carthage
 			holy_site = olympus
 
-			doctrine = unreformed_faith_doctrine
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
 
+			#Tenents
 			doctrine = tenet_astrology
 			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
+			doctrine = tenet_adaptive
 
 			holy_order_names = {
 				{ name = "holy_order_vulcan_hammers"}
