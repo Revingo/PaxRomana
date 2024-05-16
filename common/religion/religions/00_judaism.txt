@@ -54,7 +54,7 @@ judaism_religion = {
 		{ name = "holy_order_zealots_of_place_1" }
 	}
 
-	holy_order_maa = { shomer }
+	holy_order_maa = { shomer } #place holder
 
 	localization = {
 		#HighGodName

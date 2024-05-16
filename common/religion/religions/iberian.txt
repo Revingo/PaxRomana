@@ -1,5 +1,5 @@
-﻿hellenism_religion = {
-	family = rf_hellenic
+﻿iberian_religion = {
+	family = rf_iberian
 
 	pagan_roots = yes
 
@@ -13,20 +13,20 @@
 
 	#Marriage
 	doctrine = doctrine_concubines
-	doctrine = doctrine_divorce_allowed
-	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_none
 	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
 
 	#Crimes
-	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_homosexuality_shunned
 	doctrine = doctrine_adultery_men_shunned
-	doctrine = doctrine_adultery_women_shunned
+	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_shunned
-	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_witchcraft_virtuous
 
 	#Clerical Functions
-	doctrine = doctrine_clerical_function_recruitment
+	doctrine = doctrine_clerical_function_alms_and_pacification
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
@@ -35,114 +35,113 @@
 	doctrine = doctrine_pilgrimage_encouraged
 
 	#Funeral tradition
-	doctrine = doctrine_funeral_bewailment # Ancient Greeks were encouraged to grieve publicly
+	doctrine = doctrine_funeral_bewailment
 
 	traits = {
-		virtues = { generous just temperate }
-		sins = { greedy arbitrary gluttonous }
+		virtues = { generous brave content }
+		sins = { greedy deceitful craven }
 	}
 
-	custom_faith_icons = {
+	
+	custom_faith_icons = {#place holders
 		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
 	}
 
 	holy_order_names = {
-		{ name = "holy_order_myrmidons" }
-		{ name = "holy_order_priesthood_of_ares" }
-		{ name = "holy_order_tridents_of_poseidon"}
-		{ name = "holy_order_archons_of_apollo"}
-		{ name = "holy_order_serpents_of_hades"}
+		{ name = "holy_order_of_solisguard" }
+		{ name = "holy_order_guardians_of_terra_mater" }
+		{ name = "holy_order_serpent_keepers_of_arbortha"}
+		{ name = "holy_order_of_the_silver_moon"}
+		{ name = "holy_order_sons_of_luminara"}
 	}
 
 	holy_order_maa = { praetorian } #place holder
 
 	localization = {
 		#High God Name
-		HighGodName = hellenism_high_god_name
-		HighGodName2 = hellenism_high_god_name_2
-		HighGodNamePossessive = hellenism_high_god_name_possessive
+		HighGodName = iberian_high_god_name
+		HighGodName2 = iberian_high_god_name_2
+		HighGodNamePossessive = iberian_high_god_possesive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
-		HighGodNameAlternate = hellenism_high_god_name_alternate
-		HighGodNameAlternatePossessive = hellenism_high_god_name_alternate_possessive
-
+		
 		#Creator
-		CreatorName = hellenism_creator_god_name
-		CreatorNamePossessive = hellenism_creator_god_name_possessive
+		CreatorName = iberian_high_god_name
+		CreatorNamePossessive = iberian_high_god_possesive
 		CreatorSheHe = CHARACTER_SHEHE_SHE
 		CreatorHerHis = CHARACTER_HERHIS_HER
 		CreatorHerHim = CHARACTER_HERHIM_HER
 
 		#HealthGod
-		HealthGodName = hellenism_health_god_name
-		HealthGodNamePossessive = hellenism_health_god_name_possessive
-		HealthGodSheHe = CHARACTER_SHEHE_HE
-		HealthGodHerHis = CHARACTER_HERHIS_HIS
-		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		HealthGodName = iberian_health_god_name
+		HealthGodNamePossessive = iberian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_SHE
+		HealthGodHerHis = CHARACTER_HERHIS_HER
+		HealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#HouseholdGod
+		HouseholdGodName = iberian_household_god_name
+		HouseholdGodNamePossessive = iberian_household_god_name_possesive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
 		
 		#FertilityGod
-		FertilityGodName = hellenism_fertility_god_name
-		FertilityGodNamePossessive = hellenism_fertility_god_name_possessive
+		FertilityGodName = iberian_fertility_god_name
+		FertilityGodNamePossessive = iberian_fertility_god_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_SHE
 		FertilityGodHerHis = CHARACTER_HERHIS_HER
 		FertilityGodHerHim = CHARACTER_HERHIM_HER
 
 		#WealthGod
-		WealthGodName = hellenism_wealth_god_name
-		WealthGodNamePossessive = hellenism_wealth_god_name_possessive
-		WealthGodSheHe = CHARACTER_SHEHE_HE
-		WealthGodHerHis = CHARACTER_HERHIS_HIS
-		WealthGodHerHim = CHARACTER_HERHIM_HIM
-
-		#HouseholdGod
-		HouseholdGodName = hellenism_household_god_name
-		HouseholdGodNamePossessive = hellenism_household_god_name_possessive
-		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-		HouseholdGodHerHis = CHARACTER_HERHIS_HER
-		HouseholdGodHerHim = CHARACTER_HERHIM_HER
+		WealthGodName = iberian_health_god_name
+		WealthGodNamePossessive = iberian_health_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_SHE
+		WealthGodHerHis = CHARACTER_HERHIS_HER
+		WealthGodHerHim = CHARACTER_HERHIM_HER
 
 		#FateGod
-		FateGodName = hellenism_fate_god_name
-		FateGodNamePossessive = hellenism_fate_god_name_possessive
-		FateGodSheHe = CHARACTER_SHEHE_THEY
-		FateGodHerHis = CHARACTER_HERHIS_THEIR
-		FateGodHerHim = CHARACTER_HERHIM_THEM
+		FateGodName = iberian_fate_god_name:
+		FateGodNamePossessive = iberian_fate_god_name:_possessive
+		FateGodSheHe = CHARACTER_SHEHE_HE
+		FateGodHerHis = CHARACTER_HERHIS_HIS
+		FateGodHerHim = CHARACTER_HERHIM_HIM
 
 		#KnowledgeGod
-		KnowledgeGodName = hellenism_knowledge_god_name
-		KnowledgeGodNamePossessive = hellenism_knowledge_god_name_possessive
-		KnowledgeGodSheHe = CHARACTER_SHEHE_SHE
-		KnowledgeGodHerHis = CHARACTER_HERHIS_HER
-		KnowledgeGodHerHim = CHARACTER_HERHIM_HER
+		KnowledgeGodName = iberian_knowledge_god_name
+		KnowledgeGodNamePossessive = iberian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
-		WarGodName = hellenism_war_god_name
-		WarGodNamePossessive = hellenism_war_god_name_possessive
+		WarGodName = iberian_war_god_name
+		WarGodNamePossessive = iberian_war_god_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 
 		#TricksterGod
-		TricksterGodName = hellenism_trickster_god_name
-		TricksterGodNamePossessive = hellenism_trickster_god_name_possessive
+		TricksterGodName = iberian_trickster_god_name
+		TricksterGodNamePossessive = iberian_trickster_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 
 		#NightGod
-		NightGodName = hellenism_night_god_name
-		NightGodNamePossessive = hellenism_night_god_name_possessive
-		NightGodSheHe = CHARACTER_SHEHE_SHE
-		NightGodHerHis = CHARACTER_HERHIS_HER
-		NightGodHerHim = CHARACTER_HERHIM_HER
+		NightGodName = iberian_night_god_name
+		NightGodNamePossessive = iberian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WaterGod
-		WaterGodName = hellenism_water_god_name
-		WaterGodNamePossessive = hellenism_water_god_name_possessive
-		WaterGodSheHe = CHARACTER_SHEHE_HE
-		WaterGodHerHis = CHARACTER_HERHIS_HIS
-		WaterGodHerHim = CHARACTER_HERHIM_HIM
+		WaterGodName = iberian_fertility_god_name
+		WaterGodNamePossessive = iberian_fertility_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_SHE
+		WaterGodHerHis = CHARACTER_HERHIS_HER
+		WaterGodHerHim = CHARACTER_HERHIM_HER
 
 
 
@@ -216,73 +215,6 @@
 	}
 
 	faiths = {
-		h_hellenic = {
-			color = { 0.94 0.97 1.0 }
-			icon = hellenic
-
-			#change to: athens, alexandria, pella, babylon, byzantium
-			holy_site = rome
-			holy_site = athens
-			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
-
-			doctrine = tenet_astrology
-			doctrine = tenet_communal_identity
-			doctrine = tenet_esotericism
-		}
-
-		p_hellenic = {
-			color = { 0.2 0.2 0.6 }
-			icon = hellenic
-
-			holy_site = rome
-			holy_site = athens
-			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
-
-			#Main Group
-			doctrine = doctrine_spiritual_head
-
-			#Marriage
-			doctrine = doctrine_consanguinity_unrestricted
-
-			#Clerical Functions
-			doctrine = doctrine_funeral_mummification
-
-			doctrine = tenet_astrology
-			doctrine = tenet_communal_identity
-			doctrine = tenet_divine_marriage
-		}
-
-		#still need to add the right localization for the gods
-		r_hellenic = {
-			color = { 0.4 0.01 0.24 }
-			icon = hellenic
-
-			holy_site = rome
-			holy_site = athens
-			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
-
-			#Marriage
-			doctrine = doctrine_monogamy
-			doctrine = doctrine_divorce_approval
-
-			#Tenents
-			doctrine = tenet_astrology
-			doctrine = tenet_warmonger
-			doctrine = tenet_adaptive
-
-			holy_order_names = {
-				{ name = "holy_order_vulcan_hammers"}
-				{ name = "holy_order_wolves_of_mars"}
-				{ name = "holy_order_legions_of_pluto"}
-				{ name = "holy_order_falcons_of_mercury"}
-				{ name = "holy_order_chariots_of_diana"}
-			}
-		}
+		#no already
 	}
 }

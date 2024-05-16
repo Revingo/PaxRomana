@@ -1,0 +1,38 @@
+﻿l_english:
+ 
+ #High God and Creator Name
+ iberian_high_god_name: "Bandua"
+ iberian_high_god_name_2: "Bandi" 
+ iberian_high_god_possesive: "Banduan"
+
+ #Health and Wealth God
+ iberian_health_god_name: "Nabia"
+ iberian_health_god_name_possesive: "Nabian"
+
+ #HouseHold God
+ iberian_household_god_name: "Trebaruna"
+ iberian_household_god_name_possesive: "Trebarunan"
+ 
+ #Fertility and Water God
+ iberian_fertility_god_name: "Coventina"
+ iberian_fertility_god_name_possesive: "Coventinian"
+
+ #Fate God
+ iberian_fate_god_name: "Endovelicus"
+ iberian_fate_god_name_possesive: "Endovelican"
+ 
+ #Knowledge God
+ iberian_knowledge_god_name: "Ebusim"
+ iberian_knowledge_god_name_possessive: "Ebusimian"
+
+ #War God
+ iberian_war_god_name: "Cossus"
+ iberian_war_god_name_possessive: "Cossian"
+
+ #Trickster God (fictional)
+ iberian_trickster_god_name: "Narbex"
+ iberian_trickster_god_name_possessive: "Narbexian"
+
+ #Night God (fictional)
+ iberian_night_god_name: "Noctelum"
+ iberian_night_god_name_possessive: "Noctelian"
