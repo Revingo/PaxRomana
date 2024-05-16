@@ -1,4 +1,4 @@
-![Pax Romana Long Logo]!(thumbnail_wide.png)
+![Pax Romana Long Logo!](thumbnail_wide.png)
 
 The Pax Romana Project aims at bringing the ancient times of Europe into Crusader Kings 3.
 
