@@ -1,0 +1,48 @@
+sardinian = {
+	color = { 0.42 0.35 0.8 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_italic_insular
+	language = language_sardinian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_fishermen
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_sardinian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+corsican = {
+	color = { 0.42 0.35 0.8 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_italic_insular
+	language = language_corsican
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_sardinian
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}

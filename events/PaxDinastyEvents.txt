@@ -1,0 +1,28 @@
+﻿namespace = familyTraitorEvent
+	familyTraitorEvent.1 = {
+		type = character_event
+		title = "Family Traitor"
+		desc = ftEvent.1.d
+		right_portrait = {
+			character = ROOT
+			animation = shame
+		}
+		theme = bastardy
+		trigger = {
+			trigger_if = {
+				limit = { exists = primary_spouse }
+				NOT = {
+					primary_spouse.dynasty = ROOT
+				}
+			}
+		}
+		immediate = {
+			add_character_modifier = {
+				modifier = family_traitor
+			}
+			remove_character_modifier = family_matters
+		}
+		option = {
+			name = ftEvent.1.n
+		}
+	}

@@ -1,0 +1,3 @@
+﻿l_english:
+ ftEvent.1.d: "A [ROOT.Char.GetDynastyHouseName|U] married with a [ROOT.Char.GetConsort.GetDynastyHouseName|U], what a shable! It is unacceptable to dirty the name of our family in this way!"
+ ftEvent.1.n: "I will now be consider a traitor of my family values!"

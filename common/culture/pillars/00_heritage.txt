@@ -1,0 +1,150 @@
+﻿#PAX ROMANA HERITAGES
+heritage_etruscan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_etruscan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_latin = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_latin
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_hellenic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_hellenic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_african = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_african
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_iberian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_iberian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_celtic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_celtic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_german = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_german
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_slavic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_slavic
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_indian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_indian
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_arabian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_arabian
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_phoenecian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_phoenecian
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_persian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_persian
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_balcan = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_balcan
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_italic_insular = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_italic_insular
+		}
+	}
+	audio_parameter = european
+}
+
+heritage_scythian = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_scythian
+		}
+	}
+	audio_parameter = european
+}

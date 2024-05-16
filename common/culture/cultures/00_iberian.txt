@@ -1,0 +1,25 @@
+iberian = {
+	color = { 0.96 0.87 0.7 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_iberian
+	language = language_iberian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_swords_for_hire
+		tradition_artisans
+		tradition_sorcerous_metallurgy
+	}
+	
+	name_list = name_list_suebi
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}

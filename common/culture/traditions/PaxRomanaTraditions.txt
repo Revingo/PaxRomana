@@ -1,0 +1,206 @@
+tradition_hellenic_tradition = {
+	category = regional
+
+	layers = {
+		0 = intrigue
+		1 = mediterranean
+		4 = philosopher.dds
+	}
+
+	is_shown = {
+		OR = {
+			has_cultural_pillar = heritage_hellenic
+
+			scope:character = {
+				has_title = title:e_alexander_makedon
+			}
+		}
+	}
+	can_pick = {
+		OR = {
+			has_cultural_pillar = heritage_hellenic
+
+			scope:character = {
+				has_title = title:e_alexander_makedon
+			}
+		}
+		
+		custom_tooltip = {
+			text = cannot_have_tradition_pacifism
+			NOT = { culture_tradition:tradition_pacifism = { is_in_list = traits } }
+		}
+	}
+
+	parameters = {
+		children_can_be_born_in_the_purple = yes
+		patient_trait_more_common = yes
+	}
+	character_modifier = {
+		diplomacy = 1
+		learning = 2
+		same_culture_opinion = 15
+		different_culture_opinion = -5
+		title_creation_cost_mult = -0.10
+		monthly_prestige_gain_mult = 0.15
+		defender_advantage = 10
+	}
+	county_modifier = {
+		development_growth_factor = 0.05
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = 3000
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+			if = {
+				limit = {
+					NOR = {
+						culture_pillar:ethos_courtly = { is_in_list = traits }
+						culture_pillar:ethos_spiritual = { is_in_list = traits }
+					}
+				}
+				add = {
+					value = tradition_incompatible_ethos_penalty
+					desc = not_spiritual_or_courtly_desc
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = { value = 100 }
+}
+
+tradition_pure_family = {
+	category = societal
+
+	layers = {
+		0 = intrigue
+		1 = mediterranean
+		4 = greeting.dds
+	}
+
+	character_modifier = {
+		genetic_trait_strengthen_chance = 0.2
+		close_relative_opinion = 5
+	}
+
+	cost = {
+		prestige = {
+			add = {
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = { value = 30 }
+}
+
+tradition_indian_funds = {
+	category = realm
+
+	layers = {
+		0 = steward
+		1 = indian
+		4 = crown.dds
+	}
+	is_shown = {
+		has_cultural_pillar = heritage_indian
+	}
+	can_pick = {
+		has_cultural_pillar = heritage_indian
+	}
+
+	character_modifier = {
+		monthly_income_mult = 0.4
+		levy_reinforcement_rate = -0.2
+		levy_size = 0.6
+		men_at_arms_cap = 3
+		knight_limit = 4
+	}
+
+	cost = {
+		
+		prestige = {
+			add = {
+				
+				value = 4000
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+
+				if = {
+					
+					limit = {
+						auctoritas < 3000
+					}
+					add = {
+						value = 4000
+						desc = not_enough_auctoritas_penality
+					}
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = { value = 100 }
+}
+
+tradition_mercenary_army = {
+	category = combat
+
+	layers = {
+		0 = martial
+		1 = western
+		4 = swords.dds
+	}
+
+	parameters = {
+		mercenary_courtiers_gain_extra_skills = yes
+	}
+	culture_modifier = {
+		mercenary_count_mult = 3
+	}
+	character_modifier = {
+		mercenary_hire_cost_mult = -0.70
+		character_travel_safety_mult = 0.05
+		levy_size = -0.4
+		army_maintenance_mult = 0.3
+		men_at_arms_cap = -1
+		men_at_arms_limit = -50
+	}
+
+	cost = {
+		
+		prestige = {
+			add = {
+				
+				value = tradition_base_cost
+				desc = BASE
+				format = "BASE_VALUE_FORMAT"
+
+				if = {
+					limit = { NOT = { culture_pillar:ethos_bureaucratic = { is_in_list = traits }}
+					}
+					add = {
+						value = tradition_incompatible_ethos_penality
+						desc = not_bureaucratic_desc
+					}
+				}
+			}
+
+			multiply = tradition_replacement_cost_if_relevant
+		}
+	}
+
+	ai_will_do = { value = 100 }
+}

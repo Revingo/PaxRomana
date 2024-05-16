@@ -1,0 +1,12 @@
+family_matters = {
+	icon = family_positive
+
+	dynasty_opinion = 5
+}
+
+family_traitor = {
+	icon = family_negative
+	dynasty_opinion = -20
+	dynasty_house_opinion = -10
+	close_relative_opinion = -10
+}

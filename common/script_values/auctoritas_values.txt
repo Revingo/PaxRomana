@@ -1,0 +1,32 @@
+﻿auctoritas_value = {
+	value = auctoritas_gold_consider
+	add = auctoritas_levies_consider
+	add = auctoritas_prestige_consider
+	divide = 10
+	
+	round = yes
+}
+
+auctoritas_gold_consider = {
+	value = {
+		value = gold
+		multiply = 2
+	}
+	
+}
+
+auctoritas_levies_consider = {
+	value = {
+		value = current_military_strength
+		multiply = 3
+	}
+	
+}
+
+auctoritas_prestige_consider = {
+	value = {
+		value = prestige
+		multiply = 5
+	}
+	
+}

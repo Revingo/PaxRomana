@@ -1,0 +1,54 @@
+phoenecian = {
+	color = { 0.0 0.13 0.28 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_phoenecian
+	language = language_phoenecian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_fishermen
+		tradition_artisans
+		tradition_astute_diplomats
+	}
+	
+	name_list = name_list_assyrian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = arab
+		5 = mediterranean
+	}
+}
+
+carthaginian = {
+	color = { 0.41 0.16 0.38 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_phoenecian
+	language = language_phoenecian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_mercenary_army
+		tradition_lords_of_the_elephant
+		tradition_astute_diplomats
+	}
+	
+	name_list = name_list_assyrian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+		6 = african
+		3 = arab
+	}
+}

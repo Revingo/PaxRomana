@@ -1,0 +1,160 @@
+greek = {
+	color = { 0.64 0.68 0.82 }
+	
+	ethos = ethos_communal
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_legalistic
+		tradition_formation_fighting
+		tradition_malleable_invaders
+		tradition_philosopher_culture
+		tradition_hellenic_tradition
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+makedonian = {
+	color = { 0.44 0.16 0.39 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_warrior_culture
+		tradition_stand_and_fight
+		tradition_malleable_invaders
+		tradition_hellenic_tradition
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		5 = mediterranean
+	}
+}
+seleucid = {
+	color = { 0.9 0.89 0.89 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_martial_admiration
+		tradition_quarrelsome
+		tradition_ruling_caste
+		tradition_hellenic_tradition
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		6 = arab
+		3 = mediterranean
+	}
+}
+ptolemaic = {
+	color = { 1.0 0.57 0.64 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_ep2_avid_falconers
+		tradition_quarrelsome
+		tradition_pure_family
+		tradition_hellenic_tradition
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		5 = african
+		3 = arab
+	}
+}
+bosporian = {
+	color = { 0.69 0.61 0.85 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fishermen
+		tradition_mercenary_army
+		tradition_ruling_caste
+		tradition_hellenic_tradition
+	}
+	
+	name_list = name_list_trojan
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+		6 = circumpolar_dark_hair
+		6 = circumpolar_brown_hair
+		6 = circumpolar_blonde_hair
+		5 = mediterranean
+	}
+}
+masselian = {
+	color = { 0.0 0.19 0.33 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_stalwart_defenders
+		tradition_hellenic_tradition
+	}
+	
+	name_list = name_list_trojans
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+		8 = mediterranean_byzantine
+	}
+}

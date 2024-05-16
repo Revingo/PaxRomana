@@ -1,0 +1,57 @@
+illyrian = {
+	color = { 0.58 0.77 0.45 }
+	
+	ethos = ethos_communal
+	heritage = heritage_balcan
+	language = language_illyrian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_practiced_pirates
+		tradition_fishermen
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	
+	ethnicities = {
+		10 = slavic_brown_hair
+		10 = slavic_dark_hair
+		7 = slavic_blond
+		4 = slavic_ginger
+		4 = mediterranean_byzantine
+	}
+}
+
+dacian = {
+	color = { 0.66 0.11 0.03 }
+	
+	ethos = ethos_communal
+	heritage = heritage_balcan
+	language = language_dacian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_agrarian
+		tradition_metal_craftsmanship
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	
+	ethnicities = {
+		10 = slavic_brown_hair
+		10 = slavic_dark_hair
+		9 = slavic_blond
+		4 = slavic_ginger
+		3 = mediterranean_byzantine
+	}
+}

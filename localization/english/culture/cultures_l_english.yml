@@ -1,0 +1,123 @@
+﻿l_english:
+ #PAX ROMANA
+
+ #latin
+ roman: "Roman"
+ roman_prefix: "Roman"
+ roman_collective_noun: "Romans"
+ etruscan: "Etruscan"
+ etruscan_prefix: "Etruscan"
+ etruscan_collective_noun: "Etruscans"
+ samnites: "Samnites"
+ samnites_prefix: "Samnitian"
+ samnites_collective_noun: "Samnitians"
+ umbrian: "Umbrian"
+ umbrian_prefix: "Umbrian"
+ umbrian_collective_noun: "Umbrians"
+ 
+ #hellenic
+ greek: "Greek"
+ greek_prefix: "Greco"
+ greek_collective_noun: "Greeks"
+ makedonian: "Makédonian"
+ makedonian_prefix: "Makédonian"
+ makedonian_collective_noun: "Makédonians"
+ seleucid: "Seleucid"
+ seleucid_prefix: "Seleucid"
+ seleucid_collective_noun: "Seleucids"
+ ptolemaic: "Ptolemaic"
+ ptolemaic_prefix: "Ptolemaic"
+ ptolemaic_collective_noun: "Ptolemaics"
+ bosporian: "Bosporian"
+ bosporian_prefix: "Bosporic"
+ bosporian_collective_noun: "Bosporians"
+ masselian: "Masselian"
+ masselian_prefix: "Masselic"
+ masselian_collective_noun: "Masselians"
+ 
+ #african
+ nubian: "Nubian"
+ nubian_prefix: "Nubian"
+ nubian_collective_noun: "Nubians"
+ berber: "Berber"
+ berber_prefix: "Berber"
+ berber_collective_noun: "Berbers"
+ egyptian: "Egyptian"
+ egyptian_prefix: "Egyptian"
+ egyptian_collective_noun: "Egyptians"
+
+ #iberian
+ iberian: "Iberian"
+ iberian_prefix: "Iberian"
+ iberian_collective_noun: "Iberians"
+
+ #celtic
+ gallic: "Gallic"
+ gallic_prefix: "Gallic"
+ gallic_collective_noun: "Gauls"
+ brythonic: "Brythonic"
+ brythonic_prefix: "Brythonic"
+ brythonic_collective_noun: "Brythons"
+ pictish: "Pictish"
+ pictish_prefix: "Pictish"
+ pictish_collective_noun: "Picts"
+ gaelic: "Gaelic"
+ gaelic_prefix: "Gaelic"
+ gaelic_collective_noun: "Gaels"
+ celtiberian: "Celtiberian"
+ celtiberian_prefix: "Celtiberian"
+ celtiberians_collective_noun: "Celtiberians"
+ galleacian: "Galleacian"
+ galleacian_prefix: "Galleacian"
+ galleacian_collective_noun: "Galleacians"
+
+ #germanic
+ germanic: "Germanic"
+ germanic_prefix: "Germanic"
+ germanic_collective_noun: "Germans"
+ finnish: "Finnish"
+ finnish_prefix: "Finnish"
+ finnish_collective_noun: "Fins"
+ 
+ #slavic
+ slavic: "Slavic"
+ slavic_prefix: "Slavic"
+ slavic_collective_noun: "Slavs"
+ sarmatian: "Sarmatian"
+ sarmatian_prefix: "Sarmatian"
+ sarmatian_collective_noun: "Sarmatians"
+
+ #eastern
+ mauryan: "Mauryan"
+ mauryan_prefix: "Mauryan"
+ mauryan_collective_noun: "Mauryans"
+ persian: "Persian"
+ persian_prefix: "Persian"
+ persian_collective_noun: "Persians"
+ arab: "Arab"
+ arab_prefix: "Arabian"
+ arab_collective_noun: "Arabs"
+
+ #phoenecian
+ phoenecian: "Phoenecian"
+ phoenecian_prefix: "Phoenecian"
+ phoenecian_collective_noun: "Phoenecians"
+ carthaginian: "Carthaginian"
+ carthaginian_prefix: "Carthaginian"
+ carthaginian_collective_noun: "Carthaginians"
+
+ #balcan
+ illyrian: "Illyrian"
+ illyrian_prefix: "Illyrian"
+ illyrian_collective_noun: "Illyrians"
+ dacian: "Dacian"
+ dacian_prefix: "Dacian"
+ dacian_collective_noun: "Dacians"
+ 
+ #italian insular
+ sardinian: "Sardinian"
+ sardinian_prefix: "Sardinian"
+ sardinian_collective_noun: "Sardinians"
+ corsican: "Corsican"
+ corsican_prefix: "Corsican"
+ corsican_collective_noun: "Corsicans"

@@ -1,0 +1,5 @@
+﻿auctoritas = {
+	alias = { auct }
+	
+	texture = "gfx/interface/icons/icon_auctoritas.dds"
+}
