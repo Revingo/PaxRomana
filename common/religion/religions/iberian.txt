@@ -256,5 +256,33 @@
 			}
 			
 		}
+		tartessian = {
+			color = { 0.8 0.36 0.36 }
+			icon = iberian1 #placeholder
+			reformed_icon = iberian1_reformed #placeholder
+
+			#holy sites: Tartessos(huelva), El Carambolo, Carthago Nova, Gadir(cadiz), Salamanca
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_sacrificial_ceremonies
+			doctrine = tenet_sun_worship
+
+			#Unreformed
+			doctrine = unreformed_faith_doctrine
+		}
+		celtiberianism = {
+			color = { 0.6 0.2 0.8 }
+			icon = iberian2 #placeholder
+			reformed_icon = iberian2_reformed #placeholder
+
+			#holy sites: Numantia, Segeda, Cave of the Devil, Botorrita, Mount Bernonio
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_sun_worship
+
+			#Unreformed
+			doctrine = unreformed_faith_doctrine
+		}
 	}
 }

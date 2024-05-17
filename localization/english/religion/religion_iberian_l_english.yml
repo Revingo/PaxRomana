@@ -12,7 +12,16 @@
  i_iberian_adherant: "Iberio"
  i_iberian_adherent_plural: "Iberios"
  i_iberian_desc: "The Iberian tribes which adopeted this faith were influenced by Greek and Phoenician settlers, resulting in a syncretic religious system."
-
+ tartessian: "Tartessianism"
+ tartessian_adj: "Tartessian"
+ tartessian_adherent: "Tartessio"
+ tartessian_adherent_plural: "Tartessios"
+ tartessian_desc: "The Tartessian religion is among the oldest documented in the Iberian Peninsula. It was deeply rooted into the cult of nature, even if it was later infuenced by phoenecian settlers."
+ celtiberianism: "Celtiberianism"
+ celtiberianism_adj: "Celtiberian"
+ celtiberianism_adherent: "Celtiberianistan"
+ celtiberianism_adherent_plural: "Celtiberianistans"
+ celtiberianism_desc: "A blend of indigenous Iberian and Celtic religious practices, reflecting the syncretic nature of the $celtiberianism_adherent_plural$. Worship of the nature is one of the most important aspects."
 
  #High God and Creator Name
  iberian_high_god_name: "Bandua"

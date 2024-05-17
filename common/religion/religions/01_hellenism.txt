@@ -283,6 +283,70 @@
 				{ name = "holy_order_falcons_of_mercury"}
 				{ name = "holy_order_chariots_of_diana"}
 			}
+
+			localization = {
+				#High God Name
+				HighGodName = roman_high_god_name
+				HighGodName2 = roman_high_god_name
+				HighGodNamePossessive = roman_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+		
+				#HealthGod
+				HealthGodName = roman_health_god_name
+				HealthGodNamePossessive = roman_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = roman_fertility_god_name
+				FertilityGodNamePossessive = roman_fertility_god_name_possessive
+		
+				#WealthGod
+				WealthGodName = roman_wealth_god_name
+				WealthGodNamePossessive = roman_wealth_god_name_possessive
+		
+				#HouseholdGod
+				HouseholdGodName = roman_household_god_name
+				HouseholdGodNamePossessive = roman_household_god_name_possessive
+		
+				#FateGod
+				FateGodName = roman_fate_god_name
+				FateGodNamePossessive = roman_fate_god_name_possessive
+		
+				#KnowledgeGod
+				KnowledgeGodName = roman_knowledge_god_name
+				KnowledgeGodNamePossessive = roman_knowledge_god_name_possessive
+		
+				#WarGod
+				WarGodName = roman_war_god_name
+				WarGodNamePossessive = roman_war_god_name_possessive
+		
+				#TricksterGod
+				TricksterGodName = roman_trickster_god_name
+				TricksterGodNamePossessive = roman_trickster_god_name_possessive
+		
+				#WaterGod
+				WaterGodName = roman_water_god_name
+				WaterGodNamePossessive = roman_water_god_name_possessive
+
+
+				GoodGodNames = { roman_water_god_name roman_knowledge_god_name roman_war_god_name hellenism_good_god_apollo roman_good_god_diana roman_trickster_god_name roman_good_god_venus }
+				EvilGodNames = { roman_evlig_god_furiae }
+				PositiveAfterLife = roman_death_deity_name
+				PositiveAfterLife2 = roman_death_deity_name_2
+				PositiveAfterLife3 = roman_death_deity_name_3
+				NegativeAfterLife = roman_death_deity_name
+				NegativeAfterLife2 = roman_death_deity_name_2
+				NegativeAfterLife3 = roman_death_deity_name_3
+				DeathDeityName = roman_death_deity_name
+				DeathDeityNamePossessive = roman_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
+			}
 		}
 	}
 }
