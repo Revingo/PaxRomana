@@ -1,38 +1,73 @@
 ﻿l_english:
- 
+ iberian_religion: "Iberian Religions"
+ iberian_religion_adj: "Iberian"
+ iberian_religion_adherent: "Iberio"
+ iberian_religion_adherent_plural: "Iberios"
+ iberian_religion_desc: "The Iberian Religions are deeply connected to nature and are strongly influced by their celtic, latin and carthaginian neighbours. The Sun is one of the most important symbols."
+ rf_iberian: "Iberian"
+ rf_iberian_adj: "Iberian"
+ rf_iberian_desc: "The Iberian Religions are deeply connected to nature and are strongly influced by their celtic, latin and carthaginian neighbours. The Sun is one of the most important symbols."
+ i_iberian: "Iberianism"
+ i_iberian_adj: "Iberianistic"
+ i_iberian_adherant: "Iberio"
+ i_iberian_adherent_plural: "Iberios"
+ i_iberian_desc: "The Iberian tribes which adopeted this faith were influenced by Greek and Phoenician settlers, resulting in a syncretic religious system."
+
+
  #High God and Creator Name
  iberian_high_god_name: "Bandua"
  iberian_high_god_name_2: "Bandi" 
- iberian_high_god_possesive: "Banduan"
+ iberian_high_god_possesive: "Bandua's"
 
  #Health and Wealth God
  iberian_health_god_name: "Nabia"
- iberian_health_god_name_possesive: "Nabian"
+ iberian_health_god_name_possesive: "Nabia's"
 
  #HouseHold God
  iberian_household_god_name: "Trebaruna"
- iberian_household_god_name_possesive: "Trebarunan"
+ iberian_household_god_name_possesive: "Trebaruna's"
  
  #Fertility and Water God
  iberian_fertility_god_name: "Coventina"
- iberian_fertility_god_name_possesive: "Coventinian"
+ iberian_fertility_god_name_possesive: "Coventinia's"
 
  #Fate God
  iberian_fate_god_name: "Endovelicus"
- iberian_fate_god_name_possesive: "Endovelican"
+ iberian_fate_god_name_possesive: "Endovelicus'"
  
  #Knowledge God
  iberian_knowledge_god_name: "Ebusim"
- iberian_knowledge_god_name_possessive: "Ebusimian"
+ iberian_knowledge_god_name_possessive: "Ebusim's"
 
  #War God
  iberian_war_god_name: "Cossus"
- iberian_war_god_name_possessive: "Cossian"
+ iberian_war_god_name_possessive: "Cossus'"
 
  #Trickster God (fictional)
  iberian_trickster_god_name: "Narbex"
- iberian_trickster_god_name_possessive: "Narbexian"
+ iberian_trickster_god_name_possessive: "Narbex'"
 
  #Night God (fictional)
  iberian_night_god_name: "Noctelum"
- iberian_night_god_name_possessive: "Noctelian"
+ iberian_night_god_name_possessive: "Noctelum's"
+
+ #Other localization
+ iberian_religious_symbol: "The Sun"
+ iberian_religious_symbol_2: "The Horse"
+ iberian_religious_symbol_3: "The Centaur"
+ iberian_religious_text: "Chronicles of the Sacred Sun" #fictional
+ iberian_religious_head_title: "High Priest"
+ iberian_religious_head_title_name: "Soluzar" #fictional
+ iberian_priest_male: "Luminiz" #fictional
+ iberian_priest_male_plural: "Luminizes" #fictional
+ iberian_priest_female: "Luminara" #fictional
+ iberian_priest_female_plural: "Luminaras" #fictional
+ iberian_bishop_male: "Primisunachar" #fictional
+ iberian_bishop_male_plural: "Primisunachars" #fictional
+ iberian_bishop_female: "Primisunadar" #fictional
+ iberian_bishop_female_plural: "Primisunadars" #fictional
+ iberian_divine_realm: "Aurorium" #fictional
+ iberian_death_deity_name: "Mortisuna" #fictional
+ iberian_death_deity_name_possessive: "Mortisuna's" #fictional
+ iberian_witchgod_name: "Sylvaneth" #fictional
+ iberian_witchgod_name_possessive: "Sylvaneth's" #fictional

@@ -37,6 +37,8 @@
 	#Funeral tradition
 	doctrine = doctrine_funeral_bewailment
 
+	piety_icon_group = "judaism" #placeholder
+
 	traits = {
 		virtues = { generous brave content }
 		sins = { greedy deceitful craven }
@@ -149,62 +151,62 @@
 		PantheonTerm2 = religion_the_gods_2
 		PantheonTerm3 = religion_the_gods_3
 		PantheonTermHasHave = pantheon_term_have
-		GoodGodNames = { hellenism_good_god_poseidon hellenism_good_god_athena hellenism_good_god_ares hellenism_good_god_hera hellenism_good_god_apollo hellenism_good_god_artemis hellenism_good_god_hermes hellenism_good_god_aphrodite }
-		DevilName = hellenism_devil_name
-		DevilNamePossessive = hellenism_devil_name_possessive
+		GoodGodNames = { iberian_high_god_name iberian_health_god_name iberian_household_god_name }
+		DevilName = iberian_fate_god_name
+		DevilNamePossessive = iberian_fate_god_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
-		EvilGodNames = { hellenism_evil_god_menoetius hellenism_evil_god_erinyes }
+		EvilGodNames = { iberian_death_deity_name iberian_fate_god_name iberian_trickster_god_name }
 		HouseOfWorship = paganism_house_of_worship
 		HouseOfWorship2 = paganism_house_of_worship_2
 		HouseOfWorship3 = paganism_house_of_worship_3
 		HouseOfWorshipPlural = paganism_house_of_worship_plural
-		ReligiousSymbol = hellenism_religious_symbol
-		ReligiousSymbol2 = hellenism_religious_symbol_2
-		ReligiousSymbol3 = hellenism_religious_symbol_3
-		ReligiousText = hellenism_religious_text
-		ReligiousText2 = hellenism_religious_text_2
-		ReligiousText3 = hellenism_religious_text_3
-		ReligiousHeadName = hellenism_religious_head_title
-		ReligiousHeadTitleName = dualism_religious_head_title_name
+		ReligiousSymbol = iberian_religious_symbol
+		ReligiousSymbol2 = iberian_religious_symbol_2
+		ReligiousSymbol3 = iberian_religious_symbol_3
+		ReligiousText = iberian_religious_text
+		ReligiousText2 = iberian_religious_text
+		ReligiousText3 = iberian_religious_text
+		ReligiousHeadName = iberian_religious_head_title
+		ReligiousHeadTitleName = iberian_religious_head_title_name
 		DevoteeMale = paganism_devotee
 		DevoteeMalePlural = paganism_devoteeplural
 		DevoteeFemale = paganism_devotee
 		DevoteeFemalePlural = paganism_devoteeplural
 		DevoteeNeuter = paganism_devotee
 		DevoteeNeuterPlural = paganism_devoteeplural
-		PriestMale = hellenism_priest_male
-		PriestMalePlural = hellenism_priest_male_plural
-		PriestFemale = hellenism_priest_female
-		PriestFemalePlural = hellenism_priest_female_plural
-		PriestNeuter = hellenism_priest_male
-		PriestNeuterPlural = hellenism_priest_male_plural
+		PriestMale = iberian_priest_male
+		PriestMalePlural = iberian_priest_male_plural
+		PriestFemale = iberian_priest_female
+		PriestFemalePlural = iberian_priest_female_plural
+		PriestNeuter = iberian_priest_male
+		PriestNeuterPlural = iberian_priest_male_plural
 		AltPriestTermPlural = christianity_priest_alternate_plural
-		BishopMale = hellenism_bishop_male
-		BishopMalePlural = hellenism_bishop_male_plural
-		BishopFemale = hellenism_priest_female
-		BishopFemalePlural = hellenism_priest_female_plural
-		BishopNeuter = hellenism_priest_male
-		BishopNeuterPlural = hellenism_priest_male_plural
-		DivineRealm = hellenism_divine_realm
-		DivineRealm2 = hellenism_divine_realm_2
-		DivineRealm3 = hellenism_divine_realm_3
-		PositiveAfterLife = hellenism_death_deity_name
-		PositiveAfterLife2 = hellenism_death_deity_name_2
-		PositiveAfterLife3 = hellenism_death_deity_name_3
-		NegativeAfterLife = hellenism_death_deity_name
-		NegativeAfterLife2 = hellenism_death_deity_name_2
-		NegativeAfterLife3 = hellenism_death_deity_name_3
-		DeathDeityName = hellenism_death_deity_name
-		DeathDeityNamePossessive = hellenism_death_deity_name_possessive
-		DeathDeitySheHe = CHARACTER_SHEHE_HE
-		DeathDeityHerHis = CHARACTER_HERHIS_HIS
-		DeathDeityHerHim = CHARACTER_HERHIM_HIM
-		WitchGodName = hellenism_witchgodname_hekate
-		WitchGodNamePossessive = hellenism_witchgodname_hekate_possessive
+		BishopMale = iberian_bishop_male
+		BishopMalePlural = iberian_bishop_male_plural
+		BishopFemale = iberian_bishop_female
+		BishopFemalePlural = iberian_bishop_female_plural
+		BishopNeuter = iberian_bishop_male
+		BishopNeuterPlural = iberian_bishop_male_plural
+		DivineRealm = iberian_divine_realm
+		DivineRealm2 = iberian_divine_realm
+		DivineRealm3 = iberian_divine_realm
+		PositiveAfterLife = iberian_death_deity_name
+		PositiveAfterLife2 = iberian_death_deity_name
+		PositiveAfterLife3 = iberian_death_deity_name
+		NegativeAfterLife = iberian_death_deity_name
+		NegativeAfterLife2 = iberian_death_deity_name
+		NegativeAfterLife3 = iberian_death_deity_name
+		DeathDeityName = iberian_death_deity_name
+		DeathDeityNamePossessive = iberian_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_SHE
+		DeathDeityHerHis = CHARACTER_HERHIS_HER
+		DeathDeityHerHim = CHARACTER_HERHIM_HER
+		WitchGodName = iberian_witchgod_name
+		WitchGodNamePossessive = iberian_witchgod_name_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HER
-		WitchGodSheHe = CHARACTER_SHEHE_HE
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
 		WitchGodHerHim = CHARACTER_HERHIM_HER
 		WitchGodMistressMaster = mistress
 		WitchGodMotherFather = mother
@@ -215,6 +217,44 @@
 	}
 
 	faiths = {
-		#no already
+		
+		i_iberian = {
+			color = { 0.56 0.74 0.56 }
+			icon = iberian #placeholder
+			reformed_icon = iberian_reformed #placeholder
+
+			#holy sites: Tartessos, Numatia, Carthago Nova, Osuna, Salamanca
+
+			doctrine = tenet_astrology
+			doctrine = tenet_sacrificial_ceremonies
+			doctrine = tenet_sun_worship
+
+			#Unreformed
+			doctrine = unreformed_faith_doctrine
+
+			localization = {
+				#TricksterGod
+				TricksterGodName = hellenism_trickster_god_name
+				TricksterGodNamePossessive = hellenism_trickster_god_name_possessive
+				TricksterGodSheHe = CHARACTER_SHEHE_HE
+				TricksterGodHerHis = CHARACTER_HERHIS_HIS
+				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+				#NightGod
+				NightGodName = hellenism_night_god_name
+				NightGodNamePossessive = hellenism_night_god_name_possessive
+				NightGodSheHe = CHARACTER_SHEHE_SHE
+				NightGodHerHis = CHARACTER_HERHIS_HER
+				NightGodHerHim = CHARACTER_HERHIM_HER
+
+				#WarGod
+				WarGodName = cathaginian_war_god_name
+				WarGodNamePossessive = cathaginian_war_god_name_possessive
+				WarGodSheHe = CHARACTER_SHEHE_HE
+				WarGodHerHis = CHARACTER_HERHIS_HIS
+				WarGodHerHim = CHARACTER_HERHIM_HIM
+			}
+			
+		}
 	}
 }
