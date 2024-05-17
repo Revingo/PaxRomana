@@ -19,9 +19,15 @@
  tartessian_desc: "The Tartessian religion is among the oldest documented in the Iberian Peninsula. It was deeply rooted into the cult of nature, even if it was later infuenced by phoenecian settlers."
  celtiberianism: "Celtiberianism"
  celtiberianism_adj: "Celtiberian"
- celtiberianism_adherent: "Celtiberianistan"
- celtiberianism_adherent_plural: "Celtiberianistans"
+ celtiberianism_adherent: "Celtiberio"
+ celtiberianism_adherent_plural: "Celtiberios"
  celtiberianism_desc: "A blend of indigenous Iberian and Celtic religious practices, reflecting the syncretic nature of the $celtiberianism_adherent_plural$. Worship of the nature is one of the most important aspects."
+
+ holy_order_of_solisguard: "Order of Solisguard"
+ holy_order_guardians_of_terra_mater: "Order of Terra Mater"
+ holy_order_serpent_keepers_of_arbortha: "Serpent keepers of Arbortha"
+ holy_order_of_the_silver_moon: "Order of the Silver Moon"
+ holy_order_sons_of_luminara: "Sons of Luminara"
 
  #High God and Creator Name
  iberian_high_god_name: "Bandua"

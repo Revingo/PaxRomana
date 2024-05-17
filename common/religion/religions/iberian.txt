@@ -283,6 +283,48 @@
 
 			#Unreformed
 			doctrine = unreformed_faith_doctrine
+
+			localization = {
+				HighGodName = celtic_high_god_name
+				HighGodName2 = celtic_high_god_name
+				HighGodNamePossessive = celtic_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = celtic_high_god_name_alternate
+				HighGodNameAlternatePossessive = celtic_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = celtic_creator_god_name
+				CreatorNamePossessive = celtic_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIs
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+		
+				#FertilityGod
+				FertilityGodName = celtic_fertility_god_name
+				FertilityGodNamePossessive = celtic_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				PriestMale = celtic_priest
+				PriestMalePlural = celtic_priest_plural
+				PriestFemale = celtic_priest
+				PriestFemalePlural = celtic_priest_plural
+				PriestNeuter = celtic_priest
+				PriestNeuterPlural = celtic_priest_plural
+				AltPriestTermPlural = celtic_priest_plural
+				BishopMale = celtic_bishop
+				BishopMalePlural = celtic_bishop_plural
+				BishopFemale = celtic_bishop
+				BishopFemalePlural = celtic_bishop_plural
+				BishopNeuter = celtic_bishop
+				BishopNeuterPlural = celtic_bishop_plural
+
+				ReligiousHeadName = celtic_religious_head_title
+				ReligiousHeadTitleName = celtic_religious_head_title_name
+			}
 		}
 	}
 }
