@@ -110,8 +110,8 @@ celtic_religion = {
 		KnowledgeGodName = celtic_knowledge_god_name
 		KnowledgeGodNamePossessive = celtic_knowledge_god_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
-		KnowledgeGodHerHis = CHARACTER_HERHIS_HIs
-		KnowledgeGodHerHim = CHARACTER_HERHIM_HIS
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 
 		#WarGod
 		WarGodName = celtic_war_god_name
@@ -169,7 +169,7 @@ celtic_religion = {
 		DevoteeMalePlural = celtic_devotee_male_plural
 		DevoteeFemale = celtic_devotee_female
 		DevoteeFemalePlural = celtic_devotee_female_plural
-		DevoteeNeuter =celtic_devotee_male
+		DevoteeNeuter = celtic_devotee_male
 		DevoteeNeuterPlural = celtic_devotee_male_plural
 		PriestMale = celtic_priest
 		PriestMalePlural = celtic_priest_plural
@@ -203,8 +203,8 @@ celtic_religion = {
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodHerHim = CHARACTER_HERHIM_HIM
-		WitchGodMistressMaster = witch_spirit
- 		WitchGodMotherFather = witch_source
+		WitchGodMistressMaster = master
+ 		WitchGodMotherFather = father
 		
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars

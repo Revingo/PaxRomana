@@ -242,6 +242,10 @@
 			holy_site = carthage
 			holy_site = olympus
 
+			traits = {
+				virtues = { generous just pure_blooded }
+				sins = { greedy arbitrary gluttonous }
+			}
 			#Main Group
 			doctrine = doctrine_spiritual_head
 
