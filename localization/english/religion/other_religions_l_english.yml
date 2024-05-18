@@ -1,0 +1,15 @@
+﻿l_english:
+ rf_germanic: "Germanic"
+ rf_germanic_adj: "Germanic"
+ germanic_religion: "Nordic Religions"
+ germanic_religion_adj: "Nordic"
+ norse_pagan: "Germanicism"
+ norse_pagan_adj: "Germanic"
+
+ rf_steppe: "Steppe Religions"
+ rf_steppe_adj: "Steppe"
+ sarmatian_religion: "Sarmatian Religions"
+ sarmatian_religion_adj: "Sarmatian"
+ scythian: "Scythianism"
+ scythian_adj: "Scythian"
+ sarmatian_religion_desc: "$sarmatian_religion$ were polytheistic religions who worshipped natural elements, animal deities, and ancestor spirits. Their origins is iranian."

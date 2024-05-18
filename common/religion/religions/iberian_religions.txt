@@ -67,6 +67,8 @@
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = iberian_high_god_name
+		HighGodNameAlternatePossessive = iberian_high_god_name_possessive
 		
 		#Creator
 		CreatorName = iberian_high_god_name
@@ -82,13 +84,6 @@
 		HealthGodHerHis = CHARACTER_HERHIS_HER
 		HealthGodHerHim = CHARACTER_HERHIM_HER
 
-		#HouseholdGod
-		HouseholdGodName = iberian_household_god_name
-		HouseholdGodNamePossessive = iberian_household_god_name_possesive
-		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
-		HouseholdGodHerHis = CHARACTER_HERHIS_HER
-		HouseholdGodHerHim = CHARACTER_HERHIM_HER
-		
 		#FertilityGod
 		FertilityGodName = iberian_fertility_god_name
 		FertilityGodNamePossessive = iberian_fertility_god_name_possessive
@@ -102,6 +97,13 @@
 		WealthGodSheHe = CHARACTER_SHEHE_SHE
 		WealthGodHerHis = CHARACTER_HERHIS_HER
 		WealthGodHerHim = CHARACTER_HERHIM_HER
+
+		#HouseholdGod
+		HouseholdGodName = iberian_household_god_name
+		HouseholdGodNamePossessive = iberian_household_god_name_possesive
+		HouseholdGodSheHe = CHARACTER_SHEHE_SHE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HER
+		HouseholdGodHerHim = CHARACTER_HERHIM_HER
 
 		#FateGod
 		FateGodName = iberian_fate_god_name:
