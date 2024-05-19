@@ -76,7 +76,7 @@ phoenecian_religion = {
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod
-		HealthGodName = celtic_health_god_name
+		HealthGodName = carthaginian_health_god_name
 		HealthGodNamePossessive = carthaginian_health_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
@@ -91,7 +91,7 @@ phoenecian_religion = {
 
 		#WealthGod
 		WealthGodName = carthaginian_wealth_god_name
-		WealthGodNamePossessive = carthaginian_fertility_god_name_possessive
+		WealthGodNamePossessive = carthaginian_wealth_god_name_possessive
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
@@ -197,7 +197,7 @@ phoenecian_religion = {
 		NegativeAfterLife = carthaginian_afterlife
 		NegativeAfterLife2 = carthaginian_afterlife
 		NegativeAfterLife3 = carthaginian_afterlife
-		DeathDeityName = carthaginian_devil_nam
+		DeathDeityName = carthaginian_devil_name
 		DeathDeityNamePossessive = carthaginian_devil_nam_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_SHE
 		DeathDeityHerHis = CHARACTER_HERHIS_HER
@@ -207,8 +207,8 @@ phoenecian_religion = {
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodHerHim = CHARACTER_HERHIM_HIM
-		WitchGodMistressMaster = mistress
- 		WitchGodMotherFather = mother
+		WitchGodMistressMaster = master
+ 		WitchGodMotherFather = father
 		
 		GHWName = ghw_great_holy_war
 		GHWNamePlural = ghw_great_holy_wars

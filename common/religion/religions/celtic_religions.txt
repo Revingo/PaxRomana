@@ -68,7 +68,7 @@ celtic_religion = {
 		CreatorName = celtic_creator_god_name
 		CreatorNamePossessive = celtic_creator_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
-		CreatorHerHis = CHARACTER_HERHIS_HIs
+		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 
 		#HealthGod

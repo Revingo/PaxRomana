@@ -8,6 +8,10 @@
  zalmoxism_adj: "Zalmoxist"
  zalmoxism_adherent: "Zalmoxi"
  zalmoxism_adherent_plural: "Zalmoxis"
+ zalmoxism_old: "Old Zalmoxism"
+ zalmoxism_old_adj: "Old Zalmoxist"
+ zalmoxism_old_adherent: "Old Zalmoxi"
+ zalmoxism_old_adherent_plural: "Old Zalmoxis"
 
  #Dieites
  dacian_high_god_name: "Zalmoxis"

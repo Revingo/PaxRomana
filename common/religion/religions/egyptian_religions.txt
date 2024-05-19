@@ -1,0 +1,230 @@
+egyptian_religion = {
+	family = rf_african
+
+	doctrine = pagan_hostility_doctrine
+
+	pagan_roots = yes
+
+	#Main Group
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_gender_male_dominated
+	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_theocracy_temporal
+
+	#Marriage
+	doctrine = doctrine_polygamy
+	doctrine = doctrine_divorce_approval
+	doctrine = doctrine_bastardry_legitimization
+	doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+
+	#Crimes
+	doctrine = doctrine_homosexuality_accepted
+	doctrine = doctrine_adultery_men_shunned
+	doctrine = doctrine_adultery_women_crime
+	doctrine = doctrine_kinslaying_close_kin_crime
+	doctrine = doctrine_deviancy_crime
+	doctrine = doctrine_witchcraft_accepted
+
+	#Clerical Functions
+	doctrine = doctrine_clerical_function_control
+	doctrine = doctrine_clerical_gender_either
+	doctrine = doctrine_clerical_marriage_allowed
+	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+
+	#Allow pilgrimages
+	doctrine = doctrine_pilgrimage_encouraged
+
+	#Funeral tradition
+	doctrine = doctrine_funeral_mummification
+
+	traits = {
+		virtues = { just calm honest }
+		sins = { deceitful disloyal arbitrary }
+	}
+
+	custom_faith_icons = { #placeholders
+		custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
+	}
+
+	holy_order_names = {
+		{ name = holy_order_guardians_of_divinerealm }
+		{ name = holy_order_faithful_of_highgod }
+		{ name = holy_order_warriors_of_the_symbol }
+	}
+
+	holy_order_maa = { horse_archers } #placeholder
+
+	localization = {
+		HighGodName = egyptian_high_god_name
+		HighGodName2 = egyptian_high_god_name_2
+		HighGodNamePossessive = egyptian_high_god_name_possessive
+		HighGodNameSheHe = CHARACTER_SHEHE_HE
+		HighGodHerselfHimself = CHARACTER_HIMSELF
+		HighGodHerHis = CHARACTER_HERHIS_HIS
+		HighGodNameAlternate = egyptian_high_god_name_alternate
+		HighGodNameAlternatePossessive = egyptian_high_god_name_alternate_possessive
+
+		#Creator
+		CreatorName = egyptian_creator_god_name
+		CreatorNamePossessive = egyptian_creator_god_name_possessive
+		CreatorSheHe = CHARACTER_SHEHE_HE
+		CreatorHerHis = CHARACTER_HERHIS_HIS
+		CreatorHerHim = CHARACTER_HERHIM_HIM
+
+		#HealthGod
+		HealthGodName = egyptian_health_god_name
+		HealthGodNamePossessive = egyptian_health_god_name_possessive
+		HealthGodSheHe = CHARACTER_SHEHE_HE
+		HealthGodHerHis = CHARACTER_HERHIS_HIS
+		HealthGodHerHim = CHARACTER_HERHIM_HIM
+		
+		#FertilityGod
+		FertilityGodName = egyptian_fertility_god_name
+		FertilityGodNamePossessive = egyptian_fertility_god_name_possessive
+		FertilityGodSheHe = CHARACTER_SHEHE_SHE
+		FertilityGodHerHis = CHARACTER_HERHIS_HER
+		FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+		#WealthGod
+		WealthGodName = egyptian_wealth_god_name
+		WealthGodNamePossessive = egyptian_wealth_god_name_possessive
+		WealthGodSheHe = CHARACTER_SHEHE_IT
+		WealthGodHerHis = CHARACTER_HERHIS_ITS
+		WealthGodHerHim = CHARACTER_HERHIM_IT
+
+		#HouseholdGod
+		HouseholdGodName = egyptian_household_god_name
+		HouseholdGodNamePossessive = egyptian_household_god_name_possessive
+		HouseholdGodSheHe = CHARACTER_SHEHE_HE
+		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
+		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+
+		#FateGod
+		FateGodName = egyptian_fate_god_name
+		FateGodNamePossessive = egyptian_fate_god_name_possessive
+		FateGodSheHe = CHARACTER_SHEHE_SHE
+		FateGodHerHis = CHARACTER_HERHIS_HER
+		FateGodHerHim = CHARACTER_HERHIM_HER
+
+		#KnowledgeGod
+		KnowledgeGodName = egyptian_knowledge_god_name
+		KnowledgeGodNamePossessive = egyptian_knowledge_god_name_possessive
+		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
+		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
+		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WarGod
+		WarGodName = egyptian_war_god_name
+		WarGodNamePossessive = egyptian_war_god_name_possessive
+		WarGodSheHe = CHARACTER_SHEHE_HE
+		WarGodHerHis = CHARACTER_HERHIS_HIS
+		WarGodHerHim = CHARACTER_HERHIM_HIM
+
+		#TricksterGod
+		TricksterGodName = egyptian_trickster_god_name
+		TricksterGodNamePossessive = egyptian_trickster_god_name_possessive
+		TricksterGodSheHe = CHARACTER_SHEHE_HE
+		TricksterGodHerHis = CHARACTER_HERHIS_HIS
+		TricksterGodHerHim = CHARACTER_HERHIM_HIM
+
+		#NightGod
+		NightGodName = egyptian_night_god_name
+		NightGodNamePossessive = egyptian_night_god_name_possessive
+		NightGodSheHe = CHARACTER_SHEHE_HE
+		NightGodHerHis = CHARACTER_HERHIS_HIS
+		NightGodHerHim = CHARACTER_HERHIM_HIM
+
+		#WaterGod
+		WaterGodName = egyptian_water_god_name
+		WaterGodNamePossessive = egyptian_water_god_name_possessive
+		WaterGodSheHe = CHARACTER_SHEHE_HE
+		WaterGodHerHis = CHARACTER_HERHIS_HIS
+		WaterGodHerHim = CHARACTER_HERHIM_HIM
+
+
+		PantheonTerm = egyptian_pantheon_name
+		PantheonTerm2 = egyptian_pantheon_name_2
+		PantheonTerm3 = egyptian_pantheon_name_3
+		PantheonTermHasHave = pantheon_term_have
+		GoodGodNames = { egyptian_high_god_name egyptian_creator_god_name egyptian_fertility_god_name egyptian_knowledge_god_name egyptian_goodgod_horus }
+		DevilName = egyptian_trickster_god_name
+		DevilNamePossessive = egyptian_trickster_god_name_possessive
+		DevilSheHe = CHARACTER_SHEHE_HE
+		DevilHerHis = CHARACTER_HERHIS_HIS
+		DevilHerselfHimself = CHARACTER_HIMSELF
+		EvilGodNames = { egyptian_trickster_god_name }
+		HouseOfWorship = egyptian_house_of_worship
+		HouseOfWorship2 = egyptian_house_of_worship
+		HouseOfWorship3 = egyptian_house_of_worship
+		HouseOfWorshipPlural = egyptian_house_of_worship_plural
+		ReligiousSymbol = egyptian_religious_symbol
+		ReligiousSymbol2 = egyptian_religious_symbol_2
+		ReligiousSymbol3 = egyptian_religious_symbol_3
+		ReligiousText = egyptian_religious_text
+		ReligiousText2 = egyptian_religious_text_2
+		ReligiousText3 = egyptian_religious_text_3
+		ReligiousHeadName = egyptian_religious_head_title
+		ReligiousHeadTitleName = egyptian_religious_head_title_name
+		DevoteeMale = egyptian_devotee_male
+		DevoteeMalePlural = egyptian_devotee_male_plural
+		DevoteeFemale = egyptian_devotee_male
+		DevoteeFemalePlural = egyptian_devotee_male_plural
+		DevoteeNeuter = egyptian_devotee_male
+		DevoteeNeuterPlural = egyptian_devotee_male_plural
+		PriestMale = egyptian_priest
+		PriestMalePlural = egyptian_priest_plural
+		PriestFemale = egyptian_priest
+		PriestFemalePlural = egyptian_priest_plural
+		PriestNeuter = egyptian_priest
+		PriestNeuterPlural = egyptian_priest_plural
+		AltPriestTermPlural = egyptian_priest_plural
+		BishopMale = egyptian_bishop
+		BishopMalePlural = egyptian_bishop_plural
+		BishopFemale = egyptian_bishop
+		BishopFemalePlural = egyptian_bishop_plural
+		BishopNeuter = egyptian_bishop
+		BishopNeuterPlural = egyptian_bishop_plural
+		DivineRealm = egyptian_divine_realm
+		DivineRealm2 = egyptian_divine_realm
+		DivineRealm3 = egyptian_divine_realm
+		PositiveAfterLife = egyptian_divine_realm
+		PositiveAfterLife2 = egyptian_divine_realm
+		PositiveAfterLife3 = egyptian_divine_realm
+		NegativeAfterLife = egyptian_divine_realm
+		NegativeAfterLife2 = egyptian_divine_realm
+		NegativeAfterLife3 = egyptian_divine_realm
+		DeathDeityName = egyptian_death_deity_name
+		DeathDeityNamePossessive = egyptian_death_deity_name_possessive
+		DeathDeitySheHe = CHARACTER_SHEHE_HE
+		DeathDeityHerHis = CHARACTER_HERHIS_HIS
+		DeathDeityHerHim = CHARACTER_HERHIM_HIM
+		WitchGodName = egyptian_witchgod_name
+		WitchGodNamePossessive = egyptian_witchgod_name_possessive
+		WitchGodSheHe = CHARACTER_SHEHE_SHE
+		WitchGodHerHis = CHARACTER_HERHIS_HER
+		WitchGodHerHim = CHARACTER_HERHIM_HER
+		WitchGodMistressMaster = mistress
+ 		WitchGodMotherFather = mother
+		
+		GHWName = ghw_great_holy_war
+		GHWNamePlural = ghw_great_holy_wars
+	}	
+
+	faiths = {
+		kemeticism = {
+			color = { 0.0 0.29 0.29 }
+			icon = "custom_faith_ankh"
+
+			#holy sites:  Thebes (Luxor), Naucratis, Cyprus, Cyrene, Tyre
+			holy_site = paderborn
+			holy_site = hiiumaa
+			holy_site = khotan
+			holy_site = sinai
+			holy_site = haridwar
+
+			doctrine = tenet_astrology
+			doctrine = tenet_ancestor_worship
+			doctrine = tenet_mystical_birthright
+		}
+	}
+}

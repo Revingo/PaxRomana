@@ -1,0 +1,43 @@
+﻿l_english:
+ rf_arabian: "Arabian"
+ rf_arabian_adj: "Arabian"
+ arabian_religion: "Arabian Religions"
+ arabian_religion_adj: "Arabian"
+ arabian_religion_desc: "The ancient $arabian_religion$ were polytheistic religions influenced by greeks, egyptians, zoroastrians and later christians. They were mostly handed down orally."
+ beduinism: "Beduinism"
+ beduinism_adj: "Beduinistic"
+ beduinism_adherent: "Beduino"
+ beduinism_adherent_plural: "Beduinos"
+
+ #Dieites
+ arabian_high_god_name: "Allah"
+ arabian_high_god_name_possessive: "Allah's"
+ arabian_health_god_name: "Al-Lat"
+ arabian_health_god_name_possessive: "Al-Lat's"
+ arabian_wealth_god_name: "Al-Uzza"
+ arabian_wealth_god_name_possessive: "Al-Uzza's"
+ arabian_knowledge_god_name: "Al-Kutba"
+ arabian_knowledge_god_name_possessive: "Al-Kutba's"
+ arabian_night_god_name: "Wadd"
+ arabian_night_god_name_possessive: "Wadd's"
+ arabian_water_god_name: "Nuhayyan"
+ arabian_water_god_name_possessive: "Nuhayyan's"
+ arabian_pantheon_name: "Ilāhāt al-ʿArab" #fictional
+ arabian_devil_name: "Iblis"
+ arabian_devil_name_possessive: "Iblis'"
+ arabian_house_of_worship: "Bayt al-Ilah" #fictional
+ arabian_house_of_worship_plural: "Bayt al-Ilahs" #fictional
+ arabian_religious_symbol: "The Camel"
+ arabian_religious_text: "Kitab al-ʿAyyam" #fictional
+ arabian_religious_head_title: "Ra'īs al-Dīn" #fictional
+ arabian_religious_head_title_name: "Mamlakat al-Ruh" #fictional
+ arabian_devotee_male: "Ibād al-Asnam" #fictional
+ arabian_devotee_male_plural: "Ibād al-Asnams" #fictional
+ arabian_priest: "Kahin"
+ arabian_priest_plural: "Kahins"
+ arabian_bishop: "Ra'is al-Kuhan" #fictional
+ arabian_bishop_plural: "Ra'is al-Kuhans" #fictional
+ arabian_divine_realm: "Al-Malakut" #fictional
+ arabian_afterlife: "Jannat al-Na'im" #fictional
+ arabian_witchgod_name: "Barqan"
+ arabian_witchgod_name_possessive: "Barqan's"
