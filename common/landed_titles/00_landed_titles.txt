@@ -12673,7 +12673,176 @@ e_britannia = {
 	}
 	k_hibernia = {
 		color = { 231 12 252 }
-		d_scottia = {
+		d_laigin = {
+			color = { 201 34 252 }
+			c_dublin = {
+				color = { 55 250 85 }
+
+				cultural_names = {
+					name_list_norse = cn_dyflinn
+					name_list_norwegian = cn_dyflinn
+					name_list_irish = cn_dubhlinn
+					name_list_welsh = cn_dulyn
+				}
+
+				b_dublin = {
+					province = 28
+
+					color = { 55 250 85 }
+
+					cultural_names = {
+						name_list_norse = cn_dyflinn
+						name_list_norwegian = cn_dyflinn
+						name_list_irish = cn_dubhlinn
+						name_list_welsh = cn_dulyn
+					}
+				}
+				b_wicklow = {
+					province = 29
+
+					color = { 55 250 85 }
+
+					cultural_names = {
+						name_list_irish = cn_cill_mhantain
+					}
+				}
+				b_kildare = { #Historical note: monastery
+					province = 30
+
+					color = { 55 250 85 }
+
+					cultural_names = {
+						name_list_irish = cn_cill_dara
+					}
+				}
+				b_trim = { #historical note: monastery/important church
+					province = 31
+
+					color = { 55 250 85 }
+
+					cultural_names = {
+						name_list_irish = cn_baile_atha_troim
+					}
+				}
+				b_drogheda = {
+					province = 32
+
+					color = { 55 250 85 }
+
+					cultural_names = {
+						name_list_irish = cn_droichead_atha
+					}
+				}
+			}
+			c_leinster = {
+				color = { 68 156 28 }
+
+				b_wexford = {
+					province = 37
+
+					color = { 68 156 28 }
+
+					cultural_names = {
+						name_list_norwegian = cn_veisafjordr
+						name_list_swedish = cn_veisafjord
+						name_list_danish = cn_veisafjord
+						name_list_norse = cn_veisafjordr
+						name_list_irish = cn_loch_garman
+					}
+				}
+				b_enniscorthy = {
+					province = 38
+
+					color = { 68 156 28 }
+
+					cultural_names = {
+						name_list_irish = cn_inis_corthaidh
+					}
+				}
+				b_ferns = {
+					province = 39
+
+					color = { 68 156 28 }
+
+					cultural_names = {
+						name_list_irish = cn_fearna_mor_maedhog
+					}
+				}
+				b_carlow = {
+					province = 40
+
+					color = { 68 156 28 }
+
+					cultural_names = {
+						name_list_irish = cn_ceatharlach
+					}
+				}
+			}
+
+		}
+		d_connacht = {
+			color = { 201 12 252 }
+
+			capital = c_connacht
+			c_connacht = {	#Hy Many
+				color = { 45 230 70 }
+
+				cultural_names = {
+						name_list_irish = cn_ui_maine
+				}
+
+				b_galway = {
+					province = 20
+
+					color = { 45 230 70 }
+
+					cultural_names = {
+						name_list_irish = cn_dun_bhun_na_gaillimhe
+					}
+				}
+				b_athenry = {
+					province = 23
+
+					color = { 45 230 70 }
+				}
+				b_tuam = {
+					province = 8746
+
+					color = { 45 230 70 }
+				}
+				b_da_chainoc = {
+					province = 8747
+
+					color = { 45 230 70 }
+				}
+			}
+			c_mayo = {
+				color = { 15 190 70 }
+
+				b_cruachu = {
+					province = 8745
+
+					color = { 15 190 70 }
+				}
+				b_castlebar = {
+					province = 21
+
+					color = { 15 190 70 }
+				}
+				b_sligo = {
+					province = 22
+
+					color = { 15 190 70 }
+				}
+				b_killala = {
+					province = 8748
+
+					color = { 15 190 70 }
+				}
+			}
+
+		}
+		d_ulaid = {
 			color = { 12 12 252 }
 
 			c_ulster = {
@@ -12797,63 +12966,9 @@ e_britannia = {
 					}
 				}
 			}
-			c_connacht = {	#Hy Many
-				color = { 45 230 70 }
-
-				cultural_names = {
-						name_list_irish = cn_ui_maine
-				}
-
-				b_galway = {
-					province = 20
-
-					color = { 45 230 70 }
-
-					cultural_names = {
-						name_list_irish = cn_dun_bhun_na_gaillimhe
-					}
-				}
-				b_athenry = {
-					province = 23
-
-					color = { 45 230 70 }
-				}
-				b_tuam = {
-					province = 8746
-
-					color = { 45 230 70 }
-				}
-				b_da_chainoc = {
-					province = 8747
-
-					color = { 45 230 70 }
-				}
-			}
-
-			c_mayo = {
-				color = { 15 190 70 }
-
-				b_cruachu = {
-					province = 8745
-
-					color = { 15 190 70 }
-				}
-				b_castlebar = {
-					province = 21
-
-					color = { 15 190 70 }
-				}
-				b_sligo = {
-					province = 22
-
-					color = { 15 190 70 }
-				}
-				b_killala = {
-					province = 8748
-
-					color = { 15 190 70 }
-				}
-			}
+		}
+		d_airgialla = {
+			color = { 201 34 52 }
 
 			c_breifne = {
 				color = { 95 221 121 }
@@ -12896,67 +13011,6 @@ e_britannia = {
 					color = { 95 221 121 }
 				}
 			}
-			c_dublin = {
-				color = { 55 250 85 }
-
-				cultural_names = {
-					name_list_norse = cn_dyflinn
-					name_list_norwegian = cn_dyflinn
-					name_list_irish = cn_dubhlinn
-					name_list_welsh = cn_dulyn
-				}
-
-				b_dublin = {
-					province = 28
-
-					color = { 55 250 85 }
-
-					cultural_names = {
-						name_list_norse = cn_dyflinn
-						name_list_norwegian = cn_dyflinn
-						name_list_irish = cn_dubhlinn
-						name_list_welsh = cn_dulyn
-					}
-				}
-				b_wicklow = {
-					province = 29
-
-					color = { 55 250 85 }
-
-					cultural_names = {
-						name_list_irish = cn_cill_mhantain
-					}
-				}
-				b_kildare = { #Historical note: monastery
-					province = 30
-
-					color = { 55 250 85 }
-
-					cultural_names = {
-						name_list_irish = cn_cill_dara
-					}
-				}
-				b_trim = { #historical note: monastery/important church
-					province = 31
-
-					color = { 55 250 85 }
-
-					cultural_names = {
-						name_list_irish = cn_baile_atha_troim
-					}
-				}
-				b_drogheda = {
-					province = 32
-
-					color = { 55 250 85 }
-
-					cultural_names = {
-						name_list_irish = cn_droichead_atha
-					}
-				}
-			}
-
-
 			c_athlone = {
 				color = { 40 230 65 }
 
@@ -12974,82 +13028,6 @@ e_britannia = {
 					province = 36
 
 					color = { 40 230 65 }
-				}
-			}
-			c_leinster = {
-				color = { 68 156 28 }
-
-				b_wexford = {
-					province = 37
-
-					color = { 68 156 28 }
-
-					cultural_names = {
-						name_list_norwegian = cn_veisafjordr
-						name_list_swedish = cn_veisafjord
-						name_list_danish = cn_veisafjord
-						name_list_norse = cn_veisafjordr
-						name_list_irish = cn_loch_garman
-					}
-				}
-				b_enniscorthy = {
-					province = 38
-
-					color = { 68 156 28 }
-
-					cultural_names = {
-						name_list_irish = cn_inis_corthaidh
-					}
-				}
-				b_ferns = {
-					province = 39
-
-					color = { 68 156 28 }
-
-					cultural_names = {
-						name_list_irish = cn_fearna_mor_maedhog
-					}
-				}
-				b_carlow = {
-					province = 40
-
-					color = { 68 156 28 }
-
-					cultural_names = {
-						name_list_irish = cn_ceatharlach
-					}
-				}
-			}
-			c_ossory = {
-				color = { 93 166 15 }
-
-				b_gowran = {
-					province = 43
-
-					color = { 93 166 15 }
-
-					cultural_names = {
-						name_list_irish = cn_gabhran
-					}
-				}
-				b_kilkenny = { #Historical note: major monastic centre
-					province = 41
-
-					color = { 93 166 15 }
-
-					cultural_names = {
-						name_list_irish = cn_cill_chainnigh
-					}
-				}
-				b_athy = {
-					province = 42
-
-					color = { 93 166 15 }
-				}
-				b_carrick = {
-					province = 44
-
-					color = { 93 166 15 }
 				}
 			}
 		}
@@ -13144,6 +13122,38 @@ e_britannia = {
 					province = 16
 
 					color = { 10 137 35 }
+				}
+			}
+			c_ossory = {
+				color = { 93 166 15 }
+
+				b_gowran = {
+					province = 43
+
+					color = { 93 166 15 }
+
+					cultural_names = {
+						name_list_irish = cn_gabhran
+					}
+				}
+				b_kilkenny = { #Historical note: major monastic centre
+					province = 41
+
+					color = { 93 166 15 }
+
+					cultural_names = {
+						name_list_irish = cn_cill_chainnigh
+					}
+				}
+				b_athy = {
+					province = 42
+
+					color = { 93 166 15 }
+				}
+				b_carrick = {
+					province = 44
+
+					color = { 93 166 15 }
 				}
 			}
 			
@@ -18266,78 +18276,9 @@ e_alexander_makedon = {
 	k_persia = {
 		color = { 134 239 129 }
 
-		d_damascus = {
+		d_syria = {
 			color = { 206 239 129 }
 
-			c_beirut = {
-				color = { 77 156 38 }
-
-				b_beirut = {
-					province = 5919
-
-					color = { 77 156 38 }
-				}
-				b_saida = { #Sidon
-					province = 5920
-
-					color = { 77 156 38 }
-				}
-			}
-			c_tripoli = {
-				color = { 75 154 36 }
-
-				b_syrtripolis = {
-					province = 5918
-
-					color = { 75 154 36 }
-				}
-				b_antartus = {
-					province = 5916
-
-					color = { 75 154 36 }
-				}
-			}
-			c_homs = {
-				color = { 93 240 28 }
-
-				b_hims = {
-					province = 5929
-
-					color = { 93 240 28 }
-				}
-				b_rafaniya-krak = {
-					province = 5917
-
-					color = { 93 240 28 }
-				}
-				b_jusiya = {
-					province = 5928
-
-					color = { 93 240 28 }
-				}
-			}
-			c_shayzar = {
-				color = { 93 252 34 }
-
-				cultural_names = {
-					name_list_greek = cn_sezer
-				}
-
-				b_shayzar = {
-					province = 5915
-
-					color = { 93 252 34 }
-
-					cultural_names = {
-						name_list_greek = cn_sezer
-					}
-				}
-				b_masyaf = {
-					province = 5914
-
-					color = { 93 252 34 }
-				}
-			}
 			c_hama = {
 				color = { 95 242 30 }
 
@@ -18492,6 +18433,165 @@ e_alexander_makedon = {
 					province = 5936
 
 					color = { 84 220 20 }
+				}
+			}
+			c_juwair = {
+				color = { 128 255 9 }
+
+				b_juwair = {
+					province = 5951
+
+					color = { 128 255 9 }
+				}
+				b_al-qastal = {
+					province = 5927
+
+					color = { 128 255 9 }
+				}
+				b_marj-rahit = {
+					province = 5952
+
+					color = { 128 255 9 }
+				}
+			}
+		}
+		d_damascus = {
+			color = { 103 18 143 }
+			capital = c_damascus
+
+			c_damascus = {
+				color = { 125 255 6 }
+
+				b_damascus = {
+					province = 5924
+
+					color = { 125 255 6 }
+				}
+				b_nawa = {
+					province = 5923
+
+					color = { 125 255 6 }
+				}
+				b_darayya = {
+					province = 5953
+
+					color = { 125 255 6 }
+				}
+				b_zurra = {
+					province = 5954
+
+					color = { 125 255 6 }
+				}
+			}
+			c_hauran = {
+				color = { 103 214 143 }
+
+				b_busra = {
+					province = 5955
+
+					color = { 103 214 143 }
+				}
+				b_sarkhad = {
+					province = 5956
+
+					color = { 103 214 143 }
+				}
+				b_as-suwaida-hauran = {
+					province = 5957
+
+					color = { 103 214 143 }
+				}
+			}
+		}
+		d_liban = {
+			color = { 56 214 143 }
+			capital = c_beirut
+			c_beirut = {
+				color = { 77 156 38 }
+
+				b_beirut = {
+					province = 5919
+
+					color = { 77 156 38 }
+				}
+				b_saida = { #Sidon
+					province = 5920
+
+					color = { 77 156 38 }
+				}
+			}
+			c_shayzar = {
+				color = { 93 252 34 }
+
+				cultural_names = {
+					name_list_greek = cn_sezer
+				}
+
+				b_shayzar = {
+					province = 5915
+
+					color = { 93 252 34 }
+
+					cultural_names = {
+						name_list_greek = cn_sezer
+					}
+				}
+				b_masyaf = {
+					province = 5914
+
+					color = { 93 252 34 }
+				}
+			}
+			c_tripoli = {
+				color = { 75 154 36 }
+
+				b_syrtripolis = {
+					province = 5918
+
+					color = { 75 154 36 }
+				}
+				b_antartus = {
+					province = 5916
+
+					color = { 75 154 36 }
+				}
+			}
+			c_homs = {
+				color = { 93 240 28 }
+
+				b_hims = {
+					province = 5929
+
+					color = { 93 240 28 }
+				}
+				b_rafaniya-krak = {
+					province = 5917
+
+					color = { 93 240 28 }
+				}
+				b_jusiya = {
+					province = 5928
+
+					color = { 93 240 28 }
+				}
+			}
+			c_baalbek = {
+				color = { 134 255 15 }
+
+				b_baalbak = {
+					province = 5926
+
+					color = { 134 255 15 }
+				}
+				b_az-zabadani = {
+					province = 5925
+
+					color = { 134 255 15 }
+				}
+				b_anjar = {
+					province = 5937
+
+					color = { 134 255 15 }
 				}
 			}
 		}
