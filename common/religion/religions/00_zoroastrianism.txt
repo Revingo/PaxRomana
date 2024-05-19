@@ -225,7 +225,7 @@ zoroastrianism_religion = {
 	}
 
 	faiths = {
-		mazdayasna = {
+		mazdayasna = { #ok
 			color = { 0.8 0.5 0 }
 			icon = zoroastrian
 			religious_head = d_mazdayasna #actually The Magi
@@ -245,7 +245,7 @@ zoroastrianism_religion = {
 			doctrine = doctrine_major_branch_behdin 
 		}
 
-		zurvanism = { # Actually Behafaridism
+		zurvanism = { # Actually Behafaridism #ok
 			color = { 0.6 0.7 0.2 }
 			icon = zurvanism
 			religious_head = d_zurvanism
@@ -297,7 +297,7 @@ zoroastrianism_religion = {
 			holy_site = adur_farnbag
 			holy_site = mizdahqan
 			holy_site = takht-i-sangin
-			holy_site = dunhuang
+			holy_site = adur_burzen_mihr
 			holy_site = takht-e_soleyman
 
 			
@@ -337,7 +337,7 @@ zoroastrianism_religion = {
 			}
 		}
 
-		mazdakism = {
+		mazdakism = { #ok
 			color = { 0.8 0.7 0.3 }
 			icon = mazdakism
 			religious_head = d_mazdakism
@@ -360,7 +360,7 @@ zoroastrianism_religion = {
 			doctrine = doctrine_heretic_branch_zandik
 		}
 
-		khurramism = {
+		khurramism = { #ok
 			color = { 1 0.3 0 }
 			icon = khurramism
 			religious_head = d_khurramism
@@ -394,7 +394,7 @@ zoroastrianism_religion = {
 			}
 		}
 
-		urartuism = { #Arewordik 
+		urartuism = { #Arewordik #ok
 			color = { 1 0.9 0.5 }
 			icon = urartuism
 			religious_head = d_urartuism

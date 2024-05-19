@@ -247,7 +247,7 @@
 				sins = { greedy arbitrary gluttonous }
 			}
 			#Main Group
-			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_temporal_head
 
 			#Marriage
 			doctrine = doctrine_consanguinity_unrestricted
