@@ -37151,3 +37151,32 @@ e_kemet = {
 	color = { 74 45 29 }
 	can_be_named_after_dynasty = no
 }
+
+d_insubres = {
+	color = { 10 45 29 }
+}
+
+d_boii = {
+	color = { 10 194 29 }
+}
+
+d_ligurii = {
+	color = { 10 194 210 }
+
+}
+
+d_veneti = {
+	color = { 66 194 210 }
+}
+
+d_letobici = {
+	color = { 66 36 210 }
+}
+
+d_histri = {
+	color = { 66 36 55 }
+}
+
+d_tauri = {
+	color = { 29 36 55 }
+}

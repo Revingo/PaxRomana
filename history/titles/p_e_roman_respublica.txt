@@ -1,0 +1,251 @@
+e_roman_respublica = {
+    263.1.1 = { 
+		change_development_level = 6
+		holder = pc_1
+	}
+}
+
+d_insubres = {
+	263.1.1 = { 
+		holder = pc_2
+	}
+}
+c_cremona = {
+	263.1.1 = {
+		liege = d_insubres
+	}
+}
+c_brescia = {
+	263.1.1 = {
+		holder = pc_2
+	}
+	263.1.2 = {
+		liege = d_insubres
+	}
+}
+c_lombardia = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_2
+		liege = d_insubres
+	}
+}
+c_mantua = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_6
+		liege = d_insubres
+	}
+}
+c_como = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_6
+		liege = d_insubres
+	}
+}
+c_parma = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_2
+		liege = d_insubres
+	}
+}
+c_tortona = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_6
+		liege = d_insubres
+	}
+}
+c_cremona = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_9
+		liege = d_insubres
+	}
+}
+c_pavia = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_9
+		liege = d_insubres
+	}
+}
+
+d_boii = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_3
+	}
+}
+c_modena = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_3
+	}
+}
+c_bologna = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_3
+	}
+}
+c_ferrara = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_7
+		liege = d_boii
+	}
+}
+
+d_ligurii = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_4
+	}
+}
+c_luni = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_4
+		liege = d_ligurii
+	}
+}
+c_genoa = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_4
+	}
+}
+
+d_veneti = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_5
+	}
+}
+c_polesine = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_8
+		liege = d_veneti
+	}
+}
+c_padua = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_5
+		liege = d_veneti
+	}
+}
+c_verona = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_5
+	}
+}
+c_treviso = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_8
+		liege = d_veneti
+	}
+}
+c_friuli = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_5
+	}
+}
+
+d_letobici = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_10
+	}
+}
+c_aquileia = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_10
+	}
+}
+c_gorz = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_10
+	}
+}
+c_ljubljana = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_10
+	}
+}
+c_kranj = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_11
+		liege = d_letobici
+	}
+}
+
+d_histri = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_12
+	}
+}
+c_pula = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_12
+	}
+}
+
+d_tauri = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_13
+	}
+}
+c_turin = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_13
+	}
+}
+c_novara = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_13
+	}
+}
+c_monferrato = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_13
+	}
+}
+c_cuneo = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = pc_14
+		liege = d_tauri
+	}
+}
+
+c_messina = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = uc_1
+	}
+}
+
+c_siracusa = {
+	263.1.1 = { 
+		change_development_level = 6
+		holder = gc_1
+	}
+}
