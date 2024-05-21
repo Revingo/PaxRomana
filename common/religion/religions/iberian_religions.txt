@@ -225,7 +225,11 @@
 			icon = iberian #placeholder
 			reformed_icon = iberian_reformed #placeholder
 
-			#holy sites: Tartessos, Numatia, Carthago Nova, Osuna, Salamanca
+			holy_site = numantia
+			holy_site = nova_carthago
+			holy_site = segeda
+			holy_site = tartessos
+			holy_site = osuna
 
 			doctrine = tenet_astrology
 			doctrine = tenet_sacrificial_ceremonies
@@ -264,6 +268,11 @@
 			reformed_icon = iberian1_reformed #placeholder
 
 			#holy sites: Tartessos(huelva), El Carambolo, Carthago Nova, Gadir(cadiz), Salamanca
+			holy_site = camas
+			holy_site = nova_carthago
+			holy_site = segeda
+			holy_site = tartessos
+			holy_site = gadir
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_sacrificial_ceremonies
@@ -278,6 +287,11 @@
 			reformed_icon = iberian2_reformed #placeholder
 
 			#holy sites: Numantia, Segeda, Cave of the Devil, Botorrita, Mount Bernonio
+			holy_site = numantia
+			holy_site = cave_of_the_devil
+			holy_site = segeda
+			holy_site = contrebia_belaisca
+			holy_site = mount_bernorio
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_ritual_celebrations

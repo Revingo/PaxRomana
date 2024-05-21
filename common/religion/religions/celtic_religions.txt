@@ -220,11 +220,11 @@ celtic_religion = {
 			doctrine = unreformed_faith_doctrine
 
 			#holy sites: Carnute's Grove, Sein Island, Bibracte, Rennes-les-Bains, La Tène
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = carnutes_grove
+			holy_site = sein_island
+			holy_site = bibracte
+			holy_site = rennes-les-bains
+			holy_site = ynys_mon
 
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_ancestor_worship
@@ -240,11 +240,11 @@ celtic_religion = {
 			doctrine = unreformed_faith_doctrine
 
 			#holy sites: Carnute's Grove, Glastonbury Tor, Ynys Môn, Bath, Mynydd Carn y Cefn
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = carnutes_grove
+			holy_site = glastonbury_tor
+			holy_site = ynys_mon
+			holy_site = bath
+			holy_site = mynydd
 
 			doctrine = tenet_megaliths
 			doctrine = tenet_ancestor_worship
@@ -260,11 +260,11 @@ celtic_religion = {
 			doctrine = unreformed_faith_doctrine
 
 			#holy sites: Carnute's Grove, Hill of Tara, Sein Island, Brú na Bóinne, Ynys Môn
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = carnutes_grove
+			holy_site = sein_island
+			holy_site = ynys_mon
+			holy_site = hill_of_tara
+			holy_site = mynydd
 
 			doctrine = tenet_adorcism
 			doctrine = tenet_reincarnation

@@ -218,11 +218,11 @@ north_african_religion = {
 			reformed_icon = achamanism_reformed
 
 			#holy sites: carthage, cyrene, madiera, alexandria, syracusa
-			holy_site = tenerife
+			holy_site = cyrene
 			holy_site = carthage
-			holy_site = madiera
+			holy_site = mallorca
 			holy_site = alexandria
-			holy_site = cartagena
+			holy_site = syracusa
 
 			doctrine = unreformed_faith_doctrine
 

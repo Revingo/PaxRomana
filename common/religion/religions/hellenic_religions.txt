@@ -221,11 +221,11 @@
 			icon = hellenic
 
 			#change to: athens, alexandria, pella, babylon, byzantium
-			holy_site = rome
+			holy_site = pella
 			holy_site = athens
-			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
+			holy_site = delphi
+			holy_site = babylon
+			holy_site = byzantium
 
 			doctrine = tenet_astrology
 			doctrine = tenet_communal_identity
@@ -236,11 +236,12 @@
 			color = { 0.2 0.2 0.6 }
 			icon = hellenic
 
+			#change to: athens, alexandria, Thebes, babylon, byzantium
 			holy_site = rome
-			holy_site = athens
+			holy_site = luxor
 			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
+			holy_site = babylon
+			holy_site = byzantium
 
 			traits = {
 				virtues = { generous just pure_blooded }
@@ -265,6 +266,7 @@
 			color = { 0.4 0.01 0.24 }
 			icon = hellenic
 
+			#holy sites: rome, athens, carthage, alexandria, mount olympus
 			holy_site = rome
 			holy_site = athens
 			holy_site = alexandria

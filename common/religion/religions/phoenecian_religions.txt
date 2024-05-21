@@ -220,11 +220,11 @@ phoenecian_religion = {
 			icon = "sign_of_tanit" #placholder
 
 			#holy sites: Carthage, Sidon, Nova Carthago, Karalis (Cagliari), Cyrene
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = carthage
+			holy_site = sidon
+			holy_site = nova_carthago
+			holy_site = karalis
+			holy_site = cyrene
 
 			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_sacrificial_ceremonies

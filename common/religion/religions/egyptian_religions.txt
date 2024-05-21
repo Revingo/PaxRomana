@@ -216,11 +216,11 @@ egyptian_religion = {
 			icon = "custom_faith_ankh"
 
 			#holy sites:  Thebes (Luxor), Naucratis, Cyprus, Cyrene, Tyre
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = luxor
+			holy_site = naucratis
+			holy_site = ledra
+			holy_site = cyrene
+			holy_site = tyre
 
 			doctrine = tenet_astrology
 			doctrine = tenet_ancestor_worship

@@ -230,11 +230,11 @@ germanic_religion = {
 			reformed_icon = germanic_reformed
 
 			#eholy sites: externsteine, Hallstatt, Vosges Mountains, Donar's Oak, Rheingau
-			holy_site = uppsala
-			holy_site = jorvik
-			holy_site = paderborn
-			holy_site = konugardr
-			holy_site = ranaheim
+			holy_site = externsteine
+			holy_site = hallstatt
+			holy_site = vosges_mountains
+			holy_site = thors_oak
+			holy_site = rheinegau
 
 			doctrine = unreformed_faith_doctrine
 

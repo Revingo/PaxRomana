@@ -217,11 +217,11 @@ arabian_religion = {
 			reformed_icon = "custom_faith_allah" #placholder
 
 			#holy sites: Mecca, Göbekli Tepe, Petra, Thebes (Luxor), Jerusalem
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = mecca
+			holy_site = gobekli
+			holy_site = petra
+			holy_site = luxor
+			holy_site = jerusalem
 
 			#unreformed
 			doctrine = unreformed_faith_doctrine

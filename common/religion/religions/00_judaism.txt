@@ -256,10 +256,9 @@ judaism_religion = {
 			#jerusalem, rome, byzantium, alexandria, santiago
 			holy_site = jerusalem
 			holy_site = rome
-			holy_site = cologne
+			holy_site = byzantium
 			holy_site = santiago
-			holy_site = kent
-			#holy_site = segrada_familia
+			holy_site = alexandria
 			
 			#Unreformed
 			doctrine = unreformed_faith_doctrine

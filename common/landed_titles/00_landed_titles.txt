@@ -8245,6 +8245,7 @@ e_hispania = {
 		d_cartaginense = {
 			color = { 81 23 108 }
 
+			capital = c_murcia
 			c_valencia = {
 				color = { 54 186 96 }
 				can_be_named_after_dynasty = no
@@ -8349,13 +8350,13 @@ e_hispania = {
 				color = { 27 130 60 }
 				can_be_named_after_dynasty = no
 
-				b_murcia = {
-					province = 1852
+				b_cartagena = {
+					province = 1851
 
 					color = { 27 130 60 }
 				}
-				b_cartagena = {
-					province = 1851
+				b_murcia = {
+					province = 1852
 
 					color = { 27 130 60 }
 				}
@@ -11260,10 +11261,10 @@ e_britannia = {
 				}
 			}
 
-			c_brecknockshire = {	#Brycheiniog"
+			c_brecknockshire = {
 				color = { 215 150 115 }
 
-				b_brecon = {	#Aberhonddu
+				b_brecon = {
 					province = 1659
 
 					color = { 215 150 115 }
@@ -22907,6 +22908,14 @@ e_alexander_makedon = {
 				cultural_names = {
 					name_list_trojan = cn_kyrene
 				}
+				b_marawa = {
+					province = 6101
+
+					cultural_names = {
+						name_list_trojan = cn_kyrene
+					}
+					color = { 38 156 69 }
+				}
 				b_derna = {
 					province = 6099
 
@@ -22917,11 +22926,6 @@ e_alexander_makedon = {
 				}
 				b_wadi_makhil = {
 					province = 6100
-
-					color = { 38 156 69 }
-				}
-				b_marawa = {
-					province = 6101
 
 					color = { 38 156 69 }
 				}
@@ -23192,8 +23196,15 @@ e_alexander_makedon = {
 			c_qus = {
 				color = { 76 194 77 }
 
+				cultural_names = {
+					name_list_trojan = cn_thebes
+				}
+
 				b_qus = {
 					province = 6077
+					cultural_names = {
+						name_list_trojan = cn_thebes
+					}
 
 					color = { 76 194 77 }
 				}
@@ -23380,7 +23391,7 @@ e_alexander_makedon = {
 				}
 			}
 		}
-		d_thebes = {
+		d_thebes = { #Upper Egypt
 			color = { 231 108 127}
 
 			c_shamir = {

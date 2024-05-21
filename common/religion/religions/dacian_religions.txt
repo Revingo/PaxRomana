@@ -220,11 +220,11 @@ dacian_religion = {
 			doctrine = unreformed_faith_doctrine
 
 			#holy sites: Sarmizegetusa Regia, Mount Olympus, delphi, Hattusa, Biskupin
-			holy_site = paderborn
-			holy_site = hiiumaa
-			holy_site = khotan
-			holy_site = sinai
-			holy_site = haridwar
+			holy_site = sarmizegetusa_regia
+			holy_site = olympus
+			holy_site = delphi
+			holy_site = hattusa
+			holy_site = biskupin
 
 			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_pentarchy
