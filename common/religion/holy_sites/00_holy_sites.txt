@@ -2064,7 +2064,7 @@ nova_carthago = {
 
 	character_modifier = {
 		name = holy_site_nova_carthago_effect_name
-		controlled_province_advantage = 0.15
+		controlled_province_advantage = 1
 	}
 }
 
@@ -2110,7 +2110,7 @@ tartessos = {
 
 	character_modifier = {
 		name = holy_site_tartessos_effect_name
-		intrigue_per_piety_level = 0.1
+		intrigue_per_piety_level = 1
 	}
 }
 
@@ -2372,7 +2372,7 @@ mount_ararat = {
 
 	character_modifier = {
 		name = holy_site_mount_ararat_effect_name
-		mountains_advantage = 0.3
+		mountains_advantage = 1
 	}
 }
 
@@ -2408,7 +2408,7 @@ nitra = {
 
 	character_modifier = {
 		name = holy_site_nitra_effect_name
-		knight_effectiveness_per_dread = 2
+		knight_effectiveness_per_dread = 0.2
 	}
 }
 
@@ -2434,8 +2434,8 @@ externsteine = {
 	county = c_marburg
 
 	character_modifier = {
-		#name = holy_site_sidon_effect_name
-		build_piety_cost = -250
+		name = holy_site_externsteine_effect_name
+		build_piety_cost = -0.25
 	}
 }
 
