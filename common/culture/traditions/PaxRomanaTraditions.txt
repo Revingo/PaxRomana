@@ -85,7 +85,7 @@ tradition_pure_family = {
 	}
 
 	character_modifier = {
-		genetic_trait_strengthen_chance = 0.2
+		positive_random_genetic_chance = 0.2
 		close_relative_opinion = 5
 	}
 

@@ -1,0 +1,4 @@
+rf_steppe = {
+	graphical_faith = "steppe_gfx" #placeholder
+	hostility_doctrine = pagan_hostility_doctrine
+}

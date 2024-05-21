@@ -54,7 +54,7 @@
 		{ name = "holy_order_serpents_of_hades"}
 	}
 
-	holy_order_maa = { praetorian }
+	holy_order_maa = { praetorian } #place holder
 
 	localization = {
 		#High God Name
@@ -219,16 +219,13 @@
 		h_hellenic = {
 			color = { 0.94 0.97 1.0 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
 
 			#change to: athens, alexandria, pella, babylon, byzantium
-			holy_site = rome
+			holy_site = pella
 			holy_site = athens
-			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
-
-			doctrine = unreformed_faith_doctrine
+			holy_site = delphi
+			holy_site = babylon
+			holy_site = byzantium
 
 			doctrine = tenet_astrology
 			doctrine = tenet_communal_identity
@@ -238,42 +235,52 @@
 		p_hellenic = {
 			color = { 0.2 0.2 0.6 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
 
+			#change to: athens, alexandria, Thebes, babylon, byzantium
 			holy_site = rome
-			holy_site = athens
+			holy_site = luxor
 			holy_site = alexandria
-			holy_site = carthage
-			holy_site = olympus
+			holy_site = babylon
+			holy_site = byzantium
 
-			doctrine = unreformed_faith_doctrine
+			traits = {
+				virtues = { generous just pure_blooded }
+				sins = { greedy arbitrary gluttonous }
+			}
+			#Main Group
+			doctrine = doctrine_temporal_head
 
-			doctrine = doctrine_spiritual_head
-
+			#Marriage
 			doctrine = doctrine_consanguinity_unrestricted
+
+			#Clerical Functions
+			doctrine = doctrine_funeral_mummification
 
 			doctrine = tenet_astrology
 			doctrine = tenet_communal_identity
-			doctrine = tenet_esotericism
+			doctrine = tenet_divine_marriage
 		}
 
 		#still need to add the right localization for the gods
 		r_hellenic = {
 			color = { 0.4 0.01 0.24 }
 			icon = hellenic
-			reformed_icon = hellenic_reformed
 
+			#holy sites: rome, athens, carthage, alexandria, mount olympus
 			holy_site = rome
 			holy_site = athens
 			holy_site = alexandria
 			holy_site = carthage
 			holy_site = olympus
 
-			doctrine = unreformed_faith_doctrine
+			#Marriage
+			doctrine = doctrine_monogamy
+			doctrine = doctrine_divorce_approval
 
+			#Tenents
 			doctrine = tenet_astrology
 			doctrine = tenet_warmonger
-			doctrine = tenet_esotericism
+			doctrine = tenet_adaptive
 
 			holy_order_names = {
 				{ name = "holy_order_vulcan_hammers"}
@@ -281,6 +288,70 @@
 				{ name = "holy_order_legions_of_pluto"}
 				{ name = "holy_order_falcons_of_mercury"}
 				{ name = "holy_order_chariots_of_diana"}
+			}
+
+			localization = {
+				#High God Name
+				HighGodName = roman_high_god_name
+				HighGodName2 = roman_high_god_name
+				HighGodNamePossessive = roman_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+		
+				#HealthGod
+				HealthGodName = roman_health_god_name
+				HealthGodNamePossessive = roman_health_god_name_possessive
+				HealthGodSheHe = CHARACTER_SHEHE_HE
+				HealthGodHerHis = CHARACTER_HERHIS_HIS
+				HealthGodHerHim = CHARACTER_HERHIM_HIM
+				
+				#FertilityGod
+				FertilityGodName = roman_fertility_god_name
+				FertilityGodNamePossessive = roman_fertility_god_name_possessive
+		
+				#WealthGod
+				WealthGodName = roman_wealth_god_name
+				WealthGodNamePossessive = roman_wealth_god_name_possessive
+		
+				#HouseholdGod
+				HouseholdGodName = roman_household_god_name
+				HouseholdGodNamePossessive = roman_household_god_name_possessive
+		
+				#FateGod
+				FateGodName = roman_fate_god_name
+				FateGodNamePossessive = roman_fate_god_name_possessive
+		
+				#KnowledgeGod
+				KnowledgeGodName = roman_knowledge_god_name
+				KnowledgeGodNamePossessive = roman_knowledge_god_name_possessive
+		
+				#WarGod
+				WarGodName = roman_war_god_name
+				WarGodNamePossessive = roman_war_god_name_possessive
+		
+				#TricksterGod
+				TricksterGodName = roman_trickster_god_name
+				TricksterGodNamePossessive = roman_trickster_god_name_possessive
+		
+				#WaterGod
+				WaterGodName = roman_water_god_name
+				WaterGodNamePossessive = roman_water_god_name_possessive
+
+
+				GoodGodNames = { roman_water_god_name roman_knowledge_god_name roman_war_god_name hellenism_good_god_apollo roman_good_god_diana roman_trickster_god_name roman_good_god_venus }
+				EvilGodNames = { roman_evlig_god_furiae }
+				PositiveAfterLife = roman_death_deity_name
+				PositiveAfterLife2 = roman_death_deity_name_2
+				PositiveAfterLife3 = roman_death_deity_name_3
+				NegativeAfterLife = roman_death_deity_name
+				NegativeAfterLife2 = roman_death_deity_name_2
+				NegativeAfterLife3 = roman_death_deity_name_3
+				DeathDeityName = roman_death_deity_name
+				DeathDeityNamePossessive = roman_death_deity_name_possessive
+				DeathDeitySheHe = CHARACTER_SHEHE_HE
+				DeathDeityHerHis = CHARACTER_HERHIS_HIS
+				DeathDeityHerHim = CHARACTER_HERHIM_HIM
 			}
 		}
 	}

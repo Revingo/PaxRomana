@@ -1,0 +1,4 @@
+rf_african = {
+	graphical_faith = "african_gfx" #placeholder name, no real icon yet
+	hostility_doctrine = pagan_hostility_doctrine
+}

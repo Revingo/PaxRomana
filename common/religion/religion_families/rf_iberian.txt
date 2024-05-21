@@ -1,0 +1,4 @@
+﻿rf_iberian = {
+	graphical_faith = "iberian_gfx" #placeholder name, no real icon yet
+	hostility_doctrine = pagan_hostility_doctrine
+}

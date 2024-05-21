@@ -1,0 +1,53 @@
+﻿l_english:
+ phoenecian_religion: "Phoenecian Religions"
+ phoenecian_religion_adj: "Phoenecian"
+ phoenecian_religion_desc: "The $phoenecian_religion$ are derived from polytheistic ancient Canaanite religion. Religious sacrifices are not uncommon."
+ rf_phoenecian: "Phoenecian Religions"
+ rf_phoenecian_desc: "The $phoenecian_religion$ are derived from polytheistic ancient Canaanite religion. Religious sacrifices are not uncommon."
+ r_carthaginian: "Punic"
+ r_carthaginian_adj: "Punic"
+ r_carthaginian_adherent: "Punico"
+ r_carthaginian_adherent_plural: "Punicos"
+ r_carthaginian_desc: "The $r_carthaginian_adj$ religion derived from $phoenecian_religion_adj$ faith and mixed with Greek, North African and even Latin faiths."
+
+
+ holy_order_of_baal_hammon: "Order of Baal Hammon"
+ holy_order_brotherhood_of_the_silver_crescent: "Brotherhood of the Silver Crescent"
+ holy_order_astartians_of_the_crimson_rose: "Astarians of the Crimson Rose"
+ holy_order_hannos_champions_of_the_obsidian_tower: "Hanno's Champions of the Obsidian Tower"
+
+ #Dieties
+ carthaginian_high_god_name: "Baal Hammon"
+ carthaginian_high_god_name_possessive: "Baal Hamon's"
+ carthaginian_health_god_name: "Eshmun"
+ carthaginian_health_god_name_possessive: "Eshmun's"
+ carthaginian_fertility_god_name: "Tanit"
+ carthaginian_fertility_god_name_possessive: "Tanit's"
+ carthaginian_wealth_god_name: "Rasap"
+ carthaginian_wealth_god_name_possessive: "Rasap's"
+ carthaginian_household_god_name: "Melqart"
+ carthaginian_household_god_name_possessive: "Melqart's"
+ carthaginian_night_god_name: "Baal Shamim"
+ carthaginian_night_god_name_possessive: "Baal Shamin's"
+ carthaginian_water_god_name: "Baal Sapon"
+ carthaginian_water_god_name_possessive: "Baal Sapon's"
+ carthaginian_pantheon_name: "Gods of Carthage"
+ carthaginian_devil_name: "Kore"
+ carthaginian_devil_name_possessive: "Kore's"
+ carthaginian_house_of_worship: "Qodesh Ba'alim" #fictional
+ carthaginian_house_of_worship_plural: "Qodesh Ba'alims" #fictional
+ carthaginian_religious_symbol: "Sign of Tanit"
+ carthaginian_religious_text: "Hammunit Katabim" #fictional
+ carthaginian_religious_head_title: "Rosh Qodesh" #fictional
+ carthaginian_religious_head_title_name: "Machaneh Roshai Qodesh" #fictional
+ carthaginian_devotee_male: "Qadishim" #fictional
+ carthaginian_devotee_male_plural: "Qadishims" #fictional
+ carthaginian_priest: "Khnm"
+ carthaginian_priest_plural: "Khnms"
+ carthaginian_bishop: "Rb Khnm"
+ carthaginian_bishop_plural: "Rb Khnms"
+ carthaginian_divine_realm: "Kadosh Memshalah" #fictional
+ carthaginian_afterlife: "Chayei Olam" #fictional
+ carthaginian_witchgod_name: "Isis"
+ carthaginian_witchgod_name_possessive: "Isis'"
+ 

@@ -1,0 +1,36 @@
+﻿l_english:
+ rf_dacian: "Dacian"
+ rf_dacian_adj: "Dacian"
+ dacian_religion: "Dacian Religions"
+ dacian_religion_adj: "Dacian"
+ dacian_religion_desc: "The $dacian_religion$ revolved principally around the cult of Zalmoxis, probably equivalent of the greek Salmoxis, who was likely their only diety, making them monotheistic."
+ zalmoxism: "Zalmoxism"
+ zalmoxism_adj: "Zalmoxist"
+ zalmoxism_adherent: "Zalmoxi"
+ zalmoxism_adherent_plural: "Zalmoxis"
+ zalmoxism_old: "Old Zalmoxism"
+ zalmoxism_old_adj: "Old Zalmoxist"
+ zalmoxism_old_adherent: "Old Zalmoxi"
+ zalmoxism_old_adherent_plural: "Old Zalmoxis"
+
+ #Dieites
+ dacian_high_god_name: "Zalmoxis"
+ dacian_high_god_name_possessive: "Zlamoxis'"
+ dacian_pantheon_name: "Zalmoxizda" #fictional
+ dacian_devil_name: "Drukutas" #fictional
+ dacian_devil_name_possessive: "Drukutas'" #fictional
+ dacian_house_of_worship: "Zalmoxistam" #fictional
+ dacian_house_of_worship: "Zalmoxistams" #fictional
+ dacian_religious_symbol: "The Moutains"
+ dacian_religious_symbol_2: "The Snake"
+ dacian_religious_symbol_3: "The Moon"
+ dacian_religious_text: "Zalmoxvele" #fictional
+ dacian_religious_head_title: "Zalmoxovate" #fictional
+ dacian_religious_head_title_name: "High Priests Council"
+ dacian_devotee_male: "Davonusi" #fictional
+ dacian_devotee_male_plural: "Davonusis" #fictional
+ dacian_priest: "Zalmoxist Druid" #fictional
+ dacian_priest_plural: "Zalmoxist Druids" #fictional
+ dacian_bishop: "Zalmoxist Archdruid" #fictional
+ dacian_bishop_plural: "Zalmoxist Archdruids" #fictional
+ dacian_negative_afterlife: "Denebriva" #fictional

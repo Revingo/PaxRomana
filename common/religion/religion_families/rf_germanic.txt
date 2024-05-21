@@ -1,0 +1,4 @@
+rf_germanic = {
+	graphical_faith = "pagan_gfx" #placeholder
+	hostility_doctrine = pagan_hostility_doctrine
+}

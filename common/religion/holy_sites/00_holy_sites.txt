@@ -514,15 +514,6 @@ semien = {
 	}
 }
 
-sufed = {
-	county = c_acre
-
-	character_modifier = {
-		name = holy_site_sufed_effect_name
-		same_faith_opinion = 10
-	}
-}
-
 gerizim = {
 	county = c_jerusalem
 	barony = b_nablus
@@ -1504,15 +1495,6 @@ athens = {
 	}
 }
 
-carthage = {
-	county = c_tunis
-
-	character_modifier = {
-		name = holy_site_carthage_effect_name
-		dread_baseline_add = 5
-	}
-}
-
 olympus = {
 	county = c_thessalia
 	barony = b_servia
@@ -2055,5 +2037,478 @@ suzhou = {
 		name = holy_site_suzhou_effect_name
 		diplomacy = 1
 		martial = 1
+	}
+}
+
+#Pax Romana
+carthage = {
+	county = c_tunis
+
+	character_modifier = {
+		name = holy_site_carthage_effect_name
+		dread_baseline_add = 5
+	}
+}
+
+sidon = {
+	county = c_beirut 
+
+	character_modifier = {
+		name = holy_site_sidon_effect_name
+		monthly_prestige_gain_mult = 0.1
+	}
+}
+
+nova_carthago = {
+	county = c_murcia
+
+	character_modifier = {
+		name = holy_site_nova_carthago_effect_name
+		controlled_province_advantage = 0.15
+	}
+}
+
+karalis = {
+	county = c_cagliari
+
+	character_modifier = {
+		name = holy_site_karalis_effect_name
+		tax_mult = 0.1
+	}
+}
+
+cyrene = {
+	county = c_derna
+
+	character_modifier = {
+		name = holy_site_cyrene_effect_name
+		learning = 1
+		martial = 1
+	}
+}
+
+numantia = {
+	county = c_soria
+
+	character_modifier = {
+		name = holy_site_numantia_effect_name
+		faith_conversion_piety_cost_mult = -0.2
+	}
+}
+
+segeda = {
+	county = c_zaragoza
+
+	character_modifier = {
+		name = holy_site_segeda_effect_name
+		stewardship = 1
+	}
+}
+
+tartessos = {
+	county = c_niebla
+
+	character_modifier = {
+		name = holy_site_tartessos_effect_name
+		intrigue_per_piety_level = 0.1
+	}
+}
+
+osuna = {
+	county = c_sevilla
+
+	character_modifier = {
+		name = holy_site_osuna_effect_name
+		martial_per_piety_level = 0.1
+	}
+}
+
+camas = {
+	county = c_sevilla
+
+	character_modifier = {
+		name = holy_site_camas_effect_name
+		domain_tax_same_faith_mult = 0.2
+	}
+}
+
+gadir = {
+	county = c_cadiz
+
+	character_modifier = {
+		name = holy_site_gadir_effect_name
+		martial_scheme_power = 15
+	}
+}
+
+cave_of_the_devil = {
+	county = c_cabra
+
+	character_modifier = {
+		name = holy_site_cave_of_the_devil_effect_name
+		monthly_piety_gain_per_dread_mult  = 0.22
+	}
+}
+
+contrebia_belaisca = { #Botorrita
+	county = c_calatayud
+
+	character_modifier = {
+		name = holy_site_contrebia_belaisca_effect_name
+		title_creation_cost_mult = -0.1
+	}
+}
+
+mount_bernorio = {
+	county = c_najera
+
+	character_modifier = {
+		name = holy_site_mount_bernorio_effect_name
+		fort_level = 1
+	}
+}
+
+pella = {
+	county = c_thessalonika
+
+	character_modifier = {
+		name = holy_site_pella_effect_name
+		levy_reinforcement_rate_friendly_territory = 0.2
+	}
+}
+
+babylon = {
+	county = c_iskaf
+
+	character_modifier = {
+		name = holy_site_babylon_effect_name
+		monthly_court_grandeur_change_mult = 0.2
+	}
+}
+
+byzantium = {
+	county = c_byzantion
+
+	character_modifier = {
+		name = holy_site_byzantium_effect_name
+		legitimacy_gain_mult  = 0.1
+	}
+}
+
+luxor = {
+	county = c_qus
+
+	character_modifier = {
+		name = holy_site_luxor_effect_name
+		desert_development_growth = 0.2
+	}
+}
+
+naucratis = {
+	county = c_al-buhaira
+
+	character_modifier = {
+		name = holy_site_naucratis_effect_name
+		different_culture_opinion  = 15
+		opinion_of_different_culture = 15
+	}
+}
+
+ledra = { #cyprus
+	county = c_nicosia
+
+	character_modifier = {
+		name = holy_site_ledra_effect_name
+		learning_per_piety_level = 0.1
+	}
+}
+
+tyre = {
+	county = c_acre
+
+	character_modifier = {
+		name = holy_site_tyre_effect_name
+		same_faith_opinion = 10
+	}
+}
+
+sarmizegetusa_regia = {
+	county = c_hunyad
+
+	character_modifier = {
+		name = holy_site_sarmizegetusa_regia_effect_name
+		defender_holding_advantage = 5
+	}
+}
+
+delphi = {
+	county = c_boeotia
+
+	character_modifier = {
+		name = holy_site_delphi_effect_name
+		monthly_piety_gain_mult = 0.25
+	}
+}
+
+hattusa = {
+	county = c_euchaita
+
+	character_modifier = {
+		name = holy_site_hattusa_effect_name
+		dread_baseline_add = 3
+	}
+}
+
+biskupin = {
+	county = c_gnieznienska
+
+	character_modifier = {
+		name = holy_site_biskupin_effect_name
+		same_culture_mercenary_hire_cost_mult = -0.15
+	}
+}
+
+carnutes_grove = {
+	county = c_chartres
+
+	character_modifier = {
+		name = holy_site_carnutes_grove_effect_name
+		faith_conversion_piety_cost_mult  = -0.3
+	}
+}
+
+sein_island = {
+	county = c_cornouaille
+
+	character_modifier = {
+		name = holy_site_sein_island_effect_name
+		tribal_holding_build_speed = -0.3
+	}
+}
+
+bibracte = {
+	county = c_avalois
+
+	character_modifier = {
+		name = holy_site_bibracte_effect_name
+		stewardship_per_piety_level = 0.1
+	}
+}
+
+rennes-les-bains = {
+	county = c_carcassonne
+
+	character_modifier = {
+		name = holy_site_rennes-les-bains_effect_name
+		stress_loss_per_piety_level = 0.1
+	}
+}
+glastonbury_tor = {
+	county = c_somerset
+
+	character_modifier = {
+		name = holy_site_glastonbury_tor_effect_name
+		levy_maintenance = -0.2
+	}
+}
+
+ynys_mon = {
+	county = c_anglesey
+
+	character_modifier = {
+		name = holy_site_ynys_mon_effect_name
+		hills_attrition_mult = -0.22
+	}
+}
+
+hill_of_tara = {
+	county = c_dublin
+
+	character_modifier = {
+		name = holy_site_hill_of_tara_effect_name
+		faith_conversion_piety_cost_mult = -0.22
+	}
+}
+
+bath = {
+	county = c_wiltshire
+
+	character_modifier = {
+		name = holy_site_bath_effect_name
+		hills_development_growth_factor = 0.15
+	}
+}
+
+mynydd = {#Mynydd Carn y Cefn
+	county = c_brecknockshire
+
+	character_modifier = {
+		name = holy_site_mynydd_effect_name
+		domain_tax_mult  = 0.1
+	}
+}
+
+gobekli = {
+	county = c_nasibin
+
+	character_modifier = {
+		name = holy_site_gobekli_effect_name
+		monthly_dynasty_prestige_mult = 0.1
+	}
+}
+
+petra = {
+	county = c_kerak
+
+	character_modifier = {
+		name = holy_site_petra_effect_name
+		desert_travel_danger = -10
+		desert_levy_size = 100
+	}
+}
+
+mount_ararat = {
+	county = c_samosata
+
+	character_modifier = {
+		name = holy_site_mount_ararat_effect_name
+		mountains_advantage = 0.3
+	}
+}
+
+preslav = {
+	county = c_turnovo
+
+	character_modifier = {
+		name = holy_site_preslav_effect_name
+		vassal_levy_contribution_mult  = 0.25
+	}
+}
+
+qazvin = {
+	county = c_qazwin
+
+	character_modifier = {
+		name = holy_site_qazvin_effect_name
+		intimidated_vassal_levy_contribution_mult = 0.25
+	}
+}
+
+zamwa = { #sulaymaniyah
+	county = c_irbil
+
+	character_modifier = {
+		name = holy_site_zamwa_effect_name
+		same_culture_holy_order_hire_cost_mult = -0.18
+	}
+}
+
+nitra = {
+	county = c_nyitra
+
+	character_modifier = {
+		name = holy_site_nitra_effect_name
+		knight_effectiveness_per_dread = 2
+	}
+}
+
+mallorca = { #instead of Madiera
+	county = c_mallorca
+
+	character_modifier = {
+		name = holy_site_mallorca_effect_name
+		monthly_county_control_decline_factor = -0.2
+	}
+}
+
+syracusa = {
+	county = c_siracusa
+
+	character_modifier = {
+		name = holy_site_syracusa_effect_name
+		learning_per_piety_level = 2
+	}
+}
+
+externsteine = {
+	county = c_marburg
+
+	character_modifier = {
+		#name = holy_site_sidon_effect_name
+		build_piety_cost = -250
+	}
+}
+
+hallstatt = {
+	county = c_hallstatt
+
+	character_modifier = {
+		name = holy_site_hallstatt_effect_name
+		stewardship_per_stress_level  = 2
+	}
+}
+
+vosges_mountains = {
+	county = c_nancy
+
+	character_modifier = {
+		name = holy_site_vosges_mountains_effect_name
+		forest_travel_danger  = -20
+	}
+}
+
+thors_oak = { #Donar's Oak
+	county = c_hohenlohe
+
+	character_modifier = {
+		name = holy_site_thors_oak_effect_name
+		dread_gain_mult = 0.25
+		monthly_piety_gain_mult = 0.2
+	}
+}
+
+rheinegau = { 
+	county = c_frankfurt
+
+	character_modifier = {
+		name = holy_site_rheinegau_effect_name
+		monthly_prestige_gain_mult = 0.2
+	}
+}
+
+scythian_neapolis = { 
+	county = c_kerch
+
+	character_modifier = {
+		name = holy_site_scythian_neapolis_effect_name
+		monthly_prestige_gain_mult = 0.1
+		different_culture_opinion = 10
+	}
+}
+
+don_river = { 
+	county = c_golden_hills
+
+	character_modifier = {
+		name = holy_site_don_river_effect_name
+		defender_advantage = 5
+	}
+}
+
+dobruja = { 
+	county = c_constanta
+
+	character_modifier = {
+		name = holy_site_dobruja_effect_name
+		learning = 2
+	}
+}
+
+pannonia_basin = { 
+	county = c_csongrad
+
+	character_modifier = {
+		name = holy_site_pannonia_basin_effect_name
+		plains_development_growth_factor = 0.25
 	}
 }
