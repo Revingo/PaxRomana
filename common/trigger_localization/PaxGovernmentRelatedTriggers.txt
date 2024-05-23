@@ -1,0 +1,15 @@
+cant_create_tribal_or_city-state = {
+	global = LANDED_TITLES_cant_create_tribal_or_city-state
+}
+auctoritas_500_and_tribal_or_city_state_tooltip = {
+	global = GOVERNMENT_auctoritas_500_and_tribal_or_city_state_tooltip
+	global_not = GOVERNMENT_auctoritas_500_and_tribal_or_city_state_tooltip
+}
+auctoritas_600_and_tribal_or_city_state_tooltip = {
+	global = GOVERNMENT_auctoritas_600_and_tribal_or_city_state_tooltip
+	global_not = GOVERNMENT_auctoritas_600_and_tribal_or_city_state_tooltip
+}
+auctoritas_700_and_tribal_or_city_state_tooltip = {
+	global = GOVERNMENT_auctoritas_700_and_tribal_or_city_state_tooltip
+	global_not = GOVERNMENT_auctoritas_700_and_tribal_or_city_state_tooltip
+}

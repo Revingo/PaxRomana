@@ -1,0 +1,155 @@
+﻿
+has_partition_succession_realm_law_trigger = {
+	OR = {
+		has_realm_law = confederate_partition_succession_law
+		has_realm_law = partition_succession_law
+		has_realm_law = high_partition_succession_law
+		has_realm_law = clan_antagonistic_partition_succession_law
+		has_realm_law = clan_competitive_partition_succession_law
+		has_realm_law = clan_impassive_partition_succession_law
+		has_realm_law = clan_friendly_partition_succession_law
+		has_realm_law = clan_harmonious_partition_succession_law
+	}
+}
+
+can_have_confederate_partition_succession_law_trigger = {
+	custom_description = {
+		text = auctoritas_500_and_tribal_or_city_state_tooltip
+
+		government_has_flag = government_is_tribal
+
+	}
+}
+
+can_keep_partition_succession_law_trigger = {
+	# The 'can_keep' triggers are dependent on actually having the law. If they aren't, the trigger breakdown for the player breaks and shows incomplete information.
+	OR = {
+		has_realm_law = partition_succession_law
+		NOT = { government_has_flag = government_is_clan }
+	}
+}
+
+can_have_partition_succession_law_trigger = {
+	custom_description = {
+		text = auctoritas_600_and_tribal_or_city_state_tooltip
+		AND = {
+			auctoritas_value >= 600
+			government_has_flag = government_is_tribal
+		}
+	}
+}
+
+can_keep_high_partition_succession_law_trigger = {
+	# The 'can_keep' triggers are dependent on actually having the law. If they aren't, the trigger breakdown for the player breaks and shows incomplete information.
+	OR = {
+		has_realm_law = high_partition_succession_law
+		NOT = { government_has_flag = government_is_clan}
+	}
+}
+
+can_have_high_partition_succession_law_trigger = {
+	custom_description = {
+		text = auctoritas_700_and_tribal_or_city_state_tooltip
+		AND = {
+			auctoritas_value >= 700
+			government_has_flag = government_is_tribal
+		}
+	}
+}
+
+can_keep_single_heir_succession_law_trigger = {
+	# The 'can_keep' triggers are dependent on actually having the law. If they aren't, the trigger breakdown for the player breaks and shows incomplete information.
+	trigger_if = {
+		limit = {
+			has_realm_law = single_heir_succession_law
+		}
+		OR = {
+			can_have_single_heir_succession_law_trigger = yes
+			# Byzantine Empire
+			historical_succession_access_single_heir_succession_law_trigger = yes
+		}
+	}
+}
+
+can_have_single_heir_succession_law_trigger = {
+	culture = {
+		has_innovation = innovation_primogeniture
+	}
+	# Non-tribals only
+	custom_description = {
+		text = succession_laws_must_have_organised_government_tooltip
+		OR = {
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_clan
+		}
+	}
+}
+
+can_keep_single_heir_youngest_succession_law_trigger = {
+	# The 'can_keep' triggers are dependent on actually having the law. If they aren't, the trigger breakdown for the player breaks and shows incomplete information.
+	trigger_if = {
+		limit = {
+			has_realm_law = single_heir_succession_law_youngest
+		}
+		OR = {
+			can_have_single_heir_youngest_succession_law_trigger = yes
+			historical_succession_access_single_heir_succession_law_youngest_trigger = yes
+		}
+	}
+}
+
+can_have_single_heir_youngest_succession_law_trigger = {
+	culture = {
+		has_innovation = innovation_primogeniture
+	}
+	# Non-tribals only
+	custom_description = {
+		text = succession_laws_must_have_organised_government_tooltip
+		OR = {
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_clan
+		}
+	}
+}
+
+can_keep_single_heir_dynasty_house_trigger = {
+	# The 'can_keep' triggers are dependent on actually having the law. If they aren't, the trigger breakdown for the player breaks and shows incomplete information.
+	trigger_if = {
+		limit = {
+			has_realm_law = single_heir_dynasty_house
+		}
+		OR = {
+			can_have_single_heir_dynasty_house_trigger = yes
+			historical_succession_access_single_heir_dynasty_house_trigger = yes
+		}
+	}
+}
+
+can_have_single_heir_dynasty_house_trigger = {
+	exists = house
+	trigger_if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_west_slavic
+					NOT = {	has_innovation = innovation_heraldry }
+				}
+			}
+		}
+		culture = {
+			has_innovation = innovation_table_of_princes
+		}
+	}
+	trigger_else = {
+		culture = {
+			has_innovation = innovation_heraldry
+		}
+	}
+	custom_description = {
+		text = succession_laws_must_have_organised_government_tooltip
+		OR = {
+			government_has_flag = government_is_feudal
+			government_has_flag = government_is_clan
+		}
+	}
+}
