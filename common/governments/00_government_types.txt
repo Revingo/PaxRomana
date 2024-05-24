@@ -164,7 +164,7 @@ clan_government = {
 }
 
 tribal_government = {
-	rulers_should_have_dynasty = no
+	rulers_should_have_dynasty = yes
 	affected_by_development = no
 	dynasty_named_realms = yes
 	regiments_prestige_as_gold = yes
@@ -246,4 +246,34 @@ holy_order_government = {
 	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
 	flag = government_is_holy_order
 	color = hsv{ 0.00 0.00 0.66 }
+}
+
+city-state_government = {
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = no
+	primary_holding = castle_holding
+	required_county_holdings = { castle_holding }
+	legitimacy = yes
+	fallback = 1
+
+	valid_holdings = { castle_holding }
+
+	vassal_contract = { tribal_government_obligations }
+
+	ai = {
+		use_legends = yes
+	}
+
+	character_modifier = {
+		city-state_government_opinion = 20
+	
+		levy_size = 0.15
+
+		ai_war_chance = 0.20
+		monthly_prestige = 0.2
+	}
+	
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flag = government_is_city-state
+	color = hsv{ 0.02 0.75 0.36 }
 }

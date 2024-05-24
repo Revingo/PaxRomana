@@ -4,7 +4,7 @@ pc_2 = {
 	dynasty = p_2
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -14,7 +14,7 @@ pc_3 = {
 	dynasty = p_3
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -24,7 +24,7 @@ pc_4 = {
 	dynasty = p_4
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -34,7 +34,7 @@ pc_5 = {
 	dynasty = p_5
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -43,7 +43,7 @@ pc_6 = {
 	dynasty = p_6
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -52,7 +52,7 @@ pc_7 = {
 	dynasty = p_7
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -61,7 +61,7 @@ pc_8 = {
 	dynasty = p_8
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -70,7 +70,7 @@ pc_9 = {
 	dynasty = p_9
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -79,7 +79,7 @@ pc_10 = {
 	dynasty = p_10
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -88,7 +88,7 @@ pc_11 = {
 	dynasty = p_3
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -97,7 +97,7 @@ pc_12 = {
 	dynasty = p_11
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -106,7 +106,7 @@ pc_13 = {
 	dynasty = p_12
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -115,7 +115,7 @@ pc_14 = {
 	dynasty = p_5
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -124,7 +124,7 @@ pc_15 = {
 	dynasty = p_13
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -133,7 +133,7 @@ pc_16 = {
 	dynasty = p_8
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -142,7 +142,7 @@ pc_17 = {
 	dynasty = p_14
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -151,7 +151,7 @@ pc_18 = {
 	dynasty = p_1
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -160,7 +160,7 @@ pc_19 = {
 	dynasty = p_15
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }
@@ -169,7 +169,7 @@ pc_20 = {
 	dynasty = p_16
 	religion = druidism
 	culture = gallic
-	250.1.1 = { #289 BC
+	460.1.1 = { #293 BCE
 		birth = yes
 	}
 }

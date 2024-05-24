@@ -3,7 +3,7 @@ uc_1 = {
 	dynasty = din_19
 	religion = r_hellenic
 	culture = umbrian
-	250.1.1 = { #308 BC
+	445.1.1 = { #308 BCE
 		birth = yes
 	}
 }

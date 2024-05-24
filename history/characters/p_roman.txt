@@ -1,9 +1,19 @@
-pc_1 = {
+rc_1 = {
 	name = "Manius"
 	dynasty = p_1
 	religion = r_hellenic
 	culture = roman
-	263.1.1 = { #289 BC
+	464.1.1 = { #289 BCE
+		birth = yes
+	}
+}
+
+rc_2 = {
+	name = "Marcus"
+	dynasty = din_19
+	religion = r_hellenic
+	culture = roman
+	445.1.1 = { #308 BCE
 		birth = yes
 	}
 }
