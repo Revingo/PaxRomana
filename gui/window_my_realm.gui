@@ -1865,13 +1865,7 @@ window = {
 					}
 				}
 
-				### CITY-STATE LEAGUE WINDOW
-				vbox = {
-					name = tab_league
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					visible = "[Character.GetGovernment.IsType('city-state_government')]"
-				}
+				
 
 				vbox = {
 					visible = "[Or( MyRealmWindow.IsShowingDomain, MyRealmWindow.IsShowingVassals)]"
@@ -2271,6 +2265,62 @@ window = {
 								}
 
 								vassal_contract_not_default_icon = {}
+							}
+						}
+					}
+				}
+				### CITY-STATE LEAGUE WINDOW
+				vbox = {
+					name = tab_league
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'league')]"
+
+					state = {
+						name = _show
+						using = Animation_FadeIn_Quick
+					}
+
+					state = {
+						name = _hide
+						alpha = 0
+					}
+
+					scrollbox = {
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+						blockoverride "scrollbox_content" {
+							vbox = {
+								datamodel = "[MyRealmWindow.GetDomainItems]"
+								layoutpolicy_horizontal = expanding
+								spacing = 25
+
+								item = {
+									vbox = {
+										layoutpolicy_horizontal = expanding
+										name = "league_group"
+
+										hbox = {
+											layoutpolicy_horizontal = expanding
+
+											hbox = {
+												spacing = 5
+												coa_realm_medium = {
+													datacontext = "[TitleItem.GetTitle]"
+													using = tooltip_ws
+												}
+
+												text_label_center = {
+													text = "The City-State of [GetPlayer.GetPrimaryTitle.GetNameNoTier] isn't in any League yet"
+													using = Font_Size_Medium
+													default_format = "#bold"
+												}
+											}
+										}
+
+										expand = { }
+									}
+								}
 							}
 						}
 					}
