@@ -2,7 +2,7 @@
  SELECT_CHARACTER_ON_MAP:0 "Choose a Character on the Map."
 
  #Dynamically changes the date displayed
- PICK_ANY_CHARACTER:5 "Play as any Ruler in #bold [Abs_int32(Subtract_int32(GameSetup.GetSelectedBookmark.GetDate.GetYear, FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32(GameSetup.GetSelectedBookmark.GetDate.GetYear, FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]#!, or #bold create your own!#!"
+ PICK_ANY_CHARACTER: "Play as any Ruler in #bold [Abs_int32(Subtract_int32(GameSetup.GetSelectedBookmark.GetDate.GetYear, FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32(GameSetup.GetSelectedBookmark.GetDate.GetYear, FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]#!, or #bold create your own!#!"
 
  BOOKMARK_DISABLED:0 "This Bookmark is disabled"
  BOOKMARK_NOT_PICKED_CHARACTER:0 "Choose a Character in the Bookmark before starting the game. Or, choose freely by clicking 'Choose any Character'."
