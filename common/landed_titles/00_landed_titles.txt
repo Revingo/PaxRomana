@@ -38233,20 +38233,8 @@ d_ulster = {
 	landless = yes
 }
 
-d_connacht = {
-	color = { 43 229 108 }
-	capital = c_roma
-	landless = yes
-}
-
 d_leinster = {
 	color = { 85 211 27 }
-	capital = c_roma
-	landless = yes
-}
-
-d_munster = {
-	color = { 16 157 12 }
 	capital = c_roma
 	landless = yes
 }
@@ -38575,42 +38563,6 @@ k_thessalonika = {
 	landless = yes
 }
 
-d_thrace = {
-	color = { 180 25 100 }
-	capital = c_roma
-	landless = yes
-}
-
-d_strymon = {
-	color = { 49 43 135 }
-	capital = c_roma
-	landless = yes
-}
-
-d_aegean_islands = {
-	color = { 220 30 75 }
-	capital = c_roma
-	landless = yes
-}
-
-d_thessalonika = {
-	color = { 189 19 130 }
-	capital = c_roma
-	landless = yes
-}
-
-d_thessaly = {
-	color = { 170 30 165 }
-	capital = c_roma
-	landless = yes
-}
-
-k_epirus = {
-	color = { 139 68 114 }
-	capital = c_roma
-	landless = yes
-}
-
 d_epirus = {
 	color = { 134 63 109 }
 	capital = c_roma
@@ -38768,12 +38720,6 @@ d_philippopolis = {
 }
 
 k_cyprus = {
-	color = { 215 215 20 }
-	capital = c_roma
-	landless = yes
-}
-
-d_cyprus = {
 	color = { 215 215 20 }
 	capital = c_roma
 	landless = yes
@@ -41429,12 +41375,6 @@ d_bahrain = {
     landless = yes
 }
 
-d_oman = {
-    color = { 235 160 30 }
-    capital = c_roma
-    landless = yes
-}
-
 k_yemen = {
     color = { 218 234 33 }
 	capital = c_roma
@@ -41587,12 +41527,6 @@ d_antioch = {
 
 d_lebanon = {
     color = { 71 150 32 }
-    capital = c_roma
-    landless = yes
-}
-
-d_damascus = {
-    color = { 122 255 3 }
     capital = c_roma
     landless = yes
 }
