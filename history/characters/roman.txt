@@ -1,0 +1,25 @@
+unborn = {
+	name = "Unporn"
+	dynasty = unborn_dynasty
+	religion = r_hellenic
+	culture = roman
+	2353.1.1 = {
+		birth = yes
+	}
+}
+
+7769 = {
+	name = "Acacius"
+	religion = "catholic"
+	culture = "roman"
+	trait = diligent
+	trait = calm
+	trait = zealous
+	trait = education_diplomacy_3
+	2353.1.1 = {
+		birth = yes
+	}
+	2354.1.1 = {
+		death = yes
+	}
+}

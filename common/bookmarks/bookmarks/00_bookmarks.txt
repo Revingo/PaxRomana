@@ -1,0 +1,29 @@
+BCE_263_first_punic_war = {
+	start_date = 490.1.1
+	is_playable = yes
+	group = BCE_263_punic_wars
+
+	weight = {
+		value = 1
+	}
+
+	recommended = yes
+
+	# Manius Valerius Maximus Messalla ID: pc_1
+	character = {
+		name = "manius_valerius_maximus_messalla"
+		dynasty = p_1
+		dynasty_splendor_level = 2
+		type = male
+		birth = 464.1.1
+		title = e_roman_respublica
+		government = feudal_government
+		culture = roman
+		religion = hellenism_religion
+		difficulty = x
+		history_id = rc_1
+		position = { 1130 770 }
+
+		animation = marshal
+	}
+}

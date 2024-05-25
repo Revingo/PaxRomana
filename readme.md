@@ -19,3 +19,7 @@ The first thing we wanted to flash out are the new govern types. We decided to m
 ## Other changes
 The amount of changes is immeasurable! New MAAs, new Cultures and new Religions! A different map with different rulers, a new naval warfare mechanic is in plans and new flavours! We are also thinking about more start dates!
 Keep in contact and prepare to start your own Pax Romana!
+
+
+# Credits:
+We want to thank the Apotheosis mod team for the BCE/CE dating system

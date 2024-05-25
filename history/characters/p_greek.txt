@@ -1,0 +1,12 @@
+gc_1 = {
+	name = "Hiero"
+	dynasty = din_18
+	religion = h_hellenic
+	culture = greek
+	445.1.1 = { #308 BCE
+		birth = yes
+	}
+	538.1.1 = { #215 BCE
+		death = yes
+	}
+}

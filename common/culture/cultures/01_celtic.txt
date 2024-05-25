@@ -12,7 +12,7 @@ gallic = {
 		tradition_fp1_trials_by_combat
 	}
 	
-	name_list = name_list_occitan
+	name_list = name_list_welsh
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }

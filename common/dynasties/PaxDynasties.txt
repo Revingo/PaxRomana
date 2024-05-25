@@ -1,0 +1,94 @@
+p_1 = {
+	name = "dynn_valerius"
+	culture = roman
+}
+
+p_2 = {
+	name = dynn_finni
+	culture = gallic
+}
+
+p_3 = {
+	name = dynn_o_brian
+	culture = gallic
+}
+
+p_4 = {
+	name = dynn_whelani
+	culture = gallic
+}
+
+p_5 = {
+	name = dynn_doylei
+	culture = gallic
+}
+
+p_6 = {
+	name = dynn_guinness
+	culture = gallic
+}
+
+p_7 = {
+	name = dynn_ellise
+	culture = gallic
+}
+
+p_8 = {
+	name = dynn_duncans
+	culture = gallic
+}
+
+p_9 = {
+	name = dynn_morganw
+	culture = gallic
+}
+
+p_10 = {
+	name = dynn_mcginissi
+	culture = gallic
+}
+
+p_11 = {
+	name = dynn_dungans
+	culture = gallic
+}
+
+p_12 = {
+	name = dynn_kermodem
+	culture = gallic
+}
+
+p_13 = {
+	name = dynn_innes
+	culture = gallic
+}
+
+p_14 = {
+	name = dynn_macmathan
+	culture = gallic
+}
+
+p_15 = {
+	name = dynn_hennes
+	culture = gallic
+}
+
+p_16 = {
+	name = dynn_llywenlyn
+	culture = gallic
+}
+
+p_17 = {
+	name = dynn_mcgeei
+	culture = gallic
+}
+
+din_18 = {
+	name = dynn_hieronid
+	culture = greek
+}
+
+din_19 = {
+	name = dynn_mamertine
+	culture = umbrian
+}

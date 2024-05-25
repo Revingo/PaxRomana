@@ -1,0 +1,9 @@
+uc_1 = {
+	name = "Marcus"
+	dynasty = din_19
+	religion = r_hellenic
+	culture = umbrian
+	445.1.1 = { #308 BCE
+		birth = yes
+	}
+}
