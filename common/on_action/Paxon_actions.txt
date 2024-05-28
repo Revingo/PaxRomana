@@ -25,17 +25,45 @@ on_family_traitor = {
 	}
 }
 
-on_game_start = {
-	on_actions = {
-		on_auctoritas_set_variable
+on_create_league = {
+	trigger = {
+		is_ruler = yes
+		highest_held_title_tier >= 2
+		government_has_flag = government_is_city-state
+		NOT = {has_variable_list = league_list }
+		NOT = {has_variable = in_a_league }
+	}
+
+	effect = {
+		add_to_list = league_list
+		set_variable = {
+			name = in_a_league
+			value = yes
+		}
+		set_variable = {
+			name = is_league_leader
+			value = yes
+		}
 	}
 }
 
-on_auctoritas_set_variable = {
+on_add_to_league = {
+	trigger = {
+		is_ruler = yes
+		highest_held_title_tier >= 2
+		government_has_flag = government_is_city-state
+		NOT = {has_variable_list = league_list }
+		NOT = {has_variable = in_a_league }
+	}
+
 	effect = {
 		set_variable = {
-			name = auctoritas
-			value = auctoritas_value
+			name = in_a_league
+			value = root.primary_title
+		}
+		set_variable = {
+			name = is_league_leader
+			value = no
 		}
 	}
 }

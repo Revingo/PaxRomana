@@ -1,0 +1,48 @@
+﻿create_league_gui = {
+	scope = character
+
+	#trigger_event = {
+	#	on_action = on_create_league
+	#}
+	effect = {
+		add_to_variable_list = {
+			name = league_list
+			target = root
+		}
+		set_variable = {
+			name = in_a_league
+			value = yes
+		}
+		set_variable = {
+			name = is_league_leader
+			value = yes
+		}
+	}
+
+	is_shown = {
+		NOT = {
+			OR = {
+				AND = {
+					has_variable = in_a_league
+					var:in_a_league = yes
+				}
+				AND = {
+					has_variable = is_league_leader
+					var:is_league_leader = yes
+				}
+			}
+		}
+	}
+}
+
+is_league_leader_gui = {
+	scope = character
+
+	is_shown = {
+		AND = {
+			has_variable = is_league_leader
+			var:is_league_leader = yes 
+
+		}
+	}
+}
