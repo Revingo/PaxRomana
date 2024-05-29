@@ -2370,8 +2370,7 @@ window = {
 												}
 											}
 											scrollbox = {
-												layoutpolicy_horizontal = growing
-												layoutpolicy_vertical = growing
+												size = { 560 430 }
 	
 												blockoverride "scrollbox_content"{
 													#margin = { 20 10 }
@@ -2389,6 +2388,7 @@ window = {
 															using = Font_Size_Medium
 														}
 														item = {
+															layoutpolicy_vertical = expanding
 															hbox = {
 
 																layoutpolicy_vertical = growing
@@ -2435,7 +2435,7 @@ window = {
 												}
 											}
 											scrollbox = {
-												size = { 400 605 }
+												size = { 560 430 }
 	
 												blockoverride "scrollbox_content"{
 													#margin = { 20 10 }
@@ -2467,6 +2467,54 @@ window = {
 															}
 														}
 													}
+												}
+											}
+										}
+										vbox = {
+											layoutpolicy_horizontal = shrinking
+											layoutpolicy_vertical = shrinking
+											spacing = 15
+											visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+
+											text_label_center = {
+												raw_text = "League's Funds:"
+												using = Font_Size_Medium
+												default_format = "#bold"
+											}
+											hbox = {
+												spacing = 80
+												
+												text_label_left = { #only if Player is the League Leader
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													raw_text = "[gold_i] [GetPlayer.MakeScope.GetVariable('league_funds').GetValue]"
+													using = Font_Size_Medium
+												}
+												text_label_right = { #only if Player is the League Leader
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													raw_text = "[gold_i]+[FixedPointToFloat( GetPlayer.MakeScope.ScriptValue('quarterly_league_funds_increase') )]"
+													using = Font_Size_Medium
+													default_format = "#color_green"
+													tooltip = LOREM_IPSUM_DESCRIPTION
+												}
+												text_label_left = { #only if Player is NOT the League Leader
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													raw_text = "[gold_i] [GetPlayer.MakeScope.Var('league_owner').Var('funds_value').GetValue]"
+													using = Font_Size_Medium
+												}
+												text_label_center = { #only if Player is NOT the League Leader
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													raw_text = "[gold_i]+[FixedPointToFloat( GetPlayer.MakeScope.Var('league_owner').ScriptValue('quarterly_league_funds_increase') )]"
+													using = Font_Size_Medium
+													default_format = "#color_green"
+													tooltip = LOREM_IPSUM_DESCRIPTION
+												}
+												button_standard_small = {
+													name = "take_loan"
+													size = { 150 40 }
+		
+													raw_text = "Take 300[gold_i]"
+		
+													onclick = "[GetScriptedGui('create_league_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 												}
 											}
 										}

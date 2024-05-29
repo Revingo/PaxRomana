@@ -67,3 +67,28 @@ on_add_to_league = {
 		}
 	}
 }
+
+quarterly_playable_pulse = {
+	on_actions = {
+		on_league_funds_increase
+	}
+
+}
+
+on_league_funds_increase = {
+	trigger = {
+		is_ruler = yes
+		has_government = city-state_government
+		has_variable = funds_value
+	}
+
+	effect = {
+		set_variable = {
+			name = funds_value
+			value = {
+				value = 0
+				add = quarterly_league_funds_increase
+			}
+		}
+	}
+}

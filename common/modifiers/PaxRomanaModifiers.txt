@@ -10,3 +10,8 @@ family_traitor = {
 	dynasty_house_opinion = -10
 	close_relative_opinion = -10
 }
+
+league_funds = {
+	icon = economy_negative
+	monthly_income_mult = -0.1
+}

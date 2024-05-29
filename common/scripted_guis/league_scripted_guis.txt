@@ -17,6 +17,13 @@
 			name = is_league_leader
 			value = yes
 		}
+		add_character_modifier = {
+			modifier = league_funds
+		}
+		set_variable = {
+			name = funds_value
+			value = 0
+		}
 	}
 
 	is_shown = {

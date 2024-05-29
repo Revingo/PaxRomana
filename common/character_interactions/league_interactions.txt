@@ -114,6 +114,9 @@
 					name = league_owner
 					value = scope:actor
 				}
+				add_character_modifier = {
+					modifier = league_funds
+				}
 			}
 		}
 	}
