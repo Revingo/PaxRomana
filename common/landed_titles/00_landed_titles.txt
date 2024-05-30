@@ -22009,25 +22009,6 @@ e_alexander_makedon = {
 					color = { 234 90 21 }
 				}
 			}
-			c_uch = {
-				color = { 234 80 21 }
-
-				b_uch = {
-					province = 1337
-
-					color = { 234 80 21 }
-				}
-				b_derawar = {
-					province = 3409
-
-					color = { 234 80 21 }
-				}
-				b_chachran = {
-					province = 3408
-
-					color = { 234 80 21 }
-				}
-			}
 			c_karur = {
 				color = { 234 50 11 }
 

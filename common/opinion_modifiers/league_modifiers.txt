@@ -1,0 +1,6 @@
+﻿took_some_league_funds_opinion = {
+	opinion = -15
+	decaying = yes
+	stacking = yes
+	monthly_change = 0.1
+}

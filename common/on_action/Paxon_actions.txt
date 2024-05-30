@@ -83,12 +83,10 @@ on_league_funds_increase = {
 	}
 
 	effect = {
-		set_variable = {
+		change_variable = {
 			name = funds_value
-			value = {
-				value = 0
-				add = quarterly_league_funds_increase
-			}
+			add = quarterly_league_funds_increase
+			round = yes
 		}
 	}
 }
