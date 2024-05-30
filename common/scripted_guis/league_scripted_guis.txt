@@ -70,7 +70,7 @@ take_league_loan_owner_gui = {
 				limit = { NOT = {this = root} }
 
 				add_opinion = {
-					target = this
+					target = root
 					modifier = took_some_league_funds_opinion
 				}
 			}
@@ -97,14 +97,9 @@ take_league_loan_gui = {
 				if = {
 					limit = { NOT = { this = root } }
 	
-					this = {
-						save_scope_as = member
-					}
-					root = {
-						add_opinion = {
-							target = scope:member
-							modifier = took_some_league_funds_opinion
-						}
+					add_opinion = {
+						target = root
+						modifier = took_some_league_funds_opinion
 					}
 					
 				}
