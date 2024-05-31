@@ -2433,6 +2433,16 @@ window = {
 														using = Font_Size_Small
 													}
 												}
+												button_standard_small = {
+													name = "usurp_leader"
+													size = { 80 70 }
+		
+													raw_text = "Usurp\n Leader"
+		
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													enabled = "[GetScriptedGui('usurp_leader_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													onclick = "[GetScriptedGui('usurp_leader_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+												}
 											}
 											scrollbox = {
 												size = { 560 430 }
@@ -2518,7 +2528,7 @@ window = {
 													default_format = "#color_green"
 													tooltip = LOREM_IPSUM_DESCRIPTION
 												}
-												button_standard_small = { { #only if Player is NOT the League Leader
+												button_standard_small = { #only if Player is NOT the League Leader
 													name = "take_loan"
 													size = { 150 40 }
 		

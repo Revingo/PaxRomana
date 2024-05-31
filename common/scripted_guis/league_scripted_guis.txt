@@ -114,3 +114,82 @@ take_league_loan_gui = {
 		var:league_owner.var:funds_value >= 300
 	}
 }
+
+usurp_leader_gui = {
+	scope = character
+
+	is_valid = {
+		OR = {
+			auctoritas_value > {
+				value = root.var:league_owner.auctoritas_value
+				multiply = 3
+			}
+			AND = {
+				auctoritas_value > 0
+				root.var:league_owner.auctoritas_value < 0
+			}
+		}
+		
+	}
+
+	effect = {
+		change_variable = {
+			name = is_league_leader
+			value = yes
+		}
+		set_variable = {
+			name = funds_value
+			value = root.var:league_owner.funds_value
+		}
+		add_to_variable_list = {
+			name = league_list
+			value = root
+		}
+		
+
+		root.var:league_owner = {
+			every_in_list = {
+				variable = league_list
+
+				if = {
+					limit = { NOT = { this = root }}
+					
+					root = {
+						add_to_variable_list = {
+							name = league_list
+							value = this
+						}
+					}
+				}
+			}
+
+			set_variable = {
+				name = league_owner
+				value = root
+			}
+			change_variable = {
+				name = is_league_leader
+				value = no
+			}
+			remove_variable = funds_value
+			delete_list = {
+				variable = league_list
+			}
+		}
+
+		every_in_list = {
+			variable = league_list
+
+			if = {
+				limit = { NOT = { this = root }}
+
+				change_variable = {
+					name = league_owner
+					value = root
+				}
+			}
+		}
+
+		remove_variable = league_owner
+	}
+}
