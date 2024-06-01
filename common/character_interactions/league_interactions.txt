@@ -30,11 +30,7 @@
 					var:in_a_league = yes
 				}
 			
-				has_variable_list = league_list
-				AND = {
-					has_variable = is_league_leader
-					var:is_league_leader = yes
-				}
+				NOT = { has_variable = league_owner }
 			}
 			
 		}
@@ -105,10 +101,6 @@
 				set_variable = {
 					name = in_a_league
 					value = yes
-				}
-				set_variable = {
-					name = is_league_leader
-					value = no
 				}
 				set_variable = {
 					name = league_owner

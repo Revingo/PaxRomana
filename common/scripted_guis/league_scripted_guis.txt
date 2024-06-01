@@ -13,10 +13,6 @@
 			name = in_a_league
 			value = yes
 		}
-		set_variable = {
-			name = is_league_leader
-			value = yes
-		}
 		add_character_modifier = {
 			modifier = league_funds
 		}
@@ -28,15 +24,9 @@
 
 	is_shown = {
 		NOT = {
-			OR = {
-				AND = {
-					has_variable = in_a_league
-					var:in_a_league = yes
-				}
-				AND = {
-					has_variable = is_league_leader
-					var:is_league_leader = yes
-				}
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
 			}
 		}
 	}
@@ -46,11 +36,8 @@ is_league_leader_gui = {
 	scope = character
 
 	is_shown = {
-		AND = {
-			has_variable = is_league_leader
-			var:is_league_leader = yes 
+		NOT = { has_variable = league_owner }
 
-		}
 	}
 }
 
@@ -133,17 +120,13 @@ usurp_leader_gui = {
 	}
 
 	effect = {
-		change_variable = {
-			name = is_league_leader
-			value = yes
-		}
 		set_variable = {
 			name = funds_value
-			value = root.var:league_owner.funds_value
+			value = root.var:league_owner.var:funds_value
 		}
 		add_to_variable_list = {
 			name = league_list
-			value = root
+			target = root
 		}
 		
 
@@ -151,30 +134,34 @@ usurp_leader_gui = {
 			every_in_list = {
 				variable = league_list
 
-				if = {
-					limit = { NOT = { this = root }}
-					
-					root = {
-						add_to_variable_list = {
-							name = league_list
-							value = this
-						}
-					}
-				}
+				add_to_list = temporary_league_list
 			}
 
 			set_variable = {
 				name = league_owner
 				value = root
 			}
-			change_variable = {
-				name = is_league_leader
-				value = no
-			}
 			remove_variable = funds_value
-			delete_list = {
-				variable = league_list
+		}
+
+		every_in_list = {
+			list = temporary_league_list
+
+			save_scope_as = member
+
+			if = { 
+				limit = {NOT = {this = root}}
+				
+				root = {
+					add_to_variable_list = {
+						name = league_list
+	
+						value = member
+					}
+				}
+				
 			}
+			
 		}
 
 		every_in_list = {
@@ -182,11 +169,16 @@ usurp_leader_gui = {
 
 			if = {
 				limit = { NOT = { this = root }}
+				#limit = { this = root }
 
-				change_variable = {
-					name = league_owner
-					value = root
+				this = {
+					remove_variable = league_owner
+					set_variable = {
+						name = league_owner
+						value = root
+					}
 				}
+				
 			}
 		}
 

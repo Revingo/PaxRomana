@@ -239,7 +239,7 @@ c_pula = {
 		change_development_level = 6
 		holder = pc_12
 		
-		government = tribal_government
+		government = city-state_government
 	}
 }
 

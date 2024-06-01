@@ -2436,7 +2436,7 @@ window = {
 												button_standard_small = {
 													name = "usurp_leader"
 													size = { 80 70 }
-		
+
 													raw_text = "Usurp\n Leader"
 		
 													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
