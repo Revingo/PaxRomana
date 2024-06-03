@@ -1,0 +1,57 @@
+﻿city-state_county = {
+	type = title
+	tier = county
+	governments = { city-state_government }
+	priority = 100
+}
+
+city-state_duchy = {
+	type = title
+	tier = duchy
+	governments = { city-state_government }
+	priority = 100
+}
+
+city-state_count = {
+	type = character
+	tier = county
+	governments = { city-state_government }
+	special = holder
+	priority = 100
+}
+
+city-state_duke = {
+	type = character
+	tier = duchy
+	governments = { city-state_government }
+	special = holder
+	priority = 100
+}
+
+tribal_county = {
+	type = title
+	tier = county
+	governments = { tribal_government }
+	priority = 100
+}
+
+tribal_duchy = {
+	type = title
+	tier = duchy
+	governments = { tribal_government }
+	priority = 100
+}
+
+tribal_count = {
+	type = character
+	tier = county
+	governments = { tribal_government }
+	priority = 100
+}
+
+tribal_duke = {
+	type = character
+	tier = duchy
+	governments = { tribal_government }
+	priority = 110
+}

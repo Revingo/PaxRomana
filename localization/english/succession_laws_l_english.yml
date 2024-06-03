@@ -146,6 +146,6 @@
 
 
  #PAX ROMANA
- GOVERNMENT_auctoritas_500_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a /city-state/ type of government and a least 500 auctoritas."
- GOVERNMENT_auctoritas_600_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a /city-state/ type of government and a least 600 auctoritas."
- GOVERNMENT_auctoritas_700_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a /city-state/ type of government and a least 700 auctoritas."
+ GOVERNMENT_auctoritas_500_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El] and a least 500 [auctoritas|E]."
+ GOVERNMENT_auctoritas_600_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El] and a least 600 [auctoritas|E]."
+ GOVERNMENT_auctoritas_700_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El] and a least 700 [auctoritas|E]."

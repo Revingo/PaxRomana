@@ -2323,13 +2323,13 @@ window = {
 											}
 
 											text_label_center = {
-												raw_text = "The City-State of [GetPlayer.GetPrimaryTitle.GetNameNoTier] isn't in any League yet"
+												raw_text = "The [GetPlayer.GetPrimaryTitle.GetName] isn't in any [league|E] yet"
 												using = Font_Size_Medium
 												default_format = "#bold"
 											}
 										}
 
-										button_standard_big = {
+										button_primary_big = {
 											name = "create_league_button"
 											size = { 320 60 }
 
@@ -2359,28 +2359,34 @@ window = {
 												}
 												vbox = {
 													text_label_left = {
-														raw_text = "The [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] League"
+														raw_text = "The [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]"
 														using = Font_Size_Big
 														default_format = "#bold"
 													}
 													text_label_left = {
-														raw_text = "Current leader: City-State of [GetPlayer.GetPrimaryTitle.GetNameNoTier]"
+														raw_text = "Current leader: [GetPlayer.GetPrimaryTitle.GetName] #F (You)#!"
 														using = Font_Size_Small
 													}
 												}
-												button_standard_small = {
+												button_standard = {
 													name = "disband_league"
 													size = { 80 70 }
 
-													raw_text = "Disband\n League"
+													text = "disband_league_button"
 		
 													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
 													enabled = "[GetScriptedGui('disband_league_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 													onclick = "[GetScriptedGui('disband_league_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "cant_disband_league_tooltip"
+													tooltip = "disband_league_tooltip"
 												}
 											}
+											text_label_center = {
+												raw_text = "[league|E] Members:"
+												using = Font_Size_Medium
+											}
 											scrollbox = {
-												size = { 560 430 }
+												size = { 560 400 }
 	
 												blockoverride "scrollbox_content"{
 													#margin = { 20 10 }
@@ -2389,26 +2395,21 @@ window = {
 													fixedgridbox {
 														name = "league members"
 														datamodel = "[GetPlayer.MakeScope.GetList('league_list')]"
-														addrow = 40
-														addcolumn = 40
 														#datamodel_wrap = 5
 			
-														text_label_center = {
-															raw_text = "League Members:"
-															using = Font_Size_Medium
-														}
+														
 														item = {
 															layoutpolicy_vertical = expanding
 															hbox = {
 
-																layoutpolicy_vertical = growing
+																layoutpolicy_vertical = expanding
 																coa_realm_medium = {	
 																	datacontext = "[Scope.GetCharacter]"
 																	using = tooltip_ws
 																}
 			
 																text_label_left = {
-																	raw_text = "City-State of [Scope.GetCharacter.GetPrimaryTitle.GetNameNoTier]"
+																	raw_text = "[Scope.GetCharacter.GetPrimaryTitle.GetName]"
 																	using = Font_Size_Small
 																}
 															}
@@ -2433,29 +2434,35 @@ window = {
 												}
 												vbox = {
 													text_label_center = {
-														raw_text = "The [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetAdjectiveNoTooltip] League"
+														raw_text = "The [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]"
 														using = Font_Size_Big
 														default_format = "#bold"
 													}
 													
 													text_label_left = {
-														raw_text = "Current leader: City-State of [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetNameNoTier]"
+														raw_text = "Current leader: [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetName]"
 														using = Font_Size_Small
 													}
 												}
-												button_standard_small = {
+												button_standard = {
 													name = "usurp_leader"
 													size = { 80 70 }
 
-													raw_text = "Usurp\n Leader"
+													text = "usurp_leader_button"
 		
 													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
 													enabled = "[GetScriptedGui('usurp_leader_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 													onclick = "[GetScriptedGui('usurp_leader_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "cant_usurp_leader_tooltip"
+													tooltip = "usurp_leader_tooltip"
 												}
 											}
+											text_label_center = {
+												raw_text = "[league|E] Members:"
+												using = Font_Size_Medium
+											}
 											scrollbox = {
-												size = { 560 430 }
+												size = { 560 400 }
 	
 												blockoverride "scrollbox_content"{
 													#margin = { 20 10 }
@@ -2468,20 +2475,17 @@ window = {
 														addcolumn = 40
 														#datamodel_wrap = 5
 			
-														text_label_center = {
-															raw_text = "League Members:"
-															using = Font_Size_Medium
-														}
+														
 														item = {
 															hbox = {
-																layoutpolicy_vertical = growing
+																layoutpolicy_vertical = expanding
 																coa_realm_medium = {	
 																	datacontext = "[Scope.GetCharacter]"
 																	using = tooltip_ws
 																}
 			
 																text_label_left = {
-																	raw_text = "City-State of [Scope.GetCharacter.GetPrimaryTitle.GetNameNoTier]"
+																	raw_text = "[Scope.GetCharacter.GetPrimaryTitle.GetName]"
 																	using = Font_Size_Small
 																}
 															}
@@ -2497,24 +2501,39 @@ window = {
 											visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
 
 											text_label_center = {
-												raw_text = "League's Funds:"
+												raw_text = "[league|E]'s Funds:"
 												using = Font_Size_Medium
 												default_format = "#bold"
 											}
 											hbox = {
 												spacing = 80
 												
-												text_label_left = { #only if Player is the League Leader
+												vbox = { #only if Player is the League Leader
 													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-													raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.GetVariable('funds_value').GetValue )]"
-													using = Font_Size_Medium
+													text_label_center = { 
+														raw_text = "In Chest"
+														using = Font_Size_Medium
+														default_format = "#bold"
+													}
+													text_label_center = { 
+														raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.GetVariable('funds_value').GetValue )]"
+														using = Font_Size_Medium
+													}
 												}
-												text_label_right = { #only if Player is the League Leader
+												vbox = { #only if Player is the League Leader
 													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-													raw_text = "[gold_i]+[FixedPointToInt( GetPlayer.MakeScope.ScriptValue('quarterly_league_funds_increase') )]"
-													using = Font_Size_Medium
-													default_format = "#color_green"
-													tooltip = LOREM_IPSUM_DESCRIPTION
+													text_label_center = { 
+														raw_text = "Income"
+														using = Font_Size_Medium
+														default_format = "#bold"
+														tooltip = three_months_income_tooltip
+													}
+													text_label_center = { 
+														raw_text = "[gold_i]+[FixedPointToInt( GetPlayer.MakeScope.ScriptValue('quarterly_league_funds_increase') )]"
+														using = Font_Size_Medium
+														default_format = "#color_green"
+														tooltip = three_months_income_tooltip
+													}
 												}
 												button_standard_small = { #only if Player is the League Leader
 													name = "take_loan_owner"
@@ -2525,19 +2544,38 @@ window = {
 													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
 													enabled = "[GetScriptedGui('take_league_loan_owner_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 													onclick = "[GetScriptedGui('take_league_loan_owner_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "not_enough_gold_in_chest"
+													tooltip = "take_league_loan_tooltip"
 												}
-												text_label_left = { #only if Player is NOT the League Leader
+
+												vbox = { #only if Player is NOT the League Leader
 													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													text_label_center = { 
+														raw_text = "In Chest"
+														using = Font_Size_Medium
+														default_format = "#bold"
+													}
+													text_label_center = { 
 													raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').Var('funds_value').GetValue )]"
 													using = Font_Size_Medium
+													}
 												}
-												text_label_center = { #only if Player is NOT the League Leader
+												vbox = { #only if Player is NOT the League Leader
 													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-													raw_text = "[gold_i]+[FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').ScriptValue('quarterly_league_funds_increase') )]"
-													using = Font_Size_Medium
-													default_format = "#color_green"
-													tooltip = LOREM_IPSUM_DESCRIPTION
+													text_label_center = { 
+														raw_text = "Income"
+														using = Font_Size_Medium
+														default_format = "#bold"
+														tooltip = three_months_income_tooltip
+													}
+													text_label_center = { 
+														raw_text = "[gold_i]+[FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').ScriptValue('quarterly_league_funds_increase') )]"
+														using = Font_Size_Medium
+														default_format = "#color_green"
+														tooltip = three_months_income_tooltip
+													}
 												}
+												
 												button_standard_small = { #only if Player is NOT the League Leader
 													name = "take_loan"
 													size = { 150 40 }
@@ -2547,6 +2585,8 @@ window = {
 													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
 													enabled = "[GetScriptedGui('take_league_loan_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 													onclick = "[GetScriptedGui('take_league_loan_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "not_enough_gold_in_chest"
+													tooltip = "take_league_loan_tooltip"
 												}
 												
 											}

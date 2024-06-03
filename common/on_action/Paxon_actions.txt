@@ -162,6 +162,11 @@ on_league_leader_death = {
 			remove_character_modifier = league_funds
 			remove_variable = funds_value
 			clear_variable_list = league_list
+			if = {
+				limit = { has_variable_list = reintegrate_in_league }
+
+				clear_variable_list = reintegrate_in_league
+			}
 		}
 
 		#In any other case, the player heir becomes the new leader
@@ -223,6 +228,11 @@ on_league_leader_death = {
 			remove_variable = in_a_league
 			remove_character_modifier = league_funds
 			remove_variable = funds_value
+			if = {
+				limit = { has_variable_list = reintegrate_in_league }
+
+				clear_variable_list = reintegrate_in_league
+			}
 		}
 	}
 }

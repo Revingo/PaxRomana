@@ -1,4 +1,4 @@
 ﻿l_english:
  
- LANDED_TITLES_cant_create_tribal_or_city-state: "You can create this title tier as you do not have a [GetGovernment('tribal_government').GetName] or city-state government."
- NOT_LANDED_TITLES_cant_create_tribal_or_city-state: "You can't create this title tier if you have a [GetGovernment('tribal_government').GetName] or city-state government."
+ LANDED_TITLES_cant_create_tribal_or_city-state: "You can create this title tier as you do not have a [GetGovernment('tribal_government').GetName] or [GetGovernment('city-state_government').GetName] [government|El]."
+ NOT_LANDED_TITLES_cant_create_tribal_or_city-state: "You can't create this title tier if you have a [GetGovernment('tribal_government').GetName] or [GetGovernment('city-state_government').GetName] [government|El]."
