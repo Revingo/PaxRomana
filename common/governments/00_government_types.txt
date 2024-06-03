@@ -254,7 +254,6 @@ city-state_government = {
 	primary_holding = castle_holding
 	required_county_holdings = { castle_holding }
 	legitimacy = yes
-	fallback = 1
 
 	valid_holdings = { castle_holding }
 

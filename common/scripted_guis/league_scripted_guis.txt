@@ -130,38 +130,30 @@ usurp_leader_gui = {
 		}
 		
 
-		root.var:league_owner = {
-			every_in_list = {
-				variable = league_list
-
-				add_to_list = temporary_league_list
-			}
+		root.var:league_owner ?= {
 
 			set_variable = {
 				name = league_owner
 				value = root
 			}
 			remove_variable = funds_value
-		}
 
-		every_in_list = {
-			list = temporary_league_list
-
-			save_scope_as = member
-
-			if = { 
-				limit = {NOT = {this = root}}
-				
-				root = {
-					add_to_variable_list = {
-						name = league_list
+			every_in_list = {
+				variable = league_list
 	
-						value = member
-					}
+				if = { 
+					limit = {NOT = {this = root}}
+					
+					root = {
+						add_to_variable_list = {
+							name = league_list
+		
+							target = prev
+						}
+					}	
 				}
-				
 			}
-			
+			clear_variable_list = league_list
 		}
 
 		every_in_list = {
@@ -183,5 +175,23 @@ usurp_leader_gui = {
 		}
 
 		remove_variable = league_owner
+	}
+}
+
+disband_league_gui = {
+	scope = character
+
+	is_valid = {
+		variable_list_size = {
+			name = league_list
+			value = 1
+		}
+	}
+
+	effect = {
+		remove_variable = in_a_league
+		remove_character_modifier = league_funds
+		remove_variable = funds_value
+		clear_variable_list = league_list
 	}
 }

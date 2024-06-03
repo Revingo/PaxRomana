@@ -90,3 +90,243 @@ on_league_funds_increase = {
 		}
 	}
 }
+
+on_death = {
+	on_actions = {
+		on_league_leader_death
+		on_league_member_death
+	}
+}
+
+on_league_leader_death = {
+	trigger = {
+		AND = {
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
+			}
+			NOT = { has_variable = league_owner }
+		}
+		
+	}
+	effect = {
+
+		#If the character has no player heir or the player heir is landed and has a different government, then the league gets disbanded
+		if = {
+			limit = { 
+				OR = {
+					NOT = { exists = player_heir }
+					AND = {
+						exists = player_heir
+						player_heir = {
+							is_landed = yes
+							NOT = { has_government = city-state_government }
+						}
+					}
+				}
+			}
+			
+			every_in_list = {
+				variable = league_list
+ 
+
+				this = {
+					if = {
+						limit = {has_variable = league_owner }
+
+						remove_variable = in_a_league
+						remove_variable = league_owner
+						remove_character_modifier = league_funds
+					}
+					
+					root = {
+						set_variable = {
+							name = member
+							value = prev
+						}
+						every_in_list = {
+							variable = league_list
+
+							if = { 
+								limit = { NOT = { root.var:member = this}}
+
+								break_alliance = root.var:member
+							}
+						}
+						remove_variable = member
+					}
+				}
+			}
+
+			remove_variable = in_a_league
+			remove_character_modifier = league_funds
+			remove_variable = funds_value
+			clear_variable_list = league_list
+		}
+
+		#In any other case, the player heir becomes the new leader
+		else = {
+			every_in_list = {
+				variable = league_list
+
+				if = { 
+					limit = { NOT = {root = this}}
+
+					this = {
+						remove_variable = league_owner
+						set_variable = {
+							name = league_owner
+							value = root.player_heir
+						}
+					}
+				}
+			}
+
+			player_heir = {
+				add_to_variable_list = {
+					name = league_list
+					target = root.player_heir
+				}
+				set_variable = {
+					name = in_a_league
+					value = yes
+				}
+				add_character_modifier = {
+					modifier = league_funds
+				}
+				set_variable = {
+					name = funds_value
+					value = root.var:funds_value
+				}
+			}
+
+			every_in_list = {
+				variable = league_list
+	
+				if = { 
+					limit = {NOT = {this = root}}
+					
+					root.player_heir = {
+						add_to_variable_list = {
+							name = league_list
+		
+							target = prev
+						}
+						create_alliance = {
+							target = prev
+							allied_through_owner = root.player_heir
+							allied_through_target = prev
+						}
+					}	
+				}
+			}
+			remove_variable = in_a_league
+			remove_character_modifier = league_funds
+			remove_variable = funds_value
+		}
+	}
+}
+
+on_league_member_death = {
+	trigger = {
+		AND = {
+			has_variable = in_a_league
+			var:in_a_league = yes
+			has_variable = league_owner
+		}
+		
+	}
+	effect = {
+		var:league_owner = {
+			remove_list_variable = {
+				name = league_list
+
+				target = root
+			}
+		}
+		remove_character_modifier = league_funds
+		remove_variable = in_a_league
+		remove_variable = league_owner
+	}
+}
+
+on_title_lost = {
+	on_actions = {
+		on_member_becomes_landless
+		on_league_leader_becomes_landless
+	}
+}
+
+on_member_becomes_landless = {
+	trigger = {
+		AND = {
+			has_variable = in_a_league
+			var:in_a_league = yes
+			has_variable = league_owner
+			NOT = { is_landed = yes }
+		}
+		
+	}
+	effect = {
+		var:league_owner = {
+			remove_list_variable = {
+				name = league_list
+
+				target = root
+			}
+		}
+		remove_character_modifier = league_funds
+		remove_variable = in_a_league
+		remove_variable = league_owner
+	}
+}
+
+on_league_leader_becomes_landless = {
+	trigger = {
+		AND = {
+			has_variable = in_a_league
+			var:in_a_league = yes
+			NOT = { has_variable = league_owner }
+			NOT = { is_landed = yes }
+		}
+		
+	}
+	effect = {
+		every_in_list = {
+			variable = league_list
+
+			this = {
+				if = {
+					limit = {has_variable = league_owner }
+
+					remove_variable = in_a_league
+					remove_variable = league_owner
+					remove_character_modifier = league_funds
+				}
+				
+				root = {
+					set_variable = {
+						name = member
+						value = prev
+					}
+					every_in_list = {
+						variable = league_list
+
+						if = { 
+							limit = { NOT = { root.var:member = this}}
+
+							break_alliance = root.var:member
+						}
+					}
+					remove_variable = member
+				}
+			}
+		}
+
+		remove_variable = in_a_league
+		remove_character_modifier = league_funds
+		remove_variable = funds_value
+		clear_variable_list = league_list
+	}
+
+}

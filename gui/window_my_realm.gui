@@ -2368,6 +2368,16 @@ window = {
 														using = Font_Size_Small
 													}
 												}
+												button_standard_small = {
+													name = "disband_league"
+													size = { 80 70 }
+
+													raw_text = "Disband\n League"
+		
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													enabled = "[GetScriptedGui('disband_league_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													onclick = "[GetScriptedGui('disband_league_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+												}
 											}
 											scrollbox = {
 												size = { 560 430 }
