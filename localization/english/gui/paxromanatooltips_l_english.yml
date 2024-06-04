@@ -1,2 +1,2 @@
 ﻿l_english:
- PAX_AUCTORITAS_TOOLTIP: "#T [auctoritas|E]#!\nAuctoritas determines the amount of Authority you have in your state. It is a weighted average of your [gold|E], [army|E] and mostly your [prestige|E].\n\n#F Having a negative amount of Auctoritas, may lead to very bad consequences."
+ PAX_AUCTORITAS_TOOLTIP: "#T [auctoritas|E]#!\n$game_concept_auctoritas_desc$"

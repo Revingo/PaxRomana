@@ -44,7 +44,7 @@ reintegrate_in_league_cb = {
 
 	cost = {
 		prestige = {
-			base = 300
+			value = 300
 			if = {
 				limit = { scope:defender.highest_held_title_tier >= 3 }
 				
@@ -265,7 +265,7 @@ reintegrate_in_league_cb = {
 	on_invalidated_desc = msg_reintegrate_in_league_cb_invalidated
 
 	war_name = PAX_CB_REINTEGRATE_IN_LEAGUE_NAME
-	my_war_name = PAX_CB_REINTEGRATE_IN_LEAGUE_MY_NAME
 	war_name_base = PAX_CB_REINTEGRATE_IN_LEAGUE_BASE_NAME
-	my_war_name_base = PAX_CB_REINTEGRATE_IN_LEAGUE_MY_BASE_NAME
+	cb_name = PAX_CB_REINTEGRATE_IN_LEAGUE_CB_NAME
+	
 }

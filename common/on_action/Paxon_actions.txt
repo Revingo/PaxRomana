@@ -111,6 +111,12 @@ on_league_leader_death = {
 	}
 	effect = {
 
+		if = {
+			limit = { has_variable_list = reintegrate_in_league }
+
+			clear_variable_list = reintegrate_in_league
+		}
+
 		#If the character has no player heir or the player heir is landed and has a different government, then the league gets disbanded
 		if = {
 			limit = { 
@@ -162,11 +168,6 @@ on_league_leader_death = {
 			remove_character_modifier = league_funds
 			remove_variable = funds_value
 			clear_variable_list = league_list
-			if = {
-				limit = { has_variable_list = reintegrate_in_league }
-
-				clear_variable_list = reintegrate_in_league
-			}
 		}
 
 		#In any other case, the player heir becomes the new leader
@@ -228,11 +229,6 @@ on_league_leader_death = {
 			remove_variable = in_a_league
 			remove_character_modifier = league_funds
 			remove_variable = funds_value
-			if = {
-				limit = { has_variable_list = reintegrate_in_league }
-
-				clear_variable_list = reintegrate_in_league
-			}
 		}
 	}
 }
@@ -247,16 +243,86 @@ on_league_member_death = {
 		
 	}
 	effect = {
-		var:league_owner = {
-			remove_list_variable = {
-				name = league_list
-
-				target = root
+		if = { #If the character has no player heir or the player heir is landed and has a different government, then the city just leaves the league
+			limit = {
+				OR = {
+					NOT = { exists = player_heir }
+					AND = {
+						exists = player_heir
+						player_heir = {
+							is_landed = yes
+							NOT = { has_government = city-state_government }
+						}
+					}
+				}
 			}
+
+			var:league_owner = {
+				remove_list_variable = {
+					name = league_list
+	
+					target = root
+				}
+			}
+			remove_character_modifier = league_funds
+			remove_variable = in_a_league
+			remove_variable = league_owner
+
 		}
-		remove_character_modifier = league_funds
-		remove_variable = in_a_league
-		remove_variable = league_owner
+		else = { #In the other cases
+			if = { #If the player heir isn't in a league already, then he becomes a new league member
+				limit = {
+					player_heir = {
+						NOT = { has_variable = in_a_league }
+					}
+				}
+
+				player_heir = {
+					set_variable = {
+						name = in_a_league
+						value = yes
+					}
+					set_variable = {
+						name = league_owner
+						value = root.var:league_owner
+					}
+					add_character_modifier = {
+						modifier = league_funds
+					}
+				}
+	
+				var:league_owner = {
+					every_in_list = {
+						variable = league_list
+						
+						create_alliance = {
+							target = root.player_heir
+							allied_through_owner = this
+							allied_through_target = root.player_heir
+						}
+					}
+	
+					add_to_variable_list = {
+						name = league_list
+						target = root.player_heir
+					}
+				}
+			}
+
+			#then it removes the old character from the league and removes all the variables
+			var:league_owner = {
+				remove_list_variable = {
+					name = league_list
+	
+					target = root
+				}
+			}
+			
+			remove_character_modifier = league_funds
+			remove_variable = in_a_league
+			remove_variable = league_owner
+		}
+		
 	}
 }
 

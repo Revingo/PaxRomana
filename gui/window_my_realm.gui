@@ -2514,10 +2514,12 @@ window = {
 														raw_text = "In Chest"
 														using = Font_Size_Medium
 														default_format = "#bold"
+														tooltip = league_chest_tooltip
 													}
 													text_label_center = { 
 														raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.GetVariable('funds_value').GetValue )]"
 														using = Font_Size_Medium
+														tooltip = league_chest_tooltip
 													}
 												}
 												vbox = { #only if Player is the League Leader
@@ -2554,10 +2556,12 @@ window = {
 														raw_text = "In Chest"
 														using = Font_Size_Medium
 														default_format = "#bold"
+														tooltip = league_chest_tooltip
 													}
 													text_label_center = { 
-													raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').Var('funds_value').GetValue )]"
-													using = Font_Size_Medium
+														raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').Var('funds_value').GetValue )]"
+														using = Font_Size_Medium
+														tooltip = league_chest_tooltip
 													}
 												}
 												vbox = { #only if Player is NOT the League Leader

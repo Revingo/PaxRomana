@@ -10,7 +10,6 @@
 	interface_priority = 60
 
 	greeting = positive
-	notification_text = ENTER_LEAGUE_NOTIFICATION
 
 	is_shown = {
 		scope:recipient = {
@@ -62,13 +61,9 @@
 		}
 	}
 
-	is_valid = {
-
-	}
-
 	on_accept = {
 		scope:actor = {
-			trigger_event = char_interaction.0235
+			trigger_event = league_interaction.0001
 			if = {
 				limit = {
 					scope:hook = yes
@@ -80,7 +75,6 @@
 	
 		hidden_effect = {
 			scope:actor = {
-				
 				every_in_list = {
 					variable = league_list
 					
@@ -133,7 +127,295 @@
 	}
 
 	ai_accept = {
-		base = 100
+		base = 0
+
+		modifier = {  # Refuse call to conflicts of little benefit
+			add = -1000
+			desc = WONT_FIGHT_MEANINGLESS_REASON
+			trigger_if = {
+				limit = { exists = scope:target }
+				scope:target = { using_cb = fp2_border_raid }
+				scope:recipient = { # Unless they like going on raids
+					NOR = {
+						has_trait = viking
+						has_trait = reaver
+					}
+				}
+			}
+			trigger_else = { always = no }
+		}
+
+		modifier = {  # Refuse call against Heir
+			add = -1000
+			exists = scope:recipient.player_heir
+			trigger_if = {
+				limit = { scope:target.casus_belli.primary_defender = scope:actor }
+				scope:target.casus_belli.primary_attacker = scope:recipient.player_heir
+			}
+			trigger_else = {
+				scope:target.casus_belli.primary_defender = scope:recipient.player_heir
+			}
+			desc = WONT_FIGHT_HEIR_REASON
+		}
+
+		modifier = {  # Refuse call against Spouse
+			add = -1000
+			scope:recipient = {
+				trigger_if = {
+					limit = { scope:target.casus_belli.primary_defender = scope:actor }
+					any_spouse = {
+						this = scope:target.casus_belli.primary_attacker
+					}
+				}
+				trigger_else = {
+					any_spouse = {
+						this = scope:target.casus_belli.primary_defender
+					}
+				}
+				
+			}
+			desc = WONT_FIGHT_SPOUSE_REASON
+		}
+		opinion_modifier = { # Opinion Factor
+			who = scope:recipient
+			opinion_target = scope:actor
+			multiplier = 1.0
+			desc = AI_OPINION_REASON
+		}
+		# Honor factor
+		ai_value_modifier = {
+			ai_honor = 1
+			min = 0
+		}
+
+		modifier = {  # Tends to join defensive wars
+			add = 50
+			scope:target.casus_belli.primary_defender = scope:actor
+			desc = DEFENSIVE_WAR_REASON
+		}
+		
+		modifier = { # Same language
+			add = 5
+			desc = speaks_same_language_interaction_reason
+			trigger = {
+				scope:actor = {
+					knows_language_of_culture = scope:recipient.culture
+				}
+			}
+		}
+		modifier = {  # Reluctant to attack another ally
+			add = -50
+			scope:target.casus_belli.primary_attacker = scope:actor
+			scope:recipient = {
+				is_allied_to = scope:target.casus_belli.primary_defender
+			}
+			desc = ATTACK_ON_ALLY_REASON
+		}
+
+		modifier = {  # Reluctant to defend against another ally
+			add = -25
+			scope:target.casus_belli.primary_defender = scope:actor
+			scope:recipient = {
+				is_allied_to = scope:target.casus_belli.primary_attacker
+			}
+			desc = WAR_WITH_ALLY_REASON
+		}
+
+		modifier = {  # Reluctant to join wars against religious brethren.
+			add = -50
+			NOT = { scope:recipient.faith = scope:actor.faith }
+			scope:target.casus_belli.primary_attacker = scope:actor
+			scope:target.casus_belli.primary_defender.faith = scope:recipient.faith
+			scope:target.casus_belli.war = {
+				OR = {
+					using_cb = minor_religious_war
+					using_cb = religious_war
+					using_cb = major_religious_war
+					using_cb = undirected_great_holy_war
+					using_cb = directed_great_holy_war
+				}
+			}
+			desc = WONT_ATTACK_RELIGIOUS_BRETHREN_REASON
+		}
+
+		modifier = { # Reluctant to join against Friends
+			add = -50
+			trigger_if = {
+				limit = {
+					scope:target.casus_belli.primary_defender = scope:actor
+				}
+				has_relation_friend = scope:target.casus_belli.primary_attacker
+			}
+			trigger_else = {
+				has_relation_friend = scope:target.casus_belli.primary_defender
+			}
+		}
+
+		modifier = { # Reluctant to join against Best Friends
+			add = -100
+			trigger_if = {
+				limit = {
+					scope:target.casus_belli.primary_defender = scope:actor
+				}
+				has_relation_best_friend = scope:target.casus_belli.primary_attacker
+			}
+			trigger_else = {
+				has_relation_best_friend = scope:target.casus_belli.primary_defender
+			}
+		}
+		modifier = { # Reluctant to join against Lovers
+			add = -100
+			trigger_if = {
+				limit = {
+					scope:target.casus_belli.primary_defender = scope:actor
+				}
+				has_relation_lover = scope:target.casus_belli.primary_attacker
+			}
+			trigger_else = {
+				has_relation_lover = scope:target.casus_belli.primary_defender
+			}
+		}
+		modifier = { # Reluctant to join against Soul mate
+			add = -200
+			trigger_if = {
+				limit = {
+					scope:target.casus_belli.primary_defender = scope:actor
+				}
+				has_relation_soulmate = scope:target.casus_belli.primary_attacker
+			}
+			trigger_else = {
+				has_relation_soulmate = scope:target.casus_belli.primary_defender
+			}
+		}
+		modifier = {  # Refuse call for hostages' safety
+			any_home_court_hostage = {
+				warden = {
+					OR = {
+						is_at_war_with = scope:actor
+						any_ally = { is_at_war_with = scope:actor }
+					}
+				}
+			}
+			add = {
+				value = 0
+				every_home_court_hostage = {
+					limit = {
+						warden = {
+							OR = {
+								is_at_war_with = scope:actor
+								any_ally = { is_at_war_with = scope:actor }
+							}
+						}
+					}
+					subtract = call_to_arms_hostage_value
+				}
+				multiply = 0.25
+			}
+			desc = HOSTAGE_ENEMY_CALL_TO_ARMS_REASON
+		}
+		modifier = { #Has same culture
+			add = {
+				value = 0
+
+				if = {
+					limit = { scope:recipient.culture = scope:actor.culture }
+	
+					add = 20
+					
+				}
+				else = {
+					add = -20
+					
+				}
+			}
+			desc = PAX_HAS_SAME_CULTURE_REASON
+			
+		}
+		modifier = { #Reluctant to enter a league of a distant leader
+			add = {
+				value = 0
+					
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value < 5000
+						}
+
+							
+					}
+					add = 10
+				}
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value < 7000
+						}
+
+							
+					}
+					add = 10
+				}
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value > 7000
+						}
+
+							
+					}
+					add = -10
+				}
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value > 8320 #Almost the distance between the county of Syracuse and the county of Histrii
+						}
+
+							
+					}
+					add = -20
+				}
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value > 9600
+						}
+
+							
+					}
+					add = -20
+				}
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value > 10900
+						}
+
+							
+					}
+					add = -20
+				}
+				if = {
+					limit = { 
+						realm_to_title_distance_squared = {
+							title = scope:recipient.primary_title
+							value > 12200
+						}
+
+							
+					}
+					add = -20
+				}																								
+				
+			}
+			desc = PAX_TOO_FAR_AWAY_REASON	
+		}
 	}
 }
 
@@ -149,7 +431,6 @@ ban_from_league_interaction = {
 	interface_priority = 60
 
 	greeting = positive
-	notification_text = ENTER_LEAGUE_NOTIFICATION
 
 	is_shown = {
 		scope:recipient = {
@@ -203,10 +484,6 @@ ban_from_league_interaction = {
 		}
 	}
 
-	is_valid = {
-
-	}
-
 	on_auto_accept = {
 		scope:actor = {
 			trigger_event = char_interaction.0235
@@ -255,22 +532,29 @@ ban_from_league_interaction = {
 	auto_accept = yes
 	ai_will_do = {
 		base = 0
+
+		subtract = {
+			opinion_modifier = { # Opinion Factor
+				who = scope:recipient
+				opinion_target = scope:actor
+				multiplier = 1.0
+			}
+		}
 	}
 }
 
-leave_league_interaction = {
+usurp_league_leader_AI_interaction = {
 	category = interaction_category_diplomacy
-	desc = leave_league_interaction_desc
+	desc = usurp_league_leader_AI_interaction_desc
 	ai_min_reply_days = 4
 	ai_max_reply_days = 9
 	icon = alliance
 
-	send_name = leave_league_interaction
+	send_name = usurp_league_leader_AI_interaction
 
 	interface_priority = 60
 
 	greeting = positive
-	notification_text = ENTER_LEAGUE_NOTIFICATION
 
 	is_shown = {
 		scope:recipient = {
@@ -294,10 +578,25 @@ leave_league_interaction = {
 				has_variable = league_owner
 				var:league_owner = scope:recipient
 			}
+			is_ai = yes
+			OR = {
+				auctoritas_value >= {
+					scope:recipient = {
+						auctoritas_value
+						multiply = 3
+					}
+				}
+				AND = {
+					auctoritas_value > 0
+					scope:recipient = {
+						auctoritas_value < 0
+					}
+				}
+			}
 			
 		}
 	}
-	
+
 	is_valid_showing_failures_only = {
 		scope:recipient = {
 			is_landed = yes
@@ -326,21 +625,163 @@ leave_league_interaction = {
 	}
 
 	is_valid = {
-
+		scope:recipient = {
+			is_ruler = yes
+			government_has_flag = government_is_city-state
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
+			}
+			NOT = { has_variable = league_owner }
+		}
+		scope:actor = {
+			NOT = { this = scope:recipient }
+			is_ruler = yes
+			government_has_flag = government_is_city-state
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
+			}
+			AND = {
+				has_variable = league_owner
+				var:league_owner = scope:recipient
+			}
+			is_ai = yes
+			OR = {
+				auctoritas_value >= {
+					scope:recipient = {
+						auctoritas_value
+						multiply = 3
+					}
+				}
+				AND = {
+					auctoritas_value > 0
+					scope:recipient = {
+						auctoritas_value < 0
+					}
+				}
+			}	
+		}
 	}
 
 	on_auto_accept = {
-		scope:actor = {
+		scope:recipient = {
 			trigger_event = char_interaction.0235
-			if = {
-				limit = {
-					scope:hook = yes
-					has_hook = scope:recipient
-				}
-				use_hook = scope:recipient
+
+			add_opinion = {
+				target = scope:actor
+				modifier = usurped_me_from_league_opinion
 			}
 		}
+	
+		hidden_effect = {
+			scope:actor = {
+				set_variable = {
+					name = funds_value
+					value = scope:recipient.var:funds_value
+				}
+				add_to_variable_list = {
+					name = league_list
+					target = scope:actor
+				}
+				
+		
+				scope:recipient ?= {
+		
+					set_variable = {
+						name = league_owner
+						value = scope:actor
+					}
+					remove_variable = funds_value
+		
+					every_in_list = {
+						variable = league_list
+			
+						if = { 
+							limit = {NOT = {this = root}}
+							
+							root = {
+								add_to_variable_list = {
+									name = league_list
+				
+									target = prev
+								}
+							}	
+						}
+					}
+					clear_variable_list = league_list
+		
+					if = {
+						limit = { has_variable_list = reintegrate_in_league }
+		
+						clear_variable_list = reintegrate_in_league
+					}
+				}
+		
+				every_in_list = {
+					variable = league_list
+		
+					if = {
+						limit = { NOT = { this = root }}
+		
+						this = {
+							remove_variable = league_owner
+							set_variable = {
+								name = league_owner
+								value = scope:actor
+							}
+						}
+						
+					}
+				}
+			}
+		}
+	}
+	ai_will_do = 70
+}
+
+leave_league_interaction = {
+	category = interaction_category_diplomacy
+	desc = leave_league_interaction_desc
+	ai_min_reply_days = 4
+	ai_max_reply_days = 9
+	icon = alliance
+
+	send_name = leave_league_interaction
+
+	interface_priority = 60
+
+	greeting = positive
+
+	is_shown = {
 		scope:recipient = {
+			is_ruler = yes
+			government_has_flag = government_is_city-state
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
+			}
+			NOT = { has_variable = league_owner }
+		}
+		scope:actor = {
+			NOT = { this = scope:recipient }
+			is_ruler = yes
+			government_has_flag = government_is_city-state
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
+			}
+			AND = {
+				has_variable = league_owner
+				var:league_owner = scope:recipient
+			}
+			
+		}
+	}
+
+	on_auto_accept = {
+		scope:recipient = {
+			trigger_event = league_interaction.0002
 			every_in_list = {
 				variable = league_list
 
@@ -362,7 +803,7 @@ leave_league_interaction = {
 					variable = league_list
 
 					if = {
-						limit = { NOT = {this = scope:actor }}
+						limit = { NOT = {this = scope:actor } }
 
 						break_alliance =  scope:actor
 					}
@@ -390,5 +831,13 @@ leave_league_interaction = {
 	auto_accept = yes
 	ai_will_do = {
 		base = 0
+
+		add = {
+			opinion_modifier = { # Opinion Factor
+				who = scope:actor
+				opinion_target = scope:recipient
+				multiplier = 1.0
+			}
+		}
 	}
 }

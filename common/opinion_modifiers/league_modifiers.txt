@@ -21,3 +21,11 @@ banned_me_from_league_opinion = {
 	monthly_change = 0.2
 	max = 0
 }
+
+usurped_me_from_league_opinion = {
+	opinion = -40
+	decaying = yes
+	stacking = yes
+	monthly_change = 0.3
+	max = 0
+}

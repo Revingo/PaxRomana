@@ -137,6 +137,10 @@ usurp_leader_gui = {
 				value = root
 			}
 			remove_variable = funds_value
+			add_opinion = {
+				target = root
+				modifier = usurped_me_from_league_opinion
+			}
 
 			every_in_list = {
 				variable = league_list
@@ -167,7 +171,6 @@ usurp_leader_gui = {
 
 			if = {
 				limit = { NOT = { this = root }}
-				#limit = { this = root }
 
 				this = {
 					remove_variable = league_owner

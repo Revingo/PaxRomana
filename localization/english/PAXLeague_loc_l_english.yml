@@ -1,4 +1,5 @@
 ﻿l_english:
+ #Flavorization
  city-state_government: "City-State"
  city-state_government_adjective: "City-State"
  city-state_government_desc: "$game_concept_city-state_desc$\n\n#F City-States may look weak, but they are the reminder that the union is strength. When in a [league|E] they may be more formidable than other kind of [governments|E]."
@@ -8,12 +9,50 @@
  city-state_duchy: "$city-state_government$"
  city-state_count: "Tyrant"
  city-state_duke: "Tyrant"
+
+ #GUI Localization
  three_months_income_tooltip: "This is the amount of [gold|E] the [league|E] is going to get every three months thanks to its members' contributions.\n\nIncrease the amount of members to increase the [league|E]'s income."
  usurp_leader_button: "Usurp\nLeader"
  disband_league_button: "Disband\nLeague"
  not_enough_gold_in_chest: "#warning There is not enough [gold|E] in the [league|E]'s chest.#!"
- cant_disband_league_tooltip: "#warning The [league|E] can't have more then one member to be disbanded!#!"
+ cant_disband_league_tooltip: "#warning [leagues|E] can't be disbanded if they have more than one member!#!"
  cant_usurp_leader_tooltip: "#warning You must have three times the [auctoritas|E] of the [league|E] leader to usurp him!\nIn alternative, you can usurp the leader if he has a negative amount of [auctoritas|E].#!"
  disband_league_tooltip: "#T Disband the [league|E]#!"
  usurp_leader_tooltip: "#T Usurp the Leader's [league|E]#!"
  take_league_loan_tooltip: "#bold Take 300 [gold|E] from the [league|E]'s chest#!"
+ league_chest_tooltip: "This is the [league|E]'s Chest. Here the [gold|E] gets accumulated and can later be used by any of the members in case of need.\n\n#warning #bold Beware thought!#!#! If you take a lot of [gold|E] the other members will #underline not#! like it."
+
+ #League Interactions Localization
+ PAX_TOO_FAR_AWAY_REASON: "[recipient.GetPrimaryTitle.GetName|U]'s distance: $VALUE|=+0$"
+ PAX_HAS_SAME_CULTURE_REASON: "[recipient.GetShortUIName|U]'s culture: $VALUE|=+0$"
+ propose_to_enter_league_interaction: "Propose to enter the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] League"
+ propose_to_enter_league_interaction_desc: "Propose to this character to officially become a member of the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]"
+ ban_from_league_interaction: "Ban from the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] League"
+ ban_from_league_interaction_desc: "Officially ban this character from the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] League"
+ leave_league_interaction: "Leave the [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetAdjectiveNoTooltip] League"
+ leave_league_interaction_desc: "Leave the [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E] and officially stop being one of its members"
+
+ #War League Localization
+ PAX_CB_REINTEGRATE_IN_LEAGUE_CB_NAME: "Re-Integration in [league|E]"
+ PAX_CB_REINTEGRATE_IN_LEAGUE_NAME: "$ORDER$ [TITLE.GetBaseName] Re-Integration into the [ATTACKER.GetPrimaryTitle.GetAdjective] League"
+ PAX_CB_REINTEGRATE_IN_LEAGUE_BASE_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Re-Integration of [DEFENDER.GetPrimaryTitle.GetName]"
+
+ #League Modifiers Localization
+ took_some_league_funds_opinion: "You took some of the [league|E]'s Funds"
+ left_league_opinion: "You left the [league|E]"
+ banned_me_from_league_opinion: "Banned me from [league|E]"
+ usurped_me_from_league_opinion: "Usurped my [league|E]'s rulership"
+ league_funds: "[league|E]'s Funds"
+ league_funds_desc: "This character is taking a part some of his [gold|E] income for the benefits of the [league|E]."
+
+ #Events Localization
+ league_interaction.0001: "Enter [league|E] proposal accepted!"
+ league_interaction.0001.opening: "Enter League proposal accepted!"
+ league_interaction.0001.desc: "Thank you for this proposal, the [recipient.GetPrimaryTitle.GetName] will gladly join the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] League!"
+ league_interaction.0001.tooltip: "[recipient.GetPrimaryTitle.GetName] entered the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]."
+ league_interaction.0002: "[actor.GetPrimaryTitle.GetName] left League"
+ league_interaction.0002.opening: "[actor.GetPrimaryTitle.GetName] left League"
+ league_interaction.0002.desc: "To [recipient.GetName],\nI, [actor.GetName] am informing that I've decided to leave the [recipient.GetPrimaryTitle.GetAdjectiveNoTooltip] League.\nFarewell."
+ league_interaction.0002.tooltip: "[actor.GetPrimaryTitle.GetName] entered the [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]."
+ league_interaction.0002.a: "[actor.GetSheHe] is going to pay for that!"
+ league_interaction.0002.a.tooltip: "You get the $PAX_CB_REINTEGRATE_IN_LEAGUE_CB_NAME$ casus belli"
