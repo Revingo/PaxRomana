@@ -485,17 +485,8 @@ ban_from_league_interaction = {
 	}
 
 	on_auto_accept = {
-		scope:actor = {
-			trigger_event = char_interaction.0235
-			if = {
-				limit = {
-					scope:hook = yes
-					has_hook = scope:recipient
-				}
-				use_hook = scope:recipient
-			}
-		}
 		scope:recipient = {
+			trigger_event = league_interaction.0003
 			add_opinion = {
 				target = scope:actor
 				modifier = banned_me_from_league_opinion
@@ -533,12 +524,10 @@ ban_from_league_interaction = {
 	ai_will_do = {
 		base = 0
 
-		subtract = {
-			opinion_modifier = { # Opinion Factor
-				who = scope:recipient
-				opinion_target = scope:actor
-				multiplier = 1.0
-			}
+		opinion_modifier = { # Opinion Factor
+			who = scope:actor
+			opinion_target = scope:recipient
+			multiplier = -2.5
 		}
 	}
 }
@@ -666,7 +655,7 @@ usurp_league_leader_AI_interaction = {
 
 	on_auto_accept = {
 		scope:recipient = {
-			trigger_event = char_interaction.0235
+			trigger_event = league_interaction.0004
 
 			add_opinion = {
 				target = scope:actor
@@ -740,104 +729,3 @@ usurp_league_leader_AI_interaction = {
 	ai_will_do = 70
 }
 
-leave_league_interaction = {
-	category = interaction_category_diplomacy
-	desc = leave_league_interaction_desc
-	ai_min_reply_days = 4
-	ai_max_reply_days = 9
-	icon = alliance
-
-	send_name = leave_league_interaction
-
-	interface_priority = 60
-
-	greeting = positive
-
-	is_shown = {
-		scope:recipient = {
-			is_ruler = yes
-			government_has_flag = government_is_city-state
-			AND = {
-				has_variable = in_a_league
-				var:in_a_league = yes
-			}
-			NOT = { has_variable = league_owner }
-		}
-		scope:actor = {
-			NOT = { this = scope:recipient }
-			is_ruler = yes
-			government_has_flag = government_is_city-state
-			AND = {
-				has_variable = in_a_league
-				var:in_a_league = yes
-			}
-			AND = {
-				has_variable = league_owner
-				var:league_owner = scope:recipient
-			}
-			
-		}
-	}
-
-	on_auto_accept = {
-		scope:recipient = {
-			trigger_event = league_interaction.0002
-			every_in_list = {
-				variable = league_list
-
-				if = {
-					limit = { NOT = {this = scope:actor }}
-
-					add_opinion = {
-						target = scope:actor
-						modifier = left_league_opinion
-					}
-				}
-			}
-		}
-	
-		hidden_effect = {
-			scope:recipient = {
-				
-				every_in_list = {
-					variable = league_list
-
-					if = {
-						limit = { NOT = {this = scope:actor } }
-
-						break_alliance =  scope:actor
-					}
-				}
-
-				remove_list_variable = {
-					name = league_list
-	
-					target = scope:actor
-				}
-
-				add_to_variable_list = {
-					name = reintegrate_in_league
-					target = scope:actor
-				}
-			}
-			scope:actor = {
-				remove_character_modifier = league_funds
-				remove_variable = in_a_league
-				remove_variable = league_owner
-			}
-		}
-	}
-
-	auto_accept = yes
-	ai_will_do = {
-		base = 0
-
-		add = {
-			opinion_modifier = { # Opinion Factor
-				who = scope:actor
-				opinion_target = scope:recipient
-				multiplier = 1.0
-			}
-		}
-	}
-}

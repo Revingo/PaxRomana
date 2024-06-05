@@ -1,9 +1,6 @@
 ﻿create_league_gui = {
 	scope = character
 
-	#trigger_event = {
-	#	on_action = on_create_league
-	#}
 	effect = {
 		add_to_variable_list = {
 			name = league_list
@@ -18,7 +15,7 @@
 		}
 		set_variable = {
 			name = funds_value
-			value = 300
+			value = 0
 		}
 	}
 
@@ -164,6 +161,7 @@ usurp_leader_gui = {
 
 				clear_variable_list = reintegrate_in_league
 			}
+			trigger_event = league_interaction.0004
 		}
 
 		every_in_list = {
@@ -200,6 +198,7 @@ disband_league_gui = {
 	effect = {
 		remove_variable = in_a_league
 		remove_character_modifier = league_funds
+		add_gold = funds_value
 		remove_variable = funds_value
 		clear_variable_list = league_list
 

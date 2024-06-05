@@ -122,31 +122,6 @@ can_be_knight = {
 	}
 }
 
-# Determines if a character is allowed to be granted specific title by another character
-# Root is the target character
-# scope:liege is the granter
-# scope:landed_title is the title in question
-allowed_to_be_granted_titles_by = {
-	trigger_if = {
-		limit = {
-			scope:landed_title = {
-				tier <= tier_county
-				title_province = { has_holding_type = church_holding }
-			}
-			scope:liege.faith = {
-				NOT = { has_doctrine_parameter = lay_clergy }
-			}
-		}
-		custom_tooltip = {
-			text = grant_title_clerical_gender_tt
-			can_be_granted_theocratic_titles_by = { RULER = scope:liege }
-		}
-	}
-	trigger_else = {
-		can_be_granted_titles_by = { RULER = scope:liege }
-	}
-}
-
 is_character_allowed_to_be_player = {
 	trigger_if = {
 		limit = {
@@ -1005,5 +980,39 @@ is_alliance_valid = {
 		#they both are city-states
 		has_government = city-state_government
 		scope:second = { has_government = city-state_government }
+	}
+}
+
+# Determines if a character is allowed to be granted specific title by another character
+# Root is the target character
+# scope:liege is the granter
+# scope:landed_title is the title in question
+allowed_to_be_granted_titles_by = {
+	trigger_if = {
+		limit = {
+			scope:landed_title = {
+				tier <= tier_county
+				title_province = { has_holding_type = church_holding }
+			}
+			scope:liege.faith = {
+				NOT = { has_doctrine_parameter = lay_clergy }
+			}
+			NOT = {
+				AND = {
+					scope:landed_title.tier >= tier_duchy
+					OR = {
+						root.has_government = city-state_government
+						root.has_government = tribal_government
+					}
+				}
+			}
+		}
+		custom_tooltip = {
+			text = grant_title_clerical_gender_tt
+			can_be_granted_theocratic_titles_by = { RULER = scope:liege }
+		}
+	}
+	trigger_else = {
+		can_be_granted_titles_by = { RULER = scope:liege }
 	}
 }
