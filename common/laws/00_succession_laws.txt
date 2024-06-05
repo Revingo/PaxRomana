@@ -3,7 +3,12 @@
 
 	confederate_partition_succession_law = {
 		can_keep = {
-			government_has_flag = government_is_tribal
+			OR = {
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_city-state
+
+			}
+			
 		}
 		can_pass = {
 			can_change_partition_succession_law_trigger = yes
@@ -20,6 +25,8 @@
 			}
 			OR = {
 				government_has_flag = government_is_tribal
+				government_has_flag = government_is_city-state
+
 			}
 		}
 		succession = {
@@ -61,7 +68,11 @@
 				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
 				historical_succession_access_single_heir_dynasty_house_trigger = yes
 			}
-			government_has_flag = government_is_feudal
+			OR = {
+				government_has_flag = government_is_feudal
+				government_has_flag = government_is_city-state
+			}
+			
 			culture = {
 				has_innovation = innovation_hereditary_rule
 				NOT = {

@@ -1,0 +1,5 @@
+﻿l_english:
+ tribal_county: "Tribe"
+ tribal_duchy: "$tribal_county$"
+ tribal_count: "Chieftain"
+ tribal_duke: "High Chieftain"

@@ -16,7 +16,12 @@ can_have_confederate_partition_succession_law_trigger = {
 	custom_description = {
 		text = auctoritas_500_and_tribal_or_city_state_tooltip
 
-		government_has_flag = government_is_tribal
+		OR = {
+
+			government_has_flag = government_is_tribal
+			government_has_flag = government_is_city-state
+		}
+		
 
 	}
 }
@@ -34,7 +39,11 @@ can_have_partition_succession_law_trigger = {
 		text = auctoritas_600_and_tribal_or_city_state_tooltip
 		AND = {
 			auctoritas_value >= 600
-			government_has_flag = government_is_tribal
+			OR = {
+
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_city-state
+			}
 		}
 	}
 }
@@ -52,7 +61,11 @@ can_have_high_partition_succession_law_trigger = {
 		text = auctoritas_700_and_tribal_or_city_state_tooltip
 		AND = {
 			auctoritas_value >= 700
-			government_has_flag = government_is_tribal
+			OR = {
+
+				government_has_flag = government_is_tribal
+				government_has_flag = government_is_city-state
+			}
 		}
 	}
 }

@@ -1191,6 +1191,28 @@ window = {
 						}
 					}
 
+					vbox = {
+						visible = "[Character.HasLandedTitles]"
+						tooltip = "PAX_AUCTORITAS_TOOLTIP"
+						min_width = 15
+						spacing = 2
+
+						icon = {
+							name = "icon_auctoritas"
+							size = { 30 30 }
+							texture = "gfx/interface/icons/icon_auctoritas.dds"
+						}
+
+						text_single = {
+							name = "auctoritas"
+							text = "[GuiScope.SetRoot( Character.MakeScope ).ScriptValue('auctoritas_value')|0]"
+							default_format = "#high"
+							align = center|nobaseline
+							fontsize_min = 12
+							max_width = 50
+						}
+					}
+
 					expand = {}
 
 					flowcontainer = {
@@ -1229,6 +1251,9 @@ window = {
 							texture = "gfx/interface/icons/icon_head_of_faith_income.dds"
 							tooltip = "CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP"
 						}
+
+						
+						#return here
 					}
 				}
 
@@ -1441,28 +1466,6 @@ window = {
 										max = "[IntToFloat(CharacterWindow.GetMaxSoldiers)]"
 										value = "[IntToFloat(CharacterWindow.GetCurrentSoldiers)]"
 									}
-								}
-							}
-
-							vbox = {
-								visible = "[Character.HasLandedTitles]"
-								tooltip = "PAX_AUCTORITAS_TOOLTIP"
-								min_width = 40
-								spacing = -2
-
-								icon = {
-									name = "icon_auctoritas"
-									size = { 30 30 }
-									texture = "gfx/interface/icons/icon_auctoritas.dds"
-								}
-
-								text_single = {
-									name = "auctoritas"
-									text = "[GuiScope.SetRoot( Character.MakeScope ).ScriptValue('auctoritas_value')|0]"
-									default_format = "#high"
-									align = center|nobaseline
-									fontsize_min = 12
-									max_width = 50
 								}
 							}
 						}

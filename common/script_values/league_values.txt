@@ -1,0 +1,20 @@
+﻿quarterly_league_funds_increase = {
+	value = 0
+	every_in_list = {
+		variable = league_list
+
+		add = {
+			value = this.monthly_character_income
+			subtract = {
+				value = this.monthly_character_income
+				divide = {
+					value = this.gold
+					multiply = -0.1
+				}
+			}
+		}
+		
+	}
+	multiply = 3
+	
+}

@@ -1,5 +1,12 @@
 ﻿auctoritas = {
-	alias = { auct }
-	
 	texture = "gfx/interface/icons/icon_auctoritas.dds"
+}
+
+city-state = {
+	parent = government
+	alias = { city-state_government city-states }
+}
+
+league = {
+	alias = { leagues }
 }

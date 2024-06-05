@@ -19,6 +19,8 @@ window = {
 		using = Animation_FadeIn_Quick
 		using = Sound_WindowShow_Standard
 		using = Window_Position_MainTab
+
+		on_start = "[GetVariableSystem.Set( 'realm_tabs', 'domain' )]"
 	}
 
 	state = {
@@ -26,6 +28,8 @@ window = {
 		using = Animation_FadeOut_Quick
 		using = Sound_WindowHide_Standard
 		using = Window_Position_MainTab_Hide
+
+		on_start = "[GetVariableSystem.Clear( 'realm_tabs')]"
 	}
 
 	state = {
@@ -408,10 +412,10 @@ window = {
 						name = "tutorial_highlight_domain_tab"
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
-						down = "[MyRealmWindow.IsShowingDomain]"
+						down = "[GetVariableSystem.HasValue('realm_tabs', 'domain')]"
 
 						onclick = "[MyRealmWindow.ShowDomain]"
-						onclick = "[MyRealmWindow.SendTabClickedTelemetry( 'domain' )]"
+						onclick = "[GetVariableSystem.Set('realm_tabs', 'domain')]"
 
 						text = "MY_REALM_WINDOW_DOMAIN_TAB"
 					}
@@ -420,10 +424,10 @@ window = {
 						name = "tutorial_highlight_vassals_tab"
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
-						down = "[MyRealmWindow.IsShowingVassals]"
+						down = "[GetVariableSystem.HasValue('realm_tabs', 'vassals')]"
 
 						onclick = "[MyRealmWindow.ShowVassals]"
-						onclick = "[MyRealmWindow.SendTabClickedTelemetry( 'vassals' )]"
+						onclick = "[GetVariableSystem.Set('realm_tabs', 'vassals')]"
 
 						text = "MY_REALM_WINDOW_VASSALS_TAB"
 					}
@@ -432,15 +436,15 @@ window = {
 						name = "tutorial_highlight_succession_tab"
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
-						down = "[MyRealmWindow.IsShowingSuccession]"
+						down = "[GetVariableSystem.HasValue('realm_tabs', 'succession')]"
 
 						onclick = "[MyRealmWindow.ShowSuccession]"
-						onclick = "[MyRealmWindow.SendTabClickedTelemetry( 'succession' )]"
+						onclick = "[GetVariableSystem.Set('realm_tabs', 'succession')]"
 
 						text = "MY_REALM_WINDOW_SUCCESSION_TAB"
 					}
 					button_tab = {
-						name = "league_button"
+						name = "league_tab"
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
 						#Character.GetPrimaryTitle.
@@ -458,7 +462,7 @@ window = {
 					name = "tab_domain"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
-					visible = "[MyRealmWindow.IsShowingDomain]"
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'domain')]"
 
 					using = Animation_Tab_Switch
 
@@ -885,7 +889,7 @@ window = {
 					widgetid = "tab_vassals"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
-					visible = "[MyRealmWindow.IsShowingVassals]"
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'vassals')]"
 
 					state = {
 						name = _show
@@ -1142,7 +1146,7 @@ window = {
 				vbox = {
 					name = "tab_succession"
 					widgetid = "tab_succession"
-					visible = "[MyRealmWindow.IsShowingSuccession]"
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'succession')]"
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
 
@@ -1865,16 +1869,10 @@ window = {
 					}
 				}
 
-				### CITY-STATE LEAGUE WINDOW
-				vbox = {
-					name = tab_league
-					layoutpolicy_horizontal = expanding
-					layoutpolicy_vertical = expanding
-					visible = "[Character.GetGovernment.IsType('city-state_government')]"
-				}
+				
 
 				vbox = {
-					visible = "[Or( MyRealmWindow.IsShowingDomain, MyRealmWindow.IsShowingVassals)]"
+					visible = "[Or( GetVariableSystem.HasValue('realm_tabs', 'domain'), GetVariableSystem.HasValue('realm_tabs', 'vassals'))]"
 					layoutpolicy_horizontal = expanding
 					margin = { 15 5 }
 					margin_bottom = 15
@@ -1883,7 +1881,7 @@ window = {
 					hbox = {
 						margin_top = 4
 						vbox = {
-							visible = "[And(MyRealmWindow.IsShowingDomain, Not(GreaterThan_int32( Character.GetMaxTaxSlotsCount, '(int32)0')))]"
+							visible = "[And(GetVariableSystem.HasValue('realm_tabs', 'domain'), Not(GreaterThan_int32( Character.GetMaxTaxSlotsCount, '(int32)0')))]"
 							tooltip = "[GetPlayer.GetDomainLimitTooltip]"
 							spacing = 2
 							layoutpolicy_vertical = expanding
@@ -1915,7 +1913,7 @@ window = {
 								###BUTTON FOR MANAGING TAX COLLECTORS
 								hbox = {
 									margin_left = -5
-									visible = "[And(Or(MyRealmWindow.IsShowingVassals, MyRealmWindow.IsShowingDomain), Character.HasTaxSlots)]"
+									visible = "[And(Or(GetVariableSystem.HasValue('realm_tabs', 'vassals'), GetVariableSystem.HasValue('realm_tabs', 'domain')), Character.HasTaxSlots)]"
 
 									button_standard_clean = {
 										name = "manage_tax_slots"
@@ -2010,7 +2008,7 @@ window = {
 										layoutpolicy_horizontal = expanding
 
 										background = {
-											visible = "[MyRealmWindow.IsShowingDomain]"
+											visible = "[GetVariableSystem.HasValue('realm_tabs', 'domain')]"
 											using = Status_Highlight
 										}
 
@@ -2070,7 +2068,7 @@ window = {
 										layoutpolicy_horizontal = expanding
 
 										background = {
-											visible = "[MyRealmWindow.IsShowingVassals]"
+											visible = "[GetVariableSystem.HasValue('realm_tabs', 'vassals')]"
 											using = Status_Highlight
 										}
 
@@ -2197,7 +2195,7 @@ window = {
 								margin = { 15 10 }
 								spacing = 10
 
-								visible = "[And( Or(MyRealmWindow.IsShowingVassals,MyRealmWindow.IsShowingDomain), And( GetPlayer.HasLiege, GetPlayer.GetGovernment.IsType( 'clan_government' ) ) )]"
+								visible = "[And( Or(GetVariableSystem.HasValue('realm_tabs', 'vassals'),GetVariableSystem.HasValue('realm_tabs', 'domain')), And( GetPlayer.HasLiege, GetPlayer.GetGovernment.IsType( 'clan_government' ) ) )]"
 
 								expand = {}
 
@@ -2274,6 +2272,334 @@ window = {
 							}
 						}
 					}
+				}
+				### CITY-STATE LEAGUE WINDOW
+				vbox = {
+					name = tab_league
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'league')]"
+
+					state = {
+						name = _show
+						using = Animation_FadeIn_Quick
+					}
+
+					state = {
+						name = _hide
+						alpha = 0
+					}
+
+					#vbox = {
+						#name = "league_total"
+						#layoutpolicy_horizontal = expanding
+						#layoutpolicy_vertical = growing
+
+						#vbox = {
+							
+							#layoutpolicy_horizontal = expanding
+							#layoutpolicy_vertical = growing
+							#spacing = 25
+
+							#item = {
+								vbox = {
+									layoutpolicy_horizontal = expanding
+									layoutpolicy_vertical = growing
+
+									name = "league_visualization"
+									datamodel = "[MyRealmWindow.GetDomainItems]"
+
+									vbox = {
+										name = "character_is_NOT_in_a_league"
+										layoutpolicy_horizontal = growing
+										visible = "[GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+
+										hbox = {
+											name = "city-state_has_no_league"
+											spacing = 5
+											coa_realm_medium = {
+												datacontext = "[GetPlayer]"
+												using = tooltip_ws
+											}
+
+											text_label_center = {
+												raw_text = "The [GetPlayer.GetPrimaryTitle.GetName] isn't in any [league|E] yet"
+												using = Font_Size_Medium
+												default_format = "#bold"
+											}
+										}
+
+										button_primary_big = {
+											name = "create_league_button"
+											size = { 320 60 }
+
+											raw_text = "Create a new League"
+
+											onclick = "[GetScriptedGui('create_league_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+										}
+									}
+
+									vbox = {
+										name = "character_is_in_a_league"
+										layoutpolicy_horizontal = growing
+										layoutpolicy_vertical = growing
+										visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+
+										vbox = {
+											name = "character_is_the_league_leader"
+											visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+											layoutpolicy_vertical = growing
+
+											hbox = {
+												spacing = 5
+												coa_realm_big = {
+													
+													datacontext = "[TitleItem.GetTitle]"
+													using = tootltip_ws
+												}
+												vbox = {
+													text_label_left = {
+														raw_text = "The [GetPlayer.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]"
+														using = Font_Size_Big
+														default_format = "#bold"
+													}
+													text_label_left = {
+														raw_text = "Current leader: [GetPlayer.GetPrimaryTitle.GetName] #F (You)#!"
+														using = Font_Size_Small
+													}
+												}
+												button_standard = {
+													name = "disband_league"
+													size = { 80 70 }
+
+													text = "disband_league_button"
+		
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													enabled = "[GetScriptedGui('disband_league_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													onclick = "[GetScriptedGui('disband_league_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "cant_disband_league_tooltip"
+													tooltip = "disband_league_tooltip"
+												}
+											}
+											text_label_center = {
+												raw_text = "[league|E] Members:"
+												using = Font_Size_Medium
+											}
+											scrollbox = {
+												size = { 560 400 }
+	
+												blockoverride "scrollbox_content"{
+													#margin = { 20 10 }
+													#spacing = 10
+	
+													fixedgridbox {
+														name = "league members"
+														datamodel = "[GetPlayer.MakeScope.GetList('league_list')]"
+														#datamodel_wrap = 5
+			
+														
+														item = {
+															layoutpolicy_vertical = expanding
+															hbox = {
+
+																layoutpolicy_vertical = expanding
+																coa_realm_medium = {	
+																	datacontext = "[Scope.GetCharacter]"
+																	using = tooltip_ws
+																}
+			
+																text_label_left = {
+																	raw_text = "[Scope.GetCharacter.GetPrimaryTitle.GetName]"
+																	using = Font_Size_Small
+																}
+															}
+															
+														}
+			
+													}
+												}
+											}
+										}
+										vbox = {
+											name = "character_is_NOT_the_league_leader"
+											visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+											layoutpolicy_vertical = growing
+											
+											hbox = {
+												spacing = 5
+
+												coa_realm_big = {
+													datacontext = "[GetPlayer.MakeScope.Var('league_owner').Char]"
+													using = tootltip_ws
+												}
+												vbox = {
+													text_label_center = {
+														raw_text = "The [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetAdjectiveNoTooltip] [league|E]"
+														using = Font_Size_Big
+														default_format = "#bold"
+													}
+													
+													text_label_left = {
+														raw_text = "Current leader: [GetPlayer.MakeScope.Var('league_owner').Char.GetPrimaryTitle.GetName]"
+														using = Font_Size_Small
+													}
+												}
+												button_standard = {
+													name = "usurp_leader"
+													size = { 80 70 }
+
+													text = "usurp_leader_button"
+		
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													enabled = "[GetScriptedGui('usurp_leader_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													onclick = "[GetScriptedGui('usurp_leader_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "cant_usurp_leader_tooltip"
+													tooltip = "usurp_leader_tooltip"
+												}
+											}
+											text_label_center = {
+												raw_text = "[league|E] Members:"
+												using = Font_Size_Medium
+											}
+											scrollbox = {
+												size = { 560 400 }
+	
+												blockoverride "scrollbox_content"{
+													#margin = { 20 10 }
+													#spacing = 10
+	
+													fixedgridbox {
+														name = "league members"
+														datamodel = "[GetPlayer.MakeScope.Var('league_owner').GetList('league_list')]"
+														addrow = 40
+														addcolumn = 40
+														#datamodel_wrap = 5
+			
+														
+														item = {
+															hbox = {
+																layoutpolicy_vertical = expanding
+																coa_realm_medium = {	
+																	datacontext = "[Scope.GetCharacter]"
+																	using = tooltip_ws
+																}
+			
+																text_label_left = {
+																	raw_text = "[Scope.GetCharacter.GetPrimaryTitle.GetName]"
+																	using = Font_Size_Small
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+										vbox = {
+											layoutpolicy_horizontal = shrinking
+											layoutpolicy_vertical = shrinking
+											spacing = 15
+											visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+
+											text_label_center = {
+												raw_text = "[league|E]'s Funds:"
+												using = Font_Size_Medium
+												default_format = "#bold"
+											}
+											hbox = {
+												spacing = 80
+												
+												vbox = { #only if Player is the League Leader
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													text_label_center = { 
+														raw_text = "In Chest"
+														using = Font_Size_Medium
+														default_format = "#bold"
+														tooltip = league_chest_tooltip
+													}
+													text_label_center = { 
+														raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.GetVariable('funds_value').GetValue )]"
+														using = Font_Size_Medium
+														tooltip = league_chest_tooltip
+													}
+												}
+												vbox = { #only if Player is the League Leader
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													text_label_center = { 
+														raw_text = "Income"
+														using = Font_Size_Medium
+														default_format = "#bold"
+														tooltip = three_months_income_tooltip
+													}
+													text_label_center = { 
+														raw_text = "[gold_i]+[FixedPointToInt( GetPlayer.MakeScope.ScriptValue('quarterly_league_funds_increase') )]"
+														using = Font_Size_Medium
+														default_format = "#color_green"
+														tooltip = three_months_income_tooltip
+													}
+												}
+												button_standard_small = { #only if Player is the League Leader
+													name = "take_loan_owner"
+													size = { 150 40 }
+		
+													raw_text = "Take 300[gold_i]"
+		
+													visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													enabled = "[GetScriptedGui('take_league_loan_owner_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													onclick = "[GetScriptedGui('take_league_loan_owner_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "not_enough_gold_in_chest"
+													tooltip = "take_league_loan_tooltip"
+												}
+
+												vbox = { #only if Player is NOT the League Leader
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													text_label_center = { 
+														raw_text = "In Chest"
+														using = Font_Size_Medium
+														default_format = "#bold"
+														tooltip = league_chest_tooltip
+													}
+													text_label_center = { 
+														raw_text = "[gold_i] [FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').Var('funds_value').GetValue )]"
+														using = Font_Size_Medium
+														tooltip = league_chest_tooltip
+													}
+												}
+												vbox = { #only if Player is NOT the League Leader
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													text_label_center = { 
+														raw_text = "Income"
+														using = Font_Size_Medium
+														default_format = "#bold"
+														tooltip = three_months_income_tooltip
+													}
+													text_label_center = { 
+														raw_text = "[gold_i]+[FixedPointToInt( GetPlayer.MakeScope.Var('league_owner').ScriptValue('quarterly_league_funds_increase') )]"
+														using = Font_Size_Medium
+														default_format = "#color_green"
+														tooltip = three_months_income_tooltip
+													}
+												}
+												
+												button_standard_small = { #only if Player is NOT the League Leader
+													name = "take_loan"
+													size = { 150 40 }
+		
+													raw_text = "Take 300[gold_i]"
+		
+													visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
+													enabled = "[GetScriptedGui('take_league_loan_gui').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													onclick = "[GetScriptedGui('take_league_loan_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+													tooltip_when_disabled = "not_enough_gold_in_chest"
+													tooltip = "take_league_loan_tooltip"
+												}
+												
+											}
+										}
+									}
+								}	
+							#}
+						#}
+					#}
 				}
 			}
 		}

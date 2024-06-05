@@ -1,0 +1,211 @@
+﻿create_league_gui = {
+	scope = character
+
+	effect = {
+		add_to_variable_list = {
+			name = league_list
+			target = root
+		}
+		set_variable = {
+			name = in_a_league
+			value = yes
+		}
+		add_character_modifier = {
+			modifier = league_funds
+		}
+		set_variable = {
+			name = funds_value
+			value = 0
+		}
+	}
+
+	is_shown = {
+		NOT = {
+			AND = {
+				has_variable = in_a_league
+				var:in_a_league = yes
+			}
+		}
+	}
+}
+
+is_league_leader_gui = {
+	scope = character
+
+	is_shown = {
+		NOT = { has_variable = league_owner }
+
+	}
+}
+
+take_league_loan_owner_gui = {
+	scope = character
+
+	effect = {
+		change_variable = {
+			name = funds_value
+			subtract = 300
+		}
+		add_gold = 300
+		every_in_list = {
+			variable = league_list
+
+			if = {
+				limit = { NOT = {this = root} }
+
+				add_opinion = {
+					target = root
+					modifier = took_some_league_funds_opinion
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		var:funds_value >= 300
+	}
+}
+
+take_league_loan_gui = {
+	scope = character
+
+	effect = {
+		var:league_owner = {
+			change_variable = {
+				name = funds_value
+				subtract = 300
+			}
+			every_in_list = {
+				variable = league_list
+	
+				if = {
+					limit = { NOT = { this = root } }
+	
+					add_opinion = {
+						target = root
+						modifier = took_some_league_funds_opinion
+					}
+					
+				}
+			}
+		}
+		add_gold = 300
+
+		
+	}
+
+	is_valid = {
+		var:league_owner.var:funds_value >= 300
+	}
+}
+
+usurp_leader_gui = {
+	scope = character
+
+	is_valid = {
+		OR = {
+			auctoritas_value > {
+				value = root.var:league_owner.auctoritas_value
+				multiply = 3
+			}
+			AND = {
+				auctoritas_value > 0
+				root.var:league_owner.auctoritas_value < 0
+			}
+		}
+		
+	}
+
+	effect = {
+		set_variable = {
+			name = funds_value
+			value = root.var:league_owner.var:funds_value
+		}
+		add_to_variable_list = {
+			name = league_list
+			target = root
+		}
+		
+
+		root.var:league_owner ?= {
+
+			set_variable = {
+				name = league_owner
+				value = root
+			}
+			remove_variable = funds_value
+			add_opinion = {
+				target = root
+				modifier = usurped_me_from_league_opinion
+			}
+
+			every_in_list = {
+				variable = league_list
+	
+				if = { 
+					limit = {NOT = {this = root}}
+					
+					root = {
+						add_to_variable_list = {
+							name = league_list
+		
+							target = prev
+						}
+					}	
+				}
+			}
+			clear_variable_list = league_list
+
+			if = {
+				limit = { has_variable_list = reintegrate_in_league }
+
+				clear_variable_list = reintegrate_in_league
+			}
+			trigger_event = league_interaction.0004
+		}
+
+		every_in_list = {
+			variable = league_list
+
+			if = {
+				limit = { NOT = { this = root }}
+
+				this = {
+					remove_variable = league_owner
+					set_variable = {
+						name = league_owner
+						value = root
+					}
+				}
+				
+			}
+		}
+
+		remove_variable = league_owner
+	}
+}
+
+disband_league_gui = {
+	scope = character
+
+	is_valid = {
+		variable_list_size = {
+			name = league_list
+			value = 1
+		}
+	}
+
+	effect = {
+		remove_variable = in_a_league
+		remove_character_modifier = league_funds
+		add_gold = funds_value
+		remove_variable = funds_value
+		clear_variable_list = league_list
+
+		if = {
+			limit = { has_variable_list = reintegrate_in_league }
+
+			clear_variable_list = reintegrate_in_league
+		}
+	}
+}
