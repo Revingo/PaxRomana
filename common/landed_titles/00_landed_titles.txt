@@ -7158,57 +7158,6 @@ e_germania = {
 					color = { 100 120 100 }
 				}
 			}
-			c_skane = {
-				color = { 215 5 5 }
-
-				b_lund = {
-					province = 70
-
-					color = { 215 5 5 }
-				}
-				b_trelleborg = {
-					province = 71
-
-					color = { 215 5 5 }
-				}
-				b_tommerup = {
-					province = 72
-
-					color = { 215 5 5 }
-
-					cultural_names = {
-						name_list_swedish = cn_ahus
-					}
-				}
-				b_goinge = {
-					province = 86
-					color = { 215 5 5 }
-				}
-				b_helsingborg = {
-					province = 73
-
-					color = { 215 5 5 }
-				}
-			}
-			c_halland = {
-				color = { 220 10 15 }
-
-				b_halmstad = {
-					province = 74
-
-					color = { 220 10 15 }
-				}
-				b_onsala = {
-					province = 75
-
-					color = { 220 10 15 }
-				}
-				b_laholm = {
-					province = 76
-
-					color = { 220 10 15 }
-				}
-			}
 			c_bornholm = {
 				color = { 220 15 20 }
 
@@ -7216,35 +7165,6 @@ e_germania = {
 					province = 77
 
 					color = { 220 15 20 }
-				}
-			}
-			c_blekinge = {
-				color = { 220 30 20 }
-
-				b_bregne = {
-					province = 78
-
-					color = { 220 30 20 }
-				}
-				b_ronneby = {
-					province = 79
-
-					color = { 220 30 20 }
-				}
-				b_lister = {
-					province = 87
-
-					color = { 220 30 20 }
-				}
-				b_avaskar = {
-					province = 80
-
-					color = { 220 30 20 }
-
-					cultural_names = {
-						name_list_danish = cn_avaskaer
-						name_list_norwegian = cn_avaskaer
-					}
 				}
 			}
 		}
@@ -10972,25 +10892,6 @@ e_africa = {
 					province = 6653
 
 					color = { 145 136 116 }
-				}
-			}
-			c_tiris = {
-				color = { 161 157 191 }
-
-				b_bir_um-ghrein = {
-					province = 6473
-
-					color = { 161 157 191 }
-				}
-				b_tiris = {
-					province = 6474
-
-					color = { 161 157 191 }
-				}
-				b_tiris-south = {
-					province = 6482
-
-					color = { 161 157 191 }
 				}
 			}
 			c_touat = {
@@ -20749,25 +20650,6 @@ e_alexander_makedon = {
 					color = { 55 155 70 }
 				}
 			}
-			c_nasrabad = {
-				color = { 45 160 75 }
-
-				b_nasrabad = {
-					province = 1423
-
-					color = { 45 160 75 }
-				}
-				b_arslanbob = {
-					province = 7216
-
-					color = { 45 160 75 }
-				}
-				b_sarybulak = {
-					province = 7217
-
-					color = { 45 160 75 }
-				}
-			}
 		}
 		d_peukestas = {
 			color = { 129 37 98 }
@@ -21895,20 +21777,6 @@ e_alexander_makedon = {
 					color = { 220 105 18 }
 				}
 			}
-			c_aror = {
-				color = { 180 105 18 }
-
-				b_aror = {
-					province = 1175
-
-					color = { 180 105 18 }
-				}
-				b_siraj_ji_takri = {
-					province = 3392
-
-					color = { 180 105 18 }
-				}
-			}
 			c_rajanpur = {
 				color = { 200 115 18 }
 
@@ -21931,25 +21799,6 @@ e_alexander_makedon = {
 					province = 1372
 
 					color = { 200 105 38 }
-				}
-			}
-			c_vijnot = {
-				color = { 150 60 50 }
-
-				b_vijnot = {
-					province = 1336
-
-					color = { 150 60 50 }
-				}
-				b_ghotki = {
-					province = 3393
-
-					color = { 150 60 50 }
-				}
-				b_bhatiya = {
-					province = 3391
-
-					color = { 150 60 50 }
 				}
 			}
 			c_sibi = {
@@ -22005,54 +21854,6 @@ e_alexander_makedon = {
 					color = { 230 155 20 }
 				}
 			}
-			c_sonda = {
-				color = { 230 115 20 }
-
-				b_sonda = {
-					province = 1331
-
-					color = { 230 115 20 }
-				}
-				b_amarkot = {
-					province = 3398
-
-					color = { 230 115 20 }
-				}
-				b_badin = {
-					province = 3399
-
-					color = { 230 115 20 }
-				}
-				b_karoonjar = {
-					province = 3971
-
-					color = { 230 115 20 }
-				}
-			}
-			c_mansura = {
-				color = { 230 155 40 }
-
-				b_mansura = {
-					province = 1137
-
-					color = { 230 155 40 }
-				}
-				b_mirpur_khas = {
-					province = 3395
-
-					color = { 230 155 40 }
-				}
-				b_matiari = {
-					province = 3397
-
-					color = { 230 155 40 }
-				}
-				b_nasarpur = {
-					province = 3396
-
-					color = { 230 155 40 }
-				}
-			}
 			c_ranikot = {
 				color = { 210 155 40 }
 
@@ -22072,44 +21873,6 @@ e_alexander_makedon = {
 					color = { 210 155 40 }
 				}
 			}
-			c_siwistan = {
-				color = { 250 155 40 }
-
-				b_siwistan = {
-					province = 1333
-
-					color = { 250 155 40 }
-				}
-				b_mir_rukan = {
-					province = 3394
-
-					color = { 250 155 40 }
-				}
-			}
-			c_multan = {
-				color = { 234 110 21 }
-
-				b_multan = {
-					province = 1338
-
-					color = { 234 110 21 }
-				}
-				b_kabirwala = {
-					province = 3413
-
-					color = { 234 110 21 }
-				}
-				b_tulamba = {
-					province = 3412
-
-					color = { 234 110 21 }
-				}
-				b_alipur = {
-					province = 3414
-
-					color = { 234 110 21 }
-				}
-			}
 			c_kafirkot = {
 				color = { 234 90 21 }
 
@@ -22127,44 +21890,6 @@ e_alexander_makedon = {
 					province = 1376
 
 					color = { 234 90 21 }
-				}
-			}
-			c_karur = {
-				color = { 234 50 11 }
-
-				b_karur = {
-					province = 1178
-
-					color = { 234 50 11 }
-				}
-				b_askhanda = {
-					province = 3410
-
-					color = { 234 50 11 }
-				}
-				b_vehari = {
-					province = 3411
-
-					color = { 234 50 11 }
-				}
-			}
-			c_karor = {
-				color = { 255 120 21 }
-
-				b_karor = {
-					province = 1340
-
-					color = { 255 120 21 }
-				}
-				b_mankera = {
-					province = 3415
-
-					color = { 255 120 21 }
-				}
-				b_wan_bhachran = {
-					province = 3416
-
-					color = { 255 120 21 }
 				}
 			}
 			c_kalat = {
@@ -24333,20 +24058,6 @@ e_aksum = {
 					province = 8305
 
 					color = { 127 72 28 }
-				}
-			}
-			c_gafat = {
-				color = { 137 84 37 }
-
-				b_gafat = {
-					province = 8366
-
-					color = { 137 84 37 }
-				}
-				b_west_gojjam = {
-					province = 8372
-
-					color = { 137 84 37 }
 				}
 			}
 			c_agaw_meder = {
