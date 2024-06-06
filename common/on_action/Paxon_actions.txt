@@ -406,3 +406,123 @@ on_league_leader_becomes_landless = {
 	}
 
 }
+
+on_title_gain = {
+	on_actions = {
+		on_mauryc_titles_gain
+	}
+}
+on_title_gain_usurpation = {
+	on_actions = {
+		on_mauryc_titles_gain
+	}
+}
+
+on_mauryc_titles_gain = {
+	trigger = {
+		scope:title = d_mauryas
+	}
+	effect = {
+		monthly_income_mult = 0.4
+		levy_reinforcement_rate = -0.2
+		levy_size = 0.6
+		men_at_arms_cap = 3
+		knight_limit = 4
+	}
+}
+
+on_title_lost = {
+	on_actions = {
+		on_mauryc_titles_removed
+	}
+}
+
+on_mauryc_titles_removed = {
+	trigger = {
+		scope:title = d_mauryas
+	}
+	effect = {
+		monthly_income_mult = -0.4
+		levy_reinforcement_rate = 0.2
+		levy_size = -0.6
+		men_at_arms_cap = -3
+		knight_limit = -4
+	}
+}
+
+on_tradition_added = {
+	on_actions = {
+		on_added_pure_family_tradition
+	}
+}
+on_added_pure_family_tradition = {
+	trigger = {
+		scope:tradition = tradition_pure_family
+	}
+	effect = {
+		add_character_modifier = {
+			modifier = family_matters
+		}
+	}
+}
+on_character_culture_change = {
+	on_actions = {
+		on_pure_family_tradition
+	}
+}
+
+
+on_pure_family_tradition = {
+	trigger = {
+		root.culture = {
+			has_cultural_tradition = tradition_pure_family
+		} 
+	}
+	effect = {
+		add_character_modifier = {
+			modifier = family_matters
+		}
+	}
+}
+
+on_game_start = {
+	on_actions = {
+		on_game_start_pure_family_tradition
+	}
+}
+
+
+on_game_start_pure_family_tradition = {
+	effect = {
+		every_ruler = {
+			limit = {
+				culture = {
+					has_cultural_tradition = tradition_pure_family
+				}
+			}
+			add_character_modifier = {
+				modifier = family_matters
+			}
+		}	
+	}
+}
+
+on_tradition_removed = {
+	on_actions = {
+		on_remove_pure_family_tradition
+	}
+}
+
+on_remove_pure_family_tradition = {
+	trigger = {
+		scope:tradition = tradition_pure_family
+	}
+	effect = {
+		if = { 
+			limit = { has_character_modifier = family_matters }
+	
+			remove_character_modifier = family_matters
+		}
+		
+	}
+}

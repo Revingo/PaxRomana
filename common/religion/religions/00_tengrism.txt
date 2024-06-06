@@ -1,5 +1,5 @@
 tengrism_religion = {
-	family = rf_steppe
+	family = rf_pagan
 
 	pagan_roots = yes
 

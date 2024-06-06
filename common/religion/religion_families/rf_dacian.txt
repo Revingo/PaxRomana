@@ -1,4 +1,0 @@
-rf_dacian = {
-	graphical_faith = "dacian_gfx" #placeholder
-	hostility_doctrine = pagan_hostility_doctrine
-}

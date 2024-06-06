@@ -6,7 +6,6 @@ mauryan = {
 	language = language_indic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_indian_funds
 		tradition_lords_of_the_elephant
 		tradition_warrior_monks
 		tradition_malleable_invaders

@@ -24706,19 +24706,19 @@ e_arabia = {
 				NOT = { has_government = city-state_government }
 			}	
 		}
-		}
+	}
 	k_arabia_felix = {
 		color = { 78 236 75 }
 
 		can_create = {
 			custom_description = {
-			text = cant_create_tribal_or_city-state
+				text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 		d_himyarites = {
 			color = { 78 236 56 }
