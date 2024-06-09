@@ -4410,19 +4410,18 @@ e_germania = {
 
 		can_create = {
 			custom_description = {
-			text = cant_create_tribal_or_city-state
+				text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
-		}
-		d_virinum = {
-			color = { 75 65 75 }
+		d_noricum = {
+			color = { 75 158 75 }
 
 			capital = c_berchtesgaden
-
 			c_innsbruck = {
 				color = { 75 65 75 }
 
@@ -4449,78 +4448,6 @@ e_germania = {
 					color = { 75 65 75 }
 				}
 			}
-			c_salzburg = {
-				color = { 110 110 110 }
-
-				b_salzburg = {
-					province = 2975
-
-					color = { 110 110 110 }
-				}
-				b_braunau = {
-					province = 2973
-
-					color = { 110 110 110 }
-				}
-				b_traunstein = {
-					province = 2983
-
-					color = { 110 110 110 }
-				}
-				b_hallein = {
-					province = 2978
-
-					color = { 110 110 110 }
-				}
-				b_laufen = {
-					province = 2982
-
-					color = { 110 110 110 }
-				}
-			}
-			c_regensburg = {
-				color = { 80 90 90 }
-
-				b_regensburg = {
-					province = 2964
-
-					color = { 80 90 90 }
-				}
-				b_tegernheim = {
-					province = 2965
-
-					color = { 80 90 90 }
-				}
-				b_abensberg = {
-					province = 2941
-
-					color = { 80 90 90 }
-				}
-				b_leonsberg = {
-					province = 2963
-
-					color = { 80 90 90 }
-				}
-			}
-			c_munchen = {
-				color = { 75 75 75 }
-
-				b_munchen = {
-					province = 2945
-
-					color = { 75 75 75 }
-				}
-				b_aheim = {
-					province = 2946
-
-					color = { 75 75 75 }
-				}
-				b_wolfratshausen = {
-					province = 2947
-
-					color = { 75 75 75 }
-				}
-			}
 			c_eschenlohe = {
 				color = { 60 70 70 }
 
@@ -4535,63 +4462,6 @@ e_germania = {
 					color = { 60 70 70 }
 				}
 			}
-			c_rothenburg = {
-				color = { 80 90 100 }
-
-				b_rothenburg = {
-					province = 2942
-
-					color = { 80 90 100 }
-				}
-				b_freising = {
-					province = 2943
-
-					color = { 80 90 100 }
-				}
-				b_ilmunster = {
-					province = 2939
-
-					color = { 80 90 100 }
-				}
-			}
-			c_geisenhausen = {
-				color = { 75 100 100 }
-
-				b_geisenhausen = {
-					province = 2957
-
-					color = { 75 100 100 }
-				}
-				b_erding = {
-					province = 2958
-
-					color = { 75 100 100 }
-				}
-			}
-			c_frontenhausen = {
-				color = { 90 90 90 }
-
-				b_frontenhausen = {
-					province = 2959
-
-					color = { 90 90 90 }
-				}
-				b_dornberg = {
-					province = 2961
-
-					color = { 90 90 90 }
-				}
-				b_ortenburg = {
-					province = 2962
-
-					color = { 90 90 90 }
-				}
-				b_burghausen = {
-					province = 2981
-
-					color = { 90 90 90 }
-				}
-			}
 			c_falkenstein = {
 				color = { 70 80 80 }
 
@@ -4604,49 +4474,6 @@ e_germania = {
 					province = 2984
 
 					color = { 70 80 80 }
-				}
-			}
-			c_ingolstadt = {
-				color = { 80 80 95 }
-
-				b_ingolstadt = {
-					province = 2883
-
-					color = { 80 80 95 }
-				}
-				b_munchsmunster = {
-					province = 2940
-
-					color = { 80 80 95 }
-				}
-				b_niederschonenfeld = {
-					province = 2938
-
-					color = { 80 80 95 }
-				}
-			}
-			c_passau = {
-				color = { 80 80 80 }
-
-				b_passau = {
-					province = 2960
-
-					color = { 80 80 80 }
-				}
-				b_waldkirchen = {
-					province = 2969
-
-					color = { 80 80 80 }
-				}
-				b_scharding = {
-					province = 2970
-
-					color = { 80 80 80 }
-				}
-				b_deggendorf = {
-					province = 2968
-
-					color = { 80 80 80 }
 				}
 			}
 			c_berchtesgaden = {
@@ -4687,44 +4514,6 @@ e_germania = {
 					color = { 105 105 115 }
 				}
 			}
-			c_linz = {
-				color = { 115 105 105 }
-
-				b_linz = {
-					province = 3131
-
-					color = { 115 105 105 }
-				}
-				b_steyr = {
-					province = 3132
-
-					color = { 115 105 105 }
-				}
-				b_leonfelden = {
-					province = 3072
-
-					color = { 115 105 105 }
-				}
-			}
-			c_schaumberg = {
-				color = { 120 120 120 }
-
-				b_schaumberg = {
-					province = 2971
-
-					color = { 120 120 120 }
-				}
-				b_strasswalchen = {
-					province = 2979
-
-					color = { 120 120 120 }
-				}
-				b_ried = {
-					province = 2972
-
-					color = { 120 120 120 }
-				}
-			}
 			c_brixen = {
 				color = { 60 50 60 }
 
@@ -4737,6 +4526,35 @@ e_germania = {
 					province = 2952
 
 					color = { 60 50 60 }
+				}
+			}
+			c_salzburg = {
+				color = { 110 110 110 }
+
+				b_salzburg = {
+					province = 2975
+
+					color = { 110 110 110 }
+				}
+				b_braunau = {
+					province = 2973
+
+					color = { 110 110 110 }
+				}
+				b_traunstein = {
+					province = 2983
+
+					color = { 110 110 110 }
+				}
+				b_hallein = {
+					province = 2978
+
+					color = { 110 110 110 }
+				}
+				b_laufen = {
+					province = 2982
+
+					color = { 110 110 110 }
 				}
 			}
 			c_lienz = {
@@ -4840,6 +4658,195 @@ e_germania = {
 				}
 			}
 
+		}
+		d_virinum = {
+			color = { 75 65 75 }
+
+			c_regensburg = {
+				color = { 80 90 90 }
+
+				b_regensburg = {
+					province = 2964
+
+					color = { 80 90 90 }
+				}
+				b_tegernheim = {
+					province = 2965
+
+					color = { 80 90 90 }
+				}
+				b_abensberg = {
+					province = 2941
+
+					color = { 80 90 90 }
+				}
+				b_leonsberg = {
+					province = 2963
+
+					color = { 80 90 90 }
+				}
+			}
+			c_munchen = {
+				color = { 75 75 75 }
+
+				b_munchen = {
+					province = 2945
+
+					color = { 75 75 75 }
+				}
+				b_aheim = {
+					province = 2946
+
+					color = { 75 75 75 }
+				}
+				b_wolfratshausen = {
+					province = 2947
+
+					color = { 75 75 75 }
+				}
+			}
+			c_rothenburg = {
+				color = { 80 90 100 }
+
+				b_rothenburg = {
+					province = 2942
+
+					color = { 80 90 100 }
+				}
+				b_freising = {
+					province = 2943
+
+					color = { 80 90 100 }
+				}
+				b_ilmunster = {
+					province = 2939
+
+					color = { 80 90 100 }
+				}
+			}
+			c_geisenhausen = {
+				color = { 75 100 100 }
+
+				b_geisenhausen = {
+					province = 2957
+
+					color = { 75 100 100 }
+				}
+				b_erding = {
+					province = 2958
+
+					color = { 75 100 100 }
+				}
+			}
+			c_frontenhausen = {
+				color = { 90 90 90 }
+
+				b_frontenhausen = {
+					province = 2959
+
+					color = { 90 90 90 }
+				}
+				b_dornberg = {
+					province = 2961
+
+					color = { 90 90 90 }
+				}
+				b_ortenburg = {
+					province = 2962
+
+					color = { 90 90 90 }
+				}
+				b_burghausen = {
+					province = 2981
+
+					color = { 90 90 90 }
+				}
+			}
+			c_ingolstadt = {
+				color = { 80 80 95 }
+
+				b_ingolstadt = {
+					province = 2883
+
+					color = { 80 80 95 }
+				}
+				b_munchsmunster = {
+					province = 2940
+
+					color = { 80 80 95 }
+				}
+				b_niederschonenfeld = {
+					province = 2938
+
+					color = { 80 80 95 }
+				}
+			}
+			c_passau = {
+				color = { 80 80 80 }
+
+				b_passau = {
+					province = 2960
+
+					color = { 80 80 80 }
+				}
+				b_waldkirchen = {
+					province = 2969
+
+					color = { 80 80 80 }
+				}
+				b_scharding = {
+					province = 2970
+
+					color = { 80 80 80 }
+				}
+				b_deggendorf = {
+					province = 2968
+
+					color = { 80 80 80 }
+				}
+			}
+			
+			
+			c_linz = {
+				color = { 115 105 105 }
+
+				b_linz = {
+					province = 3131
+
+					color = { 115 105 105 }
+				}
+				b_steyr = {
+					province = 3132
+
+					color = { 115 105 105 }
+				}
+				b_leonfelden = {
+					province = 3072
+
+					color = { 115 105 105 }
+				}
+			}
+			c_schaumberg = {
+				color = { 120 120 120 }
+
+				b_schaumberg = {
+					province = 2971
+
+					color = { 120 120 120 }
+				}
+				b_strasswalchen = {
+					province = 2979
+
+					color = { 120 120 120 }
+				}
+				b_ried = {
+					province = 2972
+
+					color = { 120 120 120 }
+				}
+			}
+			
+			
 		}
 
 	}
@@ -23833,11 +23840,11 @@ e_alexander_makedon = {
 		}
 	}
 }
-e_aksum = {
+e_aksum = { #Empire of Kush
 	color = { 74 45 29 }
 
 	can_create = {
-			custom_description = {
+		custom_description = {
 			text = cant_create_tribal_or_city-state
 
 			AND = {
@@ -23845,19 +23852,392 @@ e_aksum = {
 				NOT = { has_government = city-state_government }
 			}	
 		}
+	}
+	k_kush = {
+		color = { 255 215 25 }
+
+		can_create = {
+			custom_description = {
+				text = cant_create_tribal_or_city-state
+
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
+
+		d_kush = {
+			color = { 19 234 29 }
+	
+			c_dongola = {
+				color = { 145 150 80 }
+
+				b_old_dongola = {
+					province = 6344
+
+					color = { 145 150 80 }
+				}
+				b_tumbus = {
+					province = 6341
+
+					color = { 145 150 80 }
+				}
+				b_kemna = {
+					province = 6342
+
+					color = { 145 150 80 }
+				}
+				b_dongola = {
+					province = 6343
+
+					color = { 145 150 80 }
+				}
+				b_debba = {
+					province = 6345
+
+					color = { 145 150 80 }
+				}
+			}
+			c_sai = {
+				color = { 140 155 75 }
+
+				b_sai = {
+					province = 6339
+
+					color = { 140 155 75 }
+				}
+				b_delgo = {
+					province = 6340
+
+					color = { 140 155 75 }
+				}
+				b_kassi-markol = {
+					province = 6359
+
+					color = { 140 155 75 }
+				}
+			}
+			c_meroe = {
+				color = { 155 140 67 }
+
+				b_grnetti = {
+					province = 6346
+
+					color = { 155 140 67 }
+				}
+				b_tankasi = {
+					province = 6347
+
+					color = { 155 140 67 }
+				}
+				b_kareima = {
+					province = 6348
+
+					color = { 155 140 67 }
+				}
+				b_nuri = {
+					province = 6349
+
+					color = { 155 140 67 }
+				}
+				b_diffar = {
+					province = 6360
+
+					color = { 155 140 67 }
+				}
+			}
+			c_wadi_el-milk = {
+				color = { 140 160 70 }
+
+				b_wadi_el-milk = {
+					province = 6415
+
+					color = { 140 160 70 }
+				}
+				b_jebel_abu_negila = {
+					province = 6427
+
+					color = { 140 160 70 }
+				}
+				b_bir_el-kai = {
+					province = 6428
+
+					color = { 140 160 70 }
+				}
+			}
+			c_abwab = {
+				color = { 145 160 75 }
+
+				b_al-abwab = {
+					province = 6363
+
+					color = { 145 160 75 }
+				}
+				b_shendi = {
+					province = 6364
+
+					color = { 145 160 75 }
+				}
+				b_keli = {
+					province = 6365
+
+					color = { 145 160 75 }
+				}
+				b_wad_hamid = {
+					province = 6366
+
+					color = { 145 160 75 }
+				}
+				b_al-ghazali = {
+					province = 6350
+
+					color = { 145 160 75 }
+				}
+			}
+			c_atbara = {
+				color = { 150 160 50 }
+
+				b_atbara = {
+					province = 6356
+
+					color = { 150 160 50 }
+				}
+				b_berber = {
+					province = 6355
+
+					color = { 150 160 50 }
+				}
+				b_al-bawga = {
+					province = 6357
+
+					color = { 150 160 50 }
+				}
+				b_ed-damer = {
+					province = 6358
+
+					color = { 150 160 50 }
+				}
+				b_shunqayr = {
+					province = 6389
+
+					color = { 150 160 50 }
+				}
+			}
+			c_alodia = {
+				color = { 135 65 20 }
+
+				b_soba = {
+					province = 6394
+
+					color = { 135 65 20 }
+				}
+				b_geili = {
+					province = 6391
+
+					color = { 135 65 20 }
+				}
+				b_kadero = {
+					province = 6392
+
+					color = { 135 65 20 }
+				}
+				b_alti = {
+					province = 6395
+
+					color = { 135 65 20 }
+				}
+				b_kamlin = {
+					province = 6397
+
+					color = { 135 65 20 }
+				}
+			}
+			c_naga = {
+				color = { 130 55 25 }
+
+				b_naga = {
+					province = 6407
+
+					color = { 130 55 25 }
+				}
+				b_basa = {
+					province = 6408
+
+					color = { 130 55 25 }
+				}
+				b_umm_usuda = {
+					province = 6409
+
+					color = { 130 55 25 }
+				}
+				b_jebel_geili = {
+					province = 6410
+
+					color = { 130 55 25 }
+				}
+			}
+			
+			c_ushara = {
+				color = { 135 50 30 }
+
+				b_ushara = {
+					province = 6393
+
+					color = { 135 50 30 }
+				}
+				b_shaheinab = {
+					province = 6390
+
+					color = { 135 50 30 }
+				}
+				b_kosti = {
+					province = 6429
+
+					color = { 120 60 15 }
+				}
+			}
+		}
+		d_blemmyes = {
+			color = { 74 234 29 }
+	
+			c_baqlin = {
+				color = { 235 155 80 }
+
+				b_sinkat = {
+					province = 6376
+
+					color = { 235 155 80 }
+				}
+				b_baqlin-north = {
+					province = 6385
+
+					color = { 235 155 80 }
+				}
+				b_baqlin-west = {
+					province = 6386
+
+					color = { 235 155 80 }
+				}
+				b_baqlin-east = {
+					province = 6387
+
+					color = { 235 155 80 }
+				}
+			}
+			c_djarin = {
+				color = { 245 160 70 }
+
+				b_dherbe = {
+					province = 6440
+
+					color = { 245 160 70 }
+				}
+				b_djarin = {
+					province = 6414
+
+					color = { 245 160 70 }
+				}
+				b_khawr_baraka = {
+					province = 6413
+
+					color = { 245 160 70 }
+				}
+			}
+			c_qataa = {
+				color = { 255 150 80 }
+
+				b_qataa = {
+					province = 6438
+
+					color = { 255 150 80 }
+				}
+				b_marya = {
+					province = 6439
+
+					color = { 255 150 80 }
+				}
+			}
+			c_kassala = {
+				color = { 230 150 80 }
+
+				b_kassala = {
+					province = 6412
+
+					color = { 200 101 34 }
+				}
+				b_middle_atbara = {
+					province = 6411
+
+					color = { 200 101 34 }
+				}
+				b_to_lus = {
+					province = 6442
+
+					color = { 200 101 34 }
+				}
+			}
+			c_bazin = {
+				color = { 240 145 85 }
+
+				b_tokar = {
+					province = 6378
+
+					color = { 240 145 85 }
+				}
+				b_akik = {
+					province = 6379
+
+					color = { 240 145 85 }
+				}
+				b_bazin = {
+					province = 6381
+
+					color = { 240 145 85 }
+				}
+			}
+			c_suakin = {
+				color = { 220 130 90 }
+
+				b_suakin = {
+					province = 6377
+
+					color = { 220 130 90 }
+				}
+				b_dungunab = {
+					province = 6371
+
+					color = { 220 130 90 }
+				}
+			}
+			c_badi = {
+				color = { 235 140 75 }
+
+				b_badi = {
+					province = 6380
+
+					color = { 235 140 75 }
+				}
+				b_ka'abir = {
+					province = 6441
+
+					color = { 235 140 75 }
+				}
+			}
+		}
+	}
 	k_aksum = {
 		color = { 19 250 190 }
 
 		can_create = {
 			custom_description = {
-			text = cant_create_tribal_or_city-state
+				text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 		d_aksum = {
 			color = { 19 234 190 }
@@ -24333,364 +24713,7 @@ e_aksum = {
 				}
 			}
 		}
-		d_kush = {
-			color = { 19 234 29 }
-	
-			c_dongola = {
-				color = { 145 150 80 }
-
-				b_old_dongola = {
-					province = 6344
-
-					color = { 145 150 80 }
-				}
-				b_tumbus = {
-					province = 6341
-
-					color = { 145 150 80 }
-				}
-				b_kemna = {
-					province = 6342
-
-					color = { 145 150 80 }
-				}
-				b_dongola = {
-					province = 6343
-
-					color = { 145 150 80 }
-				}
-				b_debba = {
-					province = 6345
-
-					color = { 145 150 80 }
-				}
-			}
-			c_sai = {
-				color = { 140 155 75 }
-
-				b_sai = {
-					province = 6339
-
-					color = { 140 155 75 }
-				}
-				b_delgo = {
-					province = 6340
-
-					color = { 140 155 75 }
-				}
-				b_kassi-markol = {
-					province = 6359
-
-					color = { 140 155 75 }
-				}
-			}
-			c_meroe = {
-				color = { 155 140 67 }
-
-				b_grnetti = {
-					province = 6346
-
-					color = { 155 140 67 }
-				}
-				b_tankasi = {
-					province = 6347
-
-					color = { 155 140 67 }
-				}
-				b_kareima = {
-					province = 6348
-
-					color = { 155 140 67 }
-				}
-				b_nuri = {
-					province = 6349
-
-					color = { 155 140 67 }
-				}
-				b_diffar = {
-					province = 6360
-
-					color = { 155 140 67 }
-				}
-			}
-			c_wadi_el-milk = {
-				color = { 140 160 70 }
-
-				b_wadi_el-milk = {
-					province = 6415
-
-					color = { 140 160 70 }
-				}
-				b_jebel_abu_negila = {
-					province = 6427
-
-					color = { 140 160 70 }
-				}
-				b_bir_el-kai = {
-					province = 6428
-
-					color = { 140 160 70 }
-				}
-			}
-			c_abwab = {
-				color = { 145 160 75 }
-
-				b_al-abwab = {
-					province = 6363
-
-					color = { 145 160 75 }
-				}
-				b_shendi = {
-					province = 6364
-
-					color = { 145 160 75 }
-				}
-				b_keli = {
-					province = 6365
-
-					color = { 145 160 75 }
-				}
-				b_wad_hamid = {
-					province = 6366
-
-					color = { 145 160 75 }
-				}
-				b_al-ghazali = {
-					province = 6350
-
-					color = { 145 160 75 }
-				}
-			}
-			c_atbara = {
-				color = { 150 160 50 }
-
-				b_atbara = {
-					province = 6356
-
-					color = { 150 160 50 }
-				}
-				b_berber = {
-					province = 6355
-
-					color = { 150 160 50 }
-				}
-				b_al-bawga = {
-					province = 6357
-
-					color = { 150 160 50 }
-				}
-				b_ed-damer = {
-					province = 6358
-
-					color = { 150 160 50 }
-				}
-				b_shunqayr = {
-					province = 6389
-
-					color = { 150 160 50 }
-				}
-			}
-			c_alodia = {
-				color = { 135 65 20 }
-
-				b_soba = {
-					province = 6394
-
-					color = { 135 65 20 }
-				}
-				b_geili = {
-					province = 6391
-
-					color = { 135 65 20 }
-				}
-				b_kadero = {
-					province = 6392
-
-					color = { 135 65 20 }
-				}
-				b_alti = {
-					province = 6395
-
-					color = { 135 65 20 }
-				}
-				b_kamlin = {
-					province = 6397
-
-					color = { 135 65 20 }
-				}
-			}
-			c_naga = {
-				color = { 130 55 25 }
-
-				b_naga = {
-					province = 6407
-
-					color = { 130 55 25 }
-				}
-				b_basa = {
-					province = 6408
-
-					color = { 130 55 25 }
-				}
-				b_umm_usuda = {
-					province = 6409
-
-					color = { 130 55 25 }
-				}
-				b_jebel_geili = {
-					province = 6410
-
-					color = { 130 55 25 }
-				}
-			}
-			
-			c_ushara = {
-				color = { 135 50 30 }
-
-				b_ushara = {
-					province = 6393
-
-					color = { 135 50 30 }
-				}
-				b_shaheinab = {
-					province = 6390
-
-					color = { 135 50 30 }
-				}
-				b_kosti = {
-					province = 6429
-
-					color = { 120 60 15 }
-				}
-			}
-		}
-		d_blemmyes = {
-			color = { 74 234 29 }
-	
-			c_baqlin = {
-				color = { 235 155 80 }
-
-				b_sinkat = {
-					province = 6376
-
-					color = { 235 155 80 }
-				}
-				b_baqlin-north = {
-					province = 6385
-
-					color = { 235 155 80 }
-				}
-				b_baqlin-west = {
-					province = 6386
-
-					color = { 235 155 80 }
-				}
-				b_baqlin-east = {
-					province = 6387
-
-					color = { 235 155 80 }
-				}
-			}
-			c_djarin = {
-				color = { 245 160 70 }
-
-				b_dherbe = {
-					province = 6440
-
-					color = { 245 160 70 }
-				}
-				b_djarin = {
-					province = 6414
-
-					color = { 245 160 70 }
-				}
-				b_khawr_baraka = {
-					province = 6413
-
-					color = { 245 160 70 }
-				}
-			}
-			c_qataa = {
-				color = { 255 150 80 }
-
-				b_qataa = {
-					province = 6438
-
-					color = { 255 150 80 }
-				}
-				b_marya = {
-					province = 6439
-
-					color = { 255 150 80 }
-				}
-			}
-			c_kassala = {
-				color = { 230 150 80 }
-
-				b_kassala = {
-					province = 6412
-
-					color = { 200 101 34 }
-				}
-				b_middle_atbara = {
-					province = 6411
-
-					color = { 200 101 34 }
-				}
-				b_to_lus = {
-					province = 6442
-
-					color = { 200 101 34 }
-				}
-			}
-			c_bazin = {
-				color = { 240 145 85 }
-
-				b_tokar = {
-					province = 6378
-
-					color = { 240 145 85 }
-				}
-				b_akik = {
-					province = 6379
-
-					color = { 240 145 85 }
-				}
-				b_bazin = {
-					province = 6381
-
-					color = { 240 145 85 }
-				}
-			}
-			c_suakin = {
-				color = { 220 130 90 }
-
-				b_suakin = {
-					province = 6377
-
-					color = { 220 130 90 }
-				}
-				b_dungunab = {
-					province = 6371
-
-					color = { 220 130 90 }
-				}
-			}
-			c_badi = {
-				color = { 235 140 75 }
-
-				b_badi = {
-					province = 6380
-
-					color = { 235 140 75 }
-				}
-				b_ka'abir = {
-					province = 6441
-
-					color = { 235 140 75 }
-				}
-			}
-		}
+		
 	}
 }
 
