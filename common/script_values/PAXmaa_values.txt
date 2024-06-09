@@ -1,0 +1,51 @@
+tier1_recruitment_cost = {
+	value = 45
+}
+tier2_recruitment_cost = {
+	value = 65
+}
+tier3_recruitment_cost = {
+	value = 90
+}
+tier4_recruitment_cost = {
+	value = 115
+}
+tier5_recruitment_cost = {
+	value = 140
+}
+tier6_recruitment_cost = {
+	value = 170
+}
+tier7_recruitment_cost = {
+	value = 200
+}
+
+tier1_maintain_cost = {
+	value = 0.15
+}
+tier2_maintain_cost = {
+	value = 0.2
+}
+tier3_maintain_cost = {
+	value = 0.25
+}
+tier4_maintain_cost = {
+	value = 0.3
+}
+tier5_maintain_cost = {
+	value = 0.35
+}
+tier6_maintain_cost = {
+	value = 0.4
+}
+tier7_maintain_cost = {
+	value = 0.45
+}
+
+tier1_HIGH_maintain_cost = @[tier1_maintain_cost * high_maint_mult]
+tier2_HIGH_maintain_cost = @[tier2_maintain_cost * high_maint_mult]
+tier3_HIGH_maintain_cost = @[tier3_maintain_cost * high_maint_mult]
+tier4_HIGH_maintain_cost = @[tier4_maintain_cost * high_maint_mult]
+tier5_HIGH_maintain_cost = @[tier5_maintain_cost * high_maint_mult]
+tier6_HIGH_maintain_cost = @[tier6_maintain_cost * high_maint_mult]
+tier7_HIGH_maintain_cost = @[tier7_maintain_cost * high_maint_mult]
