@@ -1,4 +1,4 @@
-# North African Coast Only
+﻿# North African Coast Only
 berber_warriors = {
 	type = [spearmen|E]
 
@@ -20,17 +20,16 @@ berber_warriors = {
 		[dogs|E] = 1
 	}
 
-	# TO DO: berber_warriors costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier1_recruitment_cost }
+	low_maintenance_cost = { gold = tier1_maintain_cost }
+	high_maintenance_cost = { gold = tier1_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
 	}
 }
 
@@ -63,17 +62,15 @@ numidian_cavalry = {
 		harsh_winter = { damage = -5 toughness = -4 }
 	}
 
-	# TO DO: numidian_cavalry costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
 	}
 }
 
@@ -98,15 +95,17 @@ dacian_falxmen = {
 		[heavy_infantry|E] = 1
 	}
 
-	# TO DO: dacian_falxmen costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier1_maintain_cost }
+	high_maintenance_cost = { gold = tier1_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen
+		value = PAXcounter_synergy_ai_weight_swordsmen
+	}
 }
 
 # Only celtic heritage
@@ -131,17 +130,16 @@ celtic_archers = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: celtic_archers costs
-	buy_cost = { gold = bowmen_recruitment_cost }
-	low_maintenance_cost = { gold = bowmen_low_maint_cost }
-	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_archers
-		value = counter_synergy_ai_weight_archers
+		value = PAXculture_ai_weight_archers
+		value = PAXcounter_synergy_ai_weight_archers
 	}
 }
 
@@ -168,17 +166,16 @@ persian_archers = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: persian_archers costs
-	buy_cost = { gold = bowmen_recruitment_cost }
-	low_maintenance_cost = { gold = bowmen_low_maint_cost }
-	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_archers
-		value = counter_synergy_ai_weight_archers
+		value = PAXculture_ai_weight_archers
+		value = PAXcounter_synergy_ai_weight_archers
 	}
 }
 
@@ -210,17 +207,16 @@ camel_warriors = {
 		harsh_winter = { damage = -10 toughness = -10 }
 	}
 
-	# TO DO: camel_warriors costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
 	}
 }
 
@@ -252,17 +248,16 @@ germanic_tribesmen = {
 		harsh_winter = { damage = 10 toughness = 10 pursuit = 5 }
 	}
 
-	# TO DO: germanic_tribesmen costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier1_recruitment_cost }
+	low_maintenance_cost = { gold = tier2_maintain_cost }
+	high_maintenance_cost = { gold = tier2_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
 	}
 }
 germanic_slingers = {
@@ -294,16 +289,16 @@ germanic_slingers = {
 	}
 
 	# TO DO: germanic_slingers costs
-	buy_cost = { gold = bowmen_recruitment_cost }
-	low_maintenance_cost = { gold = bowmen_low_maint_cost }
-	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_archers
-		value = counter_synergy_ai_weight_archers
+		value = PAXculture_ai_weight_archers
+		value = PAXcounter_synergy_ai_weight_archers
 	}
 }
 
@@ -329,15 +324,15 @@ illyrian_hoplites = {
 	}
 
 	# TO DO: illyirian_hoplites costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
 	}
 }

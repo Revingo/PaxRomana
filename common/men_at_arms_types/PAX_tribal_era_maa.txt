@@ -1,4 +1,4 @@
-# Roman Fighters Innovation
+﻿# Roman Fighters Innovation
 # Only Latin Heritage
 triarii = {
 	type = [spearmen|E]
@@ -22,16 +22,16 @@ triarii = {
 	}
 
 	# TO DO: triarii costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
 	}
 }
 
@@ -53,15 +53,17 @@ hastatii = {
 		[spearmen|E] = 1
 	}
 
-	# TO DO: hastatii costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen
+		value = PAXcounter_synergy_ai_weight_swordsmen
+	}
 }
 
 equites = {
@@ -93,16 +95,16 @@ equites = {
 	}
 
 	# TO DO: equites costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost}
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
 	}
 }
 
@@ -131,14 +133,17 @@ samnite_infantry = {
 	}
 
 	# TO DO: samnite_infantry costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = {
+		value = PAXculture_ai_weight_spearmen 
+		value = PAXcounter_synergy_ai_weight_spearmen
+	}
 }
 
 samnite_cavalry = {
@@ -169,17 +174,16 @@ samnite_cavalry = {
 		harsh_winter = { damage = -5 toughness = -2 }
 	}
 
-	# TO DO: samnite_cavalry costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
 	}
 }
 
@@ -208,14 +212,17 @@ etruscan_infantry = {
 	}
 
 	# TO DO: samnite_infantry costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_spearmen 
+		value = PAXcounter_synergy_ai_weight_spearmen
+	}
 }
 
 etruscan_cohorts = {
@@ -236,15 +243,17 @@ etruscan_cohorts = {
 		[spearmen|E] = 1
 	}
 
-	# TO DO: etruscan_cohorts costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen
+		value = PAXcounter_synergy_ai_weight_swordsmen
+	}
 }
 
 # Elephantry innovation
@@ -281,7 +290,7 @@ african_elephants = {
 	
 	stack = 25
 	hired_stack_size = 10
-	ai_quality = { value = culture_ai_weight_elephants }
+	ai_quality = { value = PAXcarthage_must }
 }
 
 # Only Indian Region
@@ -317,7 +326,7 @@ indian_elephants = {
 	
 	stack = 25
 	hired_stack_size = 10
-	ai_quality = { value = culture_ai_weight_elephants }
+	ai_quality = { value = PAXindia_must }
 }
 
 # Phoenecian Elites innovation
@@ -345,15 +354,16 @@ sacred_band = {
 	}
 
 	# TO DO: sacred_band costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier4_recruitment_cost }
+	low_maintenance_cost = { gold = tier5_maintain_cost }
+	high_maintenance_cost = { gold = tier5_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
+		value = PAXcarthage_must
 	}
 }

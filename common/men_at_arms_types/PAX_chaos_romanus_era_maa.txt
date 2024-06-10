@@ -1,4 +1,4 @@
-# Noble Militia innovation
+﻿# Noble Militia innovation
 # Persian heritage only
 persian_noble_cataphracts = {
 	type = heavy_cavalry
@@ -29,17 +29,16 @@ persian_noble_cataphracts = {
 		harsh_winter = { damage = -5 toughness = -2 }
 	}
 
-	# TO DO: persian_noble_cataphracts costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier6_recruitment_cost }
+	low_maintenance_cost = { gold = tier6_maintain_cost}
+	high_maintenance_cost = { gold = tier6_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
 	}
 }
 
@@ -64,15 +63,17 @@ celtic_noble_warband = {
 		[dogs|E] = 1
 	}
 
-	# TO DO: celtic_noble_warband costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier4_recruitment_cost } 
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_heavy_infantry
+		value = PAXcounter_synergy_ai_weight_heavy_infatry 
+	}
 }
 
 # Only balcan heritage
@@ -96,17 +97,16 @@ illyrian_nobles = {
 		[dogs|E] = 1
 	}
 	
-	# TO DO: illyrian_nobles costs
-	buy_cost = { gold = heavy_infantry_recruitment_cost }
-	low_maintenance_cost = { gold = heavy_infantry_low_maint_cost }
-	high_maintenance_cost = { gold = heavy_infantry_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = {
-		value = culture_ai_weight_heavy_infantry
-		value = counter_synergy_ai_weight_heavy_infantry
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen 
+		value = PAXcounter_synergy_ai_weight_swordsmen
 	}
 }
 
@@ -133,13 +133,15 @@ egyptian_royal_guards = {
 		[dogs|E] = 1
 	}
 
-	# TO DO: egyptian_royal_guards costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier4_recruitment_cost } 
+	low_maintenance_cost = { gold = tier5_maintain_cost }
+	high_maintenance_cost = { gold = tier5_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_heavy_infantry 
+		value = PAXcounter_synergy_ai_weight_heavy_infatry
+	}
 }

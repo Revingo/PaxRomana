@@ -1,4 +1,4 @@
-# Steppe Raiders innovation
+﻿# Steppe Raiders innovation
 # Steppe region only
 steppe_spear_warriors = {
 	type = light_cavalry
@@ -29,17 +29,16 @@ steppe_spear_warriors = {
 		harsh_winter = { damage = -5 toughness = -2 }
 	}
 
-	# TO DO: steppe_spear_warriors costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier2_maintain_cost }
+	high_maintenance_cost = { gold = tier2_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
 	}
 }
 
@@ -72,17 +71,15 @@ steppe_archer_warriors = {
 		harsh_winter = { damage = -5 toughness = -4 }
 	}
 
-	# TO DO: steppe_archer_warriors costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
 	}
 }
 
@@ -116,17 +113,16 @@ companion_cavalry = {
 		harsh_winter = { damage = -5 toughness = -2 }
 	}
 
-	# TO DO: companion_cavalry costs
-	buy_cost = { gold = light_cavalry_recruitment_cost }
-	low_maintenance_cost = { gold = light_cavalry_low_maint_cost }
-	high_maintenance_cost = { gold = light_cavalry_high_maint_cost }
+	buy_cost = { gold = tier5_recruitment_cost }
+	low_maintenance_cost = { gold = tier6_maintain_cost}
+	high_maintenance_cost = { gold = tier6_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_light_cavalry
-		value = counter_synergy_ai_weight_light_cavalry
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
 	}
 }
 
@@ -152,23 +148,22 @@ makedonian_pikemen = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: makedonian_pikemen costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier4_recruitment_cost }
+	low_maintenance_cost = { gold = tier5_maintain_cost }
+	high_maintenance_cost = { gold = tier5_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_pikemen
+		value = PAXcounter_synergy_ai_weight_pikemen
 	}
 }
 
 # Seleucid's Strenght innovation
 # Persia region only
-bronze_shield_pikemen = {
+silver_shield_pikemen = {
 	type = [pikemen|E]
 	
 	damage = 45
@@ -190,17 +185,16 @@ bronze_shield_pikemen = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: bronze_shield_pikemen costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier5_recruitment_cost }
+	low_maintenance_cost = { gold = tier6_maintain_cost }
+	high_maintenance_cost = { gold = tier6_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_pikemen
+		value = PAXcounter_synergy_ai_weight_pikemen
 	}
 }
 
@@ -230,15 +224,17 @@ warhounds = {
 		harsh_winter = { damage = -5 toughness = -2 }
 	}
 
-	# TO DO: warhounds costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 50
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = {
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
+	}
 }
 
 # Warrior Druids innovation
@@ -261,13 +257,15 @@ druids_warband = {
 		[spearmen|E] = 1
 	}
 
-	# TO DO: druids_warband costs
-	buy_cost = { gold = skirmisher_recruitment_cost } 
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
-	ai_quality = { value = culture_ai_weight_skirmishers }
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen 
+		value = PAXcounter_synergy_ai_weight_swordsmen
+	}
 }

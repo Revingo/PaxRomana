@@ -1,4 +1,4 @@
-# Hellenic Traditions tradition
+﻿# Hellenic Traditions tradition
 hoplites = {
 	type = [spearmen|E]
 	
@@ -22,17 +22,16 @@ hoplites = {
 		[dogs|E] = 1
 	}
 
-	# TO DO: hoplites costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
 	}
 }
 
@@ -57,17 +56,16 @@ cretan_archers = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: cretan_archers costs
-	buy_cost = { gold = bowmen_recruitment_cost }
-	low_maintenance_cost = { gold = bowmen_low_maint_cost }
-	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_archers
-		value = counter_synergy_ai_weight_archers
+		value = PAXculture_ai_weight_archers
+		value = PAXcounter_synergy_ai_weight_archers
 	}
 }
 
@@ -93,17 +91,16 @@ pikemen_unit = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: pikemen_unit costs
-	buy_cost = { gold = skirmisher_recruitment_cost }
-	low_maintenance_cost = { gold = skirmisher_low_maint_cost }
-	high_maintenance_cost = { gold = skirmisher_high_maint_cost }
+	buy_cost = { gold = tier4_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = {
-		value = culture_ai_weight_pikemen
-		value = counter_synergy_ai_weight_pikemen
+		value = PAXculture_ai_weight_pikemen
+		value = PAXcounter_synergy_ai_weight_pikemen
 	}
 }
 
@@ -132,16 +129,15 @@ egyptian_nobel_archers = {
 		elephant_cavalry = 1
 	}
 
-	# TO DO: egyptian_nobel_archers costs
-	buy_cost = { gold = bowmen_recruitment_cost }
-	low_maintenance_cost = { gold = bowmen_low_maint_cost }
-	high_maintenance_cost = { gold = bowmen_high_maint_cost }
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
 
 	holy_order_fallback = yes
 
 	stack = 100
 	ai_quality = { 
-		value = culture_ai_weight_archers
-		value = counter_synergy_ai_weight_archers
+		value = PAXculture_ai_weight_archers
+		value = PAXcounter_synergy_ai_weight_archers
 	}
 }
