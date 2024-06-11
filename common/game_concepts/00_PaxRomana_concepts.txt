@@ -19,17 +19,17 @@ dogs = {
 
 swordsmen = {
 	alias = { swordsman }
-	texture = "gfx/interface/icons/regimenttypes/infantry.dds"
+	texture = "gfx/interface/icons/regimenttypes/swordsmen.dds"
 	parent = men_at_arms
 }
 
 pikemen = {
 	alis = { pikeman }
-	texture = "gfx/interface/icons/regimenttypes/pikemen.dds"
+	texture = "gfx/interface/icons/regimenttypes/pikemen_true.dds"
 	parent = men_at_arms
 }
 
 field_siege_weapons = {
-	texture = "gfx/interface/icons/regimenttypes/field_siege_weapons.dds"
+	texture = "gfx/interface/icons/regimenttypes/onager.dds"
 	parent = men_at_arms
 }

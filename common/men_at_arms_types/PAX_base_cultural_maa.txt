@@ -2,6 +2,12 @@
 berber_warriors = {
 	type = [spearmen|E]
 
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_africa_south
+		}
+	}
+
 	damage = 8
 	toughness = 10
 	pursuit = 0
@@ -35,6 +41,15 @@ berber_warriors = {
 
 numidian_cavalry = {
 	type = archer_cavalry
+
+	can_recruit = {
+		culture = {
+			OR = {
+				culture_overlaps_geographical_region = PAXworld_africa_south
+				culture_overlaps_geographical_region = PAXworld_africa_north
+			}
+		}
+	}
 	
 	damage = 18
 	toughness = 4
@@ -78,6 +93,12 @@ numidian_cavalry = {
 dacian_falxmen = {
 	type = [swordsmen|E]
 	
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_europe_balkans_dacia
+		}
+	}
+
 	damage = 15
 	toughness = 7
 	pursuit = 2
@@ -111,6 +132,12 @@ dacian_falxmen = {
 # Only celtic heritage
 celtic_archers = {
 	type = archers
+
+	can_recruit = {
+		culture = {
+			has_cultural_pillar = heritage_celtic
+		}
+	}
 	
 	damage = 20
 	toughness = 10
@@ -146,6 +173,12 @@ celtic_archers = {
 # Only Persia region
 persian_archers = {
 	type = archers
+
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_east_persia
+		}
+	}
 	
 	damage = 20
 	toughness = 15
@@ -182,6 +215,12 @@ persian_archers = {
 # Only Arabia region
 camel_warriors = {
 	type = camel_cavalry
+
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_east_arabia
+		}
+	}
 	
 	damage = 18
 	toughness = 12
@@ -224,6 +263,12 @@ camel_warriors = {
 germanic_tribesmen = {
 	type = [spearmen|E]
 
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_europe_germania
+		}
+	}
+
 	damage = 8
 	toughness = 15
 	pursuit = 0
@@ -262,6 +307,12 @@ germanic_tribesmen = {
 }
 germanic_slingers = {
 	type = archers
+
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_europe_germania
+		}
+	}
 	
 	damage = 20
 	toughness = 5
@@ -305,6 +356,12 @@ germanic_slingers = {
 # Only Illyria Region
 illyrian_hoplites = {
 	type = [spearmen|E]
+
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
+		}
+	}
 	
 	damage = 10
 	toughness = 24

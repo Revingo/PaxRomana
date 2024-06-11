@@ -35,7 +35,7 @@ triarii = {
 	}
 }
 
-hastatii = {
+hastati = {
 	type = [swordsmen|E]
 	
 	damage = 15
@@ -211,7 +211,6 @@ etruscan_infantry = {
 		[dogs|E] = 1
 	}
 
-	# TO DO: samnite_infantry costs
 	buy_cost = { gold = tier2_recruitment_cost }
 	low_maintenance_cost = { gold = tier3_maintain_cost }
 	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
@@ -222,6 +221,7 @@ etruscan_infantry = {
 	ai_quality = { 
 		value = PAXculture_ai_weight_spearmen 
 		value = PAXcounter_synergy_ai_weight_spearmen
+		value = PAXetruria_must
 	}
 }
 
@@ -253,6 +253,7 @@ etruscan_cohorts = {
 	ai_quality = { 
 		value = PAXculture_ai_weight_swordsmen
 		value = PAXcounter_synergy_ai_weight_swordsmen
+		value = PAXetruria_must
 	}
 }
 

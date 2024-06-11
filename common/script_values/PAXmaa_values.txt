@@ -234,6 +234,32 @@ PAXindia_must = {
 	}
 }
 
+PAXetruria_must = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_etruscan
+			}
+		}
+
+		add = 500
+	}
+}
+
+PAXscythia_must = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_scythian
+			}
+		}
+
+		add = 500
+	}
+}
+
 PAXcounter_synergy_ai_weight_swordsmen = {
 	value = 60
 	if = {

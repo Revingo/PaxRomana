@@ -32,7 +32,7 @@ light_footmen = { #Sword Infantry
 		value = PAXculture_ai_weight_swordsmen
 		value = PAXcounter_synergy_ai_weight_swordsmen
 	}
-	icon = infantry
+	icon = swordsmen
 }
 
 bowmen = { #Archers
@@ -100,6 +100,8 @@ skirmishers_unit = {
 		value = PAXculture_ai_weight_skirmishers
 		value = PAXcounter_synergy_ai_weight_archers
 	}
+
+	icon = skirmishers
 }
 
 # Horse Breeders Innovation
@@ -214,13 +216,15 @@ heavy_infantry_unit = { #Heavy Ssordsmen
 		value = PAXculture_ai_weight_heavy_infantry
 		value = PAXcounter_synergy_ai_weight_heavy_infatry
 	}
+
+	icon = heavy_infantry
 }
 
 # Tribal Sieges Innovation
 polybolos = {
 	type = [field_siege_weapons|E]
 	
-	damage = 35
+	damage = 150
 	toughness = 5
 	pursuit = 0
 	screen = 0
@@ -246,7 +250,7 @@ polybolos = {
 scorpio = {
 	type = [field_siege_weapons|E]
 	
-	damage = 45
+	damage = 230
 	toughness = 5
 	pursuit = 0
 	screen = 0
@@ -273,7 +277,7 @@ ballista = {
 	type = siege_weapon
 	fights_in_main_phase = no
 	
-	damage = 10
+	damage = 50
 	toughness = 10
 
 	siege_tier = 2
@@ -292,7 +296,7 @@ onager = {
 	type = siege_weapon
 	fights_in_main_phase = no
 	
-	damage = 15
+	damage = 80
 	toughness = 15
 	
 	siege_tier = 2

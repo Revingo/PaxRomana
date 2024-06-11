@@ -25037,6 +25037,20 @@ e_arabia = {
 					color = { 215 227 46 }
 				}
 			}
+			c_socotra = {
+				color = { 207 227 37 }
+
+				b_suq-socotra = { #Tamrida
+					province = 1369
+
+					color = { 207 227 37 }
+				}
+				b_qualnsiyah = {
+					province = 1310
+
+					color = { 207 227 37 }
+				}
+			}
 		}
 		d_oman = {
 			color = { 251 236 56 }
@@ -25203,26 +25217,6 @@ e_arabia = {
 					province = 6149
 
 					color = { 33 115 22 }
-				}
-			}
-		}
-		d_socotra = {
-			color = { 142 255 85 }
-
-			capital = c_socotra
-
-			c_socotra = {
-				color = { 207 227 37 }
-
-				b_suq-socotra = { #Tamrida
-					province = 1369
-
-					color = { 207 227 37 }
-				}
-				b_qualnsiyah = {
-					province = 1310
-
-					color = { 207 227 37 }
 				}
 			}
 		}

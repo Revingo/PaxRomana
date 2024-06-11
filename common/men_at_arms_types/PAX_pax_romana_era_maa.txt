@@ -155,7 +155,7 @@ egyptian_chariots = {
 }
 
 # Only Britain region
-brythonnic_chariots = {
+brythonic_chariots = {
 	type = heavy_cavalry
 	
 	damage = 40
@@ -231,7 +231,7 @@ noble_iberian_swordsmen = {
 }
 
 # Egypt region only
-nubian_royal_cavarly = {
+nubian_royal_cavalry = {
 	type = light_cavalry
 	
 	damage = 25

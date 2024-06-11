@@ -39,6 +39,7 @@ steppe_spear_warriors = {
 	ai_quality = { 
 		value = PAXculture_ai_weight_cavalry
 		value = PAXcounter_synergy_ai_weight_cavalry
+		value = PAXscythia_must
 	}
 }
 
@@ -80,6 +81,7 @@ steppe_archer_warriors = {
 	stack = 100
 	ai_quality = { 
 		value = PAXculture_ai_weight_cavalry
+		value = PAXscythia_must
 	}
 }
 
@@ -235,6 +237,8 @@ warhounds = {
 		value = PAXculture_ai_weight_cavalry
 		value = PAXcounter_synergy_ai_weight_cavalry
 	}
+
+	icon = dog
 }
 
 # Warrior Druids innovation
