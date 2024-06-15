@@ -491,7 +491,6 @@ on_game_start = {
 	}
 }
 
-
 on_game_start_pure_family_tradition = {
 	effect = {
 		every_ruler = {
@@ -524,5 +523,33 @@ on_remove_pure_family_tradition = {
 			remove_character_modifier = family_matters
 		}
 		
+	}
+}
+
+on_title_gain = {
+	on_actions = {
+		on_not_eligible_gains_title
+	}
+}
+
+on_not_eligible_gains_title = {
+	trigger = {
+		OR = {
+			has_government = city-state_government
+			has_government = tribal_government
+		}
+	}
+	effect = {
+		every_held_title = {
+			if = {
+				limit = {
+					tier >= tier_kingdom
+				}
+
+				root = {
+					destroy_title = prev
+				}
+			}
+		}
 	}
 }
