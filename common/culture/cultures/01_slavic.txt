@@ -1,5 +1,5 @@
 slavic = {
-	color = { 0.6 0.33 0.73 }
+	color = { 0.8 0.4 0.4 }
 	
 	ethos = ethos_communal
 	heritage = heritage_slavic

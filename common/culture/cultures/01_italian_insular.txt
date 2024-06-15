@@ -24,7 +24,7 @@ sardinian = {
 }
 
 corsican = {
-	color = { 0.42 0.35 0.8 }
+	color = { 0.25 0.4 0.96 }
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_italic_insular

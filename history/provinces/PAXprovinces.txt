@@ -411,216 +411,216 @@
 	religion = r_hellenic
 }
 104 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 105 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 106 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 107 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 108 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 109 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 110 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 111 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 112 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 113 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 114 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 115 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 116 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 117 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 118 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 119 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 120 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 121 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 122 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 123 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 124 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 125 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 126 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 127 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 128 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 129 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 130 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 131 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 132 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 133 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 134 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 135 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 136 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 137 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 138 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 139 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 140 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 141 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 142 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 143 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 144 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 145 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 146 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 147 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 148 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 149 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 150 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 151 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 152 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 153 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 154 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 155 = {
 	culture = roman
 	religion = r_hellenic
 }
 156 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 157 = {
 	culture = roman
@@ -639,8 +639,8 @@
 	religion = r_hellenic
 }
 161 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 162 = {
 	culture = roman
@@ -659,8 +659,8 @@
 	religion = r_hellenic
 }
 166 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 167 = {
 	culture = roman
@@ -1827,8 +1827,8 @@
 	religion = r_hellenic
 }
 458 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 459 = {
 	culture = roman
@@ -2095,48 +2095,48 @@
 	religion = zalmoxism
 }
 525 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 526 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 527 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 528 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 529 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 530 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 531 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 532 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 533 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 534 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 535 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = slavic
+	religion = slavic_pagan
 }
 536 = {
 	culture = dacian
@@ -2167,232 +2167,232 @@
 	religion = r_hellenic
 }
 543 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 544 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 545 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 546 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 547 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 548 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 549 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 550 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 551 = {
 	culture = roman
 	religion = r_hellenic
 }
 552 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 553 = {
 	culture = roman
 	religion = r_hellenic
 }
 554 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 555 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 556 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 557 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 558 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 559 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 560 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 561 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 562 = {
-	culture = roman
-	religion = r_hellenic
+	culture = bosporian
+	religion = h_hellenic
 }
 563 = {
 	culture = roman
 	religion = r_hellenic
 }
 564 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 565 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 566 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 567 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 568 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 569 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 570 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 571 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 572 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 573 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 574 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 575 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 576 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 577 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 578 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 579 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 580 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 581 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 582 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 583 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 584 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 585 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 586 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 587 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 588 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 589 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 590 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 591 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 592 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 593 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 594 = {
 	culture = roman
 	religion = r_hellenic
 }
 595 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 596 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 597 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 598 = {
-	culture = roman
-	religion = r_hellenic
+	culture = bosporian
+	religion = h_hellenic
 }
 599 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 600 = {
 	culture = roman
@@ -2407,40 +2407,40 @@
 	religion = r_hellenic
 }
 603 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 604 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 605 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 606 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 607 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 608 = {
 	culture = roman
 	religion = r_hellenic
 }
 609 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 610 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 611 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 612 = {
 	culture = roman
@@ -2455,56 +2455,56 @@
 	religion = r_hellenic
 }
 615 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 616 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 617 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 618 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 619 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 620 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 621 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 622 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 623 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 624 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 625 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 626 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 627 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 628 = {
 	culture = roman
@@ -2804,15 +2804,15 @@
 }
 702 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 703 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 704 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 705 = {
 	culture = greek
@@ -2820,11 +2820,11 @@
 }
 706 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 707 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 708 = {
 	culture = roman
@@ -2940,11 +2940,11 @@
 }
 736 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 737 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 738 = {
 	culture = roman
@@ -3008,7 +3008,7 @@
 }
 753 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 754 = {
 	culture = greek
@@ -3539,68 +3539,68 @@
 	religion = r_hellenic
 }
 886 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 887 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 888 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 889 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 890 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 891 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 892 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 893 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 894 = {
 	culture = roman
 	religion = r_hellenic
 }
 895 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 896 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 897 = {
 	culture = roman
 	religion = r_hellenic
 }
 898 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 899 = {
 	culture = roman
 	religion = r_hellenic
 }
 900 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 901 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 902 = {
 	culture = roman
@@ -3727,12 +3727,12 @@
 	religion = r_hellenic
 }
 933 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 934 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 935 = {
 	culture = roman
@@ -4047,8 +4047,8 @@
 	religion = r_hellenic
 }
 1013 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 1014 = {
 	culture = roman
@@ -4547,8 +4547,8 @@
 	religion = r_hellenic
 }
 1138 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 1139 = {
 	culture = roman
@@ -4719,8 +4719,8 @@
 	religion = r_hellenic
 }
 1181 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 1182 = {
 	culture = roman
@@ -4739,8 +4739,8 @@
 	religion = r_hellenic
 }
 1186 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 1187 = {
 	culture = roman
@@ -4759,8 +4759,8 @@
 	religion = r_hellenic
 }
 1191 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = khurmazta
 }
 1192 = {
 	culture = roman
@@ -4887,8 +4887,8 @@
 	religion = r_hellenic
 }
 1223 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 1224 = {
 	culture = roman
@@ -5087,8 +5087,8 @@
 	religion = r_hellenic
 }
 1273 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 1274 = {
 	culture = roman
@@ -5183,8 +5183,8 @@
 	religion = r_hellenic
 }
 1297 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 1298 = {
 	culture = roman
@@ -5207,8 +5207,8 @@
 	religion = r_hellenic
 }
 1303 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 1304 = {
 	culture = roman
@@ -5219,8 +5219,8 @@
 	religion = r_hellenic
 }
 1306 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 1307 = {
 	culture = roman
@@ -5351,8 +5351,8 @@
 	religion = r_hellenic
 }
 1339 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 1340 = {
 	culture = roman
@@ -5719,8 +5719,8 @@
 	religion = r_hellenic
 }
 1431 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 1432 = {
 	culture = roman
@@ -5735,8 +5735,8 @@
 	religion = r_hellenic
 }
 1435 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 1436 = {
 	culture = roman
@@ -8287,20 +8287,20 @@
 	religion = r_hellenic
 }
 2073 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2074 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2075 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2076 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2077 = {
 	culture = roman
@@ -8331,8 +8331,8 @@
 	religion = druidism
 }
 2084 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2085 = {
 	culture = gallic
@@ -8343,8 +8343,8 @@
 	religion = druidism
 }
 2087 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2088 = {
 	culture = gallic
@@ -8391,8 +8391,8 @@
 	religion = druidism
 }
 2099 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2100 = {
 	culture = gallic
@@ -8411,16 +8411,16 @@
 	religion = druidism
 }
 2104 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2105 = {
 	culture = gallic
 	religion = druidism
 }
 2106 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2107 = {
 	culture = roman
@@ -8455,8 +8455,8 @@
 	religion = r_hellenic
 }
 2115 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2116 = {
 	culture = gallic
@@ -9203,8 +9203,8 @@
 	religion = r_hellenic
 }
 2302 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2303 = {
 	culture = roman
@@ -9415,136 +9415,136 @@
 	religion = druidism
 }
 2355 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2356 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2357 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2358 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2359 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2360 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2361 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2362 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2363 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2364 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2365 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2366 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2367 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2368 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2369 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2370 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2371 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2372 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2373 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2374 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2375 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2376 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2377 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2378 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2379 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2380 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2381 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2382 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2383 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2384 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2385 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2386 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2387 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2388 = {
 	culture = gallic
@@ -9795,8 +9795,8 @@
 	religion = r_hellenic
 }
 2450 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2451 = {
 	culture = roman
@@ -9827,16 +9827,16 @@
 	religion = r_hellenic
 }
 2458 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2459 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2460 = {
-	culture = roman
-	religion = r_hellenic
+	culture = gallic
+	religion = druidism
 }
 2461 = {
 	culture = roman
@@ -10675,84 +10675,84 @@
 	religion = druidism
 }
 2670 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2671 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2672 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2673 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2674 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2675 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2676 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2677 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2678 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2679 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2680 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2681 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2682 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2683 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2684 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2685 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2686 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2687 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2688 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2689 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2690 = {
 	culture = gallic
@@ -10771,8 +10771,8 @@
 	religion = druidism
 }
 2694 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2695 = {
 	culture = gallic
@@ -11299,44 +11299,44 @@
 	religion = druidism
 }
 2826 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2827 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2828 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2829 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2830 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2831 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2832 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2833 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2834 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2835 = {
-	culture = gallic
-	religion = druidism
+	culture = finnish
+	religion = norse_pagan
 }
 2836 = {
 	culture = gallic
@@ -11671,8 +11671,8 @@
 	religion = norse_pagan
 }
 2919 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2920 = {
 	culture = gallic
@@ -11691,8 +11691,8 @@
 	religion = druidism
 }
 2924 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2925 = {
 	culture = gallic
@@ -11851,8 +11851,8 @@
 	religion = druidism
 }
 2964 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2965 = {
 	culture = gallic
@@ -11879,32 +11879,32 @@
 	religion = druidism
 }
 2971 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2972 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2973 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2974 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2975 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2976 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2977 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2978 = {
 	culture = gallic
@@ -11915,8 +11915,8 @@
 	religion = druidism
 }
 2980 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2981 = {
 	culture = gallic
@@ -11943,16 +11943,16 @@
 	religion = druidism
 }
 2987 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2988 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2989 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 2990 = {
 	culture = germanic
@@ -12155,120 +12155,120 @@
 	religion = norse_pagan
 }
 3040 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3041 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3042 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3043 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3044 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3045 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3046 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3047 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3048 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3049 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3050 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3051 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3052 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3053 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3054 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3055 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3056 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3057 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3058 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3059 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3060 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3061 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3062 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3063 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3064 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3065 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3066 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3067 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3068 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3069 = {
 	culture = gallic
@@ -12287,8 +12287,8 @@
 	religion = druidism
 }
 3073 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3074 = {
 	culture = gallic
@@ -12319,56 +12319,56 @@
 	religion = druidism
 }
 3081 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3082 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3083 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3084 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3085 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3086 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3087 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3088 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3089 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3090 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3091 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3092 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3093 = {
-	culture = gallic
-	religion = druidism
+	culture = slavic
+	religion = slavic_pagan
 }
 3094 = {
 	culture = gallic
@@ -12391,8 +12391,8 @@
 	religion = druidism
 }
 3099 = {
-	culture = gallic
-	religion = druidism
+	culture = germanic
+	religion = norse_pagan
 }
 3100 = {
 	culture = gallic
@@ -12415,8 +12415,8 @@
 	religion = r_hellenic
 }
 3105 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3106 = {
 	culture = roman
@@ -12431,56 +12431,56 @@
 	religion = r_hellenic
 }
 3109 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3110 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3111 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3112 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3113 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3114 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3115 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3116 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3117 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3118 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3119 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3120 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3121 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3122 = {
 	culture = roman
@@ -12495,48 +12495,48 @@
 	religion = r_hellenic
 }
 3125 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3126 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3127 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3128 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3129 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3130 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3131 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3132 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3133 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3134 = {
 	culture = germanic
 	religion = norse_pagan
 }
 3135 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 3136 = {
 	culture = roman
@@ -12743,52 +12743,52 @@
 	religion = r_hellenic
 }
 3187 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3188 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3189 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3190 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3191 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3192 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3193 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3194 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3195 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3196 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3197 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3198 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3199 = {
 	culture = roman
@@ -12811,24 +12811,24 @@
 	religion = r_hellenic
 }
 3204 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3205 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3206 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3207 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3208 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3209 = {
 	culture = roman
@@ -12843,40 +12843,40 @@
 	religion = r_hellenic
 }
 3212 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3213 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3214 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3215 = {
 	culture = roman
 	religion = r_hellenic
 }
 3216 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3217 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3218 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3219 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3220 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 3221 = {
 	culture = roman
@@ -15215,80 +15215,80 @@
 	religion = r_hellenic
 }
 3805 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3806 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3807 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3808 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3809 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3810 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3811 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3812 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3813 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3814 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3815 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3816 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3817 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3818 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3819 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3820 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3821 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3822 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3823 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3824 = {
 	culture = roman
@@ -15299,44 +15299,44 @@
 	religion = r_hellenic
 }
 3826 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3827 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3828 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3829 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3830 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3831 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3832 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3833 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3834 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3835 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3836 = {
 	culture = roman
@@ -15351,20 +15351,20 @@
 	religion = r_hellenic
 }
 3839 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3840 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3841 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3842 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3843 = {
 	culture = roman
@@ -15379,16 +15379,16 @@
 	religion = r_hellenic
 }
 3846 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3847 = {
 	culture = roman
 	religion = r_hellenic
 }
 3848 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3849 = {
 	culture = roman
@@ -15411,16 +15411,16 @@
 	religion = r_hellenic
 }
 3854 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3855 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3856 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3857 = {
 	culture = roman
@@ -15443,20 +15443,20 @@
 	religion = r_hellenic
 }
 3862 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 3863 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3864 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3865 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3866 = {
 	culture = roman
@@ -15475,8 +15475,8 @@
 	religion = r_hellenic
 }
 3870 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3871 = {
 	culture = roman
@@ -15487,8 +15487,8 @@
 	religion = r_hellenic
 }
 3873 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3874 = {
 	culture = roman
@@ -15503,8 +15503,8 @@
 	religion = r_hellenic
 }
 3877 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3878 = {
 	culture = roman
@@ -15523,8 +15523,8 @@
 	religion = r_hellenic
 }
 3882 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3883 = {
 	culture = roman
@@ -15535,24 +15535,24 @@
 	religion = r_hellenic
 }
 3885 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3886 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3887 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3888 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3889 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3890 = {
 	culture = roman
@@ -15583,8 +15583,8 @@
 	religion = r_hellenic
 }
 3897 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3898 = {
 	culture = roman
@@ -15607,16 +15607,16 @@
 	religion = r_hellenic
 }
 3903 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3904 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3905 = {
-	culture = roman
-	religion = r_hellenic
+	culture = dacian
+	religion = zalmoxism
 }
 3906 = {
 	culture = roman
@@ -15999,8 +15999,8 @@
 	religion = r_hellenic
 }
 4001 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdayasna
 }
 4002 = {
 	culture = roman
@@ -16043,8 +16043,8 @@
 	religion = r_hellenic
 }
 4012 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4013 = {
 	culture = roman
@@ -16495,24 +16495,24 @@
 	religion = r_hellenic
 }
 4125 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4126 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4127 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4128 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4129 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4130 = {
 	culture = roman
@@ -16539,16 +16539,16 @@
 	religion = r_hellenic
 }
 4136 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4137 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4138 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4139 = {
 	culture = roman
@@ -16575,44 +16575,44 @@
 	religion = r_hellenic
 }
 4145 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4146 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4147 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4148 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4149 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4150 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4151 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4152 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4153 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4154 = {
-	culture = roman
-	religion = r_hellenic
+	culture = germanic
+	religion = norse_pagan
 }
 4155 = {
 	culture = roman
@@ -16639,36 +16639,36 @@
 	religion = r_hellenic
 }
 4161 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4162 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4163 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4164 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4165 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4166 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4167 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4168 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4169 = {
 	culture = roman
@@ -16723,16 +16723,16 @@
 	religion = mazdakism
 }
 4182 = {
-	culture = persian
-	religion = mazdakism
+	culture = slavic
+	religion = slavic_pagan
 }
 4183 = {
-	culture = persian
-	religion = mazdakism
+	culture = slavic
+	religion = slavic_pagan
 }
 4184 = {
-	culture = persian
-	religion = mazdakism
+	culture = slavic
+	religion = slavic_pagan
 }
 4185 = {
 	culture = persian
@@ -16807,40 +16807,40 @@
 	religion = r_hellenic
 }
 4203 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4204 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4205 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4206 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4207 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4208 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4209 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4210 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4211 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4212 = {
 	culture = persian
@@ -16879,16 +16879,16 @@
 	religion = r_hellenic
 }
 4221 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = khurmazta
 }
 4222 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = khurmazta
 }
 4223 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = khurmazta
 }
 4224 = {
 	culture = roman
@@ -16919,8 +16919,8 @@
 	religion = r_hellenic
 }
 4231 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = khurmazta
 }
 4232 = {
 	culture = roman
@@ -16947,16 +16947,16 @@
 	religion = r_hellenic
 }
 4238 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4239 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4240 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4241 = {
 	culture = roman
@@ -16983,8 +16983,8 @@
 	religion = r_hellenic
 }
 4247 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4248 = {
 	culture = roman
@@ -16999,8 +16999,8 @@
 	religion = r_hellenic
 }
 4251 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4252 = {
 	culture = roman
@@ -17055,144 +17055,144 @@
 	religion = r_hellenic
 }
 4265 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4266 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4267 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4268 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4269 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4270 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4271 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4272 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4273 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4274 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4275 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4276 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4277 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4278 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4279 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4280 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4281 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4282 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4283 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4284 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4285 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4286 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4287 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4288 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4289 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4290 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4291 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4292 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4293 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4294 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4295 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4296 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4297 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4298 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4299 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4300 = {
 	culture = roman
@@ -17295,8 +17295,8 @@
 	religion = r_hellenic
 }
 4325 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdayasna
 }
 4326 = {
 	culture = roman
@@ -17323,8 +17323,8 @@
 	religion = r_hellenic
 }
 4332 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdayasna
 }
 4333 = {
 	culture = persian
@@ -17335,40 +17335,40 @@
 	religion = r_hellenic
 }
 4335 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4336 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4337 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4338 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4339 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4340 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4341 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4342 = {
 	culture = roman
 	religion = r_hellenic
 }
 4343 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = khurmazta
 }
 4344 = {
 	culture = roman
@@ -17399,32 +17399,32 @@
 	religion = r_hellenic
 }
 4351 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4352 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4353 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4354 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4355 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4356 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4357 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4358 = {
 	culture = roman
@@ -17447,68 +17447,68 @@
 	religion = r_hellenic
 }
 4363 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4364 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4365 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4366 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4367 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4368 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4369 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4370 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4371 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4372 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4373 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4374 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4375 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4376 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4377 = {
 	culture = roman
 	religion = r_hellenic
 }
 4378 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4379 = {
 	culture = roman
@@ -17527,8 +17527,8 @@
 	religion = r_hellenic
 }
 4383 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = khurmazta
 }
 4384 = {
 	culture = roman
@@ -17547,32 +17547,32 @@
 	religion = r_hellenic
 }
 4388 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4389 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4390 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4391 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4392 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4393 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4394 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4395 = {
 	culture = roman
@@ -17603,72 +17603,72 @@
 	religion = r_hellenic
 }
 4402 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4403 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4404 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4405 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4406 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4407 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4408 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4409 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4410 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4411 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4412 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4413 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4414 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4415 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4416 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4417 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4418 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4419 = {
 	culture = roman
@@ -17687,8 +17687,8 @@
 	religion = r_hellenic
 }
 4423 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4424 = {
 	culture = roman
@@ -17747,8 +17747,8 @@
 	religion = r_hellenic
 }
 4438 = {
-	culture = roman
-	religion = r_hellenic
+	culture = baktrian
+	religion = h_hellenic
 }
 4439 = {
 	culture = roman
@@ -17759,8 +17759,8 @@
 	religion = r_hellenic
 }
 4441 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4442 = {
 	culture = roman
@@ -17787,8 +17787,8 @@
 	religion = r_hellenic
 }
 4448 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4449 = {
 	culture = roman
@@ -17803,24 +17803,24 @@
 	religion = r_hellenic
 }
 4452 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4453 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4454 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4455 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4456 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4457 = {
 	culture = roman
@@ -17835,8 +17835,8 @@
 	religion = r_hellenic
 }
 4460 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4461 = {
 	culture = roman
@@ -17855,8 +17855,8 @@
 	religion = r_hellenic
 }
 4465 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4466 = {
 	culture = roman
@@ -17879,8 +17879,8 @@
 	religion = r_hellenic
 }
 4471 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4472 = {
 	culture = roman
@@ -17903,16 +17903,16 @@
 	religion = r_hellenic
 }
 4477 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 4478 = {
 	culture = roman
 	religion = r_hellenic
 }
 4479 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 4480 = {
 	culture = roman
@@ -17931,8 +17931,8 @@
 	religion = r_hellenic
 }
 4484 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdakism
 }
 4485 = {
 	culture = roman
@@ -17995,8 +17995,8 @@
 	religion = mazdakism
 }
 4500 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = khurmazta
 }
 4501 = {
 	culture = roman
@@ -18011,8 +18011,8 @@
 	religion = r_hellenic
 }
 4504 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = khurmazta
 }
 4505 = {
 	culture = roman
@@ -18047,16 +18047,16 @@
 	religion = r_hellenic
 }
 4513 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = mazdakism
 }
 4514 = {
 	culture = roman
 	religion = r_hellenic
 }
 4515 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = khurmazta
 }
 4516 = {
 	culture = roman
@@ -18079,8 +18079,8 @@
 	religion = r_hellenic
 }
 4521 = {
-	culture = roman
-	religion = r_hellenic
+	culture = mauryan
+	religion = khurmazta
 }
 4522 = {
 	culture = roman
@@ -18107,16 +18107,16 @@
 	religion = r_hellenic
 }
 4528 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4529 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4530 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 4531 = {
 	culture = roman
@@ -18175,8 +18175,8 @@
 	religion = r_hellenic
 }
 4545 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdayasna
 }
 4546 = {
 	culture = roman
@@ -19063,8 +19063,8 @@
 	religion = r_hellenic
 }
 4767 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = mazdayasna
 }
 4768 = {
 	culture = roman
@@ -19376,95 +19376,95 @@
 }
 4845 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4846 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4847 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4848 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4849 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4850 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4851 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4852 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4853 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4854 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4855 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4856 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4857 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4858 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4859 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4860 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4861 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4862 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4863 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4864 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4865 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4866 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4867 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4868 = {
 	culture = roman
@@ -19472,35 +19472,35 @@
 }
 4869 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4870 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4871 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4872 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4873 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4874 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4875 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4876 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4877 = {
 	culture = roman
@@ -19528,31 +19528,31 @@
 }
 4883 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4884 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4885 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4886 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4887 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4888 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4889 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4890 = {
 	culture = roman
@@ -19568,11 +19568,11 @@
 }
 4893 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4894 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 4895 = {
 	culture = roman
@@ -19595,132 +19595,132 @@
 	religion = r_hellenic
 }
 4900 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4901 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4902 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4903 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4904 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4905 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4906 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4907 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4908 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4909 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4910 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4911 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4912 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4913 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4914 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4915 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4916 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4917 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4918 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4919 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4920 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4921 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4922 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4923 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4924 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4925 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4926 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4927 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4928 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4929 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4930 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4931 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = norse_pagan
 }
 4932 = {
 	culture = roman
@@ -19743,44 +19743,44 @@
 	religion = r_hellenic
 }
 4937 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4938 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4939 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4940 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4941 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4942 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4943 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4944 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4945 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4946 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4947 = {
 	culture = roman
@@ -19799,32 +19799,32 @@
 	religion = r_hellenic
 }
 4951 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4952 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4953 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4954 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4955 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4956 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4957 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4958 = {
 	culture = roman
@@ -19855,8 +19855,8 @@
 	religion = r_hellenic
 }
 4965 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 4966 = {
 	culture = roman
@@ -20171,8 +20171,8 @@
 	religion = r_hellenic
 }
 5044 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5045 = {
 	culture = roman
@@ -20199,8 +20199,8 @@
 	religion = r_hellenic
 }
 5051 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5052 = {
 	culture = roman
@@ -20223,8 +20223,8 @@
 	religion = r_hellenic
 }
 5057 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5058 = {
 	culture = roman
@@ -20247,36 +20247,36 @@
 	religion = r_hellenic
 }
 5063 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5064 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5065 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5066 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5067 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5068 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5069 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5070 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5071 = {
 	culture = roman
@@ -20287,24 +20287,24 @@
 	religion = r_hellenic
 }
 5073 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5074 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5075 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5076 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5077 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5078 = {
 	culture = roman
@@ -20343,24 +20343,24 @@
 	religion = r_hellenic
 }
 5087 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5088 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5089 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5090 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5091 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5092 = {
 	culture = roman
@@ -20375,44 +20375,44 @@
 	religion = r_hellenic
 }
 5095 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5096 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5097 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5098 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5099 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5100 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5101 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5102 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5103 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5104 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5105 = {
 	culture = roman
@@ -20431,28 +20431,28 @@
 	religion = r_hellenic
 }
 5109 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5110 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5111 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5112 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5113 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5114 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5115 = {
 	culture = roman
@@ -20463,16 +20463,16 @@
 	religion = r_hellenic
 }
 5117 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5118 = {
 	culture = roman
 	religion = r_hellenic
 }
 5119 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5120 = {
 	culture = roman
@@ -20503,8 +20503,8 @@
 	religion = r_hellenic
 }
 5127 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5128 = {
 	culture = roman
@@ -20539,8 +20539,8 @@
 	religion = r_hellenic
 }
 5136 = {
-	culture = roman
-	religion = r_hellenic
+	culture = slavic
+	religion = slavic_pagan
 }
 5137 = {
 	culture = roman
@@ -20675,8 +20675,8 @@
 	religion = r_hellenic
 }
 5170 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5171 = {
 	culture = roman
@@ -20687,8 +20687,8 @@
 	religion = r_hellenic
 }
 5173 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5174 = {
 	culture = roman
@@ -20719,152 +20719,152 @@
 	religion = r_hellenic
 }
 5181 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5182 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5183 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5184 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5185 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5186 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5187 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5188 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5189 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5190 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5191 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5192 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5193 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5194 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5195 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5196 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5197 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5198 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5199 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5200 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5201 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5202 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5203 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5204 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5205 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5206 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5207 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5208 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5209 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5210 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5211 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5212 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5213 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5214 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5215 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5216 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5217 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5218 = {
 	culture = roman
@@ -20879,8 +20879,8 @@
 	religion = r_hellenic
 }
 5221 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5222 = {
 	culture = roman
@@ -20919,8 +20919,8 @@
 	religion = r_hellenic
 }
 5231 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5232 = {
 	culture = roman
@@ -20951,8 +20951,8 @@
 	religion = r_hellenic
 }
 5239 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5240 = {
 	culture = roman
@@ -20983,8 +20983,8 @@
 	religion = r_hellenic
 }
 5247 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5248 = {
 	culture = roman
@@ -21023,56 +21023,56 @@
 	religion = r_hellenic
 }
 5257 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5258 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5259 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5260 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5261 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5262 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5263 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5264 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5265 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5266 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5267 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5268 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5269 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5270 = {
 	culture = roman
@@ -21091,8 +21091,8 @@
 	religion = r_hellenic
 }
 5274 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5275 = {
 	culture = roman
@@ -21103,8 +21103,8 @@
 	religion = r_hellenic
 }
 5277 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5278 = {
 	culture = roman
@@ -21143,8 +21143,8 @@
 	religion = r_hellenic
 }
 5287 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5288 = {
 	culture = roman
@@ -21155,8 +21155,8 @@
 	religion = r_hellenic
 }
 5290 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5291 = {
 	culture = roman
@@ -21179,20 +21179,20 @@
 	religion = r_hellenic
 }
 5296 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5297 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5298 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5299 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5300 = {
 	culture = roman
@@ -21215,8 +21215,8 @@
 	religion = r_hellenic
 }
 5305 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5306 = {
 	culture = roman
@@ -21239,16 +21239,16 @@
 	religion = r_hellenic
 }
 5311 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5312 = {
 	culture = roman
 	religion = r_hellenic
 }
 5313 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5314 = {
 	culture = roman
@@ -21271,8 +21271,8 @@
 	religion = r_hellenic
 }
 5319 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5320 = {
 	culture = roman
@@ -21367,8 +21367,8 @@
 	religion = r_hellenic
 }
 5343 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5344 = {
 	culture = roman
@@ -21395,8 +21395,8 @@
 	religion = r_hellenic
 }
 5350 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5351 = {
 	culture = roman
@@ -21407,8 +21407,8 @@
 	religion = r_hellenic
 }
 5353 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5354 = {
 	culture = roman
@@ -21423,16 +21423,16 @@
 	religion = r_hellenic
 }
 5357 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5358 = {
 	culture = roman
 	religion = r_hellenic
 }
 5359 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5360 = {
 	culture = roman
@@ -21459,8 +21459,8 @@
 	religion = r_hellenic
 }
 5366 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5367 = {
 	culture = roman
@@ -21479,20 +21479,20 @@
 	religion = r_hellenic
 }
 5371 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5372 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5373 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5374 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5375 = {
 	culture = roman
@@ -21503,8 +21503,8 @@
 	religion = r_hellenic
 }
 5377 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5378 = {
 	culture = roman
@@ -21527,8 +21527,8 @@
 	religion = r_hellenic
 }
 5383 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5384 = {
 	culture = roman
@@ -21547,16 +21547,16 @@
 	religion = r_hellenic
 }
 5388 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5389 = {
 	culture = roman
 	religion = r_hellenic
 }
 5390 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5391 = {
 	culture = roman
@@ -21607,84 +21607,84 @@
 	religion = r_hellenic
 }
 5403 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5404 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5405 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5406 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5407 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5408 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5409 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5410 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5411 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5412 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5413 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5414 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5415 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5416 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5417 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5418 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5419 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5420 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5421 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5422 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5423 = {
 	culture = roman
@@ -21699,28 +21699,28 @@
 	religion = r_hellenic
 }
 5426 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5427 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5428 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5429 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5430 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5431 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5432 = {
 	culture = roman
@@ -21743,8 +21743,8 @@
 	religion = r_hellenic
 }
 5437 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5438 = {
 	culture = roman
@@ -21759,24 +21759,24 @@
 	religion = r_hellenic
 }
 5441 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5442 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5443 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5444 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5445 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5446 = {
 	culture = roman
@@ -21791,8 +21791,8 @@
 	religion = r_hellenic
 }
 5449 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5450 = {
 	culture = roman
@@ -21815,8 +21815,8 @@
 	religion = r_hellenic
 }
 5455 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5456 = {
 	culture = roman
@@ -21839,28 +21839,28 @@
 	religion = r_hellenic
 }
 5461 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5462 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5463 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5464 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5465 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5466 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5467 = {
 	culture = roman
@@ -21875,8 +21875,8 @@
 	religion = r_hellenic
 }
 5470 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5471 = {
 	culture = roman
@@ -21919,44 +21919,44 @@
 	religion = r_hellenic
 }
 5481 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5482 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5483 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5484 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5485 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5486 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5487 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5488 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5489 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5490 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5491 = {
 	culture = roman
@@ -21983,8 +21983,8 @@
 	religion = r_hellenic
 }
 5497 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5498 = {
 	culture = roman
@@ -21999,8 +21999,8 @@
 	religion = r_hellenic
 }
 5501 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5502 = {
 	culture = roman
@@ -22011,8 +22011,8 @@
 	religion = r_hellenic
 }
 5504 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5505 = {
 	culture = roman
@@ -22031,8 +22031,8 @@
 	religion = r_hellenic
 }
 5509 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5510 = {
 	culture = roman
@@ -22071,36 +22071,36 @@
 	religion = r_hellenic
 }
 5519 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5520 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5521 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5522 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5523 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5524 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5525 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5526 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5527 = {
 	culture = roman
@@ -22240,7 +22240,7 @@
 }
 5561 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5562 = {
 	culture = roman
@@ -22292,7 +22292,7 @@
 }
 5574 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5575 = {
 	culture = roman
@@ -22332,7 +22332,7 @@
 }
 5584 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5585 = {
 	culture = roman
@@ -22372,7 +22372,7 @@
 }
 5594 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5595 = {
 	culture = roman
@@ -22388,7 +22388,7 @@
 }
 5598 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5599 = {
 	culture = roman
@@ -22404,15 +22404,15 @@
 }
 5602 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5603 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5604 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5605 = {
 	culture = roman
@@ -22464,7 +22464,7 @@
 }
 5617 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5618 = {
 	culture = roman
@@ -22488,7 +22488,7 @@
 }
 5623 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5624 = {
 	culture = roman
@@ -22524,7 +22524,7 @@
 }
 5632 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5633 = {
 	culture = roman
@@ -22600,31 +22600,31 @@
 }
 5651 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5652 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5653 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5654 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5655 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5656 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5657 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5658 = {
 	culture = roman
@@ -22808,7 +22808,7 @@
 }
 5703 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5704 = {
 	culture = roman
@@ -22919,8 +22919,8 @@
 	religion = r_hellenic
 }
 5731 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5732 = {
 	culture = roman
@@ -22967,8 +22967,8 @@
 	religion = r_hellenic
 }
 5743 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5744 = {
 	culture = roman
@@ -22979,8 +22979,8 @@
 	religion = r_hellenic
 }
 5746 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 5747 = {
 	culture = roman
@@ -23031,8 +23031,8 @@
 	religion = r_hellenic
 }
 5759 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5760 = {
 	culture = roman
@@ -23067,8 +23067,8 @@
 	religion = r_hellenic
 }
 5768 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5769 = {
 	culture = roman
@@ -23079,8 +23079,8 @@
 	religion = r_hellenic
 }
 5771 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5772 = {
 	culture = roman
@@ -23103,8 +23103,8 @@
 	religion = r_hellenic
 }
 5777 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5778 = {
 	culture = roman
@@ -23127,8 +23127,8 @@
 	religion = r_hellenic
 }
 5783 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5784 = {
 	culture = roman
@@ -23155,8 +23155,8 @@
 	religion = r_hellenic
 }
 5790 = {
-	culture = roman
-	religion = r_hellenic
+	culture = persian
+	religion = urartuism
 }
 5791 = {
 	culture = roman
@@ -23455,8 +23455,8 @@
 	religion = r_hellenic
 }
 5865 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5866 = {
 	culture = roman
@@ -23475,68 +23475,68 @@
 	religion = r_hellenic
 }
 5870 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5871 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5872 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5873 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5874 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5875 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5876 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5877 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5878 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5879 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5880 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5881 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5882 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5883 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5884 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5885 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5886 = {
 	culture = roman
@@ -23563,8 +23563,8 @@
 	religion = r_hellenic
 }
 5892 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5893 = {
 	culture = roman
@@ -23583,8 +23583,8 @@
 	religion = r_hellenic
 }
 5897 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 5898 = {
 	culture = roman
@@ -23596,7 +23596,7 @@
 }
 5900 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5901 = {
 	culture = roman
@@ -23692,15 +23692,15 @@
 }
 5924 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5925 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5926 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5927 = {
 	culture = roman
@@ -23712,59 +23712,59 @@
 }
 5929 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5930 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5931 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5932 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5933 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5934 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5935 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5936 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5937 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5938 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5939 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5940 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5941 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5942 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5943 = {
 	culture = roman
@@ -23776,31 +23776,31 @@
 }
 5945 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5946 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5947 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5948 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5949 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5950 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5951 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5952 = {
 	culture = roman
@@ -23816,19 +23816,19 @@
 }
 5955 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5956 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5957 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5958 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5959 = {
 	culture = phoenecian
@@ -23920,39 +23920,39 @@
 }
 5981 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5982 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5983 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5984 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5985 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5986 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5987 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5988 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5989 = {
 	culture = persian
-	religion = zurvanism
+	religion = mazdayasna
 }
 5990 = {
 	culture = seleucid
@@ -27995,32 +27995,32 @@
 	religion = r_hellenic
 }
 7000 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7001 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7002 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7003 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7004 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7005 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7006 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7007 = {
 	culture = roman
@@ -28047,36 +28047,36 @@
 	religion = r_hellenic
 }
 7013 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7014 = {
 	culture = roman
 	religion = r_hellenic
 }
 7015 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7016 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7017 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7018 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7019 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7020 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7021 = {
 	culture = roman
@@ -28095,60 +28095,60 @@
 	religion = r_hellenic
 }
 7025 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7026 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7027 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7028 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7029 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7030 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7031 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7032 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7033 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7034 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7035 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7036 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7037 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7038 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7039 = {
 	culture = roman
@@ -28163,88 +28163,88 @@
 	religion = r_hellenic
 }
 7042 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7043 = {
 	culture = roman
 	religion = r_hellenic
 }
 7044 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7045 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7046 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7047 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7048 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7049 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7050 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7051 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7052 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7053 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7054 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7055 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7056 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7057 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7058 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7059 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7060 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7061 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7062 = {
-	culture = roman
-	religion = r_hellenic
+	culture = finnish
+	religion = tengri_pagan
 }
 7063 = {
 	culture = roman
@@ -28255,132 +28255,132 @@
 	religion = r_hellenic
 }
 7065 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7066 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7067 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7068 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7069 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7070 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7071 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7072 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7073 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7074 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7075 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7076 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7077 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7078 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7079 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7080 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7081 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7082 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7083 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7084 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7085 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7086 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7087 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7088 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7089 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7090 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7091 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7092 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7093 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7094 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7095 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7096 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7097 = {
 	culture = roman
@@ -28407,40 +28407,40 @@
 	religion = r_hellenic
 }
 7103 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7104 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7105 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7106 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7107 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7108 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7109 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7110 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7111 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7112 = {
 	culture = roman
@@ -28487,48 +28487,48 @@
 	religion = r_hellenic
 }
 7123 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7124 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7125 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7126 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7127 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7128 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7129 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7130 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7131 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7132 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7133 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7134 = {
 	culture = roman
@@ -28879,80 +28879,80 @@
 	religion = r_hellenic
 }
 7221 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7222 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7223 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7224 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7225 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7226 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7227 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7228 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7229 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7230 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7231 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7232 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7233 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7234 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7235 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7236 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7237 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7238 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7239 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7240 = {
 	culture = roman
@@ -28963,44 +28963,44 @@
 	religion = r_hellenic
 }
 7242 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7243 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7244 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7245 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7246 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7247 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7248 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7249 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7250 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7251 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7252 = {
 	culture = roman
@@ -29019,12 +29019,12 @@
 	religion = r_hellenic
 }
 7256 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7257 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = scythian
 }
 7258 = {
 	culture = roman
@@ -29047,52 +29047,52 @@
 	religion = r_hellenic
 }
 7263 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7264 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7265 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7266 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7267 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7268 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7269 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7270 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7271 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7272 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7273 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7274 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7275 = {
 	culture = roman
@@ -29123,8 +29123,8 @@
 	religion = r_hellenic
 }
 7282 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7283 = {
 	culture = roman
@@ -29143,20 +29143,20 @@
 	religion = r_hellenic
 }
 7287 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7288 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7289 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7290 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7291 = {
 	culture = roman
@@ -29235,8 +29235,8 @@
 	religion = r_hellenic
 }
 7310 = {
-	culture = roman
-	religion = r_hellenic
+	culture = sarmatian
+	religion = tengri_pagan
 }
 7311 = {
 	culture = roman
@@ -35998,429 +35998,11 @@
 	culture = roman
 	religion = r_hellenic
 }
-ure = roman
-	religion = r_hellenic
-}
-lenic
-}
-ure = roman
-	religion = r_hellenic
-}
-c
-}
 
-
-
-
-r_hellenic
-}
-c
-}
-
-
-
-
-= r_hellenic
-}
-8990 = {
-	culture = roman
-	religion = r_hellenic
-}
-8991 = {
-	culture = roman
-	religion = r_hellenic
-}
-8992 = {
-	culture = roman
-	religion = r_hellenic
-}
-8993 = {
-	culture = roman
-	religion = r_hellenic
-}
-8994 = {
-	culture = roman
-	religion = r_hellenic
-}
-8995 = {
-	culture = roman
-	religion = r_hellenic
-}
-8996 = {
-	culture = roman
-	religion = r_hellenic
-}
-8997 = {
-	culture = roman
-	religion = r_hellenic
-}
-8998 = {
-	culture = roman
-	religion = r_hellenic
-}
-8999 = {
-	culture = roman
-	religion = r_hellenic
-}
 9000 = {
 	culture = roman
 	religion = r_hellenic
 }
-ure = roman
-	religion = r_hellenic
-}
-lenic
-}
-ure = roman
-	religion = r_hellenic
-}
-c
-}
-
-
-
-
-r_hellenic
-}
-c
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

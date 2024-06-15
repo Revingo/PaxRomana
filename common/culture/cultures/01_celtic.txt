@@ -112,7 +112,7 @@ gaelic = {
 }
 
 celtiberian = {
-	color = { 0.74 0.83 0.9 }
+	color = { 0.25 0.28 0.2 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_celtic

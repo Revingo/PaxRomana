@@ -105,7 +105,7 @@ ptolemaic = {
 	}
 }
 bosporian = {
-	color = { 0.69 0.61 0.85 }
+	color = { 0.29 0.0 0.51 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_hellenic
