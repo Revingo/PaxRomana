@@ -11,7 +11,25 @@
  game_concept_auctoritas: "Auctoritas"
  game_concept_auctoritas_desc: "Auctoritas determines the amount of Authority you have in your state. It is a weighted average of your [gold|E], [army|E] and mostly your [prestige|E].\n\n#F Having a negative amount of Auctoritas, may lead to very bad consequences."
 
+ game_concept_dogs: "Dogs"
+ game_concept_dogs_desc: "Dogs are animals bred to be the best fighters. They are extremely good and precise when they can make surprise attacks at the enemy.\n\nThey generally are good at attacking lightly armored [men_at_arms|E] like [skirmishers|E] and [archers|E], but they are easily dealt with by [heavy_infantry|E]."
+
+ game_concept_swordsmen: "Swordsmen"
+ game_concept_swordsman: "Swordsman"
+ game_concept_swordsmen_desc: "Swordsmen are [men_at_arms|E] trained in the use of swords of various kinds. They can't do much when in distance, but are trained to kill the enemy fast and efficiently when they are up close.\n\nThey usually perform well against [spearmen|E], but are countered by [heavy_cavalry|E] and better trained [heavy_infantry|E]."
+
+ game_concept_pikemen: "Pikemen"
+ game_concept_pikeman: "Pikeman"
+ game_concept_pikemen_desc: "Pikemen diverged from [spearmen|E] when Philip II of Makédon introduced the use of Sarissas, spears long more than six meters.\n\nPikemen tear apart any kind of [light_cavalry|E], but can be heavily countered by missiles units like [archers|E] and [skirmishers|E]."
+
+ game_concept_field_siege_weapons: "Field Siege Weapons"
+ game_concept_field_siege_weapons_desc: "Field Siege Weapons are a kind of [siege_weapons|E] less meant for actual sieges and more directed to killing infantry."
+
  #Replace
  game_concept_tribal_desc:0 "Tribes have stunted county [development|E], cannot advance past Tribal Era [innovations|E], cannot hold a [title|E] [title_tier|E] higher then [duchy|e] [title_tier|E], cannot construct new [holdings|E], and can only have partition [succession_law|E].\n\nHowever, they can make use of [prestige|E] rather than [gold|E] to build their realms and hire [men_at_arms|E], and have access to more [casus_belli|E] compared to other [governments|E]. Non-Tribal armies suffer a [supply_limit|E] penalty in hostile Tribal territory."
  game_concept_government_desc:2 "A [ruler|E]'s $game_concept_government_form$ determines what kind of [laws|E] they have access to as well as what [obligations|E] they have to their [liege|E] if they are not [independent|E].\n\nThe Government forms are: [city-state|E], [tribal|E], Res Publica, and Dynastic."
+ game_concept_light_cavalry:0 "Cavalry"
+ game_concept_light_cavalry_desc:0 "Cavalry are mounted [men_at_arms|E] who excel at scouting and pursuing the enemy.\n\nWhile each kind of Cavalry is unique, they generally [counter|E] [archers|E], and are in turn Countered by [spearmen|E].\n\nCavalry are also often strong on flat [terrain|E].\n\nIn comparison with [heavy_cavalry|E], they are usually better at [pursuit|E] and [screen|E]."
+ game_concept_spearmen_desc:0 "Spearmen are [men_at_arms|E] who fight on foot with various polearms, like Dories and Sarissas.\n\nWhile each kind of Spearman is unique, they generally [counter|E] [light_cavalry|E] and also [heavy_cavalry|E], and are in turn Countered by [heavy_infantry|E] and [swordsmen|E].\n\nSpearmen are also often strong on hilly and mountainous [terrain|E]."
+ 
  

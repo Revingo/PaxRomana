@@ -1,5 +1,5 @@
 ﻿hellenism_religion = {
-	family = rf_hellenic
+	family = rf_pagan
 
 	pagan_roots = yes
 
@@ -234,7 +234,7 @@
 
 		p_hellenic = {
 			color = { 0.2 0.2 0.6 }
-			icon = hellenic
+			icon = p_hellenic
 
 			#change to: athens, alexandria, Thebes, babylon, byzantium
 			holy_site = rome
@@ -264,7 +264,7 @@
 		#still need to add the right localization for the gods
 		r_hellenic = {
 			color = { 0.4 0.01 0.24 }
-			icon = hellenic
+			icon = r_hellenic
 
 			#holy sites: rome, athens, carthage, alexandria, mount olympus
 			holy_site = rome

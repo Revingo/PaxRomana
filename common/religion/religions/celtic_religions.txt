@@ -1,5 +1,5 @@
 celtic_religion = {
-	family = rf_celtic
+	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine
 

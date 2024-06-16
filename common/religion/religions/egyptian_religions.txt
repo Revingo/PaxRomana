@@ -1,5 +1,5 @@
 egyptian_religion = {
-	family = rf_african
+	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine
 
@@ -212,7 +212,7 @@ egyptian_religion = {
 
 	faiths = {
 		kemeticism = {
-			color = { 0.0 0.29 0.29 }
+			color = { 0.89 0.35 0.13 }
 			icon = "custom_faith_ankh"
 
 			#holy sites:  Thebes (Luxor), Naucratis, Cyprus, Cyrene, Tyre

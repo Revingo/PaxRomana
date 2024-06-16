@@ -1,5 +1,5 @@
 ﻿iberian_religion = {
-	family = rf_iberian
+	family = rf_pagan
 
 	pagan_roots = yes
 

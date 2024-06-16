@@ -105,7 +105,7 @@ ptolemaic = {
 	}
 }
 bosporian = {
-	color = { 0.69 0.61 0.85 }
+	color = { 0.29 0.0 0.51 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_hellenic
@@ -156,5 +156,34 @@ masselian = {
 	ethnicities = {
 		10 = mediterranean
 		8 = mediterranean_byzantine
+	}
+}
+baktrian = {
+	color = { 0.26 0.39 0.50 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_stalwart_defenders
+		tradition_hellenic_tradition
+		tradition_warriors_by_merit
+		tradition_martial_admiration
+	}
+	
+	name_list = name_list_trojans
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		13 = mediterranean_byzantine
+		9 = arab
+		3 = circumpolar_dark_hair
+		3 = circumpolar_brown_hair
+		1 = indian
 	}
 }

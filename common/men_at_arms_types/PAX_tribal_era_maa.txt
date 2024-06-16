@@ -1,0 +1,370 @@
+﻿# Roman Fighters Innovation
+# Only Latin Heritage
+triarii = {
+	type = [spearmen|E]
+	
+	damage = 15
+	toughness = 25
+	pursuit = 0
+	screen = 5
+	
+	terrain_bonus = {
+		mountains = { toughness = 12 }
+		desert_mountains = { toughness = 12 }
+		hills = { toughness = 5 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 1
+		[dogs|E] = 1
+	}
+
+	# TO DO: triarii costs
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost }
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
+	}
+}
+
+hastati = {
+	type = [swordsmen|E]
+	
+	damage = 15
+	toughness = 15
+	pursuit = 2
+	screen = 10
+	
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		hills = { damage = 4 pursuit = 2 }
+	}
+
+	counters = {
+		[spearmen|E] = 1
+	}
+
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen
+		value = PAXcounter_synergy_ai_weight_swordsmen
+	}
+}
+
+equites = {
+	type = light_cavalry
+	
+	damage = 22
+	toughness = 14
+	pursuit = 30
+	screen = 30
+	
+	terrain_bonus = {
+		plains = { damage = 15 }
+		hills = { damage = 5 }
+		forest = { toughness = 5 pursuit = -10 }
+		taiga = { toughness = 5 pursuit = -10 }
+		mountains = { damage = -10 pursuit = -20 }
+		desert_mountains = { damage = -15 pursuit = -20 }
+		wetlands = { damage = -15 toughness = -10 pursuit = -30 screen = -30 }
+	}
+	
+	counters = {
+		archers = 1
+		archer_cavalry = 1
+		skirmishers = 1
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -5 toughness = -2 }
+	}
+
+	# TO DO: equites costs
+	buy_cost = { gold = tier3_recruitment_cost }
+	low_maintenance_cost = { gold = tier4_maintain_cost}
+	high_maintenance_cost = { gold = tier4_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { 
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
+	}
+}
+
+# Latin Fighters Innovation
+# Only Oscan Speakers
+samnite_infantry = {
+	type = [spearmen|E]
+	
+	damage = 20
+	toughness = 15
+	pursuit = 0
+	screen = 5
+	
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		hills = { toughness = 5 }
+		plains = { toughness = 10 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 1
+		[dogs|E] = 1
+	}
+
+	# TO DO: samnite_infantry costs
+	buy_cost = { gold = tier3_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = PAXculture_ai_weight_spearmen 
+		value = PAXcounter_synergy_ai_weight_spearmen
+	}
+}
+
+samnite_cavalry = {
+	type = light_cavalry
+	
+	damage = 25
+	toughness = 5
+	pursuit = 30
+	screen = 30
+	
+	terrain_bonus = {
+		plains = { damage = 15 }
+		hills = { damage = 5 }
+		forest = { toughness = 5 pursuit = -10 }
+		taiga = { toughness = 5 pursuit = -10 }
+		mountains = { damage = -10 pursuit = -20 }
+		desert_mountains = { damage = -15 pursuit = -20 }
+		wetlands = { damage = -15 toughness = -10 pursuit = -30 screen = -30 }
+	}
+	
+	counters = {
+		archers = 1
+		archer_cavalry = 1
+		skirmishers = 1
+	}
+
+	winter_bonus = {
+		harsh_winter = { damage = -5 toughness = -2 }
+	}
+
+	buy_cost = { gold = tier3_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { 
+		value = PAXculture_ai_weight_cavalry
+		value = PAXcounter_synergy_ai_weight_cavalry
+	}
+}
+
+# Etruscan Wars Innovation
+# Only Etruscan heritage
+etruscan_infantry = {
+	type = [spearmen|E]
+	
+	damage = 17
+	toughness = 15
+	pursuit = 0
+	screen = 10
+	
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		hills = { toughness = 5 }
+		plains = { toughness = 10 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 1
+		[dogs|E] = 1
+	}
+
+	buy_cost = { gold = tier2_recruitment_cost }
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { 
+		value = PAXculture_ai_weight_spearmen 
+		value = PAXcounter_synergy_ai_weight_spearmen
+		value = PAXetruria_must
+	}
+}
+
+etruscan_cohorts = {
+	type = [swordsmen|E]
+	
+	damage = 13
+	toughness = 13
+	pursuit = 2
+	screen = 10
+	
+	terrain_bonus = {
+		forest = { damage = 4 toughness = 6 }
+		taiga = { damage = 4 toughness = 6 }
+		hills = { damage = 4 pursuit = 2 }
+	}
+
+	counters = {
+		[spearmen|E] = 1
+	}
+
+	buy_cost = { gold = tier2_recruitment_cost } 
+	low_maintenance_cost = { gold = tier3_maintain_cost }
+	high_maintenance_cost = { gold = tier3_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = { 
+		value = PAXculture_ai_weight_swordsmen
+		value = PAXcounter_synergy_ai_weight_swordsmen
+		value = PAXetruria_must
+	}
+}
+
+# Elephantry innovation
+# Only African Region
+african_elephants = {
+	type = elephant_cavalry
+	
+	damage = 200
+	toughness = 100
+	pursuit = 0
+	screen = 0
+	
+	terrain_bonus = {
+		jungle = { damage = 50 }
+		drylands = { damage = 50 }
+		mountains = { damage = -100 }
+		desert_mountains = { damage = -100 }
+		wetlands = { damage = -150 toughness = -20 }
+	}
+	
+	counters = {
+		[swordsmen|E] = 2
+		heavy_infantry = 2
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -30 toughness = -5 }
+		harsh_winter = { damage = -60 toughness = -10 }
+	}
+
+	buy_cost = { gold = war_elephant_recruitment_cost }
+	low_maintenance_cost = { gold = war_elephant_low_maint_cost }
+	high_maintenance_cost = { gold = war_elephant_high_maint_cost }
+	
+	stack = 25
+	hired_stack_size = 10
+	ai_quality = { value = PAXcarthage_must }
+}
+
+# Only Indian Region
+indian_elephants = {
+	type = elephant_cavalry
+	
+	damage = 250
+	toughness = 50
+	pursuit = 0
+	screen = 0
+	
+	terrain_bonus = {
+		jungle = { damage = 50 }
+		drylands = { damage = 50 }
+		mountains = { damage = -100 }
+		desert_mountains = { damage = -100 }
+		wetlands = { damage = -150 toughness = -20 }
+	}
+	
+	counters = {
+		[swordsmen|E] = 2
+		heavy_infantry = 2
+	}
+
+	winter_bonus = {
+		normal_winter = { damage = -30 toughness = -5 }
+		harsh_winter = { damage = -60 toughness = -10 }
+	}
+
+	buy_cost = { gold = war_elephant_recruitment_cost }
+	low_maintenance_cost = { gold = war_elephant_low_maint_cost }
+	high_maintenance_cost = { gold = war_elephant_high_maint_cost }
+	
+	stack = 25
+	hired_stack_size = 10
+	ai_quality = { value = PAXindia_must }
+}
+
+# Phoenecian Elites innovation
+# Phoenecian heritage
+sacred_band = {
+	type = [spearmen|E]
+	
+	damage = 18
+	toughness = 27
+	pursuit = 0
+	screen = 5
+	
+	terrain_bonus = {
+		mountains = { toughness = 12 }
+		desert_mountains = { toughness = 12 }
+		drylands = { damage = 10 }
+		hills = { toughness = 5 }
+	}
+
+	counters = {
+		light_cavalry = 1
+		heavy_cavalry = 1
+		camel_cavalry = 1
+		[dogs|E] = 1
+	}
+
+	# TO DO: sacred_band costs
+	buy_cost = { gold = tier4_recruitment_cost }
+	low_maintenance_cost = { gold = tier5_maintain_cost }
+	high_maintenance_cost = { gold = tier5_HIGH_maintain_cost }
+
+	holy_order_fallback = yes
+
+	stack = 100
+	ai_quality = {
+		value = PAXculture_ai_weight_spearmen
+		value = PAXcounter_synergy_ai_weight_spearmen
+		value = PAXcarthage_must
+	}
+}

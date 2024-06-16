@@ -6,7 +6,6 @@ mauryan = {
 	language = language_indic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_indian_funds
 		tradition_lords_of_the_elephant
 		tradition_warrior_monks
 		tradition_malleable_invaders
@@ -27,7 +26,7 @@ mauryan = {
 }
 
 persian = {
-	color = { 0.78 0.64 0.78 }
+	color = { 0.69 0.61 0.85 }
 	
 	ethos = ethos_bellicose
 	heritage = heritage_persian
