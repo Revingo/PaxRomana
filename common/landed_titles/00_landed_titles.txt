@@ -51,31 +51,13 @@ e_roman_respublica = {
 			c_palermo = {
 				color = { 155 254 86 }
 
-				cultural_names = {
-					name_list_bedouin = cn_balarm
-					name_list_levantine = cn_balarm
-					name_list_egyptian = cn_balarm
-					name_list_maghrebi = cn_balarm
-					name_list_andalusian = cn_balarm
-					name_list_yemeni = cn_balarm
-				}
-
-				b_palermo = {
-					province = 2635
-
-					color = { 155 254 86 }
-
-					cultural_names = {
-						name_list_bedouin = cn_balarm
-						name_list_levantine = cn_balarm
-						name_list_egyptian = cn_balarm
-						name_list_maghrebi = cn_balarm
-						name_list_andalusian = cn_balarm
-						name_list_yemeni = cn_balarm
-					}
-				}
 				b_trapani = {
 					province = 2636
+
+					color = { 155 254 86 }
+				}
+				b_palermo = {
+					province = 2635
 
 					color = { 155 254 86 }
 				}
@@ -9211,13 +9193,13 @@ e_hispania = {
 				color = { 60 180 12 }
 				can_be_named_after_dynasty = no
 
-				b_cordoba = {
-					province = 1995
+				b_cantillana = {
+					province = 1994
 
 					color = { 60 180 12 }
 				}
-				b_cantillana = {
-					province = 1994
+				b_cordoba = {
+					province = 1995
 
 					color = { 60 180 12 }
 				}
@@ -9676,6 +9658,11 @@ e_africa = {
 			c_gharb = {
 				color = { 252 89 13 }
 
+				b_izerhan = {
+					province = 4689
+
+					color = { 252 89 13 }
+				}
 				b_sala = {
 					province = 4700
 
@@ -9683,11 +9670,6 @@ e_africa = {
 				}
 				b_al-basra = {
 					province = 4687
-
-					color = { 252 89 13 }
-				}
-				b_izerhan = {
-					province = 4689
 
 					color = { 252 89 13 }
 				}
@@ -10233,16 +10215,16 @@ e_africa = {
 				cultural_names = {
 					name_list_assyrian = cn_qart-hadst
 				}
-				b_qartajana = {
-					province = 4583
-
+				b_tunis = { #Carthage
+					province = 4582
 					cultural_names = {
 						name_list_assyrian = cn_qart-hadst
 					}
+
 					color = { 96 128 224 }
 				}
-				b_tunis = {
-					province = 4582
+				b_qartajana = { #Uthina
+					province = 4583
 
 					color = { 96 128 224 }
 				}
@@ -10564,6 +10546,10 @@ e_africa = {
 				b_sassari = {
 					province = 2662
 
+					cultural_names = {
+						name_list_roman = cn_turris_libisonis
+					}
+
 					color = { 170 182 225 }
 				}
 				b_alghero = {
@@ -10613,13 +10599,13 @@ e_africa = {
 			c_bastia = {
 				color = { 226 248 251 }
 
-				b_bastia = {
-					province = 2647
+				b_corte = {
+					province = 2648
 
 					color = { 226 248 251 }
 				}
-				b_corte = {
-					province = 2648
+				b_bastia = {
+					province = 2647
 
 					color = { 226 248 251 }
 				}
@@ -15256,7 +15242,7 @@ e_hellen = {
 			}	
 		}
 		}
-		d_laconia = {
+		d_laconia = { #Achaea
 			color = { 27 13 241 }
 
 			capital = c_laconia
@@ -15264,8 +15250,11 @@ e_hellen = {
 			c_laconia = {
 				color = { 195 30 195 }
 
-				#capital = 3736 # Mistra
+				b_lacedaemonia = {
+					province = 3735
 
+					color = { 195 30 195 }
+				}
 				b_mistra = {
 					province = 3736
 
@@ -15276,11 +15265,7 @@ e_hellen = {
 
 					color = { 195 30 195 }
 				}
-				b_lacedaemonia = {
-					province = 3735
-
-					color = { 195 30 195 }
-				}
+				
 			}
 			c_messenia = {
 				color = { 220 115 220 }
@@ -15329,7 +15314,7 @@ e_hellen = {
 				}
 			}
 		}
-		d_achaea = {
+		d_achaea = { #Achaia
 			color = { 27 30 120 }
 
 			c_achaia = {
@@ -15667,8 +15652,11 @@ e_alexander_makedon = {
 			c_chalkidike = {
 				color = { 165 30 170 }
 
-				#capital = 491 # Polygyros
+				b_kassandreia = {
+					province = 3777
 
+					color = { 165 30 170 }
+				}
 				b_polygyros= {
 					province = 491
 
@@ -15676,11 +15664,6 @@ e_alexander_makedon = {
 				}
 				b_rendina = {
 					province = 3775
-
-					color = { 165 30 170 }
-				}
-				b_kassandreia = {
-					province = 3777
 
 					color = { 165 30 170 }
 				}
@@ -16111,15 +16094,8 @@ e_alexander_makedon = {
 			c_abydos = {
 				color = { 175 20 100 }
 
-				#capital = 744 # Abydos
-
 				b_abydos = {
 					province = 744
-
-					color = { 175 20 100 }
-				}
-				b_lampsakos = {
-					province = 3749
 
 					color = { 175 20 100 }
 				}
@@ -16167,6 +16143,11 @@ e_alexander_makedon = {
 					name_list_turkish = cn_iznik
 				}
 
+				b_apemea = {
+					province = 5554
+
+					color = { 146 47 130 }
+				}
 				b_nikaea = {
 					province = 750
 
@@ -16175,11 +16156,6 @@ e_alexander_makedon = {
 					cultural_names = {
 						name_list_turkish = cn_iznik
 					}
-				}
-				b_apemea = {
-					province = 5554
-
-					color = { 146 47 130 }
 				}
 				b_kyzikos = {
 					province = 743
@@ -17221,6 +17197,7 @@ e_alexander_makedon = {
 
 					cultural_names = {
 						name_list_turkish = cn_karadeniz_eregli
+						name_list_roman = cn_heraclea_pontica
 					}
 				}
 				b_claudiopolis = {
@@ -18550,7 +18527,7 @@ e_alexander_makedon = {
 				color = { 200 200 20 }
 
 				cultural_names = {
-					name_list_turkish = cn_lefkosa
+					name_list_roman = cn_larnaca
 				}
 
 				b_nicosia = {
@@ -18559,7 +18536,7 @@ e_alexander_makedon = {
 					color = { 200 200 20 }
 
 					cultural_names = {
-						name_list_turkish = cn_lefkosa
+						name_list_roman = cn_larnaca
 					}
 				}
 				b_limisol = {
@@ -22968,6 +22945,9 @@ e_alexander_makedon = {
 				}
 				b_benghazi = {
 					province = 6105
+					cultural_names = {
+						name_list_roman = cn_berenice
+					}
 
 					color = { 34 152 65 }
 				}
@@ -22996,11 +22976,12 @@ e_alexander_makedon = {
 					color = { 43 45 161 }
 				}
 			}
-			c_derna = {
+			c_derna = { #Cyrenaica
 				color = { 38 156 69 }
 
 				cultural_names = {
 					name_list_trojan = cn_kyrene
+					name_list_roman = cn_kyrenaica
 				}
 				b_marawa = {
 					province = 6101
@@ -23013,9 +22994,6 @@ e_alexander_makedon = {
 				b_derna = {
 					province = 6099
 
-					cultural_names = {
-						name_list_trojan = cn_kyrene
-					}
 					color = { 38 156 69 }
 				}
 				b_wadi_makhil = {
