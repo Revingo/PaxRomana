@@ -1412,7 +1412,7 @@ language_celtic = {
 			multiply = 10
 		}
 		if = {
-			limit = { has_cultural_pillar = language_galleacian }
+			limit = { has_cultural_pillar = language_gallaecian }
 			multiply = 5
 		}
 		if = {
@@ -1496,7 +1496,7 @@ language_celtiberian = {
 			multiply = 5
 		}
 		if = {
-			limit = { has_cultural_pillar = language_galleacian }
+			limit = { has_cultural_pillar = language_gallaecian }
 			multiply = 10
 		}
 	}
@@ -1504,7 +1504,7 @@ language_celtiberian = {
 	color = welsh
 }
 
-language_galleacian = {
+language_gallaecian = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
@@ -1514,7 +1514,7 @@ language_galleacian = {
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_galleacian }
+			limit = { has_cultural_pillar = language_gallaecian }
 			multiply = 10
 		}
 		if = {

@@ -1,0 +1,472 @@
+﻿tier1_recruitment_cost = 45
+tier2_recruitment_cost = 65
+tier3_recruitment_cost = 90
+tier4_recruitment_cost = 130
+tier5_recruitment_cost = 170
+tier6_recruitment_cost = 200
+tier7_recruitment_cost = 250
+
+@tier1_maintain_cost = 0.15
+tier1_maintain_cost = @[tier1_maintain_cost]
+@tier2_maintain_cost = 0.2
+tier2_maintain_cost = @[tier2_maintain_cost]
+@tier3_maintain_cost = 0.25
+tier3_maintain_cost = @[tier3_maintain_cost]
+@tier4_maintain_cost = 0.3
+tier4_maintain_cost = @[tier4_maintain_cost]
+@tier5_maintain_cost = 0.35
+tier5_maintain_cost = @[tier5_maintain_cost]
+@tier6_maintain_cost = 0.4
+tier6_maintain_cost = @[tier6_maintain_cost]
+@tier7_maintain_cost = 0.45
+tier7_maintain_cost = @[tier7_maintain_cost]
+
+tier1_HIGH_maintain_cost = @[tier1_maintain_cost * 3]
+tier2_HIGH_maintain_cost = @[tier2_maintain_cost * 3]
+tier3_HIGH_maintain_cost = @[tier3_maintain_cost * 3]
+tier4_HIGH_maintain_cost = @[tier4_maintain_cost * 3]
+tier5_HIGH_maintain_cost = @[tier5_maintain_cost * 3]
+tier6_HIGH_maintain_cost = @[tier6_maintain_cost * 3]
+tier7_HIGH_maintain_cost = @[tier7_maintain_cost * 3]
+
+PAXculture_ai_weight_swordsmen = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_latin
+					has_cultural_pillar = heritage_etruscan
+					has_cultural_pillar = heritage_iberian
+					has_cultural_pillar = heritage_celtic
+				}
+			}
+		}
+
+		add = 50
+	}
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_slavic
+					has_cultural_pillar = heritage_scythian
+					has_cultural_pillar = heritage_arabian
+				}
+			}
+		}
+
+		add = -500
+	}
+}
+
+PAXculture_ai_weight_archers = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_hellenic
+					has_cultural_pillar = heritage_celtic
+					has_cultural_pillar = heritage_persian
+				}
+			}
+		}
+
+		add = 50
+	}
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_latin
+					has_cultural_pillar = heritage_etruscan
+					has_cultural_pillar = heritage_phoenecian
+				}
+			}
+		}
+
+		add = -500
+	}
+}
+
+PAXculture_ai_weight_skirmishers = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_celtic
+					has_cultural_pillar = heritage_persian
+					has_cultural_pillar = heritage_germanic
+					has_cultural_pillar = heritage_arabian
+					has_cultural_pillar = heritage_italian_insular
+					has_cultural_pillar = heritage_balcan
+				}
+			}
+		}
+
+		add = 50
+	}
+}
+
+PAXculture_ai_weight_cavalry = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_arabian
+					has_cultural_pillar = heritage_scythian
+					has_cultural_pillar = heritage_slavic
+				}
+			}
+		}
+
+		add = 90
+	}
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_italian_insular
+
+			}
+		}
+
+		add = -500
+	}
+}
+
+PAXculture_ai_weight_spearmen = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_hellenic
+					has_cultural_pillar = heritage_etruscan
+					has_cultural_pillar = language_oscan
+				}
+			}
+		}
+
+		add = 50
+	}
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_iberian
+			}
+		}
+
+		add = -500
+	}
+}
+
+PAXculture_ai_weight_heavy_infantry = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_latin
+					has_cultural_pillar = heritage_etruscan
+					has_cultural_pillar = heritage_hellenic
+				}
+			}
+		}
+
+		add = 50
+	}
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_slavic
+					has_cultural_pillar = heritage_scythian
+				}
+			}
+		}
+
+		add = -500
+	}
+}
+
+PAXculture_ai_weight_pikemen = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				OR = {
+					has_cultural_pillar = heritage_hellenic
+					has_cultural_pillar = heritage_persian
+				}
+			}
+		}
+
+		add = 50
+	}
+}
+
+PAXcarthage_must = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_phoenecian
+			}
+		}
+
+		add = 500
+	}
+}
+
+PAXindia_must = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_indian
+			}
+		}
+
+		add = 500
+	}
+}
+
+PAXetruria_must = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_etruscan
+			}
+		}
+
+		add = 500
+	}
+}
+
+PAXscythia_must = {
+	value = 0
+	if = {
+		limit = {
+			culture = {
+				has_cultural_pillar = heritage_scythian
+			}
+		}
+
+		add = 500
+	}
+}
+
+PAXcounter_synergy_ai_weight_swordsmen = {
+	value = 60
+	if = {
+		limit = {
+			OR = {
+				number_maa_regiments_of_base_type = {
+					type = light_cavalry
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = heavy_cavalry
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = camel_cavalry
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = dogs
+					value >= 2
+				}
+			}
+			
+			NOT = {
+				number_maa_regiments_of_base_type = {
+					type = [swordsmen|E]
+					value >= 2
+				}
+			}
+		}
+	}
+}
+
+PAXcounter_synergy_ai_weight_archers = {
+	value = 60
+	if = {
+		limit = {
+			OR = {
+				number_maa_regiments_of_base_type = {
+					type = light_cavalry
+					value >= 3
+				}
+				number_maa_regiments_of_base_type = {
+					type = elephant_cavalry
+					value >= 3
+				}
+				number_maa_regiments_of_base_type = {
+					type = heavy_cavalry
+					value >= 3
+				}
+			}
+			
+			NOT = {
+				number_maa_regiments_of_base_type = {
+					type = archers
+					value >= 2
+				}
+			}
+		}
+	}
+}
+
+PAXcounter_synergy_ai_weight_cavalry = {
+	value = 60
+	if = {
+		limit = {
+			OR = {
+				number_maa_regiments_of_base_type = {
+					type = [pikemen|E]
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = skirmishers
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = elephant_cavalry
+					value >= 2
+				}
+			}
+			
+			NOT = {
+				OR = {
+					number_maa_regiments_of_base_type = {
+						type = light_cavalry
+						value >= 3
+					}
+					number_maa_regiments_of_base_type = {
+						type = heavy_cavalry
+						value >= 4
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+PAXcounter_synergy_ai_weight_spearmen = {
+	value = 60
+	if = {
+		limit = {
+			OR = {
+				number_maa_regiments_of_base_type = {
+					type = archers
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = archer_cavalry
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = skirmishers
+					value >= 2
+				}
+			}
+			
+			NOT = {
+				number_maa_regiments_of_base_type = {
+					type = [spearmen|E]
+					value >= 3
+				}
+			}
+		}
+	}
+}
+
+PAXcounter_synergy_ai_weight_heavy_infatry = {
+	value = 60
+	if = {
+		limit = {
+			OR = {
+				number_maa_regiments_of_base_type = {
+					type = [spearmen|E]
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = light_cavalry
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = skirmishers
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = archers
+					value >= 2
+				}
+			}
+			
+			NOT = {
+				OR = {
+					number_maa_regiments_of_base_type = {
+						type = heavy_infantry
+						value >= 3
+					}
+					number_maa_regiments_of_base_type = {
+						type = [swordsmen|E]
+						value >= 4
+					}
+				}
+				
+			}
+		}
+	}
+}
+
+PAXcounter_synergy_ai_weight_pikemen = {
+	value = 60
+	if = {
+		limit = {
+			OR = {
+				number_maa_regiments_of_base_type = {
+					type = [spearmen|E]
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = archer_cavalry
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = skirmishers
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = archers
+					value >= 2
+				}
+				number_maa_regiments_of_base_type = {
+					type = elephant_cavalry
+					value >= 1
+				}
+			}
+			
+			NOT = {
+				OR = {
+					number_maa_regiments_of_base_type = {
+						type = [spearmen|E]
+						value >= 4
+					}
+					number_maa_regiments_of_base_type = {
+						type = [pikemen|E]
+						value >= 3
+					}
+				}
+				
+			}
+		}
+	}
+}

@@ -1,4 +1,0 @@
-rf_arabian = {
-	graphical_faith = "arabian_gfx" #placeholder
-	hostility_doctrine = pagan_hostility_doctrine
-}

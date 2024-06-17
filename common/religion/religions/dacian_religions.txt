@@ -1,5 +1,5 @@
 dacian_religion = {
-	family = rf_dacian
+	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine
 

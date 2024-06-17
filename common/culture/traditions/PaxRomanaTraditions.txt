@@ -104,57 +104,6 @@ tradition_pure_family = {
 	ai_will_do = { value = 30 }
 }
 
-tradition_indian_funds = {
-	category = realm
-
-	layers = {
-		0 = steward
-		1 = indian
-		4 = crown.dds
-	}
-	is_shown = {
-		has_cultural_pillar = heritage_indian
-	}
-	can_pick = {
-		has_cultural_pillar = heritage_indian
-	}
-
-	character_modifier = {
-		monthly_income_mult = 0.4
-		levy_reinforcement_rate = -0.2
-		levy_size = 0.6
-		men_at_arms_cap = 3
-		knight_limit = 4
-	}
-
-	cost = {
-		
-		prestige = {
-			add = {
-				
-				value = 4000
-				desc = BASE
-				format = "BASE_VALUE_FORMAT"
-
-				if = {
-					
-					limit = {
-						auctoritas < 3000
-					}
-					add = {
-						value = 4000
-						desc = not_enough_auctoritas_penality
-					}
-				}
-			}
-
-			multiply = tradition_replacement_cost_if_relevant
-		}
-	}
-
-	ai_will_do = { value = 100 }
-}
-
 tradition_mercenary_army = {
 	category = combat
 

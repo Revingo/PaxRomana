@@ -1,5 +1,5 @@
 germanic_religion = {
-	family = rf_germanic
+	family = rf_pagan
 	graphical_faith = pagan_gfx
 
 	pagan_roots = yes
