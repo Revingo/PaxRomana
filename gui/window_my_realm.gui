@@ -447,13 +447,25 @@ window = {
 						name = "league_tab"
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
-						#Character.GetPrimaryTitle.
+
 						down = "[GetVariableSystem.HasValue('realm_tabs', 'league')]"
 
 						visible = "[EqualTo_string(GetPlayer.GetGovernment.GetName, GetGovernment('city-state_government').GetName)]"
 						onclick = "[GetVariableSystem.Set('realm_tabs', 'league')]"
 
 						raw_text = "League"
+					}
+					button_tab = {
+						name = "dynastic_factions_tab"
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+
+						down = "[GetVariableSystem.HasValue('realm_tabs', 'dynastic_factions')]"
+
+						visible = "[EqualTo_string(GetPlayer.GetGovernment.GetName, GetGovernment('dynastic_government').GetName)]"
+						onclick = "[GetVariableSystem.Set('realm_tabs', 'dynastic_factions')]"
+
+						raw_text = "Factions"
 					}
 				}
 
@@ -2304,14 +2316,14 @@ window = {
 							#item = {
 								vbox = {
 									layoutpolicy_horizontal = expanding
-									layoutpolicy_vertical = growing
+									layoutpolicy_vertical = expanding
 
 									name = "league_visualization"
 									datamodel = "[MyRealmWindow.GetDomainItems]"
 
 									vbox = {
 										name = "character_is_NOT_in_a_league"
-										layoutpolicy_horizontal = growing
+										layoutpolicy_horizontal = expanding
 										visible = "[GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 
 										hbox = {
@@ -2341,14 +2353,14 @@ window = {
 
 									vbox = {
 										name = "character_is_in_a_league"
-										layoutpolicy_horizontal = growing
-										layoutpolicy_vertical = growing
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
 										visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
 
 										vbox = {
 											name = "character_is_the_league_leader"
 											visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-											layoutpolicy_vertical = growing
+											layoutpolicy_vertical = expanding
 
 											hbox = {
 												spacing = 5
@@ -2392,16 +2404,14 @@ window = {
 													#margin = { 20 10 }
 													#spacing = 10
 	
-													fixedgridbox {
+													#fixedgridbox {
 														name = "league members"
 														datamodel = "[GetPlayer.MakeScope.GetList('league_list')]"
 														#datamodel_wrap = 5
 			
 														
 														item = {
-															layoutpolicy_vertical = expanding
 															hbox = {
-
 																layoutpolicy_vertical = expanding
 																coa_realm_medium = {	
 																	datacontext = "[Scope.GetCharacter]"
@@ -2413,17 +2423,15 @@ window = {
 																	using = Font_Size_Small
 																}
 															}
-															
 														}
-			
-													}
+													#}
 												}
 											}
 										}
 										vbox = {
 											name = "character_is_NOT_the_league_leader"
 											visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-											layoutpolicy_vertical = growing
+											layoutpolicy_vertical = expanding
 											
 											hbox = {
 												spacing = 5
@@ -2468,11 +2476,9 @@ window = {
 													#margin = { 20 10 }
 													#spacing = 10
 	
-													fixedgridbox {
+													#fixedgridbox {
 														name = "league members"
 														datamodel = "[GetPlayer.MakeScope.Var('league_owner').GetList('league_list')]"
-														addrow = 40
-														addcolumn = 40
 														#datamodel_wrap = 5
 			
 														
@@ -2490,13 +2496,13 @@ window = {
 																}
 															}
 														}
-													}
+													#}
 												}
 											}
 										}
 										vbox = {
-											layoutpolicy_horizontal = shrinking
-											layoutpolicy_vertical = shrinking
+											layoutpolicy_horizontal = expanding
+											layoutpolicy_vertical = expanding
 											spacing = 15
 											visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
 
@@ -2600,6 +2606,270 @@ window = {
 							#}
 						#}
 					#}
+				}
+
+
+				### DYNASTIC FACTIONS TAB
+				vbox = {
+					name = dynastic_factions_tab
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'dynastic_factions')]"
+
+					state = {
+						name = _show
+						using = Animation_FadeIn_Quick
+					}
+
+					state = {
+						name = _hide
+						alpha = 0
+					}
+					vbox = {
+						spacing = -40
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = growing
+
+						datamodel = "[MyRealmWindow.GetDomainItems]"
+
+						hbox = {
+							coa_realm_medium = {
+													
+								datacontext = "[TitleItem.GetTitle]"
+								using = tootltip_ws
+							}
+							spacer = {
+								size = { 10 0 }
+							}
+							text_label_center = {
+								raw_text = "[GetPlayer.GetPrimaryTitle.GetName]'s Factions:"
+								using = Font_Size_Big
+								default_format = "#bold"
+							}
+						}
+
+						spacer = {
+							size = { 0 25}
+						}
+
+						hbox = {
+							
+							text_single = {
+								raw_text = "Army:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								size = { 440 0}
+							}
+						}
+						
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/army.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.MakeScope.Var('army_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "Happiness:"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = 50
+									}
+								}
+								
+							}
+							
+						}
+
+						hbox = {
+							
+							text_single = {
+								raw_text = "Nobles:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								size = { 430 0}
+							}
+						}
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/nobles.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.MakeScope.Var('army_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "Happiness:"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = 50
+									}
+								}
+								
+							}
+						}
+
+						hbox = {
+							
+							text_single = {
+								raw_text = "Citizens:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								size = { 420 0}
+							}
+						}
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/citizens.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.MakeScope.Var('army_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "Happiness:"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = 50
+									}
+								}
+								
+							}
+						}
+					}
 				}
 			}
 		}

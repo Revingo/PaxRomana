@@ -20411,7 +20411,7 @@ e_alexander_makedon = {
 					color = { 40 175 75 }
 				}
 			}
-			c_firabr = { #should probably be called Paykend (c_paykend)
+			c_firabr = {
 				color = { 25 185 75 }
 
 				b_paykend = {

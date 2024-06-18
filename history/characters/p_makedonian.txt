@@ -1,0 +1,12 @@
+mc_1 = {
+    name = "Antigonus"
+    dynasty = din_20
+	religion = h_hellenic
+	culture = makedonian
+	434.1.1 = { #319 BCE
+		birth = yes
+	}
+    514.1.1 = { #239 BCE
+		death = yes
+	}
+}

@@ -284,7 +284,7 @@ c_cuneo = {
 c_messina = {
 	490.1.1 = { 
 		change_development_level = 6
-		holder = rc_2
+		holder = uc_1
 		government = city-state_government
 	}
 }

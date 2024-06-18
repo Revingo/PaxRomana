@@ -71,8 +71,8 @@ on_add_to_league = {
 quarterly_playable_pulse = {
 	on_actions = {
 		on_league_funds_increase
+		on_dynastic_find_army_leader
 	}
-
 }
 
 on_league_funds_increase = {
@@ -87,6 +87,69 @@ on_league_funds_increase = {
 			name = funds_value
 			add = quarterly_league_funds_increase
 			round = yes
+		}
+	}
+}
+
+on_dynastic_find_army_leader = {
+	trigger = {
+		is_ruler = yes
+		has_government = dynastic_government
+	}
+
+	effect = {
+		if = {
+			limit = { has_variable = army_leader }
+
+			every_vassal_or_below = {
+				limit = { root.var:army_leader.martial < this.martial }
+
+				if = {
+					limit = { has_variable = is_army_leader }
+				
+					remove_variable = is_army_leader
+				}
+				root = {
+					remove_variable = army_leader
+					set_variable = {
+						name = army_leader
+						value = prev
+					}
+				}
+			}
+			var:army_leader = {
+				set_variable = {
+					name = is_army_leader
+					value = true
+				}
+			}
+		}
+		else = {
+			random_vassal_or_below = {
+				root = {
+					set_variable = {
+						name = army_leader
+						value = prev
+					}
+				}
+			}
+			every_vassal_or_below = {
+				limit = { root.var:army_leader.martial < this.martial }
+
+				root = {
+					remove_variable = army_leader
+					set_variable = {
+						name = army_leader
+						value = prev
+					}
+				}
+			}
+			var:army_leader = {
+				set_variable = {
+					name = is_army_leader
+					value = true
+				}
+			}
 		}
 	}
 }

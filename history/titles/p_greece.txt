@@ -1,0 +1,7 @@
+k_makedon = {
+	490.1.1 = { 
+		change_development_level = 6
+		holder = mc_1
+		government = dynastic_government
+	}
+}

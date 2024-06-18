@@ -1,0 +1,7 @@
+find_army_leader_gui = {
+	scope = character
+
+	effect = {
+		
+	}
+}
