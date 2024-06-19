@@ -5,3 +5,29 @@ k_makedon = {
 		government = dynastic_government
 	}
 }
+
+c_neopatras = {
+	490.1.1 = {
+		change_development_level = 6
+		holder = gc_3
+		liege = k_makedon
+		government = city-state_government
+	}
+}
+
+c_thessaliotis = {
+	490.1.1 = {
+		change_development_level = 6
+		holder = mc_2
+		liege = k_makedon
+		government = city-state_government
+	}
+}
+c_thessalia = {
+	490.1.1 = {
+		change_development_level = 6
+		holder = gc_2
+		liege = k_makedon
+		government = city-state_government
+	}
+}

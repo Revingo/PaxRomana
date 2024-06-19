@@ -1,7 +1,23 @@
-find_army_leader_gui = {
+citizens_too_low_gui = {
 	scope = character
 
-	effect = {
-		
+	is_shown = {
+		var:citizens_h_amount <= 10
+	}
+}
+
+nobles_too_low_gui = {
+	scope = character
+
+	is_shown = {
+		var:nobles_h_amount <= 10
+	}
+}
+
+army_too_low_gui = {
+	scope = character
+
+	is_shown = {
+		var:army_h_amount <= 10
 	}
 }

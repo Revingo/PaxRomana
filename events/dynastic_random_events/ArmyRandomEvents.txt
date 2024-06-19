@@ -1,0 +1,45 @@
+﻿namespace = ArmyDynasticEvents
+ArmyDynasticEvents.0001 = {
+	type = character_event
+	title = "The Hearthquake"
+	desc = ade.d.1
+	right_portrait = {
+		character = ROOT
+		animation = stress
+	}
+	theme = realm
+	trigger = {
+		has_government = dynastic_government
+		is_ruler = yes
+	}
+	option = {
+		name = ade.o.1
+		custom_tooltip = "ade.ct.1"
+			change_variable = {
+				name = army_h_amount
+				add = -10
+			}
+	}
+	option = {
+		name = ade.o.2
+		custom_tooltip = ade.ct.2
+
+			change_variable = {
+				name = citizens_h_amount
+				add = -15
+			}
+	}
+	option = {
+		name = ade.o.3
+		custom_tooltip = ade.ct.3
+		trigger = {
+			auctoritas_value > 900
+			gold > 50
+		}
+			remove_long_term_gold = 50
+			change_variable = {
+				name = citizens_h_amount
+				add = 10
+			}
+	}
+}
