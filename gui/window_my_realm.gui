@@ -2725,12 +2725,13 @@ window = {
 									}
 								}
 								vbox = {
+									tooltip = army_happiness_tooltip
 									spacer = {
 										size = {0 100}
 									}
 									hbox = {
 										text_label_left = {
-											raw_text = "Happiness:"
+											raw_text = "[GetPlayer.Custom('HappinessTextArmy')]"
 											using = Font_Size_Small
 										}
 										spacer = {
@@ -2827,12 +2828,13 @@ window = {
 									}
 								}
 								vbox = {
+									tooltip = nobles_happiness_tooltip
 									spacer = {
 										size = {0 100}
 									}
 									hbox = {
 										text_label_left = {
-											raw_text = "Happiness:"
+											raw_text = "[GetPlayer.Custom('HappinessTextNobles')]"
 											using = Font_Size_Small
 										}
 										spacer = {
@@ -2928,12 +2930,13 @@ window = {
 									}
 								}
 								vbox = {
+									tooltip = citizens_happiness_tooltip
 									spacer = {
 										size = {0 100}
 									}
 									hbox = {
 										text_label_left = {
-											raw_text = "Happiness:"
+											raw_text = "[GetPlayer.Custom('HappinessTextCitizens')]"
 											using = Font_Size_Small
 										}
 										spacer = {

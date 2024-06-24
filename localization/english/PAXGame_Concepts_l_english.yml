@@ -11,8 +11,8 @@
  game_concept_auctoritas: "Auctoritas"
  game_concept_auctoritas_desc: "Auctoritas determines the amount of Authority you have in your state. It is a weighted average of your [gold|E], [army|E] and mostly your [prestige|E].\n\n#F Having a negative amount of Auctoritas, may lead to very bad consequences."
 
- game_concept_dogs: "Dogs"
- game_concept_dogs_desc: "Dogs are animals bred to be the best fighters. They are extremely good and precise when they can make surprise attacks at the enemy.\n\nThey generally are good at attacking lightly armored [men_at_arms|E] like [skirmishers|E] and [archers|E], but they are easily dealt with by [heavy_infantry|E]."
+ game_concept_dogs: "War Dogs"
+ game_concept_dogs_desc: "War Dogs are animals bred to be the best fighters. They are extremely good and precise when they can make surprise attacks at the enemy.\n\nThey generally are good at attacking lightly armored [men_at_arms|E] like [skirmishers|E] and [archers|E], but they are easily dealt with by [heavy_infantry|E]."
 
  game_concept_swordsmen: "Swordsmen"
  game_concept_swordsman: "Swordsman"
@@ -30,6 +30,6 @@
  game_concept_government_desc:2 "A [ruler|E]'s $game_concept_government_form$ determines what kind of [laws|E] they have access to as well as what [obligations|E] they have to their [liege|E] if they are not [independent|E].\n\nThe Government forms are: [city-state|E], [tribal|E], Res Publica, and Dynastic."
  game_concept_light_cavalry:0 "Cavalry"
  game_concept_light_cavalry_desc:0 "Cavalry are mounted [men_at_arms|E] who excel at scouting and pursuing the enemy.\n\nWhile each kind of Cavalry is unique, they generally [counter|E] [archers|E], and are in turn Countered by [spearmen|E].\n\nCavalry are also often strong on flat [terrain|E].\n\nIn comparison with [heavy_cavalry|E], they are usually better at [pursuit|E] and [screen|E]."
- game_concept_spearmen_desc:0 "Spearmen are [men_at_arms|E] who fight on foot with various polearms, like Dories and Sarissas.\n\nWhile each kind of Spearman is unique, they generally [counter|E] [light_cavalry|E] and also [heavy_cavalry|E], and are in turn Countered by [heavy_infantry|E] and [swordsmen|E].\n\nSpearmen are also often strong on hilly and mountainous [terrain|E]."
+ game_concept_spearmen_desc:0 "Spearmen are [men_at_arms|E] who fight on foot with various polearms, like Dories and Lankias.\n\nWhile each kind of Spearman is unique, they generally [counter|E] [light_cavalry|E] and also [heavy_cavalry|E], and are in turn Countered by [heavy_infantry|E] and [swordsmen|E].\n\nSpearmen are also often strong on hilly and mountainous [terrain|E]."
  
  

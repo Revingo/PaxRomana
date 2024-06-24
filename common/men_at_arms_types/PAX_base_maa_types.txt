@@ -185,7 +185,7 @@ spearmen_unit = {
 }
 
 # Military Training Innovation
-heavy_infantry_unit = { #Heavy Ssordsmen
+heavy_infantry_unit = { #Heavy Swordsmen
 	type = heavy_infantry
 	
 	damage = 32

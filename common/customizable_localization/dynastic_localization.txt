@@ -1,0 +1,101 @@
+﻿HappinessArmyValueColor = {
+	type = character
+
+	text = {
+		trigger = {
+			var:army_h_amount <= 10
+		}
+		localization_key = value_army_revolt
+	}
+	text = {
+		trigger = {
+			var:army_h_amount > 10
+		}
+		localization_key = value_army_NOT_revolt
+	}
+}
+
+HappinessNoblesValueColor = {
+	type = character
+
+	text = {
+		trigger = {
+			var:nobles_h_amount <= 10
+		}
+		localization_key = value_nobles_revolt
+	}
+	text = {
+		trigger = {
+			var:nobles_h_amount > 10
+		}
+		localization_key = value_nobles_NOT_revolt
+	}
+}
+
+HappinessCitizensValueColor = {
+	type = character
+
+	text = {
+		trigger = {
+			var:citizens_h_amount <= 10
+		}
+		localization_key = value_citizens_revolt
+	}
+	text = {
+		trigger = {
+			var:citizens_h_amount > 10
+		}
+		localization_key = value_citizens_NOT_revolt
+	}
+}
+
+HappinessTextArmy = {
+	type = character
+
+	text = {
+		trigger = {
+			var:army_h_amount <= 10
+		}
+		localization_key = d_happiness_revolt
+	}
+	text = {
+		trigger = {
+			var:army_h_amount > 10
+		}
+		localization_key = d_happiness
+	}
+}
+
+HappinessTextNobles = {
+	type = character
+	
+	text = {
+		trigger = {
+			var:nobles_h_amount <= 10
+		}
+		localization_key = d_happiness_revolt
+	}
+	text = {
+		trigger = {
+			var:nobles_h_amount > 10
+		}
+		localization_key = d_happiness
+	}
+}
+
+HappinessTextCitizens = {
+	type = character
+	
+	text = {
+		trigger = {
+			var:citizens_h_amount <= 10
+		}
+		localization_key = d_happiness_revolt
+	}
+	text = {
+		trigger = {
+			var:citizens_h_amount > 10
+		}
+		localization_key = d_happiness
+	}
+}

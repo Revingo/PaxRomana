@@ -15,19 +15,39 @@ ArmyDynasticEvents.0001 = {
 	option = {
 		name = ade.o.1
 		custom_tooltip = "ade.ct.1"
-			change_variable = {
-				name = army_h_amount
-				add = -10
-			}
+		change_variable = {
+			name = army_h_amount
+			add = -10
+		}
+		clamp_variable = {
+			name = army_h_amount
+			max = 100
+			min = 0
+		}
+		if = {
+			limit = { var:army_h_amount <= 10 }
+
+			army_revolting_effect = yes
+		}
 	}
 	option = {
 		name = ade.o.2
 		custom_tooltip = ade.ct.2
 
-			change_variable = {
-				name = citizens_h_amount
-				add = -15
-			}
+		change_variable = {
+			name = citizens_h_amount
+			add = -15
+		}
+		clamp_variable = {
+			name = citizens_h_amount
+			max = 100
+			min = 0
+		}
+		if = {
+			limit = { var:citizens_h_amount <= 10 }
+
+			citizens_revolting_effect = yes
+		}
 	}
 	option = {
 		name = ade.o.3
@@ -36,10 +56,29 @@ ArmyDynasticEvents.0001 = {
 			auctoritas_value > 900
 			gold > 50
 		}
-			remove_long_term_gold = 50
-			change_variable = {
-				name = citizens_h_amount
-				add = 10
+		remove_long_term_gold = 50
+		change_variable = {
+			name = citizens_h_amount
+			add = 10
+		}
+		clamp_variable = {
+			name = citizens_h_amount
+			max = 100
+			min = 0
+		}
+		if = {
+			limit = {
+				AND = {
+					var:citizens_h_amount > 10
+					has_character_modifier = citizens_revolt_character
+				}
 			}
+
+			if = {
+				limit = { var:citizens_h_amount <= 10 }
+	
+				citizens_revolting_effect = yes
+			}
+		}
 	}
 }

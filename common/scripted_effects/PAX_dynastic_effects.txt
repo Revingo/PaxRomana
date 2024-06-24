@@ -1,0 +1,113 @@
+army_revolting_effect = {
+
+	add_character_modifier = {
+		modifier = army_revolt_character
+	}
+
+	var:army_leader = {
+		add_opinion = {
+			target = root
+			modifier = revolting_faction
+		}
+		set_variable = {
+			name = can_rebel_army
+			value = yes
+		}
+	}
+
+	set_variable = {
+		name = army_revolt_leader
+		value = var:army_leader
+	}
+}
+
+NOT_army_revolting_effect = {
+
+	remove_character_modifier = army_revolt_character
+
+	var:army_revolt_leader = {
+		remove_opinion = {
+			modifier = revolting_faction
+			target = root
+		}
+		remove_variable = can_rebel_army
+	}
+
+	remove_variable = army_revolt_leader
+}
+
+nobles_revolting_effect = {
+
+	add_character_modifier = {
+		modifier = nobles_revolt_character
+	}
+
+	var:nobles_leader = {
+		add_opinion = {
+			target = root
+			modifier = revolting_faction
+		}
+		set_variable = {
+			name = can_rebel_nobles
+			value = yes
+		}
+	}
+
+	set_variable = {
+		name = nobles_revolt_leader
+		value = var:nobles_leader
+	}
+}
+
+NOT_nobles_revolting_effect = {
+
+	remove_character_modifier = nobles_revolt_character
+
+	var:nobles_revolt_leader = {
+		remove_opinion = {
+			modifier = revolting_faction
+			target = root
+		}
+		remove_variable = can_rebel_nobles
+	}
+
+	remove_variable = nobles_revolt_leader
+}
+
+citizens_revolting_effect = {
+
+	add_character_modifier = {
+		modifier = citizens_revolt_character
+	}
+
+	var:citizens_leader = {
+		add_opinion = {
+			target = root
+			modifier = revolting_faction
+		}
+		set_variable = {
+			name = can_rebel_citizens
+			value = yes
+		}
+	}
+
+	set_variable = {
+		name = citizens_revolt_leader
+		value = var:citizens_leader
+	}
+}
+
+NOT_citizens_revolting_effect = {
+
+	remove_character_modifier = citizens_revolt_character
+
+	var:citizens_revolt_leader = {
+		remove_opinion = {
+			modifier = revolting_faction
+			target = root
+		}
+		remove_variable = can_rebel_citizens
+	}
+
+	remove_variable = citizens_revolt_leader
+}
