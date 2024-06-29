@@ -74,11 +74,8 @@ ArmyDynasticEvents.0001 = {
 				}
 			}
 
-			if = {
-				limit = { var:citizens_h_amount <= 10 }
-	
-				citizens_revolting_effect = yes
-			}
+			remove_character_modifier = citizens_revolt_character
+			NOT_citizens_revolting_effect = yes
 		}
 	}
 }

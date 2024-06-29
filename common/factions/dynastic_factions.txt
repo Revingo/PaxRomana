@@ -1,0 +1,227 @@
+﻿army_uprising = {
+	casus_belli = army_uprising_war
+
+	demand = {
+		faction_leader = {
+			save_scope_as = faction_leader
+		}
+
+		faction_target = {
+			save_scope_as = faction_target
+		}
+
+		special_character = {
+			save_scope_as = faction_claimant
+		}
+
+		special_title = {
+			save_scope_as = faction_targeted_title
+		}
+
+		# Let the human players in the faction know that the demand will be sent
+		every_faction_member = {
+			limit = {
+				is_ai = no
+				NOT = { this = scope:faction.faction_leader }
+			}
+			trigger_event = faction_demand.2005
+		}
+
+		# Send the actual demand in 5 days
+		faction_target = {
+			trigger_event = {
+				id = ArmyWarEvent.0001
+				days = 5
+			}
+		}
+
+		#create_title_and_vassal_change = {
+		#	type = conquest
+		#	save_scope_as = changed_title
+		#	add_claim_on_loss = yes
+		#}
+		#scope:target = {
+		#	primary_title = {
+		#		change_title_holder_include_vassals = {
+		#			holder = scope:faction.faction_leader
+		#			change = changed_title
+		#		}
+		#	}
+		#	trigger_event = {
+		#		id = faction_demand.2001
+		#		days = 5
+		#	}
+		#}
+	}
+
+	ai_join_score = {
+		base = 10000
+	}
+
+	ai_create_score = {
+		base = 20000
+
+		############
+		# BLOCKERS #
+		############
+
+		#common_faction_modifiers = {
+		#	FACTION_TARGET = scope:target
+		#	OPINION_MULTIPLIER = -1
+		#	MAX_OPINION = 0
+		#	POWER = 0
+		#	THRESHOLD = 80
+		#}
+
+		#dynastic_faction_modifiers = {
+		#	FACTION_TARGET = scope:target
+		#}		
+	}
+
+	ai_demand_chance = {
+		base = 101000
+
+		
+	}
+
+	discontent_progress = {
+		base = 0
+
+		common_discontent_progress_modifier = yes
+
+		# depends on the faction
+		army_discontent_progress_modifier = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+	}
+
+	power_threshold = {
+		base = 80
+
+		modifier = {
+			add = 20
+			faction_target = {
+				has_perk = hard_rule_perk
+			}
+			desc = "FACTION_POWER_HARD_RULE"
+		}
+
+		#Lower the threshold depending on the state of other factions
+		dynamic_power_threshold_scripted_modifier = {
+			FACTION_TYPE1 = claimant_faction
+			FACTION_TYPE2 = independence_faction
+			FACTION_TYPE3 = populist_faction
+		}
+	}
+	
+	is_valid = { # If the FACTION itself is valid
+		# see also invalidate_claimant_factions_on_death_effect for what happens when the claimant dies
+		
+		#exists = scope:faction.faction_leader
+		#special_title.holder = faction_target
+		OR = {
+			faction_leader = {
+				is_alive = yes
+				#has_claim_on = root.special_title
+				NOR = { 
+					has_trait = incapable
+					this = root.faction_target
+				}
+				trigger_if = { #If they're imprisoned by the faction target they can only be so for five years before invalidating
+					limit = {
+						is_imprisoned_by = root.faction_target
+					}
+					time_in_prison_type = {
+						years < 5
+					}
+				}
+			}
+			exists = faction_war
+		}
+	}
+
+	is_character_valid = { # Is the character valid to stay in the faction? This is also checked when creating it...
+		common_character_validity_trigger = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+	}
+
+	is_county_valid = {
+		scope:faction.faction_target = holder
+	}
+
+	can_character_join = {
+		common_can_character_join_trigger = {
+			FACTION_TARGET = scope:faction.faction_target
+		}
+	}
+
+	can_character_create = {
+		common_can_character_create_trigger = {
+			FACTION_TARGET = scope:target
+		}
+
+		AND = {
+			# depends on the faction
+			scope:target.var:army_h_amount <= 10
+			has_variable = is_army_leader
+		}
+
+		#custom_description = {
+		#	text = not_enough_army_discontent
+		#	subject = scope:target
+		#	scope:target = {
+		#		var:army_h_amount > 10
+		#	}
+		#}
+	}
+
+	can_character_create_ui = {
+		common_can_character_create_trigger = {
+			FACTION_TARGET = scope:target
+		}
+
+		AND = {
+			# depends on the faction
+			scope:target.var:army_h_amount <= 10
+			has_variable = is_army_leader
+		}
+
+		#custom_description = {
+		#	text = not_enough_army_discontent
+		#	subject = scope:target
+		#	scope:target = {
+		#		var:army_h_amount > 10
+		#	}
+		#}
+	}
+
+	can_character_become_leader = {
+		is_landed = yes
+
+		# depends on the faction
+		has_variable = is_army_leader
+	}
+
+	can_county_join = {
+		# Counties can only join if the De Jure belong to the title being claimed.
+		#exists = scope:faction.special_title
+		#target_is_de_jure_liege_or_above = scope:faction.special_title
+	}
+
+	county_power = county_levies_to_raise
+
+	character_allow_create = yes
+
+	character_allow_join = yes
+
+	county_allow_join = yes
+
+	county_allow_create = no
+
+	multiple_targeting = no
+
+	ignore_soft_block = yes
+
+	requires_leader = yes
+}

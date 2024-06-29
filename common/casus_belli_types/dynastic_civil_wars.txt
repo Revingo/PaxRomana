@@ -1,12 +1,12 @@
-army_faction_war = {
+﻿army_uprising_war = {
 	icon = claim_cb
 	group = civil_war
 	ai_only_against_liege = no
 	target_titles = claim
-	allow_hostages = no
+	allow_hostages = yes
 	allowed_for_character = {
 		scope:attacker = {
-			has_variable = can_rebel_army
+			is_leading_faction_type = army_uprising
 		}
 	}
 
@@ -42,7 +42,7 @@ army_faction_war = {
 	}
 
 	on_victory_desc = {
-		desc = claimant_faction_war_victory_desc
+		desc = army_uprising_war_victory_desc
 
 	}
 
@@ -66,6 +66,7 @@ army_faction_war = {
 		# LEGITIMACY FROM LOSING FACTION WAR
 		faction_war_end_defeat_legitimacy_effect = yes
 
+		# TODO edit to the on_army_uprising_war_win_common
 		on_claimant_faction_war_win_common = {
 			TARGET_TITLES = target_titles
 			ATTACKER = scope:attacker
@@ -78,7 +79,7 @@ army_faction_war = {
 	}
 
 	on_white_peace_desc = {
-		desc = claimant_faction_war_white_peace_desc
+		desc = army_uprising_war_white_peace_desc
 
 	}
 
@@ -117,7 +118,7 @@ army_faction_war = {
 	}
 
 	on_defeat_desc = {
-		desc = claimant_faction_war_defeat_desc
+		desc = army_uprising_war_defeat_desc
 
 	}
 
@@ -127,7 +128,6 @@ army_faction_war = {
 
 		scope:defender = {
 			add_dread = medium_dread_gain
-			add_achievement_flag_effect = { FLAG = achievement_know_your_place_flag }
 
 			# LEGITIMACY FROM WINNING FACTION WAR
 			faction_war_end_victory_legitimacy_effect = yes
@@ -144,7 +144,7 @@ army_faction_war = {
 	attacker_allies_inherit = no
 	defender_allies_inherit = yes
 
-	war_name = "CLAIMANT_WAR_NAME"
+	war_name = "ARMY_UPRISING_WAR_NAME"
 
 	interface_priority = 80
 
