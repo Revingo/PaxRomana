@@ -5,15 +5,7 @@ ArmyWarEvent.0001 = {
 	opening = {
 		desc = "FACTION_DEMAND_CLAIMANT"
 	}
-	desc = {
-		first_valid = {
-			triggered_desc = {
-				trigger = { scope:faction_claimant = scope:faction_leader }
-				desc = "FACTION_DEMAND_CLAIMANT_DESC_ME"
-			}
-			desc = "FACTION_DEMAND_CLAIMANT_DESC"
-		}
-	}
+	desc = "FACTION_DEMAND_CLAIMANT_DESC_ME"
 	
 	trigger = {
 		exists = scope:faction
@@ -22,7 +14,7 @@ ArmyWarEvent.0001 = {
 	immediate = {
 		set_variable = {
 			name = claimant_faction_sent_demand
-			value = scope:faction_claimant
+			value = scope:faction_leader
 		}
 	}
 
@@ -37,21 +29,20 @@ ArmyWarEvent.0001 = {
 		# LEGITIMACY LOSS FOR ACCEPTING FACTION DEMANDS
 		faction_accept_demand_legitimacy_effect = yes
 
-		scope:faction = {
-			every_faction_member = {
-				trigger_event = faction_demand.2002
+		
+		scope:faction.faction_target = {
+			create_title_and_vassal_change = {
+				type = conquest
+				save_scope_as = changed_title
+				add_claim_on_loss = yes
 			}
-
-			special_title = {
-				add_to_list = target_titles
+			
+			primary_title = {
+				change_title_holder_include_vassals = {
+					holder = scope:faction_leader
+					change = changed_title
+				}
 			}
-		}
-
-		on_army_uprising_war_win_common = {
-			TARGET_TITLES = target_titles
-			ATTACKER = scope:faction.faction_leader
-			DEFENDER = root
-			CLAIMANT = scope:faction.special_character
 		}
 
 		ai_chance = {
@@ -178,5 +169,18 @@ ArmyWarEvent.0001 = {
 
 	after = {
 		remove_variable = claimant_faction_sent_demand
+	}
+}
+
+ArmyWarEvent.2000 = {
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC_test"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
 	}
 }
