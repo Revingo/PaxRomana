@@ -2,11 +2,13 @@
 	casus_belli = army_uprising_war
 
 	demand = {
+		save_scope_as = faction
+		
 		faction_leader = {
 			save_scope_as = faction_leader
 		}
 
-		scope:target = {
+		faction_target = {
 			save_scope_as = faction_target
 		}
 
@@ -14,21 +16,27 @@
 			save_scope_as = faction_targeted_title
 		}
 
-		# Let the human players in the faction know that the demand will be sent
-		every_faction_member = {
-			limit = {
-				AND = {
-					is_ai = no
-					NOT = { this = scope:faction_leader }
-				}
-			}
-			trigger_event = ArmyWarEvent.2000
+		scope:faction = {
+			faction_start_war = {}
 		}
+		# Let the human players in the faction know that the demand will be sent
+		#every_faction_member = {
+		#	debug_log = "Entered the faction_member"
+			#limit = {
+			#	AND = {
+			#		is_ai = no
+			#		NOT = { this = scope:faction_leader }
+			#	}
+			#}
+		#	debug_trigger_event = ArmyWarEvent.2000
+		#}
 
 		# Send the actual demand in 5 days
-		scope:faction_target = {
-			trigger_event = ArmyWarEvent.0001
-		}
+		#faction_target = {
+		#	debug_log = "Entered the faction_target"
+		#	is_valid_for_event_debug = ArmyWarEvent.0001
+		#	debug_trigger_event = ArmyWarEvent.0001
+		#}
 
 		#create_title_and_vassal_change = {
 		#	type = conquest
