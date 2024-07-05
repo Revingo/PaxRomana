@@ -170,3 +170,17 @@ ArmyWarEvent.2000 = {
 		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
 	}
 }
+
+ArmyWarEvent.2001 = {
+	type = letter_event
+	sender = scope:faction_leader
+	# TODO make the event that tells the faction target that the army uprising has started
+	opening = {
+		desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC_test"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
+	}
+}

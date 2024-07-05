@@ -13,7 +13,7 @@
 	allowed_against_character = {
 		exists = scope:attacker.joined_faction
 		scope:attacker.joined_faction = {
-			special_title.holder = scope:defender
+			faction_targeted_title.holder = scope:defender
 		}
 	}
 
@@ -26,12 +26,10 @@
 			NOT = { exists = scope:attacker.joined_faction }
 			NOT = {
 				scope:attacker.joined_faction = {
-					exists = special_character
-					special_character = { is_alive = yes }
-					has_special_title = yes
+					exists = faction_leader
+					faction_leader = { is_alive = yes }
 				}
 			}
-			scope:attacker.joined_faction.special_character = scope:attacker.joined_faction.special_title.holder
 		}
 	}
 
@@ -60,6 +58,61 @@
 					war = root.war
 					result = victory
 				}
+
+				change_government = dynastic_government
+			}
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:defender
+			IMPRISONER = scope:attacker
+		}
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = changed_title
+			add_claim_on_loss = yes
+		}
+
+		scope:defender.primary_title = {
+			save_scope_as = targeted_title
+		}
+
+		scope:targeted_title = {
+			change_title_holder_include_vassals = {
+				holder = scope:attacker
+				change = scope:changed_title
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:changed_title
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = vassalized
+			add_claim_on_loss = yes
+		}
+
+		scope:defender = {
+			change_liege = {
+				liege = scope:attacker
+				change = scope:vassalized
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:vassalized
+
+		scope:defender = {
+
+			if = {
+				limit = { var:army_h_amount <= 10 }
+
+				remove_variable = army_h_amount
+
+				set_variable = {
+					name = army_h_amount
+					value = 50
+				}
 			}
 		}
 
@@ -67,14 +120,14 @@
 		faction_war_end_defeat_legitimacy_effect = yes
 
 		# TODO edit to the on_army_uprising_war_win_common
-		on_claimant_faction_war_win_common = {
-			TARGET_TITLES = target_titles
-			ATTACKER = scope:attacker
-			DEFENDER = scope:defender
-			CLAIMANT = scope:attacker.joined_faction.special_character
+		#on_claimant_faction_war_win_common = {
+		#	TARGET_TITLES = target_titles
+		#	ATTACKER = scope:attacker
+		#	DEFENDER = scope:defender
+		#	CLAIMANT = scope:attacker.joined_faction.faction_leader
 			#ATTACKER_PRESTIGE = 10
 			#DEFENDER_PRESTIGE = -10
-		}
+		#}
 
 	}
 
@@ -131,6 +184,22 @@
 
 			# LEGITIMACY FROM WINNING FACTION WAR
 			faction_war_end_victory_legitimacy_effect = yes
+
+			if = {
+				limit = { var:army_h_amount <= 10 }
+
+				remove_variable = army_h_amount
+
+				set_variable = {
+					name = army_h_amount
+					value = 50
+				}
+			}
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:attacker
+			IMPRISONER = scope:defender
 		}
 	}
 
