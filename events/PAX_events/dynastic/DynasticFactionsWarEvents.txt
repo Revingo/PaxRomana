@@ -158,29 +158,28 @@ ArmyWarEvent.0001 = {
 	}
 }
 
-DynFactionEvents.2000 = {
+DynFactionEvents.2000 = { # Army has raised notification to the faction members
 	type = letter_event
 	sender = scope:faction_leader
 	opening = {
-		desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION"
+		desc = "FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION"
 	}
-	desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC_test"
+	desc = "FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION_DESC"
 
 	option = {
-		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"
 	}
 }
 
-DynFactionEvents.2001 = {
+DynFactionEvents.2001 = { # Army has raised notification to the faction target
 	type = letter_event
 	sender = scope:faction_leader
-	# TODO make the event that tells the faction target that the army uprising has started
 	opening = {
-		desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION"
+		desc = "FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION"
 	}
-	desc = "FACTION_DEMAND_CLAIMANT_SEND_DEMAND_NOTIFICATION_DESC_test"
+	desc = "FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_DESC"
 
 	option = {
-		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"	
+		name = "FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_OPT"	
 	}
 }

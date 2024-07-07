@@ -11,7 +11,7 @@
 		faction_target = {
 			save_scope_as = faction_target
 
-			trigger_event = ArmyWarEvent.2001
+			trigger_event = DynFactionEvents.2001
 		}
 
 		faction_target.primary_title = {
@@ -23,14 +23,13 @@
 		}
 		# Let the human players in the faction know that the demand will be sent
 		every_faction_member = {
-		#	debug_log = "Entered the faction_member"
-			limit = {
-				AND = {
-					is_ai = no
-					NOT = { this = scope:faction_leader }
-				}
-			}
-			debug_trigger_event = ArmyWarEvent.2000
+			#limit = {
+			#	AND = {
+			#		is_ai = no
+			#		NOT = { this = scope:faction_leader }
+			#	}
+			#}
+			trigger_event = DynFactionEvents.2000
 		}
 
 		# Send the actual demand in 5 days

@@ -1,0 +1,7 @@
+﻿l_english:
+ FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION: "It is now the time for the Army Uprising!"
+ FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support the [faction_leader.GetName] and his cause for the Military Faction of the [faction_targeted_title.GetName], then now is the time to fight and overthrow [faction_target.GetName]! [faction_leader.GetName] will be the new leader! Army, it is now the time to rise as one!"
+
+ FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION: "The Army is raising against you!"
+ FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_DESC: "To the pitiful [faction_target.GetName].\n You have ignored our demands far too long! Now it's the time to accept what we want and if you refuse, you will pay with your blood! The [faction_targeted_title.GetName] deserves a better ruler than you!"
+ FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_OPT: "[faction_leader.GetNameNoTooltip]! That traitorous bastard!"
