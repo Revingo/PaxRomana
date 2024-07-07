@@ -16114,6 +16114,11 @@ e_alexander_makedon = {
 
 					color = { 175 20 100 }
 				}
+				b_lampsakos = {
+					province = 3749
+
+					color = { 175 20 100 }
+				}
 			}
 			c_lesbos = {
 				color = { 150 15 150 }
