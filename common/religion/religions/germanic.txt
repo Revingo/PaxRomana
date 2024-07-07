@@ -1,4 +1,4 @@
-﻿germanic_religion = {
+germanic_religion = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
 
@@ -229,11 +229,12 @@
 			icon = germanic
 			reformed_icon = germanic_reformed
 
-			holy_site = uppsala
-			holy_site = jorvik
-			holy_site = paderborn
-			holy_site = konugardr
-			holy_site = ranaheim
+			#eholy sites: externsteine, Hallstatt, Vosges Mountains, Donar's Oak, Rheingau
+			holy_site = externsteine
+			holy_site = hallstatt
+			holy_site = vosges_mountains
+			holy_site = thors_oak
+			holy_site = rheinegau
 
 			doctrine = unreformed_faith_doctrine
 
@@ -251,9 +252,5 @@
 				fallback_doctrine = tenet_ancestor_worship
 			}
 		}
-		#norse_reformed = {
-		#	color = { 0.6 0.6 0.6 }
-		#	icon = germanic
-		#}
 	}
 }

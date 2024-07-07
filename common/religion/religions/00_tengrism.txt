@@ -1,4 +1,4 @@
-tengrism_religion = {
+﻿tengrism_religion = {
 	family = rf_pagan
 
 	pagan_roots = yes
@@ -219,12 +219,11 @@ tengrism_religion = {
 			icon = tengri
 			reformed_icon = tengri_reformed
 
-			#holy sites: mount arat, kerch, preslav, qazvin, Sulaymaniyah
-			holy_site = mount_ararat
+			holy_site = kara_khorum
+			holy_site = qayaliq
 			holy_site = kerch
+			holy_site = tavan_bogd
 			holy_site = preslav
-			holy_site = qazvin
-			holy_site = zamwa
 
 			doctrine = unreformed_faith_doctrine
 
@@ -232,5 +231,9 @@ tengrism_religion = {
 			doctrine = tenet_warmonger
 			doctrine = tenet_ancestor_worship
 		}
+		#tengri_reformed = {
+		#	color = { 0.1 0.3 0.85 }
+		#	icon = tengri
+		#}
 	}
 }

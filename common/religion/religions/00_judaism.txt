@@ -1,4 +1,4 @@
-judaism_religion = {
+﻿judaism_religion = {
 	family = rf_abrahamic
 	
 	graphical_faith = judaism_gfx
@@ -22,6 +22,9 @@ judaism_religion = {
 	doctrine = doctrine_clerical_gender_male_only
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_fixed_appointment
+
+	#Special Doctrine for Jewish Syncretism
+	doctrine = special_doctrine_is_jewish_faith
 
 	#Allow pilgrimages
 	doctrine = doctrine_pilgrimage_encouraged
@@ -54,7 +57,7 @@ judaism_religion = {
 		{ name = "holy_order_zealots_of_place_1" }
 	}
 
-	holy_order_maa = { shomer } #place holder
+	holy_order_maa = { shomer }
 
 	localization = {
 		#HighGodName
@@ -232,8 +235,6 @@ judaism_religion = {
 			holy_site = alexandria
 			holy_site = babylon
 
-			#Special Doctrine for Jewish Syncretism
-			doctrine = special_doctrine_is_jewish_faith
 			#Halakha authority
 			doctrine = temple_authority_rabbinic_doctrine
 			#Cannot HoF
@@ -248,258 +249,196 @@ judaism_religion = {
 			doctrine = doctrine_no_head # Rabbinism is highly decentralised, leaving all decisions down to the individual Rabbis. A religious head is very antithetical to their doctrine.
 		}
 
-		christian = {
-			color = { 0.8 0.8 0.6 }
-			icon = christian_origin
-			reformed_icon = christian_origin_reformed
-			
-			#jerusalem, rome, byzantium, alexandria, santiago
+		karaism = {
+			color = { 0.1 0.3 0.7 }
+			icon = karaism
+			religious_head = d_karaism
+
 			holy_site = jerusalem
-			holy_site = rome
-			holy_site = byzantium
-			holy_site = santiago
+			holy_site = sufed
+			holy_site = sinai
 			holy_site = alexandria
+			holy_site = hamadan
+
+			#Halakha authority
+			doctrine = temple_authority_toric_doctrine
+			#Cannot HoF
+			doctrine = special_doctrine_not_allowed_to_hof
 			
-			#Unreformed
-			doctrine = unreformed_faith_doctrine
+			#tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_literalism
+			doctrine = tenet_religious_legal_pronouncements
 
-			#Special Tolerance
-			doctrine = special_doctrine_ecumenical_christian
+			#Doctrines
+			doctrine = doctrine_spiritual_head
+		}
 
-			#Main Group
-			doctrine = doctrine_no_head
-			doctrine = doctrine_gender_male_dominated
-			doctrine = doctrine_pluralism_righteous
-			doctrine = doctrine_theocracy_temporal
+		haymanot = {
+			color = { 0.1 0.5 0.9 }
+			icon = judaism
+			religious_head = d_haymanot
 
-			#Marriage
-			doctrine = doctrine_monogamy
-			doctrine = doctrine_divorce_approval
-			doctrine = doctrine_bastardry_legitimization
-			doctrine = doctrine_consanguinity_aunt_nephew_and_uncle_niece
+			holy_site = jerusalem
+			holy_site = sufed
+			holy_site = sinai
+			holy_site = alexandria
+			holy_site = semien
 
-			#Crimes
-			doctrine = doctrine_homosexuality_shunned
-			doctrine = doctrine_adultery_men_shunned
-			doctrine = doctrine_adultery_women_crime
-			doctrine = doctrine_kinslaying_extended_family_crime
-			doctrine = doctrine_deviancy_shunned
-			doctrine = doctrine_witchcraft_crime
+			#Halakha authority
+			doctrine = temple_authority_kohanim_doctrine
+			#Cannot HoF
+			doctrine = special_doctrine_not_allowed_to_hof
 
-			#Clerical Functions
-			doctrine = doctrine_clerical_function_taxation
-			doctrine = doctrine_clerical_gender_male_only
-			doctrine = doctrine_clerical_marriage_disallowed
-			doctrine = doctrine_clerical_succession_spiritual_fixed_appointment
+			#tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_esotericism
 
-			#Special Doctrine for Christian Syncretism
-			doctrine = special_doctrine_is_christian_faith
+			#marriage
+			doctrine = doctrine_polygamy
 
-			#Allow pilgrimages
-			doctrine = doctrine_pilgrimage_encouraged
+			#Doctrines
+			doctrine = doctrine_spiritual_head
 
-			#Funeral tradition
-			doctrine = doctrine_funeral_stoic
-
-			traits = {
-				virtues = { forgiving compassionate chaste }
-				sins = { vengeful sadistic lustful }
+			localization = {
+				ReligiousText = haymanot_religious_text
+				ReligiousText2 = haymanot_religious_text_2
+				ReligiousText3 = haymanot_religious_text_3
+				ReligiousHeadName = haymanot_religious_head_title
+				DevoteeMale = haymanot_devotee
+				DevoteeMalePlural = haymanot_devotee_plural
+				DevoteeFemale = haymanot_devotee
+				DevoteeFemalePlural = haymanot_devotee_plural
+				DevoteeNeuter = haymanot_devotee
+				DevoteeNeuterPlural = haymanot_devotee_plural
+				PriestMale = haymanot_priest
+				PriestMalePlural = haymanot_priest_plural
+				PriestFemale = haymanot_priest
+				PriestFemalePlural = haymanot_priest_plural
+				PriestNeuter = haymanot_priest
+				PriestNeuterPlural = haymanot_priest_plural
+				AltPriestTermPlural = haymanot_priest_plural
+				BishopMale = haymanot_bishop
+				BishopMalePlural = haymanot_bishop_plural
+				BishopFemale = haymanot_bishop
+				BishopFemalePlural = haymanot_bishop_plural
+				BishopNeuter = haymanot_bishop
+				BishopNeuterPlural = haymanot_bishop_plural
 			}
+		}
 
-			#Tenets
-			doctrine = tenet_communion
-			doctrine = tenet_mendicant_preachers
-			doctrine = tenet_unrelenting_faith
+		malabarism = {
+			color = { 0.3 0.5 0.7 }
+			icon = malabarism
+			religious_head = d_malabarism
+
+			holy_site = jerusalem
+			holy_site = sinai
+			holy_site = kochi
+			holy_site = manipur
+			holy_site = kerala #Synagogues of Kerala
+
+			#Halakha authority
+			doctrine = temple_authority_toric_doctrine
+			#Cannot HoF
+			doctrine = special_doctrine_not_allowed_to_hof
+
+			#tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_eastern_syncretism
+
+			#Doctrines
+			doctrine = doctrine_theocracy_lay_clergy
+			doctrine = doctrine_temporal_head
+		}
+		
+		samaritan = {
+			color = { 0.1 0.8 0.8 }
+			icon = samaritan
+			religious_head = d_samaritan
 
 			holy_order_names = {
-				{ name = "holy_order_order_of_the_holy_communion" }
-				{ name = "holy_order_knights_of_the_first_gospel" }
-				{ name = "holy_order_guardians_of_the_shroud" }
-				{ name = "holy_order_knights_of_the_reliquary" }
-				{ name = "holy_order_knights_hospitaller" coat_of_arms = "ho_knights_hospitaller"  }
-				{ name = "holy_order_order_of_calatrava" coat_of_arms = "ho_order_of_calatrava"  }
-				{ name = "holy_order_order_of_alcantara" coat_of_arms = "ho_order_of_alcantara"  }
+				{ name = "holy_order_warriors_of_simeon" } # High Priest Simeon is said to have established many Samaritans as soldiers.
 			}
 
 			reserved_male_names = {
-				Andrew Antoninus Bartolomeus Benedict Christian Christopher Clement Constantine David Demetrius Eustace George Gregory
-				Hans Isaac Joakim Jacob John Jordan Joseph Laurence Magnus Marcus Martin Matthew Michael Nicholas Patrick Paul Peter Philip
-				Salvador Samuel Sebastian Simon Stephen Thomas Abraham Alexander Daniel Job Joshua Cyrus Luke Zachariah
-			}
-			reserved_female_names = {
-				Anna Beatrice Benedicta Brigid Catherine Cecilia Christina Clementia Constance Dorothy Elisabeth Joan Judith Juliana Helen
-				Magdalena Margaret Maria Marine Patricia Philippa Rachel Sarah Sophia Stephania
-			}
-		
-			custom_faith_icons = {
-				custom_faith_1 custom_faith_2 custom_faith_3 custom_faith_4 custom_faith_5 custom_faith_6 custom_faith_7 custom_faith_8 custom_faith_9 custom_faith_10 dualism_custom_1 zoroastrian_custom_1 zoroastrian_custom_2 buddhism_custom_1 buddhism_custom_2 buddhism_custom_3 buddhism_custom_4 taoism_custom_1 yazidi_custom_1 sunni_custom_2 sunni_custom_3 sunni_custom_4 muhakkima_1 muhakkima_2 muhakkima_4 muhakkima_5 muhakkima_6 judaism_custom_1 custom_faith_fp1_fenrir custom_faith_fp1_irminsul custom_faith_fp1_jormungandr custom_faith_fp1_odins_ravens custom_faith_fp1_runestone_moon custom_faith_fp1_thors_hammer custom_faith_fp1_valknut custom_faith_fp1_yggdrasil custom_faith_boromian_circles custom_faith_lotus custom_faith_aum_tibetan custom_faith_pentagram custom_faith_pentagram_inverted custom_faith_burning_bush custom_faith_allah custom_faith_gankyil custom_faith_eye_of_providence custom_faith_dove custom_faith_ichthys custom_faith_lamb custom_faith_black_sheep custom_faith_ankh custom_faith_chi_rho custom_faith_hamsa custom_faith_cool_s
+				Belet Ezra Hanukkah Hezekiah Isaac Levi Manasseh Nisi Simeon Yavdi Zebulun
+				Netaniel Eleazar Akabon
 			}
 
-			localization = { # Utilizes the 'West Christian' Saints, shared by Catholics and Orthodox
-				#HighGod
-				HighGodName = christianity_high_god_name
-				HighGodName2 = christianity_high_god_name_2
-				HighGodNamePossessive = christianity_high_god_name_possessive
-				HighGodNameSheHe = CHARACTER_SHEHE_HE
-				HighGodHerselfHimself = CHARACTER_HIMSELF
-				HighGodHerHis = CHARACTER_HERHIS_HIS
-				HighGodNameAlternate = christianity_high_god_name_alternate
-				HighGodNameAlternatePossessive = christianity_high_god_name_alternate_possessive
+			holy_site = gerizim
+			holy_site = sufed
+			holy_site = sinai
+			holy_site = alexandria
+			holy_site = hamadan
 
-				#Creator
-				CreatorName = christianity_creator_god_name
-				CreatorNamePossessive = christianity_creator_god_name_possessive
-				CreatorSheHe = CHARACTER_SHEHE_HE
-				CreatorHerHis = CHARACTER_HERHIS_HIS
-				CreatorHerHim = CHARACTER_HERHIM_HIM
+			#Halakha authority
+			doctrine = temple_authority_samaritan_torah_doctrine
 
-				#HealthGod
-				HealthGodName = christianity_health_god_name
-				HealthGodNamePossessive = christianity_health_god_name_possessive
-				HealthGodSheHe = CHARACTER_SHEHE_HE
-				HealthGodHerHis = CHARACTER_HERHIS_HIS
-				HealthGodHerHim = CHARACTER_HERHIM_HIM
-		
-				#FertilityGod
-				FertilityGodName = christianity_fertility_god_name
-				FertilityGodNamePossessive = christianity_fertility_god_name_possessive
-				FertilityGodSheHe = CHARACTER_SHEHE_HE
-				FertilityGodHerHis = CHARACTER_HERHIS_HIS
-				FertilityGodHerHim = CHARACTER_HERHIM_HIM
+			#tenets
+			doctrine = tenet_communal_identity
+			doctrine = tenet_literalism
+			doctrine = tenet_esotericism
 
-				#WealthGod
-				WealthGodName = christianity_wealth_god_name
-				WealthGodNamePossessive = christianity_wealth_god_name_possessive
-				WealthGodSheHe = CHARACTER_SHEHE_HE
-				WealthGodHerHis = CHARACTER_HERHIS_HIS
-				WealthGodHerHim = CHARACTER_HERHIM_HIM
+			#Doctrines
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_pluralism_righteous
+			doctrine = doctrine_monogamy
+		}
 
-				#HouseholdGod
-				HouseholdGodName = christianity_household_god_name
-				HouseholdGodNamePossessive = christianity_household_god_name_possessive
-				HouseholdGodSheHe = CHARACTER_SHEHE_HE
-				HouseholdGodHerHis = CHARACTER_HERHIS_HIS
-				HouseholdGodHerHim = CHARACTER_HERHIM_HIM
+		kabarism = {
+			color = { 0.1 0.3 0.7 }
+			icon = kabarism
+			reformed_icon = kabarism
+			religious_head = d_kabarism
+			doctrine = unreformed_faith_doctrine
 
-				#FateGod
-				FateGodName = christianity_fate_god_name
-				FateGodNamePossessive = christianity_fate_god_name_possessive
-				FateGodSheHe = CHARACTER_SHEHE_HE
-				FateGodHerHis = CHARACTER_HERHIS_HIS
-				FateGodHerHim = CHARACTER_HERHIM_HIM
+			holy_site = jerusalem
+			holy_site = samarkand #Large Jewish settlements appeared in Samarkand in the late-medieval era, also represents Khazar dominance on the Steppe
+			holy_site = sinai
+			holy_site = itil #Khazar capital and jewel of the steppe
+			holy_site = panticapaeum #Major Radhanite settlements on the steppe were built on or near Crimea
 
-				#KnowledgeGod
-				KnowledgeGodName = christianity_knowledge_god_name
-				KnowledgeGodNamePossessive = christianity_knowledge_god_name_possessive
-				KnowledgeGodSheHe = CHARACTER_SHEHE_HE
-				KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
-				KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
+			#Halakha authority
+			doctrine = temple_authority_rabbinic_doctrine
+			#Cannot HoF
+			doctrine = special_doctrine_not_allowed_to_hof
 
-				#WarGod
-				WarGodName = christianity_war_god_name
-				WarGodNamePossessive = christianity_war_god_name_possessive
-				WarGodSheHe = CHARACTER_SHEHE_HE
-				WarGodHerHis = CHARACTER_HERHIS_HIS
-				WarGodHerHim = CHARACTER_HERHIM_HIM
+			#tenets
+			doctrine = tenet_religious_legal_pronouncements
+			doctrine = tenet_legalism
+			doctrine = tenet_unreformed_syncretism #Khazars continued to practice folk traditions, changed via event
 
-				#TricksterGod
-				TricksterGodName = christianity_trickster_god_name
-				TricksterGodNamePossessive = christianity_trickster_god_name_possessive
-				TricksterGodSheHe = CHARACTER_SHEHE_HE
-				TricksterGodHerHis = CHARACTER_HERHIS_HIS
-				TricksterGodHerHim = CHARACTER_HERHIM_HIM
+			#Doctrines
+			doctrine = doctrine_spiritual_head
+			doctrine = doctrine_adultery_men_accepted
+		}
 
-				#NightGod
-				NightGodName = christianity_night_god_name
-				NightGodNamePossessive = christianity_night_god_name_possessive
-				NightGodSheHe = CHARACTER_SHEHE_HE
-				NightGodHerHis = CHARACTER_HERHIS_HIS
-				NightGodHerHim = CHARACTER_HERHIM_HIM
+		merkabah = {
+			color = { 0.5 0.1 0.7 }
+			icon = merkabah
 
-				#WaterGod
-				WaterGodName = christianity_water_god_name
-				WaterGodNamePossessive = christianity_water_god_name_possessive
-				WaterGodSheHe = CHARACTER_SHEHE_HE
-				WaterGodHerHis = CHARACTER_HERHIS_HIS
-				WaterGodHerHim = CHARACTER_HERHIM_HIM
+			holy_site = jerusalem
+			holy_site = sufed
+			holy_site = sinai
+			holy_site = alexandria
+			holy_site = babylon
 
-				PantheonTerm = christianity_high_god_name
-				PantheonTerm2 = christianity_high_god_name_2
-				PantheonTerm3 = christianity_high_god_name_3
-				PantheonTermHasHave = pantheon_term_has
-				GoodGodNames = {
-					christianity_high_god_name
-					christianity_high_god_name_alternate
-					chistianity_good_god_jesus
-					chistianity_good_god_christ
-				}
-				DevilName = christianity_devil_name
-				DevilNamePossessive = christianity_devil_name_possessive
-				DevilSheHe = CHARACTER_SHEHE_HE
-				DevilHerHis = CHARACTER_HERHIS_HIS
-				DevilHerselfHimself = CHARACTER_HIMSELF
-				EvilGodNames = {
-					christianity_devil_name
-					christianity_evil_god_lucifer
-					christianity_evil_god_beelzebub
-					christianity_evil_god_mephistopheles
-				}
-				HouseOfWorship = christianity_house_of_worship
-				HouseOfWorship2 = christianity_house_of_worship_2
-				HouseOfWorship3 = christianity_house_of_worship_3
-				HouseOfWorshipPlural = christianity_house_of_worship_plural
-				ReligiousSymbol = christianity_religious_symbol
-				ReligiousSymbol2 = christianity_religious_symbol_2
-				ReligiousSymbol3 = christianity_religious_symbol_3
-				ReligiousText = christianity_religious_text
-				ReligiousText2 = christianity_religious_text_2
-				ReligiousText3 = christianity_religious_text_3
-				ReligiousHeadName = christianity_religious_head_title
-				ReligiousHeadTitleName = christianity_religious_head_title_name
-				DevoteeMale = christianity_devotee_male
-				DevoteeMalePlural = christianity_devotee_male_plural
-				DevoteeFemale = christianity_devotee_female
-				DevoteeFemalePlural = christianity_devotee_female_plural
-				DevoteeNeuter = christianity_devotee_neuter
-				DevoteeNeuterPlural = christianity_devotee_neuter_plural
-				PriestMale = christianity_priest_male
-				PriestMalePlural = christianity_priest_male_plural
-				PriestFemale = christianity_priest_male
-				PriestFemalePlural = christianity_priest_male_plural
-				PriestNeuter = christianity_priest_male
-				PriestNeuterPlural = christianity_priest_male_plural
-				AltPriestTermPlural = christianity_priest_alternate_plural
-				BishopMale = christianity_bishop
-				BishopMalePlural = christianity_bishop_plural
-				BishopFemale = christianity_bishop
-				BishopFemalePlural = christianity_bishop_plural
-				BishopNeuter = christianity_bishop
-				BishopNeuterPlural = christianity_bishop_plural
-				DivineRealm = christianity_positive_afterlife
-				DivineRealm2 = christianity_positive_afterlife_2
-				DivineRealm3 = christianity_positive_afterlife_3
-				PositiveAfterLife = christianity_positive_afterlife
-				PositiveAfterLife2 = christianity_positive_afterlife_2
-				PositiveAfterLife3 = christianity_positive_afterlife_3
-				NegativeAfterLife = christianity_negative_afterlife
-				NegativeAfterLife2 = christianity_negative_afterlife_2
-				NegativeAfterLife3 = christianity_negative_afterlife_3
-				DeathDeityName = christianity_death_deity_name
-				DeathDeityNamePossessive = christianity_death_deity_name_possessive
-				DeathDeitySheHe = CHARACTER_SHEHE_HE
-				DeathDeityHerHis = CHARACTER_HERHIS_HIS
-				DeathDeityHerHim = CHARACTER_HERHIM_HIM
-				WitchGodName = christianity_witchgodname_the_horned_god
-				WitchGodNamePossessive = christianity_witchgodname_the_horned_god_possessive
-				WitchGodHerHis = CHARACTER_HERHIS_HIS
-				WitchGodSheHe = CHARACTER_SHEHE_HE
-				WitchGodHerHim = CHARACTER_HERHIM_HIM
-				WitchGodMistressMaster = master
-				WitchGodMotherFather = father
-			}
+			doctrine = doctrine_pluralism_righteous
 
-			GHWName = ghw_crusade
-			GHWNamePlural = ghw_crusades
+			#Halakha authority
+			doctrine = temple_authority_rabbinic_doctrine
+			#Cannot HoF
+			doctrine = special_doctrine_not_allowed_to_hof
+			#tenets
+			doctrine = tenet_gnosticism
+			doctrine = tenet_esotericism
+			doctrine = tenet_asceticism
+
+			#Doctrines
+			doctrine = doctrine_no_head # Merkabahs ignored the power and status of the Priesthood
 		}
 	}
 }

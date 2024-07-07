@@ -1,4 +1,4 @@
-﻿zoroastrianism_religion = {
+zoroastrianism_religion = {
 	family = rf_eastern
 	graphical_faith = "zoroastrian_gfx"
 
@@ -225,7 +225,7 @@
 	}
 
 	faiths = {
-		mazdayasna = {
+		mazdayasna = { #ok #Iraq
 			color = { 0.8 0.5 0 }
 			icon = zoroastrian
 			religious_head = d_mazdayasna #actually The Magi
@@ -245,7 +245,7 @@
 			doctrine = doctrine_major_branch_behdin 
 		}
 
-		zurvanism = { # Actually Behafaridism
+		zurvanism = { # Actually Behafaridism #ok #Middle East
 			color = { 0.6 0.7 0.2 }
 			icon = zurvanism
 			religious_head = d_zurvanism
@@ -269,27 +269,7 @@
 			doctrine = doctrine_heretic_branch_zandik
 		}
 
-		gayomarthianism = {
-			color = { 0.8 0.6 0.2 }
-			icon = gayomarthianism
-			religious_head = d_mazdayasna
-
-			holy_site = ushi-darena
-			holy_site = nok_kundi
-			holy_site = adur_farnbag
-			holy_site = takht-e_soleyman
-			holy_site = adur_burzen_mihr
-
-			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_communal_identity
-			doctrine = tenet_astrology
-
-			doctrine = doctrine_witchcraft_shunned
-			doctrine = doctrine_spiritual_head
-			doctrine = doctrine_major_branch_behdin 
-		}
-
-		khurmazta = {
+		khurmazta = { #Baktria
 			color = { 0.8 0.6 0.1 }
 			icon = khurmazta
 			religious_head = d_mazdayasna
@@ -297,7 +277,7 @@
 			holy_site = adur_farnbag
 			holy_site = mizdahqan
 			holy_site = takht-i-sangin
-			holy_site = dunhuang
+			holy_site = adur_burzen_mihr
 			holy_site = takht-e_soleyman
 
 			
@@ -337,7 +317,7 @@
 			}
 		}
 
-		mazdakism = {
+		mazdakism = { #ok #Iran
 			color = { 0.8 0.7 0.3 }
 			icon = mazdakism
 			religious_head = d_mazdakism
@@ -360,41 +340,7 @@
 			doctrine = doctrine_heretic_branch_zandik
 		}
 
-		khurramism = {
-			color = { 1 0.3 0 }
-			icon = khurramism
-			religious_head = d_khurramism
-
-			holy_site = mount_damavand
-			holy_site = nok_kundi
-			holy_site = takht-i-sangin
-			holy_site = takht-e_soleyman
-			holy_site = badd
-
-			doctrine = tenet_unrelenting_faith 
-			doctrine = tenet_reincarnation
-			doctrine = tenet_communal_possessions 
-
-			doctrine = doctrine_monogamy
-			doctrine = doctrine_adultery_men_accepted
-			doctrine = doctrine_adultery_women_accepted
-			doctrine = doctrine_homosexuality_accepted
-			doctrine = doctrine_divorce_disallowed #new finding for FP3, from Encyclopedia Iranica
-			doctrine = doctrine_deviancy_accepted
-			doctrine = doctrine_gender_equal
-			doctrine = doctrine_pluralism_pluralistic
-			doctrine = doctrine_theocracy_temporal #Change to make the "Destroy the Magi" decision more relevant 
-			doctrine = doctrine_spiritual_head
-			doctrine = doctrine_clerical_gender_either
-			doctrine = doctrine_heretic_branch_zandik
-
-			holy_order_names = {
-				{ name = "holy_order_peoples_chosen" }
-				{ name = "holy_order_red_wearing_ones" }
-			}
-		}
-
-		urartuism = { #Arewordik 
+		urartuism = { #Arewordik #ok #Armenia
 			color = { 1 0.9 0.5 }
 			icon = urartuism
 			religious_head = d_urartuism
@@ -430,46 +376,6 @@
 					urartu_good_god_mithra
 					urartu_good_god_zoroaster
 				}
-				PriestMale = urartuism_priest_male
-				PriestMalePlural = urartuism_priest_male_plural
-				PriestFemale = urartuism_priest_male
-				PriestFemalePlural = urartuism_priest_male_plural
-				PriestNeuter = urartuism_priest_male
-				PriestNeuterPlural = urartuism_priest_male_plural
-			}
-		}
-
-		afridunism = { #Afridunism, Daylamite folk religion 
-			color = { 0.1 0.7 0.2 }
-			icon = afridunism
-
-			holy_site = ani
-			holy_site = adur_burzen_mihr
-			holy_site = adur_farnbag
-			holy_site = takht-e_soleyman
-			holy_site = mount_damavand
-
-			doctrine = tenet_unrelenting_faith
-			doctrine = tenet_unreformed_syncretism
-			doctrine = tenet_ritual_hospitality
-
-			doctrine = doctrine_homosexuality_shunned
-			doctrine = doctrine_pluralism_pluralistic
-			doctrine = doctrine_no_head
-			doctrine = doctrine_divorce_disallowed
-			doctrine = doctrine_clerical_gender_either
-			doctrine = doctrine_heretic_branch_zandik
-
-			localization = {
-
-				FertilityGodName = urartuism_fertility_god_name
-				FertilityGodNamePossessive = urartuism_fertility_god_name_possessiv
-
-				GoodGodNames = {
-					afridunism_good_god_hvar_khshaita
-					afridunism_good_god_mithra
-				}
-				
 				PriestMale = urartuism_priest_male
 				PriestMalePlural = urartuism_priest_male_plural
 				PriestFemale = urartuism_priest_male
