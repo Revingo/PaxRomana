@@ -1,4 +1,4 @@
-citizens_too_low_gui = {
+﻿citizens_too_low_gui = {
 	scope = character
 
 	is_shown = {
