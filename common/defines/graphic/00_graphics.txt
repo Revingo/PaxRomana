@@ -34,7 +34,7 @@ NGraphics = {
 
 	FLAT_MAP_HEIGHT = 3.92
 	FLAT_MAP_FADE_SPEED = 3		# How fast to fade to/from flat map state
-	FLAT_MAP_ZOOM_STEP = 21			# At which zoom step to fade to flat map
+	FLAT_MAP_ZOOM_STEP = 16			# At which zoom step to fade to flat map
 
 	SURROUND_MAP_INNER_RECT = { 500.0 1000.0 500.0 3700.0 } 			#x-start, y-start, x-end, y-end
 	#SURROUND_MAP_OUTER_RECT = { 0.0 0.0 6500.0 4100.0 }		#x-start, y-start, x-end, y-end
@@ -101,7 +101,7 @@ NBarbershop = {
 NCamera = {
 	FOV	= 60 # Field-of-View
 	ZNEAR = 10
-	ZFAR = 100000
+	ZFAR = 75000
 
 	SHADOW_DISTANCE_FACTOR = 5 # Influences if distant shadows are rendered or not (higher means more distant shadows are rendered)
 	EDGE_SCROLLING_PIXELS = 5 # how many pixels from window edge that will trigger edge scrolling
@@ -137,7 +137,7 @@ NCamera = {
 	TITLE_ZOOM_OFFSET_IF_LEFT_VIEW_SHOWN = { 230 175 145 120 95 70 50 40 30 } # We pretend the center point of the title is this far to the west if a left-view (E.G., the title view) is shown, and no right-view. It ensures that it ends up centered in the part of the screen not obscured by the UI
 
 	PANNING_WIDTH =  4600
-	PANNING_HEIGHT = 4096
+	PANNING_HEIGHT = 4010
 
 	ROYAL_COURT_TOOL_MOVEMENT_SPEED = 6.0 				# Camera movement speed with WASD keys.
 	ROYAL_COURT_TOOL_MOVEMENT_SPEED_FAST = 18.0 		# Camera movement speed with WASD keys while SHIFT is pressed.
@@ -222,12 +222,12 @@ NMapName = {
 		0.14	50.0	#578 	13
 		0.15	50.0	#643 	14
 		0.17	50.0	#714 	15
-		0.19	50.0	#793 	16
+		0.19	50.0	#793 	16 Flat map
 		0.21	50.0	#881 	17
 		0.23	50.0	#981 	18
 		0.27	50.0	#1092	19
 		0.29	50.0	#1218	20
-		0.30	50.0	#1360	21 Flat map
+		0.30	50.0	#1360	21
 		0.32	50.0	#1521	22
 		0.32	50.0	#1703	23
 		0.32	50.0	#1903	24
