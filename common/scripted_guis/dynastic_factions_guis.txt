@@ -21,3 +21,106 @@ army_too_low_gui = {
 		var:army_h_amount <= 10
 	}
 }
+
+set_dynastic_factions_variable_gui = {
+	scope = character
+
+	effect = {
+		if = {
+			limit = { has_government = dynastic_government }
+
+			set_variable = {
+				name = my_factions
+
+				value = 1
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					AND = {
+						exists = liege
+						NOT = { liege = root }
+						liege = {
+							has_government = dynastic_government
+						}
+					}
+				}
+
+				set_variable = {
+					name = liege_factions
+
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+change_to_my_factions_gui = {
+	scope = character
+
+	is_shown = {
+		has_government = dynastic_government
+	}
+
+	effect = {
+		if = {
+			limit = { has_variable = liege_factions }
+
+			remove_variable = liege_factions
+
+			set_variable = {
+				name = my_factions
+
+				value = 1
+			}
+		}
+	}
+}
+
+change_to_liege_factions_gui = {
+	scope = character
+
+	is_shown = {
+		AND = {
+			exists = liege
+			NOT = { liege = root }
+			liege = {
+				has_government = dynastic_government
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { has_variable = my_factions }
+
+			remove_variable = my_factions
+
+			set_variable = {
+				name = liege_factions
+
+				value = 1
+			}
+		}
+		
+	}
+}
+
+remove_factions_var_gui = {
+	scope = character
+
+	effect = {
+		if = {
+			limit = { has_variable = my_factions }
+
+			remove_variable = my_factions
+		}
+		if = {
+			limit = { has_variable = liege_factions }
+
+			remove_variable = liege_factions
+		}
+	}
+}

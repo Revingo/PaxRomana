@@ -49,6 +49,57 @@ HappinessCitizensValueColor = {
 	}
 }
 
+HappinessArmyValueColorLiege = {
+	type = character
+
+	text = {
+		trigger = {
+			var:army_h_amount <= 10
+		}
+		localization_key = value_army_revolt_LIEGE
+	}
+	text = {
+		trigger = {
+			var:army_h_amount > 10
+		}
+		localization_key = value_army_NOT_revolt_LIEGE
+	}
+}
+
+HappinessNoblesValueColorLiege = {
+	type = character
+
+	text = {
+		trigger = {
+			var:nobles_h_amount <= 10
+		}
+		localization_key = value_nobles_revolt_LIEGE
+	}
+	text = {
+		trigger = {
+			var:nobles_h_amount > 10
+		}
+		localization_key = value_nobles_NOT_revolt_LIEGE
+	}
+}
+
+HappinessCitizensValueColorLiege = {
+	type = character
+
+	text = {
+		trigger = {
+			var:citizens_h_amount <= 10
+		}
+		localization_key = value_citizens_revolt_LIEGE
+	}
+	text = {
+		trigger = {
+			var:citizens_h_amount > 10
+		}
+		localization_key = value_citizens_NOT_revolt_LIEGE
+	}
+}
+
 HappinessTextArmy = {
 	type = character
 
