@@ -1,0 +1,32 @@
+window = {
+	name = "army_actions_window_gui"
+	size = { 1076 850 }
+	position = { 610 100 }
+	layer = middle
+
+	using = Window_Background
+	using = Window_Decoration
+	using = Animation_ShowHide_Standard
+
+	visible = "[GetVariableSystem.Exists( 'army_actions_w' )]"
+
+	vbox = {
+		using = Window_Margins
+		restrictparent_min = yes
+
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text"
+			{
+				raw_text = "Army's Takeable Actions"
+			}
+
+			blockoverride "button_close"
+			{
+				onclick = "[GetVariableSystem.Toggle( 'army_actions_w' )]"
+				onclick = "[ExecuteConsoleCommand('gui.ClearWidgets army_actions_window_gui')]"
+			}
+		}
+	}
+}

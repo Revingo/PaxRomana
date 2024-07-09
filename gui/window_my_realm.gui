@@ -2802,6 +2802,8 @@ window = {
 								
 							}
 							
+							onclick = "[GetVariableSystem.Toggle( 'army_actions_w' )]"
+							onclick = "[ExecuteConsoleCommand('gui.createwidget gui/PAXwindows/dynastic_army_actions_window.gui army_actions_window_gui')]"
 						}
 
 						hbox = {

@@ -14,11 +14,6 @@ army_revolting_effect = {
 			value = yes
 		}
 	}
-
-	set_variable = {
-		name = army_revolt_leader
-		value = var:army_leader
-	}
 }
 
 NOT_army_revolting_effect = {
@@ -52,11 +47,6 @@ nobles_revolting_effect = {
 			value = yes
 		}
 	}
-
-	set_variable = {
-		name = nobles_revolt_leader
-		value = var:nobles_leader
-	}
 }
 
 NOT_nobles_revolting_effect = {
@@ -89,11 +79,6 @@ citizens_revolting_effect = {
 			name = can_rebel_citizens
 			value = yes
 		}
-	}
-
-	set_variable = {
-		name = citizens_revolt_leader
-		value = var:citizens_leader
 	}
 }
 
