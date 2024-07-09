@@ -2802,8 +2802,10 @@ window = {
 								
 							}
 							
-							onclick = "[GetVariableSystem.Toggle( 'army_actions_w' )]"
-							onclick = "[ExecuteConsoleCommand('gui.createwidget gui/PAXwindows/dynastic_army_actions_window.gui army_actions_window_gui')]"
+							onclick = "[GetVariableSystem.Set( 'army_actions_w', 'x')]"
+							onclick = "[GetVariableSystem.Clear( 'nobles_actions_w' )]"
+							onclick = "[GetVariableSystem.Clear( 'citizens_actions_w' )]"
+							onclick = "[ExecuteConsoleCommands('gui.ClearWidgets army_actions_window_gui; gui.ClearWidgets citizens_actions_window_gui; gui.ClearWidgets nobles_actions_window_gui; gui.createwidget gui/PAXwindows/dynastic_army_actions_window.gui army_actions_window_gui')]"
 						}
 
 						hbox = {
@@ -2904,8 +2906,12 @@ window = {
 										value = "[FixedPointToInt( GetPlayer.MakeScope.Var('nobles_h_amount').GetValue )]"
 									}
 								}
-								
 							}
+
+							onclick = "[GetVariableSystem.Set( 'nobles_actions_w', 'x')]"
+							onclick = "[GetVariableSystem.Clear( 'army_actions_w' )]"
+							onclick = "[GetVariableSystem.Clear( 'citizens_actions_w' )]"
+							onclick = "[ExecuteConsoleCommands('gui.ClearWidgets army_actions_window_gui; gui.ClearWidgets citizens_actions_window_gui; gui.ClearWidgets nobles_actions_window_gui; gui.createwidget gui/PAXwindows/dynastic_nobles_actions_window.gui nobles_actions_window_gui')]"
 						}
 
 						hbox = {
@@ -3006,8 +3012,12 @@ window = {
 										value = "[FixedPointToInt( GetPlayer.MakeScope.Var('citizens_h_amount').GetValue )]"
 									}
 								}
-								
 							}
+
+							onclick = "[GetVariableSystem.Set( 'citizens_actions_w', 'x')]"
+							onclick = "[GetVariableSystem.Clear( 'army_actions_w' )]"
+							onclick = "[GetVariableSystem.Clear( 'nobles_actions_w' )]"
+							onclick = "[ExecuteConsoleCommands('gui.ClearWidgets army_actions_window_gui; gui.ClearWidgets citizens_actions_window_gui; gui.ClearWidgets nobles_actions_window_gui; gui.createwidget gui/PAXwindows/dynastic_citizens_actions_window.gui citizens_actions_window_gui')]"
 						}
 					}
 
