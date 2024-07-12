@@ -37,10 +37,14 @@ NOT_army_revolting_effect = {
 		}
 		remove_variable = can_rebel_army
 	}
-	every_realm_province = {
-		remove_province_modifier = revolt_opinion
-	}
 
+	every_realm_county = {
+		every_county_province = {
+			limit = { has_county_modifier = revolt_opinion }
+			
+			remove_province_modifier = revolt_opinion
+		}
+	}
 	remove_variable = army_revolt_leader
 }
 

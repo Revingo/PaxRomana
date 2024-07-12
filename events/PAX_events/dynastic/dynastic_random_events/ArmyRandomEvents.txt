@@ -24,8 +24,16 @@ ArmyDynasticEvents.0001 = {
 			max = 100
 			min = 0
 		}
+		set_local_variable = {
+			name = tmp_a_h_amount
+			value = var:army_h_amount
+		}
+		change_local_variable = {
+			name = tmp_a_h_amount
+			add = -10
+		}
 		if = {
-			limit = { var:army_h_amount <= 10 }
+			limit = { local_var:tmp_a_h_amount <= 10 }
 
 			army_revolting_effect = yes
 		}
@@ -43,8 +51,16 @@ ArmyDynasticEvents.0001 = {
 			max = 100
 			min = 0
 		}
+		set_local_variable = {
+			name = tmp_c_h_amount
+			value = var:citizens_h_amount
+		}
+		change_local_variable = {
+			name = tmp_c_h_amount
+			add = -10
+		}
 		if = {
-			limit = { var:citizens_h_amount <= 10 }
+			limit = { local_var:tmp_c_h_amount <= 10 }
 
 			citizens_revolting_effect = yes
 		}
@@ -66,10 +82,18 @@ ArmyDynasticEvents.0001 = {
 			max = 100
 			min = 0
 		}
+		set_local_variable = {
+			name = tmp_c_h_amount
+			value = var:citizens_h_amount
+		}
+		change_local_variable = {
+			name = tmp_c_h_amount
+			add = 10
+		}
 		if = {
 			limit = {
 				AND = {
-					var:citizens_h_amount > 10
+					local_var:tmp_c_h_amount > 10
 					has_character_modifier = citizens_revolt_character
 				}
 			}

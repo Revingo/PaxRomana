@@ -114,6 +114,8 @@
 					value = 50
 				}
 			}
+			NOT_army_revolting_effect = yes
+			find_new_faction_leader_forced_on_action = yes
 		}
 
 		# LEGITIMACY FROM LOSING FACTION WAR
@@ -195,6 +197,7 @@
 					value = 50
 				}
 			}
+			NOT_army_revolting_effect = yes
 		}
 
 		imprison_character_effect = {
