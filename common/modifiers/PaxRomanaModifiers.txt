@@ -6,6 +6,7 @@
 
 family_traitor = {
 	icon = family_negative
+	
 	dynasty_opinion = -20
 	dynasty_house_opinion = -10
 	close_relative_opinion = -10
@@ -13,10 +14,13 @@ family_traitor = {
 
 league_funds = {
 	icon = economy_negative
+
 	monthly_income_mult = -0.1
 }
 
 army_revolt_character = {
+	icon = prowess_negative 
+
 	maa_damage_mult = -0.9
 	levy_reinforcement_rate_friendly_territory = -0.4
 	travel_safety_mult = -0.6
@@ -24,14 +28,24 @@ army_revolt_character = {
 }
 
 nobles_revolt_character = {
+	icon = stewardship_negative 
+
 	domain_limit = -2
 	domain_tax_mult = -0.8
 	monthly_county_control_decline_factor = 0.6
 }
 
 citizens_revolt_character = {
+	icon = family_negative 
+
 	levy_reinforcement_rate_friendly_territory = -0.9
 	levy_reinforcement_rate = -0.9
-	monthly_county_control_growth_factor = -0.9
+	monthly_county_control_decline_factor = 0.9
 	levy_maintenance = 0.8
+}
+
+revolt_opinion = {
+	icon = family_negative
+
+	county_opinion_add = -50
 }

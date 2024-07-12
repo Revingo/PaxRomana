@@ -108,7 +108,15 @@ on_dynastic_find_army_leader = {
 
 	effect = {
 		if = {
-			limit = { has_variable = army_leader }
+			limit = { 
+				AND = {
+					has_variable = army_leader
+					var:army_leader = {
+						is_alive = yes
+						liege = root
+					}
+				}
+			}
 
 			every_vassal = {
 				limit = { root.var:army_leader.martial < this.martial }
@@ -173,7 +181,15 @@ on_dynastic_find_nobles_leader = {
 
 	effect = {
 		if = {
-			limit = { has_variable = nobles_leader }
+			limit = {
+				AND = {
+					has_variable = nobles_leader
+					var:nobles_leader = {
+						is_alive = yes
+						liege = root
+					}
+				}
+			}
 
 			every_vassal_or_below = {
 				limit = { root.var:nobles_leader.stewardship < this.stewardship }
@@ -238,7 +254,15 @@ on_dynastic_find_citizens_leader = {
 
 	effect = {
 		if = {
-			limit = { has_variable = citizens_leader }
+			limit = {
+				AND = {
+					has_variable = citizens_leader
+					var:citizens_leader = {
+						is_alive = yes
+						liege = root
+					}
+				}
+			}
 
 			every_vassal = {
 				limit = { root.var:citizens_leader.diplomacy < this.diplomacy }
