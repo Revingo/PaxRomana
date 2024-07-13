@@ -27,6 +27,149 @@ gallic = {
 	}
 }
 
+gallic_alpina = {
+	color = { 0.0 0.27 0.13 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_artisans
+		tradition_metal_craftsmanship
+		tradition_mountaineers
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		5 = caucasian_blond
+		4 = mediterranean
+	}
+}
+
+gallic_narbonensis = {
+	color = { 0.0 0.32 0.23 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_mendicant_mystics
+		tradition_fishermen
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		5 = caucasian_blond
+		4 = mediterranean
+	}
+}
+
+gallic_comato = {
+	color = { 0.0 0.37 0.33 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_metal_craftsmanship
+		tradition_tribe_unity
+		tradition_city_keepers
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		5 = caucasian_blond
+		4 = mediterranean
+	}
+}
+
+gallic_belgica = {
+	color = { 0.0 0.42 0.43 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_metal_craftsmanship
+		tradition_tribe_unity
+		tradition_castle_keepers
+		tradition_stand_and_fight
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		5 = caucasian_blond
+		4 = mediterranean
+	}
+}
+
+gallic_veneti  = {
+	color = { 0.0 0.47 0.53 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_seafaring
+		tradition_fishermen
+		tradition_metal_craftsmanship
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		5 = caucasian_blond
+		4 = mediterranean
+	}
+}
+
 brythonic = {
 	color = { 0.11 0.67 0.84 }
 	

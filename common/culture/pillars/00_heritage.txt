@@ -69,6 +69,16 @@ heritage_german = {
 	audio_parameter = european
 }
 
+heritage_east_german = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_east_german
+		}
+	}
+	audio_parameter = european
+}
+
 heritage_slavic = {
 	type = heritage
 	is_shown = {

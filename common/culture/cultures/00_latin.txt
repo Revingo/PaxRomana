@@ -100,3 +100,29 @@ umbrian = {
 		10 = mediterranean
 	}
 }
+
+venetii = {
+	color = { 0.9 0.81 0.2 }
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_venetisch
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_artisans
+		tradition_metal_craftsmanship
+	}
+
+	name_list = name_list_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
