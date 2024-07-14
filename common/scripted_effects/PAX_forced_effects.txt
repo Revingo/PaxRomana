@@ -23,6 +23,7 @@
 	}
 
 	random_vassal = {
+		limit = { age > 16 }
 		scope:current_d_ruler = {
 			set_variable = {
 				name = army_leader
@@ -44,7 +45,12 @@
 	every_vassal = {
 
 		if = {
-			limit = { root.var:army_leader.martial < this.martial }
+			limit = {
+				AND = {
+					root.var:army_leader.martial < this.martial
+					age > 16
+				}
+			}
 
 			scope:current_d_ruler = {
 				remove_variable = army_leader
@@ -56,7 +62,12 @@
 		}
 
 		if = {
-			limit = { root.var:nobles_leader.stewardship < this.stewardship }
+			limit = { 
+				AND = {
+					root.var:nobles_leader.stewardship < this.stewardship
+					age > 16
+				}
+			}
 
 			scope:current_d_ruler = {
 				remove_variable = nobles_leader
@@ -68,7 +79,12 @@
 		}
 
 		if = {
-			limit = { root.var:citizens_leader.diplomacy < this.diplomacy }
+			limit = {
+				AND = {
+					root.var:citizens_leader.diplomacy < this.diplomacy 
+					age > 16
+				}
+			}
 
 			scope:current_d_ruler = {
 				remove_variable = citizens_leader

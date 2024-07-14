@@ -74,3 +74,9 @@ on_title_gain = {
 		on_new_dynastic_ruler
 	}
 }
+
+random_yearly_playable_pulse = {
+	on_actions = {
+		on_yearly_random_dynastic_event
+	}
+}

@@ -49,3 +49,15 @@ revolt_opinion = {
 
 	county_opinion_add = -50
 }
+
+herthquake_not_helped = {
+	icon = family_negative
+
+	county_opinion_add = -50
+}
+
+herthquake_helped = {
+	icon = family_positive
+
+	county_opinion_add = 20
+}

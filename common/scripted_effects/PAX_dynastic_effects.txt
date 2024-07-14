@@ -53,9 +53,15 @@ nobles_revolting_effect = {
 	add_character_modifier = {
 		modifier = nobles_revolt_character
 	}
-	every_realm_province = {
-		add_province_modifier = {
-			modifier = revolt_opinion
+
+	every_realm_county = {
+		limit = { holder = root }
+		every_county_province = {
+			
+			add_province_modifier = {
+				
+				modifier = revolt_opinion
+			}
 		}
 	}
 
@@ -83,8 +89,12 @@ NOT_nobles_revolting_effect = {
 		}
 		remove_variable = can_rebel_nobles
 	}
-	every_realm_province = {
-		remove_province_modifier = revolt_opinion
+	every_realm_county = {
+		every_county_province = {
+			limit = { has_county_modifier = revolt_opinion }
+			
+			remove_province_modifier = revolt_opinion
+		}
 	}
 
 	remove_variable = nobles_revolt_leader
@@ -95,9 +105,14 @@ citizens_revolting_effect = {
 	add_character_modifier = {
 		modifier = citizens_revolt_character
 	}
-	every_realm_province = {
-		add_province_modifier = {
-			modifier = revolt_opinion
+	every_realm_county = {
+		limit = { holder = root }
+		every_county_province = {
+			
+			add_province_modifier = {
+				
+				modifier = revolt_opinion
+			}
 		}
 	}
 
@@ -124,8 +139,12 @@ NOT_citizens_revolting_effect = {
 		}
 		remove_variable = can_rebel_citizens
 	}
-	every_realm_province = {
-		remove_province_modifier = revolt_opinion
+	every_realm_county = {
+		every_county_province = {
+			limit = { has_county_modifier = revolt_opinion }
+			
+			remove_province_modifier = revolt_opinion
+		}
 	}
 
 	remove_variable = citizens_revolt_leader
