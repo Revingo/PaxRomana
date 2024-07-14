@@ -1,0 +1,29 @@
+sarmatian = {
+	color = { 0.89 0.61 0.06 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_scythian
+	language = language_iranian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hunters
+		tradition_horse_breeder
+		tradition_hit_and_run
+		tradition_horse_lords
+	}
+	
+	name_list = name_list_karelian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		50 = circumpolar_dark_hair
+		25 = circumpolar_brown_hair
+		25 = circumpolar_blonde_hair
+		10 = mediterranean_byzantine
+		4 = mediterranean
+	}
+}
