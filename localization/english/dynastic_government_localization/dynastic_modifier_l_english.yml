@@ -1,0 +1,13 @@
+﻿l_english:
+ army_revolt_character: "Army Revolt Effect"
+ army_revolt_character_desc: "The Army has revolted and this character is now facing the consequences"
+ nobles_revolt_character: "Nobles Revolt Effect"
+ nobles_revolt_character_desc: "The Nobles have revolted and this character is now facing the consequences"
+ citizens_revolt_character: "Citizens Revolt Effect"
+ citizens_revolt_character: "The Citizens have revolted and this character is now facing the consequences"
+ revolt_opinion: "Revolt"
+ revolt_opinion_desc: "There is a sentiment of revolt in this settlement"
+ herthquake_not_helped: "Citizens Against the Earthquake"
+ herthquake_not_helped_desc: "This settlement faced an Earthquake and the people weren't helped"
+ herthquake_helped: "Citizens Helped Against the Earthquake"
+ herthquake_helped_desc: "This settlement faced an Earthquake but the people have been helped"

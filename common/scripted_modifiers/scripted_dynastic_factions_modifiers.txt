@@ -1,0 +1,161 @@
+﻿dynastic_faction_modifiers = {
+
+	# Kingdoms gain an additional boost to independence, as they don't like being under the thumb of others.
+	modifier = {
+		desc = "FACTION_REASON_KING"
+		add = { # High-grandeur Kings will want independence even more
+			value =	1000
+			if = {
+				limit = {
+					has_royal_court = yes
+					$FACTION_TARGET$ = {
+						has_royal_court = yes
+					}
+					court_grandeur_current_level > $FACTION_TARGET$.court_grandeur_current_level
+				}
+				add = {
+					add = court_grandeur_current_level
+					subtract = $FACTION_TARGET$.court_grandeur_current_level
+					multiply = 15
+				}
+			}
+		}
+		highest_held_title_tier = tier_kingdom
+	}
+
+	# Lowers independence wishes from Counts.
+	modifier = {
+		desc = "FACTION_REASON_COUNT"
+		add = -2000
+		highest_held_title_tier = tier_county
+	}
+
+	# Toe the Line Perk
+	modifier = {
+		desc = "FACTION_REASON_PERK_TOE_THE_LINE"
+		add = -2500
+		$FACTION_TARGET$ = {
+			has_perk = toe_the_line_perk
+		}
+	}
+
+	# Characters are less likely to join if cultural acceptance is high
+	modifier = {
+		desc = "FACTION_REASON_CULTURE_ACCEPTANCE"
+		culture = {
+			NOR = {
+				this = $FACTION_TARGET$.culture
+				cultural_acceptance = { target = $FACTION_TARGET$.culture value >= 90 } # Essentially the same culture
+				has_cultural_parameter = doesnt_care_about_culture_faith_in_factions
+			}
+		}
+		add = {
+			value = 1000
+			if = {
+				limit = {
+					culture = {
+						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 20 }
+					}
+				}
+				add = 1000
+			}
+			if = {
+				limit = {
+					culture = {
+						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 35 }
+					}
+				}
+				add = 700
+			}
+			if = {
+				limit = {
+					culture = {
+						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 50 }
+					}
+				}
+				add = 500
+			}
+			if = {
+				limit = {
+					culture = {
+						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 70 }
+					}
+				}
+				add = 250
+			}
+			if = {
+				limit = {
+					culture = {
+						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 80 }
+					}
+				}
+				add = 250
+			}
+			if = { # The liege knowing your language cuts this penalty in half
+				limit = {
+					$FACTION_TARGET$ = {
+						knows_language_of_culture = prev.culture
+					}
+				}
+				multiply = 0.5
+			}
+		}
+	}
+
+	modifier = { # New vassals do not want to join independence factions
+		desc = "FACTION_REASON_NEW_VASSAL"
+		add = -7000
+		has_opinion_modifier = {
+			modifier = became_vassal
+			target = $FACTION_TARGET$
+		}
+	}
+}
+
+army_discontent_progress_modifier = {
+	modifier = {
+		$FACTION_TARGET$.var:army_h_amount <= 10
+
+		add = 5
+	}
+	modifier = {
+		$FACTION_TARGET$.var:army_h_amount > 10
+
+		add = {
+			add = 5
+			multiply = -4
+		}
+	}
+}
+
+nobles_discontent_progress_modifier = {
+	modifier = {
+		$FACTION_TARGET$.var:nobles_h_amount <= 10
+
+		add = 5
+	}
+	modifier = {
+		$FACTION_TARGET$.var:nobles_h_amount > 10
+
+		add = {
+			add = 5
+			multiply = -4
+		}
+	}
+}
+
+citizens_discontent_progress_modifier = {
+	modifier = {
+		$FACTION_TARGET$.var:citizens_h_amount <= 10
+
+		add = 5
+	}
+	modifier = {
+		$FACTION_TARGET$.var:citizens_h_amount > 10
+
+		add = {
+			add = 5
+			multiply = -4
+		}
+	}
+}

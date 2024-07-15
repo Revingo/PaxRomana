@@ -1,0 +1,79 @@
+﻿namespace = DynFactionEvents
+
+DynFactionEvents.2000 = { # Army has raised notification to the faction members
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"
+	}
+}
+
+DynFactionEvents.2001 = { # Army has raised notification to the faction target
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_DYN_UPRISING_HAS_STARTED_NOTIFICATION_OPT"	
+	}
+}
+
+DynFactionEvents.2002 = { # Nobles have raised notification to the faction members
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_NOBLES_UPRISING_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_NOBLES_UPRISING_SEND_DEMAND_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"
+	}
+}
+
+DynFactionEvents.2003 = { # Nobles have raised notification to the faction target
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_NOBLES_UPRISING_HAS_STARTED_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_NOBLES_UPRISING_HAS_STARTED_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_DYN_UPRISING_HAS_STARTED_NOTIFICATION_OPT"	
+	}
+}
+
+DynFactionEvents.2004 = { # Citizens have raised notification to the faction members
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_CITIZENS_UPRISING_SEND_DEMAND_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_CITIZENS_UPRISING_SEND_DEMAND_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_SEND_DEMAND_NOTIFICATION_OPT"
+	}
+}
+
+DynFactionEvents.2005 = { # Citizens have raised notification to the faction target
+	type = letter_event
+	sender = scope:faction_leader
+	opening = {
+		desc = "FACTION_DEMAND_CITIZENS_UPRISING_HAS_STARTED_NOTIFICATION"
+	}
+	desc = "FACTION_DEMAND_CITIZENS_UPRISING_HAS_STARTED_NOTIFICATION_DESC"
+
+	option = {
+		name = "FACTION_DEMAND_DYN_UPRISING_HAS_STARTED_NOTIFICATION_OPT"	
+	}
+}

@@ -1,31 +1,4 @@
-﻿on_marriage = {
-	on_actions = {
-		on_family_traitor
-	}
-}
-
-on_family_traitor = {
-	trigger = {
-		AND = {
-			#Checks if the character already has the family_traitor modifier
-			NOT = {has_character_modifier = family_traitor}
-	
-			#if he has not, checks if his culture has the tradition_pure_family tradition, then checks
-			culture = {
-				has_cultural_tradition = tradition_pure_family
-			}
-			#if the scope's house is the same of the scope's primary spouse's house
-			NOT = { house = primary_spouse.house }
-		}
-	}
-
-	#if all conditions are met, fires the familyTraitorEvent.1
-	events = {
-		familyTraitorEvent.1
-	}
-}
-
-on_create_league = {
+﻿on_create_league = {
 	trigger = {
 		is_ruler = yes
 		highest_held_title_tier >= 2
@@ -68,13 +41,6 @@ on_add_to_league = {
 	}
 }
 
-quarterly_playable_pulse = {
-	on_actions = {
-		on_league_funds_increase
-	}
-
-}
-
 on_league_funds_increase = {
 	trigger = {
 		is_ruler = yes
@@ -88,13 +54,6 @@ on_league_funds_increase = {
 			add = quarterly_league_funds_increase
 			round = yes
 		}
-	}
-}
-
-on_death = {
-	on_actions = {
-		on_league_leader_death
-		on_league_member_death
 	}
 }
 
@@ -249,10 +208,16 @@ on_league_member_death = {
 					NOT = { exists = player_heir }
 					AND = {
 						exists = player_heir
-						player_heir = {
-							is_landed = yes
-							NOT = { has_government = city-state_government }
+						AND = {
+							player_heir = {
+								is_landed = yes
+								NOT = { has_government = city-state_government }
+								
+							}
 						}
+					}
+					player_heir = {
+						has_variable = in_a_league
 					}
 				}
 			}
@@ -323,13 +288,6 @@ on_league_member_death = {
 			remove_variable = league_owner
 		}
 		
-	}
-}
-
-on_title_lost = {
-	on_actions = {
-		on_member_becomes_landless
-		on_league_leader_becomes_landless
 	}
 }
 
@@ -405,151 +363,4 @@ on_league_leader_becomes_landless = {
 		clear_variable_list = league_list
 	}
 
-}
-
-on_title_gain = {
-	on_actions = {
-		on_mauryc_titles_gain
-	}
-}
-on_title_gain_usurpation = {
-	on_actions = {
-		on_mauryc_titles_gain
-	}
-}
-
-on_mauryc_titles_gain = {
-	trigger = {
-		scope:title = d_mauryas
-	}
-	effect = {
-		monthly_income_mult = 0.4
-		levy_reinforcement_rate = -0.2
-		levy_size = 0.6
-		men_at_arms_cap = 3
-		knight_limit = 4
-	}
-}
-
-on_title_lost = {
-	on_actions = {
-		on_mauryc_titles_removed
-	}
-}
-
-on_mauryc_titles_removed = {
-	trigger = {
-		scope:title = d_mauryas
-	}
-	effect = {
-		monthly_income_mult = -0.4
-		levy_reinforcement_rate = 0.2
-		levy_size = -0.6
-		men_at_arms_cap = -3
-		knight_limit = -4
-	}
-}
-
-on_tradition_added = {
-	on_actions = {
-		on_added_pure_family_tradition
-	}
-}
-on_added_pure_family_tradition = {
-	trigger = {
-		scope:tradition = tradition_pure_family
-	}
-	effect = {
-		add_character_modifier = {
-			modifier = family_matters
-		}
-	}
-}
-on_character_culture_change = {
-	on_actions = {
-		on_pure_family_tradition
-	}
-}
-
-
-on_pure_family_tradition = {
-	trigger = {
-		root.culture = {
-			has_cultural_tradition = tradition_pure_family
-		} 
-	}
-	effect = {
-		add_character_modifier = {
-			modifier = family_matters
-		}
-	}
-}
-
-on_game_start = {
-	on_actions = {
-		on_game_start_pure_family_tradition
-	}
-}
-
-on_game_start_pure_family_tradition = {
-	effect = {
-		every_ruler = {
-			limit = {
-				culture = {
-					has_cultural_tradition = tradition_pure_family
-				}
-			}
-			add_character_modifier = {
-				modifier = family_matters
-			}
-		}	
-	}
-}
-
-on_tradition_removed = {
-	on_actions = {
-		on_remove_pure_family_tradition
-	}
-}
-
-on_remove_pure_family_tradition = {
-	trigger = {
-		scope:tradition = tradition_pure_family
-	}
-	effect = {
-		if = { 
-			limit = { has_character_modifier = family_matters }
-	
-			remove_character_modifier = family_matters
-		}
-		
-	}
-}
-
-on_title_gain = {
-	on_actions = {
-		on_not_eligible_gains_title
-	}
-}
-
-on_not_eligible_gains_title = {
-	trigger = {
-		OR = {
-			has_government = city-state_government
-			has_government = tribal_government
-		}
-	}
-	effect = {
-		every_held_title = {
-			if = {
-				limit = {
-					tier >= tier_kingdom
-				}
-
-				root = {
-					destroy_title = prev
-				}
-			}
-		}
-	}
 }
