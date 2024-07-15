@@ -619,6 +619,39 @@ on_new_dynastic_ruler = {
 	}
 }
 
+on_no_more_army_revolts = {
+	trigger = {
+		has_government = dynastic_government
+		has_character_modifier = army_revolt_character
+		var:army_h_amount > 10
+	}
+	effect = {
+		NOT_army_revolting_effect = yes
+	}
+}
+
+on_no_more_nobles_revolts = {
+	trigger = {
+		has_government = dynastic_government
+		has_character_modifier = nobles_revolt_character
+		var:nobles_h_amount > 10
+	}
+	effect = {
+		NOT_nobles_revolting_effect = yes
+	}
+}
+
+on_no_more_citizens_revolts = {
+	trigger = {
+		has_government = dynastic_government
+		has_character_modifier = citizens_revolt_character
+		var:citizens_h_amount > 10
+	}
+	effect = {
+		NOT_citizens_revolting_effect = yes
+	}
+}
+
 on_yearly_random_dynastic_event = {
 	trigger = {
 		has_government = dynastic_government

@@ -1,5 +1,5 @@
-﻿army_uprising = {
-	casus_belli = army_uprising_war
+﻿nobles_uprising = {
+	casus_belli = nobles_uprising_war
 
 	demand = {
 		save_scope_as = faction
@@ -11,7 +11,7 @@
 		faction_target = {
 			save_scope_as = faction_target
 
-			trigger_event = DynFactionEvents.2001
+			trigger_event = DynFactionEvents.2003
 		}
 
 		faction_target.primary_title = {
@@ -29,7 +29,7 @@
 					NOT = { this = scope:faction_leader }
 				}
 			}
-			trigger_event = DynFactionEvents.2000
+			trigger_event = DynFactionEvents.2002
 		}
 	}
 
@@ -85,7 +85,7 @@
 		common_discontent_progress_modifier = yes
 
 		# depends on the faction
-		army_discontent_progress_modifier = {
+		nobles_discontent_progress_modifier = {
 			FACTION_TARGET = scope:faction.faction_target
 		}
 	}
@@ -103,29 +103,22 @@
 	}
 	
 	is_valid = { # If the FACTION itself is valid
-		# see also invalidate_claimant_factions_on_death_effect for what happens when the claimant dies
-		
-		#exists = scope:faction.faction_leader
-		#special_title.holder = faction_target
-		#OR = {
-		#	faction_leader = {
-		#		is_alive = yes
-		#		#has_claim_on = root.special_title
-		#		NOR = { 
-		#			has_trait = incapable
-		#			this = root.faction_target
-		#		}
-		#		trigger_if = { #If they're imprisoned by the faction target they can only be so for five years before invalidating
-		#			limit = {
-		#				is_imprisoned_by = root.faction_target
-		#			}
-		#			time_in_prison_type = {
-		#				years < 5
-		#			}
-		#		}
-		#	}
-		#	exists = faction_war
-		#}
+		faction_leader = {
+			exists = yes
+			is_alive = yes
+			NOR = { 
+				has_trait = incapable
+				this = root.faction_target
+			}
+			trigger_if = { #If they're imprisoned by the faction target they can only be so for five years before invalidating
+				limit = {
+					is_imprisoned_by = root.faction_target
+				}
+				time_in_prison_type = {
+					years < 5
+				}
+			}
+		}
 	}
 
 	is_character_valid = { # Is the character valid to stay in the faction? This is also checked when creating it...
@@ -151,17 +144,9 @@
 
 		AND = {
 			# depends on the faction
-			scope:target.var:army_h_amount <= 10
-			has_variable = is_army_leader
+			scope:target.var:nobles_h_amount <= 10
+			has_variable = is_nobles_leader
 		}
-
-		#custom_description = {
-		#	text = not_enough_army_discontent
-		#	subject = scope:target
-		#	scope:target = {
-		#		var:army_h_amount > 10
-		#	}
-		#}
 	}
 
 	can_character_create_ui = {
@@ -171,32 +156,19 @@
 
 		AND = {
 			# depends on the faction
-			scope:target.var:army_h_amount <= 10
-			has_variable = is_army_leader
+			scope:target.var:nobles_h_amount <= 10
+			has_variable = is_nobles_leader
 		}
-
-		#custom_description = {
-		#	text = not_enough_army_discontent
-		#	subject = scope:target
-		#	scope:target = {
-		#		var:army_h_amount > 10
-		#	}
-		#}
 	}
 
 	can_character_become_leader = {
 		is_landed = yes
 
 		# depends on the faction
-		has_variable = is_army_leader
+		has_variable = is_nobles_leader
 	}
 
-	can_county_join = {
-		# Counties can only join if the De Jure belong to the title being claimed.
-		#exists = scope:faction.special_title
-		#target_is_de_jure_liege_or_above = scope:faction.special_title
-		always = no
-	}
+	can_county_join = no
 
 	character_allow_create = yes
 

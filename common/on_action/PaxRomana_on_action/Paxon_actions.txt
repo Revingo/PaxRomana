@@ -10,6 +10,9 @@ quarterly_playable_pulse = {
 		on_dynastic_find_army_leader
 		on_dynastic_find_nobles_leader
 		on_dynastic_find_citizens_leader
+		on_no_more_army_revolts
+		on_no_more_nobles_revolts
+		on_no_more_citizens_revolts
 	}
 }
 

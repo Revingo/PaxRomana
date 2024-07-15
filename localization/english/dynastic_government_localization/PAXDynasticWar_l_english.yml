@@ -1,7 +1,48 @@
 ﻿l_english:
+ # Dynastic Factions War Events
+ FACTION_DEMAND_DYN_UPRISING_HAS_STARTED_NOTIFICATION_OPT: "[faction_leader.GetNameNoTooltip]! That traitorous bastard!"
+
  FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION: "It is now the time for the Army Uprising!"
- FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support the [faction_leader.GetName] and his cause for the Military Faction of the [faction_targeted_title.GetName], then now is the time to fight and overthrow [faction_target.GetName]! [faction_leader.GetName] will be the new leader! Army, it is now the time to rise as one!"
+ FACTION_DEMAND_ARMY_UPRISING_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support the [faction_leader.GetName] and his cause for the Military Faction of the [faction_target.GetPrimaryTitle.GetName], then now is the time to fight and overthrow [faction_target.GetName]! [faction_leader.GetName] will be the new leader! Army, it is now the time to rise as one!"
 
  FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION: "The Army is raising against you!"
- FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_DESC: "To the pitiful [faction_target.GetName].\n You have ignored our demands far too long! Now it's the time to accept what we want and if you refuse, you will pay with your blood! The [faction_targeted_title.GetName] deserves a better ruler than you!"
- FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_OPT: "[faction_leader.GetNameNoTooltip]! That traitorous bastard!"
+ FACTION_DEMAND_ARMY_UPRISING_HAS_STARTED_NOTIFICATION_DESC: "To the pitiful [faction_target.GetName].\nYou have ignored our demands far too long! Now it's the time to accept what we want and if you refuse, you will pay with your blood! The [faction_target.GetPrimaryTitle.GetName] deserves a better ruler than you!"
+
+
+ FACTION_DEMAND_NOBLES_UPRISING_SEND_DEMAND_NOTIFICATION: "It is now the time for the Nobles Uprising!"
+ FACTION_DEMAND_NOBLES_UPRISING_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support the [faction_leader.GetName] and his cause for the Noble Faction of the [faction_target.GetPrimaryTitle.GetName], then now is the time to fight and overthrow [faction_target.GetName]! [faction_leader.GetName] will be the new leader! Nobles, it is now the time to rise as one!"
+
+ FACTION_DEMAND_NOBLES_UPRISING_HAS_STARTED_NOTIFICATION: "The Nobles is raising against you!"
+ FACTION_DEMAND_NOBLES_UPRISING_HAS_STARTED_NOTIFICATION_DESC: "To the pitiful [faction_target.GetName].\nYou have ignored our demands far too long! Now it's the time to accept what we want and if you refuse, you will pay with your blood! The [faction_target.GetPrimaryTitle.GetName] deserves a better ruler than you!"
+
+
+ FACTION_DEMAND_CITIZENS_UPRISING_SEND_DEMAND_NOTIFICATION: "It is now the time for the Citizens Uprising!"
+ FACTION_DEMAND_CITIZENS_UPRISING_SEND_DEMAND_NOTIFICATION_DESC: "The moment has come! All who support the [faction_leader.GetName] and his cause for the Citizen Faction of the [faction_target.GetPrimaryTitle.GetName], then now is the time to fight and overthrow [faction_target.GetName]! [faction_leader.GetName] will be the new leader! Citizens, it is now the time to rise as one!"
+
+ FACTION_DEMAND_CITIZENS_UPRISING_HAS_STARTED_NOTIFICATION: "The Citizens is raising against you!"
+ FACTION_DEMAND_CITIZENS_UPRISING_HAS_STARTED_NOTIFICATION_DESC: "To the pitiful [faction_target.GetName].\nYou have ignored our demands far too long! Now it's the time to accept what we want and if you refuse, you will pay with your blood! The [faction_target.GetPrimaryTitle.GetName] deserves a better ruler than you!"
+
+
+ # Dynastic Factions
+ army_uprising: "Army Uprising"
+ army_uprising_desc: "The Army can't accept this kind of treatment from their liege, the one they've sworn fealty to! They are the standing force of this state, they #italic need#! to be recognized, wether you like it or not."
+ nobles_uprising: "Nobles Uprising"
+ nobles_uprising_desc: "The Nobles are the monetary part of this realm and have been completely disrespected. No problems thought, they'll use all of that gold to by a standing army against you."
+ citizens_uprising: "Citizens Uprising"
+ citizens_uprising_desc: "The Citizens are the base of this pyramid of power and have been actively targeted by the upper section. What happens when the foundations of a building are removed? It crumbles."
+
+ ARMY_UPRISING_WAR_NAME: "$army_uprising$"
+ army_uprising_war_victory_desc: "The Army has won against its liege and what they have achieved will be remembered as a big revolution, with their leader has its head."
+ army_uprising_war_white_peace_desc: "The Uprising has not fully succeeded, the leader decided to not go on with the revolution against its liege, and wait for a better opportunity."
+ army_uprising_war_defeat_desc: "The revolution the Army tried to bring has been crushed and it will now forever be remembered as just a revolt. Its leaders are now imprisoned, waiting to be sentenced by the justice of [defender.GetNameNicknamedNoTooltipRegnal]."
+
+ NOBLES_UPRISING_WAR_NAME: "$nobles_uprising$"
+ nobles_uprising_war_victory_desc: "The Nobles have won against their liege and what they have achieved will be remembered as a big revolution, with their leader has its head."
+ nobles_uprising_war_white_peace_desc: "The Uprising has not fully succeeded, the leader decided to not go on with the revolution against its liege, and wait for a better opportunity."
+ nobles_uprising_war_defeat_desc: "The revolution the Nobles tried to bring has been crushed and it will now forever be remembered as just a revolt. Its leaders are now imprisoned, waiting to be sentenced by the justice of [defender.GetNameNicknamedNoTooltipRegnal]."
+
+ CITIZENS_UPRISING_WAR_NAME: "$citizens_uprising$"
+ citizens_uprising_war_victory_desc: "The Citizens have won against their liege and what they have achieved will be remembered as a big revolution, with their leader has its head."
+ citizens_uprising_war_white_peace_desc: "The Uprising has not fully succeeded, the leader decided to not go on with the revolution against its liege, and wait for a better opportunity."
+ citizens_uprising_war_defeat_desc: "The revolution the Citizens tried to bring has been crushed and it will now forever be remembered as just a revolt. Its leaders are now imprisoned, waiting to be sentenced by the justice of [defender.GetNameNicknamedNoTooltipRegnal]."
+ 

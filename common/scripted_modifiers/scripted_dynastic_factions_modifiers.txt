@@ -4,7 +4,7 @@
 	modifier = {
 		desc = "FACTION_REASON_KING"
 		add = { # High-grandeur Kings will want independence even more
-			value =	50
+			value =	1000
 			if = {
 				limit = {
 					has_royal_court = yes
@@ -26,14 +26,14 @@
 	# Lowers independence wishes from Counts.
 	modifier = {
 		desc = "FACTION_REASON_COUNT"
-		add = -25
+		add = -2000
 		highest_held_title_tier = tier_county
 	}
 
 	# Toe the Line Perk
 	modifier = {
 		desc = "FACTION_REASON_PERK_TOE_THE_LINE"
-		add = -50
+		add = -2500
 		$FACTION_TARGET$ = {
 			has_perk = toe_the_line_perk
 		}
@@ -50,14 +50,14 @@
 			}
 		}
 		add = {
-			value = 20
+			value = 1000
 			if = {
 				limit = {
 					culture = {
 						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 20 }
 					}
 				}
-				add = 20
+				add = 1000
 			}
 			if = {
 				limit = {
@@ -65,7 +65,7 @@
 						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 35 }
 					}
 				}
-				add = 15
+				add = 700
 			}
 			if = {
 				limit = {
@@ -73,7 +73,7 @@
 						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 50 }
 					}
 				}
-				add = 10
+				add = 500
 			}
 			if = {
 				limit = {
@@ -81,7 +81,7 @@
 						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 70 }
 					}
 				}
-				add = 5
+				add = 250
 			}
 			if = {
 				limit = {
@@ -89,7 +89,7 @@
 						cultural_acceptance = { target = $FACTION_TARGET$.culture value <= 80 }
 					}
 				}
-				add = 5
+				add = 250
 			}
 			if = { # The liege knowing your language cuts this penalty in half
 				limit = {
