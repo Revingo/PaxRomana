@@ -923,7 +923,10 @@ fp3_sunder_the_caliphate_decision = {
 
 	is_shown = {
 		exists = title:d_sunni.holder
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		NOR = {
 			this = title:d_sunni.holder
 			house = title:d_sunni.holder.house
@@ -1017,7 +1020,10 @@ fp3_become_clan_government_decision = {
 
 	is_shown = {
 		has_fp3_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# You are Feudal
 		government_has_flag = government_is_feudal
 		# Has a House and is not House Head

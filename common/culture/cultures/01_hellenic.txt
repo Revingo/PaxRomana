@@ -187,3 +187,90 @@ baktrian = {
 		1 = indian
 	}
 }
+
+anatolian = {
+	color = { 0.80 0.15 0.09 }
+	
+	ethos = ethos_communal
+	heritage = heritage_hellenic
+	language = language_lydian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_metal_craftsmanship
+		tradition_hill_dwellers
+		tradition_culinary_art
+	}
+	
+	name_list = name_list_trojans
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		13 = mediterranean_byzantine
+		9 = arab
+		3 = circumpolar_dark_hair
+		3 = circumpolar_brown_hair
+		1 = indian
+	}
+}
+
+cappadocian = {
+	color = { 0.80 0.89 0.09 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_hellenic
+	language = language_lydian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_hill_dwellers
+		tradition_collective_lands
+	}
+	
+	name_list = name_list_trojans
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		13 = mediterranean_byzantine
+		9 = arab
+		3 = circumpolar_dark_hair
+		3 = circumpolar_brown_hair
+		1 = indian
+	}
+}
+
+pontus = {
+	color = { 0.43 0.50 0.98 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_fishermen
+		tradition_seafaring
+	}
+	
+	name_list = name_list_trojans
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		13 = mediterranean_byzantine
+		9 = arab
+		3 = circumpolar_dark_hair
+		3 = circumpolar_brown_hair
+		1 = indian
+	}
+}

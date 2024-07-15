@@ -9,7 +9,10 @@ form_switzerland_kingdom_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_landed = yes
 		is_independent_ruler = no
 		NOT = { exists = title:k_switzerland.holder }
@@ -95,7 +98,10 @@ form_austria_kingdom_decision = {
 	ai_goal = yes
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_landed = yes
 		NOT = { exists = title:k_austria.holder }
 		NOT = {  #Can only do it once.
@@ -203,7 +209,10 @@ reform_carolingian_empire_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		faith.religion = faith:catholic.religion #Christian
 		is_ruler = yes
 		is_landed = yes
@@ -285,7 +294,10 @@ unify_burgundy_kingdom_decision = {
 	ai_goal = yes
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		culture = { has_cultural_pillar = heritage_frankish }
 		is_ruler = yes
 		is_landed = yes
@@ -374,7 +386,10 @@ empower_sicilian_parliament_decision = {
 	ai_goal = yes
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		culture = { has_cultural_pillar = heritage_latin }
 		is_ruler = yes
 		is_landed = yes
@@ -467,7 +482,10 @@ promote_gothic_innovations_decision = { #12th century Renaissance
 	ai_goal = yes
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		OR = {
 			culture = { has_cultural_pillar = heritage_latin }
 			culture = { has_cultural_pillar = heritage_frankish }
@@ -572,7 +590,10 @@ restore_holy_roman_empire_decision = {
 	selection_tooltip = restore_holy_roman_empire_decision_tooltip
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_landed = yes
 		exists = dynasty # Everyone should have a dynasty, but in case they don't...
 		NOT = { has_global_variable = flag_restored_roman_empire } # Not if Rome already exists (prevent Rome from restoring HRE)
@@ -838,7 +859,10 @@ establish_norman_culture_decision = {
 	selection_tooltip = establish_norman_culture_decision_tooltip
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		culture = culture:norse
 		any_sub_realm_county = {
 			target_is_de_jure_liege_or_above = title:d_normandy
@@ -1020,7 +1044,10 @@ establish_the_electorate_of_saxony_decision = {
 	selection_tooltip = establish_the_electorate_of_saxony_decision_tooltip
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# Temporarily disabled due to stability issues in the HRE.
 		always = no
 		# Can't form Saxony if Saxony already formed.

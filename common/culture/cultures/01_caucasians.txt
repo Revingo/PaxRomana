@@ -1,0 +1,49 @@
+pax_armenian = {
+    color = { 0.90 0.35 0.15 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_caucasian
+	language = language_armenian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hill_dwellers
+		tradition_mountaineers
+		tradition_highland_warriors
+	}
+	
+	name_list = name_list_armenian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+
+antique_kartvelian = {
+    color = { 0.23 0.43 0.95 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_caucasian
+	language = language_kartvelian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hill_dwellers
+		tradition_caucasian_wolves
+        tradition_festivities
+	}
+	
+	name_list = name_list_armenian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}

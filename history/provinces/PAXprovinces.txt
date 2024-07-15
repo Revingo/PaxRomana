@@ -2399,7 +2399,7 @@
 	religion = r_hellenic
 }
 601 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 602 = {
@@ -2671,7 +2671,7 @@
 	religion = r_hellenic
 }
 669 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 670 = {
@@ -2679,11 +2679,11 @@
 	religion = urartuism
 }
 671 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 672 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 673 = {
@@ -2691,7 +2691,7 @@
 	religion = urartuism
 }
 674 = {
-	culture = persian
+	culture = sarmatian
 	religion = urartuism
 }
 675 = {
@@ -2699,15 +2699,15 @@
 	religion = urartuism
 }
 676 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 677 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 678 = {
-	culture = greek
+	culture = pontus
 	religion = h_hellenic
 }
 679 = {
@@ -2719,11 +2719,11 @@
 	religion = urartuism
 }
 681 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 682 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 683 = {
@@ -2803,7 +2803,7 @@
 	religion = r_hellenic
 }
 702 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 703 = {
@@ -2811,19 +2811,19 @@
 	religion = mazdayasna
 }
 704 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 705 = {
-	culture = greek
+	culture = pontus
 	religion = h_hellenic
 }
 706 = {
-	culture = persian
+	culture = pontus
 	religion = mazdayasna
 }
 707 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 708 = {
@@ -2939,11 +2939,11 @@
 	religion = r_hellenic
 }
 736 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 737 = {
-	culture = persian
+	culture = cappadocian
 	religion = mazdayasna
 }
 738 = {
@@ -2951,7 +2951,7 @@
 	religion = r_hellenic
 }
 739 = {
-	culture = greek
+	culture = pontus
 	religion = h_hellenic
 }
 740 = {
@@ -2975,7 +2975,7 @@
 	religion = h_hellenic
 }
 745 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 746 = {
@@ -3007,11 +3007,11 @@
 	religion = r_hellenic
 }
 753 = {
-	culture = persian
+	culture = cappadocian
 	religion = mazdayasna
 }
 754 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 755 = {
@@ -3027,19 +3027,19 @@
 	religion = h_hellenic
 }
 758 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 759 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 760 = {
-	culture = greek
+	culture = cappadocian
 	religion = h_hellenic
 }
 761 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 762 = {
@@ -4047,7 +4047,7 @@
 	religion = r_hellenic
 }
 1013 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 1014 = {
@@ -15999,7 +15999,7 @@
 	religion = r_hellenic
 }
 4001 = {
-	culture = persian
+	culture = partian
 	religion = mazdayasna
 }
 4002 = {
@@ -16015,7 +16015,7 @@
 	religion = r_hellenic
 }
 4005 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4006 = {
@@ -16023,7 +16023,7 @@
 	religion = r_hellenic
 }
 4007 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4008 = {
@@ -16043,7 +16043,7 @@
 	religion = r_hellenic
 }
 4012 = {
-	culture = persian
+	culture = partian	
 	religion = mazdakism
 }
 4013 = {
@@ -16063,7 +16063,7 @@
 	religion = r_hellenic
 }
 4017 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4018 = {
@@ -16071,7 +16071,7 @@
 	religion = mazdakism
 }
 4019 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4020 = {
@@ -16083,7 +16083,7 @@
 	religion = mazdakism
 }
 4022 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4023 = {
@@ -16099,7 +16099,7 @@
 	religion = mazdakism
 }
 4026 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4027 = {
@@ -16111,7 +16111,7 @@
 	religion = mazdakism
 }
 4029 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4030 = {
@@ -16123,7 +16123,7 @@
 	religion = mazdakism
 }
 4032 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4033 = {
@@ -16139,7 +16139,7 @@
 	religion = mazdakism
 }
 4036 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4037 = {
@@ -16151,7 +16151,7 @@
 	religion = mazdakism
 }
 4039 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4040 = {
@@ -16171,7 +16171,7 @@
 	religion = mazdakism
 }
 4044 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4045 = {
@@ -16179,7 +16179,7 @@
 	religion = mazdakism
 }
 4046 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4047 = {
@@ -16243,7 +16243,7 @@
 	religion = mazdakism
 }
 4062 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4063 = {
@@ -16267,7 +16267,7 @@
 	religion = mazdakism
 }
 4068 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4069 = {
@@ -16431,7 +16431,7 @@
 	religion = mazdakism
 }
 4109 = {
-	culture = persian
+	culture = med
 	religion = mazdakism
 }
 4110 = {
@@ -16459,7 +16459,7 @@
 	religion = mazdakism
 }
 4116 = {
-	culture = persian
+	culture = med
 	religion = mazdakism
 }
 4117 = {
@@ -16799,7 +16799,7 @@
 	religion = r_hellenic
 }
 4201 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4202 = {
@@ -16807,11 +16807,11 @@
 	religion = r_hellenic
 }
 4203 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4204 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4205 = {
@@ -16835,7 +16835,7 @@
 	religion = mazdakism
 }
 4210 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4211 = {
@@ -16843,7 +16843,7 @@
 	religion = mazdakism
 }
 4212 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4213 = {
@@ -16855,7 +16855,7 @@
 	religion = r_hellenic
 }
 4215 = {
-	culture = persian
+	culture = partian	
 	religion = mazdakism
 }
 4216 = {
@@ -16879,7 +16879,7 @@
 	religion = r_hellenic
 }
 4221 = {
-	culture = persian
+	culture = partian
 	religion = khurmazta
 }
 4222 = {
@@ -16887,7 +16887,7 @@
 	religion = khurmazta
 }
 4223 = {
-	culture = persian
+	culture = partian
 	religion = khurmazta
 }
 4224 = {
@@ -16895,7 +16895,7 @@
 	religion = r_hellenic
 }
 4225 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4226 = {
@@ -16919,7 +16919,7 @@
 	religion = r_hellenic
 }
 4231 = {
-	culture = persian
+	culture = partian
 	religion = khurmazta
 }
 4232 = {
@@ -17127,7 +17127,7 @@
 	religion = mazdakism
 }
 4283 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4284 = {
@@ -17191,7 +17191,7 @@
 	religion = mazdakism
 }
 4299 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4300 = {
@@ -17243,7 +17243,7 @@
 	religion = r_hellenic
 }
 4312 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4313 = {
@@ -17259,7 +17259,7 @@
 	religion = r_hellenic
 }
 4316 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4317 = {
@@ -17271,7 +17271,7 @@
 	religion = r_hellenic
 }
 4319 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4320 = {
@@ -17287,7 +17287,7 @@
 	religion = r_hellenic
 }
 4323 = {
-	culture = persian
+	culture = partian
 	religion = mazdayasna
 }
 4324 = {
@@ -17295,7 +17295,7 @@
 	religion = r_hellenic
 }
 4325 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4326 = {
@@ -17323,11 +17323,11 @@
 	religion = r_hellenic
 }
 4332 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4333 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4334 = {
@@ -17367,7 +17367,7 @@
 	religion = r_hellenic
 }
 4343 = {
-	culture = persian
+	culture = baktrian
 	religion = khurmazta
 }
 4344 = {
@@ -17951,7 +17951,7 @@
 	religion = r_hellenic
 }
 4489 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4490 = {
@@ -17991,11 +17991,11 @@
 	religion = r_hellenic
 }
 4499 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4500 = {
-	culture = persian
+	culture = partian
 	religion = khurmazta
 }
 4501 = {
@@ -18023,7 +18023,7 @@
 	religion = r_hellenic
 }
 4507 = {
-	culture = persian
+	culture = partian
 	religion = mazdakism
 }
 4508 = {
@@ -18131,7 +18131,7 @@
 	religion = r_hellenic
 }
 4534 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 4535 = {
@@ -18143,7 +18143,7 @@
 	religion = r_hellenic
 }
 4537 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 4538 = {
@@ -18167,7 +18167,7 @@
 	religion = r_hellenic
 }
 4543 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 4544 = {
@@ -18175,7 +18175,7 @@
 	religion = r_hellenic
 }
 4545 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4546 = {
@@ -19063,7 +19063,7 @@
 	religion = r_hellenic
 }
 4767 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4768 = {
@@ -19079,7 +19079,7 @@
 	religion = r_hellenic
 }
 4771 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 4772 = {
@@ -19115,11 +19115,11 @@
 	religion = r_hellenic
 }
 4780 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4781 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4782 = {
@@ -19143,11 +19143,11 @@
 	religion = mazdayasna
 }
 4787 = {
-	culture = persian
+	culture = med
 	religion = mazdayasna
 }
 4788 = {
-	culture = seleucid
+	culture = hebrew
 	religion = h_hellenic
 }
 4789 = {
@@ -19183,7 +19183,7 @@
 	religion = h_hellenic
 }
 4797 = {
-	culture = seleucid
+	culture = hebrew
 	religion = h_hellenic
 }
 4798 = {
@@ -19195,7 +19195,7 @@
 	religion = r_hellenic
 }
 4800 = {
-	culture = seleucid
+	culture = hebrew
 	religion = mazdayasna
 }
 4801 = {
@@ -19255,7 +19255,7 @@
 	religion = mazdayasna
 }
 4815 = {
-	culture = seleucid
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4816 = {
@@ -19307,7 +19307,7 @@
 	religion = mazdayasna
 }
 4828 = {
-	culture = seleucid
+	culture = hebrew
 	religion = mazdayasna
 }
 4829 = {
@@ -19375,7 +19375,7 @@
 	religion = r_hellenic
 }
 4845 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4846 = {
@@ -19387,7 +19387,7 @@
 	religion = mazdayasna
 }
 4848 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4849 = {
@@ -19407,7 +19407,7 @@
 	religion = mazdayasna
 }
 4853 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4854 = {
@@ -19415,7 +19415,7 @@
 	religion = mazdayasna
 }
 4855 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4856 = {
@@ -19431,7 +19431,7 @@
 	religion = mazdayasna
 }
 4859 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4860 = {
@@ -19439,7 +19439,7 @@
 	religion = mazdayasna
 }
 4861 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4862 = {
@@ -19463,7 +19463,7 @@
 	religion = mazdayasna
 }
 4867 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4868 = {
@@ -19471,11 +19471,11 @@
 	religion = r_hellenic
 }
 4869 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4870 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4871 = {
@@ -19495,11 +19495,11 @@
 	religion = mazdayasna
 }
 4875 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4876 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4877 = {
@@ -19527,7 +19527,7 @@
 	religion = r_hellenic
 }
 4883 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4884 = {
@@ -19535,11 +19535,11 @@
 	religion = mazdayasna
 }
 4885 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4886 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4887 = {
@@ -19551,7 +19551,7 @@
 	religion = mazdayasna
 }
 4889 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 4890 = {
@@ -19567,11 +19567,11 @@
 	religion = r_hellenic
 }
 4893 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4894 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 4895 = {
@@ -19579,7 +19579,7 @@
 	religion = r_hellenic
 }
 4896 = {
-	culture = greek
+	culture = seleucid
 	religion = h_hellenic
 }
 4897 = {
@@ -22119,7 +22119,7 @@
 	religion = r_hellenic
 }
 5531 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5532 = {
@@ -22139,7 +22139,7 @@
 	religion = h_hellenic
 }
 5536 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5537 = {
@@ -22151,7 +22151,7 @@
 	religion = h_hellenic
 }
 5539 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5540 = {
@@ -22179,7 +22179,7 @@
 	religion = h_hellenic
 }
 5546 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5547 = {
@@ -22187,7 +22187,7 @@
 	religion = h_hellenic
 }
 5548 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5549 = {
@@ -22239,7 +22239,7 @@
 	religion = r_hellenic
 }
 5561 = {
-	culture = persian
+	culture = greek
 	religion = mazdayasna
 }
 5562 = {
@@ -22291,7 +22291,7 @@
 	religion = r_hellenic
 }
 5574 = {
-	culture = persian
+	culture = cappadocian
 	religion = mazdayasna
 }
 5575 = {
@@ -22319,7 +22319,7 @@
 	religion = r_hellenic
 }
 5581 = {
-	culture = greek
+	culture = pontus
 	religion = h_hellenic
 }
 5582 = {
@@ -22331,7 +22331,7 @@
 	religion = r_hellenic
 }
 5584 = {
-	culture = persian
+	culture = pontus
 	religion = mazdayasna
 }
 5585 = {
@@ -22355,7 +22355,7 @@
 	religion = r_hellenic
 }
 5590 = {
-	culture = greek
+	culture = pontus
 	religion = h_hellenic
 }
 5591 = {
@@ -22371,7 +22371,7 @@
 	religion = r_hellenic
 }
 5594 = {
-	culture = persian
+	culture = pontus
 	religion = mazdayasna
 }
 5595 = {
@@ -22387,7 +22387,7 @@
 	religion = r_hellenic
 }
 5598 = {
-	culture = persian
+	culture = pontus
 	religion = mazdayasna
 }
 5599 = {
@@ -22403,7 +22403,7 @@
 	religion = r_hellenic
 }
 5602 = {
-	culture = persian
+	culture = pontus
 	religion = mazdayasna
 }
 5603 = {
@@ -22411,7 +22411,7 @@
 	religion = mazdayasna
 }
 5604 = {
-	culture = persian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 5605 = {
@@ -22463,7 +22463,7 @@
 	religion = r_hellenic
 }
 5617 = {
-	culture = persian
+	culture = cappadocian
 	religion = mazdayasna
 }
 5618 = {
@@ -22487,7 +22487,7 @@
 	religion = r_hellenic
 }
 5623 = {
-	culture = persian
+	culture = cappadocian
 	religion = mazdayasna
 }
 5624 = {
@@ -22523,7 +22523,7 @@
 	religion = r_hellenic
 }
 5632 = {
-	culture = persian
+	culture = cappadocian
 	religion = mazdayasna
 }
 5633 = {
@@ -22543,7 +22543,7 @@
 	religion = r_hellenic
 }
 5637 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5638 = {
@@ -22563,7 +22563,7 @@
 	religion = h_hellenic
 }
 5642 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5643 = {
@@ -22583,7 +22583,7 @@
 	religion = h_hellenic
 }
 5647 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5648 = {
@@ -22599,7 +22599,7 @@
 	religion = r_hellenic
 }
 5651 = {
-	culture = persian
+	culture = anatolian
 	religion = mazdayasna
 }
 5652 = {
@@ -22611,7 +22611,7 @@
 	religion = mazdayasna
 }
 5654 = {
-	culture = persian
+	culture = anatolian
 	religion = mazdayasna
 }
 5655 = {
@@ -22623,7 +22623,7 @@
 	religion = mazdayasna
 }
 5657 = {
-	culture = persian
+	culture = anatolian
 	religion = mazdayasna
 }
 5658 = {
@@ -22651,7 +22651,7 @@
 	religion = r_hellenic
 }
 5664 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5665 = {
@@ -22683,7 +22683,7 @@
 	religion = h_hellenic
 }
 5672 = {
-	culture = greek
+	culture = anatolian
 	religion = h_hellenic
 }
 5673 = {
@@ -22779,7 +22779,7 @@
 	religion = r_hellenic
 }
 5696 = {
-	culture = greek
+	culture = pax_armenian
 	religion = h_hellenic
 }
 5697 = {
@@ -22807,7 +22807,7 @@
 	religion = r_hellenic
 }
 5703 = {
-	culture = persian
+	culture = pontus
 	religion = mazdayasna
 }
 5704 = {
@@ -22855,11 +22855,11 @@
 	religion = r_hellenic
 }
 5715 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 5716 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 5717 = {
@@ -22919,7 +22919,7 @@
 	religion = r_hellenic
 }
 5731 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 5732 = {
@@ -22931,7 +22931,7 @@
 	religion = r_hellenic
 }
 5734 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 5735 = {
@@ -22943,7 +22943,7 @@
 	religion = urartuism
 }
 5737 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 5738 = {
@@ -22955,7 +22955,7 @@
 	religion = urartuism
 }
 5740 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5741 = {
@@ -22967,7 +22967,7 @@
 	religion = r_hellenic
 }
 5743 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5744 = {
@@ -22979,7 +22979,7 @@
 	religion = r_hellenic
 }
 5746 = {
-	culture = sarmatian
+	culture = antique_kartvelian
 	religion = scythian
 }
 5747 = {
@@ -23003,7 +23003,7 @@
 	religion = r_hellenic
 }
 5752 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5753 = {
@@ -23031,7 +23031,7 @@
 	religion = r_hellenic
 }
 5759 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5760 = {
@@ -23067,7 +23067,7 @@
 	religion = r_hellenic
 }
 5768 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5769 = {
@@ -23079,7 +23079,7 @@
 	religion = r_hellenic
 }
 5771 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5772 = {
@@ -23103,7 +23103,7 @@
 	religion = r_hellenic
 }
 5777 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5778 = {
@@ -23127,7 +23127,7 @@
 	religion = r_hellenic
 }
 5783 = {
-	culture = persian
+	culture = pax_armenian
 	religion = urartuism
 }
 5784 = {
@@ -23155,7 +23155,7 @@
 	religion = r_hellenic
 }
 5790 = {
-	culture = persian
+	culture = antique_kartvelian
 	religion = urartuism
 }
 5791 = {
@@ -23595,7 +23595,7 @@
 	religion = r_hellenic
 }
 5900 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5901 = {
@@ -23615,7 +23615,7 @@
 	religion = r_hellenic
 }
 5905 = {
-	culture = greek
+	culture = seleucid
 	religion = h_hellenic
 }
 5906 = {
@@ -23691,7 +23691,7 @@
 	religion = r_hellenic
 }
 5924 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5925 = {
@@ -23699,7 +23699,7 @@
 	religion = mazdayasna
 }
 5926 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5927 = {
@@ -23711,11 +23711,11 @@
 	religion = r_hellenic
 }
 5929 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5930 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5931 = {
@@ -23727,11 +23727,11 @@
 	religion = mazdayasna
 }
 5933 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5934 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5935 = {
@@ -23755,7 +23755,7 @@
 	religion = mazdayasna
 }
 5940 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5941 = {
@@ -23763,7 +23763,7 @@
 	religion = mazdayasna
 }
 5942 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5943 = {
@@ -23775,7 +23775,7 @@
 	religion = r_hellenic
 }
 5945 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5946 = {
@@ -23787,7 +23787,7 @@
 	religion = mazdayasna
 }
 5948 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5949 = {
@@ -23795,11 +23795,11 @@
 	religion = mazdayasna
 }
 5950 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5951 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5952 = {
@@ -23815,7 +23815,7 @@
 	religion = r_hellenic
 }
 5955 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5956 = {
@@ -23827,11 +23827,11 @@
 	religion = mazdayasna
 }
 5958 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5959 = {
-	culture = phoenecian
+	culture = hebrew
 	religion = rabbinism
 }
 5960 = {
@@ -23843,7 +23843,7 @@
 	religion = rabbinism
 }
 5962 = {
-	culture = phoenecian
+	culture = hebrew
 	religion = rabbinism
 }
 5963 = {
@@ -23919,7 +23919,7 @@
 	religion = beduinism
 }
 5981 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5982 = {
@@ -23931,7 +23931,7 @@
 	religion = mazdayasna
 }
 5984 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5985 = {
@@ -23947,11 +23947,11 @@
 	religion = mazdayasna
 }
 5988 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5989 = {
-	culture = persian
+	culture = seleucid
 	religion = mazdayasna
 }
 5990 = {
