@@ -1,0 +1,53 @@
+ugrisch = {
+	color = { 0.9 0.7 0.3 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_siberia
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_winter_warriors
+		tradition_forest_folk
+		tradition_forest_fighters
+	}
+	
+	name_list = name_list_finnish
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}
+
+kasogisch = {
+	color = { 0.2 0.7 0.6 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_siberia
+	language = language_finnic
+	martial_custom = martial_custom_female_only
+	traditions = {
+		tradition_female_only_inheritance
+		tradition_zealous_people
+        tradition_mendicant_mystics
+	}
+	
+	name_list = name_list_finnish
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}
