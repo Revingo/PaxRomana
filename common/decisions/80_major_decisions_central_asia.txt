@@ -17,7 +17,10 @@ become_greatest_of_khans_decision = {
 	ai_check_interval = 0
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		highest_held_title_tier >= tier_duchy
 		is_landed = yes
 		culture = { has_cultural_pillar = heritage_mongolic }
@@ -112,7 +115,10 @@ establish_bactrian_supremacy_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		highest_held_title_tier >= tier_county
 		culture = {
 			OR = {
@@ -206,7 +212,10 @@ establish_yamagate_in_samarkand_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_ruler = yes
 		is_landed = yes
 		faith = faith:manichean
@@ -335,7 +344,10 @@ break_with_the_old_ways_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_ruler = yes
 		is_landed = yes
 		faith = faith:kabarism

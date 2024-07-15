@@ -18,7 +18,10 @@ become_chakravarti_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		OR = {
 			religion = religion:hinduism_religion
 			religion = religion:buddhism_religion
@@ -131,7 +134,10 @@ take_stewardship_of_the_sacred_river_decision = {
 	desc = take_stewardship_of_the_sacred_river_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		religion = religion:hinduism_religion
 		highest_held_title_tier >= tier_duchy
 		NOT = { has_character_modifier = ruler_of_the_ganges_modifier }
@@ -245,7 +251,10 @@ form_bene_israel_decision = {
 	ai_check_interval = 120
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_ruler = yes
 		is_landed = yes
 		faith = faith:malabarism
@@ -341,7 +350,10 @@ spread_theravada_faith_decision = {
 	cooldown = { days = 365 }
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		highest_held_title_tier >= tier_kingdom
 		faith = faith:theravada
 

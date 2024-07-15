@@ -1,0 +1,33 @@
+north_germans = {
+	color = { 0.49 0.50 0.91 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_north_germanic
+	language = language_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+		tradition_winter_warriors
+		tradition_runestones
+	}
+	dlc_tradition = {
+		trait = tradition_fp1_coastal_warriors
+		requires_dlc_flag = the_northern_lords
+		fallback = tradition_hird
+	}
+	
+	name_list = name_list_visigothic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}

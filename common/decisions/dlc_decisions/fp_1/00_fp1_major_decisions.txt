@@ -26,7 +26,10 @@ secure_high_kingdom_north_sea_decision = {
 	is_shown = {
 		#DLC check.
 		has_fp1_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		#Standard filter checks.
 		is_landed = yes
 		exists = dynasty

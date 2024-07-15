@@ -8,7 +8,10 @@ reclaim_britannia_decision = {
 	desc = reclaim_britannia_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		OR = {
 			culture = { has_cultural_pillar = heritage_goidelic }
 			culture = { has_cultural_pillar = heritage_brythonic }
@@ -108,7 +111,10 @@ embrace_english_culture_decision = {
 	desc = embrace_english_culture_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_landed = yes
 		culture = { has_cultural_pillar = heritage_frankish }
 		OR = {	
@@ -180,7 +186,10 @@ england_request_laudabiliter_decision = {
 	ai_goal = yes
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_ruler = yes
 		is_landed = yes
 		root.faith = faith:catholic
@@ -299,7 +308,10 @@ negotiate_the_danelaw_decision = {
 	desc = negotiate_the_danelaw_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# Standard filter checks.
 		negotiate_the_danelaw_basic_filter_trigger = yes
 		# Must be in the vague region.
@@ -390,7 +402,10 @@ negotiate_the_danelaw_integrate_duchies_decision = {
 	desc = negotiate_the_danelaw_integrate_duchies_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# First off, k_england must currently be partitioned.
 		exists = global_var:partition_active_danelaw
 		# Then, you must be the holder of either k_england or k_danelaw.
@@ -597,7 +612,10 @@ formalise_the_daneland_decision = {
 	desc = formalise_the_daneland_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# Has k_danelaw.
 		any_held_title = { this = title:k_danelaw }
 		NOT = {
@@ -682,7 +700,10 @@ restore_dumnonia_decision = {
 	selection_tooltip = restore_dumnonia_decision_tooltip
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_ruler = yes
 		is_landed = yes
 		exists = dynasty # Everyone should have a dynasty, but in case they don't...

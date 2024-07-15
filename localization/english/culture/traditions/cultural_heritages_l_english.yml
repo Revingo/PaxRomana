@@ -28,6 +28,8 @@
  heritage_german_collective_noun: "Germans"
  heritage_east_german_name: "East Germanic"
  heritage_east_german_collective_noun: "East Germans"
+ heritage_south_german_name: "South Germanic"
+ heritage_south_german_collective_noun: "South Germans"
  heritage_slavic_name: "Slavic"
  heritage_slavic_collective_noun: "Slavs"
  heritage_indian_name: "Indian"
@@ -44,6 +46,10 @@
  heritage_italic_insular_collective_noun: "Italian Insulars"
  heritage_scythian_name: "Scythian"
  heritage_scythian_collective_noun: "Scythians"
+ heritage_siberia_name: "Siberia"
+ heritage_siberia_collective_noun: "Siberians"
+ heritage_caucasian_name: "Caucasian"
+ heritage_caucasian_collective_noun: "Caucasian"
 
 #Vanilla Heritages
  heritage_generic_label_desc:0 "Each [heritage|E] defines a common origin for related [cultures|E]' customs and mannerisms, either as something they descend from or have wholesale adopted."

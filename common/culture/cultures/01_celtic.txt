@@ -120,7 +120,6 @@ gallic_belgica = {
 	language = language_celtic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_metal_craftsmanship
 		tradition_tribe_unity
 		tradition_castle_keepers
 		tradition_stand_and_fight
@@ -307,5 +306,63 @@ gallaecian = {
 		10 = caucasian_dark_hair
 		5 = caucasian_blond
 		7 = mediterranean
+	}
+}
+
+south_germans = {
+	color = { 0.32 0.90 0.30 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_collective_lands 
+		tradition_agrarian
+		tradition_castle_keepers
+		tradition_quarrelsome
+		tradition_strength_in_numbers
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+boier = {
+	color = { 0.80 0.50 0.27 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_sorcerous_metallurgy
+		tradition_warrior_culture
+		tradition_warrior_monks
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
 	}
 }

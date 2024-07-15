@@ -1771,3 +1771,93 @@ language_venetisch = {
 	
 	color = bedouin
 }
+
+language_thracian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_thracian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_thracian }
+			multiply = 10
+		}
+	}
+	
+	color = greek
+}
+
+language_elamitisch = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_elamitisch
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_elamitisch }
+			multiply = 10
+		}
+	}
+	
+	color = french
+}
+
+language_lydian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lydian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lydian }
+			multiply = 10
+		}
+	}
+	
+	color = english
+}
+
+language_kartvelian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kartvelian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kartvelian }
+			multiply = 10
+		}
+	}
+	
+	color = occitan
+}
+
+language_parthian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_parthian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_parthian }
+			multiply = 10
+		}
+	}
+	
+	color = occitan
+}

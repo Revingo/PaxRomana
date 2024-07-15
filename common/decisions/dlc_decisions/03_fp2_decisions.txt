@@ -18,7 +18,10 @@ struggle_iberia_ending_hostility_decision = {
 
 	is_shown = {
 		has_fp2_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 	}
 
 	is_valid = {
@@ -223,7 +226,10 @@ struggle_iberia_ending_compromise_decision = {
 
 	is_shown = {
 		has_fp2_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 	}
 
 	is_valid = {
@@ -419,7 +425,10 @@ struggle_iberia_ending_conciliation_decision = {
 
 	is_shown = {
 		has_fp2_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 	}
 
 	is_valid = {
@@ -534,7 +543,10 @@ secure_mediterranean_decision = {
 
 	is_shown = {
 		# DLC check
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		has_fp2_dlc_trigger = yes
 		# Standard checks
 		is_landed = yes
@@ -679,7 +691,10 @@ eat_cheese_decision = {
 	desc = eat_cheese_decision_desc
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		any_character_artifact = {
 			has_variable = has_cheese_artifact
 		}
@@ -715,7 +730,10 @@ golden_age_jewish_science_in_iberia_decision = {
 	is_shown = {
 		has_fp2_dlc_trigger = yes
 		top_liege = root
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		is_independent_ruler = yes # (Redundancy check)
 		AND = {
 			exists = struggle:iberian_struggle
@@ -894,7 +912,10 @@ council_of_toledo_decision = {
 	sort_order = 80
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# DLC check
 		has_fp2_dlc_trigger = yes
 		# Is Mozarabic (or reformed Mozarabic)
@@ -992,7 +1013,10 @@ secure_iberian_foothold_decision = {
 
 	is_shown = {
 		# DLC check
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		has_fp2_dlc_trigger = yes
 		# Struggle is active
 		exists = struggle:iberian_struggle
@@ -1157,7 +1181,10 @@ build_holy_pilgrim_roads_decision = {
 	sort_order = 300 # Note: in [ROOT.Char.GetFaith.GetAdherentNameNoTooltip|L] and [ROOT.Char.GetFaith.GetAdherentNamePluralNoTooltip|L] both [NoTooltip] and [L] are ignored
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		faith = {
 			any_holy_site = {
 				holder.top_liege = root
@@ -1309,7 +1336,10 @@ found_kingdom_toledo_decision = {
 	major = yes
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		# DLC check
 		has_fp2_dlc_trigger = yes
   		culture = { has_cultural_pillar = heritage_iberian }
