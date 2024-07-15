@@ -40,6 +40,15 @@
  baktrian: "Baktrian"
  baktrian_prefix: "Baktrian"
  baktrian_collective_noun: "Baktrians"
+ anatolian: "Anatolian"
+ anatolian_prefix: "Anatloian"
+ anatolian_collective_noun: "Anatolians"
+ pontus: "Pontus"
+ pontus_prefix: "Pontus"
+ pontus_collective_noun: "Pontier"
+ cappadocian: "Cappadocian"
+ cappadocian_prefix: "Cappadocian"
+ cappadocian_collective_noun: "Cappadocier"
  
  #african
  nubian: "Nubian"
@@ -131,6 +140,14 @@
  zarubintsy: "Zarubintsy"
  zarubintsy_prefix: "Zarubintsy"
  zarubintsy_collective_noun: "Zarubintsys"
+
+ #Caucasian
+ pax_armenian: "Armenian"
+ pax_armenian_prefix: "Armenian"
+ pax_armenian_collective_noun: "Armenians"
+ antique_kartvelian: "Antique Kartvelian"
+ antique_kartvelian_prefix: "Antique Kartvelian"
+ antique_kartvelian_collective_noun: "Kartvelians"
  
  #slavic
  slavic: "Slavic"
@@ -147,6 +164,15 @@
  persian: "Persian"
  persian_prefix: "Persian"
  persian_collective_noun: "Persians"
+ med: "Med"
+ med_prefix: "Med"
+ med_collective_noun: "Meds"
+ partian: "Parthian"
+ partian_prefix: "Parthian"
+ partian_collective_noun: "Parther"
+ elamitisch: "Parthian"
+ elamitisch_prefix: "Parthian"
+ elamitisch_collective_noun: "Parther"
  arab: "Arab"
  arab_prefix: "Arabian"
  arab_collective_noun: "Arabs"
@@ -179,9 +205,9 @@
  corsican_collective_noun: "Corsicans"
 
  #Siberia
- ugrisch: "Ugrisch"
- ugrisch_prefix: "Ugrisch"
+ ugrisch: "Ugrish"
+ ugrisch_prefix: "Ugrish"
  ugrisch_collective_noun: "Ugria"
- kasogier: "Kasogisch"
- kasogier_prefix: "Kasogisch"
+ kasogier: "Kasogish"
+ kasogier_prefix: "Kasogish"
  kasogier_collective_noun: "Kasogier"

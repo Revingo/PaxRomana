@@ -157,7 +157,10 @@ appoint_a_righteous_caliph_decision = { # Appoint a righteous caliph
 	is_shown = {
 		# Standard filter checks.
 		is_landed = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		exists = dynasty
 		# Check some religious stuff; namely that you're the correct religion and your existing-HoF doesn't share your faith.
 		religion = religion:islam_religion
@@ -572,7 +575,10 @@ select_personal_deity_hinduism_decision = {
 	selection_tooltip = select_personal_deity_hinduism_decision_tooltip
 
 	is_shown = {
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		religion = religion:hinduism_religion
 		faith = {
 			has_doctrine_parameter = select_personal_god_active
