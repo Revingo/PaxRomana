@@ -1,4 +1,4 @@
 revolting_faction = {
 	opinion = -50
-	months = 6
+	years = 10
 }
