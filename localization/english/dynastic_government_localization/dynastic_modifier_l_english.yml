@@ -11,3 +11,5 @@
  herthquake_not_helped_desc: "This settlement faced an Earthquake and the people weren't helped"
  herthquake_helped: "Citizens Helped Against the Earthquake"
  herthquake_helped_desc: "This settlement faced an Earthquake but the people have been helped"
+ revolting_faction: "Revolting Faction"
+ revolting_faction_desc: "This character was the leader of a faction when it decided to go against your oppression."
