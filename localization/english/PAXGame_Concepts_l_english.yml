@@ -7,6 +7,10 @@
  game_concept_league: "League"
  game_concept_leagues: "Leagues"
  game_concept_league_desc: "Leagues are an assembly of [city-states|E], they have a leader who is the one that gets to decide who enters and who leaves. Every member is allied between each other for mutual protection and monetary gains."
+
+ game_concept_dynastic: "Dynastic"
+ game_concept_dynastic_government: "Dynastic Government"
+ game_concept_dynastic_desc: "Dynastic governments are a type of governments de-facto ruled by one Dynasty, but with multiple factions inside it which play a big role in the power share."
  
  game_concept_auctoritas: "Auctoritas"
  game_concept_auctoritas_desc: "Auctoritas determines the amount of Authority you have in your state. It is a weighted average of your [gold|E], [army|E] and mostly your [prestige|E].\n\n#F Having a negative amount of Auctoritas, may lead to very bad consequences."
@@ -27,7 +31,7 @@
 
  #Replace
  game_concept_tribal_desc:0 "Tribes have stunted county [development|E], cannot advance past Tribal Era [innovations|E], cannot hold a [title|E] [title_tier|E] higher then [duchy|e] [title_tier|E], cannot construct new [holdings|E], and can only have partition [succession_law|E].\n\nHowever, they can make use of [prestige|E] rather than [gold|E] to build their realms and hire [men_at_arms|E], and have access to more [casus_belli|E] compared to other [governments|E]. Non-Tribal armies suffer a [supply_limit|E] penalty in hostile Tribal territory."
- game_concept_government_desc:2 "A [ruler|E]'s $game_concept_government_form$ determines what kind of [laws|E] they have access to as well as what [obligations|E] they have to their [liege|E] if they are not [independent|E].\n\nThe Government forms are: [city-state|E], [tribal|E], Res Publica, and Dynastic."
+ game_concept_government_desc:2 "A [ruler|E]'s $game_concept_government_form$ determines what kind of [laws|E] they have access to as well as what [obligations|E] they have to their [liege|E] if they are not [independent|E].\n\nThe Government forms are: [city-state|E], [tribal|E], Res Publica, and [dynastic|E]."
  game_concept_light_cavalry:0 "Cavalry"
  game_concept_light_cavalry_desc:0 "Cavalry are mounted [men_at_arms|E] who excel at scouting and pursuing the enemy.\n\nWhile each kind of Cavalry is unique, they generally [counter|E] [archers|E], and are in turn Countered by [spearmen|E].\n\nCavalry are also often strong on flat [terrain|E].\n\nIn comparison with [heavy_cavalry|E], they are usually better at [pursuit|E] and [screen|E]."
  game_concept_spearmen_desc:0 "Spearmen are [men_at_arms|E] who fight on foot with various polearms, like Dories and Lankias.\n\nWhile each kind of Spearman is unique, they generally [counter|E] [light_cavalry|E] and also [heavy_cavalry|E], and are in turn Countered by [heavy_infantry|E] and [swordsmen|E].\n\nSpearmen are also often strong on hilly and mountainous [terrain|E]."
