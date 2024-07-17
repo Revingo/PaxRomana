@@ -152,7 +152,7 @@
 		}
 		can_pass = {
 			custom_description = {
-				text = GOVERNMENT_auctoritas_1500
+				text = auctoritas_1500_tooltip 
 				auctoritas_value > 1500
 			}
 			prestige > 1200
@@ -176,7 +176,7 @@
 			eligible_child_except_player_heir_opinion = -5
 		}
 		pass_cost = {
-			prestige = 500
+			prestige = 1200
 			gold = 300
 		}
 		revoke_cost = {
@@ -205,7 +205,7 @@
 		}
 		can_pass = {
 			custom_description = {
-				text = GOVERNMENT_auctoritas_1500
+				text = auctoritas_1500_tooltip 
 				auctoritas_value > 1500
 			}
 			prestige > 1200
@@ -230,7 +230,7 @@
 			eligible_child_except_player_heir_opinion = -5
 		}
 		pass_cost = {
-			prestige = 500
+			prestige = 1200
 			gold = 300
 		}
 		revoke_cost = {
@@ -255,7 +255,7 @@
 	}
 	can_pass = {
 		custom_description = {
-			text = GOVERNMENT_auctoritas_1500
+			text = auctoritas_1500_tooltip 
 			auctoritas_value > 1500
 		}
 		prestige > 1200
@@ -279,7 +279,7 @@
 			dynasty_house_opinion = 5
 		}
 		pass_cost = {
-			prestige = 500
+			prestige = 1200
 			gold = 300
 		}
 		revoke_cost = {
