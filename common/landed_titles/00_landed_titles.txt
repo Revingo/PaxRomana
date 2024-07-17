@@ -29823,11 +29823,11 @@ e_eastern_sarmatae = {
 			custom_description = {
 			text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 		d_aorsia = {
 			color = { 82 239 44 }
