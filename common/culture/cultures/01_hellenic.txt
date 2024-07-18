@@ -199,6 +199,7 @@ anatolian = {
 		tradition_metal_craftsmanship
 		tradition_hill_dwellers
 		tradition_culinary_art
+		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_trojans
@@ -257,6 +258,7 @@ pontus = {
 		tradition_maritime_mercantilism
 		tradition_fishermen
 		tradition_seafaring
+		tradition_philosopher_culture
 	}
 	
 	name_list = name_list_trojans
