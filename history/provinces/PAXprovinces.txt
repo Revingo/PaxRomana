@@ -5183,7 +5183,7 @@
 	religion = r_hellenic
 }
 1297 = {
-	culture = mauryan
+	culture = meder
 	religion = mazdakism
 }
 1298 = {
@@ -5207,7 +5207,7 @@
 	religion = r_hellenic
 }
 1303 = {
-	culture = mauryan
+	culture = meder
 	religion = mazdakism
 }
 1304 = {
@@ -16735,7 +16735,7 @@
 	religion = slavic_pagan
 }
 4185 = {
-	culture = persian
+	culture = meder
 	religion = mazdakism
 }
 4186 = {
@@ -17055,7 +17055,7 @@
 	religion = r_hellenic
 }
 4265 = {
-	culture = persian
+	culture = meder
 	religion = mazdakism
 }
 4266 = {
@@ -17067,7 +17067,7 @@
 	religion = mazdakism
 }
 4268 = {
-	culture = persian
+	culture = meder
 	religion = mazdakism
 }
 4269 = {
@@ -17127,7 +17127,7 @@
 	religion = mazdakism
 }
 4283 = {
-	culture = partian
+	culture = persian
 	religion = mazdakism
 }
 4284 = {
@@ -17135,7 +17135,7 @@
 	religion = mazdakism
 }
 4285 = {
-	culture = persian
+	culture = meder
 	religion = mazdakism
 }
 4286 = {
@@ -17191,7 +17191,7 @@
 	religion = mazdakism
 }
 4299 = {
-	culture = partian
+	culture = persian
 	religion = mazdakism
 }
 4300 = {
@@ -17879,7 +17879,7 @@
 	religion = r_hellenic
 }
 4471 = {
-	culture = persian
+	culture = meder
 	religion = mazdakism
 }
 4472 = {
@@ -17903,7 +17903,7 @@
 	religion = r_hellenic
 }
 4477 = {
-	culture = mauryan
+	culture = meder
 	religion = mazdakism
 }
 4478 = {
@@ -19183,7 +19183,7 @@
 	religion = h_hellenic
 }
 4797 = {
-	culture = hebrew
+	culture = seleucid
 	religion = h_hellenic
 }
 4798 = {
@@ -19307,7 +19307,7 @@
 	religion = mazdayasna
 }
 4828 = {
-	culture = hebrew
+	culture = seleucid
 	religion = mazdayasna
 }
 4829 = {

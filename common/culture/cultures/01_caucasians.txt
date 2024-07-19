@@ -33,7 +33,7 @@ antique_kartvelian = {
 	traditions = {
 		tradition_hill_dwellers
 		tradition_caucasian_wolves
-        tradition_festivities
+        tradition_fishermen
 	}
 	
 	name_list = name_list_armenian
