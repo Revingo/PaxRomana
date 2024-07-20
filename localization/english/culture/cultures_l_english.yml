@@ -145,9 +145,9 @@
  pax_armenian: "Armenian"
  pax_armenian_prefix: "Armenian"
  pax_armenian_collective_noun: "Armenians"
- antique_kartvelian: "Antique Kartvelian"
- antique_kartvelian_prefix: "Antique Kartvelian"
- antique_kartvelian_collective_noun: "Kartvelians"
+ antique_kartvelian: "Caucasian Albanian"
+ antique_kartvelian_prefix: "Caucasian Albanian"
+ antique_kartvelian_collective_noun: "Caucasian Albanians"
  
  #slavic
  slavic: "Slavic"
