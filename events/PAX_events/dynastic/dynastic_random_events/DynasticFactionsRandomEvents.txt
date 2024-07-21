@@ -1,0 +1,400 @@
+﻿namespace = DynasticFactionsRandomEvents
+DynasticFactionsRandomEvents.0001 = {
+	type = character_event
+	title = "The Hearthquake"
+	desc = ade.d.1
+	right_portrait = {
+		character = ROOT
+		animation = stress
+	}
+	theme = death 
+	override_background = garden
+	trigger = {
+		has_government = dynastic_government
+		is_ruler = yes
+		has_variable = army_leader
+		has_variable = citizens_leader
+	}
+	immediate = {
+		ROOT = {
+			random_realm_county = {
+				save_scope_as = r_province
+			}
+		}
+	}
+	option = {
+		name = ade.o.1
+		custom_tooltip = "ade.ct.1"
+		change_variable = {
+			name = army_h_amount
+			add = -10
+		}
+		clamp_variable = {
+			name = army_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_a_h_amount
+			value = var:army_h_amount
+		}
+		if = {
+			limit = { local_var:tmp_a_h_amount <= 10 }
+
+			army_revolting_effect = yes
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_a_h_amount > 10 
+					has_character_modifier = army_revolt_character
+				}
+			}
+
+			remove_character_modifier = army_revolt_character
+			NOT_army_revolting_effect = yes
+		}
+		scope:r_province = {
+			add_county_modifier = {
+				modifier = herthquake_helped
+				months = 15
+			}
+		}
+
+		stress_impact = {
+			base = 0
+			just = minor_stress_impact_loss
+			cynical = medium_stress_impact_gain
+		}
+	}
+	option = {
+		name = ade.o.2
+		custom_tooltip = ade.ct.2
+
+		change_variable = {
+			name = citizens_h_amount
+			add = -15
+		}
+		clamp_variable = {
+			name = citizens_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_c_h_amount
+			value = var:citizens_h_amount
+		}
+		if = {
+			limit = { local_var:tmp_c_h_amount <= 10 }
+
+			citizens_revolting_effect = yes
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_c_h_amount > 10 
+					has_character_modifier = citizens_revolt_character
+				}
+			}
+
+			remove_character_modifier = citizens_revolt_character
+			NOT_citizens_revolting_effect = yes
+		}
+		scope:r_province = {
+			add_county_modifier = {
+				modifier = herthquake_not_helped
+				months = 15
+			}
+		}
+
+		stress_impact = {
+			base = 0
+			humble = minor_stress_impact_gain
+			just = medium_stress_impact_gain
+			arbitrary = minor_stress_impact_loss
+		}
+	}
+	option = {
+		name = ade.o.3
+		custom_tooltip = ade.ct.3
+		trigger = {
+			auctoritas_value > 900
+			gold > 50
+		}
+		remove_long_term_gold = 50
+		change_variable = {
+			name = citizens_h_amount
+			add = 10
+		}
+		clamp_variable = {
+			name = citizens_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_c_h_amount
+			value = var:citizens_h_amount
+		}
+		if = {
+			limit = {
+				AND = {
+					local_var:tmp_c_h_amount > 10
+					has_character_modifier = citizens_revolt_character
+				}
+			}
+
+			remove_character_modifier = citizens_revolt_character
+			NOT_citizens_revolting_effect = yes
+		}
+		scope:r_province = {
+			add_county_modifier = {
+				modifier = herthquake_helped
+				months = 15
+			}
+		}
+
+		stress_impact = {
+			base = 0
+			just = minor_stress_impact_loss
+			generous = medium_stress_impact_loss
+			greedy = medium_stress_impact_gain
+		}
+	}
+}
+
+DynasticFactionsRandomEvents.0002 = {
+	type = character_event
+	title = "The Banquet"
+	desc = dfre.d.2
+	immediate = {
+		ROOT = {
+			var:nobles_leader = {
+				save_scope_as = n_leader
+			}
+		}
+	}
+	right_portrait = {
+		character = ROOT
+		animation = stress
+	}
+	left_portrait = {
+		character = scope:n_leader
+		animation = dismissal 
+	}
+	theme = realm
+	trigger = {
+		has_government = dynastic_government
+		is_ruler = yes
+		monthly_character_balance > 0
+		var:nobles_h_amount > 35
+		has_variable = nobles_leader
+		has_variable = citizens_leader
+	}
+	option = {
+		name = dfre.o.4
+		custom_tooltip = dfre.ct.4
+		change_variable = {
+			name = nobles_h_amount
+			add = -10
+		}
+		clamp_variable = {
+			name = nobles_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_n_h_amount
+			value = var:nobles_h_amount
+		}
+		if = {
+			limit = { local_var:tmp_n_h_amount <= 10 }
+
+			nobles_revolting_effect = yes
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_n_h_amount > 10 
+					has_character_modifier = nobles_revolt_character
+				}
+			}
+
+			remove_character_modifier = nobles_revolt_character
+			NOT_nobles_revolting_effect = yes
+		}
+
+		stress_impact = {
+			base = 0
+			just = minor_stress_impact_loss
+			generous = medium_stress_impact_loss
+			cynical = medium_stress_impact_gain
+		}
+	}
+	option = {
+		name = dfre.o.5
+		custom_tooltip = dfre.ct.5
+
+		change_variable = {
+			name = citizens_h_amount
+			add = -10
+		}
+		clamp_variable = {
+			name = citizens_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_c_h_amount
+			value = var:citizens_h_amount
+		}
+		if = {
+			limit = { local_var:tmp_c_h_amount <= 10 }
+
+			citizens_revolting_effect = yes
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_c_h_amount > 10 
+					has_character_modifier = citizens_revolt_character
+				}
+			}
+
+			remove_character_modifier = citizens_revolt_character
+			NOT_citizens_revolting_effect = yes
+		}
+
+		stress_impact = {
+			base = 0
+			just = minor_stress_impact_gain
+			generous = medium_stress_impact_gain
+			cynical = medium_stress_impact_loss
+		}
+	}
+}
+
+DynasticFactionsRandomEvents.0003 = {
+	type = character_event
+	title = "Army and Mercenaries"
+	desc = dfre.d.3
+	right_portrait = {
+		character = ROOT
+		animation = stress
+	}
+	theme = realm
+	override_background = garden
+	trigger = {
+		has_government = dynastic_government
+		is_ruler = yes
+		var:army_h_amount > 35
+		has_variable = army_leader
+		has_variable = nobles_leader
+	}
+	option = {
+		name = dfre.o.6
+		custom_tooltip = ade.ct.1
+
+		change_variable = {
+			name = army_h_amount
+			add = -10
+		}
+		clamp_variable = {
+			name = army_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_a_h_amount
+			value = var:army_h_amount
+		}
+		if = {
+			limit = { local_var:tmp_a_h_amount <= 10 }
+
+			army_revolting_effect = yes
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_a_h_amount > 10 
+					has_character_modifier = army_revolt_character
+				}
+			}
+
+			remove_character_modifier = army_revolt_character
+			NOT_army_revolting_effect = yes
+		}
+
+		stress_impact = {
+			base = 0
+			zealous = medium_stress_impact_gain
+		}
+		
+	}
+	option = {
+		name = dfre.o.7
+		custom_tooltip = dfre.ct.4
+		change_variable = {
+			name = nobles_h_amount
+			add = -10
+		}
+		clamp_variable = {
+			name = nobles_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_n_h_amount
+			value = var:nobles_h_amount
+		}
+		if = {
+			limit = { local_var:tmp_n_h_amount <= 10 }
+
+			nobles_revolting_effect = yes
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_n_h_amount > 10 
+					has_character_modifier = nobles_revolt_character
+				}
+			}
+
+			remove_character_modifier = nobles_revolt_character
+			NOT_nobles_revolting_effect = yes
+		}
+
+		custom_tooltip = dfre.ct.8
+		change_variable = {
+			name = army_h_amount
+			add = 5
+		}
+		clamp_variable = {
+			name = army_h_amount
+			max = 100
+			min = 0
+		}
+		set_local_variable = {
+			name = tmp_a_h_amount
+			value = var:army_h_amount
+		}
+		if = {
+			limit = { 
+				AND = {
+					local_var:tmp_a_h_amount > 10 
+					has_character_modifier = army_revolt_character
+				}
+			}
+
+			remove_character_modifier = army_revolt_character
+			NOT_army_revolting_effect = yes
+		}
+
+		stress_impact = {
+			base = 0
+			fickle = minor_stress_impact_gain
+			diligent = minor_stress_impact_loss
+		}
+	}
+}
+
+# TODO Add more events

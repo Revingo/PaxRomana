@@ -1,0 +1,59 @@
+window = {
+	name = "army_actions_window_gui"
+	size = { 500 300 }
+	position = { 855 425 }
+	layer = middle
+
+	using = Window_Background
+	using = Window_Decoration
+	using = Animation_ShowHide_Standard
+
+	visible = "[GetVariableSystem.Exists( 'army_actions_w' )]"
+
+	vbox = {
+		using = Window_Margins
+		restrictparent_min = yes
+
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text"
+			{
+				raw_text = "Army's Takeable Actions"
+			}
+
+			blockoverride "button_close"
+			{
+				onclick = "[GetVariableSystem.Toggle( 'army_actions_w' )]"
+				onclick = "[ExecuteConsoleCommand('gui.ClearWidgets army_actions_window_gui')]"
+			}
+		}
+
+		scrollbox = {
+			size = { 400 180 }
+			layoutpolicy_vertical = expanding
+
+			blockoverride "scrollbox_content"{
+				button_primary_big = {
+					size = { 350 80 }
+					vbox = {
+						text_single = {
+							text = "retire_army_veterans_action_button"
+							using = Font_Size_Big
+							default_format = "#bold"
+						}
+						text_single = {
+							text = "retire_army_veterans_action_button_resources"
+							using = Font_Size_Medium
+						}
+					}
+
+					enabled = "[GetScriptedGui('retire_army_veterans_action').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					onclick = "[GetScriptedGui('retire_army_veterans_action').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					tooltip = "retire_army_veterans_action_button_tooltip"
+					tooltip_when_disabled = "retire_army_veterans_action_button_DISABLED_tooltip"
+				}
+			}
+		}
+	}
+}

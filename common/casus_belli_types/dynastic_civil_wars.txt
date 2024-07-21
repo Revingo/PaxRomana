@@ -1,0 +1,677 @@
+﻿army_uprising_war = {
+	icon = claim_cb
+	group = civil_war
+	ai_only_against_liege = no
+	target_titles = claim
+	allow_hostages = yes
+	allowed_for_character = {
+		scope:attacker = {
+			is_leading_faction_type = army_uprising
+		}
+	}
+
+	allowed_against_character = {
+		exists = scope:attacker.joined_faction
+		scope:attacker.joined_faction = {
+			faction_targeted_title.holder = scope:defender
+		}
+	}
+
+	target_de_jure_regions_above = yes
+
+	valid_to_start = {}
+
+	should_invalidate = {
+		OR = {
+			NOT = { exists = scope:attacker.joined_faction }
+			NOT = {
+				scope:attacker.joined_faction = {
+					exists = faction_leader
+					faction_leader = { is_alive = yes }
+				}
+			}
+		}
+	}
+
+	on_invalidated_desc = msg_invalidate_war_title
+
+	on_declaration = {
+		#on_declared_war = yes
+	}
+
+	on_victory_desc = {
+		desc = army_uprising_war_victory_desc
+
+	}
+
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		#EP2 Accolade glory gain from winning against higher ranked enemy
+		scope:attacker = { accolade_attacker_war_end_glory_gain_med_effect = yes }
+
+		hidden_effect = {
+			scope:attacker = {
+				add_truce_both_ways = {
+					character = scope:defender
+					days = 1825
+					war = root.war
+					result = victory
+				}
+
+				# if the have the right innovation
+				change_government = dynastic_government
+			}
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:defender
+			IMPRISONER = scope:attacker
+		}
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = changed_title
+			add_claim_on_loss = yes
+		}
+
+		scope:defender.primary_title = {
+			save_scope_as = targeted_title
+		}
+
+		scope:targeted_title = {
+			change_title_holder_include_vassals = {
+				holder = scope:attacker
+				change = scope:changed_title
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:changed_title
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = vassalized
+			add_claim_on_loss = yes
+		}
+
+		scope:defender = {
+			change_liege = {
+				liege = scope:attacker
+				change = scope:vassalized
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:vassalized
+
+		scope:defender = {
+
+			if = {
+				limit = { var:army_h_amount <= 10 }
+
+				remove_variable = army_h_amount
+
+				set_variable = {
+					name = army_h_amount
+					value = 50
+				}
+			}
+			NOT_army_revolting_effect = yes
+			find_new_faction_leader_forced_on_action = yes
+		}
+
+		# LEGITIMACY FROM LOSING FACTION WAR
+		faction_war_end_defeat_legitimacy_effect = yes
+	}
+
+	on_white_peace_desc = {
+		desc = army_uprising_war_white_peace_desc
+
+	}
+
+	on_white_peace = {
+		scope:attacker = {
+			show_pow_release_message_effect = yes
+			stress_impact = {
+ 				ambitious = medium_stress_impact_gain
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
+
+		scope:defender = {
+			stress_impact = {
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
+		on_white_peace_faction_revolt_war = yes
+
+		hidden_effect = {
+			scope:attacker = {
+				add_truce_both_ways = {
+					character = scope:defender
+					days = 1825
+					war = root.war
+					result = white_peace
+				}
+				if = {
+					limit = { exists = joined_faction }
+					joined_faction = {
+						destroy_faction = yes # Destroy the faction if it wasn't already destroyed automatically.
+					}
+				}
+			}
+		}
+	}
+
+	on_defeat_desc = {
+		desc = army_uprising_war_defeat_desc
+
+	}
+
+	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		on_lost_faction_revolt_war = yes
+
+		scope:defender = {
+			add_dread = medium_dread_gain
+
+			# LEGITIMACY FROM WINNING FACTION WAR
+			faction_war_end_victory_legitimacy_effect = yes
+
+			if = {
+				limit = { var:army_h_amount <= 10 }
+
+				remove_variable = army_h_amount
+
+				set_variable = {
+					name = army_h_amount
+					value = 50
+				}
+			}
+			NOT_army_revolting_effect = yes
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:attacker
+			IMPRISONER = scope:defender
+		}
+	}
+
+	check_attacker_inheritance_validity = no
+
+	on_primary_attacker_death = inherit_faction
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = no
+	defender_allies_inherit = yes
+
+	war_name = "ARMY_UPRISING_WAR_NAME"
+
+	interface_priority = 80
+
+	use_de_jure_wargoal_only = yes
+
+	attacker_wargoal_percentage = 0.8
+
+	max_attacker_score_from_battles = 50
+	max_defender_score_from_battles = 100
+	
+	max_defender_score_from_occupation = 150
+	max_attacker_score_from_occupation = 150
+
+	max_ai_diplo_distance_to_title = 500
+}
+
+nobles_uprising_war = {
+	icon = claim_cb
+	group = civil_war
+	ai_only_against_liege = no
+	target_titles = claim
+	allow_hostages = yes
+	allowed_for_character = {
+		scope:attacker = {
+			is_leading_faction_type = nobles_uprising
+		}
+	}
+
+	allowed_against_character = {
+		exists = scope:attacker.joined_faction
+		scope:attacker.joined_faction = {
+			faction_targeted_title.holder = scope:defender
+		}
+	}
+
+	target_de_jure_regions_above = yes
+
+	valid_to_start = {}
+
+	should_invalidate = {
+		OR = {
+			NOT = { exists = scope:attacker.joined_faction }
+			NOT = {
+				scope:attacker.joined_faction = {
+					exists = faction_leader
+					faction_leader = { is_alive = yes }
+				}
+			}
+		}
+	}
+
+	on_invalidated_desc = msg_invalidate_war_title
+
+	on_declaration = {
+		#on_declared_war = yes
+	}
+
+	on_victory_desc = {
+		desc = nobles_uprising_war_victory_desc
+
+	}
+
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		#EP2 Accolade glory gain from winning against higher ranked enemy
+		scope:attacker = { accolade_attacker_war_end_glory_gain_med_effect = yes }
+
+		hidden_effect = {
+			scope:attacker = {
+				add_truce_both_ways = {
+					character = scope:defender
+					days = 1825
+					war = root.war
+					result = victory
+				}
+
+				# if the have the right innovation
+				change_government = dynastic_government
+			}
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:defender
+			IMPRISONER = scope:attacker
+		}
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = changed_title
+			add_claim_on_loss = yes
+		}
+
+		scope:defender.primary_title = {
+			save_scope_as = targeted_title
+		}
+
+		scope:targeted_title = {
+			change_title_holder_include_vassals = {
+				holder = scope:attacker
+				change = scope:changed_title
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:changed_title
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = vassalized
+			add_claim_on_loss = yes
+		}
+
+		scope:defender = {
+			change_liege = {
+				liege = scope:attacker
+				change = scope:vassalized
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:vassalized
+
+		scope:defender = {
+
+			if = {
+				limit = { var:nobles_h_amount <= 10 }
+
+				remove_variable = nobles_h_amount
+
+				set_variable = {
+					name = nobles_h_amount
+					value = 50
+				}
+			}
+			NOT_nobles_revolting_effect = yes
+			find_new_faction_leader_forced_on_action = yes
+		}
+
+		# LEGITIMACY FROM LOSING FACTION WAR
+		faction_war_end_defeat_legitimacy_effect = yes
+	}
+
+	on_white_peace_desc = {
+		desc = nobles_uprising_war_white_peace_desc
+
+	}
+
+	on_white_peace = {
+		scope:attacker = {
+			show_pow_release_message_effect = yes
+			stress_impact = {
+ 				ambitious = medium_stress_impact_gain
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
+
+		scope:defender = {
+			stress_impact = {
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
+		on_white_peace_faction_revolt_war = yes
+
+		hidden_effect = {
+			scope:attacker = {
+				add_truce_both_ways = {
+					character = scope:defender
+					days = 1825
+					war = root.war
+					result = white_peace
+				}
+				if = {
+					limit = { exists = joined_faction }
+					joined_faction = {
+						destroy_faction = yes # Destroy the faction if it wasn't already destroyed automatically.
+					}
+				}
+			}
+		}
+	}
+
+	on_defeat_desc = {
+		desc = nobles_uprising_war_defeat_desc
+
+	}
+
+	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		on_lost_faction_revolt_war = yes
+
+		scope:defender = {
+			add_dread = medium_dread_gain
+
+			# LEGITIMACY FROM WINNING FACTION WAR
+			faction_war_end_victory_legitimacy_effect = yes
+
+			if = {
+				limit = { var:nobles_h_amount <= 10 }
+
+				remove_variable = nobles_h_amount
+
+				set_variable = {
+					name = nobles_h_amount
+					value = 50
+				}
+			}
+			NOT_nobles_revolting_effect = yes
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:attacker
+			IMPRISONER = scope:defender
+		}
+	}
+
+	check_attacker_inheritance_validity = no
+
+	on_primary_attacker_death = inherit_faction
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = no
+	defender_allies_inherit = yes
+
+	war_name = "NOBLES_UPRISING_WAR_NAME"
+
+	interface_priority = 80
+
+	use_de_jure_wargoal_only = yes
+
+	attacker_wargoal_percentage = 0.8
+
+	max_attacker_score_from_battles = 50
+	max_defender_score_from_battles = 100
+	
+	max_defender_score_from_occupation = 150
+	max_attacker_score_from_occupation = 150
+
+	max_ai_diplo_distance_to_title = 500
+}
+
+citizens_uprising_war = {
+	icon = claim_cb
+	group = civil_war
+	ai_only_against_liege = no
+	target_titles = claim
+	allow_hostages = yes
+	allowed_for_character = {
+		scope:attacker = {
+			is_leading_faction_type = citizens_uprising
+		}
+	}
+
+	allowed_against_character = {
+		exists = scope:attacker.joined_faction
+		scope:attacker.joined_faction = {
+			faction_targeted_title.holder = scope:defender
+		}
+	}
+
+	target_de_jure_regions_above = yes
+
+	valid_to_start = {}
+
+	should_invalidate = {
+		OR = {
+			NOT = { exists = scope:attacker.joined_faction }
+			NOT = {
+				scope:attacker.joined_faction = {
+					exists = faction_leader
+					faction_leader = { is_alive = yes }
+				}
+			}
+		}
+	}
+
+	on_invalidated_desc = msg_invalidate_war_title
+
+	on_declaration = {
+		#on_declared_war = yes
+	}
+
+	on_victory_desc = {
+		desc = citizens_uprising_war_victory_desc
+
+	}
+
+	on_victory = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+
+		#EP2 Accolade glory gain from winning against higher ranked enemy
+		scope:attacker = { accolade_attacker_war_end_glory_gain_med_effect = yes }
+
+		hidden_effect = {
+			scope:attacker = {
+				add_truce_both_ways = {
+					character = scope:defender
+					days = 1825
+					war = root.war
+					result = victory
+				}
+
+				# if the have the right innovation
+				change_government = dynastic_government
+
+				# PREFERRED if they have the right innovation
+				# change_government = res_publica_government
+			}
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:defender
+			IMPRISONER = scope:attacker
+		}
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = changed_title
+			add_claim_on_loss = yes
+		}
+
+		scope:defender.primary_title = {
+			save_scope_as = targeted_title
+		}
+
+		scope:targeted_title = {
+			change_title_holder_include_vassals = {
+				holder = scope:attacker
+				change = scope:changed_title
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:changed_title
+
+		create_title_and_vassal_change = {
+			type = usurped
+			save_scope_as = vassalized
+			add_claim_on_loss = yes
+		}
+
+		scope:defender = {
+			change_liege = {
+				liege = scope:attacker
+				change = scope:vassalized
+			}
+		}
+
+		resolve_title_and_vassal_change = scope:vassalized
+
+		scope:defender = {
+
+			if = {
+				limit = { var:citizens_h_amount <= 10 }
+
+				remove_variable = citizens_h_amount
+
+				set_variable = {
+					name = citizens_h_amount
+					value = 50
+				}
+			}
+			NOT_citizens_revolting_effect = yes
+			find_new_faction_leader_forced_on_action = yes
+		}
+
+		# LEGITIMACY FROM LOSING FACTION WAR
+		faction_war_end_defeat_legitimacy_effect = yes
+	}
+
+	on_white_peace_desc = {
+		desc = citizens_uprising_war_white_peace_desc
+
+	}
+
+	on_white_peace = {
+		scope:attacker = {
+			show_pow_release_message_effect = yes
+			stress_impact = {
+ 				ambitious = medium_stress_impact_gain
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
+
+		scope:defender = {
+			stress_impact = {
+ 				arrogant = medium_stress_impact_gain
+ 			}
+		}
+		on_white_peace_faction_revolt_war = yes
+
+		hidden_effect = {
+			scope:attacker = {
+				add_truce_both_ways = {
+					character = scope:defender
+					days = 1825
+					war = root.war
+					result = white_peace
+				}
+				if = {
+					limit = { exists = joined_faction }
+					joined_faction = {
+						destroy_faction = yes # Destroy the faction if it wasn't already destroyed automatically.
+					}
+				}
+			}
+		}
+	}
+
+	on_defeat_desc = {
+		desc = citizens_uprising_war_defeat_desc
+
+	}
+
+	on_defeat = {
+		scope:attacker = { show_pow_release_message_effect = yes }
+		on_lost_faction_revolt_war = yes
+
+		scope:defender = {
+			add_dread = medium_dread_gain
+
+			# LEGITIMACY FROM WINNING FACTION WAR
+			faction_war_end_victory_legitimacy_effect = yes
+
+			if = {
+				limit = { var:citizens_h_amount <= 10 }
+
+				remove_variable = citizens_h_amount
+
+				set_variable = {
+					name = citizens_h_amount
+					value = 50
+				}
+			}
+			NOT_citizens_revolting_effect = yes
+		}
+
+		imprison_character_effect = {
+			TARGET = scope:attacker
+			IMPRISONER = scope:defender
+		}
+	}
+
+	check_attacker_inheritance_validity = no
+
+	on_primary_attacker_death = inherit_faction
+	on_primary_defender_death = inherit
+
+	transfer_behavior = transfer
+
+	attacker_allies_inherit = no
+	defender_allies_inherit = yes
+
+	war_name = "CITIZENS_UPRISING_WAR_NAME"
+
+	interface_priority = 80
+
+	use_de_jure_wargoal_only = yes
+
+	attacker_wargoal_percentage = 0.8
+
+	max_attacker_score_from_battles = 50
+	max_defender_score_from_battles = 100
+	
+	max_defender_score_from_occupation = 150
+	max_attacker_score_from_occupation = 150
+
+	max_ai_diplo_distance_to_title = 500
+}

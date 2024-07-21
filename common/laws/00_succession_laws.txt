@@ -1,4 +1,4 @@
-﻿	succession_order_laws = {
+﻿succession_order_laws = {
 	flag = succession_order_laws
 
 	confederate_partition_succession_law = {
@@ -15,14 +15,9 @@
 			
 		}
 		can_have = {
-			can_have_confederate_partition_succession_law_trigger = yes
+			can_have_high_partition_succession_law_trigger = yes
 		}
 		should_start_with = {
-			NOR = {
-				historical_succession_access_single_heir_succession_law_trigger = yes
-				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
-				historical_succession_access_single_heir_dynasty_house_trigger = yes
-			}
 			OR = {
 				government_has_flag = government_is_tribal
 				government_has_flag = government_is_city-state
@@ -60,25 +55,7 @@
 			can_change_partition_succession_law_trigger = yes
 		}
 		can_have = {
-			can_have_partition_succession_law_trigger = yes
-		}
-		should_start_with = {
-			NOR = {
-				historical_succession_access_single_heir_succession_law_trigger = yes
-				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
-				historical_succession_access_single_heir_dynasty_house_trigger = yes
-			}
-			OR = {
-				government_has_flag = government_is_feudal
-				government_has_flag = government_is_city-state
-			}
-			
-			culture = {
-				has_innovation = innovation_hereditary_rule
-				NOT = {
-					has_innovation = innovation_heraldry
-				}
-			}
+			can_have_high_partition_succession_law_trigger = yes
 		}
 		succession = {
 			order_of_succession = inheritance
@@ -122,20 +99,6 @@
 		can_have = {
 			can_have_high_partition_succession_law_trigger = yes
 		}
-		should_start_with = {
-			NOR = {
-				historical_succession_access_single_heir_succession_law_trigger = yes
-				historical_succession_access_single_heir_succession_law_youngest_trigger = yes
-				historical_succession_access_single_heir_dynasty_house_trigger = yes
-			}
-			government_has_flag = government_is_feudal
-			culture = {
-				has_innovation = innovation_heraldry
-				NOT = {
-					has_innovation = innovation_hereditary_rule
-				}
-			}
-		}
 		succession = {
 			order_of_succession = inheritance
 			traversal_order = children
@@ -174,7 +137,6 @@
 	
 	single_heir_succession_law = {
 		can_keep = {
-			can_keep_single_heir_succession_law_trigger = yes
 			# Vassal Contract allows it
 			custom_description = {
 				text = succession_laws_must_not_be_forced_partition
@@ -183,21 +145,22 @@
 					vassal_contract_has_flag = locked_to_partition
 				}
 			}
+			government_has_flag = government_is_dynastic
 		}
 		can_have = {
-			can_have_single_heir_succession_law_trigger = yes
+			government_has_flag = government_is_dynastic
 		}
 		can_pass = {
-			can_change_succession_law_trigger = yes
-			trigger_if = {
-				limit = {
-					government_has_flag = government_is_clan
-				}
-				piety_level >= 3
+			custom_description = {
+				text = auctoritas_1500_tooltip 
+				auctoritas_value > 1500
 			}
+			prestige > 1200
+			gold > 300
+			government_has_flag = government_is_dynastic
 		}
 		should_start_with = {
-			historical_succession_access_single_heir_succession_law_trigger = yes
+			government_has_flag = government_is_dynastic
 		}
 		succession = {
 			order_of_succession = inheritance
@@ -213,19 +176,8 @@
 			eligible_child_except_player_heir_opinion = -5
 		}
 		pass_cost = {
-			prestige = change_succession_law_prestige_cost
-			piety = {
-				value = 0
-				if = {
-					limit = {
-						government_has_flag = government_is_clan
-					}
-					add = {
-						desc = "clan_government_cost_tooltip"
-						value = 1500
-					}
-				}
-			}
+			prestige = 1200
+			gold = 300
 		}
 		revoke_cost = {
 			prestige = change_succession_law_prestige_cost
@@ -238,7 +190,6 @@
 	
 	single_heir_succession_law_youngest = {
 		can_keep = {
-			can_keep_single_heir_youngest_succession_law_trigger = yes
 			# Vassal Contract allows it
 			custom_description = {
 				text = succession_laws_must_not_be_forced_partition
@@ -247,22 +198,26 @@
 					vassal_contract_has_flag = locked_to_partition
 				}
 			}
+			government_has_flag = government_is_dynastic
 		}
 		can_have = {
-			can_have_single_heir_youngest_succession_law_trigger = yes
+			government_has_flag = government_is_dynastic
 		}
 		can_pass = {
-			can_change_succession_law_trigger = yes
-			trigger_if = {
-				limit = {
-					government_has_flag = government_is_clan
-				}
-				piety_level >= 3
+			custom_description = {
+				text = auctoritas_1500_tooltip 
+				auctoritas_value > 1500
 			}
+			prestige > 1200
+			gold > 300
+			government_has_flag = government_is_dynastic
+		}
+		should_start_with = {
+			government_has_flag = government_is_dynastic
 		}
 		succession = {
 			order_of_succession = inheritance
-			traversal_order = children
+			traversal_order = dynasty_house
 			rank = youngest
 			title_division = single_heir
 		}
@@ -275,19 +230,8 @@
 			eligible_child_except_player_heir_opinion = -5
 		}
 		pass_cost = {
-			prestige = change_succession_law_prestige_cost
-			piety = {
-				value = 0
-				if = {
-					limit = {
-						government_has_flag = government_is_clan
-					}
-					add = {
-						desc = "clan_government_cost_tooltip"
-						value = 1500
-					}
-				}
-			}
+			prestige = 1200
+			gold = 300
 		}
 		revoke_cost = {
 			prestige = change_succession_law_prestige_cost
@@ -295,32 +239,32 @@
 	}
 	
 	single_heir_dynasty_house = { # LAST CALL
-		can_keep = {
-			can_keep_single_heir_dynasty_house_trigger = yes
-			# Vassal Contract allows it
-			custom_description = {
-				text = succession_laws_must_not_be_forced_partition
-				NAND = {
-					is_independent_ruler = no
-					vassal_contract_has_flag = locked_to_partition
-				}
+	can_keep = {
+		# Vassal Contract allows it
+		custom_description = {
+			text = succession_laws_must_not_be_forced_partition
+			NAND = {
+				is_independent_ruler = no
+				vassal_contract_has_flag = locked_to_partition
 			}
 		}
-		can_have = {
-			can_have_single_heir_dynasty_house_trigger = yes
+		government_has_flag = government_is_dynastic
+	}
+	can_have = {
+		government_has_flag = government_is_dynastic
+	}
+	can_pass = {
+		custom_description = {
+			text = auctoritas_1500_tooltip 
+			auctoritas_value > 1500
 		}
-		can_pass = {
-			can_change_single_heir_dynasty_house_succession_law_trigger = yes
-			trigger_if = {
-				limit = {
-					government_has_flag = government_is_clan
-				}
-				piety_level >= 3
-			}
-		}
-		should_start_with = {
-			historical_succession_access_single_heir_dynasty_house_trigger = yes
-		}
+		prestige > 1200
+		gold > 300
+		government_has_flag = government_is_dynastic
+	}
+	should_start_with = {
+		government_has_flag = government_is_dynastic
+	}
 		succession = {
 			order_of_succession = inheritance
 			traversal_order = dynasty_house
@@ -335,19 +279,8 @@
 			dynasty_house_opinion = 5
 		}
 		pass_cost = {
-			prestige = change_succession_law_prestige_cost
-			piety = {
-				value = 0
-				if = {
-					limit = {
-						government_has_flag = government_is_clan
-					}
-					add = {
-						desc = "clan_government_cost_tooltip"
-						value = 1500
-					}
-				}
-			}
+			prestige = 1200
+			gold = 300
 		}
 		revoke_cost = {
 			prestige = change_succession_law_prestige_cost
@@ -356,11 +289,7 @@
 		ai_will_do = {
 			if = {
 				limit = {
-					primary_title.tier > tier_county
-					OR = {
-						#West Slavic
-						culture = { has_cultural_pillar = heritage_west_slavic }
-					}
+					primary_title.tier > tier_duchy
 				}
 				value = 2
 			}

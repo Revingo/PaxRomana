@@ -55,3 +55,33 @@ dacian = {
 		3 = mediterranean_byzantine
 	}
 }
+
+Thracian = {
+	color = { 0.90 0.00 0.65 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_balcan
+	language = language_thracian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_breeder
+		tradition_tribe_unity
+		tradition_music_theory
+		tradition_sorcerous_metallurgy
+	}
+	
+	name_list = name_list_serbian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	
+	ethnicities = {
+		10 = slavic_brown_hair
+		10 = slavic_dark_hair
+		9 = slavic_blond
+		4 = slavic_ginger
+		3 = mediterranean_byzantine
+	}
+}

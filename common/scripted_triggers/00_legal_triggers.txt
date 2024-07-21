@@ -1,5 +1,4 @@
-﻿
-### Legal trigger list
+﻿### Legal trigger list
 
 opposes_succession_law_change_trigger = {
 	is_imprisoned = no

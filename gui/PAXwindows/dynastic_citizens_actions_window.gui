@@ -1,0 +1,59 @@
+window = {
+	name = "citizens_actions_window_gui"
+	size = { 500 300 }
+	position = { 855 745 }
+	layer = middle
+
+	using = Window_Background
+	using = Window_Decoration
+	using = Animation_ShowHide_Standard
+
+	visible = "[GetVariableSystem.Exists( 'citizens_actions_w' )]"
+
+	vbox = {
+		using = Window_Margins
+		restrictparent_min = yes
+
+		header_pattern = {
+			layoutpolicy_horizontal = expanding
+
+			blockoverride "header_text"
+			{
+				raw_text = "Citizens' Takeable Actions"
+			}
+
+			blockoverride "button_close"
+			{
+				onclick = "[GetVariableSystem.Toggle( 'citizens_actions_w' )]"
+				onclick = "[ExecuteConsoleCommand('gui.ClearWidgets citizens_actions_window_gui')]"
+			}
+		}
+
+		scrollbox = {
+			size = { 400 180 }
+			layoutpolicy_vertical = expanding
+
+			blockoverride "scrollbox_content"{
+				button_primary_big = {
+					size = { 350 80 }
+					vbox = {
+						text_single = {
+							text = "extend_citizenship_action_button"
+							using = Font_Size_Big
+							default_format = "#bold"
+						}
+						text_single = {
+							text = "extend_citizenship_action_resources"
+							using = Font_Size_Medium
+						}
+					}
+
+					enabled = "[GetScriptedGui('extend_citizenship_action').IsValid( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					onclick = "[GetScriptedGui('extend_citizenship_action').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+					tooltip = "extend_citizenship_action_button_tooltip"
+					tooltip_when_disabled = "extend_citizenship_action_button_DISABLED_tooltip"
+				}
+			}
+		}
+	}
+}
