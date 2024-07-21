@@ -1,0 +1,85 @@
+﻿on_marriage = {
+	on_actions = {
+		on_family_traitor
+	}
+}
+
+quarterly_playable_pulse = {
+	on_actions = {
+		on_league_funds_increase
+		on_dynastic_find_army_leader
+		on_dynastic_find_nobles_leader
+		on_dynastic_find_citizens_leader
+		on_no_more_army_revolts
+		on_no_more_nobles_revolts
+		on_no_more_citizens_revolts
+	}
+}
+
+on_death = {
+	on_actions = {
+		on_league_leader_death
+		on_league_member_death
+	}
+}
+
+on_title_gain_inheritance = {
+	on_actions = {
+		on_dynastic_ruler_death
+	}
+}
+
+on_title_lost = {
+	on_actions = {
+		on_member_becomes_landless
+		on_league_leader_becomes_landless
+		on_dynastic_ruler_title_lost
+		on_mauryc_titles_removed
+	}
+}
+
+on_title_gain_usurpation = {
+	on_actions = {
+		on_mauryc_titles_gain
+	}
+}
+
+on_tradition_added = {
+	on_actions = {
+		on_added_pure_family_tradition
+	}
+}
+
+on_character_culture_change = {
+	on_actions = {
+		on_pure_family_tradition
+	}
+}
+
+on_game_start = {
+	on_actions = {
+		on_game_start_pure_family_tradition
+		on_game_start_dynastic_setup
+	}
+}
+
+on_tradition_removed = {
+	on_actions = {
+		on_remove_pure_family_tradition
+	}
+}
+
+on_title_gain = {
+	on_actions = {
+		on_not_eligible_gains_title
+		on_mauryc_titles_gain
+		on_dynastic_title_gain
+		on_new_dynastic_ruler
+	}
+}
+
+random_yearly_playable_pulse = {
+	on_actions = {
+		on_yearly_random_dynastic_event
+	}
+}

@@ -23,3 +23,28 @@ iberian = {
 		10 = mediterranean
 	}
 }
+
+pax_basque = {
+	color = { 0.96 0.87 0.0 }
+	
+	ethos = ethos_communal
+	heritage = heritage_iberian
+	language = language_basque
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_fishermen
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_basque
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}

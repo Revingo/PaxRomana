@@ -1,4 +1,4 @@
-sarmatian_religion = {
+﻿finno_ugric_religion = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
 
@@ -215,24 +215,27 @@ sarmatian_religion = {
 	}	
 
 	faiths = {
-		scythian = {
+		finnish_pagan = {
 			color = { 0.5 0.5 0.0 }
 
-			#holy sites: Scythian Neapolis, Don River, Dobruja, Pannonian Basin, Pella
-			holy_site = scythian_neapolis
-			holy_site = don_river
-			holy_site = dobruja
-			holy_site = pannonia_basin
-			holy_site = pella
+			holy_site = raivola
+			holy_site = hiiumaa
+			holy_site = akkel
+			holy_site = perm
+			holy_site = torun
 
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_ancestor_worship
-			doctrine = tenet_communal_possessions
+			doctrine = tenet_communal_identity
 
 			icon = finno_ugric
 			reformed_icon = finno_ugric_reformed
 		}
+		#finnish_reformed = {
+		#	color = { 0.65 0.65 0.1 }
+		#	icon = finno_ugric
+		#}
 	}
 }

@@ -1,0 +1,9 @@
+texticon = {
+	icon = auctoritas_icon
+	iconsize = {
+		texture = "gfx/interface/icons/icon_auctoritas.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}

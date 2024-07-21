@@ -1,0 +1,193 @@
+﻿citizens_too_low_gui = {
+	scope = character
+
+	is_shown = {
+		var:citizens_h_amount <= 10
+	}
+}
+
+nobles_too_low_gui = {
+	scope = character
+
+	is_shown = {
+		var:nobles_h_amount <= 10
+	}
+}
+
+army_too_low_gui = {
+	scope = character
+
+	is_shown = {
+		var:army_h_amount <= 10
+	}
+}
+
+set_dynastic_factions_variable_gui = {
+	scope = character
+
+	effect = {
+		if = {
+			limit = { has_government = dynastic_government }
+
+			set_variable = {
+				name = my_factions
+
+				value = 1
+			}
+		}
+		else = {
+			if = {
+				limit = {
+					AND = {
+						exists = liege
+						NOT = { liege = root }
+						liege = {
+							has_government = dynastic_government
+						}
+					}
+				}
+
+				set_variable = {
+					name = liege_factions
+
+					value = 1
+				}
+			}
+		}
+	}
+}
+
+change_to_my_factions_gui = {
+	scope = character
+
+	is_shown = {
+		has_government = dynastic_government
+	}
+
+	effect = {
+		if = {
+			limit = { has_variable = liege_factions }
+
+			remove_variable = liege_factions
+
+			set_variable = {
+				name = my_factions
+
+				value = 1
+			}
+		}
+	}
+}
+
+change_to_liege_factions_gui = {
+	scope = character
+
+	is_shown = {
+		AND = {
+			exists = liege
+			NOT = { liege = root }
+			liege = {
+				has_government = dynastic_government
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = { has_variable = my_factions }
+
+			remove_variable = my_factions
+
+			set_variable = {
+				name = liege_factions
+
+				value = 1
+			}
+		}
+		
+	}
+}
+
+remove_factions_var_gui = {
+	scope = character
+
+	effect = {
+		if = {
+			limit = { has_variable = my_factions }
+
+			remove_variable = my_factions
+		}
+		if = {
+			limit = { has_variable = liege_factions }
+
+			remove_variable = liege_factions
+		}
+	}
+}
+
+##########################
+# Takeable Actions
+##########################
+
+retire_army_veterans_action = {
+	is_valid = {
+		auctoritas_value >= 1200
+		gold >= 500
+		prestige >= 150
+		AND = { # The happiness value must be between 80 and 5
+			var:army_h_amount <= 80
+			var:army_h_amount > 5
+		}
+	}
+
+	effect = {
+		remove_reserved_gold = 500
+		add_prestige = -150
+		change_variable = {
+			name = army_h_amount
+			add = 20
+		}
+	}
+}
+
+nobles_pension_action = {
+	is_valid = {
+		auctoritas_value >= 1200
+		gold >= 750
+		prestige >= 80
+		AND = { # The happiness value must be between 80 and 5
+			var:nobles_h_amount <= 80
+			var:nobles_h_amount > 5
+		}
+	}
+
+	effect = {
+		remove_reserved_gold = 750
+		add_prestige = -80
+		change_variable = {
+			name = nobles_h_amount
+			add = 20
+		}
+	}
+}
+
+extend_citizenship_action = {
+	is_valid = {
+		auctoritas_value >= 1200
+		gold >= 350
+		prestige >= 200
+		AND = { # The happiness value must be between 80 and 5
+			var:citizens_h_amount <= 80
+			var:citizens_h_amount > 5
+		}
+	}
+
+	effect = {
+		remove_reserved_gold = 350
+		add_prestige = -200
+		change_variable = {
+			name = citizens_h_amount
+			add = 20
+		}
+	}
+}

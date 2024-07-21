@@ -1,0 +1,4 @@
+revolting_faction = {
+	opinion = -50
+	years = 10
+}
