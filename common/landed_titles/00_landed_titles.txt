@@ -23045,10 +23045,14 @@ e_alexander_makedon = {
 				}
 			}
 		}
-		d_alexandreia = {
+		d_alexandreia = { # Lower Egypt
 			color = { 54 108 127 }
 
 			capital = c_alexandria
+
+			cultural_names = {
+				name_list_trojan = cn_alexandreia
+			}
 
 			c_alexandria = {
 				color = { 102 221 136 }
@@ -23456,8 +23460,12 @@ e_alexander_makedon = {
 				}
 			}
 		}
-		d_thebes = { #Upper Egypt
+		d_thebes = { # Upper Egypt
 			color = { 231 108 127}
+
+			cultural_names = {
+				name_list_trojan = cn_ptolemais
+			}
 
 			c_shamir = {
 				color = { 140 125 45 }
