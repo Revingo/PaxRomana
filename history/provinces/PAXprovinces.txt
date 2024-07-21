@@ -6983,11 +6983,11 @@
 	religion = r_hellenic
 }
 1747 = {
-	culture = iberian
+	culture = lusitian
 	religion = druidism
 }
 1748 = {
-	culture = iberian
+	culture = lusitian
 	religion = druidism
 }
 1749 = {
@@ -7003,7 +7003,7 @@
 	religion = r_hellenic
 }
 1752 = {
-	culture = gallaecian
+	culture = lusitian
 	religion = druidism
 }
 1753 = {
@@ -7011,7 +7011,7 @@
 	religion = druidism
 }
 1754 = {
-	culture = gallaecian
+	culture = lusitian
 	religion = druidism
 }
 1755 = {
@@ -7099,11 +7099,11 @@
 	religion = druidism
 }
 1776 = {
-	culture = gallaecian
+	culture = lusitian
 	religion = druidism
 }
 1777 = {
-	culture = gallaecian
+	culture = lusitian
 	religion = druidism
 }
 1778 = {
@@ -7319,7 +7319,7 @@
 	religion = r_hellenic
 }
 1831 = {
-	culture = celtiberian
+	culture = lusitian
 	religion = celtiberianism
 }
 1832 = {
@@ -7331,11 +7331,11 @@
 	religion = r_hellenic
 }
 1834 = {
-	culture = celtiberian
+	culture = lusitian
 	religion = celtiberianism
 }
 1835 = {
-	culture = iberian
+	culture = lusitian
 	religion = i_iberian
 }
 1836 = {
@@ -7343,7 +7343,7 @@
 	religion = i_iberian
 }
 1837 = {
-	culture = iberian
+	culture = lusitian
 	religion = i_iberian
 }
 1838 = {
@@ -7367,7 +7367,7 @@
 	religion = r_hellenic
 }
 1843 = {
-	culture = iberian
+	culture = carthaginian
 	religion = tartessian
 }
 1844 = {
@@ -7375,11 +7375,11 @@
 	religion = tartessian
 }
 1845 = {
-	culture = iberian
+	culture = carthaginian
 	religion = tartessian
 }
 1846 = {
-	culture = iberian
+	culture = carthaginian
 	religion = tartessian
 }
 1847 = {
@@ -7391,7 +7391,7 @@
 	religion = r_hellenic
 }
 1849 = {
-	culture = iberian
+	culture = carthaginian
 	religion = i_iberian
 }
 1850 = {
@@ -7399,7 +7399,7 @@
 	religion = i_iberian
 }
 1851 = {
-	culture = iberian
+	culture = carthaginian
 	religion = i_iberian
 }
 1852 = {
@@ -7435,7 +7435,7 @@
 	religion = i_iberian
 }
 1860 = {
-	culture = iberian
+	culture = masselian
 	religion = i_iberian
 }
 1861 = {
@@ -7443,7 +7443,7 @@
 	religion = i_iberian
 }
 1862 = {
-	culture = iberian
+	culture = masselian
 	religion = i_iberian
 }
 1863 = {
@@ -7451,7 +7451,7 @@
 	religion = r_hellenic
 }
 1864 = {
-	culture = gallic_narbonensis
+	culture = masselian
 	religion = druidism
 }
 1865 = {
@@ -7459,7 +7459,7 @@
 	religion = druidism
 }
 1866 = {
-	culture = gallic_narbonensis
+	culture = masselian
 	religion = druidism
 }
 1867 = {
@@ -7467,7 +7467,7 @@
 	religion = druidism
 }
 1868 = {
-	culture = iberian
+	culture = masselian
 	religion = druidism
 }
 1869 = {
@@ -7507,7 +7507,7 @@
 	religion = r_hellenic
 }
 1878 = {
-	culture = iberian
+	culture = masselian
 	religion = i_iberian
 }
 1879 = {
@@ -7519,7 +7519,7 @@
 	religion = r_hellenic
 }
 1881 = {
-	culture = iberian
+	culture = masselian
 	religion = i_iberian
 }
 1882 = {
@@ -7671,7 +7671,7 @@
 	religion = r_hellenic
 }
 1919 = {
-	culture = celtiberian
+	culture = iberian
 	religion = celtiberianism
 }
 1920 = {
@@ -7687,7 +7687,7 @@
 	religion = r_hellenic
 }
 1923 = {
-	culture = celtiberian
+	culture = iberian
 	religion = celtiberianism
 }
 1924 = {
@@ -7723,7 +7723,7 @@
 	religion = r_hellenic
 }
 1932 = {
-	culture = celtiberian
+	culture = iberian
 	religion = celtiberianism
 }
 1933 = {
@@ -7735,7 +7735,7 @@
 	religion = r_hellenic
 }
 1935 = {
-	culture = celtiberian
+	culture = iberian
 	religion = celtiberianism
 }
 1936 = {
@@ -7767,7 +7767,7 @@
 	religion = i_iberian
 }
 1943 = {
-	culture = celtiberian
+	culture = iberian
 	religion = celtiberianism
 }
 1944 = {
@@ -7783,7 +7783,7 @@
 	religion = i_iberian
 }
 1947 = {
-	culture = celtiberian
+	culture = iberian
 	religion = celtiberianism
 }
 1948 = {
@@ -7811,7 +7811,7 @@
 	religion = i_iberian
 }
 1954 = {
-	culture = celtiberian
+	culture = lusitian
 	religion = celtiberianism
 }
 1955 = {
@@ -7959,7 +7959,7 @@
 	religion = r_hellenic
 }
 1991 = {
-	culture = iberian
+	culture = lusitian
 	religion = tartessian
 }
 1992 = {
@@ -7971,7 +7971,7 @@
 	religion = r_hellenic
 }
 1994 = {
-	culture = roman
+	culture = iberian
 	religion = r_hellenic
 }
 1995 = {
@@ -7979,7 +7979,7 @@
 	religion = i_iberian
 }
 1996 = {
-	culture = iberian
+	culture = lusitian
 	religion = i_iberian
 }
 1997 = {
@@ -10539,7 +10539,7 @@
 	religion = h_hellenic
 }
 2636 = {
-	culture = greek
+	culture = carthaginian
 	religion = h_hellenic
 }
 2637 = {
@@ -18203,7 +18203,7 @@
 	religion = r_hellenic
 }
 4552 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4553 = {
@@ -18219,11 +18219,11 @@
 	religion = r_carthaginian
 }
 4556 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4557 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4558 = {
@@ -18239,11 +18239,11 @@
 	religion = r_carthaginian
 }
 4561 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4562 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4563 = {
@@ -18287,7 +18287,7 @@
 	religion = north_african_acham_pagan
 }
 4573 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4574 = {
@@ -18347,7 +18347,7 @@
 	religion = r_carthaginian
 }
 4588 = {
-	culture = berber
+	culture = carthaginian
 	religion = r_carthaginian
 }
 4589 = {
@@ -18387,7 +18387,7 @@
 	religion = r_hellenic
 }
 4598 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4599 = {
@@ -18519,7 +18519,7 @@
 	religion = r_carthaginian
 }
 4631 = {
-	culture = berber
+	culture = carthaginian
 	religion = r_carthaginian
 }
 4632 = {
@@ -18543,7 +18543,7 @@
 	religion = r_carthaginian
 }
 4637 = {
-	culture = berber
+	culture = carthaginian
 	religion = r_carthaginian
 }
 4638 = {
@@ -18551,7 +18551,7 @@
 	religion = r_carthaginian
 }
 4639 = {
-	culture = berber
+	culture = carthaginian
 	religion = r_carthaginian
 }
 4640 = {
@@ -18631,7 +18631,7 @@
 	religion = r_carthaginian
 }
 4659 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4660 = {
@@ -18683,7 +18683,7 @@
 	religion = r_carthaginian
 }
 4672 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4673 = {
@@ -18691,7 +18691,7 @@
 	religion = r_carthaginian
 }
 4674 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4675 = {
@@ -18703,7 +18703,7 @@
 	religion = r_hellenic
 }
 4677 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4678 = {
@@ -18771,7 +18771,7 @@
 	religion = r_carthaginian
 }
 4694 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4695 = {
@@ -18791,7 +18791,7 @@
 	religion = r_carthaginian
 }
 4699 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4700 = {
@@ -18807,7 +18807,7 @@
 	religion = r_carthaginian
 }
 4703 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4704 = {
@@ -18819,7 +18819,7 @@
 	religion = r_carthaginian
 }
 4706 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4707 = {
@@ -18831,7 +18831,7 @@
 	religion = r_carthaginian
 }
 4709 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4710 = {
@@ -18859,7 +18859,7 @@
 	religion = r_carthaginian
 }
 4716 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4717 = {
@@ -18867,7 +18867,7 @@
 	religion = r_carthaginian
 }
 4718 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4719 = {
@@ -18975,7 +18975,7 @@
 	religion = r_hellenic
 }
 4745 = {
-	culture = carthaginian
+	culture = berber
 	religion = r_carthaginian
 }
 4746 = {

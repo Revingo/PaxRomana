@@ -68,6 +68,7 @@ berber = {
 		tradition_tribe_unity
 		tradition_pastoralists
 		tradition_eye_for_an_eye
+		tradition_dryland_dwellers
 	}
 	
 	name_list = name_list_akan
