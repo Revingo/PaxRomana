@@ -238,7 +238,7 @@ germanic_religion = {
 
 			doctrine = unreformed_faith_doctrine
 
-			doctrine = tenet_warmonger
+			doctrine = tenet_sanctity_of_nature
 			# Gruesome Festivals, else Human Sacrifice.
 			doctrine_selection_pair = {
 				requires_dlc_flag = the_northern_lords

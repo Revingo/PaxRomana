@@ -34,7 +34,7 @@ lusitian = {
 	traditions = {
 		tradition_tribe_unity
 		tradition_stand_and_fight
-		tradition_pastoralists
+		tradition_fishermen
 	}
 	
 	name_list = name_list_suebi
@@ -60,6 +60,7 @@ pax_basque = {
 		tradition_mountaineers
 		tradition_fishermen
 		tradition_pastoralists
+		tradition_isolationist
 	}
 	
 	name_list = name_list_basque
