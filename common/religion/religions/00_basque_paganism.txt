@@ -24,7 +24,7 @@
 	doctrine = doctrine_adultery_women_crime
 	doctrine = doctrine_kinslaying_close_kin_crime
 	doctrine = doctrine_deviancy_shunned
-	doctrine = doctrine_witchcraft_accepted
+	doctrine = doctrine_witchcraft_virtuous
 
 	#Clerical Functions
 	doctrine = doctrine_clerical_function_alms_and_pacification
@@ -240,7 +240,7 @@
 			doctrine = unreformed_faith_doctrine
 
 			doctrine = tenet_cthonic_redoubts
-			doctrine = tenet_christian_syncretism
+			doctrine = tenet_ritual_celebrations
 			doctrine = tenet_communal_identity
 		}
 	}

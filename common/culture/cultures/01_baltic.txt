@@ -35,6 +35,7 @@ przeworsk = {
 	traditions = {
 		tradition_pastoralists
 		tradition_collective_lands
+		tradition_medicinal_plants
 	}
 	
 	name_list = name_list_finnish

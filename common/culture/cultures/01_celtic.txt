@@ -95,6 +95,7 @@ gallic_comato = {
 		tradition_metal_craftsmanship
 		tradition_tribe_unity
 		tradition_city_keepers
+		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_welsh
@@ -123,6 +124,7 @@ gallic_belgica = {
 		tradition_tribe_unity
 		tradition_castle_keepers
 		tradition_stand_and_fight
+		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_welsh
@@ -151,7 +153,7 @@ gallic_veneti  = {
 		tradition_maritime_mercantilism
 		tradition_seafaring
 		tradition_fishermen
-		tradition_metal_craftsmanship
+		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_welsh
@@ -292,6 +294,7 @@ gallaecian = {
 		tradition_pastoralists
 		tradition_swords_for_hire
 		tradition_battlefield_looters
+		tradition_hill_dwellers
 	}
 	
 	name_list = name_list_welsh
@@ -364,5 +367,34 @@ boier = {
 		15 = caucasian_northern_ginger
 		10 = caucasian_northern_brown_hair
 		5 = caucasian_northern_dark_hair
+	}
+}
+
+gallic_illyrian = {
+	color = { 0.3 0.7 0.1 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_celtic
+	language = language_celtic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_artisans
+		tradition_metal_craftsmanship
+		tradition_warrior_culture
+		tradition_quarrelsome
+	}
+	
+	name_list = name_list_welsh
+	
+	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = caucasian_brown_hair
+		10 = caucasian_dark_hair
+		5 = caucasian_blond
+		4 = mediterranean
 	}
 }
