@@ -6,10 +6,35 @@ iberian = {
 	language = language_iberian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_tribe_unity
-		tradition_swords_for_hire
+		tradition_hill_dwellers
 		tradition_artisans
 		tradition_sorcerous_metallurgy
+		tradition_mendicant_mystics
+	}
+	
+	name_list = name_list_suebi
+	
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	unit_gfx = { western_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+lusitian = {
+	color = { 0.4 0.87 0.0 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_iberian
+	language = language_lusitanisch
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_stand_and_fight
+		tradition_fishermen
 	}
 	
 	name_list = name_list_suebi
@@ -35,6 +60,7 @@ pax_basque = {
 		tradition_mountaineers
 		tradition_fishermen
 		tradition_pastoralists
+		tradition_isolationist
 	}
 	
 	name_list = name_list_basque

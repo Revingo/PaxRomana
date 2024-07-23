@@ -1879,3 +1879,21 @@ language_prakrit = {
 	
 	color = meder
 }
+
+language_lusitanisch = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_lusitanisch
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lusitanisch }
+			multiply = 10
+		}
+	}
+	
+	color = gallic_alpina
+}

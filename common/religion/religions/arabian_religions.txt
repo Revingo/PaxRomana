@@ -226,9 +226,9 @@ arabian_religion = {
 			#unreformed
 			doctrine = unreformed_faith_doctrine
 
-			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_struggle_submission
-			doctrine = tenet_sacred_shadows
+			doctrine = tenet_sacrificial_ceremonies
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_sun_worship
 		}
 	}
 }
