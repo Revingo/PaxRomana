@@ -237,11 +237,11 @@ tengrism_religion = {
 			icon = custom_faith_7
 			reformed_icon = custom_faith_7
 
-			holy_site = rome
-			holy_site = constantinople
-			holy_site = kent
-			holy_site = baghdad
+			holy_site = mount_ararat
 			holy_site = kerch
+			holy_site = preslav
+			holy_site = qazvin
+			holy_site = zamwa
 
 			#Main Group
 			doctrine = doctrine_no_head
@@ -258,7 +258,7 @@ tengrism_religion = {
 			#Crimes
 			doctrine = doctrine_homosexuality_accepted
 			doctrine = doctrine_adultery_men_crime
-			doctrine = doctrine_adultery_women_accepted
+			doctrine = doctrine_adultery_women_shunned
 			doctrine = doctrine_kinslaying_any_dynasty_member_crime
 			doctrine = doctrine_deviancy_accepted
 			doctrine = doctrine_witchcraft_virtuous
@@ -271,12 +271,12 @@ tengrism_religion = {
 
 			doctrine = unreformed_faith_doctrine
 
-			doctrine = tenet_polyamory
+			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_carnal_exaltation
 			doctrine = tenet_sacred_childbirth
 
 			#Clerical Functions
-			doctrine = doctrine_clerical_function_alms_and_pacification
+			doctrine = doctrine_clerical_function_recruitment
 			doctrine = doctrine_clerical_gender_female_only
 			doctrine = doctrine_clerical_marriage_allowed
 			doctrine = doctrine_clerical_succession_temporal_appointment
