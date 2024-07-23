@@ -1,0 +1,39 @@
+pdxmesh = {
+	name = "roman_tabletop_armour_mesh"
+	file = "roman_tabletop_armour.mesh"
+
+	cull_distance = 50000
+
+	meshsettings = {
+		name = "roman_helmet"
+		index = 0
+		texture_diffuse = "roman_helmet_01_evocati_diffuse.dds"
+		texture_normal = "roman_helmet_01_evocati_normal.dds"
+		texture_specular = "roman_helmet_01_evocati_properties.dds"
+		shader = "standard_map_decoration"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "gladius_sword"
+		index = 0
+		texture_diffuse = "roman_sword_01_gladius_diffuse.dds"
+		texture_normal = "roman_sword_01_gladius_normal.dds"
+		texture_specular = "roman_sword_01_gladius_properties.dds"
+		shader = "standard"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+	meshsettings = {
+		name = "crest_plums"
+		index = 0
+		texture_diffuse = "roman_helmet_01_evocati_fibres_diffuse.dds"
+		texture_normal = "roman_helmet_01_evocati_fibres_normal.dds"
+		texture_specular = "roman_helmet_01_evocati_fibres_properties.dds"
+		shader = "standard_alpha_to_coverage"
+		shader_file = "gfx/FX/pdxmesh.shader"
+	}
+}
+
+entity = {
+	name = "roman_tabletop_armour_entity"
+	pdxmesh = "roman_tabletop_armour_mesh"
+}

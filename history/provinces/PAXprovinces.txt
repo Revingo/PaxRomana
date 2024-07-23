@@ -412,7 +412,7 @@
 }
 104 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 105 = {
 	culture = finnish
@@ -436,7 +436,7 @@
 }
 110 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 111 = {
 	culture = finnish
@@ -452,11 +452,11 @@
 }
 114 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 115 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 116 = {
 	culture = finnish
@@ -468,7 +468,7 @@
 }
 118 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 119 = {
 	culture = finnish
@@ -476,7 +476,7 @@
 }
 120 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 121 = {
 	culture = finnish
@@ -492,7 +492,7 @@
 }
 124 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 125 = {
 	culture = finnish
@@ -504,7 +504,7 @@
 }
 127 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 128 = {
 	culture = finnish
@@ -528,7 +528,7 @@
 }
 133 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 134 = {
 	culture = finnish
@@ -608,11 +608,11 @@
 }
 153 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 154 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 155 = {
 	culture = roman
@@ -620,7 +620,7 @@
 }
 156 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 157 = {
 	culture = roman
@@ -640,7 +640,7 @@
 }
 161 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 162 = {
 	culture = roman
@@ -660,7 +660,7 @@
 }
 166 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 167 = {
 	culture = roman
@@ -2112,7 +2112,7 @@
 }
 529 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 530 = {
 	culture = slavic
@@ -2188,15 +2188,15 @@
 }
 548 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 549 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 550 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 551 = {
 	culture = roman
@@ -3732,7 +3732,7 @@
 }
 934 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 935 = {
 	culture = roman
@@ -4548,7 +4548,7 @@
 }
 1138 = {
 	culture = mauryan
-	religion = mazdakism
+	religion = mahayana
 }
 1139 = {
 	culture = roman
@@ -5184,7 +5184,7 @@
 }
 1297 = {
 	culture = meder
-	religion = mazdakism
+	religion = mahayana
 }
 1298 = {
 	culture = roman
@@ -5208,7 +5208,7 @@
 }
 1303 = {
 	culture = meder
-	religion = mazdakism
+	religion = mahayana
 }
 1304 = {
 	culture = roman
@@ -5352,7 +5352,7 @@
 }
 1339 = {
 	culture = mauryan
-	religion = mazdakism
+	religion = mahayana
 }
 1340 = {
 	culture = roman
@@ -5496,7 +5496,7 @@
 }
 1375 = {
 	culture = mauryan
-	religion = mazdakism
+	religion = mahayana
 }
 1376 = {
 	culture = roman
@@ -7028,11 +7028,11 @@
 }
 1758 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1759 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1760 = {
 	culture = roman
@@ -7040,7 +7040,7 @@
 }
 1761 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1762 = {
 	culture = gallaecian
@@ -7048,7 +7048,7 @@
 }
 1763 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1764 = {
 	culture = gallaecian
@@ -7072,7 +7072,7 @@
 }
 1769 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1770 = {
 	culture = gallaecian
@@ -7088,7 +7088,7 @@
 }
 1773 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1774 = {
 	culture = gallaecian
@@ -7132,11 +7132,11 @@
 }
 1784 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1785 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1786 = {
 	culture = gallaecian
@@ -7144,7 +7144,7 @@
 }
 1787 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1788 = {
 	culture = gallaecian
@@ -7176,7 +7176,7 @@
 }
 1795 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1796 = {
 	culture = roman
@@ -7268,7 +7268,7 @@
 }
 1818 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1819 = {
 	culture = gallaecian
@@ -7280,7 +7280,7 @@
 }
 1821 = {
 	culture = gallaecian
-	religion = druidism
+	religion = celtiberianism
 }
 1822 = {
 	culture = roman
@@ -11336,7 +11336,7 @@
 }
 2835 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 2836 = {
 	culture = gallic_belgica
@@ -12788,7 +12788,7 @@
 }
 3198 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 3199 = {
 	culture = roman
@@ -12812,7 +12812,7 @@
 }
 3204 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 3205 = {
 	culture = slavic
@@ -12828,7 +12828,7 @@
 }
 3208 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 3209 = {
 	culture = roman
@@ -12844,7 +12844,7 @@
 }
 3212 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 3213 = {
 	culture = slavic
@@ -12852,7 +12852,7 @@
 }
 3214 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 3215 = {
 	culture = roman
@@ -12860,7 +12860,7 @@
 }
 3216 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 3217 = {
 	culture = finnish
@@ -12868,7 +12868,7 @@
 }
 3218 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 3219 = {
 	culture = finnish
@@ -12876,7 +12876,7 @@
 }
 3220 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 3221 = {
 	culture = roman
@@ -17904,7 +17904,7 @@
 }
 4477 = {
 	culture = meder
-	religion = mazdakism
+	religion = mahayana
 }
 4478 = {
 	culture = roman
@@ -17912,7 +17912,7 @@
 }
 4479 = {
 	culture = mauryan
-	religion = mazdakism
+	religion = mahayana
 }
 4480 = {
 	culture = roman
@@ -18048,7 +18048,7 @@
 }
 4513 = {
 	culture = mauryan
-	religion = mazdakism
+	religion = mahayana
 }
 4514 = {
 	culture = roman
@@ -18064,7 +18064,7 @@
 }
 4517 = {
 	culture = mauryan
-	religion = mazdakism
+	religion = mahayana
 }
 4518 = {
 	culture = roman
@@ -19684,7 +19684,7 @@
 }
 4922 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 4923 = {
 	culture = finnish
@@ -19744,7 +19744,7 @@
 }
 4937 = {
 	culture = przeworsk
-	religion = scythian
+	religion = baltic_pagan
 }
 4938 = {
 	culture = slavic
@@ -19768,7 +19768,7 @@
 }
 4943 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 4944 = {
 	culture = slavic
@@ -19780,7 +19780,7 @@
 }
 4946 = {
 	culture = oder_vistula_germans
-	religion = scythian
+	religion = baltic_pagan
 }
 4947 = {
 	culture = roman
@@ -19800,7 +19800,7 @@
 }
 4951 = {
 	culture = przeworsk
-	religion = scythian
+	religion = baltic_pagan
 }
 4952 = {
 	culture = slavic
@@ -20172,7 +20172,7 @@
 }
 5044 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 5045 = {
 	culture = roman
@@ -20224,7 +20224,7 @@
 }
 5057 = {
 	culture = przeworsk
-	religion = scythian
+	religion = baltic_pagan
 }
 5058 = {
 	culture = roman
@@ -20452,7 +20452,7 @@
 }
 5114 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 5115 = {
 	culture = roman
@@ -20464,7 +20464,7 @@
 }
 5117 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 5118 = {
 	culture = roman
@@ -20472,7 +20472,7 @@
 }
 5119 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 5120 = {
 	culture = roman
@@ -20504,7 +20504,7 @@
 }
 5127 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 5128 = {
 	culture = roman
@@ -20540,7 +20540,7 @@
 }
 5136 = {
 	culture = finnish
-	religion = scythian
+	religion = baltic_pagan
 }
 5137 = {
 	culture = roman
