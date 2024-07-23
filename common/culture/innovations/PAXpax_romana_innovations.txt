@@ -38,8 +38,8 @@ innovation_lorica_segmentata = {
 	icon = @weapons_and_armor_01
 
 	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		maa_toughness_mult = 0.10
+		stationed_maa_toughness_mult = 0.2
 	}
 
 	flag = global_regular
@@ -49,12 +49,9 @@ innovation_lorica_segmentata = {
 innovation_advanced_sieges = {
 	group = culture_group_military
 	culture_era = culture_era_high_medieval
-	icon = @weapons_and_armor_01
+	icon = @siege_weapons
 
-	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
-	}
+	unlock_maa = ballista
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -65,10 +62,7 @@ innovation_strong_walls = {
 	culture_era = culture_era_high_medieval
 	icon = @weapons_and_armor_01
 
-	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
-	}
+	# TODO: Create Pax Romana era fortification buildings
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -77,11 +71,12 @@ innovation_strong_walls = {
 innovation_military_camps = {
 	group = culture_group_military
 	culture_era = culture_era_high_medieval
-	icon = @weapons_and_armor_01
+	icon = @levy_building
 
 	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		army_damage_mult = 0.1
+		army_pursuit_mult = 0.05
+		army_toughness_mult = 0.1
 	}
 
 	flag = global_regular
@@ -91,11 +86,10 @@ innovation_military_camps = {
 innovation_iron_shield_boss = {
 	group = culture_group_military
 	culture_era = culture_era_high_medieval
-	icon = @weapons_and_armor_01
+	icon = @weapons_and_armor_02
 
 	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		maa_damage_mult = 0.15
 	}
 
 	flag = global_regular
@@ -105,11 +99,10 @@ innovation_iron_shield_boss = {
 innovation_scutum = {
 	group = culture_group_military
 	culture_era = culture_era_high_medieval
-	icon = @weapons_and_armor_01
+	icon = @weapons_and_armor_02
 
 	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		maa_toughness_mult = 0.20
 	}
 
 	flag = global_regular
@@ -122,8 +115,8 @@ innovation_martial_composure = {
 	icon = @weapons_and_armor_01
 
 	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		counter_resistance = 0.15
+		counter_advantage = 0.15
 	}
 
 	flag = global_regular
@@ -133,12 +126,9 @@ innovation_martial_composure = {
 innovation_horse_breeders = {
 	group = culture_group_military
 	culture_era = culture_era_high_medieval
-	icon = @weapons_and_armor_01
+	icon = @maa_01
 
-	character_modifier = {
-		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
-	}
+	unlock_maa = light_horsemen
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -148,20 +138,22 @@ innovation_horse_breeders = {
 innovation_arenas = {
 	group = culture_group_civic
 	culture_era = culture_era_high_medieval
-	icon = @civil_construction_2
+	icon = @civil_construction_1
 	
-	# TODO: add the switch to dynastic government decision
+	# TODO: add an arena building
 
 	flag = global_regular
 	flag = high_medieval_era_regular
 }
 
-innovation_aelopile = {
+innovation_aeolipile = {
 	group = culture_group_civic
 	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	# TODO: add the switch to dynastic government decision
+	character_modifier = {
+		build_speed = 0.25
+	}
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -172,7 +164,14 @@ innovation_noria = {
 	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	# TODO: add the switch to dynastic government decision
+	character_modifier = {
+		farmlands_tax_mult = 0.1
+		farmland_development_growth_factor = 0.2
+		farmland_supply_limit_mult = 0.15
+		floodplains_development_growth_factor = 0.2
+		floodplains_supply_limit_mult = 0.15
+		wetlands_development_growth_factor = 0.15
+	}
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -183,7 +182,11 @@ innovation_paved_roads = {
 	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	# TODO: add the switch to dynastic government decision
+	character_modifier = {
+		movement_speed = 0.20
+		character_travel_speed_mult = 0.20
+		character_travel_safety_mult = 0.10
+	}
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -194,7 +197,11 @@ innovation_central_heating = {
 	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	# TODO: add the switch to dynastic government decision
+	character_modifier = {
+		defender_winter_advantage = 0.15
+		hard_casualty_winter = -0.1
+		supply_loss_winter = -0.2
+	}
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -205,7 +212,11 @@ innovation_governance_substratum = {
 	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	# TODO: add the switch to dynastic government decision
+	character_modifier = {
+		vassal_tax_contribution_mult = 0.1
+		happy_powerful_vassal_tax_contribution_mult = 0.05
+		stewardship_per_stress_level = 2
+	}
 
 	flag = global_regular
 	flag = high_medieval_era_regular
@@ -221,9 +232,9 @@ innovation_marian_reform = {
 		has_cultural_pillar = heritage_latin
 	}
 
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
+	unlock_maa = legionaries
+	unlock_maa = antesignani
+	unlock_maa = legionary_cavalry
 
 	flag = global_regional
 	flag = high_medieval_era_regional
@@ -235,12 +246,11 @@ innovation_chariotiers = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		OR = {
+			culture_overlaps_geographical_region = PAXworld_west_britain
+			culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+		}
 	}
-
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
 
 	flag = global_regional
 	flag = high_medieval_era_regional
