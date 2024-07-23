@@ -32,158 +32,189 @@
 @special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
 
 # Military
-innovation_trireme = {
+innovation_lorica_segmentata = {
 	group = culture_group_military
-	culture_era = culture_era_tribal
-	icon = @longboats
-
-	character_modifier = {
-		embarkation_cost_mult = -0.75
-		naval_movement_speed_mult = 0.25
-	}
-
-	custom = unlocks_naval_raiding
-	custom = unlocks_sailable_major_rivers
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_tribal_sieges = {
-	group = culture_group_military
-	culture_era = culture_era_tribal
-	icon = @siege_weapons
-
-	unlock_maa = polybolos
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_tribal_defences = {
-	group = culture_group_military
-	culture_era = culture_era_tribal
-	icon = @fortifications
-
-	custom = unlock_tribal_fortification_buildings
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_iron_smithing = {
-	group = culture_group_military
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @weapons_and_armor_01
-	
+
 	character_modifier = {
-		prowess = 1
-		army_toughness_mult = 0.05
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
 	}
 
 	flag = global_regular
-	flag = tribal_era_regular
+	flag = high_medieval_era_regular
 }
 
-innovation_phalanx = {
+innovation_advanced_sieges = {
 	group = culture_group_military
-	culture_era = culture_era_tribal
-	icon = @leadership_1
-	
-	unlock_maa = spearmen_unit
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
 
 	flag = global_regular
-	flag = tribal_era_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_strong_walls = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_military_camps = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_iron_shield_boss = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_scutum = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_martial_composure = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_horse_breeders = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.15
+		stationed_maa_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
 }
 
 # Civic
-innovation_city-states = {
+innovation_arenas = {
 	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	# TODO: add the switch to city-state government decision
+	# TODO: add the switch to dynastic government decision
 
 	flag = global_regular
-	flag = tribal_era_regular
+	flag = high_medieval_era_regular
 }
 
-innovation_acqueducts = {
+innovation_aelopile = {
 	group = culture_group_civic
-	culture_era = culture_era_tribal
-	icon = @civil_construction_1
-	
-	# TODO: add the acqueducts building
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_plowshare = {
-	group = culture_group_civic
-	culture_era = culture_era_tribal
-	icon = @levy_building
-	
-	# TODO: add agricultural buildings
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_doric_columns = {
-	group = culture_group_civic
-	culture_era = culture_era_tribal
-	icon = @civil_construction_1
-	
-	# TODO: add some buildings
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_astronomy = {
-	group = culture_group_civic
-	culture_era = culture_era_tribal
-	icon = @administration_3
-	
-	character_modifier = {
-		learning_per_prestige_level = 1
-	}
-
-	flag = global_regular
-	flag = tribal_era_regular
-}
-
-innovation_extensive_trading = {
-	group = culture_group_civic
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	#TO DO: add some trading buildings
-	character_modifier = {
-		domain_tax_mult = 0.1
-	}
+	# TODO: add the switch to dynastic government decision
 
 	flag = global_regular
-	flag = tribal_era_regular
+	flag = high_medieval_era_regular
 }
 
-innovation_casus_belli = {
+innovation_noria = {
 	group = culture_group_civic
-	culture_era = culture_era_tribal
-	icon = @administration_1
-
-	unlock_casus_belli = individual_county_de_jure_cb
-	unlock_casus_belli = individual_duchy_de_jure_cb
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	# TODO: add the switch to dynastic government decision
 
 	flag = global_regular
-	flag = tribal_era_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_paved_roads = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	# TODO: add the switch to dynastic government decision
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_central_heating = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	# TODO: add the switch to dynastic government decision
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_governance_substratum = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	# TODO: add the switch to dynastic government decision
+
+	flag = global_regular
+	flag = high_medieval_era_regular
 }
 
 # Culture and Regional
-innovation_roman_fighters = {
+innovation_marian_reform = {
 	group = culture_group_regional
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @hird
 
 	can_progress = {
@@ -195,68 +226,56 @@ innovation_roman_fighters = {
 	unlock_maa = equites
 
 	flag = global_regional
-	flag = tribal_era_regional
+	flag = high_medieval_era_regional
 }
 
-innovation_latin_fighters = {
+innovation_chariotiers = {
 	group = culture_group_regional
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = language_oscan
+		has_cultural_pillar = heritage_latin
 	}
 
-	unlock_maa = samnite_infantry
-	unlock_maa = samnite_cavalry
+	unlock_maa = triarii
+	unlock_maa = hastati
+	unlock_maa = equites
 
 	flag = global_regional
-	flag = tribal_era_regional
+	flag = high_medieval_era_regional
 }
 
-innovation_etruscan_wars = {
+innovation_elite_units = {
 	group = culture_group_regional
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_etruscan
+		has_cultural_pillar = heritage_latin
 	}
 
-	unlock_maa = etruscan_infantry
-	unlock_maa = etruscan_cohorts
+	unlock_maa = triarii
+	unlock_maa = hastati
+	unlock_maa = equites
 
 	flag = global_regional
-	flag = tribal_era_regional
+	flag = high_medieval_era_regional
 }
 
-innovation_elephantry = {
+innovation_religion_adversion = {
 	group = culture_group_regional
-	culture_era = culture_era_tribal
+	culture_era = culture_era_high_medieval
 	icon = @hird
 
 	can_progress = {
-		OR = {
-			culture_overlaps_geographical_region = PAXworld_east_india
-			culture_overlaps_geographical_region = PAXworld_africa
-		}
+		has_cultural_pillar = heritage_latin
 	}
 
-	flag = global_regional
-	flag = tribal_era_regional
-}
-
-innovation_phoenecian_elites = {
-	group = culture_group_regional
-	culture_era = culture_era_tribal
-	icon = @hird
-
-	can_progress = {
-		has_cultural_pillar = heritage_phoenecian
-	}
-
-	unlock_maa = sacred_band
+	unlock_maa = triarii
+	unlock_maa = hastati
+	unlock_maa = equites
 
 	flag = global_regional
-	flag = tribal_era_regional
+	flag = high_medieval_era_regional
 }

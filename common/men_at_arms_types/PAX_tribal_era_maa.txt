@@ -262,6 +262,13 @@ etruscan_cohorts = {
 african_elephants = {
 	type = elephant_cavalry
 	
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_africa
+			has_innovation = innovation_elephantry
+		}
+	}
+
 	damage = 200
 	toughness = 100
 	pursuit = 0
@@ -297,6 +304,13 @@ african_elephants = {
 # Only Indian Region
 indian_elephants = {
 	type = elephant_cavalry
+
+	can_recruit = {
+		culture = {
+			culture_overlaps_geographical_region = PAXworld_east_india
+			has_innovation = innovation_elephantry
+		}
+	}
 	
 	damage = 250
 	toughness = 50
