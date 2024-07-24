@@ -1,15 +1,4 @@
-﻿map_table_style_western = {
-	environment = "gfx/map/environment/environment_western_table.txt"
-	priority = 2
-}
-
-map_table_style_ce1 = {
-	dlc_feature = legends_of_the_dead
-	environment = "gfx/map/environment/environment_ce1_table.txt"
-	priority = 1
-}
-
-map_table_style_roman = {
+﻿map_table_style_roman = {
 	environment = "gfx/map/environment/environment_roman_table.txt"
 	default = yes
 	is_shown = { culture = { has_cultural_tradition = tradition_roman_legacy } }
