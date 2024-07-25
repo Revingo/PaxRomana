@@ -152,7 +152,7 @@ innovation_aeolipile = {
 	icon = @civil_construction_2
 	
 	character_modifier = {
-		build_speed = 0.25
+		build_speed = -0.25
 	}
 
 	flag = global_regular
@@ -252,6 +252,9 @@ innovation_chariotiers = {
 		}
 	}
 
+	custom = unlock_egyptian_chariotiers_if
+	custom = unlock_brythonnic_chariotiers_if
+
 	flag = global_regional
 	flag = high_medieval_era_regional
 }
@@ -262,12 +265,18 @@ innovation_elite_units = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		OR = {
+			has_cultural_pillar = heritage_iberian
+			has_cultural_pillar = heritage_balcan
+			has_cultural_pillar = heritage_german
+			culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+		}
 	}
 
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
+	custom = unlock_noble_iberian_swordsmen_if
+	custom = unlock_nubian_royal_cavalry_if
+	custom = unlock_dacian_spearwall_if
+	custom = unlock_germanic_wolf_warriors_if
 
 	flag = global_regional
 	flag = high_medieval_era_regional
@@ -277,14 +286,6 @@ innovation_religion_adversion = {
 	group = culture_group_regional
 	culture_era = culture_era_high_medieval
 	icon = @hird
-
-	can_progress = {
-		has_cultural_pillar = heritage_latin
-	}
-
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
 
 	flag = global_regional
 	flag = high_medieval_era_regional

@@ -247,12 +247,11 @@ innovation_steppe_raiders = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		culture_overlaps_geographical_region = PAXworld_steppe
 	}
 
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
+	unlock_maa = steppe_spear_warriors
+	unlock_maa = steppe_archer_warriors
 
 	flag = global_regional
 	flag = early_medieval_era_regional
@@ -264,12 +263,11 @@ innovation_makedonian_reform = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		culture_overlaps_geographical_region = PAXworld_europe_south_makedon
 	}
 
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
+	unlock_maa = makedonian_pikemen
+	unlock_maa = companion_cavalry
 
 	flag = global_regional
 	flag = early_medieval_era_regional
@@ -281,7 +279,7 @@ innovation_seleucids_strenght = {
 	icon = @hird
 
 	can_progress = {
-		culture = culture:seleucid
+		culture_overlaps_geographical_region = PAXworld_east_persia_west
 	}
 
 	unlock_maa = silver_shield_pikemen
@@ -310,7 +308,7 @@ innovation_warrior_druids = {
 	culture_era = culture_era_early_medieval
 	icon = @hird
 
-	unlock_maa = druids_warband
+	custom = unlock_warrior_druids_if
 
 	flag = global_regional
 	flag = early_medieval_era_regional

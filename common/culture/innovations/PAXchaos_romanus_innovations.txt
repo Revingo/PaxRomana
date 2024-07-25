@@ -168,12 +168,18 @@ innovation_noble_milita = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		OR = {
+			has_cultural_pillar = heritage_persian
+			has_cultural_pillar = heritage_celtic
+			culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
+			culture_overlaps_geographical_region = PAXworld_africa_egypt
+		}
 	}
 
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
+	custom = unlock_persian_noble_caaphracts_if
+	custom = unlock_celtic_noble_warband_if
+	custom = unlock_illyrian_nobles_if
+	custom = unlock_egyptian_royal_guards_if
 
 	flag = global_regional
 	flag = late_medieval_era_regional
@@ -185,12 +191,11 @@ innovation_alone_and_standing = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		AND = {
+			has_cultural_pillar = heritage_hellenic
+			culture_overlaps_geographical_region = PAXworld_east_persia_east_baktria
+		}
 	}
-
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
 
 	flag = global_regional
 	flag = late_medieval_era_regional
@@ -202,12 +207,8 @@ innovation_warriors_of_blood = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		has_cultural_pillar = heritage_german
 	}
-
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
 
 	flag = global_regional
 	flag = late_medieval_era_regional
@@ -219,12 +220,8 @@ innovation_steppes_blood_lust = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_latin
+		culture_overlaps_geographical_region = PAXworld_steppe
 	}
-
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
 
 	flag = global_regional
 	flag = late_medieval_era_regional
@@ -234,14 +231,9 @@ innovation_strenght_in_numbers = {
 	group = culture_group_regional
 	culture_era = culture_era_late_medieval
 	icon = @hird
-
-	can_progress = {
-		has_cultural_pillar = heritage_latin
+	character_modifier = {
+		tribal_government_levy_contribution_mult = 1
 	}
-
-	unlock_maa = triarii
-	unlock_maa = hastati
-	unlock_maa = equites
 
 	flag = global_regional
 	flag = late_medieval_era_regional

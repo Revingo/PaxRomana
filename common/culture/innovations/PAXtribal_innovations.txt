@@ -104,6 +104,8 @@ innovation_city-states = {
 	
 	# TODO: add the switch to city-state government decision
 
+	custom = can_change_to_city_state
+
 	flag = global_regular
 	flag = tribal_era_regular
 }
@@ -159,7 +161,7 @@ innovation_extensive_trading = {
 	culture_era = culture_era_tribal
 	icon = @civil_construction_2
 	
-	#TO DO: add some trading buildings
+	# TODO: add some trading buildings
 	character_modifier = {
 		domain_tax_mult = 0.1
 	}
@@ -241,6 +243,9 @@ innovation_elephantry = {
 			culture_overlaps_geographical_region = PAXworld_africa
 		}
 	}
+
+	custom = unlock_african_elephants_if
+	custom = unlock_indian_elephants_if
 
 	flag = global_regional
 	flag = tribal_era_regional
