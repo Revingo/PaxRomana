@@ -1,4 +1,4 @@
-﻿roman = {
+﻿pax_roman = {
 	color = { 0.4 0.0 0.04 }
 
 	ethos = ethos_bellicose
