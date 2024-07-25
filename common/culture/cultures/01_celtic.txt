@@ -312,7 +312,7 @@ gallaecian = {
 	}
 }
 
-south_germans = {
+hallstatt_celts = {
 	color = { 0.32 0.90 0.30 }
 	
 	ethos = ethos_bellicose
