@@ -197,10 +197,10 @@ innovation_central_heating = {
 	culture_era = culture_era_high_medieval
 	icon = @civil_construction_2
 	
-	character_modifier = {
-		defender_winter_advantage = 0.15
+	province_modifier = {
+		defender_winter_advantage = 20
 		hard_casualty_winter = -0.1
-		supply_loss_winter = -0.2
+		supply_loss_winter = -20
 	}
 
 	flag = global_regular
@@ -286,6 +286,16 @@ innovation_religion_adversion = {
 	group = culture_group_regional
 	culture_era = culture_era_high_medieval
 	icon = @hird
+
+	character_modifier = {
+		#domain_tax_same_faith_mult = 0.1
+		#opinion_of_same_faith = 20
+		#opinion_of_different_faith = -25
+		#same_faith_opinion = 20
+		#different_faith_opinion = -25
+	}
+
+	custom = add_modifier_if_abrahimic
 
 	flag = global_regional
 	flag = high_medieval_era_regional

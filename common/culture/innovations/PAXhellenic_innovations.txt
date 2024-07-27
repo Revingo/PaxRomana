@@ -145,8 +145,8 @@ innovation_military_training = {
 
 	character_modifier = {
 		levy_maintenance = 0.15
-		levy_pursuit = 0.15
-		levy_screen = 0.1
+		levy_pursuit = 10
+		levy_screen = 10
 		army_damage_mult = 0.07
 	}
 
@@ -162,6 +162,8 @@ innovation_dynasticism = {
 	
 	# TODO: add the switch to dynastic government decision
 
+	custom = can_change_to_dynastic
+
 	flag = global_regular
 	flag = early_medieval_era_regular
 }
@@ -172,6 +174,8 @@ innovation_potestas_ad_populum = {
 	icon = @majesty_02
 	
 	# TODO: add the switch to Res-Publica government decision
+
+	custom = can_change_to_res_publica
 
 	flag = global_regular
 	flag = early_medieval_era_regular
@@ -233,7 +237,7 @@ innovation_greek_surgeries = {
 	icon = @civil_construction_2
 	
 	character_modifier = {
-		epidemic_resistance = 0.15
+		health = 0.25
 	}
 
 	flag = global_regular
@@ -294,7 +298,11 @@ innovation_master_dog_trainers = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_celtic
+		OR = {
+			culture_overlaps_geographical_region = PAXworld_europe_west_gallia
+			culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
+			culture_overlaps_geographical_region = PAXworld_europe_germania
+		}	
 	}
 
 	unlock_maa = warhounds

@@ -39,3 +39,8 @@
  innovation_phoenecian_elites: "Phoenecian Elites"
  innovation_phoenecian_elites_desc: "Those pesky nobles, they are just annoying, they sit all day thinking about how to get rich, mostly to your detriment. But we could convince them that they can help the country, using that gold to buy good armor, the best training, excellent weapons and protect us. Yes, I think that would be great, even if it's going to cost us to recruit them... I think they found a way to get your gold again, haven't they?"
  
+
+ # Customs
+ can_change_to_city_state: "Can change your government type to [GetGovernment('city-state_government').GetName]"
+ unlock_african_elephants_if: "Can recruit [GetMaA('african_elephants').GetName] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa').GetName] [region|E] as [men_at_arms|E]"
+ unlock_indian_elephants_if: "Can recruit [GetMaA('indian_elephants').GetName] if your [culture|E] is in [GetGeographicalRegion('PAXworld_east_india').GetName] [region|E] as [men_at_arms|E]"
