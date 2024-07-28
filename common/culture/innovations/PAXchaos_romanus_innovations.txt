@@ -64,7 +64,6 @@ innovation_impenetrable_defences = {
 
 	# TODO: Create Chaos Romanus era fortification buildings
 
-
 	flag = global_regular
 	flag = late_medieval_era_regular
 }
@@ -176,7 +175,7 @@ innovation_noble_milita = {
 		}
 	}
 
-	custom = unlock_persian_noble_caaphracts_if
+	custom = unlock_persian_noble_cataphracts_if
 	custom = unlock_celtic_noble_warband_if
 	custom = unlock_illyrian_nobles_if
 	custom = unlock_egyptian_royal_guards_if

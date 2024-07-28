@@ -5,6 +5,7 @@
  innovation_final_sieges: "Final Sieges"
  innovation_impenetrable_defences: "Impenetrable Defences"
  innovation_border_garrisons: "Border Garrisons"
+ innovation_spata: "Spata"
  innovation_professional_army: "Professional Army"
  
  # Civic
@@ -19,3 +20,9 @@
  innovation_warriors_of_blood: "Warriors of Blood"
  innovation_steppes_blood_lust: "Steppe's Blood Lust"
  innovation_strenght_in_numbers: "Strenght in Numbers"
+
+ # Customs
+ unlock_persian_noble_cataphracts_if: "Can recruit [GetMaA('persian_noble_cataphracts').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_persian_name$ [heritage|E]"
+ unlock_celtic_noble_warband_if: "Can recruit [GetMaA('celtic_noble_warband').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_celtic_name$ [heritage|E]"
+ unlock_illyrian_nobles_if: "Can recruit [GetMaA('illyrian_nobles').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_europe_balkans_illyria').GetName] [region|E]"
+ unlock_egyptian_royal_guards_if: "Can recruit [GetMaA('egyptian_royal_guards').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E]"

@@ -45,3 +45,4 @@
  fp3_innovation_fritware: "Fritware"
  fp3_innovation_fritware_desc: "Beautiful stone pottery in the image of eastern porcelain, by mixing in materials such as quartz or glass. They make for valuable merchandise, or impressive gifts."
  fp3_innovation_fritware_tooltip: "[opinion|E] Gain from [send_gift|E]: #P +20%#!"
+ culture_parameter_unlock_maa_archers_of_the_nile:0 "Can recruit [GetMaA('egyptian_nobel_archers').GetName] as [men_at_arms|E]"

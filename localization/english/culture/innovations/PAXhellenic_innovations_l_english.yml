@@ -27,3 +27,8 @@
  innovation_master_dog_trainers: "Master Dog Trainers"
  innovation_warrior_druids: "Warrior Druids"
  innovation_iberian_mercenary_gains: "Iberian Mercenary Gains"
+
+ # Customs
+ can_change_to_dynastic: "Can change your government type to [GetGovernment('dynastic_government').GetName]"
+ can_change_to_res_publica: Can change your government type to [GetGovernment('res_publica_government').GetName]
+ unlock_warrior_druids_if: "Can recruit [GetMaA('druids_warband').GetName] as [men_at_arms|E] if you have a [GetReligionByKey('celtic_religion').GetAdjective] [faith|E]"

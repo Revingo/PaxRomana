@@ -24,3 +24,11 @@
  innovation_elite_units: "Elite Units"
  innovation_religion_adversion: "Religion Adversion"
  
+ # Customs
+ unlock_egyptian_chariotiers_if: "Can recruit [GetMaA('egyptian_chariots').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E]"
+ unlock_brythonnic_chariotiers_if: "Can recruit [GetMaA('brythonic_chariots').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_europe_britannia_et_hibernia_britannia').GetName] [region|E]"
+ unlock_noble_iberian_swordsmen_if: "Can recruit [GetMaA('noble_iberian_swordsmen').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_iberian_name$ [heritage|E]"
+ unlock_nubian_royal_cavalry_if: "Can recruit [GetMaA('nubian_royal_cavalry').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E]"
+ unlock_dacian_spearwall_if: "Can recruit [GetMaA('spearwall').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_balcan_name$ [heritage|E]"
+ unlock_germanic_wolf_warriors_if: "Can recruit [GetMaA('germanic_wolf_warriors').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_german_name$ [heritage|E]"
+ add_modifier_if_abrahimic: "Get the modifiers if you have a [GetReligionFamily('rf_abrahamic').GetName] [faith|E]"

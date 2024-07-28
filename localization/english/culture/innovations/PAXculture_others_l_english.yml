@@ -1,0 +1,4 @@
+﻿l_english:
+ culture_parameter_unlock_maa_hoplites: "Can recruit [GetMaA('hoplites').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_cretan_archers: "Can recruit [GetMaA('cretan_archers').GetName] as [men_at_arms|E]"
+ culture_parameter_unlock_maa_pikemen_unit: "Can recruit [GetMaA('pikemen_unit').GetName] as [men_at_arms|E]"

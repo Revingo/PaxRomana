@@ -247,8 +247,8 @@ innovation_chariotiers = {
 
 	can_progress = {
 		OR = {
-			culture_overlaps_geographical_region = PAXworld_west_britain
-			culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+			culture_overlaps_geographical_region = PAXworld_europe_britannia_et_hibernia_britannia
+			culture_overlaps_geographical_region = PAXworld_africa_egypt
 		}
 	}
 
