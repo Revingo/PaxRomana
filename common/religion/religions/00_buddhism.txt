@@ -254,11 +254,8 @@
 			color = { 0.8 0.3 0.2 }
 			icon = mahayana
 
-			holy_site = kusinagara
-			holy_site = bodh_gaya
-			holy_site = sarnath
-			holy_site = sanchi
-			holy_site = amaravati
+			holy_site = rajanpur
+			holy_site = debul
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_mendicant_preachers
