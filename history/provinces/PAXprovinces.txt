@@ -6984,11 +6984,11 @@
 }
 1747 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1748 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1749 = {
 	culture = pax_roman
@@ -7004,7 +7004,7 @@
 }
 1752 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1753 = {
 	culture = gallaecian
@@ -7012,7 +7012,7 @@
 }
 1754 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1755 = {
 	culture = gallaecian
@@ -7028,11 +7028,11 @@
 }
 1758 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1759 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1760 = {
 	culture = pax_roman
@@ -7040,7 +7040,7 @@
 }
 1761 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1762 = {
 	culture = gallaecian
@@ -7048,7 +7048,7 @@
 }
 1763 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1764 = {
 	culture = gallaecian
@@ -7072,7 +7072,7 @@
 }
 1769 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1770 = {
 	culture = gallaecian
@@ -7088,7 +7088,7 @@
 }
 1773 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1774 = {
 	culture = gallaecian
@@ -7100,11 +7100,11 @@
 }
 1776 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1777 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1778 = {
 	culture = gallaecian
@@ -7132,11 +7132,11 @@
 }
 1784 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1785 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1786 = {
 	culture = gallaecian
@@ -7144,7 +7144,7 @@
 }
 1787 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1788 = {
 	culture = gallaecian
@@ -7268,7 +7268,7 @@
 }
 1818 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1819 = {
 	culture = gallaecian
@@ -7280,7 +7280,7 @@
 }
 1821 = {
 	culture = gallaecian
-	religion = celtiberianism
+	religion = gallaecianism
 }
 1822 = {
 	culture = pax_roman
@@ -7320,7 +7320,7 @@
 }
 1831 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1832 = {
 	culture = pax_roman
@@ -7332,11 +7332,11 @@
 }
 1834 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1835 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1836 = {
 	culture = iberian
@@ -7344,7 +7344,7 @@
 }
 1837 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1838 = {
 	culture = pax_roman
@@ -7671,8 +7671,8 @@
 	religion = r_hellenic
 }
 1919 = {
-	culture = iberian
-	religion = i_iberian
+	culture = celtiberian
+	religion = celtiberianism
 }
 1920 = {
 	culture = pax_roman
@@ -7687,8 +7687,8 @@
 	religion = r_hellenic
 }
 1923 = {
-	culture = iberian
-	religion = i_iberian
+	culture = celtiberian
+	religion = celtiberianism
 }
 1924 = {
 	culture = celtiberian
@@ -7723,8 +7723,8 @@
 	religion = r_hellenic
 }
 1932 = {
-	culture = iberian
-	religion = i_iberian
+	culture = celtiberian
+	religion = celtiberianism
 }
 1933 = {
 	culture = pax_roman
@@ -7735,8 +7735,8 @@
 	religion = r_hellenic
 }
 1935 = {
-	culture = iberian
-	religion = i_iberian
+	culture = celtiberian
+	religion = celtiberianism
 }
 1936 = {
 	culture = pax_roman
@@ -7812,7 +7812,7 @@
 }
 1954 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1955 = {
 	culture = iberian
@@ -7980,7 +7980,7 @@
 }
 1996 = {
 	culture = lusitian
-	religion = i_iberian
+	religion = lusitianisch
 }
 1997 = {
 	culture = pax_roman
