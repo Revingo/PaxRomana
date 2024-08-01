@@ -38,7 +38,7 @@ samnites = {
 		tradition_horse_breeder
 	}
 
-	name_list = name_list_pax_roman
+	name_list = name_list_samnite
 
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -89,7 +89,7 @@ umbrian = {
 		tradition_metal_craftsmanship
 	}
 
-	name_list = name_list_pax_roman
+	name_list = name_list_umbrian
 
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 
@@ -115,7 +115,7 @@ venetii = {
 		tradition_sorcerous_metallurgy
 	}
 
-	name_list = name_list_pax_roman
+	name_list = name_list_transpadanian
 
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 

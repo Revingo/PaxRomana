@@ -137,3 +137,184 @@ name_list_pax_oscan = {
 
 	
 }
+
+
+name_list_samnite = {
+
+    cadet_dynasty_names = {
+        "dynn_Etruscan"
+        "dynn_Samnite"
+        "dynn_Campanian"
+        "dynn_Peucetian"
+        "dynn_Messapian"
+        "dynn_Latin"
+        "dynn_Oscan"
+        "dynn_Sabine"
+        "dynn_Apicinian"
+        "dynn_Italic"
+    }
+
+    dynasty_names = {
+        "dynn_Etruscan"
+        "dynn_Samnite"
+        "dynn_Campanian"
+        "dynn_Peucetian"
+        "dynn_Messapian"
+        "dynn_Latin"
+        "dynn_Oscan"
+        "dynn_Sabine"
+        "dynn_Apicinian"
+        "dynn_Italic"
+        "dynn_Sabellic"
+    }
+
+    male_names = {
+        "Acerbius" "Acius" "Aeneas" "Agerius" "Amalio" "Amiternus" "Antonius" "Apollonius" "Aristarchus" "Caesar" "Caius" 
+        "Cassius" "Cato" "Decius" "Dionysius" "Drusus" "Gaius" "Germano" "Gordius" "Horatius" "Livius" "Marcellus" "Marcus" 
+        "Numitor" "Ovidius" "Paulus" "Pompilius" "Quintus" "Rutilius" "Sabinus" "Sallustius" "Servius" "Sextus" "Titus" 
+        "Valerius" "Vibius" "Vitellius"
+    }
+
+    female_names = {
+        "Acidia" "Aelia" "Aemilia" "Antonia" "Aristonia" "Augusta" "Caecilia" "Claudia" "Cornelia" "Crispina" "Domitia" 
+        "Faustina" "Flavia" "Hortensia" "Julia" "Junia" "Livia" "Lucretia" "Marcella" "Marcia" "Minucia" "Octavia" "Paula" 
+        "Petronia" "Pompeia" "Pubilia" "Quintilia" "Rufina" "Sabina" "Sallustia" "Severa" "Servilia" "Silvia" "Tullia" 
+        "Valeria" "Venia"
+    }
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+
+name_list_umbrian = {
+
+	cadet_dynasty_names = {
+		"dynn_Fabius"
+		"dynn_Pompeius"
+		"dynn_Veturius"
+		"dynn_Tullius"
+		"dynn_Fulvius"
+		"dynn_Aemilius"
+		"dynn_Livius"
+		"dynn_Manlius"
+		"dynn_Sempronius"
+		"dynn_Valerius"
+	}
+
+	dynasty_names = {
+		"dynn_Fabius"
+		"dynn_Pompeius"
+		"dynn_Veturius"
+		"dynn_Tullius"
+		"dynn_Fulvius"
+		"dynn_Aemilius"
+		"dynn_Livius"
+		"dynn_Manlius"
+		"dynn_Sempronius"
+		"dynn_Valerius"
+	}
+
+	male_names = {
+		Aemilianus Aemilius Agrippa Appius Cassius Cato Cornelius Fabius Gaius Julius Lucius Marcus Maximus Numerius Publius Quintus Servius
+		Sextus Tiberius Titus Titus-Tiberius Vibius Virius
+	}
+
+	female_names = {
+		Aelia Agrippina Antonia Claudia Cornelia Flavia Julia Livia Marcia Octavia Poppaea Sabina Tullia Vibia
+	}
+	
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_prefix_male = "dynnpat_pre_filius"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+}
+
+
+name_list_transpadanian = {
+
+    cadet_dynasty_names = {
+        "dynn_Arverni"
+        "dynn_Etruscan"
+        "dynn_Volscian"
+        "dynn_Samnite"
+        "dynn_Celtic"
+        "dynn_Ligurian"
+        "dynn_Apicurian"
+        "dynn_Hetarean"
+        "dynn_Campanian"
+        "dynn_Sabine"
+        "dynn_Picentine"
+        "dynn_Messapian"
+        "dynn_Oscan"
+        "dynn_Sicilian"
+        "dynn_Italic"
+        "dynn_Praetorian"
+        "dynn_Faliscian"
+        "dynn_Pompeian"
+        "dynn_Tuscan"
+    }
+
+    dynasty_names = {
+        "dynn_Arverni"
+        "dynn_Etruscan"
+        "dynn_Volscian"
+        "dynn_Samnite"
+        "dynn_Celtic"
+        "dynn_Ligurian"
+        "dynn_Apicurian"
+        "dynn_Hetarean"
+        "dynn_Campanian"
+        "dynn_Sabine"
+        "dynn_Picentine"
+        "dynn_Messapian"
+        "dynn_Oscan"
+        "dynn_Sicilian"
+        "dynn_Italic"
+        "dynn_Praetorian"
+        "dynn_Faliscian"
+        "dynn_Pompeian"
+        "dynn_Tuscan"
+        "dynn_Aemilian"
+    }
+
+    male_names = {
+        Aemilian Aeneas Agrippa Aulus Brutus Cato Decimus Fabius Gaius Gnaeus Hadrianus Horatius Julius Livius Lucius Marcus
+        Marius Numerius Octavius Publius Quintus Romulus Rufus Servius Tiberius Titus Trajanus Valerius Varro Vespasian
+    }
+    female_names = {
+        Aelia Antonia Aurelia Claudia Cornelia Flavia Julia Livia Livilla Marcia Martina Maxima Octavia Paulina Pompeia
+        Sabina Sempronia Tertia Valeria Vibia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 40
+    mother_name_chance = 20
+}

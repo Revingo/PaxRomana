@@ -1,0 +1,72 @@
+name_list_celtic = {
+
+    cadet_dynasty_names = {
+        "dynn_Cassivellaunus"
+        "dynn_Vercingetorix"
+        "dynn_Antunus"
+        "dynn_Teridios"
+        "dynn_Aeduan"
+        "dynn_Brennus"
+        "dynn_Ernan"
+        "dynn_Ogham"
+        "dynn_Tigernacus"
+        "dynn_Fabius"
+        "dynn_Lugus"
+        "dynn_Boudicca"
+        "dynn_Votadini"
+        "dynn_Nemed"
+        "dynn_Morbet"
+        "dynn_Sabina"
+        "dynn_Aquitania"
+        "dynn_Caractacus"
+        "dynn_Lynx"
+        "dynn_Rhiannon"
+    }
+
+    dynasty_names = {
+        "dynn_Cassivellaunus"
+        "dynn_Vercingetorix"
+        "dynn_Antunus"
+        "dynn_Teridios"
+        "dynn_Aeduan"
+        "dynn_Brennus"
+        "dynn_Ernan"
+        "dynn_Ogham"
+        "dynn_Tigernacus"
+        "dynn_Fabius"
+        "dynn_Lugus"
+        "dynn_Boudicca"
+        "dynn_Votadini"
+        "dynn_Nemed"
+        "dynn_Morbet"
+        "dynn_Sabina"
+        "dynn_Aquitania"
+        "dynn_Caractacus"
+        "dynn_Lynx"
+        "dynn_Rhiannon"
+        "dynn_Fabianus"
+    }
+
+    male_names = {
+        Aedh Ailill Aiochus Alaric Brennus Cormac Conall Cuchulainn Diarmaid Eoghan Fergus Fionn Flannagan Garan Gwyn Heddwyn
+        Ivar Lugh Macha Mael Seachnasaib Niall Oengus Padraig Roderick Taranis Tormod Uisneach Vercingetorix
+    }
+
+    female_names = {
+        Aine Brigid Cailleach Deirdre Eithne Emer Fionnuala Grainne Iseult Lughna Maeve Medb Morrigan Nessa Oona Rhiannon
+        Scathach Sinead Talulla Una
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
