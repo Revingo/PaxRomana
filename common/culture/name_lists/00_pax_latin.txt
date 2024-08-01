@@ -1,4 +1,4 @@
-﻿name_list_roman = {
+﻿name_list_pax_roman = {
 
 	cadet_dynasty_names = {
 		"dynn_Julio_Claudian"
@@ -66,6 +66,61 @@
 		Octavia Palatina Paula Paulina Petronella Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria
 		Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria
 		Verina Victoria Vigilantia Viviana
+	}
+	dynasty_of_location_prefix = "dynnp_of"
+	patronym_prefix_male = "dynnpat_pre_filius"
+
+	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+	pat_grf_name_chance = 50
+	mat_grf_name_chance = 0
+	father_name_chance = 50
+	
+	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+	pat_grm_name_chance = 50
+	mat_grm_name_chance = 50
+	mother_name_chance = 0
+
+	
+}
+
+name_list_pax_oscan = {
+
+	cadet_dynasty_names = {
+		"dynn_Marrucini"
+		"dynn_Peligni"
+		"dynn_Samnites"
+		"dynn_Hirpini"
+		"dynn_Carinates"
+		"dynn_Campani"
+		"dynn_Aurunci"
+		"dynn_Vestini"
+		"dynn_Frenteres"
+		"dynn_Pretuzi"
+		"dynn_Lucani"
+		"dynn_Brutii"
+	}
+
+	dynasty_names = {
+		"dynn_Marrucini"
+		"dynn_Peligni"
+		"dynn_Samnites"
+		"dynn_Hirpini"
+		"dynn_Carinates"
+		"dynn_Campani"
+		"dynn_Aurunci"
+		"dynn_Vestini"
+		"dynn_Frenteres"
+		"dynn_Pretuzi"
+		"dynn_Lucani"
+		"dynn_Brutii"
+		"dynn_Oscan"
+	}
+
+	male_names = {
+		Aio Aulus Baebius Bruttianus Decius Gavius Herius Lucius Maecius Mamercus Marcellus Marcus Marius Numerius Ovius Paccius Salvius Statius Tiberius Vibius Vibius
+	}
+	female_names = {
+		Aulla Baebia Campania Decia Gavia Heria Lucia Maecia Marcia Maria Numeria Ovia Paccia Salvia Statia Tibera Vibia Vibidia
 	}
 	dynasty_of_location_prefix = "dynnp_of"
 	patronym_prefix_male = "dynnpat_pre_filius"

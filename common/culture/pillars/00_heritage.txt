@@ -614,3 +614,23 @@ heritage_caucasian = {
 	}
 	audio_parameter = european
 }
+
+heritage_semitic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_semitic
+		}
+	}
+	audio_parameter = mena
+}
+
+heritage_sayhadic = {
+	type = heritage
+	is_shown = {
+		heritage_is_shown_trigger = {
+			HERITAGE = heritage_sayhadic
+		}
+	}
+	audio_parameter = mena
+}

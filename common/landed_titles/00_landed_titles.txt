@@ -24896,8 +24896,8 @@ e_arabia = {
 			c_jawf-al-yamani = {
 				color = { 227 242 42 }
 
-				b_main = {
-					province = 6299
+				b_baraqish = {
+					province = 6298
 
 					color = { 227 242 42 }
 				}
@@ -24911,14 +24911,15 @@ e_arabia = {
 
 					color = { 227 242 42 }
 				}
-				b_baraqish = {
-					province = 6298
-
-					color = { 227 242 42 }
-				}
 			}
 			c_wabar = {
 				color = { 233 244 44 }
+
+				b_main = {
+					province = 6299
+
+					color = { 233 244 44 }
+				}
 
 				b_wabar = {
 					province = 6300

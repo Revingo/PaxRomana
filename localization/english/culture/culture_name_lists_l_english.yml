@@ -193,4 +193,6 @@
  name_list_trojan: "Ancient Greek"
 
 #PAX ROMANA
- name_list_roman: "Roman"
+ name_list_pax_roman: "Roman"
+ name_list_pax_oscan: "Oscan"
+ name_list_momed: "Momed"
