@@ -25743,6 +25743,11 @@ e_arabia = {
 			c_khaybar = {
 				color = { 164 248 57 }
 
+				b_al-ula = {
+					province = 6200
+
+					color = { 164 248 57 }
+				}
 				b_khaybar = {
 					province = 6207
 
@@ -25750,11 +25755,6 @@ e_arabia = {
 				}
 				b_as-suqya = {
 					province = 6199
-
-					color = { 164 248 57 }
-				}
-				b_al-ula = {
-					province = 6200
 
 					color = { 164 248 57 }
 				}

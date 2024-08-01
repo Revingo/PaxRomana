@@ -19195,7 +19195,7 @@
 	religion = r_hellenic
 }
 4800 = {
-	culture = pax_assyrian
+	culture = med
 	religion = mazdayasna
 }
 4801 = {
@@ -19207,7 +19207,7 @@
 	religion = mazdayasna
 }
 4803 = {
-	culture = pax_assyrian
+	culture = med
 	religion = mazdayasna
 }
 4804 = {
@@ -19335,7 +19335,7 @@
 	religion = mazdayasna
 }
 4835 = {
-	culture = pax_assyrian
+	culture = babylonian
 	religion = mazdayasna
 }
 4836 = {
@@ -19535,11 +19535,11 @@
 	religion = mazdayasna
 }
 4885 = {
-	culture = pax_assyrian
+	culture = seleucid
 	religion = mazdayasna
 }
 4886 = {
-	culture = pax_assyrian
+	culture = seleucid
 	religion = mazdayasna
 }
 4887 = {
@@ -19551,7 +19551,7 @@
 	religion = mazdayasna
 }
 4889 = {
-	culture = pax_assyrian
+	culture = seleucid
 	religion = mazdayasna
 }
 4890 = {
@@ -23615,7 +23615,7 @@
 	religion = r_hellenic
 }
 5905 = {
-	culture = phoenecian
+	culture = seleucid
 	religion = h_hellenic
 }
 5906 = {
@@ -23635,7 +23635,7 @@
 	religion = r_hellenic
 }
 5910 = {
-	culture = phoenecian
+	culture = seleucid
 	religion = r_carthaginian
 }
 5911 = {
@@ -23691,7 +23691,7 @@
 	religion = r_hellenic
 }
 5924 = {
-	culture = aramaeer
+	culture = seleucid
 	religion = mazdayasna
 }
 5925 = {
@@ -23815,7 +23815,7 @@
 	religion = r_hellenic
 }
 5955 = {
-	culture = aramaeer
+	culture = seleucid
 	religion = mazdayasna
 }
 5956 = {
@@ -23915,7 +23915,7 @@
 	religion = beduinism
 }
 5980 = {
-	culture = seleucid
+	culture = moabite
 	religion = rabbinism
 }
 5981 = {
@@ -23999,7 +23999,7 @@
 	religion = h_hellenic
 }
 6001 = {
-	culture = seleucid
+	culture = babylonian
 	religion = h_hellenic
 }
 6002 = {
@@ -24063,7 +24063,7 @@
 	religion = h_hellenic
 }
 6017 = {
-	culture = seleucid
+	culture = persian
 	religion = h_hellenic
 }
 6018 = {
@@ -24071,11 +24071,11 @@
 	religion = h_hellenic
 }
 6019 = {
-	culture = seleucid
+	culture = babylonian
 	religion = h_hellenic
 }
 6020 = {
-	culture = seleucid
+	culture = babylonian
 	religion = h_hellenic
 }
 6021 = {
@@ -24795,7 +24795,7 @@
 	religion = r_hellenic
 }
 6200 = {
-	culture = pax_roman
+	culture = northern-thamudic
 	religion = r_hellenic
 }
 6201 = {
@@ -24823,7 +24823,7 @@
 	religion = r_hellenic
 }
 6207 = {
-	culture = arab
+	culture = northern-thamudic
 	religion = beduinism
 }
 6208 = {
@@ -24831,7 +24831,7 @@
 	religion = beduinism
 }
 6209 = {
-	culture = arab
+	culture = northern-thamudic
 	religion = beduinism
 }
 6210 = {
@@ -24843,7 +24843,7 @@
 	religion = beduinism
 }
 6212 = {
-	culture = arab
+	culture = northern-thamudic
 	religion = beduinism
 }
 6213 = {
@@ -24867,7 +24867,7 @@
 	religion = beduinism
 }
 6218 = {
-	culture = arab
+	culture = northern-thamudic
 	religion = beduinism
 }
 6219 = {
@@ -24887,15 +24887,15 @@
 	religion = beduinism
 }
 6223 = {
-	culture = minaean
+	culture = southern-thamudic
 	religion = beduinism
 }
 6224 = {
-	culture = minaean
+	culture = southern-thamudic
 	religion = beduinism
 }
 6225 = {
-	culture = minaean
+	culture = southern-thamudic
 	religion = beduinism
 }
 6226 = {
@@ -24911,7 +24911,7 @@
 	religion = beduinism
 }
 6229 = {
-	culture = arab
+	culture = northern-thamudic
 	religion = beduinism
 }
 6230 = {
@@ -24935,7 +24935,7 @@
 	religion = r_hellenic
 }
 6235 = {
-	culture = minaean
+	culture = southern-thamudic
 	religion = beduinism
 }
 6236 = {
@@ -24971,7 +24971,7 @@
 	religion = beduinism
 }
 6244 = {
-	culture = minaean
+	culture = southern-thamudic
 	religion = beduinism
 }
 6245 = {
@@ -24979,7 +24979,7 @@
 	religion = beduinism
 }
 6246 = {
-	culture = arab
+	culture = northern-thamudic
 	religion = beduinism
 }
 6247 = {

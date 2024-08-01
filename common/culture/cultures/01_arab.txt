@@ -100,7 +100,7 @@ sabean = {
 	}
 }
 
-minaean = {
+southern-thamudic = {
 	color = { 0.5 0.8 0.15 }
 	
 	ethos = ethos_spiritual
@@ -111,6 +111,57 @@ minaean = {
 		tradition_tribe_unity
 		tradition_caravaneers
         tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_bedouin
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
+northern-thamudic = {
+	color = { 0.3 0.66 0.28 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_sayhadic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+        tradition_dryland_dwellers
+		tradition_maritime_mercantilism
+	}
+	
+	name_list = name_list_bedouin
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
+minaean = {
+	color = { 0.3 0.80 0.28 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_sayhadic
+	language = language_arabic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+        tradition_dryland_dwellers
+		tradition_fp3_irrigation_experts
+		tradition_warriors_of_the_dry
 	}
 	
 	name_list = name_list_bedouin
