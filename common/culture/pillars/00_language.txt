@@ -1897,3 +1897,57 @@ language_lusitanisch = {
 	
 	color = gallic_alpina
 }
+
+language_nabataisch = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_nabataisch
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_nabataisch }
+			multiply = 10
+		}
+	}
+	
+	color = nabataean
+}
+
+language_aramaeic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_aramaeic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_aramaeic }
+			multiply = 10
+		}
+	}
+	
+	color = aramaeer
+}
+
+language_akkadisch = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_akkadisch
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_akkadisch }
+			multiply = 10
+		}
+	}
+	
+	color = pax_assyrian
+}
