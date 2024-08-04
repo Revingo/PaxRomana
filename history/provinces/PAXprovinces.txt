@@ -24209,6 +24209,7 @@
 6053 = {
 	culture = ptolemaic
 	religion = p_hellenic
+	special_building = MA_pharos_alexandria_02
 }
 6054 = {
 	culture = ptolemaic
