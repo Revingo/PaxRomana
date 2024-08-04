@@ -3,7 +3,7 @@
 
 #PAX ROMANA
  language_latin_name: "Latin"
- language_venetisch_name: "Venetisch"
+ language_venetisch_name: "Venetian"
  language_etruscan_name: "Etruscan"
  language_oscan_name: "Oscan"
  language_greek_name: "Hellenic"
@@ -42,3 +42,9 @@
  language_nabataisch_name: "Nabataisch"
  language_aramaeic_name: "Aramaeic"
  language_akkadisch_name: "Akkadian"
+ language_phrygisch_name: "Phrygian"
+ language_lykian_name: "Lykian"
+ language_cappadocian_name: "Cappadocian"
+ language_galatian_name: "Galatian"
+ language_paphlagonian_name: "Paphlagonian"
+ language_mysian_name: "Mysian"

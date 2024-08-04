@@ -1939,7 +1939,7 @@
 	religion = h_hellenic
 }
 486 = {
-	culture = greek
+	culture = ionian
 	religion = h_hellenic
 }
 487 = {
@@ -2939,7 +2939,7 @@
 	religion = r_hellenic
 }
 736 = {
-	culture = cappadocian
+	culture = achaemenidan
 	religion = mazdayasna
 }
 737 = {
@@ -2963,7 +2963,7 @@
 	religion = h_hellenic
 }
 742 = {
-	culture = greek
+	culture = mysian
 	religion = h_hellenic
 }
 743 = {
@@ -2975,7 +2975,7 @@
 	religion = h_hellenic
 }
 745 = {
-	culture = anatolian
+	culture = ionian
 	religion = h_hellenic
 }
 746 = {
@@ -3011,7 +3011,7 @@
 	religion = mazdayasna
 }
 754 = {
-	culture = anatolian
+	culture = lykian
 	religion = h_hellenic
 }
 755 = {
@@ -3027,19 +3027,19 @@
 	religion = h_hellenic
 }
 758 = {
-	culture = anatolian
+	culture = achaemenidan
 	religion = h_hellenic
 }
 759 = {
-	culture = anatolian
-	religion = h_hellenic
+	culture = galatian
+	religion = druidism
 }
 760 = {
 	culture = cappadocian
 	religion = h_hellenic
 }
 761 = {
-	culture = anatolian
+	culture = achaemenidan
 	religion = h_hellenic
 }
 762 = {
@@ -19579,7 +19579,7 @@
 	religion = r_hellenic
 }
 4896 = {
-	culture = anatolian
+	culture = achaemenidan
 	religion = h_hellenic
 }
 4897 = {
@@ -22119,7 +22119,7 @@
 	religion = r_hellenic
 }
 5531 = {
-	culture = anatolian
+	culture = ionian
 	religion = h_hellenic
 }
 5532 = {
@@ -22139,7 +22139,7 @@
 	religion = h_hellenic
 }
 5536 = {
-	culture = anatolian
+	culture = lydian
 	religion = h_hellenic
 }
 5537 = {
@@ -22151,7 +22151,7 @@
 	religion = h_hellenic
 }
 5539 = {
-	culture = anatolian
+	culture = lydian
 	religion = h_hellenic
 }
 5540 = {
@@ -22179,7 +22179,7 @@
 	religion = h_hellenic
 }
 5546 = {
-	culture = anatolian
+	culture = lydian
 	religion = h_hellenic
 }
 5547 = {
@@ -22187,7 +22187,7 @@
 	religion = h_hellenic
 }
 5548 = {
-	culture = anatolian
+	culture = karian
 	religion = h_hellenic
 }
 5549 = {
@@ -22203,7 +22203,7 @@
 	religion = h_hellenic
 }
 5552 = {
-	culture = greek
+	culture = mysian
 	religion = h_hellenic
 }
 5553 = {
@@ -22239,7 +22239,7 @@
 	religion = r_hellenic
 }
 5561 = {
-	culture = greek
+	culture = phrygian
 	religion = mazdayasna
 }
 5562 = {
@@ -22319,7 +22319,7 @@
 	religion = r_hellenic
 }
 5581 = {
-	culture = pontus
+	culture = paphlagonian
 	religion = h_hellenic
 }
 5582 = {
@@ -22331,7 +22331,7 @@
 	religion = r_hellenic
 }
 5584 = {
-	culture = pontus
+	culture = paphlagonian
 	religion = h_hellenic
 }
 5585 = {
@@ -22411,7 +22411,7 @@
 	religion = mazdayasna
 }
 5604 = {
-	culture = cappadocian
+	culture = pax_armenian
 	religion = mazdayasna
 }
 5605 = {
@@ -22543,7 +22543,7 @@
 	religion = r_hellenic
 }
 5637 = {
-	culture = anatolian
+	culture = lykian
 	religion = h_hellenic
 }
 5638 = {
@@ -22563,7 +22563,7 @@
 	religion = h_hellenic
 }
 5642 = {
-	culture = anatolian
+	culture = lykian
 	religion = h_hellenic
 }
 5643 = {
@@ -22583,7 +22583,7 @@
 	religion = h_hellenic
 }
 5647 = {
-	culture = anatolian
+	culture = karian
 	religion = h_hellenic
 }
 5648 = {
@@ -22599,7 +22599,7 @@
 	religion = r_hellenic
 }
 5651 = {
-	culture = anatolian
+	culture = phrygian
 	religion = mazdayasna
 }
 5652 = {
@@ -22611,8 +22611,8 @@
 	religion = mazdayasna
 }
 5654 = {
-	culture = anatolian
-	religion = mazdayasna
+	culture = galatian
+	religion = druidism
 }
 5655 = {
 	culture = persian
@@ -22623,8 +22623,8 @@
 	religion = mazdayasna
 }
 5657 = {
-	culture = anatolian
-	religion = mazdayasna
+	culture = galatian
+	religion = druidism
 }
 5658 = {
 	culture = pax_roman
@@ -22651,7 +22651,7 @@
 	religion = r_hellenic
 }
 5664 = {
-	culture = anatolian
+	culture = lykian
 	religion = h_hellenic
 }
 5665 = {
@@ -22683,7 +22683,7 @@
 	religion = h_hellenic
 }
 5672 = {
-	culture = anatolian
+	culture = achaemenidan
 	religion = h_hellenic
 }
 5673 = {
