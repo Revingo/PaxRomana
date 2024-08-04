@@ -1988,6 +1988,24 @@ language_lykian = {
 	color = lykian
 }
 
+language_carian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_carian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_carian }
+			multiply = 10
+		}
+	}
+	
+	color = lykian
+}
+
 language_cappadocian = {
 	type = language
 	is_shown = {
@@ -2058,4 +2076,22 @@ language_mysian = {
 	}
 	
 	color = mysian
+}
+
+language_luwian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_luwian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_luwian }
+			multiply = 10
+		}
+	}
+	
+	color = luwian
 }

@@ -1939,7 +1939,7 @@
 	religion = h_hellenic
 }
 486 = {
-	culture = ionian
+	culture = greek
 	religion = h_hellenic
 }
 487 = {
@@ -2939,7 +2939,7 @@
 	religion = r_hellenic
 }
 736 = {
-	culture = achaemenidan
+	culture = cilician
 	religion = mazdayasna
 }
 737 = {
@@ -2975,7 +2975,7 @@
 	religion = h_hellenic
 }
 745 = {
-	culture = ionian
+	culture = greek
 	religion = h_hellenic
 }
 746 = {
@@ -3011,7 +3011,7 @@
 	religion = mazdayasna
 }
 754 = {
-	culture = lykian
+	culture = lycian
 	religion = h_hellenic
 }
 755 = {
@@ -3027,7 +3027,7 @@
 	religion = h_hellenic
 }
 758 = {
-	culture = achaemenidan
+	culture = cilician
 	religion = h_hellenic
 }
 759 = {
@@ -3039,7 +3039,7 @@
 	religion = h_hellenic
 }
 761 = {
-	culture = achaemenidan
+	culture = cilician
 	religion = h_hellenic
 }
 762 = {
@@ -19579,7 +19579,7 @@
 	religion = r_hellenic
 }
 4896 = {
-	culture = achaemenidan
+	culture = cilician
 	religion = h_hellenic
 }
 4897 = {
@@ -22119,7 +22119,7 @@
 	religion = r_hellenic
 }
 5531 = {
-	culture = ionian
+	culture = greek
 	religion = h_hellenic
 }
 5532 = {
@@ -22187,7 +22187,7 @@
 	religion = h_hellenic
 }
 5548 = {
-	culture = karian
+	culture = carian
 	religion = h_hellenic
 }
 5549 = {
@@ -22543,7 +22543,7 @@
 	religion = r_hellenic
 }
 5637 = {
-	culture = lykian
+	culture = lycian
 	religion = h_hellenic
 }
 5638 = {
@@ -22563,7 +22563,7 @@
 	religion = h_hellenic
 }
 5642 = {
-	culture = lykian
+	culture = lycian
 	religion = h_hellenic
 }
 5643 = {
@@ -22583,7 +22583,7 @@
 	religion = h_hellenic
 }
 5647 = {
-	culture = karian
+	culture = carian
 	religion = h_hellenic
 }
 5648 = {
@@ -22651,7 +22651,7 @@
 	religion = r_hellenic
 }
 5664 = {
-	culture = lykian
+	culture = lycian
 	religion = h_hellenic
 }
 5665 = {
@@ -22683,7 +22683,7 @@
 	religion = h_hellenic
 }
 5672 = {
-	culture = achaemenidan
+	culture = cilician
 	religion = h_hellenic
 }
 5673 = {
