@@ -3007,8 +3007,8 @@
 	religion = r_hellenic
 }
 753 = {
-	culture = cappadocian
-	religion = mazdayasna
+	culture = galatian
+	religion = druidism
 }
 754 = {
 	culture = lycian
@@ -22240,7 +22240,7 @@
 }
 5561 = {
 	culture = phrygian
-	religion = mazdayasna
+	religion = h_hellenic
 }
 5562 = {
 	culture = pax_roman
@@ -22291,8 +22291,8 @@
 	religion = r_hellenic
 }
 5574 = {
-	culture = cappadocian
-	religion = mazdayasna
+	culture = galatian
+	religion = druidism
 }
 5575 = {
 	culture = pax_roman
@@ -22600,7 +22600,7 @@
 }
 5651 = {
 	culture = phrygian
-	religion = mazdayasna
+	religion = h_hellenic
 }
 5652 = {
 	culture = persian
