@@ -2399,7 +2399,7 @@
 	religion = r_hellenic
 }
 601 = {
-	culture = antique_kartvelian
+	culture = colchian
 	religion = urartuism
 }
 602 = {
@@ -2671,7 +2671,7 @@
 	religion = r_hellenic
 }
 669 = {
-	culture = antique_kartvelian
+	culture = albanian
 	religion = urartuism
 }
 670 = {
@@ -2699,11 +2699,11 @@
 	religion = urartuism
 }
 676 = {
-	culture = antique_kartvelian
+	culture = kartvelian
 	religion = urartuism
 }
 677 = {
-	culture = antique_kartvelian
+	culture = colchian
 	religion = urartuism
 }
 678 = {
@@ -4047,7 +4047,7 @@
 	religion = r_hellenic
 }
 1013 = {
-	culture = antique_kartvelian
+	culture = kartvelian
 	religion = urartuism
 }
 1014 = {
@@ -15999,7 +15999,7 @@
 	religion = r_hellenic
 }
 4001 = {
-	culture = partian
+	culture = caspian
 	religion = mazdayasna
 }
 4002 = {
@@ -18131,7 +18131,7 @@
 	religion = r_hellenic
 }
 4534 = {
-	culture = antique_kartvelian
+	culture = caspian
 	religion = urartuism
 }
 4535 = {
@@ -18143,7 +18143,7 @@
 	religion = r_hellenic
 }
 4537 = {
-	culture = pax_armenian
+	culture = med
 	religion = urartuism
 }
 4538 = {
@@ -18167,7 +18167,7 @@
 	religion = r_hellenic
 }
 4543 = {
-	culture = pax_armenian
+	culture = med
 	religion = urartuism
 }
 4544 = {
@@ -19079,7 +19079,7 @@
 	religion = r_hellenic
 }
 4771 = {
-	culture = pax_armenian
+	culture = med
 	religion = urartuism
 }
 4772 = {
@@ -19255,7 +19255,7 @@
 	religion = mazdayasna
 }
 4815 = {
-	culture = pax_armenian
+	culture = med
 	religion = mazdayasna
 }
 4816 = {
@@ -19567,7 +19567,7 @@
 	religion = r_hellenic
 }
 4893 = {
-	culture = pax_armenian
+	culture = cilician
 	religion = mazdayasna
 }
 4894 = {
@@ -21179,7 +21179,7 @@
 	religion = r_hellenic
 }
 5296 = {
-	culture = sarmatian
+	culture = maotian
 	religion = scythian
 }
 5297 = {
@@ -21191,7 +21191,7 @@
 	religion = scythian
 }
 5299 = {
-	culture = sarmatian
+	culture = maotian
 	religion = scythian
 }
 5300 = {
@@ -22411,7 +22411,7 @@
 	religion = mazdayasna
 }
 5604 = {
-	culture = pax_armenian
+	culture = cilician
 	religion = mazdayasna
 }
 5605 = {
@@ -22779,7 +22779,7 @@
 	religion = r_hellenic
 }
 5696 = {
-	culture = antique_kartvelian
+	culture = colchian
 	religion = h_hellenic
 }
 5697 = {
@@ -22931,7 +22931,7 @@
 	religion = r_hellenic
 }
 5734 = {
-	culture = pax_armenian
+	culture = kartvelian
 	religion = urartuism
 }
 5735 = {
@@ -22943,7 +22943,7 @@
 	religion = urartuism
 }
 5737 = {
-	culture = pax_armenian
+	culture = kartvelian
 	religion = urartuism
 }
 5738 = {
@@ -22955,7 +22955,7 @@
 	religion = urartuism
 }
 5740 = {
-	culture = antique_kartvelian
+	culture = kartvelian
 	religion = urartuism
 }
 5741 = {
@@ -22967,7 +22967,7 @@
 	religion = r_hellenic
 }
 5743 = {
-	culture = antique_kartvelian
+	culture = kartvelian
 	religion = urartuism
 }
 5744 = {
@@ -22979,7 +22979,7 @@
 	religion = r_hellenic
 }
 5746 = {
-	culture = antique_kartvelian
+	culture = maotian
 	religion = scythian
 }
 5747 = {
@@ -23003,7 +23003,7 @@
 	religion = r_hellenic
 }
 5752 = {
-	culture = antique_kartvelian
+	culture = colchian
 	religion = urartuism
 }
 5753 = {
@@ -23031,7 +23031,7 @@
 	religion = r_hellenic
 }
 5759 = {
-	culture = antique_kartvelian
+	culture = kartvelian
 	religion = urartuism
 }
 5760 = {
@@ -23067,7 +23067,7 @@
 	religion = r_hellenic
 }
 5768 = {
-	culture = antique_kartvelian
+	culture = albanian
 	religion = urartuism
 }
 5769 = {
@@ -23079,7 +23079,7 @@
 	religion = r_hellenic
 }
 5771 = {
-	culture = antique_kartvelian
+	culture = albanian
 	religion = urartuism
 }
 5772 = {
@@ -23103,7 +23103,7 @@
 	religion = r_hellenic
 }
 5777 = {
-	culture = antique_kartvelian
+	culture = albanian
 	religion = urartuism
 }
 5778 = {
@@ -23127,7 +23127,7 @@
 	religion = r_hellenic
 }
 5783 = {
-	culture = pax_armenian
+	culture = albanian
 	religion = urartuism
 }
 5784 = {
@@ -23155,7 +23155,7 @@
 	religion = r_hellenic
 }
 5790 = {
-	culture = antique_kartvelian
+	culture = caspian
 	religion = urartuism
 }
 5791 = {
