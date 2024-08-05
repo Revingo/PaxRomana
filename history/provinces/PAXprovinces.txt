@@ -2007,11 +2007,11 @@
 	religion = zalmoxism
 }
 503 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 504 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 505 = {
@@ -2027,11 +2027,11 @@
 	religion = zalmoxism
 }
 508 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 509 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 510 = {
@@ -2167,7 +2167,7 @@
 	religion = r_hellenic
 }
 543 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 544 = {
@@ -2219,27 +2219,27 @@
 	religion = scythian
 }
 556 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 557 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 558 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 559 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 560 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 561 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 562 = {
@@ -2251,15 +2251,15 @@
 	religion = r_hellenic
 }
 564 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 565 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 566 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 567 = {
@@ -2335,11 +2335,11 @@
 	religion = tengri_pagan
 }
 585 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 586 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 587 = {
@@ -2359,15 +2359,15 @@
 	religion = tengri_pagan
 }
 591 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 592 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 593 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 594 = {
@@ -2375,15 +2375,15 @@
 	religion = r_hellenic
 }
 595 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 596 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 597 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 598 = {
@@ -2391,7 +2391,7 @@
 	religion = h_hellenic
 }
 599 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 600 = {
@@ -2407,23 +2407,23 @@
 	religion = r_hellenic
 }
 603 = {
-	culture = sarmatian
+	culture = maotian
 	religion = scythian
 }
 604 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 605 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = scythian
 }
 606 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 607 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 608 = {
@@ -2459,51 +2459,51 @@
 	religion = tengri_pagan
 }
 616 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 617 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = tengri_pagan
 }
 618 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 619 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 620 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 621 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 622 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 623 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 624 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 625 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 626 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 627 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 628 = {
@@ -2691,7 +2691,7 @@
 	religion = urartuism
 }
 674 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = urartuism
 }
 675 = {
@@ -3579,7 +3579,7 @@
 	religion = kasogisch_pagan
 }
 896 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 897 = {
@@ -3595,11 +3595,11 @@
 	religion = r_hellenic
 }
 900 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 901 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 902 = {
@@ -4719,7 +4719,7 @@
 	religion = r_hellenic
 }
 1181 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 1182 = {
@@ -4739,7 +4739,7 @@
 	religion = r_hellenic
 }
 1186 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 1187 = {
@@ -5087,7 +5087,7 @@
 	religion = r_hellenic
 }
 1273 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 1274 = {
@@ -5719,7 +5719,7 @@
 	religion = r_hellenic
 }
 1431 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 1432 = {
@@ -14363,19 +14363,19 @@
 	religion = zalmoxism
 }
 3592 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3593 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3594 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3595 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3596 = {
@@ -14383,7 +14383,7 @@
 	religion = zalmoxism
 }
 3597 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3598 = {
@@ -14511,15 +14511,15 @@
 	religion = zalmoxism
 }
 3629 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3630 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3631 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3632 = {
@@ -14527,15 +14527,15 @@
 	religion = zalmoxism
 }
 3633 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3634 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3635 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3636 = {
@@ -14623,7 +14623,7 @@
 	religion = zalmoxism
 }
 3657 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3658 = {
@@ -14711,43 +14711,43 @@
 	religion = zalmoxism
 }
 3679 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3680 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3681 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3682 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3683 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3684 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3685 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3686 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3687 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3688 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3689 = {
@@ -14755,7 +14755,7 @@
 	religion = zalmoxism
 }
 3690 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 3691 = {
@@ -17759,7 +17759,7 @@
 	religion = r_hellenic
 }
 4441 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4442 = {
@@ -17787,7 +17787,7 @@
 	religion = r_hellenic
 }
 4448 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4449 = {
@@ -17803,23 +17803,23 @@
 	religion = r_hellenic
 }
 4452 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4453 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4454 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4455 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4456 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4457 = {
@@ -17835,7 +17835,7 @@
 	religion = r_hellenic
 }
 4460 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4461 = {
@@ -18107,15 +18107,15 @@
 	religion = r_hellenic
 }
 4528 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4529 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4530 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 4531 = {
@@ -20723,15 +20723,15 @@
 	religion = scythian
 }
 5182 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5183 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5184 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5185 = {
@@ -20739,15 +20739,15 @@
 	religion = scythian
 }
 5186 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5187 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5188 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5189 = {
@@ -20755,15 +20755,15 @@
 	religion = scythian
 }
 5190 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5191 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5192 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5193 = {
@@ -20771,11 +20771,11 @@
 	religion = scythian
 }
 5194 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5195 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5196 = {
@@ -20783,27 +20783,27 @@
 	religion = scythian
 }
 5197 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5198 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5199 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5200 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5201 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5202 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5203 = {
@@ -20811,11 +20811,11 @@
 	religion = scythian
 }
 5204 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5205 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5206 = {
@@ -20823,11 +20823,11 @@
 	religion = scythian
 }
 5207 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5208 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5209 = {
@@ -20835,11 +20835,11 @@
 	religion = scythian
 }
 5210 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5211 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5212 = {
@@ -20847,11 +20847,11 @@
 	religion = scythian
 }
 5213 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5214 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5215 = {
@@ -20859,7 +20859,7 @@
 	religion = scythian
 }
 5216 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5217 = {
@@ -21027,11 +21027,11 @@
 	religion = scythian
 }
 5258 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5259 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5260 = {
@@ -21039,11 +21039,11 @@
 	religion = scythian
 }
 5261 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5262 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5263 = {
@@ -21051,27 +21051,27 @@
 	religion = scythian
 }
 5264 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5265 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5266 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5267 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5268 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5269 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 5270 = {
@@ -21091,7 +21091,7 @@
 	religion = r_hellenic
 }
 5274 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 5275 = {
@@ -21103,7 +21103,7 @@
 	religion = r_hellenic
 }
 5277 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 5278 = {
@@ -21143,7 +21143,7 @@
 	religion = r_hellenic
 }
 5287 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 5288 = {
@@ -21155,7 +21155,7 @@
 	religion = r_hellenic
 }
 5290 = {
-	culture = sarmatian
+	culture = saioi
 	religion = scythian
 }
 5291 = {
@@ -21183,11 +21183,11 @@
 	religion = scythian
 }
 5297 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5298 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5299 = {
@@ -21215,7 +21215,7 @@
 	religion = r_hellenic
 }
 5305 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = scythian
 }
 5306 = {
@@ -21239,7 +21239,7 @@
 	religion = r_hellenic
 }
 5311 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = scythian
 }
 5312 = {
@@ -21247,7 +21247,7 @@
 	religion = r_hellenic
 }
 5313 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 5314 = {
@@ -21271,7 +21271,7 @@
 	religion = r_hellenic
 }
 5319 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 5320 = {
@@ -21367,7 +21367,7 @@
 	religion = r_hellenic
 }
 5343 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = scythian
 }
 5344 = {
@@ -21479,19 +21479,19 @@
 	religion = r_hellenic
 }
 5371 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 5372 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5373 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 5374 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 5375 = {
@@ -21503,7 +21503,7 @@
 	religion = r_hellenic
 }
 5377 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 5378 = {
@@ -21547,7 +21547,7 @@
 	religion = r_hellenic
 }
 5388 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 5389 = {
@@ -21555,7 +21555,7 @@
 	religion = r_hellenic
 }
 5390 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 5391 = {
@@ -21999,7 +21999,7 @@
 	religion = r_hellenic
 }
 5501 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 5502 = {
@@ -22011,7 +22011,7 @@
 	religion = r_hellenic
 }
 5504 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = tengri_pagan
 }
 5505 = {
@@ -22031,7 +22031,7 @@
 	religion = r_hellenic
 }
 5509 = {
-	culture = sarmatian
+	culture = roxolanian
 	religion = scythian
 }
 5510 = {
@@ -22979,7 +22979,7 @@
 	religion = r_hellenic
 }
 5746 = {
-	culture = maotian
+	culture = heniochan
 	religion = scythian
 }
 5747 = {
@@ -28164,7 +28164,7 @@
 	religion = r_hellenic
 }
 7042 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7043 = {
@@ -28256,131 +28256,131 @@
 	religion = r_hellenic
 }
 7065 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 7066 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7067 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7068 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7069 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7070 = {
-	culture = sarmatian
+	culture = lazyges
 	religion = tengri_pagan
 }
 7071 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7072 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7073 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7074 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7075 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7076 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7077 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7078 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7079 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7080 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7081 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7082 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7083 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7084 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7085 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7086 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7087 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7088 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7089 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7090 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7091 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7092 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7093 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7094 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7095 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7096 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7097 = {
@@ -28408,39 +28408,39 @@
 	religion = r_hellenic
 }
 7103 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7104 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7105 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7106 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7107 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7108 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7109 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7110 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7111 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7112 = {
@@ -28488,47 +28488,47 @@
 	religion = r_hellenic
 }
 7123 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7124 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7125 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7126 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7127 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7128 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7129 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7130 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7131 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7132 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7133 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7134 = {
@@ -28880,79 +28880,79 @@
 	religion = r_hellenic
 }
 7221 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7222 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7223 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7224 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7225 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7226 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7227 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7228 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7229 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7230 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7231 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7232 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7233 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7234 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7235 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7236 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7237 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7238 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7239 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7240 = {
@@ -28964,43 +28964,43 @@
 	religion = r_hellenic
 }
 7242 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7243 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7244 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7245 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7246 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7247 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7248 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7249 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7250 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = scythian
 }
 7251 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7252 = {
@@ -29020,11 +29020,11 @@
 	religion = r_hellenic
 }
 7256 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7257 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7258 = {
@@ -29048,51 +29048,51 @@
 	religion = r_hellenic
 }
 7263 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7264 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7265 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7266 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7267 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7268 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7269 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7270 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7271 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7272 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7273 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7274 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7275 = {
@@ -29124,7 +29124,7 @@
 	religion = r_hellenic
 }
 7282 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7283 = {
@@ -29144,19 +29144,19 @@
 	religion = r_hellenic
 }
 7287 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7288 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7289 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7290 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7291 = {
@@ -29236,7 +29236,7 @@
 	religion = r_hellenic
 }
 7310 = {
-	culture = sarmatian
+	culture = aorsi
 	religion = tengri_pagan
 }
 7311 = {

@@ -136,7 +136,7 @@ albanian = {
 caspian = {
     color = { 0.33 0.73 0.0 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_egalitarian
 	heritage = heritage_caucasian
 	language = language_caspian
 	martial_custom = martial_custom_male_only
@@ -145,6 +145,35 @@ caspian = {
 		tradition_maritime_mercantilism
 		tradition_fishermen
 		tradition_seafaring
+	}
+	
+	name_list = name_list_karelian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		50 = circumpolar_dark_hair
+		25 = circumpolar_brown_hair
+		25 = circumpolar_blonde_hair
+		10 = mediterranean_byzantine
+		4 = mediterranean
+	}
+}
+
+heniochan = {
+    color = { 0.80 0.73 0.0 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_caucasian
+	language = language_caspian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_hunters
+		tradition_practiced_pirates
 	}
 	
 	name_list = name_list_karelian

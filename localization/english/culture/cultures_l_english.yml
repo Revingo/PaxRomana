@@ -204,14 +204,26 @@
  caspian: "Caspian"
  caspian_prefix: "Caspian"
  caspian_collective_noun: "Caspians"
+ heniochan: "Heniochan"
+ heniochan_prefix: "Heniochan"
+ heniochan_collective_noun: "Heniochans"
  
- #slavic
+ #Scythian
  slavic: "Slavic"
  slavic_prefix: "Slavic"
  slavic_collective_noun: "Slavs"
- sarmatian: "Sarmatian"
- sarmatian_prefix: "Sarmatian"
- sarmatian_collective_noun: "Sarmatians"
+ saioi: "Saioi"
+ saioi_prefix: "Saioi"
+ saioi_collective_noun: "Saiois"
+ lazyges: "Lazygian"
+ lazyges_prefix: "Lazygian"
+ lazyges_collective_noun: "Lazygians"
+ roxolanian: "Roxolanian"
+ roxolanian_prefix: "Roxolanian"
+ roxolanian_collective_noun: "Roxolanians"
+ aorsi: "Aorsian"
+ aorsi_prefix: "Aorsian"
+ aorsi_collective_noun: "Aorsians"
 
  #eastern
  mauryan: "Mauryan"
