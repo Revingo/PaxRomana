@@ -1951,3 +1951,183 @@ language_akkadisch = {
 	
 	color = pax_assyrian
 }
+
+language_phrygisch = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_phrygisch
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_phrygisch }
+			multiply = 10
+		}
+	}
+	
+	color = phrygian
+}
+
+language_lykian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_phrygisch
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_lykian }
+			multiply = 10
+		}
+	}
+	
+	color = lykian
+}
+
+language_carian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_carian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_carian }
+			multiply = 10
+		}
+	}
+	
+	color = lykian
+}
+
+language_cappadocian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_cappadocian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_cappadocian }
+			multiply = 10
+		}
+	}
+	
+	color = cappadocian
+}
+
+language_galatian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_galatian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_galatian }
+			multiply = 10
+		}
+	}
+	
+	color = galatian
+}
+
+language_paphlagonian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_paphlagonian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_paphlagonian }
+			multiply = 10
+		}
+	}
+	
+	color = paphlagonian
+}
+
+language_mysian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_mysian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_mysian }
+			multiply = 10
+		}
+	}
+	
+	color = mysian
+}
+
+language_luwian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_luwian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_luwian }
+			multiply = 10
+		}
+	}
+	
+	color = luwian
+}
+
+language_albanian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_albanian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_albanian }
+			multiply = 10
+		}
+	}
+	
+	color = albanian
+}
+
+language_caspian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_caspian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_caspian }
+			multiply = 10
+		}
+	}
+	
+	color = caspian
+}

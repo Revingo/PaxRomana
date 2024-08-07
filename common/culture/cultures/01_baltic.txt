@@ -30,7 +30,7 @@ przeworsk = {
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_baltic
-	language = language_finnic
+	language = language_baltic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
@@ -57,7 +57,7 @@ zarubintsy = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_baltic
-	language = language_finnic
+	language = language_baltic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hunters
