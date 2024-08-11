@@ -1,0 +1,302 @@
+﻿#### Local Types ####
+@administration_1 = "gfx/interface/icons/culture_innovations/innovation_administration_01.dds"
+@administration_2 = "gfx/interface/icons/culture_innovations/innovation_administration_02.dds"
+@administration_3 = "gfx/interface/icons/culture_innovations/innovation_administration_03.dds"
+@civil_construction_1 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_01.dds"
+@civil_construction_2 = "gfx/interface/icons/culture_innovations/innovation_civil_construction_02.dds"
+@leadership_1 = "gfx/interface/icons/culture_innovations/innovation_leadership_01.dds"
+@leadership_2 = "gfx/interface/icons/culture_innovations/innovation_leadership_02.dds"
+@raised_banner = "gfx/interface/icons/culture_innovations/innovation_raised_banner.dds"
+@fortifications = "gfx/interface/icons/culture_innovations/innovation_fortifications.dds"
+@siege_weapons = "gfx/interface/icons/culture_innovations/innovation_siege_weapons.dds"
+@levy_building = "gfx/interface/icons/culture_innovations/innovation_levy_building.dds"
+@maa_01 = "gfx/interface/icons/culture_innovations/innovation_maa_01.dds"
+@maa_02 = "gfx/interface/icons/culture_innovations/innovation_maa_02.dds"
+@weapons_and_armor_01 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_01.dds"
+@weapons_and_armor_02 = "gfx/interface/icons/culture_innovations/innovation_weapons_and_armor_02.dds"
+@knight = "gfx/interface/icons/culture_innovations/innovation_knight.dds"
+@hird = "gfx/interface/icons/culture_innovations/innovation_hird.dds"
+@longboats = "gfx/interface/icons/culture_innovations/innovation_longboats.dds"
+@majesty_01 = "gfx/interface/icons/culture_innovations/innovation_majesty_01.dds"
+@majesty_02 = "gfx/interface/icons/culture_innovations/innovation_majesty_02.dds"
+@majesty_03 = "gfx/interface/icons/culture_innovations/innovation_majesty_03.dds"
+@nobility_01 = "gfx/interface/icons/culture_innovations/innovation_nobility_01.dds"
+@nobility_02 = "gfx/interface/icons/culture_innovations/innovation_nobility_02.dds"
+@nobility_03 = "gfx/interface/icons/culture_innovations/innovation_nobility_03.dds"
+@nobility_04 = "gfx/interface/icons/culture_innovations/innovation_nobility_04.dds"
+@misc_inventions = "gfx/interface/icons/culture_innovations/innovation_misc_inventions.dds"
+
+@camel = "gfx/interface/icons/culture_innovations/innovation_camel.dds"
+@elephant = "gfx/interface/icons/culture_innovations/innovation_elephant.dds"
+@special_maa_01 = "gfx/interface/icons/culture_innovations/innovation_special_maa_01.dds"
+@special_maa_02 = "gfx/interface/icons/culture_innovations/innovation_special_maa_02.dds"
+
+# Military
+innovation_lorica_segmentata = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		maa_toughness_mult = 0.10
+		stationed_maa_toughness_mult = 0.2
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_advanced_sieges = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @siege_weapons
+
+	unlock_maa = ballista
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_strong_walls = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	# TODO: Create Pax Romana era fortification buildings
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_military_camps = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @levy_building
+
+	character_modifier = {
+		army_damage_mult = 0.1
+		army_pursuit_mult = 0.05
+		army_toughness_mult = 0.1
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_iron_shield_boss = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_02
+
+	character_modifier = {
+		maa_damage_mult = 0.15
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_scutum = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_02
+
+	character_modifier = {
+		maa_toughness_mult = 0.20
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_martial_composure = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @weapons_and_armor_01
+
+	character_modifier = {
+		counter_resistance = 0.15
+		counter_advantage = 0.15
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_horse_breeders = {
+	group = culture_group_military
+	culture_era = culture_era_high_medieval
+	icon = @maa_01
+
+	unlock_maa = light_horsemen
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+# Civic
+innovation_arenas = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_1
+	
+	# TODO: add an arena building
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_aeolipile = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	character_modifier = {
+		build_speed = -0.25
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_noria = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	character_modifier = {
+		farmlands_tax_mult = 0.1
+		farmland_development_growth_factor = 0.2
+		farmland_supply_limit_mult = 0.15
+		floodplains_development_growth_factor = 0.2
+		floodplains_supply_limit_mult = 0.15
+		wetlands_development_growth_factor = 0.15
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_paved_roads = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	character_modifier = {
+		movement_speed = 0.20
+		character_travel_speed_mult = 0.20
+		character_travel_safety_mult = 0.10
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_central_heating = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	province_modifier = {
+		defender_winter_advantage = 20
+		hard_casualty_winter = -0.1
+		supply_loss_winter = -20
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+innovation_governance_substratum = {
+	group = culture_group_civic
+	culture_era = culture_era_high_medieval
+	icon = @civil_construction_2
+	
+	character_modifier = {
+		vassal_tax_contribution_mult = 0.1
+		happy_powerful_vassal_tax_contribution_mult = 0.05
+		stewardship_per_stress_level = 2
+	}
+
+	flag = global_regular
+	flag = high_medieval_era_regular
+}
+
+# Culture and Regional
+innovation_marian_reform = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @hird
+
+	can_progress = {
+		has_cultural_pillar = heritage_latin
+	}
+
+	unlock_maa = legionaries
+	unlock_maa = antesignani
+	unlock_maa = legionary_cavalry
+
+	flag = global_regional
+	flag = high_medieval_era_regional
+}
+
+innovation_chariotiers = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @hird
+
+	can_progress = {
+		OR = {
+			culture_overlaps_geographical_region = PAXworld_europe_britannia_et_hibernia_britannia
+			culture_overlaps_geographical_region = PAXworld_africa_egypt
+		}
+	}
+
+	custom = unlock_egyptian_chariotiers_if
+	custom = unlock_brythonnic_chariotiers_if
+
+	flag = global_regional
+	flag = high_medieval_era_regional
+}
+
+innovation_elite_units = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @hird
+
+	can_progress = {
+		OR = {
+			has_cultural_pillar = heritage_iberian
+			has_cultural_pillar = heritage_balcan
+			has_cultural_pillar = heritage_german
+			culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+		}
+	}
+
+	custom = unlock_noble_iberian_swordsmen_if
+	custom = unlock_nubian_royal_cavalry_if
+	custom = unlock_dacian_spearwall_if
+	custom = unlock_germanic_wolf_warriors_if
+
+	flag = global_regional
+	flag = high_medieval_era_regional
+}
+
+innovation_religion_adversion = {
+	group = culture_group_regional
+	culture_era = culture_era_high_medieval
+	icon = @hird
+
+	character_modifier = {
+		#domain_tax_same_faith_mult = 0.1
+		#opinion_of_same_faith = 20
+		#opinion_of_different_faith = -25
+		#same_faith_opinion = 20
+		#different_faith_opinion = -25
+	}
+
+	custom = add_modifier_if_abrahimic
+
+	flag = global_regional
+	flag = high_medieval_era_regional
+}
