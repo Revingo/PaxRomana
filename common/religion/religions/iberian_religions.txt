@@ -281,6 +281,24 @@
 			#Unreformed
 			doctrine = unreformed_faith_doctrine
 		}
+		lusitianisch = {
+			color = { 0.6 0.8 0.0 }
+			icon = iberian4 #placeholder
+			reformed_icon = iberian4_reformed #placeholder
+
+			#holy sites: Tartessos(huelva), El Carambolo, Carthago Nova, Gadir(cadiz), Salamanca
+			holy_site = astorga
+			holy_site = coimbra
+			holy_site = tartessos
+			holy_site = camas
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_sacrificial_ceremonies
+			doctrine = tenet_ritual_cannibalism
+
+			#Unreformed
+			doctrine = unreformed_faith_doctrine
+		}
 		celtiberianism = {
 			color = { 0.6 0.2 0.8 }
 			icon = iberian2 #placeholder
@@ -295,6 +313,67 @@
 
 			doctrine = tenet_sanctity_of_nature
 			doctrine = tenet_ritual_celebrations
+			doctrine = tenet_sun_worship
+
+			#Unreformed
+			doctrine = unreformed_faith_doctrine
+
+			localization = {
+				HighGodName = celtic_high_god_name
+				HighGodName2 = celtic_high_god_name
+				HighGodNamePossessive = celtic_high_god_name_possessive
+				HighGodNameSheHe = CHARACTER_SHEHE_HE
+				HighGodHerselfHimself = CHARACTER_HIMSELF
+				HighGodHerHis = CHARACTER_HERHIS_HIS
+				HighGodNameAlternate = celtic_high_god_name_alternate
+				HighGodNameAlternatePossessive = celtic_high_god_name_alternate_possessive
+
+				#Creator
+				CreatorName = celtic_creator_god_name
+				CreatorNamePossessive = celtic_creator_god_name_possessive
+				CreatorSheHe = CHARACTER_SHEHE_HE
+				CreatorHerHis = CHARACTER_HERHIS_HIs
+				CreatorHerHim = CHARACTER_HERHIM_HIM
+		
+				#FertilityGod
+				FertilityGodName = celtic_fertility_god_name
+				FertilityGodNamePossessive = celtic_fertility_god_name_possessive
+				FertilityGodSheHe = CHARACTER_SHEHE_SHE
+				FertilityGodHerHis = CHARACTER_HERHIS_HER
+				FertilityGodHerHim = CHARACTER_HERHIM_HER
+
+				PriestMale = celtic_priest
+				PriestMalePlural = celtic_priest_plural
+				PriestFemale = celtic_priest
+				PriestFemalePlural = celtic_priest_plural
+				PriestNeuter = celtic_priest
+				PriestNeuterPlural = celtic_priest_plural
+				AltPriestTermPlural = celtic_priest_plural
+				BishopMale = celtic_bishop
+				BishopMalePlural = celtic_bishop_plural
+				BishopFemale = celtic_bishop
+				BishopFemalePlural = celtic_bishop_plural
+				BishopNeuter = celtic_bishop
+				BishopNeuterPlural = celtic_bishop_plural
+
+				ReligiousHeadName = celtic_religious_head_title
+				ReligiousHeadTitleName = celtic_religious_head_title_name
+			}
+
+		}
+		gallaecianism = {
+			color = { 0.80 0.80 0.0 }
+			icon = iberian3 #placeholder
+			reformed_icon = iberian3_reformed #placeholder
+
+			#holy sites: Numantia, astorga, Mount Bernonio
+			holy_site = numantia
+			holy_site = astorga
+			holy_site = coimbra
+			holy_site = mount_bernorio
+
+			doctrine = tenet_sanctity_of_nature
+			doctrine = tenet_sacred_childbirth
 			doctrine = tenet_sun_worship
 
 			#Unreformed

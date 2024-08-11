@@ -2128,7 +2128,25 @@ camas = {
 
 	character_modifier = {
 		name = holy_site_camas_effect_name
-		domain_tax_same_faith_mult = 0.2
+		domain_tax_same_faith_mult = 0.02
+	}
+}
+
+rajanpur = {
+	county = c_rajanpur
+
+	character_modifier = {
+		name = holy_site_rajanpur_effect_name
+		monthly_lifestyle_xp_gain_mult = 0.2
+	}
+}
+
+debul = {
+	county = c_debul
+
+	character_modifier = {
+		name = holy_site_debul_effect_name
+		personal_scheme_power_mult = 0.2
 	}
 }
 
@@ -2165,6 +2183,24 @@ mount_bernorio = {
 	character_modifier = {
 		name = holy_site_mount_bernorio_effect_name
 		fort_level = 1
+	}
+}
+
+astorga = {
+	county = c_astorga
+
+	character_modifier = {
+		name = holy_site_astorga_effect_name
+		mountains_advantage = 5
+	}
+}
+
+coimbra = {
+	county = c_coimbra
+
+	character_modifier = {
+		name = holy_site_coimbra_effect_name
+		coastal_advantage = 5
 	}
 }
 
