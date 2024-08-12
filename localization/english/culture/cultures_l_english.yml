@@ -224,6 +224,15 @@
  aorsi: "Aorsian"
  aorsi_prefix: "Aorsian"
  aorsi_collective_noun: "Aorsians"
+ dahae: "Dahae"
+ dahae_prefix: "Dahae"
+ dahae_collective_noun: "Dahaes"
+ hyrcani: "Hyrcani"
+ hyrcani_prefix: "Hyrcani"
+ hyrcani_collective_noun: "Hyrcania"
+ sakan: "Sakan"
+ sakan_prefix: "Sakan"
+ sakan_collective_noun: "Sakas"
 
  #eastern
  mauryan: "Mauryan"
