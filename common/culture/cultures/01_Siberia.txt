@@ -36,6 +36,7 @@ kasogisch = {
 		tradition_female_only_inheritance
 		tradition_zealous_people
         tradition_mendicant_mystics
+		tradition_horse_lords
 	}
 	
 	name_list = name_list_finnish

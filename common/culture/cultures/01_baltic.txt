@@ -1,4 +1,4 @@
-finnish = {
+pax_finnish = {
 	color = { 0.6 0.33 0.73 }
 	
 	ethos = ethos_bellicose
@@ -30,11 +30,12 @@ przeworsk = {
 	
 	ethos = ethos_egalitarian
 	heritage = heritage_baltic
-	language = language_finnic
+	language = language_baltic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_pastoralists
 		tradition_collective_lands
+		tradition_medicinal_plants
 	}
 	
 	name_list = name_list_finnish
@@ -56,7 +57,7 @@ zarubintsy = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_baltic
-	language = language_finnic
+	language = language_baltic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_hunters

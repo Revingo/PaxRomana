@@ -32,7 +32,7 @@
  retire_army_veterans_action_button_DISABLED_tooltip: "$retire_army_veterans_action_button_tooltip$\n\n - #N You need at least 500 @gold_icon! #!\n - #N You need at least 150 @prestige_icon! #!\n - #N You need at least 1200 @auctoritas_icon! #!\n - #N Army's Happiness must be between 5% and 80%#!"
  nobles_pension_action_button: "Free Pensions to Nobles"
  nobles_pension_action_resources: "@gold_icon! 750, @prestige_icon! 80, @auctoritas_icon! 1200"
- nobles_pension_action_button_tooltip: "#weak Nobles want to keep living as Nobles, and want to be certain that their childs will live as nobles too. What makes them nobles thought? Money. Money is power and they want to keep getting more power, no matter what. If you give them free pensions, they will be surely happy.#!\n#P Nobles' Faction gets +20 Happiness.#!"
+ nobles_pension_action_button_tooltip: "#weak Nobles want to keep living as Nobles, and want to be certain that their childs will live as nobles too. What makes them nobles though? Money. Money is power and they want to keep getting more power, no matter what. If you give them free pensions, they will be surely happy.#!\n#P Nobles' Faction gets +20 Happiness.#!"
  nobles_pension_action_button_DISABLED_tooltip: "$nobles_pension_action_button_tooltip$\n\n - #N You need at least 750 @gold_icon! #!\n - #N You need at least 80 @prestige_icon! #!\n - #N You need at least 1200 @auctoritas_icon! #!\n - #N Nobles' Happiness must be between 5% and 80%#!"
  extend_citizenship_action_button: "Extend Citizenship"
  extend_citizenship_action_resources: "@gold_icon! 350, @prestige_icon! 200, @auctoritas_icon! 1200"

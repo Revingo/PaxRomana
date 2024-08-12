@@ -1,0 +1,128 @@
+﻿pax_roman = {
+	color = { 0.4 0.0 0.04 }
+
+	ethos = ethos_bellicose
+	heritage = heritage_latin
+	language = language_latin
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_formation_fighting
+		tradition_legalistic
+		tradition_noble_adoption
+	}
+
+	name_list = name_list_pax_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx }  
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+samnites = {
+	color = { 0.27 0.51 0.71 }
+
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_oscan
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_pastoralists
+		tradition_strong_kinship
+		tradition_horse_breeder
+	}
+
+	name_list = name_list_samnite
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+oscan = {
+	color = { 0.69 0.75 0.13 }
+
+	ethos = ethos_stoic
+	heritage = heritage_latin
+	language = language_oscan
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_agrarian
+		tradition_philosopher_culture
+		tradition_culture_blending
+	}
+
+	name_list = name_list_pax_roman
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+umbrian = {
+	color = { 0.0 0.51 0.5 }
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_oscan
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_pastoralists
+		tradition_strong_kinship
+		tradition_culture_blending
+		tradition_metal_craftsmanship
+	}
+
+	name_list = name_list_umbrian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}
+
+venetii = {
+	color = { 0.9 0.81 0.2 }
+
+	ethos = ethos_communal
+	heritage = heritage_latin
+	language = language_venetisch
+	martial_custom = martial_custom_male_only
+
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_artisans
+		tradition_sorcerous_metallurgy
+	}
+
+	name_list = name_list_transpadanian
+
+	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mediterranean_building_gfx } 
+	clothing_gfx = { western_clothing_gfx } 
+	unit_gfx = { eastern_unit_gfx } 
+
+	ethnicities = {
+		10 = mediterranean
+	}
+}

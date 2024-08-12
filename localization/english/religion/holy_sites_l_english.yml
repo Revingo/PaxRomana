@@ -13,6 +13,8 @@
  holy_site_cave_of_the_devil_name: "Cave of the Devil"
  holy_site_contrebia_belaisca_name: "Contrebia Belaisca"
  holy_site_mount_bernorio_name: "Mount Bernorio"
+ holy_site_astorga_name: "Astorga Mountains"
+ holy_site_coimbra_name: "Coimbra"
  holy_site_pella_name: "Pella"
  holy_site_babylon_name: "Babylon"
  holy_site_byzantium_name: "Byzantium"
@@ -51,4 +53,6 @@
  holy_site_dobruja_name: "Dobruja"
  holy_site_pannonia_basin_name: "Pannonia Basin"
  holy_site_externsteine_name: "Externsteine"
+ holy_site_debul_name: "Debul"
+ holy_site_rajanpur_name: "rajanpur"
  

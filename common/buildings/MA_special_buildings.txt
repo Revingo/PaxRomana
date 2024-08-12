@@ -1,0 +1,20 @@
+﻿#Pharos of Alexandria
+MA_pharos_alexandria = {
+	type_icon = "MA_pharos_alexandria.dds"
+	next_building = MA_pharos_alexandria_02
+	cost_gold = main_building_tier_2_cost
+	construction_time = slow_construction_time
+	asset = { type = entity name = "pharos_entity" soundeffect = @fire }
+	asset = { type = entity name = "pharos_entity" soundeffect = @fire graphical_cultures = { mena_building_gfx } }
+	
+	county_modifier = {
+		development_growth_factor = medium_development_growth_gain
+	}
+	province_modifier = {
+		defender_holding_advantage = normal_building_advantage_tier_2
+	}
+	ai_value = {
+		base = 50
+	}
+	type = special
+}

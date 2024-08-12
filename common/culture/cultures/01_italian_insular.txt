@@ -6,9 +6,9 @@ sardinian = {
 	language = language_sardinian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
 		tradition_fishermen
 		tradition_tribe_unity
+		tradition_isolationist
 	}
 	
 	name_list = name_list_sardinian
@@ -33,6 +33,7 @@ corsican = {
 	traditions = {
 		tradition_fishermen
 		tradition_tribe_unity
+		tradition_isolationist
 	}
 	
 	name_list = name_list_sardinian

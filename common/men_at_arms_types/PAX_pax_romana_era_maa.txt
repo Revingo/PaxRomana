@@ -114,6 +114,13 @@ legionary_cavalry = {
 # Chariotiers innovation
 # Only Egypt region
 egyptian_chariots = {
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_chariotiers
+			culture_overlaps_geographical_region = PAXworld_africa_egypt
+		}
+	}
+
 	type = heavy_cavalry
 	
 	damage = 40
@@ -156,6 +163,13 @@ egyptian_chariots = {
 
 # Only Britain region
 brythonic_chariots = {
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_chariotiers
+			culture_overlaps_geographical_region = PAXworld_europe_britannia_et_hibernia_britannia
+		}
+	}
+	
 	type = heavy_cavalry
 	
 	damage = 40
@@ -198,6 +212,13 @@ brythonic_chariots = {
 # Elite Units innovation
 # Only Iberian Region
 noble_iberian_swordsmen = {
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_elite_units
+			has_cultural_pillar = heritage_iberian
+		}
+	}
+	
 	type = heavy_infantry
 	
 	damage = 35
@@ -232,6 +253,13 @@ noble_iberian_swordsmen = {
 
 # Egypt region only
 nubian_royal_cavalry = {
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_elite_units
+			culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+		}
+	}
+	
 	type = light_cavalry
 	
 	damage = 25
@@ -274,6 +302,13 @@ nubian_royal_cavalry = {
 
 # Only in Dacia region
 spearwall = {
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_elite_units
+			has_cultural_pillar = heritage_balcan
+		}
+	}
+	
 	type = [pikemen|E]
 	
 	damage = 25
@@ -310,6 +345,13 @@ spearwall = {
 
 # Only in Germanic region
 germanic_wolf_warriors = {
+	can_recruit = {
+		culture = {
+			has_innovation = innovation_elite_units
+			has_cultural_pillar = heritage_german
+		}
+	}
+	
 	type = [swordsmen|E]
 	
 	damage = 25

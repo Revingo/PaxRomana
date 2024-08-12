@@ -244,9 +244,18 @@ PAXworld_east_persia_west = {
 	}
 }
 
-PAXworld_east_persia_east = {
+PAXworld_east_persia_east_baktria = {
 	duchies = {
-		d_tlepolemos d_strasanor d_parthia d_baktria
+		d_baktria
+	}
+}
+
+PAXworld_east_persia_east = {
+	regions = {
+		PAXworld_east_persia_east_baktria
+	}
+	duchies = {
+		d_tlepolemos d_strasanor d_parthia
 	}
 }
 

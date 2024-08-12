@@ -244,6 +244,14 @@ warhounds = {
 # Warrior Druids innovation
 # Celtic religions only
 druids_warband = {
+	can_recruit = {
+		AND = {
+			culture = {
+				has_innovation = innovation_warrior_druids
+			}
+			religion = religion:celtic_religion
+		}
+	}
 	type = [swordsmen|E]
 	
 	damage = 25

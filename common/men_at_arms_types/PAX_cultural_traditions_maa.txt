@@ -1,5 +1,10 @@
 ﻿# Hellenic Traditions tradition
 hoplites = {
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = unlock_maa_hoplites
+		}
+	}
 	type = [spearmen|E]
 	
 	damage = 16
@@ -36,6 +41,11 @@ hoplites = {
 }
 
 cretan_archers = {
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = unlock_maa_cretan_archers
+		}
+	}
 	type = archers
 	
 	damage = 30
@@ -70,6 +80,11 @@ cretan_archers = {
 }
 
 pikemen_unit = {
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = unlock_maa_pikemen_unit
+		}
+	}
 	type = [pikemen|E]
 	
 	damage = 30
@@ -104,8 +119,13 @@ pikemen_unit = {
 	}
 }
 
-# Land of the Bow innovation
+# Land of the Bow tradition
 egyptian_nobel_archers = {
+	can_recruit = {
+		culture = {
+			has_cultural_parameter = unlock_maa_archers_of_the_nile
+		}
+	}
 	type = archers
 	
 	damage = 25
