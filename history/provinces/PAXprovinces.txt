@@ -2167,7 +2167,7 @@
 	religion = r_hellenic
 }
 543 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 544 = {
@@ -2219,19 +2219,19 @@
 	religion = scythian
 }
 556 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 557 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 558 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 559 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 560 = {
@@ -2251,7 +2251,7 @@
 	religion = r_hellenic
 }
 564 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 565 = {
@@ -2259,7 +2259,7 @@
 	religion = scythian
 }
 566 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 567 = {
@@ -2379,11 +2379,11 @@
 	religion = scythian
 }
 596 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 597 = {
-	culture = saioi
+	culture = maotian
 	religion = scythian
 }
 598 = {
@@ -2391,7 +2391,7 @@
 	religion = h_hellenic
 }
 599 = {
-	culture = saioi
+	culture = maotian
 	religion = scythian
 }
 600 = {
@@ -2415,7 +2415,7 @@
 	religion = scythian
 }
 605 = {
-	culture = lazyges
+	culture = legian
 	religion = scythian
 }
 606 = {
@@ -2423,7 +2423,7 @@
 	religion = scythian
 }
 607 = {
-	culture = saioi
+	culture = legian
 	religion = scythian
 }
 608 = {
@@ -2467,7 +2467,7 @@
 	religion = tengri_pagan
 }
 618 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 619 = {
@@ -2475,11 +2475,11 @@
 	religion = scythian
 }
 620 = {
-	culture = lazyges
+	culture = legian
 	religion = tengri_pagan
 }
 621 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 622 = {
@@ -2491,11 +2491,11 @@
 	religion = tengri_pagan
 }
 624 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 625 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 626 = {
@@ -2503,7 +2503,7 @@
 	religion = tengri_pagan
 }
 627 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 628 = {
@@ -2691,7 +2691,7 @@
 	religion = urartuism
 }
 674 = {
-	culture = lazyges
+	culture = legian
 	religion = urartuism
 }
 675 = {
@@ -2707,7 +2707,7 @@
 	religion = urartuism
 }
 678 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 679 = {
@@ -2815,11 +2815,11 @@
 	religion = mazdayasna
 }
 705 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 706 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 707 = {
@@ -2951,7 +2951,7 @@
 	religion = r_hellenic
 }
 739 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 740 = {
@@ -21071,7 +21071,7 @@
 	religion = scythian
 }
 5269 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 5270 = {
@@ -21091,7 +21091,7 @@
 	religion = r_hellenic
 }
 5274 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 5275 = {
@@ -21103,7 +21103,7 @@
 	religion = r_hellenic
 }
 5277 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 5278 = {
@@ -21143,7 +21143,7 @@
 	religion = r_hellenic
 }
 5287 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 5288 = {
@@ -21155,7 +21155,7 @@
 	religion = r_hellenic
 }
 5290 = {
-	culture = saioi
+	culture = scythian
 	religion = scythian
 }
 5291 = {
@@ -21215,7 +21215,7 @@
 	religion = r_hellenic
 }
 5305 = {
-	culture = lazyges
+	culture = legian
 	religion = scythian
 }
 5306 = {
@@ -21239,7 +21239,7 @@
 	religion = r_hellenic
 }
 5311 = {
-	culture = lazyges
+	culture = legian
 	religion = scythian
 }
 5312 = {
@@ -21247,7 +21247,7 @@
 	religion = r_hellenic
 }
 5313 = {
-	culture = lazyges
+	culture = legian
 	religion = tengri_pagan
 }
 5314 = {
@@ -21367,7 +21367,7 @@
 	religion = r_hellenic
 }
 5343 = {
-	culture = lazyges
+	culture = legian
 	religion = scythian
 }
 5344 = {
@@ -22355,7 +22355,7 @@
 	religion = r_hellenic
 }
 5590 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 5591 = {
@@ -22371,7 +22371,7 @@
 	religion = r_hellenic
 }
 5594 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 5595 = {
@@ -22387,7 +22387,7 @@
 	religion = r_hellenic
 }
 5598 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 5599 = {
@@ -22403,7 +22403,7 @@
 	religion = r_hellenic
 }
 5602 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 5603 = {
@@ -22807,7 +22807,7 @@
 	religion = r_hellenic
 }
 5703 = {
-	culture = pontus
+	culture = pontic
 	religion = h_hellenic
 }
 5704 = {
@@ -28256,7 +28256,7 @@
 	religion = r_hellenic
 }
 7065 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 7066 = {
@@ -28276,7 +28276,7 @@
 	religion = tengri_pagan
 }
 7070 = {
-	culture = lazyges
+	culture = aorsi
 	religion = tengri_pagan
 }
 7071 = {

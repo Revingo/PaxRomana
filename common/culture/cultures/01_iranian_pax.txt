@@ -1,4 +1,4 @@
-saioi = {
+scythian = {
 	color = { 0.50 0.80 0.06 }
 	
 	ethos = ethos_bellicose
@@ -28,7 +28,7 @@ saioi = {
 	}
 }
 
-lazyges = {
+legian = {
 	color = { 0.50 0.23 0.06 }
 	
 	ethos = ethos_bellicose
