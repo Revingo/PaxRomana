@@ -243,3 +243,32 @@ babylonian = {
 		10 = arab
 	}
 }
+
+hyrcani = {
+	color = { 0.47 0.10 0.70 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_persian
+	language = language_persian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+		tradition_storytellers
+		tradition_artisans
+	}
+	
+	name_list = name_list_persian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		50 = circumpolar_dark_hair
+		25 = circumpolar_brown_hair
+		25 = circumpolar_blonde_hair
+		10 = mediterranean_byzantine
+		4 = mediterranean
+	}
+}

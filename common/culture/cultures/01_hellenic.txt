@@ -419,7 +419,7 @@ mysian = {
 	}
 }
 
-pontus = {
+pontic = {
 	color = { 0.43 0.50 0.98 }
 	
 	ethos = ethos_egalitarian
