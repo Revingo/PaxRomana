@@ -10375,6 +10375,7 @@ e_africa = {
 					color = { 52 86 177 }
 				}
 			}
+			
 		}
 		d_byzacena = {
 			color = { 112 23 15 }
@@ -10453,34 +10454,6 @@ e_africa = {
 					province = 4605
 
 					color = { 39 54 186 }
-				}
-			}
-			c_bir_amir = {
-				color = { 69 80 176 }
-
-				b_bir_amir = {
-					province = 4572
-
-					color = { 69 80 176 }
-				}
-				b_sinawin = {
-					province = 6321
-
-					color = { 69 80 176 }
-				}
-			}
-			c_ghadames = {
-				color = { 68 76 145 }
-
-				b_ghadames = {
-					province = 4570
-
-					color = { 68 76 145 }
-				}
-				b_daradj = {
-					province = 4571
-
-					color = { 68 76 145 }
 				}
 			}
 		}
@@ -10725,30 +10698,6 @@ e_africa = {
 					color = { 54 56 133 }
 				}
 			}
-			c_waddan = {
-				color = { 17 20 150 }
-
-				b_waddan = {
-					province = 4563
-
-					color = { 17 20 150 }
-				}
-				b_tajrift = {
-					province = 4553
-
-					color = { 17 20 150 }
-				}
-				b_tinnai = {
-					province = 4564
-
-					color = { 17 20 150 }
-				}
-				b_zalha = {
-					province = 6446
-
-					color = { 125 97 52 }
-				}
-			}
 		}
 	}
 	k_berber = {
@@ -10756,13 +10705,13 @@ e_africa = {
 
 		can_create = {
 			custom_description = {
-			text = cant_create_tribal_or_city-state
+				text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 		d_gaetulia = {
 			color = { 68 137 57 }
@@ -10840,6 +10789,40 @@ e_africa = {
 					province = 4610
 
 					color = { 121 171 103 }
+				}
+			}
+			
+			c_sala = {
+				color = { 11 124 133 }
+
+				b_bouda = {
+					province = 6468
+
+					color = { 11 124 133 }
+				}
+				b_adrar_timmi = {
+					province = 6467
+
+					color = { 11 124 133 }
+				}
+				b_amadat_tinghert = {
+					province = 6591
+
+					color = { 11 124 133 }
+				}
+			}
+			c_tichitt = {
+				color = { 11 56 133 }
+
+				b_masin = {
+					province = 6664
+
+					color = { 11 56 133 }
+				}
+				b_mema = {
+					province = 6663
+
+					color = { 11 56 133 }
 				}
 			}
 		}
@@ -11046,7 +11029,117 @@ e_africa = {
 					color = { 244 124 133 }
 				}
 			}
+		}
+		d_garamantia = {
+			color = { 89 84 145 }
 
+			c_garamantia = {
+				color = { 68 84 145 }
+
+				b_wadi_irawan = {
+					province = 6601
+
+					color = { 68 84 145 }
+				}
+
+				b_ghat = {
+					province = 6661
+
+					color = { 68 84 145 }
+				}
+
+				b_tassawa = {
+					province = 6450
+
+					color = { 68 84 145 }
+				}
+
+				b_germa = {
+					province = 6449
+
+					color = { 68 84 145 }
+				}
+			}
+			c_bir_amir = {
+				color = { 69 80 176 }
+
+				b_bir_amir = {
+					province = 4572
+
+					color = { 69 80 176 }
+				}
+				b_sinawin = {
+					province = 6321
+
+					color = { 69 80 176 }
+				}
+			}
+			c_waddan = {
+				color = { 17 20 150 }
+
+				b_waddan = {
+					province = 4563
+
+					color = { 17 20 150 }
+				}
+				b_tajrift = {
+					province = 4553
+
+					color = { 17 20 150 }
+				}
+				b_tinnai = {
+					province = 4564
+
+					color = { 17 20 150 }
+				}
+				b_zalha = {
+					province = 6446
+
+					color = { 125 97 52 }
+				}
+				b_awjila = {
+					province = 6106
+
+					color = { 36 154 67 }
+				}
+			}
+			c_ghadames = {
+				color = { 68 76 145 }
+
+				b_ghadames = {
+					province = 4570
+
+					color = { 68 76 145 }
+				}
+				b_daradj = {
+					province = 4571
+
+					color = { 68 76 145 }
+				}
+				b_erg_ghati = {
+					province = 6602
+
+					color = { 68 76 145 }
+				}
+			}
+			c_zawila = {
+				color = { 215 84 145 }
+				b_zawila = {
+					province = 6447
+
+					color = { 215 84 145 }
+				}
+				b_tamzawa = {
+					province = 6459
+
+					color = { 215 84 145 }
+				}
+				b_sabha = {
+					province = 6448
+
+					color = { 215 84 145 }
+				}
+			}
 		}
 	}
 }
@@ -22904,11 +22997,11 @@ e_alexander_makedon = {
 			custom_description = {
 			text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 		d_cyrene_et_creta = {
 			color = { 54 108 12 }
@@ -22943,25 +23036,6 @@ e_alexander_makedon = {
 					}
 
 					color = { 34 152 65 }
-				}
-			}
-			c_awjila = {
-				color = { 36 154 67 }
-
-				b_awjila = {
-					province = 6106
-
-					color = { 36 154 67 }
-				}
-				b_jalu = {
-					province = 6107
-
-					color = { 36 154 67 }
-				}
-				b_jakharrad = {
-					province = 6108
-
-					color = { 36 154 67 }
 				}
 				b_ajadabiya = {
 					province = 4551
@@ -23026,8 +23100,6 @@ e_alexander_makedon = {
 			c_chania = {
 				color = { 210 145 20 }
 
-				#capital = 479 # Chania
-
 				b_chania = {
 					province = 479
 
@@ -23042,6 +23114,30 @@ e_alexander_makedon = {
 					province = 3744
 
 					color = { 210 145 20 }
+				}
+			}
+			c_nasamonia = {
+				color = { 215 84 31 }
+
+				b_augila = {
+					province = 6666
+
+					color = { 215 84 31 }
+				}
+				b_gialo = {
+					province = 6499
+
+					color = { 215 84 31 }
+				}
+				b_jalu = {
+					province = 6107
+
+					color = { 36 154 67 }
+				}
+				b_jakharrad = {
+					province = 6108
+
+					color = { 36 154 67 }
 				}
 			}
 		}
@@ -23457,6 +23553,20 @@ e_alexander_makedon = {
 					province = 6122
 
 					color = { 45 205 135 }
+				}
+			}
+			c_paraetonium = {
+				color = { 201 205 135 }
+
+				b_siwaa = {
+					province = 6498
+
+					color = { 201 205 135 }
+				}
+				b_farafra = {
+					province = 6497
+
+					color = { 201 205 135 }
 				}
 			}
 		}

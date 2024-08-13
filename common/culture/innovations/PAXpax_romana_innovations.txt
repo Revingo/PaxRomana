@@ -246,10 +246,14 @@ innovation_chariotiers = {
 	icon = @hird
 
 	can_progress = {
-		OR = {
-			culture_overlaps_geographical_region = PAXworld_europe_britannia_et_hibernia_britannia
-			culture_overlaps_geographical_region = PAXworld_africa_egypt
+		custom_description = {
+			text = or_region_britannia_region_egypt
+			OR = {
+				culture_overlaps_geographical_region = PAXworld_europe_britannia_et_hibernia_britannia
+				culture_overlaps_geographical_region = PAXworld_africa_egypt
+			}
 		}
+		
 	}
 
 	custom = unlock_egyptian_chariotiers_if
@@ -265,11 +269,14 @@ innovation_elite_units = {
 	icon = @hird
 
 	can_progress = {
-		OR = {
-			has_cultural_pillar = heritage_iberian
-			has_cultural_pillar = heritage_balcan
-			has_cultural_pillar = heritage_german
-			culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+		custom_description = {
+			text = or_pillar_iberian_pillar_balcan_pillar_german_region_egypt
+			OR = {
+				has_cultural_pillar = heritage_iberian
+				has_cultural_pillar = heritage_balcan
+				has_cultural_pillar = heritage_german
+				culture_overlaps_geographical_region = PAXworld_east_africa_egypt
+			}
 		}
 	}
 

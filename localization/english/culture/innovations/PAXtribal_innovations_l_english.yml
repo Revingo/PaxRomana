@@ -44,3 +44,6 @@
  can_change_to_city_state: "Can change your government type to [GetGovernment('city-state_government').GetName]"
  unlock_african_elephants_if: "Can recruit [GetMaA('african_elephants').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa').GetName] [region|E]"
  unlock_indian_elephants_if: "Can recruit [GetMaA('indian_elephants').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_east_india').GetName] [region|E]"
+
+ # Trigger Localization
+ CAN_PROGRESS_or_region_india_region_africa: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_east_india').GetName] [region|E] or in the [GetGeographicalRegion('PAXworld_africa').GetName] [region|E]"
