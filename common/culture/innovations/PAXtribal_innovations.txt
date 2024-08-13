@@ -238,10 +238,15 @@ innovation_elephantry = {
 	icon = @hird
 
 	can_progress = {
-		OR = {
-			culture_overlaps_geographical_region = PAXworld_east_india
-			culture_overlaps_geographical_region = PAXworld_africa
+		custom_description = {
+			OR = {
+				culture_overlaps_geographical_region = PAXworld_east_india
+				culture_overlaps_geographical_region = PAXworld_africa
+			}
+
+			text = or_region_india_region_africa
 		}
+		
 	}
 
 	custom = unlock_african_elephants_if

@@ -50,3 +50,7 @@
  unlock_dacian_spearwall_if: "Can recruit [GetMaA('spearwall').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_balcan_name$ [heritage|E]"
  unlock_germanic_wolf_warriors_if: "Can recruit [GetMaA('germanic_wolf_warriors').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_german_name$ [heritage|E]"
  add_modifier_if_abrahimic: "Get the modifiers if you have a [GetReligionFamily('rf_abrahamic').GetName] [faith|E]"
+
+ # Trigger Localization
+ CAN_PROGRESS_or_region_britannia_region_egypt: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_europe_britannia_et_hibernia_britannia').GetName] [region|E] or in the [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E]"
+ CAN_PROGRESS_or_pillar_iberian_pillar_balcan_pillar_german_region_egypt: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E] or does not have the $heritage_iberian_name$ [heritage|E] or the $heritage_balcan_name$ [heritage|E] or the $heritage_german_name$ [heritage|E]"

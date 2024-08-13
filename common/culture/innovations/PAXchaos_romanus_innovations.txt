@@ -167,11 +167,15 @@ innovation_noble_milita = {
 	icon = @hird
 
 	can_progress = {
-		OR = {
-			has_cultural_pillar = heritage_persian
-			has_cultural_pillar = heritage_celtic
-			culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
-			culture_overlaps_geographical_region = PAXworld_africa_egypt
+		custom_description = {
+			text = or_pillar_persian_pillar_celtic_region_illyria_region_egypt
+
+			OR = {
+				has_cultural_pillar = heritage_persian
+				has_cultural_pillar = heritage_celtic
+				culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
+				culture_overlaps_geographical_region = PAXworld_africa_egypt
+			}
 		}
 	}
 
@@ -190,14 +194,16 @@ innovation_alone_and_standing = {
 	icon = @hird
 
 	can_progress = {
-		AND = {
-			has_cultural_pillar = heritage_hellenic
+		has_cultural_pillar = heritage_hellenic
+		
+		custom_description = {
+			text = region_baktria
 			culture_overlaps_geographical_region = PAXworld_east_persia_east_baktria
 		}
 	}
 
 	character_modifier = {
-		defender_holding_advantage = 0.5
+		defender_holding_advantage = 5
 		army_toughness_mult = 0.15
 		army_screen_mult = 0.05
 	}
@@ -231,7 +237,11 @@ innovation_steppes_blood_lust = {
 	icon = @hird
 
 	can_progress = {
-		culture_overlaps_geographical_region = PAXworld_steppe
+		custom_description = {
+			text = region_steppe
+
+			culture_overlaps_geographical_region = PAXworld_steppe
+		}
 	}
 
 	character_modifier = {

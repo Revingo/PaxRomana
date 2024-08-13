@@ -41,3 +41,7 @@
  unlock_celtic_noble_warband_if: "Can recruit [GetMaA('celtic_noble_warband').GetName] as [men_at_arms|E] if your [culture|E] has the $heritage_celtic_name$ [heritage|E]"
  unlock_illyrian_nobles_if: "Can recruit [GetMaA('illyrian_nobles').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_europe_balkans_illyria').GetName] [region|E]"
  unlock_egyptian_royal_guards_if: "Can recruit [GetMaA('egyptian_royal_guards').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E]"
+
+ # Trigger Localization
+ CAN_PROGRESS_or_pillar_persian_pillar_celtic_region_illyria_region_egypt: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_africa_egypt').GetName] [region|E] or in the [GetGeographicalRegion('PAXworld_europe_balkans_illyria').GetName] [region|E] or does not have the $heritage_persian_name$ [heritage|E] or the $heritage_celtic_name$ [heritage|E]"
+ CAN_PROGRESS_region_baktria: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_east_persia_east_baktria').GetName] [region|E]"

@@ -89,8 +89,8 @@ innovation_pilum = {
 	icon = @weapons_and_armor_02
 
 	character_modifier = {
-		army_pursuit_mult = 0.1
-		army_damage_mult = 0.5
+		army_pursuit_mult = 0.07
+		army_damage_mult = 0.2
 	}
 
 	flag = global_regular
@@ -104,7 +104,7 @@ innovation_corvus = {
 
 	# TODO: we need the naval battles system for this innovation to actualy work, we could maybe comment it for now
 	character_modifier = {
-		naval_movement_speed_mult = 0.5
+		naval_movement_speed_mult = 0.3
 	}
 
 	flag = global_regular
@@ -251,7 +251,11 @@ innovation_steppe_raiders = {
 	icon = @hird
 
 	can_progress = {
-		culture_overlaps_geographical_region = PAXworld_steppe
+		custom_description = {
+			text = region_steppe
+			culture_overlaps_geographical_region = PAXworld_steppe
+		}
+		
 	}
 
 	unlock_maa = steppe_spear_warriors
@@ -267,7 +271,10 @@ innovation_makedonian_reform = {
 	icon = @hird
 
 	can_progress = {
-		culture_overlaps_geographical_region = PAXworld_europe_south_makedon
+		custom_description = {
+			text = region_makedon
+			culture_overlaps_geographical_region = PAXworld_europe_south_makedon
+		}
 	}
 
 	unlock_maa = makedonian_pikemen
@@ -283,7 +290,11 @@ innovation_seleucids_strenght = {
 	icon = @hird
 
 	can_progress = {
-		culture_overlaps_geographical_region = PAXworld_east_persia_west
+		custom_description = {
+			text = region_persia_west
+			culture_overlaps_geographical_region = PAXworld_east_persia_west
+		}
+		
 	}
 
 	unlock_maa = silver_shield_pikemen
@@ -298,11 +309,15 @@ innovation_master_dog_trainers = {
 	icon = @hird
 
 	can_progress = {
-		OR = {
-			culture_overlaps_geographical_region = PAXworld_europe_west_gallia
-			culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
-			culture_overlaps_geographical_region = PAXworld_europe_germania
-		}	
+		custom_description = {
+			text = or_region_gallia_region_illyria_region_germania
+			OR = {
+				culture_overlaps_geographical_region = PAXworld_europe_west_gallia
+				culture_overlaps_geographical_region = PAXworld_europe_balkans_illyria
+				culture_overlaps_geographical_region = PAXworld_europe_germania
+			}	
+		}
+		
 	}
 
 	unlock_maa = warhounds

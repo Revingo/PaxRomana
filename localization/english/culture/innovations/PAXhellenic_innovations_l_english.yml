@@ -54,3 +54,9 @@
  can_change_to_dynastic: "Can change your government type to [GetGovernment('dynastic_government').GetName]"
  can_change_to_res_publica: "Can change your government type to [GetGovernment('res_publica_government').GetName]"
  unlock_warrior_druids_if: "Can recruit [GetMaA('druids_warband').GetName] as [men_at_arms|E] if you have a [GetReligionByKey('celtic_religion').GetAdjective] [faith|E]"
+
+ # Trigger Localization
+ CAN_PROGRESS_region_steppe: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_steppe').GetName] [region|E]"
+ CAN_PROGRESS_region_makedon: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_europe_south_makedon').GetName] [region|E]"
+ CAN_PROGRESS_region_persia_west: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_east_persia_west').GetName] [region|E]"
+ CAN_PROGRESS_or_region_gallia_region_illyria_region_germania: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_europe_west_gallia').GetName] [region|E] or in the [GetGeographicalRegion('PAXworld_europe_balkans_illyria').GetName] [region|E] or in the [GetGeographicalRegion('PAXworld_europe_germania').GetName] [region|E]"
