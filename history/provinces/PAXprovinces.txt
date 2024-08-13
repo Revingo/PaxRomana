@@ -25784,8 +25784,8 @@
 	religion = r_hellenic
 }
 6447 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6448 = {
 	culture = pax_roman
@@ -25864,12 +25864,12 @@
 	religion = r_hellenic
 }
 6467 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6468 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6469 = {
 	culture = pax_roman
@@ -25984,16 +25984,16 @@
 	religion = r_hellenic
 }
 6497 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = egyptian
+	religion = kemeticism
 }
 6498 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = egyptian
+	religion = kemeticism
 }
 6499 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6500 = {
 	culture = pax_roman
@@ -26360,8 +26360,8 @@
 	religion = r_hellenic
 }
 6591 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6592 = {
 	culture = pax_roman
@@ -26400,8 +26400,8 @@
 	religion = r_hellenic
 }
 6601 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6602 = {
 	culture = pax_roman
@@ -26640,28 +26640,28 @@
 	religion = r_hellenic
 }
 6661 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6662 = {
 	culture = pax_roman
 	religion = r_hellenic
 }
 6663 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6664 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6665 = {
 	culture = pax_roman
 	religion = r_hellenic
 }
 6666 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = berber
+	religion = north_african_acham_pagan
 }
 6667 = {
 	culture = pax_roman

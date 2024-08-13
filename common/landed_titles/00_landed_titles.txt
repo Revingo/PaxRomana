@@ -23100,8 +23100,6 @@ e_alexander_makedon = {
 			c_chania = {
 				color = { 210 145 20 }
 
-				#capital = 479 # Chania
-
 				b_chania = {
 					province = 479
 
