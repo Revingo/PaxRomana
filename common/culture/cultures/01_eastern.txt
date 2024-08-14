@@ -166,16 +166,15 @@ elamitisch = {
 	}
 }
 
-arab = {
-	color = { 0.5 0.5 0.0 }
+aramaeer = {
+	color = { 0.89 0.2 0.55 }
 	
-	ethos = ethos_communal
-	heritage = heritage_arabian
-	language = language_arabic
+	ethos = ethos_bureaucratic
+	heritage = heritage_semitic
+	language = language_aramaeic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warriors_of_the_dry
-		tradition_tribe_unity
+		tradition_city_keepers
 		tradition_desert_nomads
 		tradition_caravaneers
 	}
@@ -189,5 +188,87 @@ arab = {
 	
 	ethnicities = {
 		10 = arab
+	}
+}
+
+pax_assyrian = {
+	color = { 0.89 0.73 0.10 }
+	
+	ethos = ethos_communal
+	heritage = heritage_semitic
+	language = language_aramaeic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+babylonian = {
+	color = { 0.13 0.58 0.09 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_semitic
+	language = language_aramaeic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_mendicant_mystics
+		tradition_legalistic
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+hyrcani = {
+	color = { 0.47 0.10 0.70 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_persian
+	language = language_persian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+		tradition_storytellers
+		tradition_artisans
+	}
+	
+	name_list = name_list_persian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		50 = circumpolar_dark_hair
+		25 = circumpolar_brown_hair
+		25 = circumpolar_blonde_hair
+		10 = mediterranean_byzantine
+		4 = mediterranean
 	}
 }

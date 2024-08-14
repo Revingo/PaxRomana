@@ -35,7 +35,6 @@ north_sea_germans = {
 	language = language_germanic
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_maritime_mercantilism
 		tradition_fishermen
 		tradition_runestones
 		tradition_seafaring

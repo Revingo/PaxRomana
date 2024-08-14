@@ -1,0 +1,44 @@
+﻿or_region_india_region_africa = {
+	global = CAN_PROGRESS_or_region_india_region_africa
+	global_not = CAN_PROGRESS_or_region_india_region_africa
+}
+
+region_steppe = {
+	global = CAN_PROGRESS_region_steppe
+	global_not = CAN_PROGRESS_region_steppe
+}
+
+region_makedon = {
+	global = CAN_PROGRESS_region_makedon
+	global_not = CAN_PROGRESS_region_makedon
+}
+
+region_persia_west = {
+	global = CAN_PROGRESS_region_persia_west
+	global_not = CAN_PROGRESS_region_persia_west
+}
+
+or_region_gallia_region_illyria_region_germania = {
+	global = CAN_PROGRESS_or_region_gallia_region_illyria_region_germania
+	gloabl_not = CAN_PROGRESS_or_region_gallia_region_illyria_region_germania
+}
+
+or_region_britannia_region_egypt = {
+	global = CAN_PROGRESS_or_region_britannia_region_egypt
+	global_not = CAN_PROGRESS_or_region_britannia_region_egypt
+}
+
+or_pillar_iberian_pillar_balcan_pillar_german_region_egypt = {
+	global = CAN_PROGRESS_or_pillar_iberian_pillar_balcan_pillar_german_region_egypt
+	global_not = CAN_PROGRESS_or_pillar_iberian_pillar_balcan_pillar_german_region_egypt
+}
+
+or_pillar_persian_pillar_celtic_region_illyria_region_egypt = {
+	global = CAN_PROGRESS_or_pillar_persian_pillar_celtic_region_illyria_region_egypt
+	global_not = CAN_PROGRESS_or_pillar_persian_pillar_celtic_region_illyria_region_egypt
+}
+
+region_baktria = {
+	global = CAN_PROGRESS_region_baktria
+	global_not = CAN_PROGRESS_region_baktria
+}

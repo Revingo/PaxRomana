@@ -274,12 +274,12 @@
 			holy_site = olympus
 
 			#Marriage
-			doctrine = doctrine_monogamy
+			doctrine = doctrine_concubines
 			doctrine = doctrine_divorce_approval
 
 			#Tenents
 			doctrine = tenet_astrology
-			doctrine = tenet_warmonger
+			doctrine = tenet_pursuit_of_power
 			doctrine = tenet_adaptive
 
 			holy_order_names = {

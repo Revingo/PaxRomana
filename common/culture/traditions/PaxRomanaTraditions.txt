@@ -34,6 +34,9 @@ tradition_hellenic_tradition = {
 	parameters = {
 		children_can_be_born_in_the_purple = yes
 		patient_trait_more_common = yes
+		unlock_maa_hoplites = yes
+		unlock_maa_cretan_archers = yes
+		unlock_maa_pikemen_unit = yes
 	}
 	character_modifier = {
 		diplomacy = 1
