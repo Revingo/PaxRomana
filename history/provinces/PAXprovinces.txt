@@ -15109,10 +15109,14 @@
 3778 = {
 	culture = pax_roman
 	religion = r_hellenic
+
+	holding = castle_holding
 }
 3779 = {
 	culture = pax_roman
 	religion = r_hellenic
+
+	holding = castle_holding
 }
 3780 = {
 	culture = pax_roman
