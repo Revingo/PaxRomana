@@ -9932,6 +9932,11 @@ e_africa = {
 
 					color = { 164 237 57 }
 				}
+				b_bechar = {
+					province = 6655
+
+					color = { 164 237 57 }
+				}
 			}
 		}
 		d_sitifensis = {
@@ -10795,13 +10800,13 @@ e_africa = {
 			c_sala = {
 				color = { 11 124 133 }
 
-				b_bouda = {
-					province = 6468
+				b_adrar_timmi = {
+					province = 6467
 
 					color = { 11 124 133 }
 				}
-				b_adrar_timmi = {
-					province = 6467
+				b_bouda = {
+					province = 6468
 
 					color = { 11 124 133 }
 				}
@@ -11124,11 +11129,7 @@ e_africa = {
 			}
 			c_zawila = {
 				color = { 215 84 145 }
-				b_zawila = {
-					province = 6447
 
-					color = { 215 84 145 }
-				}
 				b_tamzawa = {
 					province = 6459
 
