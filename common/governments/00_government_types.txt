@@ -355,8 +355,8 @@ military_government = {
 	}
 
 	character_modifier = {
-		levy_mult = 3
-		martial = 6
+		levy_size = 2.5
+		martial = 4
 	}
 
 	vassal_contract = { military_vassal_obligations }
