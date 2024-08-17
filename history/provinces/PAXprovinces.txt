@@ -7367,7 +7367,7 @@
 	religion = r_hellenic
 }
 1843 = {
-	culture = carthaginian
+	culture = iberian
 	religion = tartessian
 }
 1844 = {
@@ -7375,11 +7375,11 @@
 	religion = tartessian
 }
 1845 = {
-	culture = carthaginian
+	culture = iberian
 	religion = tartessian
 }
 1846 = {
-	culture = carthaginian
+	culture = iberian
 	religion = tartessian
 }
 1847 = {
@@ -18247,7 +18247,7 @@
 	religion = north_african_acham_pagan
 }
 4563 = {
-	culture = berber
+	culture = garamantia
 	religion = north_african_acham_pagan
 }
 4564 = {
@@ -18275,7 +18275,7 @@
 	religion = r_hellenic
 }
 4570 = {
-	culture = berber
+	culture = garamantia
 	religion = north_african_acham_pagan
 }
 4571 = {
@@ -18283,7 +18283,7 @@
 	religion = north_african_acham_pagan
 }
 4572 = {
-	culture = berber
+	culture = garamantia
 	religion = north_african_acham_pagan
 }
 4573 = {
@@ -18387,7 +18387,7 @@
 	religion = r_hellenic
 }
 4598 = {
-	culture = berber
+	culture = numidian
 	religion = north_african_acham_pagan
 }
 4599 = {
@@ -18479,7 +18479,7 @@
 	religion = r_hellenic
 }
 4621 = {
-	culture = berber
+	culture = numidian
 	religion = north_african_acham_pagan
 }
 4622 = {
@@ -18487,7 +18487,7 @@
 	religion = r_carthaginian
 }
 4623 = {
-	culture = berber
+	culture = numidian
 	religion = north_african_acham_pagan
 }
 4624 = {
@@ -18519,7 +18519,7 @@
 	religion = r_carthaginian
 }
 4631 = {
-	culture = carthaginian
+	culture = numidian
 	religion = r_carthaginian
 }
 4632 = {
@@ -18531,7 +18531,7 @@
 	religion = r_carthaginian
 }
 4634 = {
-	culture = berber
+	culture = numidian
 	religion = north_african_acham_pagan
 }
 4635 = {
@@ -18543,7 +18543,7 @@
 	religion = r_carthaginian
 }
 4637 = {
-	culture = carthaginian
+	culture = numidian
 	religion = r_carthaginian
 }
 4638 = {
@@ -18551,7 +18551,7 @@
 	religion = r_carthaginian
 }
 4639 = {
-	culture = carthaginian
+	culture = numidian
 	religion = r_carthaginian
 }
 4640 = {
@@ -18571,7 +18571,7 @@
 	religion = r_carthaginian
 }
 4644 = {
-	culture = berber
+	culture = numidian
 	religion = north_african_acham_pagan
 }
 4645 = {
@@ -18583,7 +18583,7 @@
 	religion = r_carthaginian
 }
 4647 = {
-	culture = berber
+	culture = numidian
 	religion = north_african_acham_pagan
 }
 4648 = {
@@ -18595,7 +18595,7 @@
 	religion = r_carthaginian
 }
 4650 = {
-	culture = carthaginian
+	culture = numidian
 	religion = r_carthaginian
 }
 4651 = {
@@ -18607,7 +18607,7 @@
 	religion = r_hellenic
 }
 4653 = {
-	culture = carthaginian
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4654 = {
@@ -18615,7 +18615,7 @@
 	religion = r_carthaginian
 }
 4655 = {
-	culture = carthaginian
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4656 = {
@@ -18631,7 +18631,7 @@
 	religion = r_carthaginian
 }
 4659 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4660 = {
@@ -18659,7 +18659,7 @@
 	religion = r_carthaginian
 }
 4666 = {
-	culture = carthaginian
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4667 = {
@@ -18671,7 +18671,7 @@
 	religion = r_carthaginian
 }
 4669 = {
-	culture = carthaginian
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4670 = {
@@ -18683,7 +18683,7 @@
 	religion = r_carthaginian
 }
 4672 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4673 = {
@@ -18691,7 +18691,7 @@
 	religion = r_carthaginian
 }
 4674 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4675 = {
@@ -18703,11 +18703,11 @@
 	religion = r_hellenic
 }
 4677 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4678 = {
-	culture = carthaginian
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4679 = {
@@ -18751,7 +18751,7 @@
 	religion = r_carthaginian
 }
 4689 = {
-	culture = carthaginian
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4690 = {
@@ -18771,7 +18771,7 @@
 	religion = r_carthaginian
 }
 4694 = {
-	culture = berber
+	culture = pax_maurian
 	religion = r_carthaginian
 }
 4695 = {
@@ -18791,7 +18791,7 @@
 	religion = r_carthaginian
 }
 4699 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4700 = {
@@ -18807,7 +18807,7 @@
 	religion = r_carthaginian
 }
 4703 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4704 = {
@@ -18819,7 +18819,7 @@
 	religion = r_carthaginian
 }
 4706 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4707 = {
@@ -18831,7 +18831,7 @@
 	religion = r_carthaginian
 }
 4709 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4710 = {
@@ -18975,7 +18975,7 @@
 	religion = r_hellenic
 }
 4745 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4746 = {
@@ -18991,7 +18991,7 @@
 	religion = r_hellenic
 }
 4749 = {
-	culture = berber
+	culture = pax_maurian
 	religion = north_african_acham_pagan
 }
 4750 = {
@@ -25500,15 +25500,15 @@
 	religion = kemeticism
 }
 6376 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 6377 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 6378 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 6379 = {
@@ -25516,7 +25516,7 @@
 	religion = kemeticism
 }
 6380 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 6381 = {
@@ -25748,7 +25748,7 @@
 	religion = kemeticism
 }
 6438 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 6439 = {
@@ -25756,7 +25756,7 @@
 	religion = kemeticism
 }
 6440 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 6441 = {
@@ -25796,8 +25796,8 @@
 	religion = r_hellenic
 }
 6450 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = garamantia
+	religion = north_african_acham_pagan
 }
 6451 = {
 	culture = pax_roman
@@ -25832,8 +25832,8 @@
 	religion = r_hellenic
 }
 6459 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = garamantia
+	religion = north_african_acham_pagan
 }
 6460 = {
 	culture = pax_roman
@@ -26400,7 +26400,7 @@
 	religion = r_hellenic
 }
 6601 = {
-	culture = berber
+	culture = garamantia
 	religion = north_african_acham_pagan
 }
 6602 = {
@@ -26660,7 +26660,7 @@
 	religion = r_hellenic
 }
 6666 = {
-	culture = berber
+	culture = garamantia
 	religion = north_african_acham_pagan
 }
 6667 = {
@@ -33108,7 +33108,7 @@
 	religion = r_hellenic
 }
 8278 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 8279 = {
@@ -33116,7 +33116,7 @@
 	religion = r_hellenic
 }
 8280 = {
-	culture = nubian
+	culture = sabean
 	religion = kemeticism
 }
 8281 = {
@@ -33128,7 +33128,7 @@
 	religion = r_hellenic
 }
 8283 = {
-	culture = nubian
+	culture = pax_blemmyian
 	religion = kemeticism
 }
 8284 = {
@@ -33140,7 +33140,7 @@
 	religion = r_hellenic
 }
 8286 = {
-	culture = nubian
+	culture = sabean
 	religion = kemeticism
 }
 8287 = {
@@ -33152,7 +33152,7 @@
 	religion = r_hellenic
 }
 8289 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8290 = {
@@ -33172,7 +33172,7 @@
 	religion = r_hellenic
 }
 8294 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8295 = {
@@ -33200,7 +33200,7 @@
 	religion = r_hellenic
 }
 8301 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8302 = {
@@ -33208,7 +33208,7 @@
 	religion = kemeticism
 }
 8303 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8304 = {
@@ -33228,11 +33228,11 @@
 	religion = kemeticism
 }
 8308 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8309 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8310 = {
@@ -33244,7 +33244,7 @@
 	religion = kemeticism
 }
 8312 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8313 = {
@@ -33252,7 +33252,7 @@
 	religion = kemeticism
 }
 8314 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8315 = {
@@ -33300,7 +33300,7 @@
 	religion = r_hellenic
 }
 8326 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8327 = {
@@ -33324,7 +33324,7 @@
 	religion = r_hellenic
 }
 8332 = {
-	culture = nubian
+	culture = sabean
 	religion = kemeticism
 }
 8333 = {
@@ -33332,7 +33332,7 @@
 	religion = kemeticism
 }
 8334 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8335 = {
@@ -33352,7 +33352,7 @@
 	religion = kemeticism
 }
 8339 = {
-	culture = nubian
+	culture = pax_ethiopian
 	religion = kemeticism
 }
 8340 = {
@@ -33364,7 +33364,7 @@
 	religion = r_hellenic
 }
 8342 = {
-	culture = nubian
+	culture = sabean
 	religion = kemeticism
 }
 8343 = {

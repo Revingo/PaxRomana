@@ -11041,18 +11041,6 @@ e_africa = {
 			c_garamantia = {
 				color = { 68 84 145 }
 
-				b_wadi_irawan = {
-					province = 6601
-
-					color = { 68 84 145 }
-				}
-
-				b_ghat = {
-					province = 6661
-
-					color = { 68 84 145 }
-				}
-
 				b_tassawa = {
 					province = 6450
 
@@ -11061,6 +11049,18 @@ e_africa = {
 
 				b_germa = {
 					province = 6449
+
+					color = { 68 84 145 }
+				}
+
+				b_wadi_irawan = {
+					province = 6601
+
+					color = { 68 84 145 }
+				}
+
+				b_ghat = {
+					province = 6661
 
 					color = { 68 84 145 }
 				}
