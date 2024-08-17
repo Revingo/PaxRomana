@@ -1,4 +1,4 @@
-name_list_greek = {
+name_list_pax_greek = {
 
     cadet_dynasty_names = {
         "dynn_Alexandros"

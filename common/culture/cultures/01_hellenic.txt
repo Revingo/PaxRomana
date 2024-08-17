@@ -13,7 +13,7 @@ greek = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_greek
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -139,7 +139,7 @@ ptolemaic = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_greek
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -166,7 +166,7 @@ bosporian = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_greek
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -194,7 +194,7 @@ masselian = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_greek
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -510,7 +510,7 @@ ionian = {
 		tradition_forbearing
 	}
 	
-	name_list = name_list_greek
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -538,7 +538,7 @@ cilician  = {
 		tradition_city_keepers
 	}
 	
-	name_list = name_list_greek
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
