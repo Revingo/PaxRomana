@@ -1875,7 +1875,7 @@
 	religion = druidism
 }
 470 = {
-	culture = makedonian
+	culture = molossian
 	religion = h_hellenic
 }
 471 = {
@@ -1883,15 +1883,15 @@
 	religion = h_hellenic
 }
 472 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 473 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 474 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 475 = {
@@ -1999,7 +1999,7 @@
 	religion = zalmoxism
 }
 501 = {
-	culture = Thracian
+	culture = paeonian
 	religion = zalmoxism
 }
 502 = {
@@ -11795,7 +11795,7 @@
 	religion = druidism
 }
 2950 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 2951 = {
@@ -11815,7 +11815,7 @@
 	religion = norse_pagan
 }
 2955 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 2956 = {
@@ -11879,7 +11879,7 @@
 	religion = druidism
 }
 2971 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 2972 = {
@@ -11895,7 +11895,7 @@
 	religion = norse_pagan
 }
 2975 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 2976 = {
@@ -11903,7 +11903,7 @@
 	religion = norse_pagan
 }
 2977 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 2978 = {
@@ -12287,7 +12287,7 @@
 	religion = druidism
 }
 3073 = {
-	culture = boier
+	culture = noric_celts
 	religion = druidism
 }
 3074 = {
@@ -12339,7 +12339,7 @@
 	religion = slavic_pagan
 }
 3086 = {
-	culture = boier
+	culture = noric_celts
 	religion = druidism
 }
 3087 = {
@@ -12347,11 +12347,11 @@
 	religion = slavic_pagan
 }
 3088 = {
-	culture = boier
+	culture = noric_celts
 	religion = druidism
 }
 3089 = {
-	culture = boier
+	culture = noric_celts
 	religion = druidism
 }
 3090 = {
@@ -12363,11 +12363,11 @@
 	religion = slavic_pagan
 }
 3092 = {
-	culture = gallic_illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3093 = {
-	culture = boier
+	culture = noric_celts
 	religion = druidism
 }
 3094 = {
@@ -12391,7 +12391,7 @@
 	religion = druidism
 }
 3099 = {
-	culture = illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3100 = {
@@ -12415,7 +12415,7 @@
 	religion = r_hellenic
 }
 3105 = {
-	culture = illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3106 = {
@@ -12431,7 +12431,7 @@
 	religion = r_hellenic
 }
 3109 = {
-	culture = illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3110 = {
@@ -12463,7 +12463,7 @@
 	religion = slavic_pagan
 }
 3117 = {
-	culture = illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3118 = {
@@ -12479,7 +12479,7 @@
 	religion = slavic_pagan
 }
 3121 = {
-	culture = gallic_illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3122 = {
@@ -12495,7 +12495,7 @@
 	religion = r_hellenic
 }
 3125 = {
-	culture = illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3126 = {
@@ -12507,7 +12507,7 @@
 	religion = norse_pagan
 }
 3128 = {
-	culture = illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3129 = {
@@ -12519,7 +12519,7 @@
 	religion = norse_pagan
 }
 3131 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 3132 = {
@@ -12531,11 +12531,11 @@
 	religion = norse_pagan
 }
 3134 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 3135 = {
-	culture = hallstatt_celts
+	culture = noric_celts
 	religion = druidism
 }
 3136 = {
@@ -14567,7 +14567,7 @@
 	religion = r_hellenic
 }
 3643 = {
-	culture = makedonian
+	culture = paeonian
 	religion = h_hellenic
 }
 3644 = {
@@ -14595,7 +14595,7 @@
 	religion = h_hellenic
 }
 3650 = {
-	culture = makedonian
+	culture = paeonian
 	religion = h_hellenic
 }
 3651 = {
@@ -14607,7 +14607,7 @@
 	religion = h_hellenic
 }
 3653 = {
-	culture = makedonian
+	culture = paeonian
 	religion = h_hellenic
 }
 3654 = {
@@ -14619,7 +14619,7 @@
 	religion = r_hellenic
 }
 3656 = {
-	culture = Thracian
+	culture = paeonian
 	religion = zalmoxism
 }
 3657 = {
@@ -14627,7 +14627,7 @@
 	religion = scythian
 }
 3658 = {
-	culture = illyrian
+	culture = paeonian
 	religion = zalmoxism
 }
 3659 = {
@@ -14803,7 +14803,7 @@
 	religion = r_hellenic
 }
 3702 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 3703 = {
@@ -14823,11 +14823,11 @@
 	religion = h_hellenic
 }
 3707 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 3708 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 3709 = {
@@ -14839,7 +14839,7 @@
 	religion = h_hellenic
 }
 3711 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 3712 = {
@@ -14847,7 +14847,7 @@
 	religion = h_hellenic
 }
 3713 = {
-	culture = greek
+	culture = molossian
 	religion = h_hellenic
 }
 3714 = {
@@ -14875,7 +14875,7 @@
 	religion = r_hellenic
 }
 3720 = {
-	culture = makedonian
+	culture = molossian
 	religion = h_hellenic
 }
 3721 = {
@@ -14891,7 +14891,7 @@
 	religion = h_hellenic
 }
 3724 = {
-	culture = makedonian
+	culture = molossian
 	religion = h_hellenic
 }
 3725 = {
@@ -15263,7 +15263,7 @@
 	religion = slavic_pagan
 }
 3817 = {
-	culture = gallic_illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3818 = {
@@ -15275,7 +15275,7 @@
 	religion = slavic_pagan
 }
 3820 = {
-	culture = gallic_illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3821 = {

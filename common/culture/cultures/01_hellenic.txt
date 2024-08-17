@@ -24,6 +24,54 @@ greek = {
 		10 = mediterranean_byzantine
 	}
 }
+molossian = {
+	color = { 0.64 0.32 0.82 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_philosopher_culture
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_epirote
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+paeonian = {
+	color = { 0.54 0.22 0.92 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_highland_warriors
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_paeonian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
 makedonian = {
 	color = { 0.44 0.16 0.39 }
 	

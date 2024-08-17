@@ -724,3 +724,146 @@ name_list_pontic = {
     mat_grm_name_chance = 50
     mother_name_chance = 0
 }
+
+name_list_epirote = {
+
+    cadet_dynasty_names = {
+        "dynn_Pyrrhus"
+        "dynn_Antigonos"
+        "dynn_Tharyps"
+        "dynn_Akrotiros"
+        "dynn_Kleon"
+        "dynn_Ptolemaios"
+        "dynn_Ambrax"
+        "dynn_Alypios"
+        "dynn_Menon"
+        "dynn_Dionysios"
+        "dynn_Spartokos"
+        "dynn_Thessalos"
+        "dynn_Melanthios"
+        "dynn_Herakleides"
+        "dynn_Aristion"
+        "dynn_Amynander"
+        "dynn_Epaminondas"
+        "dynn_Proxenos"
+        "dynn_Themistocles"
+        "dynn_Helena"
+    }
+
+    dynasty_names = {
+        "dynn_Pyrrhus"
+        "dynn_Antigonos"
+        "dynn_Tharyps"
+        "dynn_Akrotiros"
+        "dynn_Kleon"
+        "dynn_Ptolemaios"
+        "dynn_Ambrax"
+        "dynn_Alypios"
+        "dynn_Menon"
+        "dynn_Dionysios"
+        "dynn_Spartokos"
+        "dynn_Thessalos"
+        "dynn_Melanthios"
+        "dynn_Herakleides"
+        "dynn_Aristion"
+        "dynn_Amynander"
+        "dynn_Epaminondas"
+        "dynn_Proxenos"
+        "dynn_Themistocles"
+        "dynn_Helena"
+        "dynn_Heracleides"
+    }
+
+    male_names = {
+        Pyrrhus Antigonos Tharyps Akrotiros Kleon Ptolemaios Ambrax Alypios Menon Dionysios Spartokos Thessalos Melanthios Herakleides Aristion Amynander Epaminondas Proxenos Themistocles
+    }
+
+    female_names = {
+        Helena Eurydice Thaleia Callista Melantha Philinna Damaris Lysandra Myrrhine Phthia Antigone Despina Nymphe Cassia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_paeonian = {
+
+    cadet_dynasty_names = {
+        "dynn_Antigonas"
+        "dynn_Markos"
+        "dynn_Timoleon"
+        "dynn_Euripides"
+        "dynn_Thyraios"
+        "dynn_Doros"
+        "dynn_Nikandros"
+        "dynn_Charisios"
+        "dynn_Meletios"
+        "dynn_Sybaris"
+        "dynn_Antipatros"
+        "dynn_Thessalos"
+        "dynn_Ariobarzanes"
+        "dynn_Pharos"
+        "dynn_Medeon"
+        "dynn_Dionysios"
+        "dynn_Lysimachos"
+        "dynn_Peithon"
+        "dynn_Kallias"
+        "dynn_Metellus"
+    }
+
+    dynasty_names = {
+        "dynn_Antigonas"
+        "dynn_Markos"
+        "dynn_Timoleon"
+        "dynn_Euripides"
+        "dynn_Thyraios"
+        "dynn_Doros"
+        "dynn_Nikandros"
+        "dynn_Charisios"
+        "dynn_Meletios"
+        "dynn_Sybaris"
+        "dynn_Antipatros"
+        "dynn_Thessalos"
+        "dynn_Ariobarzanes"
+        "dynn_Pharos"
+        "dynn_Medeon"
+        "dynn_Dionysios"
+        "dynn_Lysimachos"
+        "dynn_Peithon"
+        "dynn_Kallias"
+        "dynn_Metellus"
+        "dynn_Aristides"
+    }
+
+    male_names = {
+        Aigaios Alexios Anaxagoras Apollonios Callias Charisios Demetrios Dionysios Doros Eukrates Euripides 
+        Lysimachos Mardonius Nikandros Peithon Pharos Sybaris Timoleon
+    }
+
+    female_names = {
+        Agape Aletheia Callista Dione Eudocia Galatea Helen Ismene Lysandra Melite Nysa Polyxena Thalia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
