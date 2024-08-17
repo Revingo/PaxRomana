@@ -11,7 +11,7 @@ gallic_alpina = {
 		tradition_mountaineers
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -39,7 +39,7 @@ noric_celts = {
 		tradition_tribe_unity
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -68,7 +68,7 @@ gallic_narbonensis = {
 		tradition_maritime_mercantilism
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -97,7 +97,7 @@ gallic_comato = {
 		tradition_fp1_the_right_to_prove
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -126,7 +126,7 @@ gallic_belgica = {
 		tradition_fp1_the_right_to_prove
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -155,7 +155,7 @@ gallic_veneti  = {
 		tradition_fp1_the_right_to_prove
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -183,7 +183,7 @@ brythonic = {
 		tradition_fp1_trials_by_combat
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -211,7 +211,7 @@ pictish = {
 		tradition_fp1_trials_by_combat
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -239,7 +239,7 @@ gaelic = {
 		tradition_fp1_trials_by_combat
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -267,7 +267,7 @@ celtiberian = {
 		tradition_metal_craftsmanship
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -296,7 +296,7 @@ gallaecian = {
 		tradition_hill_dwellers
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -326,7 +326,7 @@ hallstatt_celts = {
 		tradition_strength_in_numbers
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
@@ -354,7 +354,7 @@ boier = {
 		tradition_warrior_monks
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }
@@ -383,7 +383,7 @@ gallic_illyrian = {
 		tradition_quarrelsome
 	}
 	
-	name_list = name_list_celtic
+	name_list = name_list_pax_celtic
 	
 	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
