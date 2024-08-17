@@ -12,7 +12,7 @@ hebrew = {
 		tradition_fervent_temple_builders
 	}
 
-	name_list = name_list_radhanite # The Radhanite namelist is near-exclusively biblical names
+	name_list = name_list_hebrew
 
 	coa_gfx = { israelite_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
@@ -37,7 +37,7 @@ edomite = {
 		tradition_dryland_dwellers
 	}
 
-	name_list = name_list_radhanite # The Radhanite namelist is near-exclusively biblical names
+	name_list = name_list_hebrew
 
 	coa_gfx = { israelite_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
@@ -62,7 +62,7 @@ moabite = {
 		tradition_mendicant_mystics
 	}
 
-	name_list = name_list_radhanite # The Radhanite namelist is near-exclusively biblical names
+	name_list = name_list_hebrew
 
 	coa_gfx = { israelite_group_coa_gfx }
 	building_gfx = { mena_building_gfx }
@@ -87,7 +87,7 @@ ammonite = {
 		tradition_warriors_of_the_dry
 	}
 
-	name_list = name_list_radhanite # The Radhanite namelist is near-exclusively biblical names
+	name_list = name_list_hebrew
 
 	coa_gfx = { israelite_group_coa_gfx }
 	building_gfx = { mena_building_gfx }

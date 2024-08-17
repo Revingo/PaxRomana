@@ -106,9 +106,6 @@
  pax_basque_collective_noun: "Basques"
 
  #celtic
- gallic: "Gallic"
- gallic_prefix: "Gallic"
- gallic_collective_noun: "Gauls"
  gallic_illyrian: "Gallic Illyrian"
  gallic_illyrian_prefix: "Gallic Illyrian"
  gallic_illyrian_collective_noun: "Illyrian Gauls"
@@ -153,9 +150,6 @@
  boier_collective_noun: "Celtica Boiarias"
 
  #germanic
- germanic: "Germanic"
- germanic_prefix: "Germanic"
- germanic_collective_noun: "Germans"
  north_sea_germans: "North Sea Germanic"
  north_sea_germans_prefix: "north_sea_germans Germanic"
  north_sea_germans_collective_noun: "Germans"

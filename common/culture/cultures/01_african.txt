@@ -13,7 +13,7 @@ nubian = {
 		tradition_land_of_the_bow
 	}
 	
-	name_list = name_list_ancient_egyptian
+	name_list = name_list_nubian
 	
 	coa_gfx = { west_african_group_coa_gfx western_coa_gfx }
 	building_gfx = { african_building_gfx }
@@ -40,7 +40,7 @@ pax_blemmyian = {
 		tradition_desert_nomads
 	}
 	
-	name_list = name_list_ancient_egyptian
+	name_list = name_list_blemmyan
 	
 	coa_gfx = { west_african_group_coa_gfx western_coa_gfx }
 	building_gfx = { african_building_gfx }
@@ -94,7 +94,7 @@ egyptian = {
 		tradition_land_of_the_bow
 	}
 	
-	name_list = name_list_ancient_egyptian
+	name_list = name_list_egyptian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -124,7 +124,7 @@ berber = {
 		tradition_warriors_of_the_dry
 	}
 	
-	name_list = name_list_akan
+	name_list = name_list_berber
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
@@ -150,7 +150,7 @@ pax_maurian = {
 		tradition_warriors_of_the_dry
 	}
 	
-	name_list = name_list_akan
+	name_list = name_list_berber
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
@@ -177,7 +177,7 @@ numidian = {
 		tradition_warrior_culture
 	}
 	
-	name_list = name_list_akan
+	name_list = name_list_berber
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }
@@ -203,7 +203,7 @@ garamantia = {
 		tradition_dryland_dwellers
 	}
 	
-	name_list = name_list_akan
+	name_list = name_list_garamantian
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }

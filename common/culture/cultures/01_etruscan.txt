@@ -13,7 +13,7 @@ etruscan = {
 		tradition_highland_warriors
 	}
 
-	name_list = name_list_roman
+	name_list = name_list_etruscan
 
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx } 
 	building_gfx = { mediterranean_building_gfx } 

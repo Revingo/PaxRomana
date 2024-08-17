@@ -1,87 +1,74 @@
-﻿name_list_pax_roman = {
+﻿name_list_roman = {
 
-	cadet_dynasty_names = {
-		"dynn_Julio_Claudian"
-		"dynn_Flavian"
-		"dynn_Nerva_Antonine"
-		"dynn_Severan"
-		"dynn_Gordian"
-		"dynn_Constantinian"
-		"dynn_Valentinian"
-		"dynn_Theodosian"
-		"dynn_Leonid"
-		"dynn_Justinian"
-		"dynn_Heraclian"
-		"dynn_Isaurian"
-		"dynn_Nikephorian"
-		"dynn_Amorian"
-		"dynn_Macedonian"
-		"dynn_Doukid"
-		"dynn_Komnenid"
-		"dynn_Angelid"
-		"dynn_Laskarid"
-		"dynn_Palaiologan"
-	}
+    cadet_dynasty_names = {
+        "dynn_Caesar"
+        "dynn_Gracchus"
+        "dynn_Cato"
+        "dynn_Scipio"
+        "dynn_Fabius"
+        "dynn_Pompey"
+        "dynn_Marius"
+        "dynn_Sulla"
+        "dynn_Antonius"
+        "dynn_Crassus"
+        "dynn_Coriolanus"
+        "dynn_Cincinnatus"
+        "dynn_Lucullus"
+        "dynn_Paullus"
+        "dynn_Fabiola"
+        "dynn_Verginius"
+        "dynn_Seneca"
+        "dynn_Quintus"
+        "dynn_Tiberius"
+        "dynn_Valerius"
+    }
 
-	dynasty_names = {
-		"dynn_Julio_Claudian"
-		"dynn_Flavian"
-		"dynn_Nerva_Antonine"
-		"dynn_Severan"
-		"dynn_Gordian"
-		"dynn_Constantinian"
-		"dynn_Valentinian"
-		"dynn_Theodosian"
-		"dynn_Leonid"
-		"dynn_Justinian"
-		"dynn_Heraclian"
-		"dynn_Isaurian"
-		"dynn_Nikephorian"
-		"dynn_Amorian"
-		"dynn_Macedonian"
-		"dynn_Doukid"
-		"dynn_Komnenid"
-		"dynn_Angelid"
-		"dynn_Laskarid"
-		"dynn_Palaiologan"
-		"dynn_Fabricius"
-	}
+    dynasty_names = {
+        "dynn_Caesar"
+        "dynn_Gracchus"
+        "dynn_Cato"
+        "dynn_Scipio"
+        "dynn_Fabius"
+        "dynn_Pompey"
+        "dynn_Marius"
+        "dynn_Sulla"
+        "dynn_Antonius"
+        "dynn_Crassus"
+        "dynn_Coriolanus"
+        "dynn_Cincinnatus"
+        "dynn_Lucullus"
+        "dynn_Paullus"
+        "dynn_Fabiola"
+        "dynn_Verginius"
+        "dynn_Seneca"
+        "dynn_Quintus"
+        "dynn_Tiberius"
+        "dynn_Valerius"
+        "dynn_Augustus"
+    }
 
-	male_names = {
-		Aemilian Aemilius Aetius Albinus Alexander Anastasius Anicius Annius Antoninus Antonius Arcadius Aurelian Aurelius
-		Avitus Belisarius Britannicus Caecilius Caesar Callistus Carinus Carus Cassius Claudius Clementius Constans Constantine
-		Constantius Cornelius Crassus Decimus Decius Diocletian Domitian Domitius Drusus Ennodius Fabianus Fabius Fabricius Faustus Felix Flavianus Florian
-		Gaius Galerius Gallienus Gallus Germanus Gordian Gracchus Gratian Hadrian Herculius Honorius Joannes Jovian
-		Julian Julius Julius-Caesar Junius Justin Justinian Leo Leontius Liberius Licinius Lucius Magnus Marcellinus
-		Marcellus Marcian Marcus Marinus Marius Martinus Maximian Maximinus Maximus Nepotian Nerva Numerian Octavianus Octavius Otho
-		Paulinus Paulus Petronius Philip Pompeius Pontianus Priscus Probus Publius Quintus Romanus Romulus Rufinus Rutilius Sabinianus
-		Saturninus Sempronius Septimius Sergius Severinus Severus Sextus Symmachus Tacitus Theodosius Tiberius
-		Titius Titus Trajan Urbanus Valens Valentinian Valerian Valerius Venantius Vespasian Victor Victorinus Vigilius Vitalianus Volusianus
-	}
-	female_names = {
-		Aelia Agrippina Antonia Antonina Aquilia Aurelia Caecilia Caesaris Candida Cassia Claudia Clementia Constantia
-		Constantina Cornelia Crispina Dominica Domitiana Domna Domnina Drusilla Fausta Faustina Flacilla Flavia Fortunata Frontina Gaia Galeria
-		Gordiana Hadriana Helvia Hilara Honoria Hortensia Julia Juliana Junia Justa Justina Justiniana Licinia Livia Livilla Lucilla
-		Magnia Magnilla Marcella Marcia Marciana Marina Martina Matrona Maxima Maximiana Messalina Minervina Minucia Modia Mustela
-		Octavia Palatina Paula Paulina Petronella Petronia Placidia Plautia Plautilla Pompeia Poppaea Praeiecta Publia Pulcheria
-		Rusticiana Sabina Sallustia Salonina Salvianella Scantilla Serena Sergia Severa Severina Silvia Spadusa Sulpicia Tarsilla Titiana Ulpia Valeria
-		Verina Victoria Vigilantia Viviana
-	}
-	dynasty_of_location_prefix = "dynnp_of"
-	patronym_prefix_male = "dynnpat_pre_filius"
+    male_names = {
+        Aemilianus Aemilius Agricola Antonius Augustus Brutus Cassius Cicero Cincinnatus Coriolanus Crassus Decimus Fabius Gracchus Julius Lucius Marcellus Marius Pompey Scipio Severus Sextus Tiberius Titus Varro
+    }
 
-	# Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-	pat_grf_name_chance = 50
-	mat_grf_name_chance = 0
-	father_name_chance = 50
-	
-	# Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-	pat_grm_name_chance = 50
-	mat_grm_name_chance = 50
-	mother_name_chance = 0
+    female_names = {
+        Agrippina Claudia Cornelia Fulvia Livia Octavia Poppaea Servilia Tullia Veturia
+    }
 
-	
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 30
+    mat_grf_name_chance = 0
+    father_name_chance = 70
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
 }
+
 
 name_list_pax_oscan = {
 
@@ -317,4 +304,77 @@ name_list_transpadanian = {
     pat_grm_name_chance = 40
     mat_grm_name_chance = 40
     mother_name_chance = 20
+}
+
+name_list_etruscan = {
+
+    cadet_dynasty_names = {
+        "dynn_Tarquinus"
+        "dynn_Aruns"
+        "dynn_Achilleus"
+        "dynn_Larth"
+        "dynn_Velthur"
+        "dynn_Sethlans"
+        "dynn_Aule"
+        "dynn_Mars"
+        "dynn_Seth"
+        "dynn_Mimnermus"
+        "dynn_Cneve"
+        "dynn_Thraso"
+        "dynn_Velturs"
+        "dynn_Clus"
+        "dynn_Athnar"
+        "dynn_Vetis"
+        "dynn_Artemis"
+        "dynn_Numa"
+        "dynn_Alin"
+        "dynn_Vel"
+    }
+
+    dynasty_names = {
+        "dynn_Tarquinus"
+        "dynn_Aruns"
+        "dynn_Achilleus"
+        "dynn_Larth"
+        "dynn_Velthur"
+        "dynn_Sethlans"
+        "dynn_Aule"
+        "dynn_Mars"
+        "dynn_Seth"
+        "dynn_Mimnermus"
+        "dynn_Cneve"
+        "dynn_Thraso"
+        "dynn_Velturs"
+        "dynn_Clus"
+        "dynn_Athnar"
+        "dynn_Vetis"
+        "dynn_Artemis"
+        "dynn_Numa"
+        "dynn_Alin"
+        "dynn_Vel"
+        "dynn_Tarquinius"
+    }
+
+    male_names = {
+        Aulus Caelius Cnaeus Cniva Gaius Larth Marcus Marius Numa Quintus Rufus Tarquinus Velthur
+        Velturs Aruns Aule Sethlans Mimnermus Clus Numa Aio
+    }
+
+    female_names = {
+        Aulea Caia Cniva Fabia Flavia Larthia Marcia Numaea Quintia Rufia Tana
+        Velthura Cnevia Larthia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
 }

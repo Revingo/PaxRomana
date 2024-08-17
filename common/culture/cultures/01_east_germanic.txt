@@ -11,7 +11,7 @@ oder_vistula_germans = {
 		tradition_quarrelsome
 	}
 	
-	name_list = name_list_visigothic
+	name_list = name_list_germanic
 	
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }

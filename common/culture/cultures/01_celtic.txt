@@ -1,32 +1,3 @@
-gallic = {
-	color = { 0.0 0.27 0.13 }
-	
-	ethos = ethos_bellicose
-	heritage = heritage_celtic
-	language = language_celtic
-	martial_custom = martial_custom_male_only
-	traditions = {
-		tradition_agrarian
-		tradition_battlefield_looters
-		tradition_hunters
-		tradition_fp1_trials_by_combat
-	}
-	
-	name_list = name_list_celtic
-	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
-	building_gfx = { western_building_gfx }
-	clothing_gfx = { northern_clothing_gfx }
-	unit_gfx = { western_unit_gfx }
-	
-	ethnicities = {
-		10 = caucasian_brown_hair
-		10 = caucasian_dark_hair
-		5 = caucasian_blond
-		4 = mediterranean
-	}
-}
-
 gallic_alpina = {
 	color = { 0.0 0.27 0.13 }
 	

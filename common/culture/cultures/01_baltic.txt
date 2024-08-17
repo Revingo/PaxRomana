@@ -11,7 +11,7 @@ pax_finnish = {
 		tradition_winter_warriors
 	}
 	
-	name_list = name_list_finnish
+	name_list = name_list_pax_finnish
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -38,7 +38,7 @@ przeworsk = {
 		tradition_medicinal_plants
 	}
 	
-	name_list = name_list_finnish
+	name_list = name_list_przeworsk
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -66,7 +66,7 @@ zarubintsy = {
 		tradition_forest_fighters
 	}
 	
-	name_list = name_list_finnish
+	name_list = name_list_zarubintsy
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
