@@ -18203,7 +18203,7 @@
 	religion = r_hellenic
 }
 4552 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4553 = {
@@ -18219,11 +18219,11 @@
 	religion = r_carthaginian
 }
 4556 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4557 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4558 = {
@@ -18239,15 +18239,15 @@
 	religion = r_carthaginian
 }
 4561 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4562 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4563 = {
-	culture = garamantia
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4564 = {
@@ -18283,11 +18283,11 @@
 	religion = north_african_acham_pagan
 }
 4572 = {
-	culture = garamantia
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4573 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4574 = {
@@ -18399,7 +18399,7 @@
 	religion = north_african_acham_pagan
 }
 4601 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4602 = {
@@ -18411,7 +18411,7 @@
 	religion = north_african_acham_pagan
 }
 4604 = {
-	culture = berber
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 4605 = {
@@ -26660,7 +26660,7 @@
 	religion = r_hellenic
 }
 6666 = {
-	culture = garamantia
+	culture = libyan
 	religion = north_african_acham_pagan
 }
 6667 = {
