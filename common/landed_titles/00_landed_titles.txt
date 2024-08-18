@@ -11097,11 +11097,6 @@ e_africa = {
 
 					color = { 17 20 150 }
 				}
-				b_zalha = {
-					province = 6446
-
-					color = { 125 97 52 }
-				}
 				b_awjila = {
 					province = 6106
 
@@ -11134,6 +11129,11 @@ e_africa = {
 					province = 6459
 
 					color = { 215 84 145 }
+				}
+				b_zalha = {
+					province = 6446
+
+					color = { 125 97 52 }
 				}
 				b_sabha = {
 					province = 6448

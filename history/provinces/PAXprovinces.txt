@@ -24436,8 +24436,8 @@
 	religion = kemeticism
 }
 6110 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = pax_blemmyian
+	religion = beduinism
 }
 6111 = {
 	culture = pax_roman
@@ -24448,8 +24448,8 @@
 	religion = kemeticism
 }
 6113 = {
-	culture = egyptian
-	religion = kemeticism
+	culture = pax_blemmyian
+	religion = beduinism
 }
 6114 = {
 	culture = egyptian
@@ -25421,7 +25421,7 @@
 }
 6356 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6357 = {
 	culture = pax_roman
@@ -25449,7 +25449,7 @@
 }
 6363 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6364 = {
 	culture = pax_roman
@@ -25488,28 +25488,28 @@
 	religion = r_hellenic
 }
 6373 = {
-	culture = egyptian
-	religion = kemeticism
+	culture = pax_blemmyian
+	religion = beduinism
 }
 6374 = {
 	culture = egyptian
 	religion = kemeticism
 }
 6375 = {
-	culture = egyptian
-	religion = kemeticism
+	culture = pax_blemmyian
+	religion = beduinism
 }
 6376 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 6377 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 6378 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 6379 = {
 	culture = nubian
@@ -25517,7 +25517,7 @@
 }
 6380 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 6381 = {
 	culture = pax_roman
@@ -25569,11 +25569,11 @@
 }
 6393 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6394 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6395 = {
 	culture = nubian
@@ -25581,7 +25581,7 @@
 }
 6396 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6397 = {
 	culture = pax_roman
@@ -25597,7 +25597,7 @@
 }
 6400 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6401 = {
 	culture = nubian
@@ -25617,7 +25617,7 @@
 }
 6405 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6406 = {
 	culture = pax_roman
@@ -25625,7 +25625,7 @@
 }
 6407 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6408 = {
 	culture = pax_roman
@@ -25645,7 +25645,7 @@
 }
 6412 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6413 = {
 	culture = pax_roman
@@ -25733,7 +25733,7 @@
 }
 6434 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6435 = {
 	culture = nubian
@@ -25741,15 +25741,15 @@
 }
 6436 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6437 = {
 	culture = nubian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 6438 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 6439 = {
 	culture = nubian
@@ -25757,7 +25757,7 @@
 }
 6440 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 6441 = {
 	culture = pax_roman
@@ -33109,7 +33109,7 @@
 }
 8278 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 8279 = {
 	culture = pax_roman
@@ -33117,7 +33117,7 @@
 }
 8280 = {
 	culture = sabean
-	religion = kemeticism
+	religion = beduinism
 }
 8281 = {
 	culture = pax_roman
@@ -33129,7 +33129,7 @@
 }
 8283 = {
 	culture = pax_blemmyian
-	religion = kemeticism
+	religion = beduinism
 }
 8284 = {
 	culture = pax_roman
@@ -33141,7 +33141,7 @@
 }
 8286 = {
 	culture = sabean
-	religion = kemeticism
+	religion = beduinism
 }
 8287 = {
 	culture = pax_roman
@@ -33153,7 +33153,7 @@
 }
 8289 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8290 = {
 	culture = pax_roman
@@ -33173,7 +33173,7 @@
 }
 8294 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8295 = {
 	culture = pax_roman
@@ -33201,7 +33201,7 @@
 }
 8301 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8302 = {
 	culture = nubian
@@ -33209,7 +33209,7 @@
 }
 8303 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8304 = {
 	culture = nubian
@@ -33229,11 +33229,11 @@
 }
 8308 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8309 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8310 = {
 	culture = nubian
@@ -33245,7 +33245,7 @@
 }
 8312 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8313 = {
 	culture = nubian
@@ -33253,7 +33253,7 @@
 }
 8314 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8315 = {
 	culture = pax_roman
@@ -33301,7 +33301,7 @@
 }
 8326 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8327 = {
 	culture = pax_roman
@@ -33325,7 +33325,7 @@
 }
 8332 = {
 	culture = sabean
-	religion = kemeticism
+	religion = beduinism
 }
 8333 = {
 	culture = nubian
@@ -33333,7 +33333,7 @@
 }
 8334 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8335 = {
 	culture = nubian
@@ -33353,7 +33353,7 @@
 }
 8339 = {
 	culture = pax_ethiopian
-	religion = kemeticism
+	religion = kushitism_pagan
 }
 8340 = {
 	culture = pax_roman
@@ -33365,7 +33365,7 @@
 }
 8342 = {
 	culture = sabean
-	religion = kemeticism
+	religion = beduinism
 }
 8343 = {
 	culture = pax_roman
