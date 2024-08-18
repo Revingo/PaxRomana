@@ -1851,11 +1851,11 @@
 	religion = r_hellenic
 }
 464 = {
-	culture = illyrian
+	culture = liburnian
 	religion = h_hellenic
 }
 465 = {
-	culture = illyrian
+	culture = liburnian
 	religion = h_hellenic
 }
 466 = {
@@ -10067,7 +10067,7 @@
 	religion = druidism
 }
 2518 = {
-	culture = illyrian
+	culture = liburnian
 	religion = druidism
 }
 2519 = {
@@ -10079,7 +10079,7 @@
 	religion = druidism
 }
 2521 = {
-	culture = illyrian
+	culture = liburnian
 	religion = h_hellenic
 }
 2522 = {
@@ -10471,7 +10471,7 @@
 	religion = druidism
 }
 2619 = {
-	culture = oscan
+	culture = messapian
 	religion = h_hellenic
 }
 2620 = {
@@ -10479,7 +10479,7 @@
 	religion = h_hellenic
 }
 2621 = {
-	culture = greek
+	culture = messapian
 	religion = h_hellenic
 }
 2622 = {
@@ -14167,7 +14167,7 @@
 	religion = druidism
 }
 3543 = {
-	culture = illyrian
+	culture = liburnian
 	religion = h_hellenic
 }
 3544 = {
@@ -15287,7 +15287,7 @@
 	religion = slavic_pagan
 }
 3823 = {
-	culture = gallic_illyrian
+	culture = noric_celts
 	religion = druidism
 }
 3824 = {
@@ -35016,7 +35016,7 @@
 	religion = r_hellenic
 }
 8755 = {
-	culture = greek
+	culture = messapian
 	religion = h_hellenic
 }
 8756 = {
