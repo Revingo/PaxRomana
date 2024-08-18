@@ -213,3 +213,146 @@ name_list_thracian = {
     mat_grm_name_chance = 50
     mother_name_chance = 0
 }
+
+name_list_liburnian = {
+
+    cadet_dynasty_names = {
+        "dynn_Teuta"
+        "dynn_Agron"
+        "dynn_Pinnes"
+        "dynn_Bardylis"
+        "dynn_Pleuratus"
+        "dynn_Daorsi"
+        "dynn_Certuia"
+        "dynn_Larona"
+        "dynn_Kalodokos"
+        "dynn_Daorba"
+        "dynn_Lissos"
+        "dynn_Mekion"
+        "dynn_Scadra"
+        "dynn_Sikuli"
+        "dynn_Irisova"
+        "dynn_Nesactium"
+        "dynn_Histria"
+        "dynn_Iapodina"
+        "dynn_Segesta"
+    }
+
+    dynasty_names = {
+        "dynn_Teuta"
+        "dynn_Agron"
+        "dynn_Pinnes"
+        "dynn_Bardylis"
+        "dynn_Pleuratus"
+        "dynn_Daorsi"
+        "dynn_Certuia"
+        "dynn_Larona"
+        "dynn_Kalodokos"
+        "dynn_Daorba"
+        "dynn_Lissos"
+        "dynn_Mekion"
+        "dynn_Scadra"
+        "dynn_Sikuli"
+        "dynn_Irisova"
+        "dynn_Nesactium"
+        "dynn_Histria"
+        "dynn_Iapodina"
+        "dynn_Segesta"
+        "dynn_Liburna"
+    }
+
+    male_names = {
+        Agron Bardylis Cantuario Daorsis Dasius Kalodokos Lissius Monunius Pinnes Pleuratus Scenobarbis Tarvos Teutamus
+        Tomoros Ulcis Zaviseus Zonas
+    }
+
+    female_names = {
+        Adra Apleda Barbia Certia Corta Daza Dithra Irisova Ladra Larona Liburna Sabara Scenoba Segesta Teuta Vindonia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_messapian = {
+
+    cadet_dynasty_names = {
+        "dynn_Calia"
+        "dynn_Satyrion"
+        "dynn_Manius"
+        "dynn_Damasius"
+        "dynn_Eumachus"
+        "dynn_Phalantos"
+        "dynn_Tarentus"
+        "dynn_Pyrrhus"
+        "dynn_Messapus"
+        "dynn_Thaletas"
+        "dynn_Lycurgus"
+        "dynn_Macarus"
+        "dynn_Hyrieus"
+        "dynn_Pelagus"
+        "dynn_Iapygia"
+        "dynn_Kylindros"
+        "dynn_Tarentinus"
+        "dynn_Lisios"
+        "dynn_Lynceus"
+        "dynn_Antander"
+    }
+
+    dynasty_names = {
+        "dynn_Calia"
+        "dynn_Satyrion"
+        "dynn_Manius"
+        "dynn_Damasius"
+        "dynn_Eumachus"
+        "dynn_Phalantos"
+        "dynn_Tarentus"
+        "dynn_Pyrrhus"
+        "dynn_Messapus"
+        "dynn_Thaletas"
+        "dynn_Lycurgus"
+        "dynn_Macarus"
+        "dynn_Hyrieus"
+        "dynn_Pelagus"
+        "dynn_Iapygia"
+        "dynn_Kylindros"
+        "dynn_Tarentinus"
+        "dynn_Lisios"
+        "dynn_Lynceus"
+        "dynn_Antander"
+        "dynn_Naulochus"
+    }
+
+    male_names = {
+        Adrastos Aemilius Aethon Alcetus Alexanor Alon Argyris Cleomenes Damasius Dorotheus Elpidius Euthymius Glaucus Hyrieus
+        Laon Macarus Manius Messapus Phalantos Polybius Pyrrhus Satyrion Thaletas Xanthos Zephyros
+    }
+
+    female_names = {
+        Acalle Callista Cassiopeia Damaris Doris Euboea Galene Haliea Ianeira Kalliope Kalypsa Laodice Lyra Medea
+        Myrto Phaedra Rhene Selene Thalia Tryphena Xenia
+    }
+
+    dynasty_of_location_prefix = "dynnp_ex"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 20
+    father_name_chance = 40
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 40
+    mother_name_chance = 20
+}
