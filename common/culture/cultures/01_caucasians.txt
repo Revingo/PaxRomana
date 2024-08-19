@@ -11,7 +11,7 @@ pax_armenian = {
 		tradition_highland_warriors
 	}
 	
-	name_list = name_list_armenian
+	name_list = name_list_pax_armenian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -36,7 +36,7 @@ kartvelian = {
 		tradition_pure_family
 	}
 	
-	name_list = name_list_armenian
+	name_list = name_list_kartvellian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -62,7 +62,7 @@ colchian = {
 		tradition_maritime_mercantilism
 	}
 	
-	name_list = name_list_armenian
+	name_list = name_list_kartvellian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -87,7 +87,7 @@ maotian = {
 		tradition_pastoralists
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -117,7 +117,7 @@ albanian = {
 		tradition_festivities
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_kartvellian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -147,7 +147,7 @@ caspian = {
 		tradition_seafaring
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_kartvellian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -176,7 +176,7 @@ heniochan = {
 		tradition_practiced_pirates
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_heniochan
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
