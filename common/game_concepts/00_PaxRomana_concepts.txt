@@ -40,7 +40,7 @@ field_siege_weapons = {
 }
 
 countie_capital_city_holding = {
-	alias = { city capital_cities countie_capital_city_holdings }
+	alias = { metropolis capital_cities countie_capital_city_holdings }
 	parent = holding_type
-	texture = "gfx/interface/icons/icon_holding_city.dds"
+	texture = "gfx/interface/icons/icon_holding_metropolis.dds"
 }

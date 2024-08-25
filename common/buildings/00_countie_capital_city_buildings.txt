@@ -1,3 +1,8 @@
+@holding_illustration_western = "gfx/interface/illustrations/holding_types/metropolis_western.dds"
+@holding_illustration_india = "gfx/interface/illustrations/holding_types/metropolis_india.dds"
+@holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/metropolis_mediterranean.dds"
+@holding_illustration_mena = "gfx/interface/illustrations/holding_types/metropolis_mena.dds"
+
 capital_city_01 = {
 	construction_time = slow_construction_time
 	
@@ -311,7 +316,7 @@ capital_city_01 = {
     	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
 
-	flag = city
+	flag = metropolis
 	next_building = capital_city_02
 
 	type_icon = "icon_building_guild_halls.dds"
@@ -680,7 +685,7 @@ capital_city_02 = {
     	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
 	
-	flag = city
+	flag = metropolis
 	next_building = capital_city_03
 	
 	on_complete = {
@@ -1031,7 +1036,7 @@ capital_city_03 = {
     	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
 	
-	flag = city
+	flag = metropolis
 	
 	on_complete = {
 		barony.holder = {
@@ -1370,7 +1375,7 @@ capital_city_04 = {
     	development_growth_factor = fp2_urbanism_legacy_1_bonus_value
 	}
 	
-	flag = city
+	flag = metropolis
 	
 	on_complete = {
 		barony.holder = {

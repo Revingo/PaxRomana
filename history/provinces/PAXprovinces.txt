@@ -10297,6 +10297,7 @@
 2575 = {
 	culture = pax_roman
 	religion = r_hellenic
+	holding = countie_capital_city_holding
 }
 2576 = {
 	culture = gallic_belgica
