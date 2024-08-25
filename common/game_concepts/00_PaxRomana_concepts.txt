@@ -38,3 +38,9 @@ field_siege_weapons = {
 	texture = "gfx/interface/icons/regimenttypes/onager.dds"
 	parent = men_at_arms
 }
+
+countie_capital_city_holding = {
+	alias = { city capital_cities countie_capital_city_holdings }
+	parent = holding_type
+	texture = "gfx/interface/icons/icon_holding_city.dds"
+}
