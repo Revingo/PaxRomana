@@ -12,6 +12,12 @@
 
  rf_steppe: "Steppe Religions"
  rf_steppe_adj: "Steppe"
+ kasogisch_pagan: "Permazonisch"
+ kasogisch_pagan_adj: "Permazonians"
+ kasogisch_pagan_desc: "$kasogisch_pagan$ were matrilineal religions who worshipped Womens, and ancestor spirits."
+ kasogisch_pagan_old: "Old Permazonisch"
+ kasogisch_pagan_old_adj: "Old Permazonians"
+ kasogisch_pagan_old_desc: "$kasogisch_pagan$ were matrilineal religions who worshipped Womens, and ancestor spirits."
  sarmatian_religion: "Sarmatian Religions"
  sarmatian_religion_adj: "Sarmatian"
  scythian: "Scythianism"

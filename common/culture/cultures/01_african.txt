@@ -13,7 +13,7 @@ nubian = {
 		tradition_land_of_the_bow
 	}
 	
-	name_list = name_list_ancient_egyptian
+	name_list = name_list_nubian
 	
 	coa_gfx = { west_african_group_coa_gfx western_coa_gfx }
 	building_gfx = { african_building_gfx }
@@ -23,6 +23,59 @@ nubian = {
 	ethnicities = {
 		10 = african
 		5 = arab
+	}
+}
+
+pax_blemmyian = {
+	color = { 0.77 1.0 0.09 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_african
+	language = language_nubian
+	martial_custom = martial_custom_equal
+	traditions = {
+		tradition_dryland_dwellers
+		tradition_warriors_of_the_dry
+		tradition_adaptive_skirmishing
+		tradition_desert_nomads
+	}
+	
+	name_list = name_list_blemmyan
+	
+	coa_gfx = { west_african_group_coa_gfx western_coa_gfx }
+	building_gfx = { african_building_gfx }
+	clothing_gfx = { african_clothing_gfx }
+	unit_gfx = { sub_sahran_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+		5 = arab
+	}
+}
+
+pax_ethiopian = {
+	color = { 1.0 0.87 0.09 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_east_african
+	language = language_merotisch
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_fervent_temple_builders
+		tradition_zealous_people
+		tradition_isolationist
+		tradition_amharic_highlanders
+	}
+	
+	name_list = name_list_ethiopian
+	
+	coa_gfx = { east_african_coa_gfx }
+	building_gfx = { african_building_gfx mena_building_gfx }
+	clothing_gfx = { mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = east_african
 	}
 }
 
@@ -41,7 +94,7 @@ egyptian = {
 		tradition_land_of_the_bow
 	}
 	
-	name_list = name_list_ancient_egyptian
+	name_list = name_list_egyptian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -60,7 +113,7 @@ egyptian = {
 berber = {
 	color = { 0.17 0.09 0.03 }
 	
-	ethos = ethos_communal
+	ethos = ethos_bellicose
 	heritage = heritage_african
 	language = language_tamazight
 	martial_custom = martial_custom_male_only
@@ -68,9 +121,116 @@ berber = {
 		tradition_tribe_unity
 		tradition_pastoralists
 		tradition_eye_for_an_eye
+		tradition_warriors_of_the_dry
 	}
 	
-	name_list = name_list_akan
+	name_list = name_list_berber
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+		1 = mediterranean
+	}
+}
+
+libyan = {
+	color = { 0.58 0.09 0.03 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_african
+	language = language_tamazight
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_fishermen
+		tradition_warriors_of_the_dry
+		tradition_mercenary_army
+	}
+	
+	name_list = name_list_berber
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+		1 = mediterranean
+	}
+}
+
+pax_maurian = {
+	color = { 0.38 0.09 0.03 }
+	
+	ethos = ethos_communal
+	heritage = heritage_african
+	language = language_tamazight
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_desert_nomads
+		tradition_warriors_of_the_dry
+	}
+	
+	name_list = name_list_berber
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+		1 = mediterranean
+	}
+}
+
+numidian = {
+	color = { 0.09 0.38 0.03 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_african
+	language = language_tamazight
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_pastoralists
+		tradition_warriors_of_the_dry
+		tradition_warrior_culture
+	}
+	
+	name_list = name_list_berber
+	
+	coa_gfx = { berber_group_coa_gfx }
+	building_gfx = { berber_group_building_gfx mena_building_gfx }
+	clothing_gfx = { afr_berber_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { mena_unit_gfx }
+	
+	ethnicities = {
+		10 = african
+		1 = mediterranean
+	}
+}
+
+garamantia = {
+	color = { 0.50 0.30 0.30 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_african
+	language = language_tamazight
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_desert_nomads
+		tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_garamantian
 	
 	coa_gfx = { berber_group_coa_gfx }
 	building_gfx = { berber_group_building_gfx mena_building_gfx }

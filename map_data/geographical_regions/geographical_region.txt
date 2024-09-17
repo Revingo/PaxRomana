@@ -89,8 +89,7 @@
 
 PAXworld_europe_west_gallia = {
 	duchies = {
-		d_alpes_maritimae d_alpes_cottidae d_alpes_poeniae d_narbonensis d_allobroges d_tarbella d_vasatia d_nitlobroga d_pictonensia d_armorica d_aulerca d_mandubiansis
-
+		d_alpes d_narbonensis d_allobroges d_tarbella d_vasatia d_nitlobroga d_pictonensia d_armorica d_aulerca d_mandubiansis
 		d_bagacum d_divodurum
 	}
 }
@@ -122,8 +121,8 @@ PAXworld_europe_south_makedon = {
 
 PAXworld_europe_south_greece = {
 	duchies = {
-		d_epidamnus d_chaonia d_thesprotia d_thessaly d_aetolia d_phocis d_attica d_argolis
-		d_arcadia d_laconia d_achaea d_aegean_islands d_rodos
+		d_epidamnus d_chaonia d_thesprotia d_thessaly d_aetolia d_attica d_argolis
+		d_laconia d_achaea d_aegean_islands
 	}
 	counties = {
 		c_chandax c_chania
@@ -138,7 +137,7 @@ PAXworld_europe_south = {
 
 PAXworld_europe_balkans_illyria = {
 	duchies = {
-		d_breucia d_dardania
+		d_breucia d_dardania d_iapidia
 	}
 }
 
@@ -184,7 +183,7 @@ PAXworld_europe_britannia_et_hibernia = {
 PAXworld_europe_germania = {
 	duchies = {
 		d_helvetia d_noricum d_besontio d_virinum d_vindelicorum d_hermunduris d_suebia d_marcomannia d_bonnia
-		d_frisia d_sassonia
+		d_frisia d_sassonia d_irminonia d_longobardia d_bructeria
 	}
 }
 
@@ -245,9 +244,18 @@ PAXworld_east_persia_west = {
 	}
 }
 
-PAXworld_east_persia_east = {
+PAXworld_east_persia_east_baktria = {
 	duchies = {
-		d_tlepolemos d_strasanor d_parthia d_baktria
+		d_baktria
+	}
+}
+
+PAXworld_east_persia_east = {
+	regions = {
+		PAXworld_east_persia_east_baktria
+	}
+	duchies = {
+		d_tlepolemos d_strasanor d_parthia
 	}
 }
 
@@ -277,19 +285,19 @@ PAXworld_east = {
 
 PAXworld_steppe_west = {
 	duchies = {
-		d_quadia d_burgundia d_cotinia d_vandalia d_gothonia d_aestia d_bastarnae
+		d_quadia d_burgundia d_cotinia d_vandalia d_gothonia d_aestia d_bastarnae d_hasdingia d_avarpia
 	}
 }
 
 PAXworld_steppe_center = {
 	duchies = {
-		d_alania d_bosporus d_sarmatae d_navaria d_samoya
+		d_alania d_bosporus d_sarmatae d_navaria d_samoya d_east_samoya
 	}
 }
 
 PAXworld_steppe_east = {
 	duchies = {
-		d_apasiacae d_khorasia d_yuezhe d_aorsia d_hsinia d_ko-kun d_ugrania
+		d_apasiacae d_khorasia d_yuezhe d_aorsia d_hsinia d_ko-kun d_ugrania d_kasogischia
 	}
 }
 

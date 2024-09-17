@@ -1,0 +1,143 @@
+name_list_arabic = {
+
+    cadet_dynasty_names = {
+        "dynn_Abdulrahman"
+        "dynn_Al-Mansur"
+        "dynn_Fahd"
+        "dynn_Hassan"
+        "dynn_Ibrahim"
+        "dynn_Jabir"
+        "dynn_Khalid"
+        "dynn_Mahmud"
+        "dynn_Nasir"
+        "dynn_Rashid"
+        "dynn_Salem"
+        "dynn_Tariq"
+        "dynn_Umar"
+        "dynn_Yusuf"
+        "dynn_Zaid"
+        "dynn_Said"
+        "dynn_Anwar"
+        "dynn_Mustafa"
+        "dynn_Ali"
+        "dynn_Omar"
+    }
+
+    dynasty_names = {
+        "dynn_Abdulrahman"
+        "dynn_Al-Mansur"
+        "dynn_Fahd"
+        "dynn_Hassan"
+        "dynn_Ibrahim"
+        "dynn_Jabir"
+        "dynn_Khalid"
+        "dynn_Mahmud"
+        "dynn_Nasir"
+        "dynn_Rashid"
+        "dynn_Salem"
+        "dynn_Tariq"
+        "dynn_Umar"
+        "dynn_Yusuf"
+        "dynn_Zaid"
+        "dynn_Said"
+        "dynn_Anwar"
+        "dynn_Mustafa"
+        "dynn_Ali"
+        "dynn_Omar"
+        "dynn_Imran"
+    }
+
+    male_names = {
+        Ahmed Ali Anwar Bashir Bilal Fahd Farid Fares Hassan Ibrahim Jaber Jamal Khalid Mahmud Mustafa Omar Rashid Tariq Yusuf Zaid
+    }
+
+    female_names = {
+        Aisha Amira Fatima Hana Jamila Layla Maryam Nadia Noor Samira Sarah Zaynab
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_ibn"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_nabataean = {
+
+    cadet_dynasty_names = {
+        "dynn_Aretas"
+        "dynn_Saqqara"
+        "dynn_Khalid"
+        "dynn_Mutran"
+        "dynn_Obodas"
+        "dynn_Antiochus"
+        "dynn_Ptolemaeus"
+        "dynn_Juba"
+        "dynn_Tetrapolis"
+        "dynn_Mithridates"
+        "dynn_Zabdiel"
+        "dynn_Dionysius"
+        "dynn_Sharif"
+        "dynn_Herodes"
+        "dynn_Mario"
+        "dynn_Salome"
+        "dynn_Aristobulus"
+        "dynn_Berosus"
+        "dynn_Balasar"
+        "dynn_Timotheus"
+    }
+
+    dynasty_names = {
+        "dynn_Aretas"
+        "dynn_Saqqara"
+        "dynn_Khalid"
+        "dynn_Mutran"
+        "dynn_Obodas"
+        "dynn_Antiochus"
+        "dynn_Ptolemaeus"
+        "dynn_Juba"
+        "dynn_Tetrapolis"
+        "dynn_Mithridates"
+        "dynn_Zabdiel"
+        "dynn_Dionysius"
+        "dynn_Sharif"
+        "dynn_Herodes"
+        "dynn_Mario"
+        "dynn_Salome"
+        "dynn_Aristobulus"
+        "dynn_Berosus"
+        "dynn_Balasar"
+        "dynn_Timotheus"
+        "dynn_Artemidorus"
+    }
+
+    male_names = {
+        Aretas Bacchus Balasar Barak Benyamin Darius Eliezer Hanan Ishmael Jabir Jabal Janiah Khalid Mutran Obodas Othniel
+        Salim Shalmaneser Timotheus Zabdiel
+    }
+
+    female_names = {
+        Aelia Amara Anahita Calliope Daphne Esha Habibah Ishtar Keraia Lydia Maura Miriam Nerea Salome Shaharit
+        Yasmine
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 35
+    mat_grf_name_chance = 0
+    father_name_chance = 65
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 60
+    mother_name_chance = 0
+}

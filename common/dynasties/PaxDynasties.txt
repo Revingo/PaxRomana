@@ -92,3 +92,19 @@ din_19 = {
 	name = dynn_mamertine
 	culture = umbrian
 }
+
+din_20 = {
+	name = dynn_antigonid
+	culture = makedonian
+}
+
+din_21 = {
+	name = dynn_kafatos
+	culture = greek
+}
+
+din_22 = {
+	name = dynn_aleuadae
+	culture = greek
+}
+

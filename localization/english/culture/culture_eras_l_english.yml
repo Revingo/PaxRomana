@@ -6,7 +6,7 @@
  culture_group_any: "any"
  #ERAS
  culture_era_tribal: "Tribal"
- culture_era_tribal_desc: "The $culture_era_tribal$ Era of a [culture|E] predates the emergence of codified laws and an institutionalized government. Rulers with [tribal_government|E] can only make use of $culture_era_tribal$ Era [innovations|E] and can't hold a title with a tier higher than the duchy tier."
+ culture_era_tribal_desc: "The $culture_era_tribal$ Era of a [culture|E] predates the emergence of codified laws and an institutionalized government."
  culture_era_early_medieval: "Hellenistic"
  culture_era_early_medieval_desc: "The $culture_era_early_medieval$ Era started after Alexander the Great's conquest of Persia. It marked a period where the hellenic [culture|E] dominated the world and the greek philosophers were constantly inventing new [innovations|E]."
  culture_era_high_medieval: "Pax Romana"

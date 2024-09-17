@@ -1,0 +1,869 @@
+name_list_pax_greek = {
+
+    cadet_dynasty_names = {
+        "dynn_Alexandros"
+        "dynn_Philippos"
+        "dynn_Demetrios"
+        "dynn_Leonidas"
+        "dynn_Perikles"
+        "dynn_Aristotle"
+        "dynn_Themistocles"
+        "dynn_Ptolemaios"
+        "dynn_Herakles"
+        "dynn_Eudoxus"
+        "dynn_Socrates"
+        "dynn_Artemis"
+        "dynn_Anaxagoras"
+        "dynn_Cleon"
+        "dynn_Spartacus"
+        "dynn_Eratosthenes"
+        "dynn_Hippocrates"
+        "dynn_Archimedes"
+        "dynn_Panagiotis"
+        "dynn_Simonides"
+    }
+
+    dynasty_names = {
+        "dynn_Alexandros"
+        "dynn_Philippos"
+        "dynn_Demetrios"
+        "dynn_Leonidas"
+        "dynn_Perikles"
+        "dynn_Aristotle"
+        "dynn_Themistocles"
+        "dynn_Ptolemaios"
+        "dynn_Herakles"
+        "dynn_Eudoxus"
+        "dynn_Socrates"
+        "dynn_Artemis"
+        "dynn_Anaxagoras"
+        "dynn_Cleon"
+        "dynn_Spartacus"
+        "dynn_Eratosthenes"
+        "dynn_Hippocrates"
+        "dynn_Archimedes"
+        "dynn_Panagiotis"
+        "dynn_Simonides"
+        "dynn_Xenophon"
+    }
+
+    male_names = {
+        Alexandros Anastasios Aristoteles Demetrios Dionysios Eudoxus Euphronios Herakles Hipparchos Leonidas Niketas
+        Perikles Ptolemaios Socrates Themistocles Thucydides Xenophon
+    }
+
+    female_names = {
+        Agape Antheia Artemis Calliope Cleo Dione Eleni Eirene Helen Hera Hypatia Kleopatra Kalliope Melpomene
+        Penelope Persephone Thalia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_macedonian = {
+
+    cadet_dynasty_names = {
+        "dynn_Alexandros"
+        "dynn_Aristotle"
+        "dynn_Diomedes"
+        "dynn_Leonidas"
+        "dynn_Perseus"
+        "dynn_Philippos"
+        "dynn_Themistocles"
+        "dynn_Argead"
+        "dynn_Heracleides"
+        "dynn_Evander"
+        "dynn_Thessalon"
+        "dynn_Antigonos"
+        "dynn_Cleomenes"
+        "dynn_Spyrrhides"
+        "dynn_Demetrios"
+        "dynn_Ptolemaios"
+        "dynn_Nikolaos"
+        "dynn_Anaxagoras"
+        "dynn_Eudoros"
+        "dynn_Dionysios"
+        "dynn_Alexander"
+        "dynn_Achilles"
+    }
+
+    dynasty_names = {
+        "dynn_Alexandros"
+        "dynn_Aristotle"
+        "dynn_Diomedes"
+        "dynn_Leonidas"
+        "dynn_Perseus"
+        "dynn_Philippos"
+        "dynn_Themistocles"
+        "dynn_Argead"
+        "dynn_Heracleides"
+        "dynn_Evander"
+        "dynn_Thessalon"
+        "dynn_Antigonos"
+        "dynn_Cleomenes"
+        "dynn_Spyrrhides"
+        "dynn_Demetrios"
+        "dynn_Ptolemaios"
+        "dynn_Nikolaos"
+        "dynn_Anaxagoras"
+        "dynn_Eudoros"
+        "dynn_Dionysios"
+        "dynn_Alexander"
+        "dynn_Achilles"
+    }
+
+    male_names = {
+        Alexandros Alexander Antigonos Aristoteles Demetrios Diomedes Eudoros Evander Heracleides Leonidas Nikolaos Perseus Philippos Spyrrhides
+        Themistocles
+    }
+
+    female_names = {
+        Aegle Callista Chloris Dione Eirene Eurydice Helena Kleopatra Lyssa Myrrha Olympias Penelope Phaidra Roxane
+        Thaleia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_phrygian = {
+
+    cadet_dynasty_names = {
+        "dynn_Midas"
+        "dynn_Mythras"
+        "dynn_Artemisios"
+        "dynn_Gigantas"
+        "dynn_Satrapis"
+        "dynn_Agros"
+        "dynn_Makaros"
+        "dynn_Orontes"
+        "dynn_Thyra"
+        "dynn_Atis"
+        "dynn_Anax"
+        "dynn_Basileios"
+        "dynn_Phylaris"
+        "dynn_Lygos"
+        "dynn_Gelios"
+        "dynn_Makarios"
+        "dynn_Damas"
+        "dynn_Phalios"
+        "dynn_Hippias"
+        "dynn_Tersites"
+    }
+
+    dynasty_names = {
+        "dynn_Midas"
+        "dynn_Mythras"
+        "dynn_Artemisios"
+        "dynn_Gigantas"
+        "dynn_Satrapis"
+        "dynn_Agros"
+        "dynn_Makaros"
+        "dynn_Orontes"
+        "dynn_Thyra"
+        "dynn_Atis"
+        "dynn_Anax"
+        "dynn_Basileios"
+        "dynn_Phylaris"
+        "dynn_Lygos"
+        "dynn_Gelios"
+        "dynn_Makarios"
+        "dynn_Damas"
+        "dynn_Phalios"
+        "dynn_Hippias"
+        "dynn_Tersites"
+        "dynn_Antigonos"
+    }
+
+    male_names = {
+        Adrasteos Aeneas Agamemnon Ailios Akhos Antigonos Artemisios Atis Belenus Damas Diokles Dionysios Gelo Heracles Karios Lygos Makaros Mithras Orontes Phalaris Polybios Thasos Theodoros Thynos
+    }
+
+    female_names = {
+        Aedon Agape Callista Dione Euphemia Helene Kyra Lysandra Melitta Nysa Polyxena Rhodopis Selene Thalia Themis Zeno
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_lydian = {
+
+    cadet_dynasty_names = {
+        "dynn_Croesus"
+        "dynn_Gygas"
+        "dynn_Alyattes"
+        "dynn_Sadyattes"
+        "dynn_Mermnad"
+        "dynn_Artembares"
+        "dynn_Harpagus"
+        "dynn_Adramyttios"
+        "dynn_Teispe"
+        "dynn_Thales"
+        "dynn_Psammuthis"
+        "dynn_Hypseus"
+        "dynn_Bebryx"
+        "dynn_Panionios"
+        "dynn_Metrodorus"
+        "dynn_Agyrtus"
+        "dynn_Atys"
+        "dynn_Midas"
+        "dynn_Xanthus"
+        "dynn_Teridios"
+    }
+
+    dynasty_names = {
+        "dynn_Croesus"
+        "dynn_Gygas"
+        "dynn_Alyattes"
+        "dynn_Sadyattes"
+        "dynn_Mermnad"
+        "dynn_Artembares"
+        "dynn_Harpagus"
+        "dynn_Adramyttios"
+        "dynn_Teispe"
+        "dynn_Thales"
+        "dynn_Psammuthis"
+        "dynn_Hypseus"
+        "dynn_Bebryx"
+        "dynn_Panionios"
+        "dynn_Metrodorus"
+        "dynn_Agyrtus"
+        "dynn_Atys"
+        "dynn_Midas"
+        "dynn_Xanthus"
+        "dynn_Teridios"
+        "dynn_Ecbatana"
+    }
+
+    male_names = {
+        Atys Croesus Gygas Alyattes Sadyattes Mermnad Harpagus Teispe Artaphernes Hyssaldus Pharnabazus
+        Adramyttios Midas Xanthus Thales Sabazios Metrodorus Euphrates Panionios Candaules
+    }
+
+    female_names = {
+        Aryenis Clytemenestra Phaidra Lamia Merope Kalypsos Pritanis Atossa Thargelia Aspasia Neaira
+        Philonoe Phrasikleia Iphigenia Helen Eudora Myrrhine
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_lycian = {
+
+    cadet_dynasty_names = {
+        "dynn_Arkesilas"
+        "dynn_Kalydon"
+        "dynn_Xanthus"
+        "dynn_Lyciros"
+        "dynn_Myrmidon"
+        "dynn_Alcaeus"
+        "dynn_Eurymedon"
+        "dynn_Antiphates"
+        "dynn_Pyrrhus"
+        "dynn_Hermocles"
+        "dynn_Agathon"
+        "dynn_Neritos"
+        "dynn_Lysander"
+        "dynn_Phalantos"
+        "dynn_Artemon"
+        "dynn_Thales"
+        "dynn_Damocles"
+        "dynn_Eudoros"
+        "dynn_Orpheus"
+        "dynn_Leandros"
+    }
+
+    dynasty_names = {
+        "dynn_Arkesilas"
+        "dynn_Kalydon"
+        "dynn_Xanthus"
+        "dynn_Lyciros"
+        "dynn_Myrmidon"
+        "dynn_Alcaeus"
+        "dynn_Eurymedon"
+        "dynn_Antiphates"
+        "dynn_Pyrrhus"
+        "dynn_Hermocles"
+        "dynn_Agathon"
+        "dynn_Neritos"
+        "dynn_Lysander"
+        "dynn_Phalantos"
+        "dynn_Artemon"
+        "dynn_Thales"
+        "dynn_Damocles"
+        "dynn_Eudoros"
+        "dynn_Orpheus"
+        "dynn_Leandros"
+        "dynn_Dionysios"
+    }
+
+    male_names = {
+        Aeneas Agamemnon Alcaeus Amphion Antiphates Arkesilas Callias Cleon Demetrios Dorian Eurymedon Hector Iphicles Lycius
+        Myrmidon Nestor Phaedrus Phocion Pyrrhus Sophocles Themistocles Thales Xanthus
+    }
+
+    female_names = {
+        Aella Clymene Daphne Electra Helene Iphigenia Lysandra Myrto Nyssa Penelope Phyllis Thalia Xanthe
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 10
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 40
+    mother_name_chance = 20
+}
+
+name_list_carian = {
+
+    cadet_dynasty_names = {
+        "dynn_Sarapius"
+        "dynn_Maenius"
+        "dynn_Amyntas"
+        "dynn_Markos"
+        "dynn_Demetrius"
+        "dynn_Antiochus"
+        "dynn_Heracleus"
+        "dynn_Xenophon"
+        "dynn_Pausanias"
+        "dynn_Leonidas"
+        "dynn_Selene"
+        "dynn_Erato"
+        "dynn_Eudocia"
+        "dynn_Phaedra"
+        "dynn_Artemisia"
+        "dynn_Thalia"
+        "dynn_Cleopatra"
+        "dynn_Dione"
+        "dynn_Theodora"
+        "dynn_Hermione"
+    }
+
+    dynasty_names = {
+        "dynn_Sarapius"
+        "dynn_Maenius"
+        "dynn_Amyntas"
+        "dynn_Markos"
+        "dynn_Demetrius"
+        "dynn_Antiochus"
+        "dynn_Heracleus"
+        "dynn_Xenophon"
+        "dynn_Pausanias"
+        "dynn_Leonidas"
+        "dynn_Selene"
+        "dynn_Erato"
+        "dynn_Eudocia"
+        "dynn_Phaedra"
+        "dynn_Artemisia"
+        "dynn_Thalia"
+        "dynn_Cleopatra"
+        "dynn_Dione"
+        "dynn_Theodora"
+        "dynn_Hermione"
+        "dynn_Alcander"
+    }
+
+    male_names = {
+        Aeneas Alexander Antigonus Apollonios Aristides Calypso Chariton Dionysius Erymanthos Helios Icarus Leander Lysander
+        Menelaus Midas Niketas Pericles Philander Polydeuces Rhadamanthys Thales Themistocles Thucydides Xenocrates
+    }
+
+    female_names = {
+        Aelia Alcmene Andromeda Antheia Aphrodite Arete Calliope Cassandra Daphne Dione Eurydice Harmonia Hera
+        Kalliope Leda Maia Melanippe Myrrha Nike Persephone Rhea Thalia Zoe
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_cappadocian = {
+
+    cadet_dynasty_names = {
+        "dynn_Ariobarzanes"
+        "dynn_Mithridates"
+        "dynn_Antiochos"
+        "dynn_Dionysios"
+        "dynn_Heracles"
+        "dynn_Ptolemaios"
+        "dynn_Perses"
+        "dynn_Menon"
+        "dynn_Satrapes"
+        "dynn_Megabates"
+        "dynn_Thyraeus"
+        "dynn_Orontes"
+        "dynn_Sosicles"
+        "dynn_Damocles"
+        "dynn_Epictetus"
+        "dynn_Alexandros"
+        "dynn_Philippos"
+        "dynn_Leonidas"
+        "dynn_Alexius"
+        "dynn_Darius"
+    }
+
+    dynasty_names = {
+        "dynn_Ariobarzanes"
+        "dynn_Mithridates"
+        "dynn_Antiochos"
+        "dynn_Dionysios"
+        "dynn_Heracles"
+        "dynn_Ptolemaios"
+        "dynn_Perses"
+        "dynn_Menon"
+        "dynn_Satrapes"
+        "dynn_Megabates"
+        "dynn_Thyraeus"
+        "dynn_Orontes"
+        "dynn_Sosicles"
+        "dynn_Damocles"
+        "dynn_Epictetus"
+        "dynn_Alexandros"
+        "dynn_Philippos"
+        "dynn_Leonidas"
+        "dynn_Alexius"
+        "dynn_Darius"
+        "dynn_Aristides"
+    }
+
+    male_names = {
+        Alexandros Antiochos Athenodoros Bion Darius Dionysios Heracles Mithridates Menon Orontes Ptolemaios Satrapes
+        Sosicles Thales Themistocles Thyraeus Timon Xenophon
+    }
+
+    female_names = {
+        Aelia Clea Damaris Eudokia Helene Kalliope Lysandra Melita Myrrine Nemea Olympias Phaidra Thaleia Zenobia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_mysian = {
+
+    cadet_dynasty_names = {
+        "dynn_Artemidorus"
+        "dynn_Pyrrhus"
+        "dynn_Leonidas"
+        "dynn_Hermias"
+        "dynn_Diomedes"
+        "dynn_Andronicus"
+        "dynn_Epaminondas"
+        "dynn_Teucer"
+        "dynn_Antigonus"
+        "dynn_Cleomenes"
+        "dynn_Thyestes"
+        "dynn_Selene"
+        "dynn_Athena"
+        "dynn_Penelope"
+        "dynn_Dione"
+        "dynn_Ariadne"
+        "dynn_Themis"
+        "dynn_Xanthe"
+        "dynn_Hyacinthus"
+        "dynn_Eurydice"
+    }
+
+    dynasty_names = {
+        "dynn_Artemidorus"
+        "dynn_Pyrrhus"
+        "dynn_Leonidas"
+        "dynn_Hermias"
+        "dynn_Diomedes"
+        "dynn_Andronicus"
+        "dynn_Epaminondas"
+        "dynn_Teucer"
+        "dynn_Antigonus"
+        "dynn_Cleomenes"
+        "dynn_Thyestes"
+        "dynn_Selene"
+        "dynn_Athena"
+        "dynn_Penelope"
+        "dynn_Dione"
+        "dynn_Ariadne"
+        "dynn_Themis"
+        "dynn_Xanthe"
+        "dynn_Hyacinthus"
+        "dynn_Eurydice"
+        "dynn_Demetrius"
+    }
+
+    male_names = {
+        Alexios Aristides Cassander Dorian Evander Hector Lysander Myron Nicodemus Orion Parmenion Polybius Themistocles
+        Thucydides Xenophon
+    }
+
+    female_names = {
+        Callista Daphne Electra Helena Ianthe Juno Lysandra Melina Nereida Olympia Pasiphae Selene Thalia Xanthe
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_paphlagonian = {
+
+    cadet_dynasty_names = {
+        "dynn_Mithridates"
+        "dynn_Nicomedes"
+        "dynn_Heracles"
+        "dynn_Antiochus"
+        "dynn_Aeolus"
+        "dynn_Damaris"
+        "dynn_Aristarchus"
+        "dynn_Dionysius"
+        "dynn_Meleager"
+        "dynn_Xenon"
+        "dynn_Eudoros"
+        "dynn_Orontes"
+        "dynn_Anaxagoras"
+        "dynn_Ptolemy"
+        "dynn_Leontius"
+        "dynn_Helena"
+        "dynn_Eleutherius"
+        "dynn_Sophocles"
+        "dynn_Themistocles"
+        "dynn_Cyros"
+    }
+
+    dynasty_names = {
+        "dynn_Mithridates"
+        "dynn_Nicomedes"
+        "dynn_Heracles"
+        "dynn_Antiochus"
+        "dynn_Aeolus"
+        "dynn_Damaris"
+        "dynn_Aristarchus"
+        "dynn_Dionysius"
+        "dynn_Meleager"
+        "dynn_Xenon"
+        "dynn_Eudoros"
+        "dynn_Orontes"
+        "dynn_Anaxagoras"
+        "dynn_Ptolemy"
+        "dynn_Leontius"
+        "dynn_Helena"
+        "dynn_Eleutherius"
+        "dynn_Sophocles"
+        "dynn_Themistocles"
+        "dynn_Cyros"
+        "dynn_Epaminondas"
+    }
+
+    male_names = {
+        Agapetos Aeneas Agamemnon Aristides Attalos Callimachus Cimon Cleomenes Diodorus Eudoros Heracles Lysander Mithridates
+        Nicander Nicomedes Ptolemy Pyrrhus Sarpedon Sophocles Themistocles Xander Xenon
+    }
+
+    female_names = {
+        Aelia Antheia Callista Damaris Eirene Helena Hypatia Lyra Melita Nysa Phaidra Philomena Polyxena Rhodopis
+        Thalia Theodora Zenobia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_pontic = {
+
+    cadet_dynasty_names = {
+        "dynn_Mithridates"
+        "dynn_Xenon"
+        "dynn_Dionysius"
+        "dynn_Aristonicus"
+        "dynn_Orontes"
+        "dynn_Leon"
+        "dynn_Pharos"
+        "dynn_Mithradates"
+        "dynn_Eumenes"
+        "dynn_Antiochus"
+        "dynn_Artemis"
+        "dynn_Artaxerxes"
+        "dynn_Alexander"
+        "dynn_Arsaces"
+        "dynn_Satra"
+        "dynn_Artemon"
+        "dynn_Themistocles"
+        "dynn_Protagoras"
+        "dynn_Silvanus"
+        "dynn_Megabyzus"
+    }
+
+    dynasty_names = {
+        "dynn_Mithridates"
+        "dynn_Xenon"
+        "dynn_Dionysius"
+        "dynn_Aristonicus"
+        "dynn_Orontes"
+        "dynn_Leon"
+        "dynn_Pharos"
+        "dynn_Mithradates"
+        "dynn_Eumenes"
+        "dynn_Antiochus"
+        "dynn_Artemis"
+        "dynn_Artaxerxes"
+        "dynn_Alexander"
+        "dynn_Arsaces"
+        "dynn_Satra"
+        "dynn_Artemon"
+        "dynn_Themistocles"
+        "dynn_Protagoras"
+        "dynn_Silvanus"
+        "dynn_Megabyzus"
+    }
+
+    male_names = {
+        Antiochus Ariston Athanasius Demetrius Dionysius Eumenes Heracles Mithridates Orontes Pharnaces Philopator Seleucus 
+        Thales Themistocles Xenon
+    }
+
+    female_names = {
+        Amastris Apama Artemisia Callista Cleopatris Damaris Eurydice Istria Laodice Lysandra Medea Olympias Parysatis Roxana
+        Selene Stratonice
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_epirote = {
+
+    cadet_dynasty_names = {
+        "dynn_Pyrrhus"
+        "dynn_Antigonos"
+        "dynn_Tharyps"
+        "dynn_Akrotiros"
+        "dynn_Kleon"
+        "dynn_Ptolemaios"
+        "dynn_Ambrax"
+        "dynn_Alypios"
+        "dynn_Menon"
+        "dynn_Dionysios"
+        "dynn_Spartokos"
+        "dynn_Thessalos"
+        "dynn_Melanthios"
+        "dynn_Herakleides"
+        "dynn_Aristion"
+        "dynn_Amynander"
+        "dynn_Epaminondas"
+        "dynn_Proxenos"
+        "dynn_Themistocles"
+        "dynn_Helena"
+    }
+
+    dynasty_names = {
+        "dynn_Pyrrhus"
+        "dynn_Antigonos"
+        "dynn_Tharyps"
+        "dynn_Akrotiros"
+        "dynn_Kleon"
+        "dynn_Ptolemaios"
+        "dynn_Ambrax"
+        "dynn_Alypios"
+        "dynn_Menon"
+        "dynn_Dionysios"
+        "dynn_Spartokos"
+        "dynn_Thessalos"
+        "dynn_Melanthios"
+        "dynn_Herakleides"
+        "dynn_Aristion"
+        "dynn_Amynander"
+        "dynn_Epaminondas"
+        "dynn_Proxenos"
+        "dynn_Themistocles"
+        "dynn_Helena"
+        "dynn_Heracleides"
+    }
+
+    male_names = {
+        Pyrrhus Antigonos Tharyps Akrotiros Kleon Ptolemaios Ambrax Alypios Menon Dionysios Spartokos Thessalos Melanthios Herakleides Aristion Amynander Epaminondas Proxenos Themistocles
+    }
+
+    female_names = {
+        Helena Eurydice Thaleia Callista Melantha Philinna Damaris Lysandra Myrrhine Phthia Antigone Despina Nymphe Cassia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_paeonian = {
+
+    cadet_dynasty_names = {
+        "dynn_Antigonas"
+        "dynn_Markos"
+        "dynn_Timoleon"
+        "dynn_Euripides"
+        "dynn_Thyraios"
+        "dynn_Doros"
+        "dynn_Nikandros"
+        "dynn_Charisios"
+        "dynn_Meletios"
+        "dynn_Sybaris"
+        "dynn_Antipatros"
+        "dynn_Thessalos"
+        "dynn_Ariobarzanes"
+        "dynn_Pharos"
+        "dynn_Medeon"
+        "dynn_Dionysios"
+        "dynn_Lysimachos"
+        "dynn_Peithon"
+        "dynn_Kallias"
+        "dynn_Metellus"
+    }
+
+    dynasty_names = {
+        "dynn_Antigonas"
+        "dynn_Markos"
+        "dynn_Timoleon"
+        "dynn_Euripides"
+        "dynn_Thyraios"
+        "dynn_Doros"
+        "dynn_Nikandros"
+        "dynn_Charisios"
+        "dynn_Meletios"
+        "dynn_Sybaris"
+        "dynn_Antipatros"
+        "dynn_Thessalos"
+        "dynn_Ariobarzanes"
+        "dynn_Pharos"
+        "dynn_Medeon"
+        "dynn_Dionysios"
+        "dynn_Lysimachos"
+        "dynn_Peithon"
+        "dynn_Kallias"
+        "dynn_Metellus"
+        "dynn_Aristides"
+    }
+
+    male_names = {
+        Aigaios Alexios Anaxagoras Apollonios Callias Charisios Demetrios Dionysios Doros Eukrates Euripides 
+        Lysimachos Mardonius Nikandros Peithon Pharos Sybaris Timoleon
+    }
+
+    female_names = {
+        Agape Aletheia Callista Dione Eudocia Galatea Helen Ismene Lysandra Melite Nysa Polyxena Thalia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}

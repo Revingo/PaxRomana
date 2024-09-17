@@ -6,12 +6,12 @@ sardinian = {
 	language = language_sardinian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
 		tradition_fishermen
 		tradition_tribe_unity
+		tradition_isolationist
 	}
 	
-	name_list = name_list_sardinian
+	name_list = name_list_pax_sardinian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -33,9 +33,10 @@ corsican = {
 	traditions = {
 		tradition_fishermen
 		tradition_tribe_unity
+		tradition_isolationist
 	}
 	
-	name_list = name_list_sardinian
+	name_list = name_list_pax_sardinian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

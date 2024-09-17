@@ -1,0 +1,81 @@
+pax_finnish = {
+	color = { 0.6 0.33 0.73 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_baltic
+	language = language_finnic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_metal_craftsmanship
+		tradition_forest_fighters
+		tradition_winter_warriors
+	}
+	
+	name_list = name_list_pax_finnish
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}
+
+przeworsk = {
+	color = { 0.9 0.9 0.10 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_baltic
+	language = language_baltic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_pastoralists
+		tradition_collective_lands
+		tradition_medicinal_plants
+	}
+	
+	name_list = name_list_przeworsk
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}
+
+zarubintsy = {
+	color = { 0.6 0.8 0.1 }
+	
+	ethos = ethos_spiritual
+	heritage = heritage_baltic
+	language = language_baltic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_hunters
+		tradition_sacred_hunts
+		tradition_forest_folk
+		tradition_forest_fighters
+	}
+	
+	name_list = name_list_zarubintsy
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { northern_unit_gfx }
+
+	ethnicities = {
+		33 = circumpolar_dark_hair
+		33 = circumpolar_brown_hair
+		33 = circumpolar_blonde_hair
+	}
+}

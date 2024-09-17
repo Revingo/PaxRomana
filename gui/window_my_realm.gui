@@ -29,7 +29,9 @@ window = {
 		using = Sound_WindowHide_Standard
 		using = Window_Position_MainTab_Hide
 
-		on_start = "[GetVariableSystem.Clear( 'realm_tabs')]"
+		on_start = "[GetVariableSystem.Clear( 'realm_tabs' )]"
+		on_start = "[GetScriptedGui('remove_factions_var_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+		on_start = "[GetVariableSystem.Clear( 'dyn_tab' )]"
 	}
 
 	state = {
@@ -447,13 +449,28 @@ window = {
 						name = "league_tab"
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
-						#Character.GetPrimaryTitle.
+
 						down = "[GetVariableSystem.HasValue('realm_tabs', 'league')]"
 
 						visible = "[EqualTo_string(GetPlayer.GetGovernment.GetName, GetGovernment('city-state_government').GetName)]"
 						onclick = "[GetVariableSystem.Set('realm_tabs', 'league')]"
 
 						raw_text = "League"
+					}
+					button_tab = {
+						name = "dynastic_factions_tab"
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = expanding
+
+						down = "[GetVariableSystem.HasValue('realm_tabs', 'dynastic_factions')]"
+
+						visible = "[Or(EqualTo_string(GetPlayer.GetGovernment.GetName, GetGovernment('dynastic_government').GetName), And(GetPlayer.HasLiege, EqualTo_string(GetPlayer.GetLiege.GetGovernment.GetName, GetGovernment('dynastic_government').GetName)))]"
+						onclick = "[GetVariableSystem.Set('realm_tabs', 'dynastic_factions')]"
+						onclick = "[GetScriptedGui('set_dynastic_factions_variable_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+						onclick = "[GetVariableSystem.Set('dyn_tab', Select_CString(EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('my_factions').GetValue ), '(int32)1'), 'my_factions', 'liege_factions')))]"
+
+
+						raw_text = "Factions"
 					}
 				}
 
@@ -2304,14 +2321,14 @@ window = {
 							#item = {
 								vbox = {
 									layoutpolicy_horizontal = expanding
-									layoutpolicy_vertical = growing
+									layoutpolicy_vertical = expanding
 
 									name = "league_visualization"
 									datamodel = "[MyRealmWindow.GetDomainItems]"
 
 									vbox = {
 										name = "character_is_NOT_in_a_league"
-										layoutpolicy_horizontal = growing
+										layoutpolicy_horizontal = expanding
 										visible = "[GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
 
 										hbox = {
@@ -2341,14 +2358,14 @@ window = {
 
 									vbox = {
 										name = "character_is_in_a_league"
-										layoutpolicy_horizontal = growing
-										layoutpolicy_vertical = growing
+										layoutpolicy_horizontal = expanding
+										layoutpolicy_vertical = expanding
 										visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
 
 										vbox = {
 											name = "character_is_the_league_leader"
 											visible = "[And(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-											layoutpolicy_vertical = growing
+											layoutpolicy_vertical = expanding
 
 											hbox = {
 												spacing = 5
@@ -2392,16 +2409,14 @@ window = {
 													#margin = { 20 10 }
 													#spacing = 10
 	
-													fixedgridbox {
+													#fixedgridbox {
 														name = "league members"
 														datamodel = "[GetPlayer.MakeScope.GetList('league_list')]"
 														#datamodel_wrap = 5
 			
 														
 														item = {
-															layoutpolicy_vertical = expanding
 															hbox = {
-
 																layoutpolicy_vertical = expanding
 																coa_realm_medium = {	
 																	datacontext = "[Scope.GetCharacter]"
@@ -2413,17 +2428,15 @@ window = {
 																	using = Font_Size_Small
 																}
 															}
-															
 														}
-			
-													}
+													#}
 												}
 											}
 										}
 										vbox = {
 											name = "character_is_NOT_the_league_leader"
 											visible = "[And(Not(GetScriptedGui('is_league_leader_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)), Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
-											layoutpolicy_vertical = growing
+											layoutpolicy_vertical = expanding
 											
 											hbox = {
 												spacing = 5
@@ -2468,11 +2481,9 @@ window = {
 													#margin = { 20 10 }
 													#spacing = 10
 	
-													fixedgridbox {
+													#fixedgridbox {
 														name = "league members"
 														datamodel = "[GetPlayer.MakeScope.Var('league_owner').GetList('league_list')]"
-														addrow = 40
-														addcolumn = 40
 														#datamodel_wrap = 5
 			
 														
@@ -2490,13 +2501,13 @@ window = {
 																}
 															}
 														}
-													}
+													#}
 												}
 											}
 										}
 										vbox = {
-											layoutpolicy_horizontal = shrinking
-											layoutpolicy_vertical = shrinking
+											layoutpolicy_horizontal = expanding
+											layoutpolicy_vertical = expanding
 											spacing = 15
 											visible = "[Not(GetScriptedGui('create_league_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
 
@@ -2600,6 +2611,760 @@ window = {
 							#}
 						#}
 					#}
+				}
+
+
+				### DYNASTIC FACTIONS TAB
+				vbox = {
+					name = dynastic_factions_tab
+					layoutpolicy_horizontal = expanding
+					layoutpolicy_vertical = expanding
+					visible = "[GetVariableSystem.HasValue('realm_tabs', 'dynastic_factions')]"
+
+					state = {
+						name = _show
+						using = Animation_FadeIn_Quick
+					}
+
+					state = {
+						name = _hide
+						alpha = 0
+
+						on_start = "[GetVariableSystem.Clear( 'dyn_tab' )"
+					}
+					hbox = {
+						name = "dynastic_factions_tab"
+						layoutpolicy_horizontal = expanding
+
+						button_tab = {
+							name = "my_factions"
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+							visible = "[GetScriptedGui('change_to_my_factions_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+							#down = "[GetVariableSystem.HasValue( 'dyn_tab', 'my_factions')]"
+							down = "[EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('my_factions').GetValue ), '(int32)1')]"
+
+							onclick = "[GetScriptedGui('change_to_my_factions_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+							onclick = "[GetVariableSystem.Set('dyn_tab', Select_CString(EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('my_factions').GetValue ), '(int32)1'), 'my_factions', 'liege_factions')))]"
+
+							raw_text = "My Realm's Factions"
+						}
+						button_tab = {
+							name = "liege_factions"
+							layoutpolicy_horizontal = expanding
+							layoutpolicy_vertical = expanding
+							visible = "[GetScriptedGui('change_to_liege_factions_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+							#down = "[GetVariableSystem.HasValue( 'dyn_tab', 'liege_factions')]"
+							down = "[EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('liege_factions').GetValue ), '(int32)1')]"
+
+							onclick = "[GetScriptedGui('change_to_liege_factions_gui').Execute( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+							onclick = "[GetVariableSystem.Set('dyn_tab', Select_CString(EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('my_factions').GetValue ), '(int32)1'), 'my_factions', 'liege_factions')))]"
+
+
+							raw_text = "Liege's Factions"
+						}
+					}
+					vbox = {
+						name = "my_factions_window"
+						spacing = -40
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = growing
+						visible = "[EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('my_factions').GetValue ), '(int32)1')]"
+
+						state = {
+							name = _show
+							using = Animation_FadeIn_Quick
+						}
+	
+						state = {
+							name = _hide
+							alpha = 0
+						}
+
+						datamodel = "[MyRealmWindow.GetDomainItems]"
+
+						hbox = {
+							coa_realm_medium = {
+													
+								datacontext = "[TitleItem.GetTitle]"
+								using = tootltip_ws
+							}
+							spacer = {
+								size = { 10 0 }
+							}
+							text_single = {
+								raw_text = "[GetPlayer.GetPrimaryTitle.GetName]'s Factions:"
+								using = Font_Size_Big
+								default_format = "#bold"
+							}
+						}
+
+						spacer = {
+							size = { 0 10 }
+						}
+
+						hbox = {
+							text_single = {
+								visible = "[Not(GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								raw_text = "Army:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							text_single = {
+								visible = "[GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								text = "army_revolting_title"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								visible = "[Not(GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								size = { 440 0}
+							}
+							spacer = {
+								visible = "[GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								size = { 330 0}
+							}
+						}
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								visible = "[Not(GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/army.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							background = {
+								visible = "[GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								fittype = centercrop
+								alpha = 1.0
+								texture = "gfx/interface/governments/dynastic/army_revolting.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_scratches.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.MakeScope.Var('army_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									tooltip = army_happiness_tooltip
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "[GetPlayer.Custom('HappinessTextArmy')]"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = "[FixedPointToInt( GetPlayer.MakeScope.Var('army_h_amount').GetValue )]"
+									}
+								}
+								
+							}
+							
+							onclick = "[GetVariableSystem.Set( 'army_actions_w', 'x')]"
+							onclick = "[GetVariableSystem.Clear( 'nobles_actions_w' )]"
+							onclick = "[GetVariableSystem.Clear( 'citizens_actions_w' )]"
+							onclick = "[ExecuteConsoleCommands('gui.ClearWidgets army_actions_window_gui; gui.ClearWidgets citizens_actions_window_gui; gui.ClearWidgets nobles_actions_window_gui; gui.createwidget gui/PAXwindows/dynastic_army_actions_window.gui army_actions_window_gui')]"
+						}
+
+						hbox = {
+							
+							text_single = {
+								visible = "[Not(GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								raw_text = "Nobles:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							text_single = {
+								visible = "[GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								text = "nobles_revolting_title"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								visible = "[Not(GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								size = { 430 0}
+							}
+							spacer = {
+								visible = "[GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								size = { 318 0}
+							}
+						}
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								visible = "[Not(GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/nobles.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							background = {
+								visible = "[GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								fittype = centercrop
+								alpha = 1.0
+								texture = "gfx/interface/governments/dynastic/nobles_revolting.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_scratches.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.MakeScope.Var('nobles_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									tooltip = nobles_happiness_tooltip
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "[GetPlayer.Custom('HappinessTextNobles')]"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = "[FixedPointToInt( GetPlayer.MakeScope.Var('nobles_h_amount').GetValue )]"
+									}
+								}
+							}
+
+							onclick = "[GetVariableSystem.Set( 'nobles_actions_w', 'x')]"
+							onclick = "[GetVariableSystem.Clear( 'army_actions_w' )]"
+							onclick = "[GetVariableSystem.Clear( 'citizens_actions_w' )]"
+							onclick = "[ExecuteConsoleCommands('gui.ClearWidgets army_actions_window_gui; gui.ClearWidgets citizens_actions_window_gui; gui.ClearWidgets nobles_actions_window_gui; gui.createwidget gui/PAXwindows/dynastic_nobles_actions_window.gui nobles_actions_window_gui')]"
+						}
+
+						hbox = {
+							
+							text_single = {
+								visible = "[Not(GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								raw_text = "Citizens:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							text_single = {
+								visible = "[GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								text = "citizens_revolting_title"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								visible = "[Not(GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								size = { 420 0}
+							}
+							spacer = {
+								visible = "[GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								size = { 310 0}
+							}
+						}
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								visible = "[Not(GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/citizens.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							background = {
+								visible = "[GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)]"
+								fittype = centercrop
+								alpha = 1.0
+								texture = "gfx/interface/governments/dynastic/citizens_revolting.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_scratches.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.MakeScope.Var('citizens_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									tooltip = citizens_happiness_tooltip
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "[GetPlayer.Custom('HappinessTextCitizens')]"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = "[FixedPointToInt( GetPlayer.MakeScope.Var('citizens_h_amount').GetValue )]"
+									}
+								}
+							}
+
+							onclick = "[GetVariableSystem.Set( 'citizens_actions_w', 'x')]"
+							onclick = "[GetVariableSystem.Clear( 'army_actions_w' )]"
+							onclick = "[GetVariableSystem.Clear( 'nobles_actions_w' )]"
+							onclick = "[ExecuteConsoleCommands('gui.ClearWidgets army_actions_window_gui; gui.ClearWidgets citizens_actions_window_gui; gui.ClearWidgets nobles_actions_window_gui; gui.createwidget gui/PAXwindows/dynastic_citizens_actions_window.gui citizens_actions_window_gui')]"
+						}
+					}
+
+					vbox = {
+						name = "liege_factions_window"
+						spacing = -40
+						layoutpolicy_horizontal = expanding
+						layoutpolicy_vertical = growing
+						visible = "[EqualTo_int32(FixedPointToInt( GetPlayer.MakeScope.Var('liege_factions').GetValue ), '(int32)1')]"
+
+						state = {
+							name = _show
+							using = Animation_FadeIn_Quick
+						}
+	
+						state = {
+							name = _hide
+							alpha = 0
+						}
+
+						datamodel = "[MyRealmWindow.GetDomainItems]"
+
+						hbox = {
+							coa_realm_medium = {
+													
+								datacontext = "[GetPlayer.GetLiege]"
+								using = tootltip_ws
+							}
+							spacer = {
+								size = { 10 0 }
+							}
+							text_single = {
+								raw_text = "[GetPlayer.GetLiege.GetPrimaryTitle.GetName]'s Factions:"
+								using = Font_Size_Big
+								default_format = "#bold"
+							}
+						}
+
+						spacer = {
+							size = { 0 10 }
+						}
+
+						hbox = {
+							text_single = {
+								visible = "[Not(GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								raw_text = "Army:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							text_single = {
+								visible = "[GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								text = "army_revolting_title"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								visible = "[Not(GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								size = { 440 0}
+							}
+							spacer = {
+								visible = "[GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								size = { 330 0}
+							}
+						}
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								visible = "[Not(GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/army.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							background = {
+								visible = "[GetScriptedGui('army_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								fittype = centercrop
+								alpha = 1.0
+								texture = "gfx/interface/governments/dynastic/army_revolting.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_scratches.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.GetLiege.MakeScope.Var('army_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									tooltip = army_liege_happiness_tooltip
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "[GetPlayer.GetLiege.Custom('HappinessTextArmy')]"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = "[FixedPointToInt( GetPlayer.GetLiege.MakeScope.Var('army_h_amount').GetValue )]"
+									}
+								}
+								
+							}
+							
+						}
+
+						hbox = {
+							
+							text_single = {
+								visible = "[Not(GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								raw_text = "Nobles:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							text_single = {
+								visible = "[GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								text = "nobles_revolting_title"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								visible = "[Not(GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								size = { 430 0}
+							}
+							spacer = {
+								visible = "[GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								size = { 318 0}
+							}
+						}
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								visible = "[Not(GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/nobles.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							background = {
+								visible = "[GetScriptedGui('nobles_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								fittype = centercrop
+								alpha = 1.0
+								texture = "gfx/interface/governments/dynastic/nobles_revolting.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_scratches.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.GetLiege.MakeScope.Var('nobles_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									tooltip = nobles_liege_happiness_tooltip
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "[GetPlayer.GetLiege.Custom('HappinessTextNobles')]"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = "[FixedPointToInt( GetPlayer.GetLiege.MakeScope.Var('nobles_h_amount').GetValue )]"
+									}
+								}
+								
+							}
+						}
+
+						hbox = {
+							
+							text_single = {
+								visible = "[Not(GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								raw_text = "Citizens:"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							text_single = {
+								visible = "[GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								text = "citizens_revolting_title"
+								using = Font_Size_Medium
+								default_format = "#bold"
+							}
+							spacer = {
+								visible = "[Not(GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								size = { 420 0}
+							}
+							spacer = {
+								visible = "[GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								size = { 310 0}
+							}
+						}
+
+						button_standard_clean = {
+							size = { 500 150 }
+							background = {
+								visible = "[Not(GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End))]"
+								fittype = centercrop
+								alpha = 0.7
+								texture = "gfx/interface/governments/dynastic/citizens.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_fade_horizontal.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							background = {
+								visible = "[GetScriptedGui('citizens_too_low_gui').IsShown( GuiScope.SetRoot( GetPlayer.GetLiege.MakeScope ).End)]"
+								fittype = centercrop
+								alpha = 1.0
+								texture = "gfx/interface/governments/dynastic/citizens_revolting.dds"
+
+								modify_texture = {
+									texture = "gfx/interface/component_masks/mask_scratches.dds"
+									blend_mode = alphamultiply
+								}
+
+								modify_texture = {
+									texture = "gfx/interface/component_overlay/overlay_effect.dds"
+									blend_mode = overlay
+								}
+							}
+							hbox = {
+								layoutpolicy_horizontal = fixed
+								vbox = {
+									text_label_center = {
+										raw_text = "Leader"
+										using = Font_Size_Small
+										default_format = "#bold"
+									}
+									portrait_head = {
+										datacontext = "[GetPlayer.GetLiege.MakeScope.Var('citizens_leader').Char]"
+										blockoverride "glow_visible"
+										{
+											visible = no
+										}
+									}
+								}
+								vbox = {
+									tooltip = citizens_liege_happiness_tooltip
+									spacer = {
+										size = {0 100}
+									}
+									hbox = {
+										text_label_left = {
+											raw_text = "[GetPlayer.GetLiege.Custom('HappinessTextCitizens')]"
+											using = Font_Size_Small
+										}
+										spacer = {
+											size = { 210 0}
+										}
+									}
+
+									progressbar_standard = {
+										layoutpolicy_horizontal = expanding
+										size = { 330 10 }
+										using = Progressbar_Changed_Animation
+										min = 0
+										max = 100
+										value = "[FixedPointToInt( GetPlayer.GetLiege.MakeScope.Var('citizens_h_amount').GetValue )]"
+									}
+								}
+								
+							}
+						}
+					}
 				}
 			}
 		}

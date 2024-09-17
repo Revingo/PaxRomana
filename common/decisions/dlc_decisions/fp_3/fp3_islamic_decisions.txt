@@ -29,7 +29,10 @@
 
 	is_shown = {
 		has_fp3_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		faith = { has_doctrine = muhammad_succession_muhakkima_doctrine	}
 		exists = capital_province
 		capital_province = {
@@ -200,7 +203,10 @@ fp3_promote_persian_scripture_decision = {
 	is_shown = {
 		has_religion = religion:islam_religion
 		has_fp3_dlc_trigger = yes
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 		NOT = {
 			culture = { has_cultural_pillar = heritage_arabic }		
 		}
@@ -366,7 +372,10 @@ fp3_name_read_in_friday_prayer_decision = {
 		has_fp3_dlc_trigger = yes
 		any_character_struggle = { this = struggle:persian_struggle }
 		has_religion = religion:islam_religion
-		current_date >= 850.1.1
+		OR = {
+			game_start_date = 867.1.1
+			game_start_date = 1066.9.15
+		}
 	}
 
 	is_valid = {

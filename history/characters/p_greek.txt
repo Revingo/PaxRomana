@@ -10,3 +10,23 @@ gc_1 = {
 		death = yes
 	}
 }
+
+gc_2 = {
+	name = "Diokles"
+	dynasty = din_21
+	religion = h_hellenic
+	culture = greek
+	435.1.1 = { #298 BCE
+		birth = yes
+	}
+}
+
+gc_3 = {
+	name = "Gennadios"
+	dynasty = din_22
+	religion = h_hellenic
+	culture = greek
+	440.1.1 = { #303 BCE
+		birth = yes
+	}
+}

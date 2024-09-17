@@ -1,0 +1,27 @@
+oder_vistula_germans = {
+	color = { 0.76 0.81 0.50 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_east_german
+	language = language_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_collective_lands 
+		tradition_metal_craftsmanship
+		tradition_quarrelsome
+	}
+	
+	name_list = name_list_germanic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}

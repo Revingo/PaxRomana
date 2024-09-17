@@ -25,19 +25,47 @@ mauryan = {
 	}
 }
 
+meder = {
+	color = { 0.3 0.3 0.99 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_indian
+	language = language_prakrit
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_practiced_pirates
+		tradition_storytellers
+		tradition_fishermen
+	}
+	
+	name_list = name_list_momed
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean_byzantine
+		1 = mediterranean
+	}
+}
+
 persian = {
 	color = { 0.69 0.61 0.85 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_bureaucratic
 	heritage = heritage_persian
 	language = language_persian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_agrarian
-		tradition_culture_blending
-		tradition_welcoming
+		tradition_gardening
+		tradition_dryland_dwellers
 		tradition_warriors_by_merit
 		tradition_martial_admiration
+		tradition_fp3_irrigation_experts
 	}
 	
 	name_list = name_list_persian
@@ -54,16 +82,99 @@ persian = {
 	}
 }
 
-arab = {
-	color = { 0.5 0.5 0.0 }
+med = {
+	color = { 0.37 0.90 0.85 }
 	
-	ethos = ethos_communal
-	heritage = heritage_arabian
-	language = language_arabic
+	ethos = ethos_bellicose
+	heritage = heritage_persian
+	language = language_persian
 	martial_custom = martial_custom_male_only
 	traditions = {
-		tradition_warriors_of_the_dry
-		tradition_tribe_unity
+		tradition_martial_admiration
+		tradition_dryland_dwellers
+		tradition_highland_warriors
+		tradition_stand_and_fight
+		tradition_horse_lords
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean_byzantine
+		1 = mediterranean
+	}
+}
+
+partian = {
+	color = { 0.28 0.09 0.79 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_persian
+	language = language_parthian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_gardening
+		tradition_dryland_dwellers
+		tradition_horse_lords
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean_byzantine
+		1 = mediterranean
+	}
+}
+
+elamitisch = {
+	color = { 0.34 0.60 0.51 }
+	
+	ethos = ethos_communal
+	heritage = heritage_persian
+	language = language_elamitisch
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_gardening
+		tradition_fp3_irrigation_experts
+		tradition_diasporic
+		tradition_philosopher_culture
+	}
+	
+	name_list = name_list_persian
+	
+	coa_gfx = { iranian_group_coa_gfx }
+	building_gfx = { iranian_building_gfx }
+	clothing_gfx = { iranian_clothing_gfx mena_clothing_gfx }
+	unit_gfx = { iranian_unit_gfx }
+	
+	ethnicities = {
+		8 = arab
+		5 = mediterranean_byzantine
+		1 = mediterranean
+	}
+}
+
+aramaeer = {
+	color = { 0.89 0.2 0.55 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_semitic
+	language = language_aramaeic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_city_keepers
 		tradition_desert_nomads
 		tradition_caravaneers
 	}
@@ -77,5 +188,87 @@ arab = {
 	
 	ethnicities = {
 		10 = arab
+	}
+}
+
+pax_assyrian = {
+	color = { 0.89 0.73 0.10 }
+	
+	ethos = ethos_communal
+	heritage = heritage_semitic
+	language = language_aramaeic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_zealous_people
+		tradition_loyal_soldiers
+		tradition_philosopher_culture
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+babylonian = {
+	color = { 0.13 0.58 0.09 }
+	
+	ethos = ethos_bureaucratic
+	heritage = heritage_semitic
+	language = language_aramaeic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_mendicant_mystics
+		tradition_legalistic
+	}
+	
+	name_list = name_list_assyrian
+
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx } 
+	building_gfx = { mena_building_gfx } 
+	clothing_gfx = { byzantine_clothing_gfx } 
+	clothing_gfx = { mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 		
+
+	ethnicities = {
+		10 = arab
+	}
+}
+
+hyrcani = {
+	color = { 0.47 0.10 0.70 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_persian
+	language = language_persian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_music_theory
+		tradition_storytellers
+		tradition_artisans
+	}
+	
+	name_list = name_list_persian
+
+	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
+	building_gfx = { western_building_gfx }
+	clothing_gfx = { northern_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+
+	ethnicities = {
+		50 = circumpolar_dark_hair
+		25 = circumpolar_brown_hair
+		25 = circumpolar_blonde_hair
+		10 = mediterranean_byzantine
+		4 = mediterranean
 	}
 }

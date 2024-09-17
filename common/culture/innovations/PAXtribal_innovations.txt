@@ -102,7 +102,9 @@ innovation_city-states = {
 	culture_era = culture_era_tribal
 	icon = @civil_construction_2
 	
-	#TO DO: add the switch to city-state government decision
+	# TODO: add the switch to city-state government decision
+
+	custom = can_change_to_city_state
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -113,7 +115,7 @@ innovation_acqueducts = {
 	culture_era = culture_era_tribal
 	icon = @civil_construction_1
 	
-	#TO DO: add the acqueducts building
+	# TODO: add the acqueducts building
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -124,7 +126,7 @@ innovation_plowshare = {
 	culture_era = culture_era_tribal
 	icon = @levy_building
 	
-	custom = unlock_tribal_economic_buildings
+	# TODO: add agricultural buildings
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -135,7 +137,7 @@ innovation_doric_columns = {
 	culture_era = culture_era_tribal
 	icon = @civil_construction_1
 	
-	#TO DO: add some buildings
+	# TODO: add some buildings
 
 	flag = global_regular
 	flag = tribal_era_regular
@@ -159,7 +161,7 @@ innovation_extensive_trading = {
 	culture_era = culture_era_tribal
 	icon = @civil_construction_2
 	
-	#TO DO: add some trading buildings
+	# TODO: add some trading buildings
 	character_modifier = {
 		domain_tax_mult = 0.1
 	}
@@ -236,21 +238,19 @@ innovation_elephantry = {
 	icon = @hird
 
 	can_progress = {
-		has_cultural_pillar = heritage_phoenecian
+		custom_description = {
+			OR = {
+				culture_overlaps_geographical_region = PAXworld_east_india
+				culture_overlaps_geographical_region = PAXworld_africa
+			}
+
+			text = or_region_india_region_africa
+		}
+		
 	}
 
-	unlock_maa = {
-		if = {
-			limit = { culture_overlaps_geographical_region = PAXworld_east_india }
-	
-			indian_elephants
-		}
-		if = {
-			limit = { culture_overlaps_geographical_region = PAXworld_africa }
-	
-			african_elephants
-		}
-	}
+	custom = unlock_african_elephants_if
+	custom = unlock_indian_elephants_if
 
 	flag = global_regional
 	flag = tribal_era_regional

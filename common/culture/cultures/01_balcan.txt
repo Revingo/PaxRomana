@@ -1,7 +1,7 @@
 illyrian = {
 	color = { 0.58 0.77 0.45 }
 	
-	ethos = ethos_communal
+	ethos = ethos_bellicose
 	heritage = heritage_balcan
 	language = language_illyrian
 	martial_custom = martial_custom_male_only
@@ -9,9 +9,67 @@ illyrian = {
 		tradition_maritime_mercantilism
 		tradition_practiced_pirates
 		tradition_fishermen
+		tradition_seafaring
 	}
 	
-	name_list = name_list_serbian
+	name_list = name_list_illyrian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	
+	ethnicities = {
+		10 = slavic_brown_hair
+		10 = slavic_dark_hair
+		7 = slavic_blond
+		4 = slavic_ginger
+		4 = mediterranean_byzantine
+	}
+}
+
+liburnian = {
+	color = { 0.77 0.48 0.45 }
+	
+	ethos = ethos_communal
+	heritage = heritage_balcan
+	language = language_illyrian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_seafaring
+		tradition_fishermen
+	}
+	
+	name_list = name_list_liburnian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	
+	ethnicities = {
+		10 = slavic_brown_hair
+		10 = slavic_dark_hair
+		7 = slavic_blond
+		4 = slavic_ginger
+		4 = mediterranean_byzantine
+	}
+}
+
+messapian = {
+	color = { 0.55 0.55 0.01 }
+	
+	ethos = ethos_courtly
+	heritage = heritage_balcan
+	language = language_illyrian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_philosopher_culture
+		tradition_fishermen
+		tradition_practiced_pirates
+	}
+	
+	name_list = name_list_messapian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -40,7 +98,37 @@ dacian = {
 		tradition_tribe_unity
 	}
 	
-	name_list = name_list_serbian
+	name_list = name_list_dacian
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	clothing_gfx = { western_clothing_gfx }
+	
+	ethnicities = {
+		10 = slavic_brown_hair
+		10 = slavic_dark_hair
+		9 = slavic_blond
+		4 = slavic_ginger
+		3 = mediterranean_byzantine
+	}
+}
+
+Thracian = {
+	color = { 0.90 0.00 0.65 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_balcan
+	language = language_thracian
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_horse_breeder
+		tradition_tribe_unity
+		tradition_music_theory
+		tradition_sorcerous_metallurgy
+	}
+	
+	name_list = name_list_thracian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

@@ -1,0 +1,49 @@
+﻿l_english:
+ # Military Innovations
+ innovation_trireme: "Trireme"
+ innovation_trireme_desc: "Phoenecians and Greeks tought all of Europe how to build ships. Triremes are the go-to design for war boats and trading ships alike."
+ innovation_tribal_sieges: "Tribal Sieges"
+ innovation_tribal_sieges_desc: "Since cities were built, people tried to conquer them and defences were built. These weapons could be useful to aid you to tear them down, at least for a while."
+ innovation_tribal_defences: "Tribal Defences"
+ innovation_tribal_defences_desc: "Reinforced wooden walls around cities, surely not the best defence you could hope for, but it is better than nothing. They will keep attackers away for a while."
+ innovation_iron_smithing: "Iron Smithing"
+ innovation_iron_smithing_desc: "A new type of metal, easier to find than bronze, is now possible to smelt thanks to technological advancements: Iron. Warfare is changing fast thanks to it and you'd better innovate too if you want to keep up with times and not depend on other foreign powers."
+ innovation_phalanx: "Phalanx"
+ innovation_phalanx_desc: "Trained men tight in formation with their shields ready to protect the man on their side, walking together as a single being, ready to stand, fight and honour their country."
+
+ # Civic Innovations
+ innovation_city-states: "City-States"
+ innovation_city-states_desc: "When a single city demonstrates resilience, when its men fight even against larger empires and win, when its women educate their childs to protect their homes, then what you get is a City-State, governed by its own people, ready to stand and fight against all odds."
+ innovation_acqueducts: "Acqueducts"
+ innovation_acqueducts_desc: "Water is what we are made of and the more your rule expands, the more you are going to need it and simple river streams are not going to be enough for all of your people. Acqueducts not only can redirect water virtually anywhere, but will make cities cleaner helping you against diseases."
+ innovation_plowshare: "Plowshare"
+ innovation_plowshare_desc: "Blades are not necessarily always weapons, as a knife isn't necessarily used to kill someone, plowshares are used to aid farmers at the fine art of plowing... Unless you step on their soil uninvited."
+ innovation_doric_columns: "Doric Columns"
+ innovation_doric_columns_desc: "Greeks are masters in architecture, making some of the finest buildings of ancient times. Doric Columns were a product of fine art and one of the three orders of Greek architecture. You could use them to create buildings that are not only resistant throught the ages, but a masterful show of art."
+ innovation_astronomy: "Astronomy"
+ innovation_astronomy_desc: "Look at the sky during the night, you see those lights? What do they mean? Are they Gods? Could be, or maybe its a map. Decode that map and who knows what kind of riches are you going to find. Maybe not even riches, you could uncover the greatest mysteries of humanity. Oh god, maybe you should think about that: are you actually ready to find them out?"
+ innovation_extensive_trading: "Extensive Trading" 
+ innovation_extensive_trading_desc: "Autarky you say, uh? Well look at all of that gold you get while trading, looks good doesn't it? At the end of the day you do not need all of those metals, but you need gold. You always need it." 
+ innovation_casus_belli: "Bellum Justum"
+ innovation_casus_belli_desc: "Why do you want to declare War? Why should your men fight on foreign lands away from their homes, wives and childs? Well you'd better explain it to them in a way that actually hooks them up, or be ready to never rule those lands." 
+
+ # Cultural Innovations Fighters
+ innovation_roman_fighters: "Roman Fighters"
+ innovation_roman_fighters_desc: "They were trained, organized and deadly. You do not want to mess with the romans, they will be sure you're going to be dead before they are. It's not going to be cheap to train them, but once you have, they are going to be the simulacrum of discipline."
+ innovation_latin_fighters: "Latin Fighters"
+ innovation_latin_fighters_desc: "Latins are people born to fight, mercenary warmongers, fearless warriors ready for anything... If the gold suffices."
+ innovation_etruscan_wars: "Etruscan Wars"
+ innovation_etruscan_wars_desc: "What is worse, a trained soldier or a man, back against the wall, who has to fight for his own life and land? The latter is what etruscans are, they didn't want to end up like this, they didn't train for that, but yet, here they are, ready to fight."
+ innovation_elephantry: "Elephantry"
+ innovation_elephantry_desc: "Oh my god, what are those beasts?! They are huge, monstrous graysh horses with giant long noses... They are almost undescribable, true, genuine horror and you haven't even listen to their name: E-L-E-P-H-A-N-T-S. Yes, sends shivers down your spine, doesn't it? Well, what if there was a way to control them and use them in battle? Maybe our enemies will feel the same fear..."
+ innovation_phoenecian_elites: "Phoenecian Elites"
+ innovation_phoenecian_elites_desc: "Those pesky nobles, they are just annoying, they sit all day thinking about how to get rich, mostly to your detriment. But we could convince them that they can help the country, using that gold to buy good armor, the best training, excellent weapons and protect us. Yes, I think that would be great, even if it's going to cost us to recruit them... I think they found a way to get your gold again, haven't they?"
+ 
+
+ # Customs
+ can_change_to_city_state: "Can change your government type to [GetGovernment('city-state_government').GetName]"
+ unlock_african_elephants_if: "Can recruit [GetMaA('african_elephants').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_africa').GetName] [region|E]"
+ unlock_indian_elephants_if: "Can recruit [GetMaA('indian_elephants').GetName] as [men_at_arms|E] if your [culture|E] is in [GetGeographicalRegion('PAXworld_east_india').GetName] [region|E]"
+
+ # Trigger Localization
+ CAN_PROGRESS_or_region_india_region_africa: "[CULTURE.GetName] [culture|E] is not present in the [GetGeographicalRegion('PAXworld_east_india').GetName] [region|E] or in the [GetGeographicalRegion('PAXworld_africa').GetName] [region|E]"

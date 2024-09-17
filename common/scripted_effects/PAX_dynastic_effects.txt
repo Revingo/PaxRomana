@@ -1,0 +1,151 @@
+army_revolting_effect = {
+
+	add_character_modifier = {
+		modifier = army_revolt_character
+	}
+	every_realm_county = {
+		limit = { holder = root }
+		every_county_province = {
+			
+			add_province_modifier = {
+				
+				modifier = revolt_opinion
+			}
+		}
+	}
+
+	var:army_leader = {
+		add_opinion = {
+			target = root
+			modifier = revolting_faction
+		}
+		set_variable = {
+			name = can_rebel_army
+			value = yes
+		}
+	}
+}
+
+NOT_army_revolting_effect = {
+
+	remove_character_modifier = army_revolt_character
+
+	var:army_revolt_leader = {
+		remove_opinion = {
+			modifier = revolting_faction
+			target = root
+		}
+		remove_variable = can_rebel_army
+	}
+
+	every_realm_county = {
+		every_county_province = {
+			limit = { has_county_modifier = revolt_opinion }
+			
+			remove_province_modifier = revolt_opinion
+		}
+	}
+	remove_variable = army_revolt_leader
+}
+
+nobles_revolting_effect = {
+
+	add_character_modifier = {
+		modifier = nobles_revolt_character
+	}
+
+	every_realm_county = {
+		limit = { holder = root }
+		every_county_province = {
+			
+			add_province_modifier = {
+				
+				modifier = revolt_opinion
+			}
+		}
+	}
+
+	var:nobles_leader = {
+		add_opinion = {
+			target = root
+			modifier = revolting_faction
+		}
+		set_variable = {
+			name = can_rebel_nobles
+			value = yes
+		}
+	}
+	
+}
+
+NOT_nobles_revolting_effect = {
+
+	remove_character_modifier = nobles_revolt_character
+
+	var:nobles_revolt_leader = {
+		remove_opinion = {
+			modifier = revolting_faction
+			target = root
+		}
+		remove_variable = can_rebel_nobles
+	}
+	every_realm_county = {
+		every_county_province = {
+			limit = { has_county_modifier = revolt_opinion }
+			
+			remove_province_modifier = revolt_opinion
+		}
+	}
+
+	remove_variable = nobles_revolt_leader
+}
+
+citizens_revolting_effect = {
+
+	add_character_modifier = {
+		modifier = citizens_revolt_character
+	}
+	every_realm_county = {
+		limit = { holder = root }
+		every_county_province = {
+			
+			add_province_modifier = {
+				
+				modifier = revolt_opinion
+			}
+		}
+	}
+
+	var:citizens_leader = {
+		add_opinion = {
+			target = root
+			modifier = revolting_faction
+		}
+		set_variable = {
+			name = can_rebel_citizens
+			value = yes
+		}
+	}
+}
+
+NOT_citizens_revolting_effect = {
+
+	remove_character_modifier = citizens_revolt_character
+
+	var:citizens_revolt_leader = {
+		remove_opinion = {
+			modifier = revolting_faction
+			target = root
+		}
+		remove_variable = can_rebel_citizens
+	}
+	every_realm_county = {
+		every_county_province = {
+			limit = { has_county_modifier = revolt_opinion }
+			
+			remove_province_modifier = revolt_opinion
+		}
+	}
+
+	remove_variable = citizens_revolt_leader
+}
