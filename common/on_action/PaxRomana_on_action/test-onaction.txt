@@ -1,0 +1,7 @@
+﻿test_onaction = {
+	effect = {
+		title:b_catania = {
+			set_de_jure_liege_title = title:c_palermo
+		}
+	}
+}
