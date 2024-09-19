@@ -275,7 +275,7 @@
 	religion = norse_pagan
 }
 70 = {
-	culture = north_germanic
+	culture = north_germans
 	religion = norse_pagan
 }
 71 = {
@@ -291,7 +291,7 @@
 	religion = norse_pagan
 }
 74 = {
-	culture = north_germanic
+	culture = north_germans
 	religion = norse_pagan
 }
 75 = {
@@ -307,7 +307,7 @@
 	religion = norse_pagan
 }
 78 = {
-	culture = north_germanic
+	culture = north_germans
 	religion = norse_pagan
 }
 79 = {
@@ -1199,12 +1199,12 @@
 	religion = r_hellenic
 }
 301 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 302 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 303 = {
 	culture = pax_roman
@@ -1223,8 +1223,8 @@
 	religion = r_hellenic
 }
 307 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 308 = {
 	culture = pax_roman
@@ -1251,8 +1251,8 @@
 	religion = r_hellenic
 }
 314 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 315 = {
 	culture = pax_roman
@@ -1271,8 +1271,8 @@
 	religion = r_hellenic
 }
 319 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 320 = {
 	culture = pax_roman
@@ -1303,8 +1303,8 @@
 	religion = r_hellenic
 }
 327 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 328 = {
 	culture = pax_roman
@@ -1315,28 +1315,28 @@
 	religion = r_hellenic
 }
 330 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 331 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 332 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 333 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 334 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 335 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 336 = {
 	culture = pax_roman
@@ -1351,20 +1351,20 @@
 	religion = r_hellenic
 }
 339 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 340 = {
 	culture = pax_roman
 	religion = r_hellenic
 }
 341 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 342 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 343 = {
 	culture = pax_roman
@@ -1379,8 +1379,8 @@
 	religion = r_hellenic
 }
 346 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 347 = {
 	culture = pax_roman
@@ -1471,20 +1471,20 @@
 	religion = r_hellenic
 }
 369 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 370 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 371 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 372 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 373 = {
 	culture = pax_roman
@@ -2235,8 +2235,8 @@
 	religion = scythian
 }
 560 = {
-	culture = aorsi
-	religion = scythian
+	culture = greek
+	religion = h_hellenic
 }
 561 = {
 	culture = aorsi
@@ -2247,8 +2247,8 @@
 	religion = h_hellenic
 }
 563 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = scythian
+	religion = scythian
 }
 564 = {
 	culture = scythian
@@ -2959,7 +2959,7 @@
 	religion = h_hellenic
 }
 741 = {
-	culture = makedonian
+	culture = greek
 	religion = h_hellenic
 }
 742 = {
@@ -3043,8 +3043,8 @@
 	religion = h_hellenic
 }
 762 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = cilician
+	religion = h_hellenic
 }
 763 = {
 	culture = pax_roman
@@ -15011,8 +15011,8 @@
 	religion = r_hellenic
 }
 3754 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = greek
+	religion = h_hellenic
 }
 3755 = {
 	culture = pax_roman
@@ -21107,8 +21107,8 @@
 	religion = scythian
 }
 5278 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = scythian
+	religion = scythian
 }
 5279 = {
 	culture = pax_roman
@@ -21147,8 +21147,8 @@
 	religion = scythian
 }
 5288 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = maotian
+	religion = scythian
 }
 5289 = {
 	culture = pax_roman
@@ -21299,8 +21299,8 @@
 	religion = r_hellenic
 }
 5326 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = scythian
+	religion = scythian
 }
 5327 = {
 	culture = pax_roman
@@ -21907,16 +21907,16 @@
 	religion = r_hellenic
 }
 5478 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = ugrisch
+	religion = tengri_pagan
 }
 5479 = {
 	culture = pax_roman
 	religion = r_hellenic
 }
 5480 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = ugrisch
+	religion = tengri_pagan
 }
 5481 = {
 	culture = ugrisch
@@ -22115,8 +22115,8 @@
 	religion = r_hellenic
 }
 5530 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = greek
+	religion = h_hellenic
 }
 5531 = {
 	culture = greek
@@ -22167,7 +22167,7 @@
 	religion = h_hellenic
 }
 5543 = {
-	culture = greek
+	culture = lydian
 	religion = h_hellenic
 }
 5544 = {
@@ -22219,8 +22219,8 @@
 	religion = r_hellenic
 }
 5556 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = mysian
+	religion = h_hellenic
 }
 5557 = {
 	culture = pax_roman
@@ -22551,7 +22551,7 @@
 	religion = h_hellenic
 }
 5639 = {
-	culture = greek
+	culture = lycian
 	religion = h_hellenic
 }
 5640 = {
@@ -22571,7 +22571,7 @@
 	religion = h_hellenic
 }
 5644 = {
-	culture = greek
+	culture = lycian
 	religion = h_hellenic
 }
 5645 = {
@@ -22587,8 +22587,8 @@
 	religion = h_hellenic
 }
 5648 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = carian
+	religion = h_hellenic
 }
 5649 = {
 	culture = pax_roman
@@ -22603,8 +22603,8 @@
 	religion = h_hellenic
 }
 5652 = {
-	culture = persian
-	religion = mazdayasna
+	culture = phrygian
+	religion = h_hellenic
 }
 5653 = {
 	culture = persian
@@ -22659,7 +22659,7 @@
 	religion = h_hellenic
 }
 5666 = {
-	culture = greek
+	culture = lycian
 	religion = h_hellenic
 }
 5667 = {
@@ -34904,8 +34904,8 @@
 	religion = r_hellenic
 }
 8727 = {
-	culture = pax_roman
-	religion = r_hellenic
+	culture = north_germans
+	religion = norse_pagan
 }
 8728 = {
 	culture = pax_roman
