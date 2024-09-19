@@ -12,7 +12,7 @@ arab = {
 		tradition_caravaneers
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -37,7 +37,7 @@ hadramaut = {
         tradition_fervent_temple_builders
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -62,7 +62,7 @@ qataban = {
         tradition_ce1_ritual_washing
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -88,7 +88,7 @@ sabean = {
         tradition_dryland_dwellers
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -113,7 +113,7 @@ southern-thamudic = {
         tradition_dryland_dwellers
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -138,7 +138,7 @@ northern-thamudic = {
 		tradition_maritime_mercantilism
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -164,7 +164,7 @@ minaean = {
 		tradition_warriors_of_the_dry
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_arabic
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
@@ -190,7 +190,7 @@ nabataean = {
 		tradition_caravaneers
 	}
 	
-	name_list = name_list_bedouin
+	name_list = name_list_nabataean
 	
 	coa_gfx = { arabic_group_coa_gfx } 
 	building_gfx = { arabic_group_building_gfx mena_building_gfx } 

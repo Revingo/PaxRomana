@@ -1,0 +1,142 @@
+name_list_ugric = {
+
+    cadet_dynasty_names = {
+        "dynn_Aikone"
+        "dynn_Bokku"
+        "dynn_Cherem"
+        "dynn_Darmak"
+        "dynn_Esvor"
+        "dynn_Fennor"
+        "dynn_Gromir"
+        "dynn_Harsk"
+        "dynn_Iltar"
+        "dynn_Jadar"
+        "dynn_Korak"
+        "dynn_Lugar"
+        "dynn_Marok"
+        "dynn_Nexor"
+        "dynn_Oskel"
+        "dynn_Pasak"
+        "dynn_Quorin"
+        "dynn_Rendak"
+        "dynn_Sorik"
+        "dynn_Torvan"
+    }
+
+    dynasty_names = {
+        "dynn_Aikone"
+        "dynn_Bokku"
+        "dynn_Cherem"
+        "dynn_Darmak"
+        "dynn_Esvor"
+        "dynn_Fennor"
+        "dynn_Gromir"
+        "dynn_Harsk"
+        "dynn_Iltar"
+        "dynn_Jadar"
+        "dynn_Korak"
+        "dynn_Lugar"
+        "dynn_Marok"
+        "dynn_Nexor"
+        "dynn_Oskel"
+        "dynn_Pasak"
+        "dynn_Quorin"
+        "dynn_Rendak"
+        "dynn_Sorik"
+        "dynn_Torvan"
+        "dynn_Valtor"
+    }
+
+    male_names = {
+        Aikone Bokku Cherem Darmak Esvor Fennor Gromir Harsk Iltar Jadar Korak Lugar Marok Nexor Oskel Pasak Quorin Rendak
+        Sorik Torvan Valtor
+    }
+
+    female_names = {
+        Aila Bokka Chera Damar Elda Fenna Groma Harsa Iltara Jara Kora Luga Mera Nessa Oska Pasa Qora Rena Sora Tova
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 40
+    mother_name_chance = 20
+}
+
+name_list_siberian_kasogian = {
+
+    cadet_dynasty_names = {
+        "dynn_Ylva"
+        "dynn_Anta"
+        "dynn_Miska"
+        "dynn_Naida"
+        "dynn_Arina"
+        "dynn_Beryn"
+        "dynn_Dalina"
+        "dynn_Sylva"
+        "dynn_Kira"
+        "dynn_Nina"
+        "dynn_Varya"
+        "dynn_Elga"
+        "dynn_Telka"
+        "dynn_Anya"
+        "dynn_Ksenia"
+        "dynn_Alva"
+        "dynn_Olga"
+        "dynn_Marfa"
+        "dynn_Zlata"
+        "dynn_Svetlana"
+    }
+
+    dynasty_names = {
+        "dynn_Ylva"
+        "dynn_Anta"
+        "dynn_Miska"
+        "dynn_Naida"
+        "dynn_Arina"
+        "dynn_Beryn"
+        "dynn_Dalina"
+        "dynn_Sylva"
+        "dynn_Kira"
+        "dynn_Nina"
+        "dynn_Varya"
+        "dynn_Elga"
+        "dynn_Telka"
+        "dynn_Anya"
+        "dynn_Ksenia"
+        "dynn_Alva"
+        "dynn_Olga"
+        "dynn_Marfa"
+        "dynn_Zlata"
+        "dynn_Svetlana"
+        "dynn_Tamara"
+    }
+
+    male_names = {
+        Alexei Boris Dmitri Fyodor Gavril Ivan Kirill Mikhail Nikita Pavel Sergei Valentin Yaroslav
+    }
+
+    female_names = {
+        Aina Anya Darya Elina Galina Irina Ksenia Lada Luba Maira Mila Nadia Oksana Raisa Svetlana Taisia Varya
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 30
+    mat_grf_name_chance = 10
+    father_name_chance = 20
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 40
+    mother_name_chance = 20
+}
