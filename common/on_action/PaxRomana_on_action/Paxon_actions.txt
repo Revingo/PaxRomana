@@ -60,7 +60,6 @@ on_game_start = {
 	on_actions = {
 		on_game_start_pure_family_tradition
 		on_game_start_dynastic_setup
-		test_onaction
 	}
 }
 
