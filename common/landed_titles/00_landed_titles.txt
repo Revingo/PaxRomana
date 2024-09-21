@@ -13410,15 +13410,6 @@ e_britannia = {
 					color = { 240 160 45 }
 				}
 			}
-			c_orkney = {
-				color = { 195 75 75 }
-
-				b_kirkwall = {
-					province = 3
-
-					color = { 195 75 75 }
-				}
-			}
 		}
 	}
 	k_hibernia = {
@@ -36691,10 +36682,12 @@ e_kemet = {
 
 d_letobici = {
 	color = { 66 36 210 }
+	can_be_named_after_dynasty = no
 }
 
 d_tauri = {
 	color = { 29 36 55 }
+	can_be_named_after_dynasty = no
 }
 
 

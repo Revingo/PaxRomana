@@ -221,4 +221,4 @@ impassable_seas = LIST { 543 708 709 5507 }
 impassable_mountains = RANGE { 5568 5758 }
 impassable_mountains = LIST { 2437 }
 impassable_mountains = LIST { 5510 }
-impassable_mountains = LIST { 2 1 }
+impassable_mountains = RANGE { 1 3 }
