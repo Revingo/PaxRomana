@@ -16,73 +16,50 @@ seasons = "seasons.txt"
 # SEA ZONES
 #############
 # European Seas
-sea_zones = RANGE { 349 }
 sea_zones = RANGE { 349 356 }
-sea_zones = RANGE { 358 }
-sea_zones = RANGE { 358 }
-sea_zones = RANGE { 363 }
-sea_zones = RANGE { 379 }
+sea_zones = RANGE { 358 360 }
+sea_zones = RANGE { 362 363 }
 sea_zones = RANGE { 379 384 }
-sea_zones = RANGE { 386 }
 sea_zones = RANGE { 386 396 }
-sea_zones = RANGE { 404 }
 sea_zones = RANGE { 404 411 }
-sea_zones = RANGE { 418 }
 sea_zones = RANGE { 418 425 }
-sea_zones = RANGE { 512 }
 sea_zones = RANGE { 512 518 }
-sea_zones = RANGE { 520 }
 sea_zones = RANGE { 520 529 }
-sea_zones = RANGE { 538 }
-sea_zones = RANGE { 539 }
+sea_zones = RANGE { 530 530 }
+sea_zones = RANGE { 533 538 }
 sea_zones = RANGE { 539 541 }
 sea_zones = LIST { 542 }
-sea_zones = RANGE { 545 }
-sea_zones = RANGE { 545 }
-sea_zones = RANGE { 556 }
+sea_zones = RANGE { 545 546 }
+sea_zones = RANGE { 548 555 }
 sea_zones = RANGE { 556 565 }
-sea_zones = RANGE { 567 }
 sea_zones = RANGE { 567 570 }
-sea_zones = RANGE { 571 }
 sea_zones = RANGE { 571 577 }
-sea_zones = RANGE { 579 }
 sea_zones = RANGE { 579 590 }
-sea_zones = RANGE { 647 }
 sea_zones = RANGE { 647 649 }
-sea_zones = RANGE { 2444 }
 sea_zones = RANGE { 2444 2445 }
 
 #North European Seas
-sea_zones = RANGE { 5444 }
-sea_zones = RANGE { 5445 }
+sea_zones = RANGE { 5444 5444 }
 sea_zones = RANGE { 5445 5449 }
 
 #Mediterranean Seas
-sea_zones = RANGE { 5453 }
 sea_zones = RANGE { 5453 5475 }
-sea_zones = RANGE { 5476 }
 sea_zones = RANGE { 5476 5480 }
-sea_zones = RANGE { 5481 }
 sea_zones = RANGE { 5481 5493 }
 sea_zones = LIST { 5525 }
 
 #Black, Azov, Caspian & Aral Seas
-sea_zones = RANGE { 5494 }
 sea_zones = RANGE { 5494 5499 }
 
 #Middle Eastern Seas
 sea_zones = LIST { 5500 }
-sea_zones = RANGE { 5501 }
 sea_zones = RANGE { 5501 5502 }
-sea_zones = RANGE { 5503 }
 sea_zones = RANGE { 5503 5504 }
-sea_zones = RANGE { 5505 }
-sea_zones = RANGE { 5505 }
+sea_zones = RANGE { 5505 5506 }
 
 #Indian Seas
-sea_zones = RANGE { 683 }
-sea_zones = RANGE { 683 }
-sea_zones = RANGE { 698 }
+sea_zones = RANGE { 683 697 }
+sea_zones = RANGE { 698 698 }
 
 #African Seas
 
@@ -96,44 +73,28 @@ sea_zones = LIST { 5450 5451 5452 }
 # MAJOR RIVERS
 ###############
 #European rivers
-river_provinces = RANGE { 345 }
 river_provinces = RANGE { 345 347 }
-river_provinces = RANGE { 599 }
 river_provinces = RANGE { 599 608 }
-river_provinces = RANGE { 617 }
 river_provinces = RANGE { 617 622 }
-river_provinces = RANGE { 632 }
-river_provinces = RANGE { 632 }
-river_provinces = RANGE { 2438 }
+river_provinces = RANGE { 632 644 }
 river_provinces = RANGE { 2438 2443 }
-river_provinces = RANGE { 2446 }
 river_provinces = RANGE { 2446 2467 }
-river_provinces = RANGE { 2468 }
 river_provinces = RANGE { 2468 2469 }
 
 #Russian rivers
-river_provinces = RANGE { 5423 }
 river_provinces = RANGE { 5423 5424 }
-river_provinces = RANGE { 5425 }
 river_provinces = RANGE { 5425 5429 }
-river_provinces = RANGE { 5437 }
 river_provinces = RANGE { 5437 5439 }
-river_provinces = RANGE { 5436 }
-river_provinces = RANGE { 5431 }
+river_provinces = RANGE { 5435 5436 }
 river_provinces = RANGE { 5431 5433 }
 
 #Indian rivers
-river_provinces = RANGE { 658 }
 river_provinces = RANGE { 658 660 }
-river_provinces = RANGE { 5440 }
 river_provinces = RANGE { 5440 5441 }
-river_provinces = RANGE { 5442 }
-river_provinces = RANGE { 5442 }
+river_provinces = RANGE { 5442 5443 }
 
 #African rivers
-river_provinces = RANGE { 4743 }
 river_provinces = RANGE { 4743 4746 }
-river_provinces = RANGE { 4843 }
 river_provinces = RANGE { 4843 4845 }
 
 river_provinces = LIST { 343 385 610 612 613 614 623 624 625 627 628 629 723 4346 4842 }
@@ -143,11 +104,10 @@ river_provinces = LIST { 5422 5430 5434 }
 # LAKES
 ########
 lakes = LIST { 544 547 578 616 626 630 645 646 722 5523 5524 }
-lakes = RANGE { 531 }
-lakes = RANGE { 531 }
-lakes = RANGE { 720 }
+lakes = RANGE { 531 532 }
+lakes = RANGE { 711 720 }
+lakes = RANGE { 725 726 }
 lakes = LIST { 5274 }
-lakes = RANGE { 5419 }
 lakes = RANGE { 5419 5420 }
 
 #####################
@@ -158,48 +118,35 @@ lakes = RANGE { 5419 5420 }
 
 #Africa
 impassable_mountains = LIST { 597 598 615 626 630 631 2478 }
-impassable_mountains = RANGE { 486 }
 impassable_mountains = RANGE { 486 503 }
 impassable_mountains = LIST { 667 }
-impassable_mountains = RANGE { 5173 }
 impassable_mountains = RANGE { 5173 5177 }
-impassable_mountains = RANGE { 5179 }
 impassable_mountains = RANGE { 5179 5184 }
-impassable_mountains = RANGE { 5187 }
-impassable_mountains = RANGE { 5133 }
+impassable_mountains = RANGE { 5187 5187 }
 impassable_mountains = RANGE { 5133 5143 }
-impassable_mountains = RANGE { 5414 }
 impassable_mountains = RANGE { 5414 5418 }
 
 #Anatolia
-impassable_mountains = RANGE { 4506 }
 impassable_mountains = RANGE { 4506 4509 }
 
 #Armenia & Georgia
-impassable_mountains = RANGE { 4616 }
 impassable_mountains = RANGE { 4616 4618 }
 
 #Balkans
-impassable_mountains = RANGE { 591 }
 impassable_mountains = RANGE { 591 596 }
-impassable_mountains = RANGE { 2479 }
 impassable_mountains = RANGE { 2479 2483 }
 
 #Bjarmaland
 
 #Bohemia, France, Germany, Italy
-impassable_mountains = RANGE { 459 }
 impassable_mountains = RANGE { 459 485 }
 
 #Burma
 
 #Carpathia
 impassable_mountains = LIST { 357 504 3849 }
-impassable_mountains = RANGE { 412 }
 impassable_mountains = RANGE { 412 417 }
-impassable_mountains = RANGE { 428 }
 impassable_mountains = RANGE { 428 429 }
-impassable_mountains = RANGE { 2955 }
 impassable_mountains = RANGE { 2955 2958 }
 
 #Caucasus
@@ -208,7 +155,6 @@ impassable_mountains = LIST { 699 700 701 705 }
 
 #Iberia
 impassable_mountains = LIST { 361 }
-impassable_mountains = RANGE { 2484 }
 impassable_mountains = RANGE { 2484 2490 }
 
 #Indian ghats
@@ -219,7 +165,6 @@ impassable_mountains = LIST { 5355 5356 5508 }
 #Mongolia, Tarim & Dzungaria
 
 #Persia
-impassable_mountains = RANGE { 2475 }
 impassable_mountains = RANGE { 2475 2477 }
 impassable_mountains = LIST { 706 710 721 }
 impassable_mountains = LIST { 1803 1824 1890 1891 1925 1940 1956 1975 2102 }
@@ -229,8 +174,7 @@ impassable_mountains = LIST { 2250 2252 2257 }
 #Russia
 
 #Scandinavia & Finland & Iceland
-impassable_mountains = RANGE { 2474 }
-impassable_mountains = RANGE { 2474 }
+impassable_mountains = RANGE { 2474 2474 }
 
 #Siberia & Tartaria
 
@@ -243,9 +187,7 @@ impassable_mountains = LIST { 430 }
 impassable_mountains = LIST { 724 5275 }
 
 #Western Europe
-impassable_mountains = RANGE { 2470 }
 impassable_mountains = RANGE { 2470 2471 }
-impassable_mountains = RANGE { 2491 }
 impassable_mountains = RANGE { 2491 2497 }
 impassable_mountains = LIST { 1709 2473 }
 
@@ -276,7 +218,6 @@ impassable_seas = LIST { 543 708 709 5507 }
 # These provinces cause issues because they are passable land, but not part of any title.
 # They are probably not visible anywhere on the map, so feel free to reuse them (after double checking that they are actually missing).
 
-impassable_mountains = RANGE { 5568 }
 impassable_mountains = RANGE { 5568 5758 }
 impassable_mountains = LIST { 2437 }
 impassable_mountains = LIST { 5510 }
