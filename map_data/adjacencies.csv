@@ -13,7 +13,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 918;919;sea;551;628;3294;622;3289;Lewis-Uists
 915;914;sea;396;660;3132;675;3127;Arran-Islay
 914;916;sea;396;656;3154;667;3180;Islay-Mull
-932;3;sea;389;820;3357;830;3369;Thurso-Kirkwall
 936;917;sea;392;680;3241;686;3239;Glenfinnan-Skye
 #IBERIA
 973;1064;river_large;2465;536;1729;-1;-1;Faor-Ayamonte
@@ -53,7 +52,7 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 62;63;sea;556;1606;2998;1614;2999;Nykobing-Nakskov
 68;178;sea;556;1641;3100;1647;3106;Helsingborg-Helsingora
 145;152;sea;560;1828;3146;1834;3144;Kalmar-Borgholm
-168;163;sea;530;1900;3324;1900;3315;Sigtuna-Tälje
+168;163;sea;530;1900;3324;1900;3315;Sigtuna-Tï¿½lje
 #BALTICS
 #POLAND
 2051;2052;river_large;599;1958;2954;-1;-1;Danzig-Wislana
@@ -68,8 +67,8 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;Comment
 # HUNGARY
 2809;245;river_large;613;-1;-1;-1;-1;Visegrad-Pest
 2811;2813;river_large;613;-1;-1;-1;-1;Szekesfehevar-Kalocsa
-2814;2962;river_large;613;1977;-1;-1;-1;Esztergom-Bény
-2815;2922;river_large;614;1958;2445;-1;-1;Komárom-Bátorkeszi
+2814;2962;river_large;613;1977;-1;-1;-1;Esztergom-Bï¿½ny
+2815;2922;river_large;614;1958;2445;-1;-1;Komï¿½rom-Bï¿½torkeszi
 2617;241;river_large;5422;-1;-1;-1;-1;Vakovo-Bacs
 #GREECE
 195;2716;sea;590;2109;1829;2101;1825;Buthrothum-Corfu
