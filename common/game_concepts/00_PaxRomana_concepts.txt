@@ -29,7 +29,7 @@ swordsmen = {
 }
 
 pikemen = {
-	alis = { pikeman }
+	alias = { pikeman }
 	texture = "gfx/interface/icons/regimenttypes/pikemen_true.dds"
 	parent = men_at_arms
 }
