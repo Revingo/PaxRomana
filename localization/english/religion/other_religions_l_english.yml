@@ -25,8 +25,8 @@
  scythian_adherent_plural: "Scythianists"
  scythian_adj: "Scythian"
  scythian_old: "Old Scythianism"
- scythian_adherent: "Old Scythianist"
- scythian_adherent_plural: "Old Scythianists"
+ scythian_old_adherent: "Old Scythianist"
+ scythian_old_adherent_plural: "Old Scythianists"
  scythian_old_adj: "Old Scythian"
  sarmatian_religion_desc: "$sarmatian_religion$ were polytheistic religions who worshipped natural elements, animal deities, and ancestor spirits. Their origins are iranian."
 

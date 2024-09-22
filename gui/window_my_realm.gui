@@ -2630,7 +2630,7 @@ window = {
 						name = _hide
 						alpha = 0
 
-						on_start = "[GetVariableSystem.Clear( 'dyn_tab' )"
+						on_start = "[GetVariableSystem.Clear( 'dyn_tab' )]"
 					}
 					hbox = {
 						name = "dynastic_factions_tab"

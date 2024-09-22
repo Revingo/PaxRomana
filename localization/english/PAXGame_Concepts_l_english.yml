@@ -17,6 +17,7 @@
 
  game_concept_dogs: "War Dogs"
  game_concept_dogs_desc: "War Dogs are animals bred to be the best fighters. They are extremely good and precise when they can make surprise attacks at the enemy.\n\nThey generally are good at attacking lightly armored [men_at_arms|E] like [skirmishers|E] and [archers|E], but they are easily dealt with by [heavy_infantry|E]."
+ game_concept_dog: "War Dog"
 
  game_concept_swordsmen: "Swordsmen"
  game_concept_swordsman: "Swordsman"
