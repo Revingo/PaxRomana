@@ -94,7 +94,6 @@ gallic_comato = {
 		tradition_metal_craftsmanship
 		tradition_tribe_unity
 		tradition_city_keepers
-		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_pax_celtic
@@ -123,7 +122,6 @@ gallic_belgica = {
 		tradition_tribe_unity
 		tradition_castle_keepers
 		tradition_stand_and_fight
-		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_pax_celtic
@@ -181,6 +179,7 @@ brythonic = {
 		tradition_music_theory
 		tradition_battlefield_looters
 		tradition_fp1_trials_by_combat
+		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_pax_celtic
@@ -237,6 +236,7 @@ gaelic = {
 		tradition_battlefield_looters
 		tradition_forest_fighters
 		tradition_fp1_trials_by_combat
+		tradition_fp1_the_right_to_prove
 	}
 	
 	name_list = name_list_pax_celtic
