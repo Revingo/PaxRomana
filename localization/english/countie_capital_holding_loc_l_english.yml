@@ -4,4 +4,12 @@
  countie_capital_city_holding_concept_key: "[metropolis|E]"
  
  building_type_capital_city_01: "Metropolis"
- building_type_capital_city_01_desc: "A populous city which houses a large number of burghers, merchants, and hard-working townsfolk."
+ building_type_capital_city_01_desc: "A small administrative center serving as the seat of a county. It houses a modest population of burghers, merchants, and townsfolk."
+ building_capital_city_01: "Administrative Center"
+ building_capital_city_01_desc: "$building_type_capital_city_01_desc$"
+ building_capital_city_02: "Large Metropolis"
+ building_capital_city_02_desc: "This city has gained attention from traders and craftsmen from distant regions. Wealthy merchants are setting up shops, and diligent craftsmen are constantly building new houses."
+ building_capital_city_03: "Larger Metropolis"
+ building_capital_city_03_desc: "Having outgrown its original borders, the city now incorporates nearby farmlands into its thriving center. It’s a prosperous place filled with wealth and opportunities."
+ building_capital_city_04: "Gigantic Metropolis"
+ building_capital_city_04_desc: "Famous across the land, this immense city offers abundant opportunities. It is said that even the humblest peasant can find wealth here. The streets are lined with houses, and carts and animals move goods in every direction."
