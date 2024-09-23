@@ -1,4 +1,4 @@
-tradition_hellenic_tradition = {
+﻿tradition_hellenic_tradition = {
 	category = regional
 
 	layers = {

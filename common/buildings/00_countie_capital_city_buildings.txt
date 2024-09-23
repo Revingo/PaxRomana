@@ -1,4 +1,4 @@
-@holding_illustration_western = "gfx/interface/illustrations/holding_types/city_western.dds"
+﻿@holding_illustration_western = "gfx/interface/illustrations/holding_types/city_western.dds"
 @holding_illustration_india = "gfx/interface/illustrations/holding_types/city_india.dds"
 @holding_illustration_mediterranean = "gfx/interface/illustrations/holding_types/city_mediterranean.dds"
 @holding_illustration_mena = "gfx/interface/illustrations/holding_types/city_mena.dds"

@@ -1,4 +1,4 @@
-illyrian = {
+﻿illyrian = {
 	color = { 0.58 0.77 0.45 }
 	
 	ethos = ethos_bellicose

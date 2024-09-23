@@ -1,4 +1,4 @@
-BCE_263_first_punic_war = {
+﻿BCE_263_first_punic_war = {
 	start_date = 490.1.1
 	is_playable = yes
 	group = BCE_263_punic_wars

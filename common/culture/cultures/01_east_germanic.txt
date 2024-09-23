@@ -1,4 +1,4 @@
-oder_vistula_germans = {
+﻿oder_vistula_germans = {
 	color = { 0.76 0.81 0.50 }
 	
 	ethos = ethos_bellicose

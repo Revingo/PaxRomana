@@ -1,4 +1,4 @@
-iberian = {
+﻿iberian = {
 	color = { 0.96 0.87 0.7 }
 	
 	ethos = ethos_spiritual

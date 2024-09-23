@@ -1,4 +1,4 @@
-name_list_germanic = {
+﻿name_list_germanic = {
 
     cadet_dynasty_names = {
         "dynn_Hermanaric"

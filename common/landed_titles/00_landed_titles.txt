@@ -25,13 +25,13 @@ e_roman_respublica = {
 
 		can_create = {
 			custom_description = {
-			text = cant_create_tribal_or_city-state
+				text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 
 		d_sicily = {
@@ -866,13 +866,13 @@ e_roman_respublica = {
 
 		can_create = {
 			custom_description = {
-			text = cant_create_tribal_or_city-state
+				text = cant_create_tribal_or_city-state
 
-			AND = {
-				NOT = { has_government = tribal_government }
-				NOT = { has_government = city-state_government }
-			}	
-		}
+				AND = {
+					NOT = { has_government = tribal_government }
+					NOT = { has_government = city-state_government }
+				}	
+			}
 		}
 		d_verona = {
 			color = { 66 194 210 }
@@ -881,7 +881,7 @@ e_roman_respublica = {
 
 			cultural_names = {
 				name_list_welsh = cn_venetii
-				name_lsit_breton = cn_venetii
+				name_list_celtic = cn_venetii
 				name_list_pictish = cn_venetii
 			}
 			c_verona = {
@@ -932,7 +932,7 @@ e_roman_respublica = {
 
 				cultural_names = {
 					name_list_welsh = cn_histri
-					name_lsit_breton = cn_histri
+					name_list_celtic = cn_histri
 					name_list_pictish = cn_histri
 				}
 				b_pula = {
@@ -1111,7 +1111,7 @@ e_roman_respublica = {
 
 			cultural_names = {
 				name_list_welsh = cn_insubri
-				name_lsit_breton = cn_insubri
+				name_list_celtic = cn_insubri
 				name_list_pictish = cn_insubri
 			}
 			c_lombardia = {
@@ -1338,7 +1338,7 @@ e_roman_respublica = {
 
 			cultural_names = {
 				name_list_welsh = cn_ligurii
-				name_lsit_breton = cn_ligurii
+				name_list_celtic = cn_ligurii
 				name_list_pictish = cn_ligurii
 			}
 			c_genoa = {
@@ -1384,7 +1384,7 @@ e_roman_respublica = {
 
 			cultural_names = {
 				name_list_welsh = cn_boii
-				name_lsit_breton = cn_boii
+				name_list_celtic = cn_boii
 				name_list_pictish = cn_boii
 			}
 			c_modena = {
@@ -37257,11 +37257,6 @@ k_hansa = {
 }
 
 ############################################################################
-e_britannia = {
-	color = { 172 22 22 }
-	capital = c_roma
-	landless = yes
-}
 
 k_england = {
 	color = { 202 26 26 }
@@ -40439,12 +40434,6 @@ d_fezzan = {
     color = { 173 125 49 }
     capital = c_roma
     landless = yes
-}
-
-e_arabia = {
-	color = { 32 150 85 }
-	capital = c_roma
-	landless = yes
 }
 
 k_israel = {

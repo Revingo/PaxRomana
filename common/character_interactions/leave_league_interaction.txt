@@ -1,4 +1,4 @@
-leave_league_interaction = {
+﻿leave_league_interaction = {
 	category = interaction_category_diplomacy
 	desc = leave_league_interaction_desc
 	ai_min_reply_days = 4

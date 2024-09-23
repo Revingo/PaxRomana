@@ -1,4 +1,4 @@
-sardinian = {
+﻿sardinian = {
 	color = { 0.42 0.35 0.8 }
 	
 	ethos = ethos_egalitarian

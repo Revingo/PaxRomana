@@ -176,11 +176,11 @@ farz = {
 		diplomacy_per_piety_level = 1
 	}
 }
-kerala = {
-	county = c_kanara #St. Thomas Christians. Gotta give this one a *big* bonus - conversion speed maybe??
+#kerala = {
+#	county = c_kanara #St. Thomas Christians. Gotta give this one a *big* bonus - conversion speed maybe??
 
-	flag = kerala_conversion_bonus # +50% County Conversion Speed
-}
+#	flag = kerala_conversion_bonus # +50% County Conversion Speed
+#}
 
 # Insular Celtic
 ## The ecclesiastic capital of Ireland, and site of St. Patrick's primary church.
@@ -222,14 +222,14 @@ ragusa = {
 }
 
 ## The Hungarian capital for their conversion to Christianity. As one of the primary powers that persecuted the Bosnian Church in later centuries, controlling it gives some popular authority to the faith.
-esztergom = {
-	county = c_esztergom
+#esztergom = {
+#	county = c_esztergom
 
-	character_modifier = {
-		name = holy_site_esztergom_effect_name
-		county_opinion_add = 10
-	}
-}
+#	character_modifier = {
+#		name = holy_site_esztergom_effect_name
+#		county_opinion_add = 10
+#	}
+#}
 
 ## Cathers were also referred to as Albigensians, after the city Albi where the movement first took hold.
 albi = {
@@ -545,26 +545,26 @@ itil = { #Khazar capital
 	}
 }
 
-kochi = { #Place from which the Kochin Jews get their name
-	county = c_kerala
-	barony = b_kunjakari
+#kochi = { #Place from which the Kochin Jews get their name
+#	county = c_kerala
+#	barony = b_kunjakari
 
-	character_modifier = {
-		name = holy_site_kochi_effect_name
-		diplomacy_per_piety_level = 1
-		cultural_head_acceptance_gain_mult = 0.15
-	}
-}
+#	character_modifier = {
+#		name = holy_site_kochi_effect_name
+#		diplomacy_per_piety_level = 1
+#		cultural_head_acceptance_gain_mult = 0.15
+#	}
+#}
 
-manipur = { #Home of the Bnei Manashae
-	county = c_manipur
+#manipur = { #Home of the Bnei Manashae
+#	county = c_manipur
 
-	character_modifier = {
-		name = holy_site_manipur_effect_name
-		mountains_development_growth_factor = 0.2
-		mountains_advantage = 5
-	}
-}
+#	character_modifier = {
+#		name = holy_site_manipur_effect_name
+#		mountains_development_growth_factor = 0.2
+#		mountains_advantage = 5
+#	}
+#}
 
 hamadan = { # Tomb of Esther and Modechai
 	county = c_hamadan
@@ -613,14 +613,14 @@ samarkand = {
 	}
 }
 
-udabhanda = {
-	county = c_udabhanda
+#udabhanda = {
+#	county = c_udabhanda
 
-	character_modifier = {
-		name = holy_site_udabhanda_effect_name
-		learning_per_piety_level = 1
-	}
-}
+#	character_modifier = {
+#		name = holy_site_udabhanda_effect_name
+#		learning_per_piety_level = 1
+#	}
+#}
 
 # Priscillianism
 
@@ -651,52 +651,52 @@ memphis = {
 
 #Buddhist
 
-bodh_gaya = { # Where Buddha reached enlightenment
-	county = c_gaya
+#bodh_gaya = { # Where Buddha reached enlightenment
+#	county = c_gaya
 
-	character_modifier = {
-		name = holy_site_bodh_gaya_effect_name
-		stress_loss_mult = 0.2
-	}
-}
+#	character_modifier = {
+#		name = holy_site_bodh_gaya_effect_name
+#		stress_loss_mult = 0.2
+#	}
+#}
 
-kusinagara = { # Where Buddha was born - Actually Lumbini
-	county = c_lumbini
+#kusinagara = { # Where Buddha was born - Actually Lumbini
+#	county = c_lumbini
 
-	character_modifier = {
-		name = holy_site_kusinagara_effect_name
-		fertility = 0.10
-		monthly_lifestyle_xp_gain_mult = 0.15
-	}
-}
+#	character_modifier = {
+#		name = holy_site_kusinagara_effect_name
+#		fertility = 0.10
+#		monthly_lifestyle_xp_gain_mult = 0.15
+#	}
+#}
 
-sarnath = { # Where Buddha first taught his diciples. Also the #1 most holy site in Hinduism (Varanasi)
-	county = c_varanasi
+#sarnath = { # Where Buddha first taught his diciples. Also the #1 most holy site in Hinduism (Varanasi)
+#	county = c_varanasi
 
-	character_modifier = {
-		name = holy_site_sarnath_effect_name
-		learning = 2
-	}	
-}
+#	character_modifier = {
+#		name = holy_site_sarnath_effect_name
+#		learning = 2
+#	}	
+#}
 
-sanchi = { # Important temple complex
-	county = c_vidisa
+#sanchi = { # Important temple complex
+#	county = c_vidisa
 
-	character_modifier = {
-		name = holy_site_sanchi_effect_name
-		diplomacy_per_piety_level = 1
-	}
-}
+#	character_modifier = {
+#		name = holy_site_sanchi_effect_name
+#		diplomacy_per_piety_level = 1
+#	}
+#}
 
-ajanta = { # Caves & stone-cut temples, proto-Indian cave art.
-	county = c_vatsagulma
+#ajanta = { # Caves & stone-cut temples, proto-Indian cave art.
+#	county = c_vatsagulma
 
-	character_modifier = {
-		name = holy_site_ajanta_effect_name
-		negate_learning_penalty_add = 2
-		learning_per_piety_level = 1
-	}
-}
+#	character_modifier = {
+#		name = holy_site_ajanta_effect_name
+#		negate_learning_penalty_add = 2
+#		learning_per_piety_level = 1
+#	}
+#}
 
 sagya = { # Sa'gya - Holy Site for Lamaism/Nangchos
 	county = c_sagya
@@ -767,15 +767,15 @@ amaravati = { # Amaravati - An important place for the early spread and developm
 
 #Hindu
 
-varanasi = { # Sarnath, where Buddha first taught his diciples. Also a holy site in Buddhism (Sarnath)
-	county = c_varanasi
+#varanasi = { # Sarnath, where Buddha first taught his diciples. Also a holy site in Buddhism (Sarnath)
+#	county = c_varanasi
 
-	character_modifier = {
-		name = holy_site_varanasi_effect_name
-		learning = 2
-		clergy_opinion = 5
-	}	
-}
+#	character_modifier = {
+#		name = holy_site_varanasi_effect_name
+#		learning = 2
+#		clergy_opinion = 5
+#	}	
+#}
 
 ayodhya = {
 	county = c_ayodhya

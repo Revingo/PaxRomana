@@ -1,4 +1,4 @@
-zoroastrianism_religion = {
+﻿zoroastrianism_religion = {
 	family = rf_eastern
 	graphical_faith = "zoroastrian_gfx"
 

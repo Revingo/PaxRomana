@@ -1,4 +1,4 @@
-north_sea_germans = {
+﻿north_sea_germans = {
 	color = { 0.60 0.65 0.91 }
 	
 	ethos = ethos_bellicose

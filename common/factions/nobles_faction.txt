@@ -168,7 +168,9 @@
 		has_variable = is_nobles_leader
 	}
 
-	can_county_join = no
+	can_county_join = {
+		always = no
+	}
 
 	character_allow_create = yes
 
@@ -182,5 +184,5 @@
 
 	ignore_soft_block = yes
 
-	requires_leader = yes
+	#requires_leader = yes
 }
