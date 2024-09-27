@@ -20,7 +20,7 @@
 		government = feudal_government
 		culture = roman
 		religion = hellenism_religion
-		difficulty = x
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
 		history_id = rc_1
 		position = { 1130 770 }
 
