@@ -39,7 +39,7 @@ innovation_pteruges = {
 
 	character_modifier = {
 		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		#stationed_maa_toughness_mult = 0.1
 	}
 
 	flag = global_regular
@@ -199,7 +199,7 @@ innovation_archimedean_screw = {
 	
 	character_modifier = {
 		farmlands_tax_mult = 0.1
-		farmland_development_growth_factor = 0.2
+		farmlands_development_growth_factor = 0.2
 	}
 
 	flag = global_regular

@@ -1,4 +1,4 @@
-name_list_momed = {
+﻿name_list_momed = {
 
 cadet_dynasty_names = {
     "Ābrani"

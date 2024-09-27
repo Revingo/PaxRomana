@@ -1,4 +1,4 @@
-reintegrate_in_league_cb = {
+﻿reintegrate_in_league_cb = {
 	group = conquest
 
 	interface_priority = 90

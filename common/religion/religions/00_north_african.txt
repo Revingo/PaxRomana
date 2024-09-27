@@ -218,9 +218,7 @@ north_african_religion = {
 			icon = achamanism
 			reformed_icon = achamanism_reformed
 
-			holy_site = tenerife
 			holy_site = carthage
-			holy_site = madiera
 			holy_site = alexandria
 			holy_site = cartagena
 			#holy_site = antioch

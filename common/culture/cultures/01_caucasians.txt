@@ -1,4 +1,4 @@
-pax_armenian = {
+﻿pax_armenian = {
     color = { 0.90 0.35 0.15 }
 	
 	ethos = ethos_bellicose

@@ -1,4 +1,4 @@
-etruscan = {
+﻿etruscan = {
 	color = { 0.45 0.42 0.75 }
 
 	ethos = ethos_egalitarian

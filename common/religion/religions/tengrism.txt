@@ -1,4 +1,4 @@
-tengrism_religion = {
+﻿tengrism_religion = {
 	family = rf_pagan
 
 	pagan_roots = yes

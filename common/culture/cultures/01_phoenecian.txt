@@ -1,4 +1,4 @@
-phoenecian = {
+﻿phoenecian = {
 	color = { 0.0 0.13 0.28 }
 	
 	ethos = ethos_bureaucratic

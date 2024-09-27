@@ -1,3 +1,3 @@
-BCE_263_punic_wars = {
+﻿BCE_263_punic_wars = {
     default_start_date = 490.1.1
 }

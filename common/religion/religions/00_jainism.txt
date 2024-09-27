@@ -226,11 +226,6 @@
 			color = { 1.0 1.0 0.4 }
 			icon = jainism
 
-			holy_site = palitana
-			holy_site = shikharj
-			holy_site = ranakpur
-			holy_site = ellora
-			holy_site = sittannavasal
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_asceticism
@@ -244,11 +239,6 @@
 			color = { 0.9 0.8 0.2 }
 			icon = svetambara
 
-			holy_site = palitana
-			holy_site = shikharj
-			holy_site = ranakpur
-			holy_site = ellora
-			holy_site = sittannavasal
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_asceticism
@@ -270,11 +260,6 @@
 			color = { 1.0 0.9 0.6 }
 			icon = yapaniya
 
-			holy_site = palitana
-			holy_site = shikharj
-			holy_site = ranakpur
-			holy_site = ellora
-			holy_site = sittannavasal
 
 			doctrine = tenet_dharmic_pacifism
 			doctrine = tenet_asceticism

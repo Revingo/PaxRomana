@@ -1,4 +1,4 @@
-north_african_religion = {
+﻿north_african_religion = {
 	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine

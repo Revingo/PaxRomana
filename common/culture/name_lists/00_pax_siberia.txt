@@ -1,4 +1,4 @@
-name_list_ugric = {
+﻿name_list_ugric = {
 
     cadet_dynasty_names = {
         "dynn_Aikone"
