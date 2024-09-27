@@ -35938,7 +35938,7 @@ e_fennia = { # Ugrania
 			}
 		}
 		d_kasoghia = {
-			color = { 101173 99 }
+			color = { 101 173 99 }
 
 			c_saratov = {
 				color = { 71 31 61 }

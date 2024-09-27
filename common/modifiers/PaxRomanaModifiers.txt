@@ -23,8 +23,9 @@ army_revolt_character = {
 
 	maa_damage_mult = -0.9
 	levy_reinforcement_rate_friendly_territory = -0.4
-	travel_safety_mult = -0.6
-	monthly_county_control_decline_factor = 0.5
+	#travel_safety_mult = -0.6
+	monthly_county_control_growth_factor = -0.5
+	monthly_county_control_change_add = -20
 }
 
 nobles_revolt_character = {
@@ -32,7 +33,8 @@ nobles_revolt_character = {
 
 	domain_limit = -2
 	domain_tax_mult = -0.8
-	monthly_county_control_decline_factor = 0.6
+	monthly_county_control_growth_factor = -0.6
+	monthly_county_control_change_add = -20
 }
 
 citizens_revolt_character = {
@@ -40,7 +42,8 @@ citizens_revolt_character = {
 
 	levy_reinforcement_rate_friendly_territory = -0.9
 	levy_reinforcement_rate = -0.9
-	monthly_county_control_decline_factor = 0.9
+	monthly_county_control_growth_factor = -0.9
+	monthly_county_control_change_add = -20
 	levy_maintenance = 0.8
 }
 
