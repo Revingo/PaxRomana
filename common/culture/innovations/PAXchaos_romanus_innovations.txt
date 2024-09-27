@@ -39,7 +39,7 @@ innovation_lorica_squamata = {
 
 	character_modifier = {
 		maa_toughness_mult = 0.15
-		stationed_maa_toughness_mult = 0.1
+		#stationed_maa_toughness_mult = 0.1
 	}
 
 	flag = global_regular

@@ -39,7 +39,7 @@ innovation_lorica_segmentata = {
 
 	character_modifier = {
 		maa_toughness_mult = 0.10
-		stationed_maa_toughness_mult = 0.2
+		#stationed_maa_toughness_mult = 0.2
 	}
 
 	flag = global_regular
@@ -166,8 +166,8 @@ innovation_noria = {
 	
 	character_modifier = {
 		farmlands_tax_mult = 0.1
-		farmland_development_growth_factor = 0.2
-		farmland_supply_limit_mult = 0.15
+		farmlands_development_growth_factor = 0.2
+		farmlands_supply_limit_mult = 0.15
 		floodplains_development_growth_factor = 0.2
 		floodplains_supply_limit_mult = 0.15
 		wetlands_development_growth_factor = 0.15

@@ -495,10 +495,9 @@
 				WitchGodHerHim = CHARACTER_HERHIM_HIM
 				WitchGodMistressMaster = master
 				WitchGodMotherFather = father
-			}
-
-			GHWName = ghw_crusade
-			GHWNamePlural = ghw_crusades
+				GHWName = ghw_crusade
+				GHWNamePlural = ghw_crusades
+			}			
 		}
 		karaism = {
 			color = { 0.1 0.3 0.7 }
