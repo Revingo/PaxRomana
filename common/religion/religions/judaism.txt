@@ -227,7 +227,6 @@
 			icon = rabbinism
 
 			holy_site = jerusalem
-			holy_site = sufed
 			holy_site = sinai
 			holy_site = alexandria
 			holy_site = babylon
@@ -507,7 +506,6 @@
 			religious_head = d_karaism
 
 			holy_site = jerusalem
-			holy_site = sufed
 			holy_site = sinai
 			holy_site = alexandria
 			holy_site = hamadan
@@ -532,7 +530,6 @@
 			religious_head = d_haymanot
 
 			holy_site = jerusalem
-			holy_site = sufed
 			holy_site = sinai
 			holy_site = alexandria
 			holy_site = semien
@@ -587,9 +584,6 @@
 
 			holy_site = jerusalem
 			holy_site = sinai
-			holy_site = kochi
-			holy_site = manipur
-			holy_site = kerala #Synagogues of Kerala
 
 			#Halakha authority
 			doctrine = temple_authority_toric_doctrine
@@ -621,7 +615,6 @@
 			}
 
 			holy_site = gerizim
-			holy_site = sufed
 			holy_site = sinai
 			holy_site = alexandria
 			holy_site = hamadan
@@ -673,7 +666,6 @@
 			icon = merkabah
 
 			holy_site = jerusalem
-			holy_site = sufed
 			holy_site = sinai
 			holy_site = alexandria
 			holy_site = babylon

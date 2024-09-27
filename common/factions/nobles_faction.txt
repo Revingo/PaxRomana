@@ -142,6 +142,9 @@
 			FACTION_TARGET = scope:target
 		}
 
+		scope:target = {
+			has_government = dynastic_government
+		}
 		AND = {
 			# depends on the faction
 			scope:target.var:nobles_h_amount <= 10
@@ -154,6 +157,9 @@
 			FACTION_TARGET = scope:target
 		}
 
+		scope:target = {
+			has_government = dynastic_government
+		}
 		AND = {
 			# depends on the faction
 			scope:target.var:nobles_h_amount <= 10
