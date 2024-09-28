@@ -9,7 +9,7 @@
 
 	recommended = yes
 
-	# Manius Valerius Maximus Messalla ID: pc_1
+	# Manius Valerius Maximus Messalla ID: rc_1
 	character = {
 		name = "manius_valerius_maximus_messalla"
 		dynasty = p_1
