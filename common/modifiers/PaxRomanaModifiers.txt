@@ -12,7 +12,7 @@ family_traitor = {
 	close_relative_opinion = -10
 }
 
-league_funds = {
+league_funds_modifier = {
 	icon = economy_negative
 
 	monthly_income_mult = -0.1

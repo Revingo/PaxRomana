@@ -1,6 +1,6 @@
 ﻿p_1 = {
-	name = "dynn_valerius"
-	culture = roman
+	name = dynn_valerius
+	culture = pax_roman
 }
 
 p_2 = {
@@ -108,3 +108,7 @@ din_22 = {
 	culture = greek
 }
 
+din_23 = {
+	name = dynn_fabius_maximus
+	culture = pax_roman
+}

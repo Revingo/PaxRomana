@@ -1,5 +1,5 @@
-﻿BCE_263_first_punic_war = {
-	start_date = 490.1.1
+﻿BCE_265_first_punic_war = {
+	start_date = 488.1.1
 	is_playable = yes
 	group = BCE_263_punic_wars
 
@@ -9,19 +9,19 @@
 
 	recommended = yes
 
-	# Manius Valerius Maximus Messalla ID: pc_1
+	# Quintus Fabius Maximus Gurges ID: rc_3
 	character = {
-		name = "manius_valerius_maximus_messalla"
-		dynasty = p_1
+		name = "quintus_fabius_maximus_gurges"
+		dynasty = din_23
 		dynasty_splendor_level = 2
 		type = male
-		birth = 464.1.1
+		birth = 443.1.1
 		title = e_roman_respublica
 		government = feudal_government
-		culture = roman
+		culture = pax_roman
 		religion = hellenism_religion
-		difficulty = x
-		history_id = rc_1
+		difficulty = "BOOKMARK_CHARACTER_DIFFICULTY_MEDIUM"
+		history_id = rc_3
 		position = { 1130 770 }
 
 		animation = marshal

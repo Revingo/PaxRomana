@@ -1,4 +1,4 @@
-cant_create_tribal_or_city-state = {
+﻿cant_create_tribal_or_city-state = {
 	global = LANDED_TITLES_cant_create_tribal_or_city-state
 }
 auctoritas_500_and_tribal_or_city_state_tooltip = {

@@ -1,45 +1,45 @@
 e_roman_respublica = {
-    490.1.1 = { 
+    488.1.1 = { 
 		change_development_level = 6
-		holder = rc_1
+		holder = rc_3
 	}
 }
 k_roman_italia = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
-		holder = rc_1
+		holder = rc_3
 		liege = e_roman_respublica
 	}
 }
 d_latium = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
-		holder = rc_1
+		holder = rc_3
 		liege = e_roman_respublica
 	}
 }
 
 d_lombardia = {
-	490.1.1 = { 
+	488.1.1 = { 
 		holder = pc_2
 		
 		government = tribal_government
 	}
 }
 c_cremona = {
-	490.1.1 = {
+	488.1.1 = {
 		liege = d_lombardia
 		government = tribal_government
 	}
 }
 c_brescia = {
-	490.1.1 = {
+	488.1.1 = {
 		holder = pc_2
 		government = tribal_government
 	}
 }
 c_lombardia = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_2
 		liege = d_lombardia
@@ -47,7 +47,7 @@ c_lombardia = {
 	}
 }
 c_mantua = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_6
 		liege = d_lombardia
@@ -55,7 +55,7 @@ c_mantua = {
 	}
 }
 c_como = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_6
 		liege = d_lombardia
@@ -63,7 +63,7 @@ c_como = {
 	}
 }
 c_parma = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_2
 		liege = d_lombardia
@@ -71,7 +71,7 @@ c_parma = {
 	}
 }
 c_tortona = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_6
 		liege = d_lombardia
@@ -79,7 +79,7 @@ c_tortona = {
 	}
 }
 c_cremona = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_9
 		liege = d_lombardia
@@ -87,7 +87,7 @@ c_cremona = {
 	}
 }
 c_pavia = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_9
 		liege = d_lombardia
@@ -96,7 +96,7 @@ c_pavia = {
 }
 
 d_emilia = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_3
 		
@@ -104,21 +104,21 @@ d_emilia = {
 	}
 }
 c_modena = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_3
 		government = tribal_government
 	}
 }
 c_bologna = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_3
 		government = tribal_government
 	}
 }
 c_ferrara = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_7
 		liege = d_emilia
@@ -127,7 +127,7 @@ c_ferrara = {
 }
 
 d_genoa = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_4
 		
@@ -135,7 +135,7 @@ d_genoa = {
 	}
 }
 c_luni = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_4
 		liege = d_genoa
@@ -143,7 +143,7 @@ c_luni = {
 	}
 }
 c_genoa = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_4
 		government = tribal_government
@@ -151,14 +151,14 @@ c_genoa = {
 }
 
 d_verona = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_5
 		government = tribal_government
 	}
 }
 c_polesine = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_8
 		liege = d_verona
@@ -166,7 +166,7 @@ c_polesine = {
 	}
 }
 c_padua = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_5
 		liege = d_verona
@@ -174,14 +174,14 @@ c_padua = {
 	}
 }
 c_verona = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_5
 		government = tribal_government
 	}
 }
 c_treviso = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_8
 		liege = d_verona
@@ -189,7 +189,7 @@ c_treviso = {
 	}
 }
 c_friuli = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_5
 		government = tribal_government
@@ -197,7 +197,7 @@ c_friuli = {
 }
 
 d_letobici = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_10
 		
@@ -205,28 +205,28 @@ d_letobici = {
 	}
 }
 c_aquileia = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_10
 		government = tribal_government
 	}
 }
 c_gorz = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_10
 		government = tribal_government
 	}
 }
 c_ljubljana = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_10
 		government = tribal_government
 	}
 }
 c_kranj = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_11
 		liege = d_letobici
@@ -235,7 +235,7 @@ c_kranj = {
 }
 
 c_pula = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_12
 		
@@ -244,7 +244,7 @@ c_pula = {
 }
 
 d_tauri = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_13
 		
@@ -252,28 +252,28 @@ d_tauri = {
 	}
 }
 c_turin = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_13
 		government = tribal_government
 	}
 }
 c_novara = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_13
 		government = tribal_government
 	}
 }
 c_monferrato = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_13
 		government = tribal_government
 	}
 }
 c_cuneo = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_14
 		liege = d_tauri
@@ -282,7 +282,7 @@ c_cuneo = {
 }
 
 c_messina = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = uc_1
 		government = city-state_government

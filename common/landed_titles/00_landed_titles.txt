@@ -883,6 +883,7 @@ e_roman_respublica = {
 				name_list_welsh = cn_venetii
 				name_list_celtic = cn_venetii
 				name_list_pictish = cn_venetii
+				name_list_transpadanian = cn_venetii
 			}
 			c_verona = {
 				color = { 150 245 210 }
@@ -9855,7 +9856,7 @@ e_africa = {
 	capital = c_tunis
 
 	cultural_names = {
-		name_list_assyrian = cn_carthage
+		name_list_punic = cn_carthage
 	}
 
 	can_create = {
@@ -10608,7 +10609,7 @@ e_africa = {
 		capital = c_tunis
 
 		cultural_names = {
-			name_list_assyrian = cn_carthage
+			name_list_punic = cn_carthage
 		}
 
 		can_create = {
@@ -10627,7 +10628,7 @@ e_africa = {
 			capital = c_tunis
 
 			cultural_names = {
-				name_list_assyrian = cn_qart-hadst
+				name_list_punic = cn_qart-hadst
 			}
 			c_constantine = {
 				color = { 78 77 162 }
@@ -10681,12 +10682,12 @@ e_africa = {
 				color = { 96 128 224 }
 
 				cultural_names = {
-					name_list_assyrian = cn_qart-hadst
+					name_list_punic = cn_qart-hadst
 				}
 				b_tunis = { #Carthage
 					province = 3535
 					cultural_names = {
-						name_list_assyrian = cn_qart-hadst
+						name_list_punic = cn_qart-hadst
 					}
 
 					color = { 96 128 224 }
@@ -36690,6 +36691,9 @@ d_tauri = {
 	can_be_named_after_dynasty = no
 }
 
+dummy_landless_title = {
+	color = { 29 36 55 }
+}
 
 # VANILLA TITLES
 

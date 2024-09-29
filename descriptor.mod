@@ -8,4 +8,4 @@ tags={
 	"Culture"
 }
 name="Pax Romana"
-supported_version="1.12.*"
+supported_version="1.13.*"
