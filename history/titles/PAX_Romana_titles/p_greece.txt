@@ -1,5 +1,5 @@
 k_makedon = {
-	490.1.1 = { 
+	488.1.1 = { 
 		change_development_level = 6
 		holder = mc_1
 		government = dynastic_government
@@ -7,7 +7,7 @@ k_makedon = {
 }
 
 c_neopatras = {
-	490.1.1 = {
+	488.1.1 = {
 		change_development_level = 6
 		holder = gc_3
 		liege = k_makedon
@@ -16,7 +16,7 @@ c_neopatras = {
 }
 
 c_thessaliotis = {
-	490.1.1 = {
+	488.1.1 = {
 		change_development_level = 6
 		holder = mc_2
 		liege = k_makedon
@@ -24,7 +24,7 @@ c_thessaliotis = {
 	}
 }
 c_thessalia = {
-	490.1.1 = {
+	488.1.1 = {
 		change_development_level = 6
 		holder = gc_2
 		liege = k_makedon
