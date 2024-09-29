@@ -896,8 +896,8 @@
 
  #It takes the absolute value of the difference between the actual start date and the "rome_birth_start_date" value and displays it as the start date.
  #Then, it checks if the started date value is greater than the "rome_birth_start_date" value and if it is, it writes it as "CE", if it is not, then it writes it as "BCE"
- GAME_DATE_STRING: "$DAY$ $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
+ GAME_DATE_STRING: "$DAY$ $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
 
- GAME_DATE_STRING_SHORT: "$DAY$ $MONTH_SHORT$ [Abs_int32(Subtract_int32('(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
+ GAME_DATE_STRING_SHORT: "$DAY$ $MONTH_SHORT$ [Abs_int32(Subtract_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
 
- GAME_DATE_STRING_LONG: "$DAY|O$ of $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
+ GAME_DATE_STRING_LONG: "$DAY|O$ of $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"

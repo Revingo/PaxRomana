@@ -47,8 +47,8 @@
  left_league_opinion: "You left the [league|E]"
  banned_me_from_league_opinion: "Banned me from [league|E]"
  usurped_me_from_league_opinion: "Usurped my [league|E]'s leadership"
- league_funds: "[league|E]'s Funds"
- league_funds_desc: "This character is taking a part some of his [gold|E] income for the benefits of the [league|E]."
+ league_funds_modifier: "[league|E]'s Funds"
+ league_funds_modifier_desc: "This character is taking a part some of his [gold|E] income for the benefits of the [league|E]."
 
  #Events Localization
  league_interaction.0001: "Enter [league|E] proposal accepted!"
