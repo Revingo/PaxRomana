@@ -17,3 +17,13 @@ rc_2 = {
 		birth = yes
 	}
 }
+
+rc_3 = {
+	name = "Gurges"
+	dynasty = din_23
+	religion = r_hellenic
+	culture = pax_roman
+	443.1.1 = { # 310 BCE
+		birth = yes
+	}
+}

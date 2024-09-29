@@ -1,20 +1,20 @@
 e_roman_respublica = {
     488.1.1 = { 
 		change_development_level = 6
-		holder = rc_1
+		holder = rc_3
 	}
 }
 k_roman_italia = {
 	488.1.1 = { 
 		change_development_level = 6
-		holder = rc_1
+		holder = rc_3
 		liege = e_roman_respublica
 	}
 }
 d_latium = {
 	488.1.1 = { 
 		change_development_level = 6
-		holder = rc_1
+		holder = rc_3
 		liege = e_roman_respublica
 	}
 }
