@@ -1,6 +1,7 @@
 ﻿l_english:
  #Flavorization
  city-state_government: "City-State"
+ city-state_government_with_icon: "@government_type_city-state! $city-state_government$"
  city-state_government_adjective: "City-State"
  city-state_government_desc: "$game_concept_city-state_desc$\n\n#F City-States may look weak, but they are the reminder that the union is strength. When in a [league|E] they may be more formidable than other kind of [governments|E]."
  city-state_government_obbligations: "From [liege|E] [prestige_level|E]"

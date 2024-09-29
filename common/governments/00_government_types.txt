@@ -10,9 +10,6 @@ feudal_government = {
 		royal_court = yes
 		legitimacy = yes
 	}
-
-	fallback = 1
-
 	primary_holding = castle_holding
 	required_county_holdings = { castle_holding city_holding church_holding }
 
@@ -111,8 +108,6 @@ clan_government = {
 
 	primary_holding = castle_holding
 	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic }
-
-	fallback = 2
 
 	preferred_religions = { islam_religion }
 
@@ -379,8 +374,6 @@ administrative_government = {
 	}
 
 	domicile_type = estate
-
-	fallback = 3
 
 	primary_holding = castle_holding
 	valid_holdings = { city_holding }
