@@ -12,10 +12,10 @@
 	# Quintus Fabius Maximus Gurges ID: rc_3
 	character = {
 		name = "quintus_fabius_maximus_gurges"
-		dynasty = p_1
+		dynasty = din_23
 		dynasty_splendor_level = 2
 		type = male
-		birth = 464.1.1
+		birth = 443.1.1
 		title = e_roman_respublica
 		government = feudal_government
 		culture = pax_roman
