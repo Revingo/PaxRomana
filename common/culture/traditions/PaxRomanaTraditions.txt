@@ -1,4 +1,4 @@
-tradition_hellenic_tradition = {
+﻿tradition_hellenic_tradition = {
 	category = regional
 
 	layers = {
@@ -105,6 +105,8 @@ tradition_pure_family = {
 	}
 
 	ai_will_do = { value = 30 }
+
+	flag = pure_family_tradition_flag
 }
 
 tradition_mercenary_army = {

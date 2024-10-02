@@ -17,6 +17,7 @@
 
  game_concept_dogs: "War Dogs"
  game_concept_dogs_desc: "War Dogs are animals bred to be the best fighters. They are extremely good and precise when they can make surprise attacks at the enemy.\n\nThey generally are good at attacking lightly armored [men_at_arms|E] like [skirmishers|E] and [archers|E], but they are easily dealt with by [heavy_infantry|E]."
+ game_concept_dog: "War Dog"
 
  game_concept_swordsmen: "Swordsmen"
  game_concept_swordsman: "Swordsman"
@@ -36,4 +37,10 @@
  game_concept_light_cavalry_desc:0 "Cavalry are mounted [men_at_arms|E] who excel at scouting and pursuing the enemy.\n\nWhile each kind of Cavalry is unique, they generally [counter|E] [archers|E], and are in turn Countered by [spearmen|E].\n\nCavalry are also often strong on flat [terrain|E].\n\nIn comparison with [heavy_cavalry|E], they are usually better at [pursuit|E] and [screen|E]."
  game_concept_spearmen_desc:0 "Spearmen are [men_at_arms|E] who fight on foot with various polearms, like Dories and Lankias.\n\nWhile each kind of Spearman is unique, they generally [counter|E] [light_cavalry|E] and also [heavy_cavalry|E], and are in turn Countered by [heavy_infantry|E] and [swordsmen|E].\n\nSpearmen are also often strong on hilly and mountainous [terrain|E]."
  
- 
+
+ #game_concept_cities: "Metropolises"
+ game_concept_countie_capital_city_holding: "Metropolis Holding"
+ game_concept_countie_capital_city_holdings: "Metropolis Holdings"
+ game_concept_metropolis: "Metropolis"
+ game_concept_capital_cities: "Metropolis"
+ game_concept_countie_capital_city_holding_desc: "Metropolises are important centers for administration."

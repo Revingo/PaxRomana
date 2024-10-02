@@ -58,6 +58,7 @@ on_character_culture_change = {
 
 on_game_start = {
 	on_actions = {
+		on_game_start_PAX_setup
 		on_game_start_pure_family_tradition
 		on_game_start_dynastic_setup
 	}

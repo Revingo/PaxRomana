@@ -221,7 +221,6 @@ kushitism_religion = {
 			holy_site = wadi_el_milk
 			holy_site = naqis
 			holy_site = sennar
-			holy_site = el_fasher
 
 			doctrine = unreformed_faith_doctrine
 

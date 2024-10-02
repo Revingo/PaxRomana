@@ -1,4 +1,4 @@
-iberian = {
+﻿iberian = {
 	color = { 0.96 0.87 0.7 }
 	
 	ethos = ethos_spiritual
@@ -12,7 +12,7 @@ iberian = {
 		tradition_mendicant_mystics
 	}
 	
-	name_list = name_list_suebi
+	name_list = name_list_iberian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -37,7 +37,7 @@ lusitian = {
 		tradition_fishermen
 	}
 	
-	name_list = name_list_suebi
+	name_list = name_list_iberian
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -63,7 +63,7 @@ pax_basque = {
 		tradition_isolationist
 	}
 	
-	name_list = name_list_basque
+	name_list = name_list_pax_basque
 	
 	coa_gfx = { latin_group_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }

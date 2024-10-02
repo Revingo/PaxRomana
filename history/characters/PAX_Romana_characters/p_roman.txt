@@ -1,0 +1,29 @@
+﻿rc_1 = {
+	name = "Manius"
+	dynasty = p_1
+	religion = r_hellenic
+	culture = pax_roman
+	464.1.1 = { #289 BCE
+		birth = yes
+	}
+}
+
+rc_2 = {
+	name = "Marcus"
+	dynasty = din_19
+	religion = r_hellenic
+	culture = pax_roman
+	445.1.1 = { #308 BCE
+		birth = yes
+	}
+}
+
+rc_3 = {
+	name = "Gurges"
+	dynasty = din_23
+	religion = r_hellenic
+	culture = pax_roman
+	443.1.1 = { # 310 BCE
+		birth = yes
+	}
+}

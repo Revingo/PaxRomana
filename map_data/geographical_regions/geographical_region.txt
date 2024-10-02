@@ -115,7 +115,7 @@ PAXworld_europe_south_italia = {
 
 PAXworld_europe_south_makedon = {
 	duchies = {
-		d_moesia d_thrace d_strymon d_thessalonika
+		d_turnovo d_thrace d_strymon d_thessalonika
 	}
 }
 
@@ -131,7 +131,7 @@ PAXworld_europe_south_greece = {
 
 PAXworld_europe_south = {
 	regions = {
-		PAXworld_europe_south_greece PAXworld_europe_south_greece PAXworld_europe_south_italia
+		PAXworld_europe_south_greece PAXworld_europe_south_makedon PAXworld_europe_south_italia
 	}
 }
 
@@ -180,6 +180,12 @@ PAXworld_europe_britannia_et_hibernia = {
 	}
 }
 
+PAXworld_europe_sweden = {
+	duchies = {
+		d_skane d_smaland d_gotland d_ostergotland d_svealand
+	}
+}
+
 PAXworld_europe_germania = {
 	duchies = {
 		d_helvetia d_noricum d_besontio d_virinum d_vindelicorum d_hermunduris d_suebia d_marcomannia d_bonnia
@@ -189,25 +195,25 @@ PAXworld_europe_germania = {
 
 PAXworld_europe = {
 	regions = {
-		PAXworld_europe_balkans PAXworld_europe_south PAXworld_europe_britannia_et_hibernia PAXworld_europe_west PAXworld_europe_germania
+		PAXworld_europe_balkans PAXworld_europe_south PAXworld_europe_britannia_et_hibernia PAXworld_europe_west PAXworld_europe_germania PAXworld_europe_sweden
 	}
 }
 
 PAXworld_africa_south = {
 	duchies = {
-		d_canaria d_gaetulia
+		d_canaria d_gaetulia d_garamantia
 	}
 	counties = {
-		c_waddan c_ghadames c_bir_amir c_souf c_qadisiya
+		c_souf c_qadisiya
 	}
 }
 
 PAXworld_africa_north = {
 	duchies = {
-		d_tingitana d_mauretania d_sitifensis d_numidia d_cirtensis d_baleares d_sardinia_et_corsica 
+		d_tingitana d_mauria d_mauretania d_sitifensis d_numidia d_cirtensis d_baleares d_sardinia_et_corsica d_proconsularis
 	}
 	counties = {
-		c_gabes c_sfax c_djerba c_jafara c_tripolitana c_labda c_syrte
+		c_gabes c_sfax
 	}
 }
 
@@ -216,7 +222,7 @@ PAXworld_africa_egypt = {
 		d_alexandreia d_thebes d_kush d_blemmyes d_aksum d_damot
 	}
 	counties = {
-		c_tobruk c_derna c_barqa c_awjila
+		c_tobruk c_derna c_barqa c_nasamonia
 	}
 }
 
@@ -228,7 +234,7 @@ PAXworld_africa = {
 
 PAXworld_east_asia_minor = {
 	duchies = {
-		d_pergamon d_antigonos d_nikomedeia d_pontus d_cappadocia d_krateros d_trapezous d_cyprus
+		d_pergamon d_antigonos d_lycia d_nikomedeia d_pontus d_cappadocia d_krateros d_trapezous d_cyprus
 	}
 }
 
@@ -291,13 +297,13 @@ PAXworld_steppe_west = {
 
 PAXworld_steppe_center = {
 	duchies = {
-		d_alania d_bosporus d_sarmatae d_navaria d_samoya d_east_samoya
+		d_alania d_bosporus d_sarmatae d_navaria d_samoya d_east_samoya d_kasoghia
 	}
 }
 
 PAXworld_steppe_east = {
 	duchies = {
-		d_apasiacae d_khorasia d_yuezhe d_aorsia d_hsinia d_ko-kun d_ugrania d_kasogischia
+		d_apasiacae d_khorasia d_yuezhe d_aorsia d_hsinia
 	}
 }
 

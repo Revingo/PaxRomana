@@ -1,4 +1,4 @@
-greek = {
+﻿greek = {
 	color = { 0.64 0.68 0.82 }
 	
 	ethos = ethos_communal
@@ -13,7 +13,55 @@ greek = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_trojan
+	name_list = name_list_pax_greek
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+molossian = {
+	color = { 0.64 0.32 0.82 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_tribe_unity
+		tradition_philosopher_culture
+		tradition_pastoralists
+	}
+	
+	name_list = name_list_epirote
+	
+	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
+	building_gfx = { mediterranean_building_gfx }
+	clothing_gfx = { byzantine_clothing_gfx }
+	unit_gfx = { eastern_unit_gfx }
+	
+	ethnicities = {
+		10 = mediterranean_byzantine
+	}
+}
+paeonian = {
+	color = { 0.54 0.22 0.92 }
+	
+	ethos = ethos_bellicose
+	heritage = heritage_hellenic
+	language = language_greek
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_mountaineers
+		tradition_highland_warriors
+		tradition_tribe_unity
+	}
+	
+	name_list = name_list_paeonian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -38,7 +86,7 @@ makedonian = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_trojan
+	name_list = name_list_macedonian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -64,7 +112,7 @@ seleucid = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_trojan
+	name_list = name_list_macedonian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -91,7 +139,7 @@ ptolemaic = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_trojan
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -118,7 +166,7 @@ bosporian = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_trojan
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -146,7 +194,7 @@ masselian = {
 		tradition_hellenic_tradition
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -172,7 +220,7 @@ baktrian = {
 		tradition_martial_admiration
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_macedonian
 	
 	coa_gfx = { iranian_group_coa_gfx }
 	building_gfx = { iranian_building_gfx }
@@ -201,7 +249,7 @@ phrygian = {
 		tradition_mendicant_mystics
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_phrygian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -230,7 +278,7 @@ lydian = {
 		tradition_sorcerous_metallurgy
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_lydian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -258,7 +306,7 @@ lycian = {
 		tradition_legalistic
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_lycian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -287,7 +335,7 @@ carian = {
 		tradition_mercenary_army
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_carian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -316,7 +364,7 @@ cappadocian = {
 		tradition_city_keepers
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_cappadocian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -345,7 +393,7 @@ galatian = {
 		tradition_warrior_culture
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_celtic
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -374,7 +422,7 @@ paphlagonian = {
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_paphlagonian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -403,7 +451,7 @@ mysian = {
 		tradition_legalistic
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_mysian
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -433,7 +481,7 @@ pontic = {
 		tradition_philosopher_culture
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_pontic
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -462,7 +510,7 @@ ionian = {
 		tradition_forbearing
 	}
 	
-	name_list = name_list_trojans
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -490,7 +538,7 @@ cilician  = {
 		tradition_city_keepers
 	}
 	
-	name_list = name_list_trojan
+	name_list = name_list_pax_greek
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

@@ -1,0 +1,297 @@
+﻿name_list_pax_armenian = {
+
+    cadet_dynasty_names = {
+        "dynn_Tigranes"
+        "dynn_Artaxias"
+        "dynn_Arsaces"
+        "dynn_Sisak"
+        "dynn_Orontes"
+        "dynn_Mithridates"
+        "dynn_Parthamasiris"
+        "dynn_Armenak"
+        "dynn_Mashtots"
+        "dynn_Vardanes"
+        "dynn_Arshak"
+        "dynn_Harmazd"
+        "dynn_Aznavour"
+        "dynn_Girak"
+        "dynn_Harout"
+        "dynn_Ghazaryan"
+        "dynn_Gor"
+        "dynn_Shram"
+        "dynn_Mgrdich"
+        "dynn_Vahan"
+    }
+
+    dynasty_names = {
+        "dynn_Tigranes"
+        "dynn_Artaxias"
+        "dynn_Arsaces"
+        "dynn_Sisak"
+        "dynn_Orontes"
+        "dynn_Mithridates"
+        "dynn_Parthamasiris"
+        "dynn_Armenak"
+        "dynn_Mashtots"
+        "dynn_Vardanes"
+        "dynn_Arshak"
+        "dynn_Harmazd"
+        "dynn_Aznavour"
+        "dynn_Girak"
+        "dynn_Harout"
+        "dynn_Ghazaryan"
+        "dynn_Gor"
+        "dynn_Shram"
+        "dynn_Mgrdich"
+        "dynn_Vahan"
+        "dynn_Khatchik"
+    }
+
+    male_names = {
+        Artashes Aram Ararat Artaxias Tigranes Vardan Arshak Darius Mher Khoren Khosrov Tigran Yervand Gagik Papak
+        Hamazasp Movses Grigor
+    }
+
+    female_names = {
+        Anahit Shushanik Asdghig Mariam Khosrovidukht Satenik Arpineh Parandzem Sona Narineh Tamar Alina Lusineh
+        Karineh Varduhi
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_kartvellian = {
+
+    cadet_dynasty_names = {
+        "dynn_Carimor"
+        "dynn_Eldaric"
+        "dynn_Falgrim"
+        "dynn_Gareth"
+        "dynn_Haldor"
+        "dynn_Iskandar"
+        "dynn_Jorund"
+        "dynn_Karim"
+        "dynn_Lyricus"
+        "dynn_Marcel"
+        "dynn_Norik"
+        "dynn_Orius"
+        "dynn_Palmar"
+        "dynn_Qarim"
+        "dynn_Rynar"
+        "dynn_Sarion"
+        "dynn_Terion"
+        "dynn_Ulfar"
+        "dynn_Valric"
+        "dynn_Wyric"
+        "dynn_Xanthos"
+    }
+
+    dynasty_names = {
+        "dynn_Carimor"
+        "dynn_Eldaric"
+        "dynn_Falgrim"
+        "dynn_Gareth"
+        "dynn_Haldor"
+        "dynn_Iskandar"
+        "dynn_Jorund"
+        "dynn_Karim"
+        "dynn_Lyricus"
+        "dynn_Marcel"
+        "dynn_Norik"
+        "dynn_Orius"
+        "dynn_Palmar"
+        "dynn_Qarim"
+        "dynn_Rynar"
+        "dynn_Sarion"
+        "dynn_Terion"
+        "dynn_Ulfar"
+        "dynn_Valric"
+        "dynn_Wyric"
+        "dynn_Xanthos"
+        "dynn_Yren"
+    }
+
+    male_names = {
+        Aric Balthor Caius Daeron Elric Fenwick Garret Haldor Jarek Kieran Leif Magnus Narek Orin Roderic Silas Thorne Ulfar
+        Varric Wyric
+    }
+
+    female_names = {
+        Alira Brynn Caela Darya Elara Freya Gilda Ilyana Kaela Liora Melisande Nyssa Orla Rhea Selene Thalia Vesta Wynne
+        Yara
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 35
+    mat_grf_name_chance = 5
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 45
+    mat_grm_name_chance = 45
+    mother_name_chance = 10
+}
+
+name_list_sarmatian = {
+
+    cadet_dynasty_names = {
+        "dynn_Roxolanus"
+        "dynn_Sarmato"
+        "dynn_Radu"
+        "dynn_Pahlavi"
+        "dynn_Arsaces"
+        "dynn_Peithon"
+        "dynn_Mithridates"
+        "dynn_Ardashir"
+        "dynn_Vahram"
+        "dynn_Zarath"
+        "dynn_Vostran"
+        "dynn_Bahram"
+        "dynn_Hazara"
+        "dynn_Karim"
+        "dynn_Shazad"
+        "dynn_Thespian"
+        "dynn_Darius"
+        "dynn_Vahan"
+        "dynn_Bahramis"
+        "dynn_Kavi"
+    }
+
+    dynasty_names = {
+        "dynn_Roxolanus"
+        "dynn_Sarmato"
+        "dynn_Radu"
+        "dynn_Pahlavi"
+        "dynn_Arsaces"
+        "dynn_Peithon"
+        "dynn_Mithridates"
+        "dynn_Ardashir"
+        "dynn_Vahram"
+        "dynn_Zarath"
+        "dynn_Vostran"
+        "dynn_Bahram"
+        "dynn_Hazara"
+        "dynn_Karim"
+        "dynn_Shazad"
+        "dynn_Thespian"
+        "dynn_Darius"
+        "dynn_Vahan"
+        "dynn_Bahramis"
+        "dynn_Kavi"
+        "dynn_Nizar"
+        "dynn_Oros"
+        "dynn_Marduk"
+    }
+
+    male_names = {
+        "Ardashir" "Bahram" "Darius" "Mithridates" "Pahlavi" "Radu" "Roxolanus" "Sarmato" "Vahram" "Zarath"
+        "Arsaces" "Peithon" "Vostran" "Hazara" "Karim" "Shazad" "Kavi" "Nizar" "Oros" "Marduk"
+        "Khoras" "Bardiya" "Koroush" "Rostam" "Giv" "Shapur" "Artaxerxes" "Hormizd"
+    }
+
+    female_names = {
+        "Anahita" "Artemisia" "Atossa" "Darya" "Pharnace" "Roxana" "Spenta" "Azar" "Zari" "Mitra"
+        "Tiridates" "Ashkan" "Shirin" "Khurrem" "Nisa" "Fereshteh" "Soraya" "Vesta" "Shahrazad"
+        "Gulzar" "Raya" "Jaleh" "Laleh" "Homa"
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_heniochan = {
+
+    cadet_dynasty_names = {
+        "dynn_Heniochus"
+        "dynn_Elisios"
+        "dynn_Cassius"
+        "dynn_Artemisios"
+        "dynn_Amynander"
+        "dynn_Tetios"
+        "dynn_Dionysios"
+        "dynn_Pharis"
+        "dynn_Eukles"
+        "dynn_Tharros"
+        "dynn_Leandros"
+        "dynn_Eudoros"
+        "dynn_Helios"
+        "dynn_Anastasios"
+        "dynn_Mylon"
+        "dynn_Niketas"
+        "dynn_Anthemius"
+        "dynn_Xenon"
+        "dynn_Aristides"
+        "dynn_Lysander"
+        "dynn_Timoleon"
+    }
+
+    dynasty_names = {
+        "dynn_Heniochus"
+        "dynn_Elisios"
+        "dynn_Cassius"
+        "dynn_Artemisios"
+        "dynn_Amynander"
+        "dynn_Tetios"
+        "dynn_Dionysios"
+        "dynn_Pharis"
+        "dynn_Eukles"
+        "dynn_Tharros"
+        "dynn_Leandros"
+        "dynn_Eudoros"
+        "dynn_Helios"
+        "dynn_Anastasios"
+        "dynn_Mylon"
+        "dynn_Niketas"
+        "dynn_Anthemius"
+        "dynn_Xenon"
+        "dynn_Aristides"
+        "dynn_Lysander"
+        "dynn_Timoleon"
+        "dynn_Phaedrus"
+    }
+
+    male_names = {
+        Aeneas Alexios Ammon Andros Androcles Anthemius Archilochos Calvus Cassius Chryses Damis Darius Eudoros Evander Helios Heracles Hyperion Icarus Isidore Leandros Lysander Mylon Niketas Phaedrus Philemon Tharros Timoleon Xenon
+    }
+
+    female_names = {
+        Aelia Alethea Antheia Callista Clymene Daphne Elara Euphemia Galatea Harmonia Ianthe Kalliope Melantha Myrrha Nikephoros Nyssa Phoebe Selene Thalia Zenobia
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}

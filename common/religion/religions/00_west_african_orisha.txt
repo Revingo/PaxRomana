@@ -216,11 +216,6 @@
 			icon = yoruba
 			reformed_icon = yoruba_reformed
 
-			holy_site = ife
-			holy_site = igbo
-			holy_site = kumasi
-			holy_site = bono
-			holy_site = kukiya
 
 			doctrine = west_african_unreformed_faith_doctrine
 

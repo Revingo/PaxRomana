@@ -1,4 +1,4 @@
-phoenecian = {
+﻿phoenecian = {
 	color = { 0.0 0.13 0.28 }
 	
 	ethos = ethos_bureaucratic
@@ -12,7 +12,7 @@ phoenecian = {
 		tradition_astute_diplomats
 	}
 	
-	name_list = name_list_assyrian
+	name_list = name_list_punic
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }
@@ -39,7 +39,7 @@ carthaginian = {
 		tradition_astute_diplomats
 	}
 	
-	name_list = name_list_assyrian
+	name_list = name_list_punic
 	
 	coa_gfx = { byzantine_group_coa_gfx western_coa_gfx }
 	building_gfx = { mediterranean_building_gfx }

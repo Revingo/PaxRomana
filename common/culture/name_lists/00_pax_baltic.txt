@@ -1,0 +1,217 @@
+﻿name_list_pax_finnish = {
+
+    cadet_dynasty_names = {
+        "dynn_Kaleva"
+        "dynn_Matti"
+        "dynn_Aino"
+        "dynn_Eino"
+        "dynn_Liisa"
+        "dynn_Sauli"
+        "dynn_Tapio"
+        "dynn_Ulrik"
+        "dynn_Vilho"
+        "dynn_Hannus"
+        "dynn_Maija"
+        "dynn_Axel"
+        "dynn_Kerttu"
+        "dynn_Pekka"
+        "dynn_Riikka"
+        "dynn_Juhani"
+        "dynn_Elina"
+        "dynn_Kaarlo"
+        "dynn_Hanna"
+        "dynn_Oskari"
+    }
+
+    dynasty_names = {
+        "dynn_Kaleva"
+        "dynn_Matti"
+        "dynn_Aino"
+        "dynn_Eino"
+        "dynn_Liisa"
+        "dynn_Sauli"
+        "dynn_Tapio"
+        "dynn_Ulrik"
+        "dynn_Vilho"
+        "dynn_Hannus"
+        "dynn_Maija"
+        "dynn_Axel"
+        "dynn_Kerttu"
+        "dynn_Pekka"
+        "dynn_Riikka"
+        "dynn_Juhani"
+        "dynn_Elina"
+        "dynn_Kaarlo"
+        "dynn_Hanna"
+        "dynn_Oskari"
+        "dynn_Ville"
+    }
+
+    male_names = {
+        Aapo Ahti Aleksi Arto Eero Eino Eero Heikki Jari Juhani Kari Kalle Lauri Matti Mikko Oskari Paavo Pekka Risto
+        Tapio Urho Vilho
+    }
+
+    female_names = {
+        Aino Anni Elina Eeva Hannele Kaisa Kerttu Liisa Marja Maija Outi Riikka Sanna Siiri Sisko Tarja Tiina
+        Veera
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_poika"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_przeworsk = {
+
+    cadet_dynasty_names = {
+        "dynn_Brennus"
+        "dynn_Carthalos"
+        "dynn_Eburus"
+        "dynn_Ferox"
+        "dynn_Geritus"
+        "dynn_Helios"
+        "dynn_Leodric"
+        "dynn_Melchior"
+        "dynn_Nerios"
+        "dynn_Olric"
+        "dynn_Romulus"
+        "dynn_Sigurd"
+        "dynn_Tarvos"
+        "dynn_Ulfric"
+        "dynn_Valens"
+        "dynn_Waldemar"
+        "dynn_Xander"
+        "dynn_Yngvi"
+        "dynn_Zarath"
+    }
+
+    dynasty_names = {
+        "dynn_Brennus"
+        "dynn_Carthalos"
+        "dynn_Eburus"
+        "dynn_Ferox"
+        "dynn_Geritus"
+        "dynn_Helios"
+        "dynn_Leodric"
+        "dynn_Melchior"
+        "dynn_Nerios"
+        "dynn_Olric"
+        "dynn_Romulus"
+        "dynn_Sigurd"
+        "dynn_Tarvos"
+        "dynn_Ulfric"
+        "dynn_Valens"
+        "dynn_Waldemar"
+        "dynn_Xander"
+        "dynn_Yngvi"
+        "dynn_Zarath"
+        "dynn_Fabius"
+    }
+
+    male_names = {
+        Aedh Alaric Brennus Carthalos Cormac Diarmaid Eburus Ferox Geritus Helios Leodric Melchior Niall Olric Romulus Sigurd
+        Tarvos Ulfric Valens Waldemar Xander Yngvi Zarath
+    }
+
+    female_names = {
+        Aine Brigid Cailleach Deirdre Eithne Emer Fionnuala Grainne Iseult Lughna Maeve Medb Morrigan Nessa Oona Rhiannon
+        Scathach Sinead Talulla Una
+    }
+
+    dynasty_of_location_prefix = "dynnloc_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 0
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_zarubintsy = {
+
+    cadet_dynasty_names = {
+        "dynn_Skifos"
+        "dynn_Morgos"
+        "dynn_Alexios"
+        "dynn_Partos"
+        "dynn_Diokles"
+        "dynn_Belus"
+        "dynn_Vestinos"
+        "dynn_Aristios"
+        "dynn_Zenon"
+        "dynn_Thallos"
+        "dynn_Palantos"
+        "dynn_Kratos"
+        "dynn_Menandros"
+        "dynn_Iakchos"
+        "dynn_Herakles"
+        "dynn_Kleon"
+        "dynn_Demetrios"
+        "dynn_Orpheus"
+        "dynn_Eudoros"
+        "dynn_Pandion"
+    }
+
+    dynasty_names = {
+        "dynn_Skifos"
+        "dynn_Morgos"
+        "dynn_Alexios"
+        "dynn_Partos"
+        "dynn_Diokles"
+        "dynn_Belus"
+        "dynn_Vestinos"
+        "dynn_Aristios"
+        "dynn_Zenon"
+        "dynn_Thallos"
+        "dynn_Palantos"
+        "dynn_Kratos"
+        "dynn_Menandros"
+        "dynn_Iakchos"
+        "dynn_Herakles"
+        "dynn_Kleon"
+        "dynn_Demetrios"
+        "dynn_Orpheus"
+        "dynn_Eudoros"
+        "dynn_Pandion"
+        "dynn_Ariston"
+    }
+
+    male_names = {
+        Agapetos Alexandros Antipater Apollonios Dionysios Eudoros Gaius Herakles Kleon Lysander Menandros Nestor Orestes
+        Parmenion Philotas Pyrrhos Skander Thallos Themistocles Zenon
+    }
+
+    female_names = {
+        Antheia Calliope Cassandra Dione Eirene Eleni Eurydice Helene Kalliope Lysandra Melina Nemea Olympia Rhodope
+        Thalia Xanthe
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 35
+    mat_grf_name_chance = 5
+    father_name_chance = 60
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 40
+    mat_grm_name_chance = 40
+    mother_name_chance = 20
+}
+

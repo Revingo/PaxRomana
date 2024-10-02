@@ -1,4 +1,4 @@
-oder_vistula_germans = {
+﻿oder_vistula_germans = {
 	color = { 0.76 0.81 0.50 }
 	
 	ethos = ethos_bellicose
@@ -11,7 +11,7 @@ oder_vistula_germans = {
 		tradition_quarrelsome
 	}
 	
-	name_list = name_list_visigothic
+	name_list = name_list_germanic
 	
 	coa_gfx = { norse_coa_gfx western_coa_gfx }
 	building_gfx = { norse_building_gfx }

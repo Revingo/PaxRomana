@@ -29,7 +29,7 @@ swordsmen = {
 }
 
 pikemen = {
-	alis = { pikeman }
+	alias = { pikeman }
 	texture = "gfx/interface/icons/regimenttypes/pikemen_true.dds"
 	parent = men_at_arms
 }
@@ -37,4 +37,10 @@ pikemen = {
 field_siege_weapons = {
 	texture = "gfx/interface/icons/regimenttypes/onager.dds"
 	parent = men_at_arms
+}
+
+countie_capital_city_holding = {
+	alias = { metropolis capital_cities countie_capital_city_holdings }
+	parent = holding_type
+	texture = "gfx/interface/icons/icon_holding_metropolis.dds"
 }

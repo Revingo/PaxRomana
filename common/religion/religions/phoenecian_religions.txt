@@ -1,4 +1,4 @@
-phoenecian_religion = {
+﻿phoenecian_religion = {
 	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine

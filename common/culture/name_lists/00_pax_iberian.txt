@@ -1,0 +1,144 @@
+﻿name_list_iberian = {
+
+    cadet_dynasty_names = {
+        "dynn_Hispal"
+        "dynn_Tartessos"
+        "dynn_Carthago"
+        "dynn_Iberus"
+        "dynn_Viriathus"
+        "dynn_Antaura"
+        "dynn_Bastet"
+        "dynn_Ciln"
+        "dynn_Mabom"
+        "dynn_Alba"
+        "dynn_Turdetani"
+        "dynn_Viriathus"
+        "dynn_Aritus"
+        "dynn_Eburo"
+        "dynn_Odrom"
+        "dynn_Segobriga"
+        "dynn_Tirso"
+        "dynn_Amalur"
+        "dynn_Lucreta"
+        "dynn_Norba"
+    }
+
+    dynasty_names = {
+        "dynn_Hispal"
+        "dynn_Tartessos"
+        "dynn_Carthago"
+        "dynn_Iberus"
+        "dynn_Viriathus"
+        "dynn_Antaura"
+        "dynn_Bastet"
+        "dynn_Ciln"
+        "dynn_Mabom"
+        "dynn_Alba"
+        "dynn_Turdetani"
+        "dynn_Viriathus"
+        "dynn_Aritus"
+        "dynn_Eburo"
+        "dynn_Odrom"
+        "dynn_Segobriga"
+        "dynn_Tirso"
+        "dynn_Amalur"
+        "dynn_Lucreta"
+        "dynn_Norba"
+        "dynn_Ampelius"
+    }
+
+    male_names = {
+        Adur Aitor Alvaro Arkaiz Aurel Beltran Cidino Ercilla Faustino Gontzal Iranzu Izan Koldo Lander Mikel Oihane Roldan
+        Teo Uxio Xabier
+    }
+
+    female_names = {
+        Ainhoa Azucena Begona Carmen Eneko Isabela Irati Juana Laia Miren Nerea Olalla Pilar Raquel Saioa Teresa Vega
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_filius"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}
+
+name_list_pax_basque = {
+
+    cadet_dynasty_names = {
+        "dynn_Beraun"
+        "dynn_Iruñea"
+        "dynn_Larrun"
+        "dynn_Urdaneta"
+        "dynn_Zuberoa"
+        "dynn_Aitor"
+        "dynn_Eneko"
+        "dynn_Martin"
+        "dynn_Aralar"
+        "dynn_Basozabal"
+        "dynn_Arrieta"
+        "dynn_Otsoa"
+        "dynn_Laia"
+        "dynn_Nahia"
+        "dynn_Koldo"
+        "dynn_Iñigo"
+        "dynn_Amaia"
+        "dynn_Etxeberria"
+        "dynn_Lurdes"
+        "dynn_Mikel"
+    }
+
+    dynasty_names = {
+        "dynn_Beraun"
+        "dynn_Iruñea"
+        "dynn_Larrun"
+        "dynn_Urdaneta"
+        "dynn_Zuberoa"
+        "dynn_Aitor"
+        "dynn_Eneko"
+        "dynn_Martin"
+        "dynn_Aralar"
+        "dynn_Basozabal"
+        "dynn_Arrieta"
+        "dynn_Otsoa"
+        "dynn_Laia"
+        "dynn_Nahia"
+        "dynn_Koldo"
+        "dynn_Iñigo"
+        "dynn_Amaia"
+        "dynn_Etxeberria"
+        "dynn_Lurdes"
+        "dynn_Mikel"
+        "dynn_Axel"
+    }
+
+    male_names = {
+        Aitor Eneko Iñigo Koldo Mikel Martín Jon Xabier Patxi Iñaki Asier Gorka Imanol Unai Andoni Xabi Lander
+        Oier Aratz Aritz
+    }
+
+    female_names = {
+        Amaia Ainhoa Lurdes Irati Aitziber Nerea Aroa Aintzane Miren Maialen Leire Ane Oihana Olatz Izaro
+        Elene Uxue Marga
+    }
+
+    dynasty_of_location_prefix = "dynnp_of"
+    patronym_prefix_male = "dynnpat_pre_aitona"
+
+    # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
+    pat_grf_name_chance = 50
+    mat_grf_name_chance = 0
+    father_name_chance = 50
+    
+    # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
+    pat_grm_name_chance = 50
+    mat_grm_name_chance = 50
+    mother_name_chance = 0
+}

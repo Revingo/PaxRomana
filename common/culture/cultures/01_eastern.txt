@@ -1,4 +1,4 @@
-mauryan = {
+﻿mauryan = {
 	color = { 0.0 0.66 0.42 }
 	
 	ethos = ethos_bellicose

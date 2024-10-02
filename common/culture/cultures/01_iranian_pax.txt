@@ -1,4 +1,4 @@
-scythian = {
+﻿scythian = {
 	color = { 0.50 0.80 0.06 }
 	
 	ethos = ethos_bellicose
@@ -12,7 +12,7 @@ scythian = {
 		tradition_horse_lords
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -41,7 +41,7 @@ legian = {
 		tradition_horse_lords
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -71,7 +71,7 @@ roxolanian = {
 		tradition_tribe_unity
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -100,7 +100,7 @@ aorsi = {
 		tradition_caravaneers
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -130,7 +130,7 @@ dahae = {
 		tradition_hunters
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -159,7 +159,7 @@ sakan = {
 		tradition_desert_nomads
 	}
 	
-	name_list = name_list_karelian
+	name_list = name_list_sarmatian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }

@@ -761,7 +761,6 @@
 			holy_site = baghdad
 			holy_site = farz
 			holy_site = antioch
-			holy_site = kerala
 
 			#Main Group
 			doctrine = doctrine_pluralism_pluralistic
@@ -998,7 +997,6 @@
 			holy_site = rome
 			holy_site = visoki
 			holy_site = ragusa
-			holy_site = esztergom
 
 			#Special Tolerance
 			#It should be noted that the Krstjani were never *really* ecumenical. Just isolated rural Christians, mostly forgotten by both the Orthodox and Catholic churches. When they started to become relevant, passive tolerance of them faded into persecution rather quickly.

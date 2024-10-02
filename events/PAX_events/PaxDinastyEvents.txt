@@ -12,7 +12,7 @@
 			trigger_if = {
 				limit = { exists = primary_spouse }
 				NOT = {
-					primary_spouse.dynasty = ROOT
+					primary_spouse.dynasty = ROOT.dynasty
 				}
 			}
 		}

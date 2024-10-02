@@ -20,7 +20,7 @@ region_persia_west = {
 
 or_region_gallia_region_illyria_region_germania = {
 	global = CAN_PROGRESS_or_region_gallia_region_illyria_region_germania
-	gloabl_not = CAN_PROGRESS_or_region_gallia_region_illyria_region_germania
+	global_not = CAN_PROGRESS_or_region_gallia_region_illyria_region_germania
 }
 
 or_region_britannia_region_egypt = {

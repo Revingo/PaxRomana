@@ -49,7 +49,7 @@ on_game_start_pure_family_tradition = {
 
 on_remove_pure_family_tradition = {
 	trigger = {
-		scope:tradition = tradition_pure_family
+		scope:tradition = flag:pure_family_tradition_flag
 	}
 	effect = {
 		if = { 
@@ -63,7 +63,7 @@ on_remove_pure_family_tradition = {
 
 on_added_pure_family_tradition = {
 	trigger = {
-		scope:tradition = tradition_pure_family
+		scope:tradition = flag:pure_family_tradition_flag
 	}
 	effect = {
 		add_character_modifier = {
@@ -74,7 +74,7 @@ on_added_pure_family_tradition = {
 
 on_mauryc_titles_gain = {
 	trigger = {
-		scope:title = d_mauryas
+		scope:title = title:d_mauryas
 	}
 	effect = {
 		monthly_income_mult = 0.4
@@ -87,7 +87,7 @@ on_mauryc_titles_gain = {
 
 on_mauryc_titles_removed = {
 	trigger = {
-		scope:title = d_mauryas
+		scope:title = title:d_mauryas
 	}
 	effect = {
 		monthly_income_mult = -0.4

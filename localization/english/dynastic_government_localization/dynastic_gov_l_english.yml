@@ -1,5 +1,6 @@
 ﻿l_english:
  dynastic_government: "Dynastic"
+ dynastic_government_with_icon: "@government_type_dynastic! $dynastic_government$"
  dynastic_government_adjective: "Dynastic"
  dynastic_government_desc: "$game_concept_dynastic_desc$\n\n#F Dynastic states can be strong and impenetrable or thin and fragile, it all depends on the capabilities of their ruler."
  dynastic_government_obbligations: "From [liege|E] [prestige_level|E]"

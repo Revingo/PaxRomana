@@ -1001,8 +1001,8 @@ allowed_to_be_granted_titles_by = {
 				AND = {
 					scope:landed_title.tier >= tier_duchy
 					OR = {
-						root.has_government = city-state_government
-						root.has_government = tribal_government
+						has_government = city-state_government
+						has_government = tribal_government
 					}
 				}
 			}

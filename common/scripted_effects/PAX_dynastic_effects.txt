@@ -1,4 +1,4 @@
-army_revolting_effect = {
+﻿army_revolting_effect = {
 
 	add_character_modifier = {
 		modifier = army_revolt_character

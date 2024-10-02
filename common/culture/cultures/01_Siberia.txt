@@ -1,4 +1,4 @@
-ugrisch = {
+﻿ugrisch = {
 	color = { 0.9 0.7 0.3 }
 	
 	ethos = ethos_bellicose
@@ -11,7 +11,7 @@ ugrisch = {
 		tradition_forest_fighters
 	}
 	
-	name_list = name_list_finnish
+	name_list = name_list_ugric
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
@@ -39,7 +39,7 @@ kasogisch = {
 		tradition_horse_lords
 	}
 	
-	name_list = name_list_finnish
+	name_list = name_list_siberian_kasogian
 
 	coa_gfx = { balto_finnic_group_coa_gfx steppe_coa_gfx western_coa_gfx }
 	building_gfx = { western_building_gfx }
