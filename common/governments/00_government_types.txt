@@ -1,17 +1,17 @@
-﻿### Brief: feudal_government
-#
-# This is referenced in code
-#
+
+#############################################################
+# Base Game Governments
+#############################################################
+
 feudal_government = {
-	government_rules = {
-		create_cadet_branches = yes
-		rulers_should_have_dynasty = yes
-		dynasty_named_realms = yes
-		royal_court = yes
-		legitimacy = yes
-	}
-	primary_holding = castle_holding
-	required_county_holdings = { castle_holding city_holding church_holding }
+	create_cadet_branches = yes
+	rulers_should_have_dynasty = yes
+	dynasty_named_realms = yes
+	royal_court = yes
+	legitimacy = yes
+
+	primary_holding = church_holding
+	required_county_holdings = { church_holding }
 
 	vassal_contract = {
 		feudal_government_taxes
@@ -37,9 +37,9 @@ feudal_government = {
 }
 
 republic_government = {
-	primary_holding = city_holding
-	valid_holdings = { castle_holding }
-	required_county_holdings = { city_holding castle_holding church_holding }
+	primary_holding = church_holding
+	required_county_holdings = { church_holding }
+
 
 	government_rules = {
 		inherit_from_dynastic_government = no
@@ -72,8 +72,7 @@ theocracy_government = {
 	}
 
 	primary_holding = church_holding
-	valid_holdings = { castle_holding }
-	required_county_holdings = { church_holding castle_holding city_holding }
+	required_county_holdings = { church_holding }
 
 	ai = {
 		use_legends = no
@@ -111,8 +110,6 @@ clan_government = {
 
 	preferred_religions = { islam_religion }
 
-	valid_holdings = { castle_holding }
-	required_county_holdings = { castle_holding city_holding church_holding }
 	always_use_patronym = yes
 
 	house_unity = clan_house_unity
@@ -229,6 +226,11 @@ tribal_government = {
 	color = hsv{ 0.02 0.75 0.36 }
 }
 
+#############################################################
+# Necessary Governments
+#############################################################
+
+
 ### Brief: mercenary_government
 # Mercenary will always get this
 #
@@ -287,6 +289,58 @@ holy_order_government = {
 	color = hsv{ 0.00 0.00 0.66 }
 }
 
+#############################################################
+# Pax Romana Governments
+#############################################################
+
+tribal_government = {
+	rulers_should_have_dynasty = yes
+	affected_by_development = no
+	dynasty_named_realms = yes
+	regiments_prestige_as_gold = yes
+	supply_limit_mult_for_others = -0.5
+	primary_holding = tribal_holding
+	required_county_holdings = { tribal_holding }
+	legitimacy = yes
+	fallback = 1
+
+	valid_holdings = { tribal_holding city_holding church_holding }
+
+	prestige_opinion_override = { -10 0 3 5 10 20 }
+	always_use_patronym = yes	
+
+	vassal_contract = { tribal_government_obligations }
+
+	can_get_government = {
+		highest_held_title_tier < 4
+	}
+
+	ai = {
+		use_legends = yes
+	}
+
+	character_modifier = {
+		title_creation_cost_mult = -0.5
+		army_maintenance_mult = -0.5
+
+		tribal_government_opinion = 20
+		dynastic_government_vassal_opinion = -20
+		city-state_government_vassal_opinion = -30
+		clan_government_vassal_opinion = -20
+		republic_government_vassal_opinion = -20
+		
+		character_travel_safety = -5
+	
+		ai_war_chance = 0.30
+		monthly_prestige = 0.2
+	}
+	
+	flag = government_can_raid_rule
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flag = government_is_tribal
+	color = hsv{ 0.02 0.75 0.36 }
+}
+
 city-state_government = {
 	rulers_should_have_dynasty = yes
 	dynasty_named_realms = no
@@ -298,8 +352,14 @@ city-state_government = {
 
 	vassal_contract = { tribal_government_obligations }
 
+	fallback = 3
+
 	ai = {
 		use_legends = yes
+	}
+
+	can_get_government = {
+		highest_held_title_tier < 4
 	}
 
 	character_modifier = {
@@ -322,9 +382,10 @@ dynastic_government = {
 	primary_holding = countie_capital_city_holding
 	required_county_holdings = { castle_holding }
 	legitimacy = yes
-	royal_court = yes
 
-	valid_holdings = { tribal_holding }
+	valid_holdings = { city_holding church_holding }
+
+	fallback = 2
 
 	vassal_contract = {
 		feudal_government_taxes
@@ -457,4 +518,39 @@ landless_adventurer_government = {
 	flag = adult_rulers_only
 	flag = government_is_landless_adventurer
 	color = hsv{ 0.00 0.00 0.66 }
+}
+
+military_government = {
+	primary_holding = castle_holding
+	valid_holdings = { castle_holding }
+	required_county_holdings = { castle_holding }
+	council = no
+	can_get_government = {
+		is_ai = yes
+		highest_held_title_tier = 1
+	}
+
+	supply_limit_mult_for_others = 2
+
+	fallback = 4
+
+	ai = {
+		arrange_marriage = no
+		use_scripted_guis = no
+		perform_religious_reformation = no
+		use_legends = no
+		use_lifestyle = no
+		use_decisions = no
+	}
+
+	character_modifier = {
+		levy_size = 2.5
+		martial = 4
+	}
+
+	vassal_contract = { military_vassal_obligations }
+
+	# Use flags instead of has_government for moddability if possible (i.e., wherever not visible to the player).
+	flag = government_is_military
+	color = hsv{ 0.8 0.77 0.7 }
 }

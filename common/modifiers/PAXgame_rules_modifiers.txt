@@ -1,0 +1,24 @@
+﻿# Military Camps Levy Contribution Game Rule
+50_percent_levy_m_camps_modifier = {
+	military_government_levy_contribution_add = 0.5
+}
+
+60_percent_levy_m_camps_modifier = {
+	military_government_levy_contribution_add = 0.6
+}
+
+70_percent_levy_m_camps_modifier = {
+	military_government_levy_contribution_add = 0.7
+}
+
+80_percent_levy_m_camps_modifier = {
+	military_government_levy_contribution_add = 0.8
+}
+
+90_percent_levy_m_camps_modifier = {
+	military_government_levy_contribution_add = 0.9
+}
+
+100_percent_levy_m_camps_modifier = {
+	military_government_levy_contribution_add = 1
+}
