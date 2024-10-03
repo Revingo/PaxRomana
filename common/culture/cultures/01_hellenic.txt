@@ -51,7 +51,7 @@ molossian = {
 paeonian = {
 	color = { 0.54 0.22 0.92 }
 	
-	ethos = ethos_bellicose
+	ethos = ethos_stoic
 	heritage = heritage_hellenic
 	language = language_greek
 	martial_custom = martial_custom_male_only

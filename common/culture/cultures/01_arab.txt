@@ -24,12 +24,37 @@
 	}
 }
 
+dilmun = {
+	color = { 0.67 0.35 0.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabian
+	language = language_dilmun
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_metal_craftsmanship
+		tradition_fishermen
+		tradition_artisans
+	}
+	
+	name_list = name_list_arabic
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
 hadramaut = {
 	color = { 0.57 0.35 0.0 }
 	
 	ethos = ethos_spiritual
 	heritage = heritage_sayhadic
-	language = language_arabic
+	language = language_hadramautian
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_maritime_mercantilism
@@ -54,7 +79,7 @@ qataban = {
 	
 	ethos = ethos_bureaucratic
 	heritage = heritage_sayhadic
-	language = language_arabic
+	language = language_qataban
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_maritime_mercantilism
@@ -79,7 +104,7 @@ sabean = {
 	
 	ethos = ethos_communal
 	heritage = heritage_sayhadic
-	language = language_arabic
+	language = language_sabean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_desert_nomads
@@ -105,7 +130,7 @@ southern-thamudic = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_sayhadic
-	language = language_arabic
+	language = language_thamudic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_tribe_unity
@@ -130,7 +155,7 @@ northern-thamudic = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_sayhadic
-	language = language_arabic
+	language = language_thamudic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caravaneers
@@ -155,7 +180,7 @@ minaean = {
 	
 	ethos = ethos_spiritual
 	heritage = heritage_sayhadic
-	language = language_arabic
+	language = language_minaean
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_caravaneers
@@ -188,6 +213,106 @@ nabataean = {
 		tradition_desert_nomads
 		tradition_dryland_dwellers
 		tradition_caravaneers
+	}
+	
+	name_list = name_list_nabataean
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
+hismaic = {
+	color = { 0.99 0.37 0.0 }
+	
+	ethos = ethos_stoic
+	heritage = heritage_arabian
+	language = language_hismaic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_artisans
+		tradition_desert_nomads
+		tradition_pastoralists
+		tradition_caravaneers
+	}
+	
+	name_list = name_list_nabataean
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
+dumaitic = {
+	color = { 0.0 0.8 0.3 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_arabian
+	language = language_dumaitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_desert_nomads
+		tradition_caravaneers
+		tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_nabataean
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
+taymanitic = {
+	color = { 0.0 0.4 0.3 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_arabian
+	language = language_taymanitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_caravaneers
+		tradition_dryland_dwellers
+	}
+	
+	name_list = name_list_nabataean
+	
+	coa_gfx = { arabic_group_coa_gfx } 
+	building_gfx = { arabic_group_building_gfx mena_building_gfx } 
+	clothing_gfx = { dde_abbasid_clothing_gfx mena_clothing_gfx } 
+	unit_gfx = { mena_unit_gfx } 
+	
+	ethnicities = {
+		10 = arab
+	}
+}
+
+hasaitic = {
+	color = { 0.95 0.93 0.0 }
+	
+	ethos = ethos_egalitarian
+	heritage = heritage_arabian
+	language = language_hasaitic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_maritime_mercantilism
+		tradition_caravaneers
+		tradition_city_keepers
 	}
 	
 	name_list = name_list_nabataean

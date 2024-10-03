@@ -554,7 +554,8 @@ graphical_western = {
 	duchies = {
 		d_tarbella d_vasatia d_nitlobroga d_allobroges d_pictonensia d_aulerca d_armorica d_bagacum d_mandubiansis d_besontio d_divodurum d_eburonia d_bonnia d_hermunduris d_bructeria d_frisia d_helvetia
 		d_vindelicorum d_suebia d_irminonia d_longobardia d_marcomannia d_quadia d_virinum d_burgundia d_avarpia d_sassonia d_skane d_smaland d_gotland d_ostergotland d_svealand d_gothonia d_aestia d_vandalia 
-		d_hasdingia d_osia d_scordiscia_inferior d_iazyges d_dacia_inferior d_dacia_superior d_roxolania d_turnovo d_cotinia d_navaria d_samoya d_east_samoya d_armenia d_caucasia d_colchis
+		d_hasdingia d_osia d_scordiscia_inferior d_iazyges d_dacia_inferior d_dacia_superior d_roxolania d_turnovo d_cotinia d_navaria d_samoya d_east_samoya d_armenia d_caucasia d_colchis d_britannia_prima d_flavia_caesariensis
+		d_britannia_secundia d_maxima_caesariensis d_valentia d_caledonia d_ulaid d_airgialla d_laigin d_connacht d_munster
 	}
 	counties = {
 		c_modrus c_pset c_zagreb c_vodica c_pozega c_vrbas c_vukovar c_kranj c_zagorje c_libnitz c_graz c_kolon c_vas c_veszprem c_gyor c_sopron c_murzzuschlag c_pitten c_sankt_polten c_vienna c_freistadt c_krems
