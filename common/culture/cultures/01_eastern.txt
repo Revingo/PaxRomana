@@ -192,17 +192,17 @@ aramaeer = {
 }
 
 pax_assyrian = {
-	color = { 0.89 0.73 0.10 }
+	color = { 0.69 0.20 0.21 }
 	
-	ethos = ethos_communal
+	ethos = ethos_bellicose
 	heritage = heritage_semitic
 	language = language_aramaeic
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_zealous_people
-		tradition_loyal_soldiers
-		tradition_philosopher_culture
-		tradition_caravaneers
+		tradition_warrior_culture
+		tradition_quarrelsome
+		tradition_artisans
 	}
 	
 	name_list = name_list_assyrian
