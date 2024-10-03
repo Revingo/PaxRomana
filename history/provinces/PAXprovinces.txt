@@ -13080,7 +13080,7 @@
 #d_oman
 #c_nizwa
 4857 = {
-	culture = dilmun
+	culture = magan
 	religion = beduinism
 }
 4856 = {
@@ -13108,7 +13108,7 @@
 }
 #c_batina
 4851 = {
-	culture = dilmun
+	culture = magan
 	religion = beduinism
 }
 4852 = {
@@ -13119,7 +13119,7 @@
 }
 #c_az-dhahira
 4854 = {
-	culture = dilmun
+	culture = magan
 	religion = beduinism
 }
 4855 = {
@@ -13127,7 +13127,7 @@
 }
 #c_muscat
 4861 = {
-	culture = dilmun
+	culture = magan
 	religion = beduinism
 }
 4860 = {
@@ -13144,7 +13144,7 @@
 }
 #c_duqm
 4986 = {
-	culture = dilmun
+	culture = magan
 	religion = beduinism
 }
 4985 = {

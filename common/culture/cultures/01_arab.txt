@@ -24,12 +24,12 @@
 	}
 }
 
-dilmun = {
+magan = {
 	color = { 0.67 0.35 0.0 }
 	
 	ethos = ethos_stoic
 	heritage = heritage_arabian
-	language = language_dilmun
+	language = language_magan
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_metal_craftsmanship

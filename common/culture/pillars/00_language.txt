@@ -2348,20 +2348,20 @@ language_hadramautian = {
 	color = hadramaut
 }
 
-language_dilmun = {
+language_magan = {
 	type = language
 	is_shown = {
 		language_is_shown_trigger = {
-			LANGUAGE = language_dilmun
+			LANGUAGE = language_magan
 		}
 	}
 	ai_will_do = {
 		value = 10
 		if = {
-			limit = { has_cultural_pillar = language_dilmun }
+			limit = { has_cultural_pillar = language_magan }
 			multiply = 10
 		}
 	}
 	
-	color = dilmun
+	color = magan
 }
