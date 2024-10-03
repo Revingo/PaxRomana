@@ -9678,6 +9678,7 @@
 	culture = ptolemaic
 	religion = p_hellenic
 	special_building = MA_pharos_alexandria
+	holding = countie_capital_city_holding
 }
 4811 = {
 }
