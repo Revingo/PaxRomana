@@ -1,0 +1,16 @@
+house_fabia_ambusta = {
+		name = "dynn_fabia_ambusta"
+		dynasty = din_23
+		}
+house_fabia_maxima = {
+	name = "dynn_fabia_maxima"
+	dynasty = din_23
+	}
+house_fabia_vibulana = {
+		name = "dynn_fabia_vibulana"
+		dynasty = din_23
+		}
+house_antipatrid = {
+	name = "dynn_antipatrid"
+	dynasty = din_24
+}
