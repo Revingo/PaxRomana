@@ -2365,3 +2365,57 @@ language_magan = {
 	
 	color = magan
 }
+
+language_carpi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_carpi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_carpi }
+			multiply = 10
+		}
+	}
+	
+	color = carpi
+}
+
+language_sogdian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sogdian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sogdian }
+			multiply = 10
+		}
+	}
+	
+	color = pax_sogdian
+}
+
+language_kharesmian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kharesmian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kharesmian }
+			multiply = 10
+		}
+	}
+	
+	color = pax_kharesmian
+}
