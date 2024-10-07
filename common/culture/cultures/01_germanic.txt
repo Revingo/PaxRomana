@@ -88,7 +88,7 @@ rhen_germans = {
 	color = { 0.65 0.65 0.42 }
 	
 	ethos = ethos_communal
-	heritage = heritage_germanic
+	heritage = heritage_german
 	language = language_germanic
 	martial_custom = martial_custom_male_only
 	traditions = {
