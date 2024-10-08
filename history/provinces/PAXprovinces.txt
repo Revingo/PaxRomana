@@ -2536,7 +2536,7 @@
 #d_hermunduris
 #c_frankfurt
 2076 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2075 = {
@@ -2553,7 +2553,7 @@
 }
 #c_mainz
 1917 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1916 = {
@@ -3311,7 +3311,7 @@
 }
 #c_munster
 1893 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1894 = {
@@ -3325,7 +3325,7 @@
 }
 #c_dortmund
 1896 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1900 = {
@@ -3356,7 +3356,7 @@
 #d_bructeria
 #c_arnsberg
 1903 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1904 = {
@@ -3364,7 +3364,7 @@
 }
 #c_mark
 1902 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1901 = {
@@ -3375,7 +3375,7 @@
 }
 #c_waldeck
 2071 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2070 = {
@@ -3386,7 +3386,7 @@
 }
 #c_paderborn
 2068 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2069 = {
@@ -3400,7 +3400,7 @@
 }
 #c_marburg
 2080 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2082 = {
@@ -3414,7 +3414,7 @@
 }
 #c_kassel
 2081 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2079 = {
@@ -3428,7 +3428,7 @@
 }
 #c_fulda
 2145 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2144 = {
@@ -3439,7 +3439,7 @@
 }
 #c_nassau
 2073 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 2074 = {
@@ -3450,7 +3450,7 @@
 }
 #c_bergh
 1658 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1911 = {
@@ -3458,7 +3458,7 @@
 }
 #c_sayn
 1912 = {
-	culture = north_sea_germans
+	culture = rhen_germans
 	religion = norse_pagan
 }
 1913 = {
@@ -7333,16 +7333,16 @@
 }
 #c_bacs
 241 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = gallic_illyrian
+	religion = druidism
 }
 2836 = {
 	holding = none
 }
 #c_bodrog
 2869 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = gallic_illyrian
+	religion = druidism
 }
 2870 = {
 	holding = none
@@ -8421,12 +8421,12 @@
 #d_thrace
 #c_byzantion
 219 = {
-	culture = Thracian
+	culture = thracian
 	religion = h_hellenic
 }
 #c_adrianopolis
 217 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2632 = {
@@ -8437,7 +8437,7 @@
 }
 #c_kalliopolis
 218 = {
-	culture = Thracian
+	culture = thracian
 	religion = h_hellenic
 }
 2772 = {
@@ -8454,7 +8454,7 @@
 }
 #c_brysis
 220 = {
-	culture = Thracian
+	culture = thracian
 	religion = h_hellenic
 }
 2766 = {
@@ -8492,7 +8492,7 @@
 }
 #c_zherkovo
 2624 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2625 = {
@@ -9084,7 +9084,7 @@
 }
 #c_melitene
 403 = {
-	culture = pax_armenian
+	culture = cilician
 	religion = urartuism
 }
 4527 = {
@@ -9195,7 +9195,7 @@
 }
 #c_mesopotamia
 398 = {
-	culture = pax_armenian
+	culture = pontic
 	religion = urartuism
 }
 4531 = {
@@ -10258,7 +10258,7 @@
 }
 #c_karran
 3326 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = khurmazta
 }
 3327 = {
@@ -10286,7 +10286,7 @@
 }
 #c_sarakhs
 2973 = {
-	culture = partian
+	culture = baktrian
 	religion = mazdakism
 }
 2974 = {
@@ -10297,7 +10297,7 @@
 }
 #c_marvarrud
 3186 = {
-	culture = partian
+	culture = baktrian
 	religion = khurmazta
 }
 3183 = {
@@ -10315,7 +10315,7 @@
 }
 #c_rivsharan
 3188 = {
-	culture = partian
+	culture = baktrian
 	religion = khurmazta
 }
 3194 = {
@@ -10346,7 +10346,7 @@
 }
 #c_amol
 3205 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3206 = {
@@ -10366,7 +10366,7 @@
 }
 #c_khuttal
 3338 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = khurmazta
 }
 3339 = {
@@ -10377,7 +10377,7 @@
 }
 #c_wakhsh
 3336 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = khurmazta
 }
 3334 = {
@@ -10391,7 +10391,7 @@
 }
 #c_chaghaniyan
 3329 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = khurmazta
 }
 3328 = {
@@ -10411,7 +10411,7 @@
 }
 #c_rasht
 3343 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = khurmazta
 }
 3342 = {
@@ -10422,7 +10422,7 @@
 }
 #c_bukhara
 3354 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3355 = {
@@ -10439,7 +10439,7 @@
 }
 #c_kishsh
 3348 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3344 = {
@@ -10459,7 +10459,7 @@
 }
 #c_nakhshab
 3350 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3349 = {
@@ -10473,7 +10473,7 @@
 }
 #c_firabr
 3353 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3207 = {
@@ -10487,7 +10487,7 @@
 }
 #c_dabusiya
 3362 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3359 = {
@@ -10501,7 +10501,7 @@
 }
 #c_samarkand
 3364 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3363 = {
@@ -10518,7 +10518,7 @@
 }
 #c_oshrusana
 3374 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3371 = {
@@ -10538,7 +10538,7 @@
 }
 #c_zarafshan
 3369 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3368 = {
@@ -10549,7 +10549,7 @@
 }
 #c_ferghana
 3391 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3387 = {
@@ -10566,7 +10566,7 @@
 }
 #c_khojand
 3378 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3379 = {
@@ -10583,7 +10583,7 @@
 }
 #c_isfara
 3383 = {
-	culture = baktrian
+	culture = pax_sogdian
 	religion = h_hellenic
 }
 3382 = {
@@ -11044,7 +11044,7 @@
 #d_strasanor
 #c_herat
 3180 = {
-	culture = partian	
+	culture = baktrian	
 	religion = mazdakism
 }
 3181 = {
@@ -11072,7 +11072,7 @@
 }
 #c_badghis
 3177 = {
-	culture = partian
+	culture = baktrian
 	religion = mazdakism
 }
 3178 = {
@@ -11083,7 +11083,7 @@
 }
 #c_sabzevar
 3169 = {
-	culture = partian
+	culture = baktrian
 	religion = mazdakism
 }
 3170 = {
@@ -11181,7 +11181,7 @@
 }
 #c_ghur
 3190 = {
-	culture = partian
+	culture = baktrian
 	religion = mazdakism
 }
 3189 = {
@@ -11195,7 +11195,7 @@
 }
 #c_darmashan
 3166 = {
-	culture = partian
+	culture = baktrian
 	religion = mazdakism
 }
 3193 = {
@@ -11206,7 +11206,7 @@
 }
 #c_upper_ghur
 3196 = {
-	culture = partian
+	culture = baktrian
 	religion = khurmazta
 }
 3197 = {
@@ -11333,7 +11333,7 @@
 }
 #c_ghazna
 3453 = {
-	culture = partian
+	culture = mauryan
 	religion = khurmazta
 }
 3454 = {
@@ -11350,7 +11350,7 @@
 }
 #c_zamindawar
 3442 = {
-	culture = partian
+	culture = baktrian
 	religion = mazdakism
 }
 3443 = {
@@ -11367,7 +11367,7 @@
 }
 #c_rukhaj
 3452 = {
-	culture = partian
+	culture = mauryan
 	religion = mazdakism
 }
 3447 = {
@@ -11384,7 +11384,7 @@
 }
 #c_zabulistan
 3460 = {
-	culture = partian
+	culture = mauryan
 	religion = mazdakism
 }
 3462 = {
@@ -13738,7 +13738,7 @@
 }
 #c_giurgiu
 3941 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 237 = {
@@ -13758,7 +13758,7 @@
 }
 #c_bucuresti
 3946 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3947 = {
@@ -13766,7 +13766,7 @@
 }
 #c_calarasi
 3948 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3949 = {
@@ -13777,7 +13777,7 @@
 }
 #c_buzau
 3951 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3952 = {
@@ -13788,7 +13788,7 @@
 }
 #c_braila
 3954 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3955 = {
@@ -13796,7 +13796,7 @@
 }
 #c_campulung
 238 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3960 = {
@@ -13821,7 +13821,7 @@
 }
 #c_tabla_butii
 3940 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3931 = {
@@ -13936,7 +13936,7 @@
 #d_turnovo
 #c_sredets
 223 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2677 = {
@@ -13953,7 +13953,7 @@
 }
 #c_aytos
 2697 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2696 = {
@@ -13964,7 +13964,7 @@
 }
 #c_philippopolis
 216 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2629 = {
@@ -13978,7 +13978,7 @@
 }
 #c_kran
 2642 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2641 = {
@@ -13992,7 +13992,7 @@
 }
 #c_beroe
 2638 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2639 = {
@@ -14003,7 +14003,7 @@
 }
 #c_burgas
 2634 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2635 = {
@@ -14071,7 +14071,7 @@
 #d_roxolania
 #c_turnovo
 222 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2688 = {
@@ -14085,7 +14085,7 @@
 }
 #c_constanta
 233 = {
-	culture = Thracian
+	culture = getian
 	religion = zalmoxism
 }
 2700 = {
@@ -14099,7 +14099,7 @@
 }
 #c_mesembria
 221 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2699 = {
@@ -14138,7 +14138,7 @@
 }
 #c_nikopolis
 230 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2685 = {
@@ -14152,7 +14152,7 @@
 }
 #c_dorostorum
 2695 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 231 = {
@@ -14172,7 +14172,7 @@
 }
 #c_vratsa
 2684 = {
-	culture = Thracian
+	culture = thracian
 	religion = zalmoxism
 }
 2681 = {
@@ -14240,8 +14240,8 @@
 }
 #c_csongrad
 2871 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = gallic_illyrian
+	religion = druidism
 }
 2872 = {
 	holding = none
@@ -14328,8 +14328,8 @@
 #d_osia
 #c_visegrad
 245 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = gallic_illyrian
+	religion = druidism
 }
 2808 = {
 	holding = none
@@ -14339,8 +14339,8 @@
 }
 #c_hewes
 246 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = boier
+	religion = druidism
 }
 2873 = {
 	holding = none
@@ -14708,7 +14708,7 @@
 }
 #c_derbent
 370 = {
-	culture = legian
+	culture = maotian
 	religion = urartuism
 }
 371 = {
@@ -14722,7 +14722,7 @@
 }
 #c_samander
 4212 = {
-	culture = legian
+	culture = maotian
 	religion = scythian
 }
 4213 = {
@@ -14733,7 +14733,7 @@
 }
 #c_samiran
 4250 = {
-	culture = legian
+	culture = maotian
 	religion = scythian
 }
 4214 = {
@@ -14783,7 +14783,7 @@
 }
 #c_azov
 4195 = {
-	culture = maotian
+	culture = legian
 	religion = scythian
 }
 4246 = {
@@ -14806,12 +14806,12 @@
 }
 #c_chersonesus
 283 = {
-	culture = greek
+	culture = bosporian
 	religion = h_hellenic
 }
 #c_kalos_limen
 282 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4183 = {
@@ -14822,7 +14822,7 @@
 }
 #c_perekop
 4184 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4238 = {
@@ -14841,7 +14841,7 @@
 }
 #c_khumar
 318 = {
-	culture = maotian
+	culture = legian
 	religion = scythian
 }
 4244 = {
@@ -14849,7 +14849,7 @@
 }
 #c_kremnoi
 286 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4187 = {
@@ -14860,7 +14860,7 @@
 }
 #c_oleshye
 4185 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4186 = {
@@ -14868,7 +14868,7 @@
 }
 #c_tana
 315 = {
-	culture = scythian
+	culture = legian
 	religion = scythian
 }
 316 = {
@@ -14876,7 +14876,7 @@
 }
 #c_kherson
 4176 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 281 = {
@@ -14889,7 +14889,7 @@
 #d_sarmatae
 #c_kazanskaya
 4194 = {
-	culture = scythian
+	culture = legian
 	religion = scythian
 }
 4232 = {
@@ -14900,7 +14900,7 @@
 }
 #c_millerovo
 4233 = {
-	culture = scythian
+	culture = legian
 	religion = scythian
 }
 4235 = {
@@ -14911,7 +14911,7 @@
 }
 #c_bakhmut
 287 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4227 = {
@@ -14925,7 +14925,7 @@
 }
 #c_khortytsia
 280 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4231 = {
@@ -14961,7 +14961,7 @@
 }
 #c_samar
 279 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4189 = {
@@ -14975,7 +14975,7 @@
 }
 #c_golden_hills
 4197 = {
-	culture = scythian
+	culture = legian
 	religion = scythian
 }
 4198 = {
@@ -14989,7 +14989,7 @@
 }
 #c_sarysyn
 314 = {
-	culture = roxolanian
+	culture = legian
 	religion = scythian
 }
 4200 = {
@@ -15004,7 +15004,7 @@
 #d_bastarnae
 #c_odessa
 266 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4174 = {
@@ -15018,7 +15018,7 @@
 }
 #c_ladyzyn
 4164 = {
-	culture = zarubintsy
+	culture = pax_scythian
 	religion = scythian
 }
 4165 = {
@@ -15029,7 +15029,7 @@
 }
 #c_uman
 4167 = {
-	culture = zarubintsy
+	culture = pax_scythian
 	religion = scythian
 }
 4168 = {
@@ -15040,7 +15040,7 @@
 }
 #c_cherkassy
 4170 = {
-	culture = zarubintsy
+	culture = pax_scythian
 	religion = scythian
 }
 4171 = {
@@ -15054,7 +15054,7 @@
 }
 #c_dnipro
 4181 = {
-	culture = scythian
+	culture = pax_scythian
 	religion = scythian
 }
 4180 = {
@@ -15071,7 +15071,7 @@
 }
 #c_tigheci
 3966 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3967 = {
@@ -15079,7 +15079,7 @@
 }
 #c_cetatea_alba
 235 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3962 = {
@@ -15087,7 +15087,7 @@
 }
 #c_chilia
 3963 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3964 = {
@@ -15098,7 +15098,7 @@
 }
 #c_lapusna
 3968 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3969 = {
@@ -15106,7 +15106,7 @@
 }
 #c_iasi
 264 = {
-	culture = dacian
+	culture = carpi
 	religion = zalmoxism
 }
 3974 = {
@@ -15117,23 +15117,23 @@
 }
 #c_orhei
 3970 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = pax_scythian
+	religion = scythian
 }
 3971 = {
 	holding = none
 }
 #c_soroca
 3972 = {
-	culture = dacian
-	religion = zalmoxism
+	culture = pax_scythian
+	religion = scythian
 }
 3973 = {
 	holding = none
 }
 #c_barlad
 236 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3976 = {
@@ -15144,7 +15144,7 @@
 }
 #c_galati
 234 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3978 = {
@@ -15155,7 +15155,7 @@
 }
 #c_stoenesti
 3980 = {
-	culture = dacian
+	culture = getian
 	religion = zalmoxism
 }
 3981 = {
@@ -15178,7 +15178,7 @@
 }
 #c_hradyzk
 4094 = {
-	culture = zarubintsy
+	culture = pax_scythian
 	religion = scythian
 }
 4095 = {
@@ -15206,7 +15206,7 @@
 }
 #c_voin
 4102 = {
-	culture = zarubintsy
+	culture = pax_scythian
 	religion = scythian
 }
 4103 = {
@@ -15281,7 +15281,7 @@
 }
 #c_oskol
 289 = {
-	culture = scythian
+	culture = zarubintsy
 	religion = scythian
 }
 4192 = {
@@ -15447,7 +15447,7 @@
 #d_apasiacae
 #c_sarykamysh
 3481 = {
-	culture = sakan
+	culture = dahae
 	religion = tengri_pagan
 }
 3477 = {
@@ -15484,8 +15484,8 @@
 }
 #c_gurganj
 3409 = {
-	culture = sakan
-	religion = tengri_pagan
+	culture = pax_kharesmian
+	religion = khurmazta
 }
 3407 = {
 	holding = none
@@ -15507,8 +15507,8 @@
 }
 #c_darghan
 3394 = {
-	culture = sakan
-	religion = tengri_pagan
+	culture = pax_kharesmian
+	religion = khurmazta
 }
 3393 = {
 	holding = none
@@ -15521,8 +15521,8 @@
 }
 #c_kath
 3401 = {
-	culture = sakan
-	religion = tengri_pagan
+	culture = pax_kharesmian
+	religion = khurmazta
 }
 3397 = {
 	holding = none
@@ -15538,8 +15538,8 @@
 }
 #c_khiva
 3405 = {
-	culture = sakan
-	religion = tengri_pagan
+	culture = pax_kharesmian
+	religion = khurmazta
 }
 3402 = {
 	holding = none
@@ -15555,8 +15555,8 @@
 }
 #c_kurdar
 3413 = {
-	culture = sakan
-	religion = tengri_pagan
+	culture = pax_kharesmian
+	religion = khurmazta
 }
 3412 = {
 	holding = none
@@ -15635,7 +15635,7 @@
 }
 #c_aralkizil
 340 = {
-	culture = sakan
+	culture = dahae
 	religion = tengri_pagan
 }
 5223 = {
@@ -15649,7 +15649,7 @@
 }
 #c_qoshagyl
 5197 = {
-	culture = dahae
+	culture = aorsi
 	religion = tengri_pagan
 }
 5198 = {
@@ -15769,7 +15769,7 @@
 }
 #c_jambalar
 4340 = {
-	culture = roxolanian
+	culture = legian
 	religion = tengri_pagan
 }
 4341 = {
@@ -15808,7 +15808,7 @@
 }
 #c_uzen
 334 = {
-	culture = roxolanian
+	culture = legian
 	religion = tengri_pagan
 }
 4221 = {
@@ -15943,7 +15943,7 @@
 }
 #c_barsuki
 5228 = {
-	culture = sakan
+	culture = dahae
 	religion = tengri_pagan
 }
 5226 = {
@@ -15971,7 +15971,7 @@
 }
 #c_turgay
 654 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5319 = {
@@ -15985,7 +15985,7 @@
 }
 #c_tumar
 5316 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5314 = {
@@ -15996,7 +15996,7 @@
 }
 #c_murun_tomis
 5317 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5318 = {
@@ -16004,7 +16004,7 @@
 }
 #c_jilali
 5323 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5322 = {
@@ -16018,7 +16018,7 @@
 }
 #c_ulu_jitanjik
 5326 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5324 = {
@@ -16029,7 +16029,7 @@
 }
 #c_teniz
 5196 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5337 = {
@@ -16046,7 +16046,7 @@
 }
 #c_eghiz_kara
 5342 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 704 = {
@@ -16063,7 +16063,7 @@
 }
 #c_ulytau
 5332 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5329 = {
@@ -16080,7 +16080,7 @@
 }
 #c_kaska
 5334 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5333 = {
@@ -16094,7 +16094,7 @@
 }
 #c_betpa
 5352 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5350 = {
@@ -16111,7 +16111,7 @@
 }
 #c_kulan_utmas
 5347 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5346 = {
@@ -16119,7 +16119,7 @@
 }
 #c_jasky_kart
 5349 = {
-	culture = aorsi
+	culture = sakan
 	religion = tengri_pagan
 }
 5348 = {
@@ -16490,7 +16490,7 @@
 }
 #c_suceava
 268 = {
-	culture = przeworsk
+	culture = carpi
 	religion = zalmoxism
 }
 3985 = {
@@ -16507,7 +16507,7 @@
 }
 #c_neamnt
 3982 = {
-	culture = dacian
+	culture = carpi
 	religion = zalmoxism
 }
 3983 = {
@@ -16518,7 +16518,7 @@
 }
 #c_dorohoi
 3989 = {
-	culture = przeworsk
+	culture = carpi
 	religion = zalmoxism
 }
 3990 = {
@@ -16526,7 +16526,7 @@
 }
 #c_hotin
 3991 = {
-	culture = przeworsk
+	culture = carpi
 	religion = zalmoxism
 }
 3992 = {
@@ -16537,7 +16537,7 @@
 }
 #c_halych
 259 = {
-	culture = przeworsk
+	culture = carpi
 	religion = zalmoxism
 }
 4011 = {
@@ -16551,7 +16551,7 @@
 }
 #c_lviv
 4014 = {
-	culture = przeworsk
+	culture = agathyrsian
 	religion = scythian
 }
 4015 = {
@@ -16568,7 +16568,7 @@
 }
 #c_terebovl
 269 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4019 = {
@@ -16579,7 +16579,7 @@
 }
 #c_zaslavl
 4021 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4022 = {
@@ -16590,7 +16590,7 @@
 }
 #c_ushytsia
 4049 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4050 = {
@@ -16601,7 +16601,7 @@
 }
 #c_korsun
 267 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4041 = {
@@ -16643,7 +16643,7 @@
 }
 #c_kiev
 270 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4033 = {
@@ -16663,7 +16663,7 @@
 }
 #c_zhytomyr
 4038 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4039 = {
@@ -16759,11 +16759,11 @@
 }
 #c_cherven
 4024 = {
-	holding = none
+	culture = przeworsk
+	religion = scythian
 }
 4025 = {
-	culture = slavic
-	religion = slavic_pagan
+	holding = none
 }
 4026 = {
 	holding = none
@@ -16897,7 +16897,7 @@
 }
 #c_zvyahel
 4042 = {
-	culture = zarubintsy
+	culture = agathyrsian
 	religion = scythian
 }
 4043 = {
@@ -17464,8 +17464,8 @@
 }
 #c_babruysk
 4070 = {
-	culture = pax_finnish
-	religion = baltic_pagan
+	culture = zarubintsy
+	religion = scythian
 }
 4071 = {
 	holding = none
@@ -17972,7 +17972,7 @@
 }
 #c_kozelsk
 4125 = {
-	culture = zarubintsy
+	culture = ugrisch
 	religion = scythian
 }
 4126 = {
