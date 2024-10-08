@@ -90,7 +90,7 @@
 PAXworld_europe_west_gallia = {
 	duchies = {
 		d_alpes d_narbonensis d_allobroges d_tarbella d_vasatia d_nitlobroga d_pictonensia d_armorica d_aulerca d_mandubiansis
-		d_bagacum d_divodurum
+		d_bagacum d_divodurum d_eburonia
 	}
 }
 
@@ -551,14 +551,29 @@ custom_polabia = {}
 graphical_western = {
 	graphical = yes
 	color = { 255 0 0 }
-	regions = {
-		world_europe_south
+	duchies = {
+		d_tarbella d_vasatia d_nitlobroga d_allobroges d_pictonensia d_aulerca d_armorica d_bagacum d_mandubiansis d_besontio d_divodurum d_eburonia d_bonnia d_hermunduris d_bructeria d_frisia d_helvetia
+		d_vindelicorum d_suebia d_irminonia d_longobardia d_marcomannia d_quadia d_virinum d_burgundia d_avarpia d_sassonia d_skane d_smaland d_gotland d_ostergotland d_svealand d_gothonia d_aestia d_vandalia 
+		d_hasdingia d_osia d_scordiscia_inferior d_iazyges d_dacia_inferior d_dacia_superior d_roxolania d_turnovo d_cotinia d_navaria d_samoya d_east_samoya d_armenia d_caucasia d_colchis d_britannia_prima d_flavia_caesariensis
+		d_britannia_secundia d_maxima_caesariensis d_valentia d_caledonia d_ulaid d_airgialla d_laigin d_connacht d_munster
+	}
+	counties = {
+		c_modrus c_pset c_zagreb c_vodica c_pozega c_vrbas c_vukovar c_kranj c_zagorje c_libnitz c_graz c_kolon c_vas c_veszprem c_gyor c_sopron c_murzzuschlag c_pitten c_sankt_polten c_vienna c_freistadt c_krems
+		c_hohenau c_donjikraji c_rama c_zelengora c_vhrbosna c_soli c_usora c_macva c_szerem c_beograd c_podrinje c_zlatibor c_rashka c_hvosno c_sumadija c_beograd c_branicevo c_vidin c_petrovsk c_penza c_belebey 
+		c_yar-calli c_jalmat c_karabolam c_bolghar c_galati c_stoenesti c_barlad c_iasi c_soroca c_orhei c_lapusna c_barlad c_tigheci c_chillia c_cetatea_alba
 	}
 }
 
 graphical_mena = {
 	graphical = yes
 	color = { 255 255 0 }
+	duchies = {
+		d_alexandreia d_thebes d_kush d_blemmyes d_aksum d_damot d_tingitana d_mauria d_mauretania d_sitifensis d_numidia d_cirtensis d_sardinia_et_corsica d_proconsularis d_canaria d_gaetulia d_garamantia
+		d_tyrus d_nabatea d_damascus d_liban d_maan d_nizar d_taenia d_gerrha d_himyarites d_oman d_arkesilas d_mesopotamia d_antropatene d_peithon d_parthia d_peukestas d_strasanor d_tlepolemos d_mauryas d_baktria
+	}
+	counties = {
+		c_tobruk c_derna c_barqa c_nasamonia c_gabes c_sfax c_souf c_qadisiya c_nasamonia c_juwair c_qaryatan c_hama c_suriya c_qinnasrin c_aleppo 
+	}
 }
 
 graphical_india = {
@@ -569,11 +584,25 @@ graphical_india = {
 graphical_mediterranean = {
 	graphical = yes
 	color = { 0 0 255 }
+	duchies = {
+		d_baleares d_tarraconense d_cartaginense d_turdetania d_bastula d_cania d_celtia d_lusitania d_gallaecia d_sardinia_et_corsica d_narbonensis d_alpes d_lombardia d_genoa d_emilia d_verona d_romagna d_toscana d_ancona
+		d_spoleto d_latium d_apulia d_calabria d_sicily d_epidamnus d_chaonia d_thesprotia d_aetolia d_achaea d_laconia d_argolis d_attica d_aegean_islands d_thessaly d_thessalonika d_strymon d_thrace d_pergamon d_lycia 
+		d_antigonos d_nikomedeia d_pontus d_trapezous d_krateros d_cyprus d_cappadocia 
+	}
+	counties = {
+		c_alexandretta c_antiocheia c_pomorje c_duklja c_travunia c_ragusa c_zachlumia c_pagania c_cetina c_zavrsje c_knin c_zadar c_lika c_cherso c_gacka c_ljubljana c_kerch c_chersonesus c_kalos_limen c_perekop c_tmutarakan
+	}
 }
 
 graphical_steppe = {
 	graphical = yes
 	color = { 0 255 255 }
+	duchies = {
+		d_sarmatae d_alania d_aorsia d_apasiacae d_yuezhe d_khorasia 
+	}
+	counties = {
+		c_saratov c_atkarsk c_sakmara c_salavat c_burguslan c_odessa c_ladyzyn c_uman c_cherkassy c_dnipro c_kherson c_oleshye c_kremnoi c_tana c_khuma 
+	}
 }
 
 ##############################

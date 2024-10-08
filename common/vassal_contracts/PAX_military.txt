@@ -1,0 +1,8 @@
+﻿military_vassal_obligations = {
+	obligation_levels = {
+		default = {
+			levies = 0
+			tax = 0
+		}
+	}
+}
