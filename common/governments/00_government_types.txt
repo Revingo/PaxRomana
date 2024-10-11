@@ -105,7 +105,8 @@ clan_government = {
 		dynasty_named_realms = yes
 	}
 
-	primary_holding = castle_holding
+	primary_holding = church_holding
+	required_county_holdings = { church_holding }
 	primary_heritages = { heritage_arabic heritage_iranian heritage_turkic }
 
 	preferred_religions = { islam_religion }
@@ -199,9 +200,8 @@ administrative_government = {
 
 	domicile_type = estate
 
-	primary_holding = castle_holding
-	valid_holdings = { city_holding }
-	required_county_holdings = { castle_holding city_holding church_holding }
+	primary_holding = church_holding
+	required_county_holdings = { church_holding }
 
 	vassal_contract = {
 		administrative_obligations
@@ -437,7 +437,7 @@ dynastic_government = {
 	rulers_should_have_dynasty = yes
 	dynasty_named_realms = yes
 	primary_holding = countie_capital_city_holding
-	required_county_holdings = { castle_holding }
+	required_county_holdings = { countie_capital_city_holding }
 	legitimacy = yes
 
 	valid_holdings = { city_holding church_holding }

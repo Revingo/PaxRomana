@@ -6754,6 +6754,7 @@
 	religion = h_hellenic
 }
 2784 = {
+	holding = castle_holding
 }
 2785 = {
 }
