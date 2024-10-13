@@ -942,8 +942,8 @@ holding = tribal_holding
 #c_foix
 1434 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1435 = {
 	holding = none
@@ -1110,8 +1110,8 @@ holding = tribal_holding
 #c_armagnac
 1426 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1429 = {
 	holding = none
@@ -1125,8 +1125,8 @@ holding = tribal_holding
 #c_bigorre
 1235 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1427 = {
 	holding = none
@@ -1149,8 +1149,8 @@ holding = tribal_holding
 #c_bearn
 1418 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1419 = {
 	holding = none
@@ -1161,8 +1161,8 @@ holding = tribal_holding
 #c_comminges
 1234 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1233 = {
 	holding = none
@@ -1176,8 +1176,8 @@ holding = tribal_holding
 #c_bordeaux
 1367 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1366 = {
 	holding = none
@@ -1191,8 +1191,8 @@ holding = tribal_holding
 #c_labourd
 1237 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1363 = {
 	holding = none
@@ -1203,8 +1203,8 @@ holding = tribal_holding
 #c_albret
 1421 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1420 = {
 	holding = none
@@ -1218,8 +1218,8 @@ holding = tribal_holding
 #c_marsan
 1424 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1423 = {
 	holding = none
@@ -1282,8 +1282,8 @@ holding = tribal_holding
 #c_saintonge
 1466 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1370 = {
 	holding = none
@@ -2148,8 +2148,8 @@ holding = tribal_holding
 #c_antwerpen
 1331 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1333 = {
 	holding = none
@@ -2752,8 +2752,8 @@ holding = tribal_holding
 #c_frankfurt
 2076 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2075 = {
 	holding = none
@@ -2770,8 +2770,8 @@ holding = tribal_holding
 #c_mainz
 1917 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1916 = {
 	holding = none
@@ -2941,8 +2941,8 @@ holding = tribal_holding
 #c_koblenz
 1309 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1311 = {
 	holding = none
@@ -3016,8 +3016,8 @@ holding = tribal_holding
 #c_cleves
 1329 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1327 = {
 	holding = none
@@ -3028,8 +3028,8 @@ holding = tribal_holding
 #c_maastricht
 1324 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1325 = {
 	holding = none
@@ -3040,8 +3040,8 @@ holding = tribal_holding
 #c_guelders
 1675 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1328 = {
 	holding = none
@@ -3049,8 +3049,8 @@ holding = tribal_holding
 #c_cologne
 1312 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1313 = {
 	holding = none
@@ -3271,8 +3271,8 @@ holding = tribal_holding
 #c_schmalkalden
 2231 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2230 = {
 	holding = none
@@ -3286,8 +3286,8 @@ holding = tribal_holding
 #c_gottingen
 2139 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2141 = {
 	holding = none
@@ -3295,8 +3295,8 @@ holding = tribal_holding
 #c_gleichenstein
 2140 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2149 = {
 	holding = none
@@ -3307,8 +3307,8 @@ holding = tribal_holding
 #c_orlamunde
 2226 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2220 = {
 	holding = none
@@ -3329,8 +3329,8 @@ holding = tribal_holding
 #c_wittenberg
 2389 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2390 = {
 	holding = none
@@ -3338,8 +3338,8 @@ holding = tribal_holding
 #c_brandenburg
 2382 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2373 = {
 	holding = none
@@ -3353,8 +3353,8 @@ holding = tribal_holding
 #c_ruppin
 2384 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2383 = {
 	holding = none
@@ -3365,8 +3365,8 @@ holding = tribal_holding
 #c_magdeburg
 2127 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2387 = {
 	holding = none
@@ -3377,8 +3377,8 @@ holding = tribal_holding
 #c_dessau
 2244 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2388 = {
 	holding = none
@@ -3386,8 +3386,8 @@ holding = tribal_holding
 #c_blankenburg
 2153 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2152 = {
 	holding = none
@@ -3395,8 +3395,8 @@ holding = tribal_holding
 #c_mansfeld
 2157 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2155 = {
 	holding = none
@@ -3404,8 +3404,8 @@ holding = tribal_holding
 #c_halberstadt
 2137 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2138 = {
 	holding = none
@@ -3416,8 +3416,8 @@ holding = tribal_holding
 #c_mersenburg
 2156 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2240 = {
 	holding = none
@@ -3429,8 +3429,8 @@ holding = tribal_holding
 #c_dokkum
 1639 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1640 = {
 	holding = none
@@ -3441,8 +3441,8 @@ holding = tribal_holding
 #c_ostfriesland
 1643 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1662 = {
 	holding = none
@@ -3453,8 +3453,8 @@ holding = tribal_holding
 #c_frisia
 1638 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1635 = {
 	holding = none
@@ -3468,8 +3468,8 @@ holding = tribal_holding
 #c_nedersticht
 1649 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1676 = {
 	holding = none
@@ -3480,8 +3480,8 @@ holding = tribal_holding
 #c_oversticht
 1646 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1641 = {
 	holding = none
@@ -3498,8 +3498,8 @@ holding = tribal_holding
 #c_groningen
 1642 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1645 = {
 	holding = none
@@ -3513,8 +3513,8 @@ holding = tribal_holding
 #c_westfriesland
 1630 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1633 = {
 	holding = none
@@ -3531,8 +3531,8 @@ holding = tribal_holding
 #c_arnhem
 1653 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1652 = {
 	holding = none
@@ -3546,8 +3546,8 @@ holding = tribal_holding
 #c_zutphen
 1654 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1657 = {
 	holding = none
@@ -3561,8 +3561,8 @@ holding = tribal_holding
 #c_osnabruck
 1665 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1668 = {
 	holding = none
@@ -3576,8 +3576,8 @@ holding = tribal_holding
 #c_tecklenburg
 1671 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1666 = {
 	holding = none
@@ -3591,8 +3591,8 @@ holding = tribal_holding
 #c_munster
 1893 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1894 = {
 	holding = none
@@ -3606,8 +3606,8 @@ holding = tribal_holding
 #c_dortmund
 1896 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1900 = {
 	holding = none
@@ -3618,8 +3618,8 @@ holding = tribal_holding
 #c_holland
 1628 = {
 	culture = north_sea_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1627 = {
 	holding = none
@@ -3627,8 +3627,8 @@ holding = tribal_holding
 #c_zeeland
 1337 = {
 	culture = gallic_belgica
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1338 = {
 	holding = none
@@ -3640,8 +3640,8 @@ holding = tribal_holding
 #c_arnsberg
 1903 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1904 = {
 	holding = none
@@ -3649,8 +3649,8 @@ holding = tribal_holding
 #c_mark
 1902 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1901 = {
 	holding = none
@@ -3661,8 +3661,8 @@ holding = tribal_holding
 #c_waldeck
 2071 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2070 = {
 	holding = none
@@ -3673,8 +3673,8 @@ holding = tribal_holding
 #c_paderborn
 2068 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2069 = {
 	holding = none
@@ -3688,8 +3688,8 @@ holding = tribal_holding
 #c_marburg
 2080 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2082 = {
 	holding = none
@@ -3703,8 +3703,8 @@ holding = tribal_holding
 #c_kassel
 2081 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2079 = {
 	holding = none
@@ -3718,8 +3718,8 @@ holding = tribal_holding
 #c_fulda
 2145 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2144 = {
 	holding = none
@@ -3730,8 +3730,8 @@ holding = tribal_holding
 #c_nassau
 2073 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2074 = {
 	holding = none
@@ -3742,8 +3742,8 @@ holding = tribal_holding
 #c_bergh
 1658 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1911 = {
 	holding = none
@@ -3751,8 +3751,8 @@ holding = tribal_holding
 #c_sayn
 1912 = {
 	culture = rhen_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1913 = {
 	holding = none
@@ -3764,8 +3764,8 @@ holding = tribal_holding
 #c_hamburg
 2023 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2026 = {
 	holding = none
@@ -3773,8 +3773,8 @@ holding = tribal_holding
 #c_lubeck
 2025 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2021 = {
 	holding = none
@@ -3785,8 +3785,8 @@ holding = tribal_holding
 #c_ditmarschen
 2018 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2020 = {
 	holding = none
@@ -3797,8 +3797,8 @@ holding = tribal_holding
 #c_slesvig
 57 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 56 = {
 	holding = none
@@ -3809,8 +3809,8 @@ holding = tribal_holding
 #c_vorbasse
 54 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 136 = {
 	holding = none
@@ -3821,8 +3821,8 @@ holding = tribal_holding
 #c_ribe
 55 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 78 = {
 	holding = none
@@ -3833,8 +3833,8 @@ holding = tribal_holding
 #c_aarhus
 52 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 53 = {
 	holding = none
@@ -3845,8 +3845,8 @@ holding = tribal_holding
 #c_viborg
 51 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 131 = {
 	holding = none
@@ -3854,8 +3854,8 @@ holding = tribal_holding
 #c_ringkobing
 77 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 130 = {
 	holding = none
@@ -3869,8 +3869,8 @@ holding = tribal_holding
 #c_aalborg
 76 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 50 = {
 	holding = none
@@ -3881,8 +3881,8 @@ holding = tribal_holding
 #c_sjaelland
 58 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 178 = {
 	holding = none
@@ -3899,8 +3899,8 @@ holding = tribal_holding
 #c_fyn
 60 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 61 = {
 	holding = none
@@ -3911,8 +3911,8 @@ holding = tribal_holding
 #c_lolland_falster
 62 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 63 = {
 	holding = none
@@ -3920,8 +3920,8 @@ holding = tribal_holding
 #c_mecklenburg
 2028 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2027 = {
 	holding = none
@@ -3935,8 +3935,8 @@ holding = tribal_holding
 #c_wolgast
 2038 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2037 = {
 	holding = none
@@ -3944,8 +3944,8 @@ holding = tribal_holding
 #c_rugen
 2032 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2031 = {
 	holding = none
@@ -3953,8 +3953,8 @@ holding = tribal_holding
 #c_rostock
 2030 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2040 = {
 	holding = none
@@ -3962,8 +3962,8 @@ holding = tribal_holding
 #c_werle
 2033 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2041 = {
 	holding = none
@@ -3974,15 +3974,15 @@ holding = tribal_holding
 #c_bornholm
 72 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 #d_irminonia
 #c_hannover
 2119 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2117 = {
 	holding = none
@@ -3993,8 +3993,8 @@ holding = tribal_holding
 #c_hildesheim
 2134 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2133 = {
 	holding = none
@@ -4005,8 +4005,8 @@ holding = tribal_holding
 #c_brunswick
 2122 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2123 = {
 	holding = none
@@ -4014,8 +4014,8 @@ holding = tribal_holding
 #c_stendal
 2121 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2128 = {
 	holding = none
@@ -4026,8 +4026,8 @@ holding = tribal_holding
 #c_luneburg
 2114 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2158 = {
 	holding = none
@@ -4041,8 +4041,8 @@ holding = tribal_holding
 #c_dannenberg
 2115 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2116 = {
 	holding = none
@@ -4053,8 +4053,8 @@ holding = tribal_holding
 #c_lippe
 2065 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2130 = {
 	holding = none
@@ -4065,8 +4065,8 @@ holding = tribal_holding
 #c_bremen
 2014 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2015 = {
 	holding = none
@@ -4080,8 +4080,8 @@ holding = tribal_holding
 #c_wolpe
 2067 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2066 = {
 	holding = none
@@ -4092,8 +4092,8 @@ holding = tribal_holding
 #c_minden
 2059 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2061 = {
 	holding = none
@@ -4107,8 +4107,8 @@ holding = tribal_holding
 #c_oldenburg
 1663 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 1661 = {
 	holding = none
@@ -4119,8 +4119,8 @@ holding = tribal_holding
 #c_stade
 2016 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2012 = {
 	holding = none
@@ -4131,8 +4131,8 @@ holding = tribal_holding
 #c_havelberg
 2035 = {
 	culture = elbe_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2036 = {
 	holding = none
@@ -4141,8 +4141,8 @@ holding = tribal_holding
 #c_meissen
 2248 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2256 = {
 	holding = none
@@ -4153,22 +4153,22 @@ holding = tribal_holding
 #c_dresden
 2251 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2254 = {
 	holding = none
 }
 2249 = {
 	culture = north_germanic
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 #c_wolkenstein
 2233 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2234 = {
 	holding = none
@@ -4176,8 +4176,8 @@ holding = tribal_holding
 #c_osterland
 2242 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2236 = {
 	holding = none
@@ -4191,8 +4191,8 @@ holding = tribal_holding
 #c_naumburg
 2241 = {
 	culture = weser_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2235 = {
 	holding = none
@@ -4218,8 +4218,8 @@ holding = tribal_holding
 #c_cottbus
 2396 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2358 = {
 	holding = none
@@ -4230,8 +4230,8 @@ holding = tribal_holding
 #c_gorlitz
 2201 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2253 = {
 	holding = none
@@ -4242,8 +4242,8 @@ holding = tribal_holding
 #c_juterbog
 2395 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2394 = {
 	holding = none
@@ -4251,8 +4251,8 @@ holding = tribal_holding
 #c_brene
 2246 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2391 = {
 	holding = none
@@ -4263,8 +4263,8 @@ holding = tribal_holding
 #c_spreewald
 2357 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2375 = {
 	holding = none
@@ -4275,8 +4275,8 @@ holding = tribal_holding
 #c_naumberg
 2360 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2355 = {
 	holding = none
@@ -4287,8 +4287,8 @@ holding = tribal_holding
 #c_berlin
 2374 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2380 = {
 	holding = none
@@ -4299,8 +4299,8 @@ holding = tribal_holding
 #c_prenzlau
 2376 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2379 = {
 	holding = none
@@ -4314,8 +4314,8 @@ holding = tribal_holding
 #c_lubusz
 2366 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2359 = {
 	holding = none
@@ -4332,8 +4332,8 @@ holding = tribal_holding
 #c_stettin
 2044 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2043 = {
 	holding = none
@@ -4344,8 +4344,8 @@ holding = tribal_holding
 #c_soldin
 2370 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2369 = {
 	holding = none
@@ -4355,8 +4355,8 @@ holding = tribal_holding
 #c_skane
 65 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 66 = {
 	holding = none
@@ -4373,8 +4373,8 @@ holding = tribal_holding
 #c_halland
 69 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 70 = {
 	holding = none
@@ -4385,8 +4385,8 @@ holding = tribal_holding
 #c_blekinge
 73 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 74 = {
 	holding = none
@@ -4401,8 +4401,8 @@ holding = tribal_holding
 #c_more
 145 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 146 = {
 	holding = none
@@ -4413,8 +4413,8 @@ holding = tribal_holding
 #c_sevede
 5519 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 147 = {
 	holding = none
@@ -4425,8 +4425,8 @@ holding = tribal_holding
 #c_varend
 140 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 141 = {
 	holding = none
@@ -4443,8 +4443,8 @@ holding = tribal_holding
 #c_njudung
 162 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 150 = {
 	holding = none
@@ -4458,8 +4458,8 @@ holding = tribal_holding
 #c_finnveden
 139 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 138 = {
 	holding = none
@@ -4467,8 +4467,8 @@ holding = tribal_holding
 #c_oland
 152 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 153 = {
 	holding = none
@@ -4476,8 +4476,8 @@ holding = tribal_holding
 #c_vastergotland
 154 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 5516 = {
 	holding = none
@@ -4489,8 +4489,8 @@ holding = tribal_holding
 #c_gutland
 174 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 175 = {
 	holding = none
@@ -4505,8 +4505,8 @@ holding = tribal_holding
 #c_ostergotland
 157 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 158 = {
 	holding = none
@@ -4520,8 +4520,8 @@ holding = tribal_holding
 #c_kinda
 159 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 160 = {
 	holding = none
@@ -4532,8 +4532,8 @@ holding = tribal_holding
 #c_narke
 155 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 156 = {
 	holding = none
@@ -4542,8 +4542,8 @@ holding = tribal_holding
 #c_upland
 168 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 169 = {
 	holding = none
@@ -4557,8 +4557,8 @@ holding = tribal_holding
 #c_sodermannaland
 166 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 163 = {
 	holding = none
@@ -4575,8 +4575,8 @@ holding = tribal_holding
 #c_vastmanland
 172 = {
 	culture = north_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 173 = {
 	holding = none
@@ -4620,8 +4620,8 @@ holding = tribal_holding
 #c_pallas
 5565 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 5566 = {
 	holding = none
@@ -4689,8 +4689,8 @@ holding = tribal_holding
 #c_zaragoza
 1112 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1113 = {
 	holding = none
@@ -4705,16 +4705,16 @@ holding = tribal_holding
 1168 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1116 = {
 	holding = none
 }
 #c_alto_aragon
 1032 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 2436 = {
 	holding = none
@@ -4725,8 +4725,8 @@ holding = tribal_holding}
 #c_sobrarbe
 1097 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1096 = {
 	holding = none
@@ -4737,8 +4737,8 @@ holding = tribal_holding}
 #c_huesca
 1098 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1099 = {
 	holding = none
@@ -4746,8 +4746,8 @@ holding = tribal_holding}
 #c_calatayud
 1157 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1159 = {
 	holding = none
@@ -4755,8 +4755,8 @@ holding = tribal_holding}
 #c_fraga
 5561 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1107 = {
 	holding = none
@@ -4765,8 +4765,8 @@ holding = tribal_holding}
 1117 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1108 = {
 	holding = none
 }
@@ -4776,8 +4776,8 @@ holding = tribal_holding}
 #c_navarra
 1031 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1114 = {
 	holding = none
@@ -4788,8 +4788,8 @@ holding = tribal_holding}
 #c_najera
 1036 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1035 = {
 	holding = none
@@ -4800,8 +4800,8 @@ holding = tribal_holding}
 #c_tudela
 1127 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1115 = {
 	holding = none
@@ -4809,8 +4809,8 @@ holding = tribal_holding}
 #c_viscaya
 1028 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1033 = {
 	holding = none
@@ -4818,8 +4818,8 @@ holding = tribal_holding}
 #c_ipuskoa
 1030 = {
 	culture = pax_basque
-	religion = basque_pag
-	holding = tribal_holdingan
+	religion = basque_pagan
+	holding = tribal_holding
 }
 1029 = {
 	holding = none
@@ -4827,8 +4827,8 @@ holding = tribal_holding}
 #c_asturias_de_santillana
 1026 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1027 = {
 	holding = none
@@ -4842,8 +4842,8 @@ holding = tribal_holding}
 #c_amaya
 1039 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1038 = {
 	holding = none
@@ -4854,8 +4854,8 @@ holding = tribal_holding}
 #c_burgos
 1131 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1132 = {
 	holding = none
@@ -4869,8 +4869,8 @@ holding = tribal_holding}
 #c_valladolid
 1122 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1121 = {
 	holding = none
@@ -4881,8 +4881,8 @@ holding = tribal_holding}
 #c_soria
 1126 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1125 = {
 	holding = none
@@ -4897,8 +4897,8 @@ holding = tribal_holding}
 #c_leon
 1041 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1047 = {
 	holding = none
@@ -4915,8 +4915,8 @@ holding = tribal_holding}
 #c_benavente
 1051 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1052 = {
 	holding = none
@@ -4924,8 +4924,8 @@ holding = tribal_holding}
 #c_zamora
 1119 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1120 = {
 	holding = none
@@ -4936,8 +4936,8 @@ holding = tribal_holding}
 #c_porto
 986 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 985 = {
 	holding = none
@@ -4951,8 +4951,8 @@ holding = tribal_holding}
 #c_braganza
 988 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 989 = {
 	holding = none
@@ -4966,8 +4966,8 @@ holding = tribal_holding}
 #c_asturias_de_oviedo
 1022 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1042 = {
 	holding = none
@@ -4981,8 +4981,8 @@ holding = tribal_holding}
 #c_pravia
 1020 = {
 	culture = gallaecian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1019 = {
 	holding = none
@@ -4996,8 +4996,8 @@ holding = tribal_holding}
 #c_coruna
 1012 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 1013 = {
 	holding = none
@@ -5011,8 +5011,8 @@ holding = tribal_holding}
 #c_santiago
 1010 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 1011 = {
 	holding = none
@@ -5026,8 +5026,8 @@ holding = tribal_holding}
 #c_tui
 1009 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 1006 = {
 	holding = none
@@ -5038,8 +5038,8 @@ holding = tribal_holding}
 #c_astorga
 1046 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 1017 = {
 	holding = none
@@ -5056,8 +5056,8 @@ holding = tribal_holding}
 #c_monterrei
 1043 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 1025 = {
 	holding = none
@@ -5067,8 +5067,8 @@ holding = tribal_holding}
 1080 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1081 = {
 	holding = none
 }
@@ -5082,8 +5082,8 @@ holding = tribal_holding}
 1082 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1083 = {
 	holding = none
 }
@@ -5094,8 +5094,8 @@ holding = tribal_holding}
 1162 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1167 = {
 	holding = none
 }
@@ -5109,8 +5109,8 @@ holding = tribal_holding}
 1079 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1194 = {
 	holding = none
 }
@@ -5118,16 +5118,16 @@ holding = tribal_holding}
 1078 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1165 = {
 	holding = none
 }
 #c_murcia
 1076 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1077 = {
 	holding = none
@@ -5145,8 +5145,8 @@ holding = tribal_holding}
 1192 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1198 = {
 	holding = none
 }
@@ -5160,8 +5160,8 @@ holding = tribal_holding}
 1174 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1175 = {
 	holding = none
 }
@@ -5174,8 +5174,8 @@ holding = tribal_holding}
 #c_toledo
 1144 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1145 = {
 	holding = none
@@ -5186,8 +5186,8 @@ holding = tribal_holding}
 #c_madrid
 1148 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1152 = {
 	holding = none
@@ -5201,8 +5201,8 @@ holding = tribal_holding}
 #c_molina
 1160 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1158 = {
 	holding = none
@@ -5217,8 +5217,8 @@ holding = tribal_holding}
 1172 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1170 = {
 	holding = none
 }
@@ -5232,8 +5232,8 @@ holding = tribal_holding}
 1185 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1186 = {
 	holding = none
 }
@@ -5247,8 +5247,8 @@ holding = tribal_holding}
 1177 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1178 = {
 	holding = none
 }
@@ -5261,8 +5261,8 @@ holding = tribal_holding}
 #c_cuellar
 1149 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1150 = {
 	holding = none
@@ -5273,8 +5273,8 @@ holding = tribal_holding}
 #c_olmedo
 1140 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1147 = {
 	holding = none
@@ -5284,8 +5284,8 @@ holding = tribal_holding}
 #c_salamanca
 1138 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1053 = {
 	holding = none
@@ -5296,8 +5296,8 @@ holding = tribal_holding}
 #c_avila
 1137 = {
 	culture = celtiberian
-	religion = celtiberia
-	holding = tribal_holdingnism
+	religion = celtiberianism
+	holding = tribal_holding
 }
 1139 = {
 	holding = none
@@ -5311,8 +5311,8 @@ holding = tribal_holding}
 #c_coimbra
 983 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 982 = {
 	holding = none
@@ -5323,8 +5323,8 @@ holding = tribal_holding}
 #c_viseu
 994 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 995 = {
 	holding = none
@@ -5332,8 +5332,8 @@ holding = tribal_holding}
 #c_aveiro
 984 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 1228 = {
 	holding = none
@@ -5344,8 +5344,8 @@ holding = tribal_holding}
 #c_castelo_branco
 998 = {
 	culture = gallaecian
-	religion = gallaecian
-	holding = tribal_holdingism
+	religion = gallaecianism
+	holding = tribal_holding
 }
 996 = {
 	holding = none
@@ -5357,8 +5357,8 @@ holding = tribal_holding}
 #c_lisboa
 979 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 980 = {
 	holding = none
@@ -5369,8 +5369,8 @@ holding = tribal_holding}
 #c_beja
 1002 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 976 = {
 	holding = none
@@ -5378,8 +5378,8 @@ holding = tribal_holding}
 #c_alcacer_do_sal
 977 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1004 = {
 	holding = none
@@ -5393,8 +5393,8 @@ holding = tribal_holding}
 #c_elvas
 1001 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 999 = {
 	holding = none
@@ -5405,8 +5405,8 @@ holding = tribal_holding}
 #c_badajoz
 1060 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1061 = {
 	holding = none
@@ -5417,8 +5417,8 @@ holding = tribal_holding}
 #c_plasencia
 1056 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1055 = {
 	holding = none
@@ -5429,8 +5429,8 @@ holding = tribal_holding}
 #c_caceres
 1179 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1057 = {
 	holding = none
@@ -5441,8 +5441,8 @@ holding = tribal_holding}
 #c_merida
 1059 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1180 = {
 	holding = none
@@ -5453,8 +5453,8 @@ holding = tribal_holding}
 #c_medellin
 1221 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1223 = {
 	holding = none
@@ -5466,8 +5466,8 @@ holding = tribal_holding}
 #c_faro
 973 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 975 = {
 	holding = none
@@ -5475,8 +5475,8 @@ holding = tribal_holding}
 #c_silves
 972 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 974 = {
 	holding = none
@@ -5487,8 +5487,8 @@ holding = tribal_holding}
 #c_moura
 1062 = {
 	culture = lusitian
-	religion = lusitianis
-	holding = tribal_holdingch
+	religion = lusitianisch
+	holding = tribal_holding
 }
 1063 = {
 	holding = none
@@ -5535,8 +5535,8 @@ holding = tribal_holding}
 1188 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1190 = {
 	holding = none
 }
@@ -5547,8 +5547,8 @@ holding = tribal_holding}
 1212 = {
 	culture = iberian
 	religion = i_iberian
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 1214 = {
 	holding = none
 }
@@ -5634,8 +5634,8 @@ holding = tribal_holding}
 #c_almeria
 1074 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1197 = {
 	holding = none
@@ -5649,8 +5649,8 @@ holding = tribal_holding}
 #c_fazaz
 3659 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3700 = {
 	holding = none
@@ -5658,8 +5658,8 @@ holding = tribal_holding}
 #c_tamasna
 3656 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3655 = {
 	holding = none
@@ -5670,8 +5670,8 @@ holding = tribal_holding}
 #c_fes
 3647 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3641 = {
 	holding = none
@@ -5688,8 +5688,8 @@ holding = tribal_holding}
 #c_muluya
 3698 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3696 = {
 	holding = none
@@ -5700,8 +5700,8 @@ holding = tribal_holding}
 #c_taza
 3630 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3701 = {
 	holding = none
@@ -5709,8 +5709,8 @@ holding = tribal_holding}
 #c_meknes
 3652 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3646 = {
 	holding = none
@@ -5724,8 +5724,8 @@ holding = tribal_holding}
 #c_gharb
 3642 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3653 = {
 	holding = none
@@ -5745,8 +5745,8 @@ holding = tribal_holding}
 #c_tangiers
 3636 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3637 = {
 	holding = none
@@ -5760,8 +5760,8 @@ holding = tribal_holding}
 #c_ceuta
 3635 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3634 = {
 	holding = none
@@ -5772,8 +5772,8 @@ holding = tribal_holding}
 #c_melilla
 3631 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3632 = {
 	holding = none
@@ -5782,8 +5782,8 @@ holding = tribal_holding}
 #c_marrakesh
 3671 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3666 = {
 	holding = none
@@ -5803,8 +5803,8 @@ holding = tribal_holding}
 #c_tinmallal
 3669 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3668 = {
 	holding = none
@@ -5815,8 +5815,8 @@ holding = tribal_holding}
 #c_asfi
 3673 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3674 = {
 	holding = none
@@ -5830,8 +5830,8 @@ holding = tribal_holding}
 #c_tadla
 3662 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3663 = {
 	holding = none
@@ -5853,8 +5853,8 @@ holding = tribal_holding}
 #c_tlemcen
 3625 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3616 = {
 	holding = none
@@ -5871,8 +5871,8 @@ holding = tribal_holding}
 #c_wajda
 3627 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3628 = {
 	holding = none
@@ -5883,8 +5883,8 @@ holding = tribal_holding}
 #c_orania
 3619 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3617 = {
 	holding = none
@@ -5895,8 +5895,8 @@ holding = tribal_holding}
 #c_hunyan
 3622 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3621 = {
 	holding = none
@@ -5907,8 +5907,8 @@ holding = tribal_holding}
 #c_tanas
 3606 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3605 = {
 	holding = none
@@ -5919,8 +5919,8 @@ holding = tribal_holding}
 #c_tahert
 3612 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3611 = {
 	holding = none
@@ -5937,8 +5937,8 @@ holding = tribal_holding}
 #c_yalala
 3608 = {
 	culture = pax_maurian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3609 = {
 	holding = none
@@ -5949,8 +5949,8 @@ holding = tribal_holding}
 #c_figuig
 3702 = {
 	culture = pax_maurian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3703 = {
 	holding = none
@@ -5965,8 +5965,8 @@ holding = tribal_holding}
 #c_algier
 3603 = {
 	culture = numidian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3601 = {
 	holding = none
@@ -5980,8 +5980,8 @@ holding = tribal_holding}
 #c_ashir
 3600 = {
 	culture = numidian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3598 = {
 	holding = none
@@ -5996,8 +5996,8 @@ holding = tribal_holding}
 #c_bejaia
 3590 = {
 	culture = numidian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3589 = {
 	holding = none
@@ -6005,8 +6005,8 @@ holding = tribal_holding}
 #c_satif
 3592 = {
 	culture = numidian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3588 = {
 	holding = none
@@ -6020,8 +6020,8 @@ holding = tribal_holding}
 #c_hodna
 3597 = {
 	culture = numidian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3594 = {
 	holding = none
@@ -6035,8 +6035,8 @@ holding = tribal_holding}
 #c_biskra
 3574 = {
 	culture = numidian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3575 = {
 	holding = none
@@ -6050,8 +6050,8 @@ holding = tribal_holding}
 #c_bilizma
 3587 = {
 	culture = numidian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3580 = {
 	holding = none
@@ -6060,8 +6060,8 @@ holding = tribal_holding}
 #c_mallorca
 5522 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1226 = {
 	holding = none
@@ -6069,22 +6069,22 @@ holding = tribal_holding}
 #c_menorca
 1227 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 #c_iviza
 1225 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 #k_africa_procosularis
 #d_cirtensis
 #c_constantine
 3584 = {
 	culture = numidian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3573 = {
 	holding = none
@@ -6101,8 +6101,8 @@ holding = tribal_holding}
 #c_annaba
 3541 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3583 = {
 	holding = none
@@ -6113,8 +6113,8 @@ holding = tribal_holding}
 #c_tunis
 3535 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3536 = {
 	holding = none
@@ -6131,8 +6131,8 @@ holding = tribal_holding}
 #c_satfura
 3538 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3539 = {
 	holding = none
@@ -6143,8 +6143,8 @@ holding = tribal_holding}
 #c_medjerda
 3542 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3543 = {
 	holding = none
@@ -6155,8 +6155,8 @@ holding = tribal_holding}
 #c_mahdiya
 3531 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3532 = {
 	holding = none
@@ -6167,8 +6167,8 @@ holding = tribal_holding}
 #c_kairwan
 3547 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3545 = {
 	holding = none
@@ -6188,13 +6188,11 @@ holding = tribal_holding}
 #c_west_qamuda
 3551 = {
 	culture = numidian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3577 = {
-	culture = berber
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	holding = none
 }
 3559 = {
 	holding = none
@@ -6202,8 +6200,8 @@ holding = tribal_holding}
 #c_tabassa
 3576 = {
 	culture = numidian
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3560 = {
 	holding = none
@@ -6218,8 +6216,8 @@ holding = tribal_holding}
 #c_gabes
 3526 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3527 = {
 	holding = none
@@ -6227,8 +6225,8 @@ holding = tribal_holding}
 #c_sfax
 3528 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 3529 = {
 	holding = none
@@ -6242,8 +6240,8 @@ holding = tribal_holding}
 #c_qashtiliya
 3554 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3553 = {
 	holding = none
@@ -6257,8 +6255,8 @@ holding = tribal_holding}
 #c_souf
 3557 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3558 = {
 	holding = none
@@ -6267,8 +6265,8 @@ holding = tribal_holding}
 #c_cagliari
 1876 = {
 	culture = carthaginian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1877 = {
 	holding = none
@@ -6279,8 +6277,8 @@ holding = tribal_holding}
 #c_arborea
 1882 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1884 = {
 	holding = none
@@ -6288,8 +6286,8 @@ holding = tribal_holding}
 #c_gallura
 1881 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1880 = {
 	holding = none
@@ -6297,8 +6295,8 @@ holding = tribal_holding}
 #c_logudoro
 1885 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1888 = {
 	holding = none
@@ -6312,8 +6310,8 @@ holding = tribal_holding}
 #c_tortoli
 1879 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1878 = {
 	holding = none
@@ -6321,8 +6319,8 @@ holding = tribal_holding}
 #c_ajaccio
 1873 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1872 = {
 	holding = none
@@ -6330,8 +6328,8 @@ holding = tribal_holding}
 #c_bastia
 1871 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1870 = {
 	holding = none
@@ -6339,8 +6337,8 @@ holding = tribal_holding}
 #c_vecchio
 1875 = {
 	culture = sardinian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 1874 = {
 	holding = none
@@ -6349,8 +6347,8 @@ holding = tribal_holding}
 #c_tripolitana
 3510 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3521 = {
 	holding = none
@@ -6361,8 +6359,8 @@ holding = tribal_holding}
 #c_djerba
 3515 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3518 = {
 	holding = none
@@ -6373,8 +6371,8 @@ holding = tribal_holding}
 #c_jafara
 3514 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3511 = {
 	holding = none
@@ -6391,8 +6389,8 @@ holding = tribal_holding}
 #c_syrte
 3505 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3503 = {
 	holding = none
@@ -6400,8 +6398,8 @@ holding = tribal_holding}
 #c_labda
 3509 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3507 = {
 	holding = none
@@ -6414,8 +6412,8 @@ holding = tribal_holding}
 #c_wargla
 3568 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3564 = {
 	holding = none
@@ -6429,19 +6427,19 @@ holding = tribal_holding}
 #c_laghwat
 3572 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3571 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 #c_ghardaia
 3569 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3570 = {
 	holding = none
@@ -6452,8 +6450,8 @@ holding = tribal_holding}
 #c_arigh
 3562 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3561 = {
 	holding = none
@@ -6464,8 +6462,8 @@ holding = tribal_holding}
 #c_sala
 5164 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5165 = {
 	holding = none
@@ -6476,8 +6474,8 @@ holding = tribal_holding}
 #c_tichitt
 5194 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5193 = {
 	holding = none
@@ -6486,8 +6484,8 @@ holding = tribal_holding}
 #c_zammour
 5169 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5168 = {
 	holding = none
@@ -6495,8 +6493,8 @@ holding = tribal_holding}
 #c_tindouf
 5167 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5189 = {
 	holding = none
@@ -6510,8 +6508,8 @@ holding = tribal_holding}
 #c_touat
 3565 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5166 = {
 	holding = none
@@ -6519,8 +6517,8 @@ holding = tribal_holding}
 #c_sous
 3677 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3678 = {
 	holding = none
@@ -6531,8 +6529,8 @@ holding = tribal_holding}
 #c_agadir
 3676 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3679 = {
 	holding = none
@@ -6540,8 +6538,8 @@ holding = tribal_holding}
 #c_ifni
 3680 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3681 = {
 	holding = none
@@ -6561,8 +6559,8 @@ holding = tribal_holding}
 #c_draa
 3688 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3693 = {
 	holding = none
@@ -6579,8 +6577,8 @@ holding = tribal_holding}
 #c_sijilmasa
 3690 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3691 = {
 	holding = none
@@ -6591,8 +6589,8 @@ holding = tribal_holding}
 #c_tudgha
 3689 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3686 = {
 	holding = none
@@ -6603,8 +6601,8 @@ holding = tribal_holding}
 #c_ziz
 3692 = {
 	culture = berber
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3695 = {
 	holding = none
@@ -6613,8 +6611,8 @@ holding = tribal_holding}
 #c_garamantia
 5162 = {
 	culture = garamantia
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5161 = {
 	holding = none
@@ -6628,8 +6626,8 @@ holding = tribal_holding}
 #c_bir_amir
 3525 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5038 = {
 	holding = none
@@ -6637,8 +6635,8 @@ holding = tribal_holding}
 #c_waddan
 3516 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3506 = {
 	holding = none
@@ -6652,8 +6650,8 @@ holding = tribal_holding}
 #c_ghadames
 3523 = {
 	culture = garamantia
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 3524 = {
 	holding = none
@@ -6664,8 +6662,8 @@ holding = tribal_holding}
 #c_zawila
 5163 = {
 	culture = garamantia
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5159 = {
 	holding = none
@@ -6679,8 +6677,8 @@ holding = tribal_holding}
 #c_kent
 729 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 730 = {
 	holding = none
@@ -6694,8 +6692,8 @@ holding = tribal_holding}
 #c_surrey
 737 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 738 = {
 	holding = none
@@ -6712,8 +6710,8 @@ holding = tribal_holding}
 #c_sussex
 734 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 733 = {
 	holding = none
@@ -6727,8 +6725,8 @@ holding = tribal_holding}
 #c_hampton
 772 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 771 = {
 	holding = none
@@ -6745,14 +6743,14 @@ holding = tribal_holding}
 #c_isle_of_wight
 776 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 #c_dorset
 791 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 792 = {
 	holding = none
@@ -6766,8 +6764,8 @@ holding = tribal_holding}
 #c_somerset
 802 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 803 = {
 	holding = none
@@ -6781,8 +6779,8 @@ holding = tribal_holding}
 #c_devon
 795 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 796 = {
 	holding = none
@@ -6796,8 +6794,8 @@ holding = tribal_holding}
 #c_cornwall
 799 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 800 = {
 	holding = none
@@ -6808,8 +6806,8 @@ holding = tribal_holding}
 #c_berkshire
 781 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 782 = {
 	holding = none
@@ -6820,8 +6818,8 @@ holding = tribal_holding}
 #c_wiltshire
 787 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 788 = {
 	holding = none
@@ -6839,8 +6837,8 @@ holding = tribal_holding}
 #c_carmarthenshire
 877 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 878 = {
 	holding = none
@@ -6848,8 +6846,8 @@ holding = tribal_holding}
 #c_pembrokeshire
 879 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 880 = {
 	holding = none
@@ -6860,8 +6858,8 @@ holding = tribal_holding}
 #c_glamorgan
 874 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 875 = {
 	holding = none
@@ -6872,8 +6870,8 @@ holding = tribal_holding}
 #c_monmouthshire
 855 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 856 = {
 	holding = none
@@ -6881,8 +6879,8 @@ holding = tribal_holding}
 #c_brecknockshire
 884 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 885 = {
 	holding = none
@@ -6890,8 +6888,8 @@ holding = tribal_holding}
 #c_maldwyn
 888 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 889 = {
 	holding = none
@@ -6899,8 +6897,8 @@ holding = tribal_holding}
 #c_sir_faesyfed
 886 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 887 = {
 	holding = none
@@ -6908,8 +6906,8 @@ holding = tribal_holding}
 #c_hereford
 857 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 858 = {
 	holding = none
@@ -6920,8 +6918,8 @@ holding = tribal_holding}
 #c_cardiganshire
 882 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 883 = {
 	holding = none
@@ -6929,8 +6927,8 @@ holding = tribal_holding}
 #c_merioneth
 890 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 891 = {
 	holding = none
@@ -6938,8 +6936,8 @@ holding = tribal_holding}
 #c_caernarfonshire
 892 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 893 = {
 	holding = none
@@ -6950,8 +6948,8 @@ holding = tribal_holding}
 #c_anglesey
 898 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 899 = {
 	holding = none
@@ -6959,8 +6957,8 @@ holding = tribal_holding}
 #c_denbighshire
 895 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 896 = {
 	holding = none
@@ -6972,8 +6970,8 @@ holding = tribal_holding}
 #c_middlesex
 754 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 755 = {
 	holding = none
@@ -6987,8 +6985,8 @@ holding = tribal_holding}
 #c_essex
 741 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 742 = {
 	holding = none
@@ -7002,8 +7000,8 @@ holding = tribal_holding}
 #c_bedford
 765 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 766 = {
 	holding = none
@@ -7014,8 +7012,8 @@ holding = tribal_holding}
 #c_hertfordshire
 759 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 758 = {
 	holding = none
@@ -7026,8 +7024,8 @@ holding = tribal_holding}
 #c_buckinghamshire
 777 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 778 = {
 	holding = none
@@ -7041,8 +7039,8 @@ holding = tribal_holding}
 #c_gloucestershire
 806 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 808 = {
 	holding = none
@@ -7050,8 +7048,8 @@ holding = tribal_holding}
 #c_oxfordshire
 784 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 785 = {
 	holding = none
@@ -7062,8 +7060,8 @@ holding = tribal_holding}
 #c_norfolk
 749 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 750 = {
 	holding = none
@@ -7077,8 +7075,8 @@ holding = tribal_holding}
 #c_suffolk
 745 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 746 = {
 	holding = none
@@ -7092,8 +7090,8 @@ holding = tribal_holding}
 #c_cambridgeshire
 761 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 762 = {
 	holding = none
@@ -7107,8 +7105,8 @@ holding = tribal_holding}
 #c_warwickshire
 829 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 830 = {
 	holding = none
@@ -7119,8 +7117,8 @@ holding = tribal_holding}
 #c_leicestershire
 840 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 841 = {
 	holding = none
@@ -7134,8 +7132,8 @@ holding = tribal_holding}
 #c_nottinghamshire
 843 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 844 = {
 	holding = none
@@ -7146,8 +7144,8 @@ holding = tribal_holding}
 #c_staffordshire
 852 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 853 = {
 	holding = none
@@ -7158,8 +7156,8 @@ holding = tribal_holding}
 #c_worcestershire
 849 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 850 = {
 	holding = none
@@ -7170,8 +7168,8 @@ holding = tribal_holding}
 #c_huntingdonshire
 768 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 769 = {
 	holding = none
@@ -7182,8 +7180,8 @@ holding = tribal_holding}
 #c_northamptonshire
 826 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 827 = {
 	holding = none
@@ -7194,8 +7192,8 @@ holding = tribal_holding}
 #c_shropshire
 871 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 872 = {
 	holding = none
@@ -7206,8 +7204,8 @@ holding = tribal_holding}
 #c_lincolnshire
 809 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 810 = {
 	holding = none
@@ -7225,8 +7223,8 @@ holding = tribal_holding}
 #c_north_riding
 821 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 822 = {
 	holding = none
@@ -7243,8 +7241,8 @@ holding = tribal_holding}
 #c_east_riding
 814 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 815 = {
 	holding = none
@@ -7255,8 +7253,8 @@ holding = tribal_holding}
 #c_west_riding
 817 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 818 = {
 	holding = none
@@ -7276,8 +7274,8 @@ holding = tribal_holding}
 #c_lancashire
 864 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 865 = {
 	holding = none
@@ -7288,8 +7286,8 @@ holding = tribal_holding}
 #c_westmorland
 862 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 863 = {
 	holding = none
@@ -7297,8 +7295,8 @@ holding = tribal_holding}
 #c_cheshire
 868 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 869 = {
 	holding = none
@@ -7309,8 +7307,8 @@ holding = tribal_holding}
 #c_derby
 846 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 847 = {
 	holding = none
@@ -7321,8 +7319,8 @@ holding = tribal_holding}
 #c_durham
 832 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 833 = {
 	holding = none
@@ -7333,8 +7331,8 @@ holding = tribal_holding}
 #c_cumberland
 837 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 860 = {
 	holding = none
@@ -7351,8 +7349,8 @@ holding = tribal_holding}
 #c_isle_of_man
 923 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 924 = {
 	holding = none
@@ -7362,8 +7360,8 @@ holding = tribal_holding}
 #c_northumberland
 835 = {
 	culture = brythonic
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 838 = {
 	holding = none
@@ -7374,8 +7372,8 @@ holding = tribal_holding}
 #c_lothian
 952 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 953 = {
 	holding = none
@@ -7389,8 +7387,8 @@ holding = tribal_holding}
 #c_dunbar
 901 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 900 = {
 	holding = none
@@ -7398,8 +7396,8 @@ holding = tribal_holding}
 #c_teviotdale
 902 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 903 = {
 	holding = none
@@ -7410,8 +7408,8 @@ holding = tribal_holding}
 #c_linlithgowshire
 956 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 957 = {
 	holding = none
@@ -7422,8 +7420,8 @@ holding = tribal_holding}
 #c_lanarkshire
 962 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 963 = {
 	holding = none
@@ -7434,8 +7432,8 @@ holding = tribal_holding}
 #c_galloway
 907 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 908 = {
 	holding = none
@@ -7446,8 +7444,8 @@ holding = tribal_holding}
 #c_carrick
 905 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 910 = {
 	holding = none
@@ -7455,8 +7453,8 @@ holding = tribal_holding}
 #c_ayrshire
 911 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 912 = {
 	holding = none
@@ -7467,8 +7465,8 @@ holding = tribal_holding}
 #c_annandale
 904 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 906 = {
 	holding = none
@@ -7477,8 +7475,8 @@ holding = tribal_holding}
 #c_gowrie
 966 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 967 = {
 	holding = none
@@ -7489,8 +7487,8 @@ holding = tribal_holding}
 #c_fife
 949 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 950 = {
 	holding = none
@@ -7501,8 +7499,8 @@ holding = tribal_holding}
 #c_strathearn
 959 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 960 = {
 	holding = none
@@ -7513,8 +7511,8 @@ holding = tribal_holding}
 #c_atholl
 968 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 969 = {
 	holding = none
@@ -7522,8 +7520,8 @@ holding = tribal_holding}
 #c_angus
 945 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 946 = {
 	holding = none
@@ -7534,8 +7532,8 @@ holding = tribal_holding}
 #c_mearns
 943 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 944 = {
 	holding = none
@@ -7546,8 +7544,8 @@ holding = tribal_holding}
 #c_lennox
 920 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 921 = {
 	holding = none
@@ -7558,8 +7556,8 @@ holding = tribal_holding}
 #c_inner_hebrides
 914 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 915 = {
 	holding = none
@@ -7570,8 +7568,8 @@ holding = tribal_holding}
 #c_outer_hebrides
 917 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 918 = {
 	holding = none
@@ -7582,8 +7580,8 @@ holding = tribal_holding}
 #c_argyll
 925 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 926 = {
 	holding = none
@@ -7597,8 +7595,8 @@ holding = tribal_holding}
 #c_moray
 940 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 941 = {
 	holding = none
@@ -7609,8 +7607,8 @@ holding = tribal_holding}
 #c_ross
 928 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 929 = {
 	holding = none
@@ -7624,8 +7622,8 @@ holding = tribal_holding}
 #c_buchan
 937 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 938 = {
 	holding = none
@@ -7636,8 +7634,8 @@ holding = tribal_holding}
 #c_sutherland
 930 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 931 = {
 	holding = none
@@ -7648,8 +7646,8 @@ holding = tribal_holding}
 #c_caithness
 932 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 933 = {
 	holding = none
@@ -7657,8 +7655,8 @@ holding = tribal_holding}
 #c_inverness
 934 = {
 	culture = pictish
-	religion = brythonnic
-	holding = tribal_holding_druidism
+	religion = brythonnic_druidism
+	holding = tribal_holding
 }
 935 = {
 	holding = none
@@ -7677,8 +7675,8 @@ holding = tribal_holding}
 #c_dublin
 23 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 24 = {
 	holding = none
@@ -7695,8 +7693,8 @@ holding = tribal_holding}
 #c_leinster
 32 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 33 = {
 	holding = none
@@ -7711,8 +7709,8 @@ holding = tribal_holding}
 #c_connacht
 15 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 18 = {
 	holding = none
@@ -7726,8 +7724,8 @@ holding = tribal_holding}
 #c_mayo
 5530 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 16 = {
 	holding = none
@@ -7742,8 +7740,8 @@ holding = tribal_holding}
 #c_ulster
 10 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 8 = {
 	holding = none
@@ -7757,8 +7755,8 @@ holding = tribal_holding}
 #c_oriel
 13 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 12 = {
 	holding = none
@@ -7775,8 +7773,8 @@ holding = tribal_holding}
 #c_ailech
 4 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 5 = {
 	holding = none
@@ -7791,8 +7789,8 @@ holding = tribal_holding}
 #c_breifne
 19 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 20 = {
 	holding = none
@@ -7809,8 +7807,8 @@ holding = tribal_holding}
 #c_athlone
 29 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 28 = {
 	holding = none
@@ -7822,8 +7820,8 @@ holding = tribal_holding}
 #c_thomond
 40 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 42 = {
 	holding = none
@@ -7837,8 +7835,8 @@ holding = tribal_holding}
 #c_ennis
 41 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 5534 = {
 	holding = none
@@ -7846,8 +7844,8 @@ holding = tribal_holding}
 #c_ormond
 44 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 45 = {
 	holding = none
@@ -7858,8 +7856,8 @@ holding = tribal_holding}
 #c_desmond
 47 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 48 = {
 	holding = none
@@ -7873,8 +7871,8 @@ holding = tribal_holding}
 #c_ossory
 38 = {
 	culture = gaelic
-	religion = irish_drui
-	holding = tribal_holdingdism
+	religion = irish_druidism
+	holding = tribal_holding
 }
 36 = {
 	holding = none
@@ -8545,8 +8543,8 @@ holding = tribal_holding
 228 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2608 = {
 	holding = none
 }
@@ -8560,8 +8558,8 @@ holding = tribal_holding}
 225 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2599 = {
 	holding = none
 }
@@ -8575,8 +8573,8 @@ holding = tribal_holding}
 2598 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2596 = {
 	holding = none
 }
@@ -8587,8 +8585,8 @@ holding = tribal_holding}
 2605 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2606 = {
 	holding = none
 }
@@ -8620,8 +8618,8 @@ holding = tribal_holding
 2603 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2604 = {
 	holding = none
 }
@@ -8683,8 +8681,8 @@ holding = tribal_holding
 229 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2673 = {
 	holding = none
 }
@@ -8701,8 +8699,8 @@ holding = tribal_holding}
 2670 = {
 	culture = illyrian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2671 = {
 	holding = none
 }
@@ -9139,8 +9137,8 @@ holding = tribal_holding}
 217 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2632 = {
 	holding = none
 }
@@ -9209,8 +9207,8 @@ holding = tribal_holding}
 2624 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2625 = {
 	holding = none
 }
@@ -9843,8 +9841,8 @@ holding = tribal_holding
 403 = {
 	culture = cilician
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4527 = {
 	holding = none
 }
@@ -9961,8 +9959,8 @@ holding = tribal_holding}
 398 = {
 	culture = pontic
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4531 = {
 	holding = none
 }
@@ -9977,8 +9975,8 @@ holding = tribal_holding}
 4536 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4534 = {
 	holding = none
 }
@@ -9989,8 +9987,8 @@ holding = tribal_holding}
 4537 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4538 = {
 	holding = none
 }
@@ -10007,8 +10005,8 @@ holding = tribal_holding}
 3812 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3813 = {
 	holding = none
 }
@@ -10028,8 +10026,8 @@ holding = tribal_holding}
 400 = {
 	culture = pontic
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4530 = {
 	holding = none
 }
@@ -10040,8 +10038,8 @@ holding = tribal_holding}
 4552 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4541 = {
 	holding = none
 }
@@ -10131,8 +10129,8 @@ holding = tribal_holding}
 3845 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3843 = {
 	holding = none
 }
@@ -10223,8 +10221,8 @@ holding = tribal_holding}
 #c_antiocheia
 4629 = {
 	culture = seleucid
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 4628 = {
 	holding = none
@@ -10254,9 +10252,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4667 = {
-	culture = persian
-	religion = mazdayasna
-	holding = tribal_holding
+	holding = none
 }
 #c_aleppo
 4652 = {
@@ -10341,8 +10337,8 @@ holding = tribal_holding}
 #c_beirut
 4637 = {
 	culture = phoenecian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 4638 = {
 	holding = none
@@ -10350,8 +10346,8 @@ holding = tribal_holding}
 #c_shayzar
 4633 = {
 	culture = phoenecian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 4632 = {
 	holding = none
@@ -10359,8 +10355,8 @@ holding = tribal_holding}
 #c_tripoli
 4636 = {
 	culture = phoenecian
-	religion = r_carthagi
-	holding = tribal_holdingnian
+	religion = r_carthaginian
+	holding = tribal_holding
 }
 4634 = {
 	holding = none
@@ -10394,13 +10390,13 @@ holding = tribal_holding}
 3769 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3220 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3221 = {
 	holding = none
 }
@@ -10444,9 +10440,7 @@ holding = tribal_holding}
 	holding = none
 }
 4740 = {
-	culture = pax_roman
-	religion = r_hellenic
-	holding = tribal_holding
+	holding = none
 }
 #c_rusafa
 4722 = {
@@ -10461,9 +10455,7 @@ holding = tribal_holding}
 	holding = none
 }
 4725 = {
-	culture = seleucid
-	religion = h_hellenic
-	holding = tribal_holding
+	holding = none
 }
 #c_wasit
 3772 = {
@@ -10484,9 +10476,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 3770 = {
-	culture = seleucid
-	religion = mazdayasna
-	holding = tribal_holding
+	holding = none
 }
 #c_baghdad
 3779 = {
@@ -10640,8 +10630,8 @@ holding = tribal_holding}
 378 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4542 = {
 	holding = none
 }
@@ -10658,8 +10648,8 @@ holding = tribal_holding}
 367 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4607 = {
 	holding = none
 }
@@ -10670,8 +10660,8 @@ holding = tribal_holding}
 368 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4606 = {
 	holding = none
 }
@@ -10682,8 +10672,8 @@ holding = tribal_holding}
 3490 = {
 	culture = med
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3489 = {
 	holding = none
 }
@@ -10703,8 +10693,8 @@ holding = tribal_holding}
 3487 = {
 	culture = caspian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3488 = {
 	holding = none
 }
@@ -10712,8 +10702,8 @@ holding = tribal_holding}
 3496 = {
 	culture = med
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2968 = {
 	holding = none
 }
@@ -10763,8 +10753,8 @@ holding = tribal_holding}
 3722 = {
 	culture = med
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3721 = {
 	holding = none
 }
@@ -10814,8 +10804,8 @@ holding = tribal_holding}
 3274 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3272 = {
 	holding = none
 }
@@ -10826,8 +10816,8 @@ holding = tribal_holding}
 2971 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3275 = {
 	holding = none
 }
@@ -10838,8 +10828,8 @@ holding = tribal_holding}
 3278 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3277 = {
 	holding = none
 }
@@ -10884,8 +10874,8 @@ holding = tribal_holding}
 2983 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2981 = {
 	holding = none
 }
@@ -10902,8 +10892,8 @@ holding = tribal_holding}
 2978 = {
 	culture = partian	
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2976 = {
 	holding = none
 }
@@ -10917,8 +10907,8 @@ holding = tribal_holding}
 3005 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3004 = {
 	holding = none
 }
@@ -10929,8 +10919,8 @@ holding = tribal_holding}
 2988 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2989 = {
 	holding = none
 }
@@ -10938,8 +10928,8 @@ holding = tribal_holding}
 2985 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2986 = {
 	holding = none
 }
@@ -10950,8 +10940,8 @@ holding = tribal_holding}
 2992 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2990 = {
 	holding = none
 }
@@ -10965,8 +10955,8 @@ holding = tribal_holding}
 2995 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2994 = {
 	holding = none
 }
@@ -10980,8 +10970,8 @@ holding = tribal_holding}
 2998 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2999 = {
 	holding = none
 }
@@ -10995,8 +10985,8 @@ holding = tribal_holding}
 3010 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3007 = {
 	holding = none
 }
@@ -11010,8 +11000,8 @@ holding = tribal_holding}
 3002 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3003 = {
 	holding = none
 }
@@ -11020,8 +11010,8 @@ holding = tribal_holding}
 3297 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3296 = {
 	holding = none
 }
@@ -11038,8 +11028,8 @@ holding = tribal_holding}
 3303 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3301 = {
 	holding = none
 }
@@ -11050,8 +11040,8 @@ holding = tribal_holding}
 3313 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3309 = {
 	holding = none
 }
@@ -11071,8 +11061,8 @@ holding = tribal_holding}
 3317 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3315 = {
 	holding = none
 }
@@ -11086,8 +11076,8 @@ holding = tribal_holding}
 3319 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3320 = {
 	holding = none
 }
@@ -11101,8 +11091,8 @@ holding = tribal_holding}
 3323 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3324 = {
 	holding = none
 }
@@ -11113,8 +11103,8 @@ holding = tribal_holding}
 3326 = {
 	culture = pax_sogdian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3327 = {
 	holding = none
 }
@@ -11143,8 +11133,8 @@ holding = tribal_holding}
 2973 = {
 	culture = baktrian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2974 = {
 	holding = none
 }
@@ -11155,8 +11145,8 @@ holding = tribal_holding}
 3186 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3183 = {
 	culture = pax_roman
 	religion = r_hellenic
@@ -11175,8 +11165,8 @@ holding = tribal_holding}
 3188 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3194 = {
 	holding = none
 }
@@ -11187,8 +11177,8 @@ holding = tribal_holding}
 3216 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3214 = {
 	holding = none
 }
@@ -11231,8 +11221,8 @@ holding = tribal_holding}
 3338 = {
 	culture = pax_sogdian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3339 = {
 	holding = none
 }
@@ -11243,8 +11233,8 @@ holding = tribal_holding}
 3336 = {
 	culture = pax_sogdian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3334 = {
 	holding = none
 }
@@ -11258,8 +11248,8 @@ holding = tribal_holding}
 3329 = {
 	culture = pax_sogdian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3328 = {
 	holding = none
 }
@@ -11279,8 +11269,8 @@ holding = tribal_holding}
 3343 = {
 	culture = pax_sogdian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3342 = {
 	holding = none
 }
@@ -11484,16 +11474,14 @@ holding = tribal_holding}
 3142 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3141 = {
 	holding = none
 }
 3143 = {
-	culture = persian
-	religion = mazdakism
-
-holding = tribal_holding}
+	holding = none
+}
 3144 = {
 	holding = none
 }
@@ -11504,8 +11492,8 @@ holding = tribal_holding}
 3058 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3059 = {
 	holding = none
 }
@@ -11516,8 +11504,8 @@ holding = tribal_holding}
 3136 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3137 = {
 	holding = none
 }
@@ -11534,8 +11522,8 @@ holding = tribal_holding}
 3267 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3263 = {
 	holding = none
 }
@@ -11552,8 +11540,8 @@ holding = tribal_holding}
 3083 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3082 = {
 	holding = none
 }
@@ -11570,8 +11558,8 @@ holding = tribal_holding}
 3160 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3162 = {
 	holding = none
 }
@@ -11588,8 +11576,8 @@ holding = tribal_holding}
 3158 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3159 = {
 	holding = none
 }
@@ -11600,8 +11588,8 @@ holding = tribal_holding}
 3156 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3153 = {
 	holding = none
 }
@@ -11618,8 +11606,8 @@ holding = tribal_holding}
 3087 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3088 = {
 	holding = none
 }
@@ -11630,8 +11618,8 @@ holding = tribal_holding}
 3270 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3271 = {
 	holding = none
 }
@@ -11639,8 +11627,8 @@ holding = tribal_holding}
 3053 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3052 = {
 	holding = none
 }
@@ -11651,8 +11639,8 @@ holding = tribal_holding}
 3061 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3062 = {
 	holding = none
 }
@@ -11666,8 +11654,8 @@ holding = tribal_holding}
 3068 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3065 = {
 	holding = none
 }
@@ -11684,16 +11672,14 @@ holding = tribal_holding}
 3077 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3078 = {
 	holding = none
 }
 3222 = {
-	culture = persian
-	religion = mazdakism
-
-holding = tribal_holding}
+	holding = none
+}
 3223 = {
 	holding = none
 }
@@ -11701,8 +11687,8 @@ holding = tribal_holding}
 3041 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3042 = {
 	holding = none
 }
@@ -11723,8 +11709,8 @@ holding = tribal_holding}
 3424 = {
 	culture = meder
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3421 = {
 	holding = none
 }
@@ -11741,8 +11727,8 @@ holding = tribal_holding}
 3247 = {
 	culture = meder
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3246 = {
 	holding = none
 }
@@ -11756,8 +11742,8 @@ holding = tribal_holding}
 3241 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3242 = {
 	holding = none
 }
@@ -11810,8 +11796,8 @@ holding = tribal_holding
 3232 = {
 	culture = meder
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3233 = {
 	holding = none
 }
@@ -11831,8 +11817,8 @@ holding = tribal_holding}
 3229 = {
 	culture = meder
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3227 = {
 	holding = none
 }
@@ -11849,8 +11835,8 @@ holding = tribal_holding}
 3238 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3239 = {
 	holding = none
 }
@@ -11861,8 +11847,8 @@ holding = tribal_holding}
 3038 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3037 = {
 	holding = none
 }
@@ -11876,8 +11862,8 @@ holding = tribal_holding}
 3048 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3047 = {
 	holding = none
 }
@@ -11894,8 +11880,8 @@ holding = tribal_holding}
 3054 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3055 = {
 	holding = none
 }
@@ -11906,8 +11892,8 @@ holding = tribal_holding}
 3150 = {
 	culture = meder
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3151 = {
 	holding = none
 }
@@ -11918,8 +11904,8 @@ holding = tribal_holding}
 3418 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3416 = {
 	holding = none
 }
@@ -11936,8 +11922,8 @@ holding = tribal_holding}
 3437 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3435 = {
 	holding = none
 }
@@ -11955,8 +11941,8 @@ holding = tribal_holding}
 3180 = {
 	culture = baktrian	
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3181 = {
 	holding = none
 }
@@ -11967,8 +11953,8 @@ holding = tribal_holding}
 3175 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3172 = {
 	holding = none
 }
@@ -11985,8 +11971,8 @@ holding = tribal_holding}
 3177 = {
 	culture = baktrian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3178 = {
 	holding = none
 }
@@ -11997,8 +11983,8 @@ holding = tribal_holding}
 3169 = {
 	culture = baktrian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3170 = {
 	holding = none
 }
@@ -12009,8 +11995,8 @@ holding = tribal_holding}
 3168 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3167 = {
 	holding = none
 }
@@ -12018,8 +12004,8 @@ holding = tribal_holding}
 3251 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3250 = {
 	holding = none
 }
@@ -12036,8 +12022,8 @@ holding = tribal_holding}
 3245 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3257 = {
 	holding = none
 }
@@ -12051,8 +12037,8 @@ holding = tribal_holding}
 3261 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3255 = {
 	holding = none
 }
@@ -12066,8 +12052,8 @@ holding = tribal_holding}
 3027 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3028 = {
 	holding = none
 }
@@ -12084,8 +12070,8 @@ holding = tribal_holding}
 3033 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3032 = {
 	holding = none
 }
@@ -12102,8 +12088,8 @@ holding = tribal_holding}
 3190 = {
 	culture = baktrian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3189 = {
 	holding = none
 }
@@ -12117,8 +12103,8 @@ holding = tribal_holding}
 3166 = {
 	culture = baktrian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3193 = {
 	holding = none
 }
@@ -12129,8 +12115,8 @@ holding = tribal_holding}
 3196 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3197 = {
 	holding = none
 }
@@ -12246,8 +12232,8 @@ holding = tribal_holding
 653 = {
 	culture = mauryan
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2506 = {
 	holding = none
 }
@@ -12255,8 +12241,8 @@ holding = tribal_holding}
 3474 = {
 	culture = mauryan
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3475 = {
 	holding = none
 }
@@ -12267,8 +12253,8 @@ holding = tribal_holding}
 3453 = {
 	culture = mauryan
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3454 = {
 	holding = none
 }
@@ -12285,8 +12271,8 @@ holding = tribal_holding}
 3442 = {
 	culture = baktrian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3443 = {
 	holding = none
 }
@@ -12303,8 +12289,8 @@ holding = tribal_holding}
 3452 = {
 	culture = mauryan
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3447 = {
 	holding = none
 }
@@ -12321,8 +12307,8 @@ holding = tribal_holding}
 3460 = {
 	culture = mauryan
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3462 = {
 	holding = none
 }
@@ -12330,8 +12316,8 @@ holding = tribal_holding}
 3457 = {
 	culture = mauryan
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3456 = {
 	holding = none
 }
@@ -12345,8 +12331,8 @@ holding = tribal_holding}
 3305 = {
 	culture = baktrian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3304 = {
 	holding = none
 }
@@ -12363,8 +12349,8 @@ holding = tribal_holding}
 3468 = {
 	culture = mauryan
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3467 = {
 	holding = none
 }
@@ -12648,9 +12634,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 3838 = {
-	culture = persian
-	religion = mazdayasna
-	holding = tribal_holding
+	holding = none
 }
 #c_palmyra
 4666 = {
@@ -12671,9 +12655,7 @@ holding = tribal_holding}
 	holding = none
 }
 4664 = {
-	culture = persian
-	religion = mazdayasna
-	holding = tribal_holding
+	holding = none
 }
 #c_syrrusafa
 4658 = {
@@ -12682,17 +12664,15 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4657 = {
-	culture = persian
-	religion = mazdayasna
-	holding = tribal_holding
+	holding = none
 }
 #d_peithon
 #c_rayy
 3281 = {
 	culture = hyrcani
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3280 = {
 	holding = none
 }
@@ -12709,8 +12689,8 @@ holding = tribal_holding}
 3012 = {
 	culture = partian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3011 = {
 	holding = none
 }
@@ -12718,8 +12698,8 @@ holding = tribal_holding}
 3074 = {
 	culture = med
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3075 = {
 	holding = none
 }
@@ -12730,8 +12710,8 @@ holding = tribal_holding}
 3071 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3070 = {
 	holding = none
 }
@@ -12745,8 +12725,8 @@ holding = tribal_holding}
 3013 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3014 = {
 	holding = none
 }
@@ -12760,8 +12740,8 @@ holding = tribal_holding}
 3019 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3017 = {
 	holding = none
 }
@@ -12781,8 +12761,8 @@ holding = tribal_holding}
 3023 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3024 = {
 	holding = none
 }
@@ -12814,8 +12794,8 @@ holding = tribal_holding}
 3081 = {
 	culture = med
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3079 = {
 	holding = none
 }
@@ -12868,8 +12848,8 @@ holding = tribal_holding}
 3225 = {
 	culture = persian
 	religion = mazdakism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3737 = {
 	holding = none
 }
@@ -12885,9 +12865,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4819 = {
-	culture = greek
-	religion = p_hellenic
-	holding = tribal_holding
+	holding = none
 }
 4820 = {
 	holding = none
@@ -12943,8 +12921,8 @@ holding = tribal_holding}
 #c_nasamonia
 5195 = {
 	culture = libyan
-	religion = north_afri
-	holding = tribal_holdingcan_acham_pagan
+	religion = north_african_acham_pagan
+	holding = tribal_holding
 }
 5172 = {
 	holding = none
@@ -13081,9 +13059,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4776 = {
-	culture = ptolemaic
-	religion = p_hellenic
-	holding = tribal_holding
+	holding = none
 }
 4778 = {
 	holding = none
@@ -13113,9 +13089,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4779 = {
-	culture = pax_roman
-	religion = r_hellenic
-	holding = tribal_holding
+	holding = none
 }
 4781 = {
 	holding = none
@@ -13127,9 +13101,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4785 = {
-	culture = egyptian
-	religion = kemeticism
-	holding = tribal_holding
+	holding = none
 }
 4786 = {
 	holding = none
@@ -13171,9 +13143,7 @@ holding = tribal_holding}
 	holding = tribal_holding
 }
 4807 = {
-	culture = egyptian
-	religion = kemeticism
-	holding = tribal_holding
+	holding = none
 }
 4808 = {
 	holding = none
@@ -13312,8 +13282,8 @@ holding = tribal_holding}
 4827 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5105 = {
 	holding = none
 }
@@ -13321,8 +13291,8 @@ holding = tribal_holding}
 4830 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4828 = {
 	holding = none
 }
@@ -13333,8 +13303,8 @@ holding = tribal_holding}
 5090 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5089 = {
 	holding = none
 }
@@ -13348,8 +13318,8 @@ holding = tribal_holding}
 5092 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5099 = {
 	holding = none
 }
@@ -13388,8 +13358,8 @@ holding = tribal_holding}
 4683 = {
 	culture = hebrew
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4681 = {
 	holding = none
 }
@@ -13403,8 +13373,8 @@ holding = tribal_holding}
 4686 = {
 	culture = phoenecian
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4685 = {
 	holding = none
 }
@@ -13412,8 +13382,8 @@ holding = tribal_holding}
 4680 = {
 	culture = phoenecian
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4679 = {
 	holding = none
 }
@@ -13430,8 +13400,8 @@ holding = tribal_holding}
 4678 = {
 	culture = phoenecian
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4639 = {
 	holding = none
 }
@@ -13439,8 +13409,8 @@ holding = tribal_holding}
 4676 = {
 	culture = seleucid
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4703 = {
 	holding = none
 }
@@ -13510,13 +13480,11 @@ holding = tribal_holding}
 #c_abwab
 5080 = {
 	culture = nubian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5081 = {
-	culture = pax_roman
-	religion = r_hellenic
-	holding = tribal_holding
+	holding = none
 }
 5082 = {
 	holding = none
@@ -13530,8 +13498,8 @@ holding = tribal_holding}
 #c_atbara
 5073 = {
 	culture = nubian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5072 = {
 	holding = none
@@ -13548,8 +13516,8 @@ holding = tribal_holding}
 #c_alodia
 5111 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5108 = {
 	holding = none
@@ -13566,8 +13534,8 @@ holding = tribal_holding}
 #c_naga
 5124 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5125 = {
 	holding = none
@@ -13581,8 +13549,8 @@ holding = tribal_holding}
 #c_ushara
 5110 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5107 = {
 	holding = none
@@ -13595,8 +13563,8 @@ holding = tribal_holding}
 5093 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5102 = {
 	holding = none
 }
@@ -13610,8 +13578,8 @@ holding = tribal_holding}
 5153 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5131 = {
 	holding = none
 }
@@ -13622,16 +13590,16 @@ holding = tribal_holding}
 5151 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5152 = {
 	holding = none
 }
 #c_kassala
 5129 = {
 	culture = pax_blemmyian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5128 = {
 	holding = none
@@ -13643,8 +13611,8 @@ holding = tribal_holding}
 5095 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5096 = {
 	holding = none
 }
@@ -13655,8 +13623,8 @@ holding = tribal_holding}
 5094 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5088 = {
 	holding = none
 }
@@ -13664,8 +13632,8 @@ holding = tribal_holding}
 5097 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5154 = {
 	holding = none
 }
@@ -13674,8 +13642,8 @@ holding = tribal_holding}
 #c_tigre
 5368 = {
 	culture = ethiosemitic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5369 = {
 	holding = none
@@ -13693,8 +13661,8 @@ holding = tribal_holding}
 5362 = {
 	culture = ethiosemitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5361 = {
 	holding = none
 }
@@ -13704,8 +13672,8 @@ holding = tribal_holding}
 #c_intarta
 5373 = {
 	culture = ethiosemitic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5363 = {
 	holding = none
@@ -13723,8 +13691,8 @@ holding = tribal_holding}
 5359 = {
 	culture = sabean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5360 = {
 	holding = none
 }
@@ -13732,8 +13700,8 @@ holding = tribal_holding}
 5357 = {
 	culture = pax_blemmyian
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5358 = {
 	holding = none
 }
@@ -13741,8 +13709,8 @@ holding = tribal_holding}
 5365 = {
 	culture = sabean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5366 = {
 	holding = none
 }
@@ -13752,8 +13720,8 @@ holding = tribal_holding}
 #c_dembiya
 5391 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5386 = {
 	holding = none
@@ -13764,8 +13732,8 @@ holding = tribal_holding}
 #c_begemder
 5388 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5385 = {
 	holding = none
@@ -13785,8 +13753,8 @@ holding = tribal_holding}
 #c_semien
 5382 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5383 = {
 	holding = none
@@ -13797,8 +13765,8 @@ holding = tribal_holding}
 #c_agaw_meder
 5393 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5394 = {
 	holding = none
@@ -13809,8 +13777,8 @@ holding = tribal_holding}
 #c_wolqayt
 5149 = {
 	culture = pax_blemmyian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5158 = {
 	holding = none
@@ -13821,8 +13789,8 @@ holding = tribal_holding}
 #c_showak
 5150 = {
 	culture = pax_blemmyian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5156 = {
 	holding = none
@@ -13833,8 +13801,8 @@ holding = tribal_holding}
 #c_sennar
 5117 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5119 = {
 	holding = none
@@ -13845,19 +13813,17 @@ holding = tribal_holding}
 #c_fazughli
 5147 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5148 = {
-	culture = nubian
-	religion = kemeticism
-	holding = tribal_holding
+	holding = none
 }
 #c_gezira
 5113 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5115 = {
 	holding = none
@@ -13871,13 +13837,11 @@ holding = tribal_holding}
 #c_eleila
 5122 = {
 	culture = nilotic
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5121 = {
-	culture = nubian
-	religion = kemeticism
-	holding = tribal_holding
+	holding = none
 }
 5123 = {
 	holding = none
@@ -13886,8 +13850,8 @@ holding = tribal_holding}
 #c_danakil
 5405 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5404 = {
 	holding = none
@@ -13899,16 +13863,16 @@ holding = tribal_holding}
 5403 = {
 	culture = sabean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5402 = {
 	holding = none
 }
 #c_afar
 5410 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5408 = {
 	holding = none
@@ -13920,8 +13884,8 @@ holding = tribal_holding}
 5413 = {
 	culture = sabean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5411 = {
 	holding = none
 }
@@ -13931,8 +13895,8 @@ holding = tribal_holding}
 #c_lasta
 5380 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5376 = {
 	holding = none
@@ -13949,8 +13913,8 @@ holding = tribal_holding}
 #c_hayq
 5400 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5407 = {
 	holding = none
@@ -13958,8 +13922,8 @@ holding = tribal_holding}
 #c_angot
 5387 = {
 	culture = pax_ethiopian
-	religion = kushitism_
-	holding = tribal_holdingpagan
+	religion = kushitism_pagan
+	holding = tribal_holding
 }
 5397 = {
 	holding = none
@@ -13974,8 +13938,8 @@ holding = tribal_holding}
 4993 = {
 	culture = sabean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4989 = {
 	holding = none
 }
@@ -13992,8 +13956,8 @@ holding = tribal_holding}
 4957 = {
 	culture = sabean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4958 = {
 	holding = none
 }
@@ -14007,8 +13971,8 @@ holding = tribal_holding}
 4960 = {
 	culture = minaean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4959 = {
 	holding = none
 }
@@ -14016,8 +13980,8 @@ holding = tribal_holding}
 4997 = {
 	culture = qataban
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4995 = {
 	holding = none
 }
@@ -14031,8 +13995,8 @@ holding = tribal_holding}
 5001 = {
 	culture = qataban
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5002 = {
 	holding = none
 }
@@ -14049,16 +14013,14 @@ holding = tribal_holding}
 4999 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5000 = {
 	holding = none
 }
 5006 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 5007 = {
 	holding = none
 }
@@ -14066,8 +14028,8 @@ holding = tribal_holding}
 5008 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5009 = {
 	holding = none
 }
@@ -14081,8 +14043,8 @@ holding = tribal_holding}
 5015 = {
 	culture = qataban
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5013 = {
 	holding = none
 }
@@ -14093,8 +14055,8 @@ holding = tribal_holding}
 5016 = {
 	culture = minaean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5017 = {
 	holding = none
 }
@@ -14105,8 +14067,8 @@ holding = tribal_holding}
 5023 = {
 	culture = qataban
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5021 = {
 	holding = none
 }
@@ -14123,19 +14085,17 @@ holding = tribal_holding}
 5019 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5020 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 #c_kinda_sakun
 5026 = {
 	culture = qataban
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5027 = {
 	holding = none
 }
@@ -14143,13 +14103,11 @@ holding = tribal_holding}
 5029 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5010 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 5028 = {
 	holding = none
 }
@@ -14157,14 +14115,14 @@ holding = tribal_holding}
 5030 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 #c_socotra
 672 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 661 = {
 	holding = none
 }
@@ -14173,8 +14131,8 @@ holding = tribal_holding}
 4857 = {
 	culture = magan
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4856 = {
 	holding = none
 }
@@ -14185,8 +14143,8 @@ holding = tribal_holding}
 4848 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4846 = {
 	holding = none
 }
@@ -14203,8 +14161,8 @@ holding = tribal_holding}
 4851 = {
 	culture = magan
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4852 = {
 	holding = none
 }
@@ -14215,8 +14173,8 @@ holding = tribal_holding}
 4854 = {
 	culture = magan
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4855 = {
 	holding = none
 }
@@ -14224,8 +14182,8 @@ holding = tribal_holding}
 4861 = {
 	culture = magan
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4860 = {
 	holding = none
 }
@@ -14242,8 +14200,8 @@ holding = tribal_holding}
 4986 = {
 	culture = magan
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4985 = {
 	holding = none
 }
@@ -14251,8 +14209,8 @@ holding = tribal_holding}
 5031 = {
 	culture = hadramaut
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 5032 = {
 	holding = none
 }
@@ -14266,8 +14224,8 @@ holding = tribal_holding}
 4865 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4866 = {
 	holding = none
 }
@@ -14277,8 +14235,8 @@ holding = tribal_holding}
 4871 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4869 = {
 	holding = none
 }
@@ -14289,12 +14247,10 @@ holding = tribal_holding}
 4872 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
-4867 = {
-	culture = pax_roman
-	religion = r_hellenic
 	holding = tribal_holding
+}
+4867 = {
+	holding = none
 }
 4868 = {
 	holding = none
@@ -14303,8 +14259,8 @@ holding = tribal_holding}
 4880 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 #c_qatif
 4875 = {
 	holding = none
@@ -14318,20 +14274,20 @@ holding = tribal_holding}
 4877 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 #c_uwal
 4873 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 #c_samman
 4878 = {
 	culture = hasaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4879 = {
 	holding = none
 }
@@ -14348,8 +14304,8 @@ holding = tribal_holding}
 4970 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4968 = {
 	holding = none
 }
@@ -14360,8 +14316,8 @@ holding = tribal_holding}
 4971 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4972 = {
 	holding = none
 }
@@ -14369,8 +14325,8 @@ holding = tribal_holding}
 4967 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4965 = {
 	holding = none
 }
@@ -14382,8 +14338,8 @@ holding = tribal_holding}
 4982 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4923 = {
 	holding = none
 }
@@ -14403,13 +14359,11 @@ holding = tribal_holding}
 4946 = {
 	culture = northern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4945 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 4947 = {
 	holding = none
 }
@@ -14420,8 +14374,8 @@ holding = tribal_holding}
 4889 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4898 = {
 	holding = none
 }
@@ -14441,8 +14395,8 @@ holding = tribal_holding}
 4977 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4888 = {
 	holding = none
 }
@@ -14453,8 +14407,8 @@ holding = tribal_holding}
 4979 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4978 = {
 	holding = none
 }
@@ -14468,27 +14422,23 @@ holding = tribal_holding}
 4974 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4975 = {
 	holding = none
 }
 4976 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 #c_thalabiya
 4885 = {
 	culture = arab
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4886 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 4887 = {
 	holding = none
 }
@@ -14508,8 +14458,8 @@ holding = tribal_holding}
 4895 = {
 	culture = dumaitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4893 = {
 	holding = none
 }
@@ -14521,8 +14471,8 @@ holding = tribal_holding}
 4940 = {
 	culture = southern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4937 = {
 	holding = none
 }
@@ -14539,12 +14489,10 @@ holding = tribal_holding}
 4942 = {
 	culture = southern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
-4950 = {
-	culture = pax_roman
-	religion = r_hellenic
 	holding = tribal_holding
+}
+4950 = {
+	holding = none
 }
 4951 = {
 	holding = none
@@ -14553,12 +14501,10 @@ holding = tribal_holding}
 4941 = {
 	culture = southern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
-4955 = {
-	culture = pax_roman
-	religion = r_hellenic
 	holding = tribal_holding
+}
+4955 = {
+	holding = none
 }
 4956 = {
 	holding = none
@@ -14567,8 +14513,8 @@ holding = tribal_holding}
 4952 = {
 	culture = southern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4953 = {
 	holding = none
 }
@@ -14579,8 +14525,8 @@ holding = tribal_holding}
 4963 = {
 	culture = northern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4962 = {
 	holding = none
 }
@@ -14591,8 +14537,8 @@ holding = tribal_holding}
 4961 = {
 	culture = southern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4949 = {
 	holding = none
 }
@@ -14600,16 +14546,14 @@ holding = tribal_holding}
 4929 = {
 	culture = northern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4928 = {
 	holding = none
 }
 4930 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 4936 = {
 	holding = none
 }
@@ -14617,13 +14561,11 @@ holding = tribal_holding}
 4917 = {
 	culture = northern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4924 = {
-	culture = northern-thamudic
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 4916 = {
 	holding = none
 }
@@ -14637,8 +14579,8 @@ holding = tribal_holding}
 4926 = {
 	culture = northern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4927 = {
 	holding = none
 }
@@ -14649,16 +14591,14 @@ holding = tribal_holding}
 4935 = {
 	culture = northern-thamudic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4933 = {
 	holding = none
 }
 4934 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 4944 = {
 	holding = none
 }
@@ -14668,8 +14608,8 @@ holding = tribal_holding}
 4698 = {
 	culture = moabite
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4696 = {
 	holding = none
 }
@@ -14680,8 +14620,8 @@ holding = tribal_holding}
 4687 = {
 	culture = nabataean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4689 = {
 	holding = none
 }
@@ -14695,13 +14635,11 @@ holding = tribal_holding}
 4750 = {
 	culture = nabataean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4749 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 4751 = {
 	holding = none
 }
@@ -14715,8 +14653,8 @@ holding = tribal_holding}
 4747 = {
 	culture = nabataean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4748 = {
 	holding = none
 }
@@ -14724,8 +14662,8 @@ holding = tribal_holding}
 4702 = {
 	culture = seleucid
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4704 = {
 	holding = none
 }
@@ -14736,8 +14674,8 @@ holding = tribal_holding}
 4699 = {
 	culture = seleucid
 	religion = rabbinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4700 = {
 	holding = none
 }
@@ -14767,8 +14705,8 @@ holding = tribal_holding}
 4905 = {
 	culture = hismaic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4903 = {
 	holding = none
 }
@@ -14779,8 +14717,8 @@ holding = tribal_holding}
 4692 = {
 	culture = hismaic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4900 = {
 	holding = none
 }
@@ -14800,8 +14738,8 @@ holding = tribal_holding}
 4694 = {
 	culture = nabataean
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4693 = {
 	holding = none
 }
@@ -14812,8 +14750,8 @@ holding = tribal_holding}
 4909 = {
 	culture = taymanitic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4907 = {
 	holding = none
 }
@@ -14824,8 +14762,8 @@ holding = tribal_holding}
 4914 = {
 	culture = hismaic
 	religion = beduinism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4911 = {
 	holding = none
 }
@@ -14833,10 +14771,8 @@ holding = tribal_holding}
 	holding = none
 }
 4913 = {
-	culture = arab
-	religion = beduinism
-
-holding = tribal_holding}
+	holding = none
+}
 #e_dacia
 #k_dacia_superior
 #d_dacia_superior
@@ -14844,8 +14780,8 @@ holding = tribal_holding}
 3929 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3930 = {
 	holding = none
 }
@@ -14853,8 +14789,8 @@ holding = tribal_holding}
 239 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3926 = {
 	holding = none
 }
@@ -14868,8 +14804,8 @@ holding = tribal_holding}
 3932 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3933 = {
 	holding = none
 }
@@ -14883,8 +14819,8 @@ holding = tribal_holding}
 3936 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3937 = {
 	holding = none
 }
@@ -14895,8 +14831,8 @@ holding = tribal_holding}
 3941 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 237 = {
 	holding = none
 }
@@ -14916,8 +14852,8 @@ holding = tribal_holding}
 3946 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3947 = {
 	holding = none
 }
@@ -14925,8 +14861,8 @@ holding = tribal_holding}
 3948 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3949 = {
 	holding = none
 }
@@ -14937,8 +14873,8 @@ holding = tribal_holding}
 3951 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3952 = {
 	holding = none
 }
@@ -14949,8 +14885,8 @@ holding = tribal_holding}
 3954 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3955 = {
 	holding = none
 }
@@ -14958,8 +14894,8 @@ holding = tribal_holding}
 238 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3960 = {
 	holding = none
 }
@@ -14973,8 +14909,8 @@ holding = tribal_holding}
 3956 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3957 = {
 	holding = none
 }
@@ -14985,8 +14921,8 @@ holding = tribal_holding}
 3940 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3931 = {
 	holding = none
 }
@@ -14997,8 +14933,8 @@ holding = tribal_holding}
 2937 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2938 = {
 	holding = none
 }
@@ -15010,8 +14946,8 @@ holding = tribal_holding}
 242 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2941 = {
 	holding = none
 }
@@ -15031,8 +14967,8 @@ holding = tribal_holding}
 2946 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2947 = {
 	holding = none
 }
@@ -15040,8 +14976,8 @@ holding = tribal_holding}
 263 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2935 = {
 	holding = none
 }
@@ -15055,8 +14991,8 @@ holding = tribal_holding}
 2948 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2949 = {
 	holding = none
 }
@@ -15070,8 +15006,8 @@ holding = tribal_holding}
 2930 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2931 = {
 	holding = none
 }
@@ -15088,8 +15024,8 @@ holding = tribal_holding}
 2925 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2926 = {
 	holding = none
 }
@@ -15108,8 +15044,8 @@ holding = tribal_holding}
 223 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2677 = {
 	holding = none
 }
@@ -15126,8 +15062,8 @@ holding = tribal_holding}
 2697 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2696 = {
 	holding = none
 }
@@ -15138,8 +15074,8 @@ holding = tribal_holding}
 216 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2629 = {
 	holding = none
 }
@@ -15153,8 +15089,8 @@ holding = tribal_holding}
 2642 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2641 = {
 	holding = none
 }
@@ -15168,8 +15104,8 @@ holding = tribal_holding}
 2638 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2639 = {
 	holding = none
 }
@@ -15180,8 +15116,8 @@ holding = tribal_holding}
 2634 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2635 = {
 	holding = none
 }
@@ -15192,8 +15128,8 @@ holding = tribal_holding}
 2662 = {
 	culture = paeonian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2660 = {
 	holding = none
 }
@@ -15253,8 +15189,8 @@ holding = tribal_holding}
 222 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2688 = {
 	holding = none
 }
@@ -15268,8 +15204,8 @@ holding = tribal_holding}
 233 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2700 = {
 	holding = none
 }
@@ -15283,8 +15219,8 @@ holding = tribal_holding}
 221 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2699 = {
 	holding = none
 }
@@ -15295,8 +15231,8 @@ holding = tribal_holding}
 224 = {
 	culture = paeonian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2667 = {
 	holding = none
 }
@@ -15310,8 +15246,8 @@ holding = tribal_holding}
 2664 = {
 	culture = paeonian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2663 = {
 	holding = none
 }
@@ -15325,8 +15261,8 @@ holding = tribal_holding}
 230 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2685 = {
 	holding = none
 }
@@ -15340,8 +15276,8 @@ holding = tribal_holding}
 2695 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 231 = {
 	holding = none
 }
@@ -15361,8 +15297,8 @@ holding = tribal_holding}
 2684 = {
 	culture = thracian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2681 = {
 	holding = none
 }
@@ -15378,8 +15314,8 @@ holding = tribal_holding}
 240 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2886 = {
 	holding = none
 }
@@ -15390,8 +15326,8 @@ holding = tribal_holding}
 2911 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2912 = {
 	holding = none
 }
@@ -15399,8 +15335,8 @@ holding = tribal_holding}
 2888 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2889 = {
 	holding = none
 }
@@ -15411,8 +15347,8 @@ holding = tribal_holding}
 2883 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2884 = {
 	holding = none
 }
@@ -15423,8 +15359,8 @@ holding = tribal_holding}
 244 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2878 = {
 	holding = none
 }
@@ -15447,8 +15383,8 @@ holding = tribal_holding
 243 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2905 = {
 	holding = none
 }
@@ -15468,8 +15404,8 @@ holding = tribal_holding}
 2909 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2910 = {
 	holding = none
 }
@@ -15480,8 +15416,8 @@ holding = tribal_holding}
 2879 = {
 	culture = dacian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2880 = {
 	holding = none
 }
@@ -15492,8 +15428,8 @@ holding = tribal_holding}
 2895 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2896 = {
 	holding = none
 }
@@ -15507,8 +15443,8 @@ holding = tribal_holding}
 2913 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2914 = {
 	holding = none
 }
@@ -15559,8 +15495,8 @@ holding = tribal_holding
 2876 = {
 	culture = boier
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2877 = {
 	holding = none
 }
@@ -15607,8 +15543,8 @@ holding = tribal_holding
 4592 = {
 	culture = albanian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4593 = {
 	holding = none
 }
@@ -15622,8 +15558,8 @@ holding = tribal_holding}
 365 = {
 	culture = albanian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4595 = {
 	holding = none
 }
@@ -15637,8 +15573,8 @@ holding = tribal_holding}
 4598 = {
 	culture = albanian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4599 = {
 	holding = none
 }
@@ -15649,8 +15585,8 @@ holding = tribal_holding}
 4611 = {
 	culture = caspian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4609 = {
 	holding = none
 }
@@ -15670,8 +15606,8 @@ holding = tribal_holding}
 377 = {
 	culture = pax_armenian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4546 = {
 	holding = none
 }
@@ -15688,8 +15624,8 @@ holding = tribal_holding}
 4555 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4554 = {
 	holding = none
 }
@@ -15700,8 +15636,8 @@ holding = tribal_holding}
 4604 = {
 	culture = albanian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4601 = {
 	holding = none
 }
@@ -15721,8 +15657,8 @@ holding = tribal_holding}
 4580 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4579 = {
 	holding = none
 }
@@ -15733,8 +15669,8 @@ holding = tribal_holding}
 566 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4582 = {
 	holding = none
 }
@@ -15745,8 +15681,8 @@ holding = tribal_holding}
 372 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4584 = {
 	holding = none
 }
@@ -15766,8 +15702,8 @@ holding = tribal_holding}
 4589 = {
 	culture = albanian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4590 = {
 	holding = none
 }
@@ -15781,8 +15717,8 @@ holding = tribal_holding}
 4558 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4557 = {
 	holding = none
 }
@@ -15812,8 +15748,8 @@ holding = tribal_holding
 320 = {
 	culture = colchian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4568 = {
 	holding = none
 }
@@ -15830,8 +15766,8 @@ holding = tribal_holding}
 4573 = {
 	culture = colchian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4572 = {
 	holding = none
 }
@@ -15842,8 +15778,8 @@ holding = tribal_holding}
 373 = {
 	culture = colchian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4575 = {
 	holding = none
 }
@@ -15857,8 +15793,8 @@ holding = tribal_holding}
 4561 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4559 = {
 	holding = none
 }
@@ -15869,8 +15805,8 @@ holding = tribal_holding}
 4564 = {
 	culture = kartvelian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4563 = {
 	holding = none
 }
@@ -15936,8 +15872,8 @@ holding = tribal_holding
 370 = {
 	culture = maotian
 	religion = urartuism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 371 = {
 	holding = none
 }
@@ -16330,8 +16266,8 @@ holding = tribal_holding
 3966 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3967 = {
 	holding = none
 }
@@ -16339,8 +16275,8 @@ holding = tribal_holding}
 235 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3962 = {
 	holding = none
 }
@@ -16348,8 +16284,8 @@ holding = tribal_holding}
 3963 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3964 = {
 	holding = none
 }
@@ -16360,8 +16296,8 @@ holding = tribal_holding}
 3968 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3969 = {
 	holding = none
 }
@@ -16369,8 +16305,8 @@ holding = tribal_holding}
 264 = {
 	culture = carpi
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3974 = {
 	holding = none
 }
@@ -16399,8 +16335,8 @@ holding = tribal_holding
 236 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3976 = {
 	holding = none
 }
@@ -16411,8 +16347,8 @@ holding = tribal_holding}
 234 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3978 = {
 	holding = none
 }
@@ -16423,8 +16359,8 @@ holding = tribal_holding}
 3980 = {
 	culture = getian
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3981 = {
 	holding = none
 }
@@ -16588,8 +16524,8 @@ holding = tribal_holding
 #c_chah
 652 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5267 = {
 	holding = none
@@ -16606,8 +16542,8 @@ holding = tribal_holding
 #c_otrar
 703 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5271 = {
 	holding = none
@@ -16621,8 +16557,8 @@ holding = tribal_holding
 #c_sutkend
 651 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5266 = {
 	holding = none
@@ -16633,8 +16569,8 @@ holding = tribal_holding
 #c_quriltay
 5265 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5253 = {
 	holding = none
@@ -16648,8 +16584,8 @@ holding = tribal_holding
 #c_shavgar
 5258 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5259 = {
 	holding = none
@@ -16663,8 +16599,8 @@ holding = tribal_holding
 #c_jend
 508 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5245 = {
 	holding = none
@@ -16678,8 +16614,8 @@ holding = tribal_holding
 #c_sighnaq
 5255 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5251 = {
 	holding = none
@@ -16693,8 +16629,8 @@ holding = tribal_holding
 #c_uzgend_KARA
 5257 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5250 = {
 	holding = none
@@ -16705,8 +16641,8 @@ holding = tribal_holding
 #c_yangikent
 507 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5242 = {
 	holding = none
@@ -16720,8 +16656,8 @@ holding = tribal_holding
 #c_raimskoe
 5243 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5241 = {
 	holding = none
@@ -16736,8 +16672,8 @@ holding = tribal_holding
 #c_sarykamysh
 3481 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 3477 = {
 	holding = none
@@ -16757,8 +16693,8 @@ holding = tribal_holding
 #c_uzboy
 3483 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 3375 = {
 	holding = none
@@ -16776,8 +16712,8 @@ holding = tribal_holding
 3409 = {
 	culture = pax_kharesmian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3407 = {
 	holding = none
 }
@@ -16800,8 +16736,8 @@ holding = tribal_holding}
 3394 = {
 	culture = pax_kharesmian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3393 = {
 	holding = none
 }
@@ -16815,8 +16751,8 @@ holding = tribal_holding}
 3401 = {
 	culture = pax_kharesmian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3397 = {
 	holding = none
 }
@@ -16833,8 +16769,8 @@ holding = tribal_holding}
 3405 = {
 	culture = pax_kharesmian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3402 = {
 	holding = none
 }
@@ -16851,8 +16787,8 @@ holding = tribal_holding}
 3413 = {
 	culture = pax_kharesmian
 	religion = khurmazta
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3412 = {
 	holding = none
 }
@@ -16865,8 +16801,8 @@ holding = tribal_holding}
 #c_mangyshlak
 341 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5210 = {
 	holding = none
@@ -16886,13 +16822,11 @@ holding = tribal_holding}
 #c_garabogazkol
 344 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 348 = {
-	culture = pax_roman
-	religion = r_hellenic
-	holding = tribal_holding
+	holding = none
 }
 5217 = {
 	holding = none
@@ -16909,8 +16843,8 @@ holding = tribal_holding}
 #c_ustyurt
 342 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5209 = {
 	holding = none
@@ -16924,8 +16858,8 @@ holding = tribal_holding}
 #c_ak-dzulpas
 339 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5229 = {
 	holding = none
@@ -16936,8 +16870,8 @@ holding = tribal_holding}
 #c_aralkizil
 340 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5223 = {
 	holding = none
@@ -16951,8 +16885,8 @@ holding = tribal_holding}
 #c_qoshagyl
 5197 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5198 = {
 	holding = none
@@ -16969,8 +16903,8 @@ holding = tribal_holding}
 #c_akkityk
 338 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5225 = {
 	holding = none
@@ -16987,8 +16921,8 @@ holding = tribal_holding}
 #c_kos-buwak
 5202 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5203 = {
 	holding = none
@@ -17004,8 +16938,8 @@ holding = tribal_holding}
 #c_atyrau
 335 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5283 = {
 	holding = none
@@ -17019,8 +16953,8 @@ holding = tribal_holding}
 #c_sagiz
 5288 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5287 = {
 	holding = none
@@ -17037,8 +16971,8 @@ holding = tribal_holding}
 #c_manatau
 5282 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5284 = {
 	holding = none
@@ -17052,8 +16986,8 @@ holding = tribal_holding}
 #c_aqtobe
 505 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4335 = {
 	holding = none
@@ -17067,8 +17001,8 @@ holding = tribal_holding}
 #c_pecheneg
 333 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4338 = {
 	holding = none
@@ -17079,8 +17013,8 @@ holding = tribal_holding}
 #c_jambalar
 4340 = {
 	culture = legian
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4341 = {
 	holding = none
@@ -17094,8 +17028,8 @@ holding = tribal_holding}
 #c_itil
 337 = {
 	culture = legian
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 336 = {
 	holding = none
@@ -17109,8 +17043,8 @@ holding = tribal_holding}
 #c_saqsin
 4220 = {
 	culture = legian
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4224 = {
 	holding = none
@@ -17121,8 +17055,8 @@ holding = tribal_holding}
 #c_uzen
 334 = {
 	culture = legian
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4221 = {
 	holding = none
@@ -17139,8 +17073,8 @@ holding = tribal_holding}
 #c_yaitsk
 4226 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4225 = {
 	holding = none
@@ -17154,8 +17088,8 @@ holding = tribal_holding}
 #c_orenburg
 4337 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 506 = {
 	holding = none
@@ -17169,8 +17103,8 @@ holding = tribal_holding}
 #c_atamansku
 5308 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5307 = {
 	holding = none
@@ -17184,8 +17118,8 @@ holding = tribal_holding}
 #c_mugodzhar_hills
 5303 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5304 = {
 	holding = none
@@ -17199,8 +17133,8 @@ holding = tribal_holding}
 #c_jitikul
 5312 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5310 = {
 	holding = none
@@ -17214,8 +17148,8 @@ holding = tribal_holding}
 #c_kos_uba
 5300 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5301 = {
 	holding = none
@@ -17226,8 +17160,8 @@ holding = tribal_holding}
 #c_baisary
 5299 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5297 = {
 	holding = none
@@ -17238,8 +17172,8 @@ holding = tribal_holding}
 #c_basagha
 5294 = {
 	culture = aorsi
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5295 = {
 	holding = none
@@ -17251,8 +17185,8 @@ holding = tribal_holding}
 #c_terekli
 5235 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5231 = {
 	holding = none
@@ -17266,8 +17200,8 @@ holding = tribal_holding}
 #c_barsuki
 5228 = {
 	culture = dahae
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5226 = {
 	holding = none
@@ -17281,8 +17215,8 @@ holding = tribal_holding}
 #c_aral_karakum
 5236 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5237 = {
 	holding = none
@@ -17296,8 +17230,8 @@ holding = tribal_holding}
 #c_turgay
 654 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5319 = {
 	holding = none
@@ -17311,8 +17245,8 @@ holding = tribal_holding}
 #c_tumar
 5316 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5314 = {
 	holding = none
@@ -17323,8 +17257,8 @@ holding = tribal_holding}
 #c_murun_tomis
 5317 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5318 = {
 	holding = none
@@ -17332,8 +17266,8 @@ holding = tribal_holding}
 #c_jilali
 5323 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5322 = {
 	holding = none
@@ -17347,8 +17281,8 @@ holding = tribal_holding}
 #c_ulu_jitanjik
 5326 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5324 = {
 	holding = none
@@ -17359,8 +17293,8 @@ holding = tribal_holding}
 #c_teniz
 5196 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5337 = {
 	holding = none
@@ -17377,8 +17311,8 @@ holding = tribal_holding}
 #c_eghiz_kara
 5342 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 704 = {
 	holding = none
@@ -17395,8 +17329,8 @@ holding = tribal_holding}
 #c_ulytau
 5332 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5329 = {
 	holding = none
@@ -17413,8 +17347,8 @@ holding = tribal_holding}
 #c_kaska
 5334 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5333 = {
 	holding = none
@@ -17428,8 +17362,8 @@ holding = tribal_holding}
 #c_betpa
 5352 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5350 = {
 	holding = none
@@ -17446,8 +17380,8 @@ holding = tribal_holding}
 #c_kulan_utmas
 5347 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5346 = {
 	holding = none
@@ -17455,8 +17389,8 @@ holding = tribal_holding}
 #c_jasky_kart
 5349 = {
 	culture = sakan
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 5348 = {
 	holding = none
@@ -17688,8 +17622,8 @@ holding = tribal_holding
 247 = {
 	culture = boier
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2864 = {
 	holding = none
 }
@@ -17764,8 +17698,8 @@ holding = tribal_holding
 2903 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2901 = {
 	holding = none
 }
@@ -17773,8 +17707,8 @@ holding = tribal_holding}
 2891 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2892 = {
 	holding = none
 }
@@ -17791,8 +17725,8 @@ holding = tribal_holding}
 256 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2866 = {
 	holding = none
 }
@@ -17800,8 +17734,8 @@ holding = tribal_holding}
 2868 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2867 = {
 	holding = none
 }
@@ -17809,8 +17743,8 @@ holding = tribal_holding}
 261 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2882 = {
 	holding = none
 }
@@ -17821,8 +17755,8 @@ holding = tribal_holding}
 262 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2920 = {
 	holding = none
 }
@@ -17839,8 +17773,8 @@ holding = tribal_holding}
 260 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 2919 = {
 	holding = none
 }
@@ -17857,8 +17791,8 @@ holding = tribal_holding}
 268 = {
 	culture = carpi
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3985 = {
 	holding = none
 }
@@ -17875,8 +17809,8 @@ holding = tribal_holding}
 3982 = {
 	culture = carpi
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3983 = {
 	holding = none
 }
@@ -17887,8 +17821,8 @@ holding = tribal_holding}
 3989 = {
 	culture = carpi
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3990 = {
 	holding = none
 }
@@ -17896,8 +17830,8 @@ holding = tribal_holding}
 3991 = {
 	culture = carpi
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3992 = {
 	holding = none
 }
@@ -17908,8 +17842,8 @@ holding = tribal_holding}
 259 = {
 	culture = carpi
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4011 = {
 	holding = none
 }
@@ -17989,8 +17923,8 @@ holding = tribal_holding
 257 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 4030 = {
 	holding = none
 }
@@ -18004,8 +17938,8 @@ holding = tribal_holding}
 255 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3919 = {
 	holding = none
 }
@@ -18055,8 +17989,8 @@ holding = tribal_holding
 #c_krakowska
 250 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 180 = {
 	holding = none
@@ -18076,8 +18010,8 @@ holding = tribal_holding
 #c_sandomierska
 254 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3912 = {
 	holding = none
@@ -18094,8 +18028,8 @@ holding = tribal_holding
 #c_stezycka
 3902 = {
 	culture = przeworsk
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3903 = {
 	holding = none
@@ -18103,8 +18037,8 @@ holding = tribal_holding
 #c_radomska
 3904 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3905 = {
 	holding = none
@@ -18134,8 +18068,8 @@ holding = tribal_holding
 3916 = {
 	culture = przeworsk
 	religion = zalmoxism
-
-holding = tribal_holding}
+	holding = tribal_holding
+}
 3917 = {
 	holding = none
 }
@@ -18169,8 +18103,8 @@ holding = tribal_holding
 #c_opole
 2272 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2273 = {
 	holding = none
@@ -18181,8 +18115,8 @@ holding = tribal_holding
 #c_brzeg
 2269 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2275 = {
 	holding = none
@@ -18193,8 +18127,8 @@ holding = tribal_holding
 #c_nysa
 2268 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2270 = {
 	holding = none
@@ -18214,8 +18148,8 @@ holding = tribal_holding
 #c_bethen
 2264 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2274 = {
 	holding = none
@@ -18324,8 +18258,8 @@ holding = tribal_holding
 #c_slupsk
 2048 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2049 = {
 	holding = none
@@ -18339,8 +18273,8 @@ holding = tribal_holding
 #c_miastko
 2405 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2404 = {
 	holding = none
@@ -18348,8 +18282,8 @@ holding = tribal_holding
 #c_danzig
 2051 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2054 = {
 	holding = none
@@ -18363,8 +18297,8 @@ holding = tribal_holding
 #c_berent
 2411 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2410 = {
 	holding = none
@@ -18378,8 +18312,8 @@ holding = tribal_holding
 #c_cammin
 2047 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2399 = {
 	holding = none
@@ -18390,8 +18324,8 @@ holding = tribal_holding
 #c_kolobrzeg
 2039 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2045 = {
 	holding = none
@@ -18406,8 +18340,8 @@ holding = tribal_holding
 #c_poznanska
 3851 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3852 = {
 	holding = none
@@ -18424,8 +18358,8 @@ holding = tribal_holding
 #c_gnieznienska
 3856 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3857 = {
 	holding = none
@@ -18439,8 +18373,8 @@ holding = tribal_holding
 #c_kaliska
 3860 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3861 = {
 	holding = none
@@ -18451,8 +18385,8 @@ holding = tribal_holding
 #c_wschowska
 3863 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3864 = {
 	holding = none
@@ -18463,8 +18397,8 @@ holding = tribal_holding
 #c_krajna
 3866 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3867 = {
 	holding = none
@@ -18475,8 +18409,8 @@ holding = tribal_holding
 #c_breslau
 2265 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2277 = {
 	holding = none
@@ -18484,8 +18418,8 @@ holding = tribal_holding
 #c_miliez
 2281 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2282 = {
 	holding = none
@@ -18493,8 +18427,8 @@ holding = tribal_holding
 #c_schweibus
 2362 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2363 = {
 	holding = none
@@ -18505,14 +18439,14 @@ holding = tribal_holding
 #c_grunberg
 2284 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 #c_sprottau
 2287 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2290 = {
 	holding = none
@@ -18520,8 +18454,8 @@ holding = tribal_holding
 #c_przemkow
 2288 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2289 = {
 	holding = none
@@ -18532,8 +18466,8 @@ holding = tribal_holding
 #c_legnica
 2278 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2283 = {
 	holding = none
@@ -18544,8 +18478,8 @@ holding = tribal_holding
 #c_pila
 2402 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2401 = {
 	holding = none
@@ -18556,8 +18490,8 @@ holding = tribal_holding
 #c_landsberg
 2368 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 2367 = {
 	holding = none
@@ -18571,8 +18505,8 @@ holding = tribal_holding
 #c_kujawy
 3869 = {
 	culture = oder_vistula_germans
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3870 = {
 	holding = none
@@ -18586,8 +18520,8 @@ holding = tribal_holding
 #c_leczycka
 3875 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3876 = {
 	holding = none
@@ -18598,8 +18532,8 @@ holding = tribal_holding
 #c_sieradzka
 251 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3878 = {
 	holding = none
@@ -18616,8 +18550,8 @@ holding = tribal_holding
 #c_wielunska
 3882 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3883 = {
 	holding = none
@@ -18625,8 +18559,8 @@ holding = tribal_holding
 #c_gostyninska
 3891 = {
 	culture = przeworsk
-	religion = norse_paga
-	holding = tribal_holdingn
+	religion = norse_pagan
+	holding = tribal_holding
 }
 3892 = {
 	holding = none
@@ -18647,8 +18581,8 @@ holding = tribal_holding
 #c_plocka
 252 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3884 = {
 	holding = none
@@ -18662,8 +18596,8 @@ holding = tribal_holding
 #c_czerska
 3888 = {
 	culture = przeworsk
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3889 = {
 	holding = none
@@ -18674,8 +18608,8 @@ holding = tribal_holding
 #c_lomzynska
 3894 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3895 = {
 	holding = none
@@ -18686,8 +18620,8 @@ holding = tribal_holding
 #c_zakroczymska
 3897 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3898 = {
 	holding = none
@@ -18701,8 +18635,8 @@ holding = tribal_holding
 #c_dobrzynska
 3873 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3874 = {
 	holding = none
@@ -18710,8 +18644,8 @@ holding = tribal_holding
 #c_torun
 2413 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2414 = {
 	holding = none
@@ -18722,8 +18656,8 @@ holding = tribal_holding
 #c_osterode
 2429 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2415 = {
 	holding = none
@@ -18734,8 +18668,8 @@ holding = tribal_holding
 #c_allenstein
 2427 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2426 = {
 	holding = none
@@ -18746,8 +18680,8 @@ holding = tribal_holding
 #c_angerburg
 2423 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2425 = {
 	holding = none
@@ -18758,8 +18692,8 @@ holding = tribal_holding
 #c_malbork
 2056 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2055 = {
 	holding = none
@@ -18773,8 +18707,8 @@ holding = tribal_holding
 #c_wormditt
 2435 = {
 	culture = oder_vistula_germans
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2416 = {
 	holding = none
@@ -18785,8 +18719,8 @@ holding = tribal_holding
 #c_natangia
 2433 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2418 = {
 	holding = none
@@ -18797,8 +18731,8 @@ holding = tribal_holding
 #c_konigsberg
 2431 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 99 = {
 	holding = none
@@ -18806,8 +18740,8 @@ holding = tribal_holding
 #c_bartenstein
 2419 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 2420 = {
 	holding = none
@@ -18821,8 +18755,8 @@ holding = tribal_holding
 #c_berestye
 272 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4005 = {
 	holding = none
@@ -18836,8 +18770,8 @@ holding = tribal_holding
 #c_dorohychyn
 4008 = {
 	culture = przeworsk
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4009 = {
 	holding = none
@@ -18848,8 +18782,8 @@ holding = tribal_holding
 #c_grodno
 123 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 126 = {
 	holding = none
@@ -18857,8 +18791,8 @@ holding = tribal_holding
 #c_volkovysk
 3995 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3994 = {
 	holding = none
@@ -18869,8 +18803,8 @@ holding = tribal_holding
 #c_novogrudok
 4084 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 3996 = {
 	holding = none
@@ -18878,8 +18812,8 @@ holding = tribal_holding
 #c_pinsk
 271 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4063 = {
 	holding = none
@@ -18890,8 +18824,8 @@ holding = tribal_holding
 #c_slutsk
 4065 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4066 = {
 	holding = none
@@ -18902,8 +18836,8 @@ holding = tribal_holding
 #c_kletsk
 4068 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4069 = {
 	holding = none
@@ -18927,8 +18861,8 @@ holding = tribal_holding
 #c_kernave
 116 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 117 = {
 	holding = none
@@ -18942,8 +18876,8 @@ holding = tribal_holding
 #c_trakai
 115 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 107 = {
 	holding = none
@@ -18960,8 +18894,8 @@ holding = tribal_holding
 #c_yatvyagi
 118 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 120 = {
 	holding = none
@@ -18975,8 +18909,8 @@ holding = tribal_holding
 #c_braslau
 128 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 113 = {
 	holding = none
@@ -18984,8 +18918,8 @@ holding = tribal_holding
 #c_raseiniai
 101 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 100 = {
 	holding = none
@@ -18999,8 +18933,8 @@ holding = tribal_holding
 #c_scalovia
 97 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 96 = {
 	holding = none
@@ -19008,8 +18942,8 @@ holding = tribal_holding
 #c_memel
 95 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 102 = {
 	holding = none
@@ -19017,8 +18951,8 @@ holding = tribal_holding
 #c_palanga
 92 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 103 = {
 	holding = none
@@ -19029,8 +18963,8 @@ holding = tribal_holding
 #c_siauliai
 104 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 109 = {
 	holding = none
@@ -19041,8 +18975,8 @@ holding = tribal_holding
 #c_zemigalians
 83 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 85 = {
 	holding = none
@@ -19059,8 +18993,8 @@ holding = tribal_holding
 #c_vanemane
 87 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 94 = {
 	holding = none
@@ -19071,8 +19005,8 @@ holding = tribal_holding
 #c_grobin
 91 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 90 = {
 	holding = none
@@ -19086,8 +19020,8 @@ holding = tribal_holding
 #c_selpils
 110 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 112 = {
 	holding = none
@@ -19095,8 +19029,8 @@ holding = tribal_holding
 #c_lukoml
 511 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4081 = {
 	holding = none
@@ -19113,8 +19047,8 @@ holding = tribal_holding
 #c_minsk
 273 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4074 = {
 	holding = none
@@ -19131,8 +19065,8 @@ holding = tribal_holding
 #c_orsha
 4078 = {
 	culture = pax_finnish
-	religion = baltic_pag
-	holding = tribal_holdingan
+	religion = baltic_pagan
+	holding = tribal_holding
 }
 4079 = {
 	holding = none
@@ -19140,8 +19074,8 @@ holding = tribal_holding
 #c_smolensk
 291 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4132 = {
 	holding = none
@@ -19158,8 +19092,8 @@ holding = tribal_holding
 #c_gnezdovo
 4134 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4135 = {
 	holding = none
@@ -19182,8 +19116,8 @@ holding = tribal_holding
 #c_toropets
 4086 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4087 = {
 	holding = none
@@ -19200,8 +19134,8 @@ holding = tribal_holding
 #c_bolghar
 329 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 330 = {
 	holding = none
@@ -19215,8 +19149,8 @@ holding = tribal_holding
 #c_yar-calli
 4303 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4304 = {
 	holding = none
@@ -19227,8 +19161,8 @@ holding = tribal_holding
 #c_karabolam
 4307 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4308 = {
 	holding = none
@@ -19239,8 +19173,8 @@ holding = tribal_holding
 #c_samar_VB
 328 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4311 = {
 	holding = none
@@ -19254,8 +19188,8 @@ holding = tribal_holding
 #c_jalmat
 4316 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4317 = {
 	holding = none
@@ -19269,8 +19203,8 @@ holding = tribal_holding
 #c_belebey
 4313 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4314 = {
 	holding = none
@@ -19287,8 +19221,8 @@ holding = tribal_holding
 #c_bugurslan
 4320 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4321 = {
 	holding = none
@@ -19299,8 +19233,8 @@ holding = tribal_holding
 #c_salavat
 4325 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4326 = {
 	holding = none
@@ -19317,8 +19251,8 @@ holding = tribal_holding
 #c_sakmara
 4332 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4331 = {
 	holding = none
@@ -19348,8 +19282,8 @@ holding = tribal_holding
 #c_penza
 4273 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 302 = {
 	holding = none
@@ -19395,8 +19329,8 @@ holding = tribal_holding
 #c_ryazan
 303 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4141 = {
 	holding = none
@@ -19413,8 +19347,8 @@ holding = tribal_holding
 #c_murom
 304 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4146 = {
 	holding = none
@@ -19482,8 +19416,8 @@ holding = tribal_holding
 #c_mozhaysk
 308 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4139 = {
 	holding = none
@@ -19494,8 +19428,8 @@ holding = tribal_holding
 #c_yaroslavl
 295 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 297 = {
 	holding = none
@@ -19506,8 +19440,8 @@ holding = tribal_holding
 #c_vladimir
 305 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 306 = {
 	holding = none
@@ -19524,8 +19458,8 @@ holding = tribal_holding
 #c_suzdal
 4152 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4153 = {
 	holding = none
@@ -19542,8 +19476,8 @@ holding = tribal_holding
 #c_tver
 4089 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4090 = {
 	holding = none
@@ -19554,8 +19488,8 @@ holding = tribal_holding
 #c_moskva
 298 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 301 = {
 	holding = none
@@ -19572,8 +19506,8 @@ holding = tribal_holding
 #c_nizhny_novgorod
 307 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4159 = {
 	holding = none
@@ -19581,8 +19515,8 @@ holding = tribal_holding
 #c_plyos
 4160 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4161 = {
 	holding = none
@@ -19633,8 +19567,8 @@ holding = tribal_holding
 #c_saran
 4290 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4291 = {
 	holding = none
@@ -19651,8 +19585,8 @@ holding = tribal_holding
 #c_cheboksary
 309 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4270 = {
 	holding = none
@@ -19669,8 +19603,8 @@ holding = tribal_holding
 #c_kozlov
 4264 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4265 = {
 	holding = none
@@ -19678,8 +19612,8 @@ holding = tribal_holding
 #c_lachyk-uba
 4266 = {
 	culture = ugrisch
-	religion = tengri_pag
-	holding = tribal_holdingan
+	religion = tengri_pagan
+	holding = tribal_holding
 }
 4268 = {
 	holding = none
