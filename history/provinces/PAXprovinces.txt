@@ -468,8 +468,8 @@
 1725 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1726 = {
 	holding = none
 }
@@ -480,8 +480,8 @@ holding = tribal_holding
 1723 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1722 = {
 	holding = none
 }
@@ -495,8 +495,8 @@ holding = tribal_holding
 1742 = {
 	culture = liburnian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1743 = {
 	holding = none
 }
@@ -510,8 +510,8 @@ holding = tribal_holding
 1732 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1738 = {
 	holding = none
 }
@@ -525,8 +525,8 @@ holding = tribal_holding
 1736 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1737 = {
 	holding = none
 }
@@ -543,8 +543,8 @@ holding = tribal_holding
 1740 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1739 = {
 	holding = none
 }
@@ -552,8 +552,8 @@ holding = tribal_holding
 1729 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1735 = {
 	holding = none
 }
@@ -564,8 +564,8 @@ holding = tribal_holding
 1727 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1733 = {
 	holding = none
 }
@@ -582,8 +582,8 @@ holding = tribal_holding
 1749 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1748 = {
 	holding = none
 }
@@ -595,8 +595,8 @@ holding = tribal_holding
 1707 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1706 = {
 	holding = none
 }
@@ -610,8 +610,8 @@ holding = tribal_holding
 1694 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1692 = {
 	holding = none
 }
@@ -622,8 +622,8 @@ holding = tribal_holding
 1266 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1270 = {
 	holding = none
 }
@@ -634,8 +634,8 @@ holding = tribal_holding
 1696 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1698 = {
 	holding = none
 }
@@ -646,8 +646,8 @@ holding = tribal_holding
 1268 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1269 = {
 	holding = none
 }
@@ -658,8 +658,8 @@ holding = tribal_holding
 1718 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1717 = {
 	holding = none
 }
@@ -670,8 +670,8 @@ holding = tribal_holding
 1702 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1697 = {
 	holding = none
 }
@@ -682,8 +682,8 @@ holding = tribal_holding
 1700 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1701 = {
 	holding = none
 }
@@ -694,8 +694,8 @@ holding = tribal_holding
 1715 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1713 = {
 	holding = none
 }
@@ -706,8 +706,8 @@ holding = tribal_holding
 1756 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1714 = {
 	holding = none
 }
@@ -718,8 +718,8 @@ holding = tribal_holding
 1708 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1711 = {
 	holding = none
 }
@@ -728,8 +728,8 @@ holding = tribal_holding
 1691 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1247 = {
 	holding = none
 }
@@ -740,8 +740,8 @@ holding = tribal_holding
 1755 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1710 = {
 	holding = none
 }
@@ -750,8 +750,8 @@ holding = tribal_holding
 1758 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1763 = {
 	holding = none
 }
@@ -765,8 +765,8 @@ holding = tribal_holding
 1765 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1753 = {
 	holding = none
 }
@@ -777,8 +777,8 @@ holding = tribal_holding
 1751 = {
 	culture = venetii
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1750 = {
 	holding = none
 }
@@ -789,8 +789,8 @@ holding = tribal_holding
 1721 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1754 = {
 	holding = none
 }
@@ -804,8 +804,8 @@ holding = tribal_holding
 1264 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1263 = {
 	holding = none
 }
@@ -813,8 +813,8 @@ holding = tribal_holding
 1265 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1267 = {
 	holding = none
 }
@@ -874,8 +874,8 @@ holding = tribal_holding
 1286 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1252 = {
 	holding = none
 }
@@ -889,8 +889,8 @@ holding = tribal_holding
 1440 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1437 = {
 	holding = none
 }
@@ -898,8 +898,8 @@ holding = tribal_holding
 1442 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1441 = {
 	holding = none
 }
@@ -907,8 +907,8 @@ holding = tribal_holding
 1240 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1241 = {
 	holding = none
 }
@@ -919,8 +919,8 @@ holding = tribal_holding
 1230 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1231 = {
 	holding = none
 }
@@ -931,8 +931,8 @@ holding = tribal_holding
 1238 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1444 = {
 	holding = none
 }
@@ -955,8 +955,8 @@ holding = tribal_holding
 1439 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1436 = {
 	holding = none
 }
@@ -970,8 +970,8 @@ holding = tribal_holding
 1448 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1446 = {
 	holding = none
 }
@@ -985,8 +985,8 @@ holding = tribal_holding
 1447 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1445 = {
 	holding = none
 }
@@ -995,8 +995,8 @@ holding = tribal_holding
 1256 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1254 = {
 	holding = none
 }
@@ -1010,8 +1010,8 @@ holding = tribal_holding
 1296 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1682 = {
 	holding = none
 }
@@ -1019,8 +1019,8 @@ holding = tribal_holding
 1450 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1521 = {
 	holding = none
 }
@@ -1028,8 +1028,8 @@ holding = tribal_holding
 1260 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1259 = {
 	holding = none
 }
@@ -1043,8 +1043,8 @@ holding = tribal_holding
 1290 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1295 = {
 	holding = none
 }
@@ -1055,8 +1055,8 @@ holding = tribal_holding
 1522 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1523 = {
 	holding = none
 }
@@ -1067,8 +1067,8 @@ holding = tribal_holding
 1288 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2472 = {
 	holding = none
 }
@@ -1076,8 +1076,8 @@ holding = tribal_holding
 1258 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1255 = {
 	holding = none
 }
@@ -1091,8 +1091,8 @@ holding = tribal_holding
 5511 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1291 = {
 	holding = none
 }
@@ -1135,8 +1135,8 @@ holding = tribal_holding
 1456 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1455 = {
 	holding = none
 }
@@ -1231,8 +1231,8 @@ holding = tribal_holding
 1457 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1460 = {
 	holding = none
 }
@@ -1241,8 +1241,8 @@ holding = tribal_holding
 1469 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1470 = {
 	holding = none
 }
@@ -1253,8 +1253,8 @@ holding = tribal_holding
 1462 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1464 = {
 	holding = none
 }
@@ -1268,8 +1268,8 @@ holding = tribal_holding
 1473 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1471 = {
 	holding = none
 }
@@ -1298,8 +1298,8 @@ holding = tribal_holding
 1372 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1468 = {
 	holding = none
 }
@@ -1308,8 +1308,8 @@ holding = tribal_holding
 1535 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1536 = {
 	holding = none
 }
@@ -1323,8 +1323,8 @@ holding = tribal_holding
 1514 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1520 = {
 	holding = none
 }
@@ -1338,8 +1338,8 @@ holding = tribal_holding
 1451 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1453 = {
 	holding = none
 }
@@ -1353,8 +1353,8 @@ holding = tribal_holding
 1509 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1689 = {
 	holding = none
 }
@@ -1362,8 +1362,8 @@ holding = tribal_holding
 1534 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1531 = {
 	holding = none
 }
@@ -1371,8 +1371,8 @@ holding = tribal_holding
 1510 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1511 = {
 	holding = none
 }
@@ -1383,8 +1383,8 @@ holding = tribal_holding
 1519 = {
 	culture = gallic_narbonensis
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1518 = {
 	holding = none
 }
@@ -1395,8 +1395,8 @@ holding = tribal_holding
 1524 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1525 = {
 	holding = none
 }
@@ -1405,8 +1405,8 @@ holding = tribal_holding
 1477 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1476 = {
 	holding = none
 }
@@ -1420,8 +1420,8 @@ holding = tribal_holding
 1474 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1475 = {
 	holding = none
 }
@@ -1432,8 +1432,8 @@ holding = tribal_holding
 1375 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1374 = {
 	holding = none
 }
@@ -1444,8 +1444,8 @@ holding = tribal_holding
 1482 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1480 = {
 	holding = none
 }
@@ -1461,8 +1461,8 @@ holding = tribal_holding
 1379 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1388 = {
 	holding = none
 }
@@ -1473,8 +1473,8 @@ holding = tribal_holding
 1377 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1376 = {
 	holding = none
 }
@@ -1488,8 +1488,8 @@ holding = tribal_holding
 1381 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1380 = {
 	holding = none
 }
@@ -1500,8 +1500,8 @@ holding = tribal_holding
 1382 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1383 = {
 	holding = none
 }
@@ -1509,8 +1509,8 @@ holding = tribal_holding
 1387 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1386 = {
 	holding = none
 }
@@ -1521,8 +1521,8 @@ holding = tribal_holding
 1390 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1507 = {
 	holding = none
 }
@@ -1530,8 +1530,8 @@ holding = tribal_holding
 1404 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1405 = {
 	holding = none
 }
@@ -1542,8 +1542,8 @@ holding = tribal_holding
 1554 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1555 = {
 	holding = none
 }
@@ -1554,8 +1554,8 @@ holding = tribal_holding
 1395 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1397 = {
 	holding = none
 }
@@ -1566,8 +1566,8 @@ holding = tribal_holding
 1392 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1394 = {
 	holding = none
 }
@@ -1578,8 +1578,8 @@ holding = tribal_holding
 1550 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1396 = {
 	holding = none
 }
@@ -1590,8 +1590,8 @@ holding = tribal_holding
 1399 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1552 = {
 	holding = none
 }
@@ -1599,8 +1599,8 @@ holding = tribal_holding
 1403 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1401 = {
 	holding = none
 }
@@ -1615,8 +1615,8 @@ holding = tribal_holding
 1558 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1559 = {
 	holding = none
 }
@@ -1633,8 +1633,8 @@ holding = tribal_holding
 1579 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1578 = {
 	holding = none
 }
@@ -1648,8 +1648,8 @@ holding = tribal_holding
 1563 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1545 = {
 	holding = none
 }
@@ -1663,8 +1663,8 @@ holding = tribal_holding
 1564 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1565 = {
 	holding = none
 }
@@ -1675,8 +1675,8 @@ holding = tribal_holding
 1508 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1546 = {
 	holding = none
 }
@@ -1684,8 +1684,8 @@ holding = tribal_holding
 1556 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1547 = {
 	holding = none
 }
@@ -1699,8 +1699,8 @@ holding = tribal_holding
 1539 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1688 = {
 	holding = none
 }
@@ -1711,8 +1711,8 @@ holding = tribal_holding
 1505 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1504 = {
 	holding = none
 }
@@ -1723,8 +1723,8 @@ holding = tribal_holding
 1499 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1498 = {
 	holding = none
 }
@@ -1735,8 +1735,8 @@ holding = tribal_holding
 1544 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1543 = {
 	holding = none
 }
@@ -1747,8 +1747,8 @@ holding = tribal_holding
 1503 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1502 = {
 	holding = none
 }
@@ -1759,8 +1759,8 @@ holding = tribal_holding
 1492 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1488 = {
 	holding = none
 }
@@ -1777,8 +1777,8 @@ holding = tribal_holding
 1486 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1485 = {
 	holding = none
 }
@@ -1786,8 +1786,8 @@ holding = tribal_holding
 1495 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1497 = {
 	holding = none
 }
@@ -1798,8 +1798,8 @@ holding = tribal_holding
 1489 = {
 	culture = gallic_veneti
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1491 = {
 	holding = none
 }
@@ -1811,8 +1811,8 @@ holding = tribal_holding
 1605 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1607 = {
 	holding = none
 }
@@ -1823,8 +1823,8 @@ holding = tribal_holding
 1599 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1611 = {
 	holding = none
 }
@@ -1835,8 +1835,8 @@ holding = tribal_holding
 1573 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1602 = {
 	holding = none
 }
@@ -1850,8 +1850,8 @@ holding = tribal_holding
 1683 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1416 = {
 	holding = none
 }
@@ -1859,8 +1859,8 @@ holding = tribal_holding
 1571 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1570 = {
 	holding = none
 }
@@ -1871,8 +1871,8 @@ holding = tribal_holding
 1576 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1604 = {
 	holding = none
 }
@@ -1880,8 +1880,8 @@ holding = tribal_holding
 1574 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1603 = {
 	holding = none
 }
@@ -1889,8 +1889,8 @@ holding = tribal_holding
 1527 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1529 = {
 	holding = none
 }
@@ -1901,8 +1901,8 @@ holding = tribal_holding
 1568 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1532 = {
 	holding = none
 }
@@ -1913,8 +1913,8 @@ holding = tribal_holding
 1580 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1581 = {
 	holding = none
 }
@@ -1922,8 +1922,8 @@ holding = tribal_holding
 1588 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1589 = {
 	holding = none
 }
@@ -1934,8 +1934,8 @@ holding = tribal_holding
 1577 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1593 = {
 	holding = none
 }
@@ -1949,8 +1949,8 @@ holding = tribal_holding
 1596 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1600 = {
 	holding = none
 }
@@ -1966,8 +1966,8 @@ holding = tribal_holding
 1615 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1584 = {
 	holding = none
 }
@@ -1984,8 +1984,8 @@ holding = tribal_holding
 1415 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1406 = {
 	holding = none
 }
@@ -1996,8 +1996,8 @@ holding = tribal_holding
 1617 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1614 = {
 	holding = none
 }
@@ -2008,8 +2008,8 @@ holding = tribal_holding
 1616 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1618 = {
 	holding = none
 }
@@ -2023,8 +2023,8 @@ holding = tribal_holding
 1625 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1622 = {
 	holding = none
 }
@@ -2035,8 +2035,8 @@ holding = tribal_holding
 1583 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1585 = {
 	holding = none
 }
@@ -2050,8 +2050,8 @@ holding = tribal_holding
 1414 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1413 = {
 	holding = none
 }
@@ -2062,8 +2062,8 @@ holding = tribal_holding
 1409 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1410 = {
 	holding = none
 }
@@ -2074,8 +2074,8 @@ holding = tribal_holding
 1340 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1339 = {
 	holding = none
 }
@@ -2086,8 +2086,8 @@ holding = tribal_holding
 1350 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1353 = {
 	holding = none
 }
@@ -2098,8 +2098,8 @@ holding = tribal_holding
 1355 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1354 = {
 	holding = none
 }
@@ -2110,8 +2110,8 @@ holding = tribal_holding
 1351 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1348 = {
 	holding = none
 }
@@ -2122,8 +2122,8 @@ holding = tribal_holding
 1357 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1361 = {
 	holding = none
 }
@@ -2137,8 +2137,8 @@ holding = tribal_holding
 1330 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1332 = {
 	holding = none
 }
@@ -2161,8 +2161,8 @@ holding = tribal_holding
 1342 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1352 = {
 	holding = none
 }
@@ -2173,8 +2173,8 @@ holding = tribal_holding
 1343 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1346 = {
 	holding = none
 }
@@ -2186,8 +2186,8 @@ holding = tribal_holding
 1613 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1620 = {
 	holding = none
 }
@@ -2198,8 +2198,8 @@ holding = tribal_holding
 1929 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1305 = {
 	holding = none
 }
@@ -2207,8 +2207,8 @@ holding = tribal_holding
 1612 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1304 = {
 	holding = none
 }
@@ -2216,8 +2216,8 @@ holding = tribal_holding
 1308 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1310 = {
 	holding = none
 }
@@ -2231,8 +2231,8 @@ holding = tribal_holding
 1932 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1303 = {
 	holding = none
 }
@@ -2246,8 +2246,8 @@ holding = tribal_holding
 1931 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1921 = {
 	holding = none
 }
@@ -2261,8 +2261,8 @@ holding = tribal_holding
 1933 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1935 = {
 	holding = none
 }
@@ -2273,8 +2273,8 @@ holding = tribal_holding
 1271 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1262 = {
 	holding = none
 }
@@ -2285,8 +2285,8 @@ holding = tribal_holding
 1274 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1273 = {
 	holding = none
 }
@@ -2294,8 +2294,8 @@ holding = tribal_holding
 1685 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1299 = {
 	holding = none
 }
@@ -2303,8 +2303,8 @@ holding = tribal_holding
 1280 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1277 = {
 	holding = none
 }
@@ -2318,8 +2318,8 @@ holding = tribal_holding
 1278 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1279 = {
 	holding = none
 }
@@ -2327,8 +2327,8 @@ holding = tribal_holding
 1276 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1686 = {
 	holding = none
 }
@@ -2343,8 +2343,8 @@ holding = tribal_holding
 1991 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1989 = {
 	holding = none
 }
@@ -2358,8 +2358,8 @@ holding = tribal_holding
 1999 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2000 = {
 	holding = none
 }
@@ -2373,8 +2373,8 @@ holding = tribal_holding
 2003 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2002 = {
 	holding = none
 }
@@ -2385,8 +2385,8 @@ holding = tribal_holding
 2004 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1997 = {
 	holding = none
 }
@@ -2397,8 +2397,8 @@ holding = tribal_holding
 2007 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2008 = {
 	holding = none
 }
@@ -2406,8 +2406,8 @@ holding = tribal_holding
 1998 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1996 = {
 	holding = none
 }
@@ -2415,8 +2415,8 @@ holding = tribal_holding
 1994 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1988 = {
 	holding = none
 }
@@ -2430,8 +2430,8 @@ holding = tribal_holding
 1969 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1970 = {
 	holding = none
 }
@@ -2442,8 +2442,8 @@ holding = tribal_holding
 1967 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1976 = {
 	holding = none
 }
@@ -2454,8 +2454,8 @@ holding = tribal_holding
 1984 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1985 = {
 	holding = none
 }
@@ -2466,8 +2466,8 @@ holding = tribal_holding
 1980 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1977 = {
 	holding = none
 }
@@ -2475,8 +2475,8 @@ holding = tribal_holding
 1978 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1979 = {
 	holding = none
 }
@@ -2492,8 +2492,8 @@ holding = tribal_holding
 2171 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2175 = {
 	holding = none
 }
@@ -2504,8 +2504,8 @@ holding = tribal_holding
 2170 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2169 = {
 	holding = none
 }
@@ -2513,8 +2513,8 @@ holding = tribal_holding
 2177 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2205 = {
 	holding = none
 }
@@ -2522,8 +2522,8 @@ holding = tribal_holding
 2198 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2206 = {
 	holding = none
 }
@@ -2534,8 +2534,8 @@ holding = tribal_holding
 2352 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2347 = {
 	holding = none
 }
@@ -2546,8 +2546,8 @@ holding = tribal_holding
 2176 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2173 = {
 	holding = none
 }
@@ -2555,8 +2555,8 @@ holding = tribal_holding
 2196 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2194 = {
 	holding = none
 }
@@ -2573,8 +2573,8 @@ holding = tribal_holding
 2351 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2354 = {
 	holding = none
 }
@@ -2585,8 +2585,8 @@ holding = tribal_holding
 2323 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2331 = {
 	holding = none
 }
@@ -2597,8 +2597,8 @@ holding = tribal_holding
 2345 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2332 = {
 	holding = none
 }
@@ -2612,8 +2612,8 @@ holding = tribal_holding
 2342 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2330 = {
 	holding = none
 }
@@ -2624,8 +2624,8 @@ holding = tribal_holding
 2318 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2344 = {
 	holding = none
 }
@@ -2637,8 +2637,8 @@ holding = tribal_holding
 2185 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2186 = {
 	holding = none
 }
@@ -2652,8 +2652,8 @@ holding = tribal_holding
 2166 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2167 = {
 	holding = none
 }
@@ -2664,8 +2664,8 @@ holding = tribal_holding
 2163 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2164 = {
 	holding = none
 }
@@ -2676,8 +2676,8 @@ holding = tribal_holding
 2178 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2179 = {
 	holding = none
 }
@@ -2685,8 +2685,8 @@ holding = tribal_holding
 2180 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2182 = {
 	holding = none
 }
@@ -2700,8 +2700,8 @@ holding = tribal_holding
 2104 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2161 = {
 	holding = none
 }
@@ -2712,8 +2712,8 @@ holding = tribal_holding
 2181 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2190 = {
 	holding = none
 }
@@ -2727,8 +2727,8 @@ holding = tribal_holding
 2348 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2349 = {
 	holding = none
 }
@@ -2739,8 +2739,8 @@ holding = tribal_holding
 2192 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2200 = {
 	holding = none
 }
@@ -2786,8 +2786,8 @@ holding = tribal_holding
 1282 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1283 = {
 	holding = none
 }
@@ -2801,8 +2801,8 @@ holding = tribal_holding
 2083 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2085 = {
 	holding = none
 }
@@ -2813,8 +2813,8 @@ holding = tribal_holding
 1959 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1963 = {
 	holding = none
 }
@@ -2825,8 +2825,8 @@ holding = tribal_holding
 1953 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1958 = {
 	holding = none
 }
@@ -2834,8 +2834,8 @@ holding = tribal_holding
 1954 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1965 = {
 	holding = none
 }
@@ -2852,8 +2852,8 @@ holding = tribal_holding
 1966 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1964 = {
 	holding = none
 }
@@ -2864,8 +2864,8 @@ holding = tribal_holding
 1961 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1960 = {
 	holding = none
 }
@@ -2876,8 +2876,8 @@ holding = tribal_holding
 1951 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1950 = {
 	holding = none
 }
@@ -2894,8 +2894,8 @@ holding = tribal_holding
 1972 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1971 = {
 	holding = none
 }
@@ -2909,8 +2909,8 @@ holding = tribal_holding
 1943 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1944 = {
 	holding = none
 }
@@ -2921,8 +2921,8 @@ holding = tribal_holding
 1939 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1941 = {
 	holding = none
 }
@@ -2930,8 +2930,8 @@ holding = tribal_holding
 1927 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1948 = {
 	holding = none
 }
@@ -2958,8 +2958,8 @@ holding = tribal_holding
 1301 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1302 = {
 	holding = none
 }
@@ -2976,8 +2976,8 @@ holding = tribal_holding
 1298 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1297 = {
 	holding = none
 }
@@ -2985,8 +2985,8 @@ holding = tribal_holding
 1609 = {
 	culture = gallic_comato
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1938 = {
 	holding = none
 }
@@ -2999,8 +2999,8 @@ holding = tribal_holding
 1317 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1673 = {
 	holding = none
 }
@@ -3066,8 +3066,8 @@ holding = tribal_holding
 1307 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1315 = {
 	holding = none
 }
@@ -3084,8 +3084,8 @@ holding = tribal_holding
 1316 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1909 = {
 	holding = none
 }
@@ -3099,8 +3099,8 @@ holding = tribal_holding
 1321 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1322 = {
 	holding = none
 }
@@ -3111,8 +3111,8 @@ holding = tribal_holding
 1323 = {
 	culture = gallic_belgica
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 1341 = {
 	holding = none
 }
@@ -3125,8 +3125,8 @@ holding = tribal_holding
 2091 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2090 = {
 	holding = none
 }
@@ -3137,8 +3137,8 @@ holding = tribal_holding
 2096 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2112 = {
 	holding = none
 }
@@ -3149,8 +3149,8 @@ holding = tribal_holding
 2219 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2216 = {
 	holding = none
 }
@@ -3158,8 +3158,8 @@ holding = tribal_holding
 2110 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2093 = {
 	holding = none
 }
@@ -3170,8 +3170,8 @@ holding = tribal_holding
 2098 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2113 = {
 	holding = none
 }
@@ -3182,8 +3182,8 @@ holding = tribal_holding
 2095 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2213 = {
 	holding = none
 }
@@ -3197,8 +3197,8 @@ holding = tribal_holding
 2107 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2106 = {
 	holding = none
 }
@@ -3209,8 +3209,8 @@ holding = tribal_holding
 2148 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2147 = {
 	holding = none
 }
@@ -3221,8 +3221,8 @@ holding = tribal_holding
 2099 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2100 = {
 	holding = none
 }
@@ -3233,8 +3233,8 @@ holding = tribal_holding
 2211 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2215 = {
 	holding = none
 }
@@ -3245,8 +3245,8 @@ holding = tribal_holding
 2208 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2207 = {
 	holding = none
 }
@@ -3260,8 +3260,8 @@ holding = tribal_holding
 2210 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2188 = {
 	holding = none
 }
@@ -3320,8 +3320,8 @@ holding = tribal_holding
 2224 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2221 = {
 	holding = none
 }
@@ -4201,8 +4201,8 @@ holding = tribal_holding
 2259 = {
 	culture = hallstatt_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2225 = {
 	holding = none
 }
@@ -7890,8 +7890,8 @@ holding = tribal_holding
 2841 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2842 = {
 	holding = none
 }
@@ -7908,8 +7908,8 @@ holding = tribal_holding
 2845 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2846 = {
 	holding = none
 }
@@ -7920,8 +7920,8 @@ holding = tribal_holding
 2848 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2849 = {
 	holding = none
 }
@@ -7935,8 +7935,8 @@ holding = tribal_holding
 2811 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2812 = {
 	holding = none
 }
@@ -7947,8 +7947,8 @@ holding = tribal_holding
 2815 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2814 = {
 	holding = none
 }
@@ -7956,8 +7956,8 @@ holding = tribal_holding
 241 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2836 = {
 	holding = none
 }
@@ -7965,8 +7965,8 @@ holding = tribal_holding
 2869 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2870 = {
 	holding = none
 }
@@ -7975,8 +7975,8 @@ holding = tribal_holding
 2319 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2321 = {
 	holding = none
 }
@@ -7987,8 +7987,8 @@ holding = tribal_holding
 2315 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2316 = {
 	holding = none
 }
@@ -8002,8 +8002,8 @@ holding = tribal_holding
 2335 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2329 = {
 	holding = none
 }
@@ -8020,8 +8020,8 @@ holding = tribal_holding
 2311 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2338 = {
 	holding = none
 }
@@ -8029,8 +8029,8 @@ holding = tribal_holding
 2327 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2322 = {
 	holding = none
 }
@@ -8041,8 +8041,8 @@ holding = tribal_holding
 2339 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2337 = {
 	holding = none
 }
@@ -8050,8 +8050,8 @@ holding = tribal_holding
 2305 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2304 = {
 	holding = none
 }
@@ -8068,8 +8068,8 @@ holding = tribal_holding
 2300 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2298 = {
 	holding = none
 }
@@ -8080,8 +8080,8 @@ holding = tribal_holding
 2308 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2340 = {
 	holding = none
 }
@@ -8092,8 +8092,8 @@ holding = tribal_holding
 2292 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2309 = {
 	holding = none
 }
@@ -8107,8 +8107,8 @@ holding = tribal_holding
 2312 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2341 = {
 	holding = none
 }
@@ -8116,8 +8116,8 @@ holding = tribal_holding
 2307 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2294 = {
 	holding = none
 }
@@ -8131,8 +8131,8 @@ holding = tribal_holding
 2829 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2828 = {
 	holding = none
 }
@@ -8140,8 +8140,8 @@ holding = tribal_holding
 2823 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2824 = {
 	holding = none
 }
@@ -8152,8 +8152,8 @@ holding = tribal_holding
 2826 = {
 	culture = noric_celts
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2827 = {
 	holding = none
 }
@@ -8164,8 +8164,8 @@ holding = tribal_holding
 2832 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2830 = {
 	holding = none
 }
@@ -8176,8 +8176,8 @@ holding = tribal_holding
 2833 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2834 = {
 	holding = none
 }
@@ -8188,8 +8188,8 @@ holding = tribal_holding
 181 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 183 = {
 	holding = none
 }
@@ -8199,8 +8199,8 @@ holding = tribal_holding
 2517 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2516 = {
 	holding = none
 }
@@ -8211,8 +8211,8 @@ holding = tribal_holding
 2520 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 186 = {
 	holding = none
 }
@@ -8226,8 +8226,8 @@ holding = tribal_holding
 2534 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 227 = {
 	holding = none
 }
@@ -8244,8 +8244,8 @@ holding = tribal_holding
 2514 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2511 = {
 	holding = none
 }
@@ -8262,8 +8262,8 @@ holding = tribal_holding
 2574 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2571 = {
 	holding = none
 }
@@ -8280,8 +8280,8 @@ holding = tribal_holding
 189 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2568 = {
 	holding = none
 }
@@ -8298,8 +8298,8 @@ holding = tribal_holding
 2567 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2564 = {
 	holding = none
 }
@@ -8310,8 +8310,8 @@ holding = tribal_holding
 2508 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2507 = {
 	holding = none
 }
@@ -8422,8 +8422,8 @@ holding = tribal_holding
 184 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2540 = {
 	holding = none
 }
@@ -8440,8 +8440,8 @@ holding = tribal_holding
 2536 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2535 = {
 	holding = none
 }
@@ -8455,8 +8455,8 @@ holding = tribal_holding
 2546 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2544 = {
 	holding = none
 }
@@ -8470,8 +8470,8 @@ holding = tribal_holding
 2526 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2525 = {
 	holding = none
 }
@@ -8479,8 +8479,8 @@ holding = tribal_holding
 2523 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2522 = {
 	holding = none
 }
@@ -8491,8 +8491,8 @@ holding = tribal_holding
 2529 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2528 = {
 	holding = none
 }
@@ -8503,8 +8503,8 @@ holding = tribal_holding
 2617 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2616 = {
 	holding = none
 }
@@ -8516,8 +8516,8 @@ holding = tribal_holding
 2745 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2618 = {
 	holding = none
 }
@@ -8528,8 +8528,8 @@ holding = tribal_holding
 2611 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2612 = {
 	holding = none
 }
@@ -8597,8 +8597,8 @@ holding = tribal_holding
 2590 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2591 = {
 	holding = none
 }
@@ -8636,8 +8636,8 @@ holding = tribal_holding
 192 = {
 	culture = illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 226 = {
 	holding = none
 }
@@ -9423,8 +9423,8 @@ holding = tribal_holding
 455 = {
 	culture = galatian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 4498 = {
 	holding = none
 }
@@ -9465,8 +9465,8 @@ holding = tribal_holding
 4475 = {
 	culture = galatian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 4476 = {
 	holding = none
 }
@@ -9477,8 +9477,8 @@ holding = tribal_holding
 4478 = {
 	culture = galatian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 4479 = {
 	holding = none
 }
@@ -9704,8 +9704,8 @@ holding = tribal_holding
 449 = {
 	culture = galatian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 4399 = {
 	holding = none
 }
@@ -9725,8 +9725,8 @@ holding = tribal_holding
 4395 = {
 	culture = galatian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 4396 = {
 	holding = none
 }
@@ -11757,8 +11757,8 @@ holding = tribal_holding
 3430 = {
 	culture = meder
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 3426 = {
 	holding = none
 }
@@ -11775,8 +11775,8 @@ holding = tribal_holding
 3432 = {
 	culture = mauryan
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 3431 = {
 	holding = none
 }
@@ -12130,8 +12130,8 @@ holding = tribal_holding
 650 = {
 	culture = mauryan
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 2503 = {
 	holding = none
 }
@@ -12145,8 +12145,8 @@ holding = tribal_holding
 669 = {
 	culture = mauryan
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 677 = {
 	holding = none
 }
@@ -12160,8 +12160,8 @@ holding = tribal_holding
 3466 = {
 	culture = mauryan
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 3450 = {
 	holding = none
 }
@@ -12178,8 +12178,8 @@ holding = tribal_holding
 656 = {
 	culture = meder
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 2499 = {
 	holding = none
 }
@@ -12193,8 +12193,8 @@ holding = tribal_holding
 657 = {
 	culture = meder
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 2501 = {
 	holding = none
 }
@@ -12205,8 +12205,8 @@ holding = tribal_holding
 678 = {
 	culture = mauryan
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 2505 = {
 	holding = none
 }
@@ -12217,8 +12217,8 @@ holding = tribal_holding
 3470 = {
 	culture = mauryan
 	religion = mahayana
+	holding = tribal_holding
 }
-holding = tribal_holding
 3471 = {
 	holding = none
 }
@@ -15371,8 +15371,8 @@ holding = tribal_holding
 2871 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2872 = {
 	holding = none
 }
@@ -15465,8 +15465,8 @@ holding = tribal_holding
 245 = {
 	culture = gallic_illyrian
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2808 = {
 	holding = none
 }
@@ -15477,8 +15477,8 @@ holding = tribal_holding
 246 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2873 = {
 	holding = none
 }
@@ -15507,8 +15507,8 @@ holding = tribal_holding
 2852 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2853 = {
 	holding = none
 }
@@ -15519,8 +15519,8 @@ holding = tribal_holding
 2854 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2855 = {
 	holding = none
 }
@@ -15733,8 +15733,8 @@ holding = tribal_holding
 4567 = {
 	culture = heniochan
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 319 = {
 	holding = none
 }
@@ -15827,8 +15827,8 @@ holding = tribal_holding
 4206 = {
 	culture = maotian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4207 = {
 	holding = none
 }
@@ -15839,8 +15839,8 @@ holding = tribal_holding
 322 = {
 	culture = maotian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4209 = {
 	holding = none
 }
@@ -15857,8 +15857,8 @@ holding = tribal_holding
 4203 = {
 	culture = maotian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4204 = {
 	holding = none
 }
@@ -15887,8 +15887,8 @@ holding = tribal_holding
 4212 = {
 	culture = maotian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4213 = {
 	holding = none
 }
@@ -15899,8 +15899,8 @@ holding = tribal_holding
 4250 = {
 	culture = maotian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4214 = {
 	holding = none
 }
@@ -15917,8 +15917,8 @@ holding = tribal_holding
 326 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4222 = {
 	holding = none
 }
@@ -15929,8 +15929,8 @@ holding = tribal_holding
 4218 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4219 = {
 	holding = none
 }
@@ -15941,8 +15941,8 @@ holding = tribal_holding
 324 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4240 = {
 	holding = none
 }
@@ -15953,8 +15953,8 @@ holding = tribal_holding
 4195 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4246 = {
 	holding = none
 }
@@ -15984,8 +15984,8 @@ holding = tribal_holding
 282 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4183 = {
 	holding = none
 }
@@ -15996,8 +15996,8 @@ holding = tribal_holding
 4184 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4238 = {
 	holding = none
 }
@@ -16017,8 +16017,8 @@ holding = tribal_holding
 318 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4244 = {
 	holding = none
 }
@@ -16026,8 +16026,8 @@ holding = tribal_holding
 286 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4187 = {
 	holding = none
 }
@@ -16038,8 +16038,8 @@ holding = tribal_holding
 4185 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4186 = {
 	holding = none
 }
@@ -16047,8 +16047,8 @@ holding = tribal_holding
 315 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 316 = {
 	holding = none
 }
@@ -16056,8 +16056,8 @@ holding = tribal_holding
 4176 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 281 = {
 	holding = none
 }
@@ -16070,8 +16070,8 @@ holding = tribal_holding
 4194 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4232 = {
 	holding = none
 }
@@ -16082,8 +16082,8 @@ holding = tribal_holding
 4233 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4235 = {
 	holding = none
 }
@@ -16094,8 +16094,8 @@ holding = tribal_holding
 287 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4227 = {
 	holding = none
 }
@@ -16109,8 +16109,8 @@ holding = tribal_holding
 280 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4231 = {
 	holding = none
 }
@@ -16121,8 +16121,8 @@ holding = tribal_holding
 312 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4287 = {
 	holding = none
 }
@@ -16136,8 +16136,8 @@ holding = tribal_holding
 4284 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4285 = {
 	holding = none
 }
@@ -16148,8 +16148,8 @@ holding = tribal_holding
 279 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4189 = {
 	holding = none
 }
@@ -16163,8 +16163,8 @@ holding = tribal_holding
 4197 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4198 = {
 	holding = none
 }
@@ -16178,8 +16178,8 @@ holding = tribal_holding
 314 = {
 	culture = legian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4200 = {
 	holding = none
 }
@@ -16194,8 +16194,8 @@ holding = tribal_holding
 266 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4174 = {
 	holding = none
 }
@@ -16209,8 +16209,8 @@ holding = tribal_holding
 4164 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4165 = {
 	holding = none
 }
@@ -16221,8 +16221,8 @@ holding = tribal_holding
 4167 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4168 = {
 	holding = none
 }
@@ -16233,8 +16233,8 @@ holding = tribal_holding
 4170 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4171 = {
 	holding = none
 }
@@ -16248,8 +16248,8 @@ holding = tribal_holding
 4181 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4180 = {
 	holding = none
 }
@@ -16317,8 +16317,8 @@ holding = tribal_holding
 3970 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 3971 = {
 	holding = none
 }
@@ -16326,8 +16326,8 @@ holding = tribal_holding
 3972 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 3973 = {
 	holding = none
 }
@@ -16369,8 +16369,8 @@ holding = tribal_holding
 278 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4091 = {
 	holding = none
 }
@@ -16384,8 +16384,8 @@ holding = tribal_holding
 4094 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4095 = {
 	holding = none
 }
@@ -16399,8 +16399,8 @@ holding = tribal_holding
 4098 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4099 = {
 	holding = none
 }
@@ -16414,8 +16414,8 @@ holding = tribal_holding
 4102 = {
 	culture = pax_scythian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4103 = {
 	holding = none
 }
@@ -16423,8 +16423,8 @@ holding = tribal_holding
 277 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 276 = {
 	holding = none
 }
@@ -16441,8 +16441,8 @@ holding = tribal_holding
 4116 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4117 = {
 	holding = none
 }
@@ -16456,8 +16456,8 @@ holding = tribal_holding
 290 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4104 = {
 	holding = none
 }
@@ -16468,8 +16468,8 @@ holding = tribal_holding
 4106 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4107 = {
 	holding = none
 }
@@ -16480,8 +16480,8 @@ holding = tribal_holding
 4109 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4110 = {
 	holding = none
 }
@@ -16495,8 +16495,8 @@ holding = tribal_holding
 289 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4192 = {
 	holding = none
 }
@@ -16510,8 +16510,8 @@ holding = tribal_holding
 4278 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4280 = {
 	holding = none
 }
@@ -17402,8 +17402,8 @@ holding = tribal_holding
 3130 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3146 = {
 	holding = none
 }
@@ -17414,8 +17414,8 @@ holding = tribal_holding
 3149 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3148 = {
 	holding = none
 }
@@ -17423,8 +17423,8 @@ holding = tribal_holding
 3133 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3132 = {
 	holding = none
 }
@@ -17435,8 +17435,8 @@ holding = tribal_holding
 3127 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3120 = {
 	holding = none
 }
@@ -17444,8 +17444,8 @@ holding = tribal_holding
 3131 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3129 = {
 	holding = none
 }
@@ -17459,8 +17459,8 @@ holding = tribal_holding
 3090 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3091 = {
 	holding = none
 }
@@ -17480,8 +17480,8 @@ holding = tribal_holding
 3094 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3096 = {
 	holding = none
 }
@@ -17495,8 +17495,8 @@ holding = tribal_holding
 3112 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3097 = {
 	holding = none
 }
@@ -17510,8 +17510,8 @@ holding = tribal_holding
 3110 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3108 = {
 	holding = none
 }
@@ -17531,8 +17531,8 @@ holding = tribal_holding
 3119 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3115 = {
 	holding = none
 }
@@ -17552,8 +17552,8 @@ holding = tribal_holding
 3101 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3099 = {
 	holding = none
 }
@@ -17561,8 +17561,8 @@ holding = tribal_holding
 3103 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3102 = {
 	holding = none
 }
@@ -17576,8 +17576,8 @@ holding = tribal_holding
 3126 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3105 = {
 	holding = none
 }
@@ -17589,8 +17589,8 @@ holding = tribal_holding
 2817 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2818 = {
 	holding = none
 }
@@ -17604,8 +17604,8 @@ holding = tribal_holding
 2860 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2861 = {
 	holding = none
 }
@@ -17613,8 +17613,8 @@ holding = tribal_holding
 2862 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2863 = {
 	holding = none
 }
@@ -17634,8 +17634,8 @@ holding = tribal_holding
 2837 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2838 = {
 	holding = none
 }
@@ -17649,8 +17649,8 @@ holding = tribal_holding
 2821 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2822 = {
 	holding = none
 }
@@ -17664,8 +17664,8 @@ holding = tribal_holding
 248 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2816 = {
 	holding = none
 }
@@ -17673,8 +17673,8 @@ holding = tribal_holding
 2260 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2261 = {
 	holding = none
 }
@@ -17682,8 +17682,8 @@ holding = tribal_holding
 3147 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 3124 = {
 	holding = none
 }
@@ -17857,8 +17857,8 @@ holding = tribal_holding
 4014 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4015 = {
 	holding = none
 }
@@ -17875,8 +17875,8 @@ holding = tribal_holding
 269 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4019 = {
 	holding = none
 }
@@ -17887,8 +17887,8 @@ holding = tribal_holding
 4021 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4022 = {
 	holding = none
 }
@@ -17899,8 +17899,8 @@ holding = tribal_holding
 4049 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4050 = {
 	holding = none
 }
@@ -17911,8 +17911,8 @@ holding = tribal_holding
 267 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4041 = {
 	holding = none
 }
@@ -17956,8 +17956,8 @@ holding = tribal_holding
 270 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4033 = {
 	holding = none
 }
@@ -17977,8 +17977,8 @@ holding = tribal_holding
 4038 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4039 = {
 	holding = none
 }
@@ -18053,8 +18053,8 @@ holding = tribal_holding
 3908 = {
 	culture = przeworsk
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 3909 = {
 	holding = none
 }
@@ -18080,8 +18080,8 @@ holding = tribal_holding
 4024 = {
 	culture = przeworsk
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4025 = {
 	holding = none
 }
@@ -18095,8 +18095,8 @@ holding = tribal_holding
 4028 = {
 	culture = przeworsk
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4029 = {
 	holding = none
 }
@@ -18140,8 +18140,8 @@ holding = tribal_holding
 2262 = {
 	culture = boier
 	religion = druidism
+	holding = tribal_holding
 }
-holding = tribal_holding
 2263 = {
 	holding = none
 }
@@ -18158,8 +18158,8 @@ holding = tribal_holding
 258 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 3998 = {
 	holding = none
 }
@@ -18176,8 +18176,8 @@ holding = tribal_holding
 4002 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4003 = {
 	holding = none
 }
@@ -18188,8 +18188,8 @@ holding = tribal_holding
 275 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4053 = {
 	holding = none
 }
@@ -18200,8 +18200,8 @@ holding = tribal_holding
 4055 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4056 = {
 	holding = none
 }
@@ -18218,8 +18218,8 @@ holding = tribal_holding
 4060 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4061 = {
 	holding = none
 }
@@ -18230,8 +18230,8 @@ holding = tribal_holding
 4042 = {
 	culture = agathyrsian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4043 = {
 	holding = none
 }
@@ -18245,8 +18245,8 @@ holding = tribal_holding
 4046 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4047 = {
 	holding = none
 }
@@ -18846,8 +18846,8 @@ holding = tribal_holding
 4070 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4071 = {
 	holding = none
 }
@@ -19105,8 +19105,8 @@ holding = tribal_holding
 510 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4137 = {
 	holding = none
 }
@@ -19271,8 +19271,8 @@ holding = tribal_holding
 311 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4276 = {
 	holding = none
 }
@@ -19304,8 +19304,8 @@ holding = tribal_holding
 4345 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4344 = {
 	holding = none
 }
@@ -19316,8 +19316,8 @@ holding = tribal_holding
 4297 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4298 = {
 	holding = none
 }
@@ -19363,8 +19363,8 @@ holding = tribal_holding
 4128 = {
 	culture = ugrisch
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4129 = {
 	holding = none
 }
@@ -19372,8 +19372,8 @@ holding = tribal_holding
 4130 = {
 	culture = ugrisch
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4131 = {
 	holding = none
 }
@@ -19381,8 +19381,8 @@ holding = tribal_holding
 4122 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4123 = {
 	holding = none
 }
@@ -19393,8 +19393,8 @@ holding = tribal_holding
 4125 = {
 	culture = ugrisch
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4126 = {
 	holding = none
 }
@@ -19405,8 +19405,8 @@ holding = tribal_holding
 4119 = {
 	culture = zarubintsy
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4120 = {
 	holding = none
 }
@@ -19529,8 +19529,8 @@ holding = tribal_holding
 4260 = {
 	culture = ugrisch
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4263 = {
 	holding = none
 }
@@ -19544,8 +19544,8 @@ holding = tribal_holding
 4295 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4296 = {
 	holding = none
 }
@@ -19556,8 +19556,8 @@ holding = tribal_holding
 4281 = {
 	culture = roxolanian
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4282 = {
 	holding = none
 }
@@ -19628,8 +19628,8 @@ holding = tribal_holding
 4257 = {
 	culture = ugrisch
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4259 = {
 	holding = none
 }
@@ -19640,8 +19640,8 @@ holding = tribal_holding
 4144 = {
 	culture = ugrisch
 	religion = scythian
+	holding = tribal_holding
 }
-holding = tribal_holding
 4145 = {
 	holding = none
 }
