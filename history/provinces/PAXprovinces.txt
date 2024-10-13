@@ -15732,7 +15732,7 @@
 #c_abkhazia
 4567 = {
 	culture = heniochan
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 319 = {
@@ -15826,7 +15826,7 @@
 #c_maghas
 4206 = {
 	culture = maotian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4207 = {
@@ -15838,7 +15838,7 @@
 #c_cabardinia
 322 = {
 	culture = maotian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4209 = {
@@ -15856,7 +15856,7 @@
 #c_zichia
 4203 = {
 	culture = maotian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4204 = {
@@ -15886,7 +15886,7 @@
 #c_samander
 4212 = {
 	culture = maotian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4213 = {
@@ -15898,7 +15898,7 @@
 #c_samiran
 4250 = {
 	culture = maotian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4214 = {
@@ -15916,7 +15916,7 @@
 #c_sarkel
 326 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4222 = {
@@ -15928,7 +15928,7 @@
 #c_astrakhan
 4218 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4219 = {
@@ -15940,7 +15940,7 @@
 #c_beksima
 324 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4240 = {
@@ -15952,7 +15952,7 @@
 #c_azov
 4195 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4246 = {
@@ -15983,7 +15983,7 @@
 #c_kalos_limen
 282 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4183 = {
@@ -15995,7 +15995,7 @@
 #c_perekop
 4184 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4238 = {
@@ -16016,7 +16016,7 @@
 #c_khumar
 318 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4244 = {
@@ -16025,7 +16025,7 @@
 #c_kremnoi
 286 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4187 = {
@@ -16037,7 +16037,7 @@
 #c_oleshye
 4185 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4186 = {
@@ -16046,7 +16046,7 @@
 #c_tana
 315 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 316 = {
@@ -16055,7 +16055,7 @@
 #c_kherson
 4176 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 281 = {
@@ -16069,7 +16069,7 @@
 #c_kazanskaya
 4194 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4232 = {
@@ -16081,7 +16081,7 @@
 #c_millerovo
 4233 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4235 = {
@@ -16093,7 +16093,7 @@
 #c_bakhmut
 287 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4227 = {
@@ -16108,7 +16108,7 @@
 #c_khortytsia
 280 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4231 = {
@@ -16120,7 +16120,7 @@
 #c_khopyor
 312 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4287 = {
@@ -16135,7 +16135,7 @@
 #c_balachev
 4284 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4285 = {
@@ -16147,7 +16147,7 @@
 #c_samar
 279 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4189 = {
@@ -16162,7 +16162,7 @@
 #c_golden_hills
 4197 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4198 = {
@@ -16177,7 +16177,7 @@
 #c_sarysyn
 314 = {
 	culture = legian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4200 = {
@@ -16193,7 +16193,7 @@
 #c_odessa
 266 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4174 = {
@@ -16208,7 +16208,7 @@
 #c_ladyzyn
 4164 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4165 = {
@@ -16220,7 +16220,7 @@
 #c_uman
 4167 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4168 = {
@@ -16232,7 +16232,7 @@
 #c_cherkassy
 4170 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4171 = {
@@ -16247,7 +16247,7 @@
 #c_dnipro
 4181 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4180 = {
@@ -16316,7 +16316,7 @@
 #c_orhei
 3970 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 3971 = {
@@ -16325,7 +16325,7 @@
 #c_soroca
 3972 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 3973 = {
@@ -16368,7 +16368,7 @@
 #c_pereyaslavl
 278 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4091 = {
@@ -16383,7 +16383,7 @@
 #c_hradyzk
 4094 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4095 = {
@@ -16398,7 +16398,7 @@
 #c_romen
 4098 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4099 = {
@@ -16413,7 +16413,7 @@
 #c_voin
 4102 = {
 	culture = pax_scythian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4103 = {
@@ -16422,7 +16422,7 @@
 #c_chernigov
 277 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 276 = {
@@ -16440,7 +16440,7 @@
 #c_starodub
 4116 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4117 = {
@@ -16455,7 +16455,7 @@
 #c_novgorod_seversky
 290 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4104 = {
@@ -16467,7 +16467,7 @@
 #c_putyvl
 4106 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4107 = {
@@ -16479,7 +16479,7 @@
 #c_kursk
 4109 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4110 = {
@@ -16494,7 +16494,7 @@
 #c_oskol
 289 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4192 = {
@@ -16509,7 +16509,7 @@
 #c_karatayak
 4278 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4280 = {
@@ -17856,7 +17856,7 @@
 #c_lviv
 4014 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4015 = {
@@ -17874,7 +17874,7 @@
 #c_terebovl
 269 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4019 = {
@@ -17886,7 +17886,7 @@
 #c_zaslavl
 4021 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4022 = {
@@ -17898,7 +17898,7 @@
 #c_ushytsia
 4049 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4050 = {
@@ -17910,7 +17910,7 @@
 #c_korsun
 267 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4041 = {
@@ -17955,7 +17955,7 @@
 #c_kiev
 270 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4033 = {
@@ -17976,7 +17976,7 @@
 #c_zhytomyr
 4038 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4039 = {
@@ -18052,7 +18052,7 @@
 #c_lubelska
 3908 = {
 	culture = przeworsk
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 3909 = {
@@ -18079,7 +18079,7 @@
 #c_cherven
 4024 = {
 	culture = przeworsk
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4025 = {
@@ -18094,7 +18094,7 @@
 #c_belz
 4028 = {
 	culture = przeworsk
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4029 = {
@@ -18157,7 +18157,7 @@
 #c_volodymyr
 258 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 3998 = {
@@ -18175,7 +18175,7 @@
 #c_peresopnytsia
 4002 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4003 = {
@@ -18187,7 +18187,7 @@
 #c_turov
 275 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4053 = {
@@ -18199,7 +18199,7 @@
 #c_korosten
 4055 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4056 = {
@@ -18217,7 +18217,7 @@
 #c_dubrovytsia
 4060 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4061 = {
@@ -18229,7 +18229,7 @@
 #c_zvyahel
 4042 = {
 	culture = agathyrsian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4043 = {
@@ -18244,7 +18244,7 @@
 #c_chornobyl
 4046 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4047 = {
@@ -18845,7 +18845,7 @@
 #c_babruysk
 4070 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4071 = {
@@ -19104,7 +19104,7 @@
 #c_roslavl
 510 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4137 = {
@@ -19270,7 +19270,7 @@
 #c_saratov
 311 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4276 = {
@@ -19303,7 +19303,7 @@
 #c_atkarsk
 4345 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4344 = {
@@ -19315,7 +19315,7 @@
 #c_petrovsk
 4297 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4298 = {
@@ -19362,7 +19362,7 @@
 #c_novosil
 4128 = {
 	culture = ugrisch
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4129 = {
@@ -19371,7 +19371,7 @@
 #c_odoyev
 4130 = {
 	culture = ugrisch
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4131 = {
@@ -19380,7 +19380,7 @@
 #c_karachev
 4122 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4123 = {
@@ -19392,7 +19392,7 @@
 #c_kozelsk
 4125 = {
 	culture = ugrisch
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4126 = {
@@ -19404,7 +19404,7 @@
 #c_sevsk
 4119 = {
 	culture = zarubintsy
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4120 = {
@@ -19528,7 +19528,7 @@
 #c_tambov
 4260 = {
 	culture = ugrisch
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4263 = {
@@ -19543,7 +19543,7 @@
 #c_durovka
 4295 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4296 = {
@@ -19555,7 +19555,7 @@
 #c_tuluchezeva
 4281 = {
 	culture = roxolanian
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4282 = {
@@ -19627,7 +19627,7 @@
 #c_voronezh
 4257 = {
 	culture = ugrisch
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4259 = {
@@ -19639,7 +19639,7 @@
 #c_tula
 4144 = {
 	culture = ugrisch
-	religion = scythian
+	religion = r_scythian
 	holding = tribal_holding
 }
 4145 = {
