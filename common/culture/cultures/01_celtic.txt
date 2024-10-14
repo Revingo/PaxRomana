@@ -215,6 +215,7 @@ pictish = {
 		tradition_battlefield_looters
 		tradition_hunters
 		tradition_fp1_trials_by_combat
+		tradition_highland_warriors
 	}
 	
 	#name_list = name_list_pax_celtic
@@ -242,7 +243,7 @@ gaelic = {
 	martial_custom = martial_custom_male_only
 	traditions = {
 		tradition_battlefield_looters
-		tradition_forest_fighters
+		tradition_wetlanders
 		tradition_fp1_trials_by_combat
 		tradition_fp1_the_right_to_prove
 	}

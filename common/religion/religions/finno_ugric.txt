@@ -1,4 +1,4 @@
-﻿sarmatian_religion = {
+sarmatian_religion = {
 	family = rf_pagan
 	graphical_faith = pagan_gfx
 
@@ -215,7 +215,7 @@
 	}	
 
 	faiths = {
-		scythian = {
+		r_scythian = {
 			color = { 0.5 0.5 0.0 }
 
 			#holy sites: Scythian Neapolis, Don River, Dobruja, Pannonian Basin, Pella
