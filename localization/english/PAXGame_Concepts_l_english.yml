@@ -11,6 +11,10 @@
  game_concept_dynastic: "Dynastic"
  game_concept_dynastic_government: "Dynastic Government"
  game_concept_dynastic_desc: "Dynastic governments are a type of governments de-facto ruled by one Dynasty, but with multiple factions inside it which play a big role in the power share."
+
+ game_concept_res_publica: "Res Publica"
+ game_concept_res_publica_government: "Res Publica Government"
+ game_concept_res_publica_desc: "Res Publica are constituted by a Senatum and two Consuls."
  
  game_concept_auctoritas: "Auctoritas"
  game_concept_auctoritas_desc: "Auctoritas determines the amount of Authority you have in your state. It is a weighted average of your [gold|E], [army|E] and mostly your [prestige|E].\n\n#F Having a negative amount of Auctoritas, may lead to very bad consequences."

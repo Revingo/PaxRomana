@@ -27,3 +27,27 @@ rc_3 = {
 		birth = yes
 	}
 }
+
+rc_4 = {
+	name = "Random1"
+	dynasty = din_23
+	442.1.1 = {
+		birth = yes
+	}
+}
+
+rc_5 = {
+	name = "Random2"
+	dynasty = din_23
+	442.1.1 = {
+		birth = yes
+	}
+}
+
+rc_6 = {
+	name = "Random3"
+	dynasty = din_23
+	442.1.1 = {
+		birth = yes
+	}
+}

@@ -55,3 +55,12 @@ tribal_duke = {
 	governments = { tribal_government }
 	priority = 110
 }
+
+res_publica_indipendent = {
+	type = title
+	governments = { res_publica_government }
+	priority = 110
+	flavorization_rules = {
+		only_indipendent = yes
+	}
+}
