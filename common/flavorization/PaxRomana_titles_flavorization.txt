@@ -1,8 +1,15 @@
-﻿city-state_county = {
+﻿
+
+## Specific Titles Flavorization
+city-state_county = {
 	type = title
 	tier = county
 	governments = { city-state_government }
 	priority = 100
+	flavorization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
 }
 
 city-state_duchy = {
@@ -10,6 +17,10 @@ city-state_duchy = {
 	tier = duchy
 	governments = { city-state_government }
 	priority = 100
+	flavorization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
 }
 
 city-state_count = {
@@ -18,6 +29,10 @@ city-state_count = {
 	governments = { city-state_government }
 	special = holder
 	priority = 100
+	flavorization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
 }
 
 city-state_duke = {
@@ -26,6 +41,10 @@ city-state_duke = {
 	governments = { city-state_government }
 	special = holder
 	priority = 100
+	flavorization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
 }
 
 tribal_county = {
@@ -56,11 +75,3 @@ tribal_duke = {
 	priority = 110
 }
 
-res_publica_indipendent = {
-	type = title
-	governments = { res_publica_government }
-	priority = 110
-	flavorization_rules = {
-		only_indipendent = yes
-	}
-}

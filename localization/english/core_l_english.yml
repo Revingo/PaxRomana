@@ -81,9 +81,6 @@
  DEBUG_OFFENSIVE_WAR:0 "Offensive war against $NAME$"
  DEBUG_DEFENSIVE_WAR:0 "Defensive war against $NAME$"
  DEBUG_TRUCE:0 "Truce with $NAME$ (until [DATE.GetString])"
- DEBUG_VASSAL_INFO:0 "Vassal Information:"
- DEBUG_IS_POWERFUL_VASSAL:0 "Is powerful: "
- DEBUG_VASSAL_POWER_VALUE:0 "Vassal power value: $VALUE|V1$"
  DEBUG_TRAVEL_INFO:0 "Travel:"
  DEBUG_TRAVEL_NEXT_DESTINATION:0 "  Next destination: [CHARACTER.GetTravelPlan.GetData.GetNextDestination.GetProvince.GetName|V]\n"
  DEBUG_TRAVEL_ROLE_OWNER:0 "  Travel owner: [CHARACTER.GetTravelPlan.GetData.GetOwner.GetUIName]"
@@ -231,10 +228,8 @@
  RELATION_NEIGHBORING_RULER:0 "Neighboring [ruler|E]"
  RELATION_FOREIGN_RULER:0 "Foreign [ruler|E]"
  RELATION_MY_TOP_LIEGE:0 "Your [top_liege|E]"
- RELATION_BELOW_VASSAL:0 "Vassal in your [realm|E]"
  RELATION_FELLOW_VASSAL:0 "Fellow [vassal|E]"
  RELATION_NEIGHBORING_FELLOW_VASSAL:0 "Neighboring Fellow [vassal|E]"
- RELATION_VASSAL_IN_REALM:1 "Vassal in the [CHARACTER.GetPrimaryTitle.GetBaseName]"
  RELATION_POOL_CHARACTER_LOCATION:0 "Wandering"
  RELATION_POOL_CHARACTER:0 "Wandering"
  RELATION_COUNCIL_POSITION:0 "[CHARACTER.GetCouncilTitle] of [TARGET_CHARACTER.GetShortUIName]"
@@ -695,7 +690,7 @@
  DEVELOPMENT_CURRENT_LEVEL:0 "#T Development Level: $LEVEL|+0$ #!"
  DEVELOPMENT_PROGRESS_TO_LEVEL:1 "[development_growth|E]: $CURRENT|V0$/$THRESHOLD|V0$"
  DEVELOPMENT_PROGRESS:1 "Monthly Change"
- CONTROL_CURRENT_LEVEL:0 "#T County Control: $VALUE|1$/100% #!"
+
  CONTROL_PROGRESS:0 "Monthly Increase"
  BASE_FACTOR_COLON:0 "Base: $VALUE|%0+=$"
  BASE_AI_WILLINGNESS:0 "Base Willingness: $VALUE|0+=$"
@@ -901,3 +896,17 @@
  GAME_DATE_STRING_SHORT: "$DAY$ $MONTH_SHORT$ [Abs_int32(Subtract_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
 
  GAME_DATE_STRING_LONG: "$DAY|O$ of $MONTH$, [Abs_int32(Subtract_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))))] [Select_CString(GreaterThan_int32('(int32)$YEAR|q$', FixedPointToInt(EmptyScope.ScriptValue('rome_birth_start_date'))),'CE','BCE')]"
+
+
+
+ # Vassal to Tributary replacement
+ DEBUG_VASSAL_INFO:0 "Tributary Information:"
+ DEBUG_IS_POWERFUL_VASSAL:0 "Is powerful: "
+ DEBUG_VASSAL_POWER_VALUE:0 "Tributary power value: $VALUE|V1$"
+ RELATION_VASSAL_IN_REALM:1 "Tributary in the [CHARACTER.GetPrimaryTitle.GetBaseName]"
+ RELATION_BELOW_VASSAL:0 "Tributary in your [realm|E]"
+ 
+
+
+ # Title tier replacement
+ CONTROL_CURRENT_LEVEL:0 "#T $game_concept_county$ Control: $VALUE|1$/100% #!"
