@@ -132,10 +132,10 @@
 @very_high_damage_mult_base = 0.06
 
 # Scaling Increase Damage Mult
-@low_damage_mult_addition_per_tier = 0.025
-@normal_damage_mult_addition_per_tier = 0.05
-@high_damage_mult_addition_per_tier = 0.10
-@very_high_damage_mult_addition_per_tier = 0.15
+@low_damage_mult_addition_per_tier = 0.005
+@normal_damage_mult_addition_per_tier = 0.01
+@high_damage_mult_addition_per_tier = 0.02
+@very_high_damage_mult_addition_per_tier = 0.03
 
 
 # Base Toughness Mult
@@ -145,10 +145,10 @@
 @very_high_toughness_mult_base = 0.06
 
 # Scaling Increase Toughness Mult
-@low_toughness_mult_addition_per_tier = 0.025
-@normal_toughness_mult_addition_per_tier = 0.05
-@high_toughness_mult_addition_per_tier = 0.10
-@very_high_toughness_mult_addition_per_tier = 0.15
+@low_toughness_mult_addition_per_tier = 0.005
+@normal_toughness_mult_addition_per_tier = 0.01
+@high_toughness_mult_addition_per_tier = 0.02
+@very_high_toughness_mult_addition_per_tier = 0.03
 
 
 # Base Screen Mult
@@ -158,10 +158,10 @@
 @very_high_screen_mult_base = 0.06
 
 # Scaling Increase Toughness Mult
-@low_screen_mult_addition_per_tier = 0.025
-@normal_screen_mult_addition_per_tier = 0.05
-@high_screen_mult_addition_per_tier = 0.10
-@very_high_screen_mult_addition_per_tier = 0.15
+@low_screen_mult_addition_per_tier = 0.005
+@normal_screen_mult_addition_per_tier = 0.01
+@high_screen_mult_addition_per_tier = 0.02
+@very_high_screen_mult_addition_per_tier = 0.03
 
 
 # Base Pursuit Mult
@@ -171,10 +171,10 @@
 @very_high_pursuit_mult_base = 0.06
 
 # Scaling Increase Pursuit Mult
-@low_pursuit_mult_addition_per_tier = 0.025
-@normal_pursuit_mult_addition_per_tier = 0.05
-@high_pursuit_mult_addition_per_tier = 0.10
-@very_high_pursuit_mult_addition_per_tier = 0.15
+@low_pursuit_mult_addition_per_tier = 0.005
+@normal_pursuit_mult_addition_per_tier = 0.01
+@high_pursuit_mult_addition_per_tier = 0.02
+@very_high_pursuit_mult_addition_per_tier = 0.03
 
 
 # Base Siege Value Mult 
@@ -184,10 +184,10 @@
 @very_high_siege_value_mult_base = 0.20
 
 # Scaling Increase Siege Mult
-@low_siege_value_mult_addition_per_tier = 0.025
-@normal_siege_value_mult_addition_per_tier = 0.05
-@high_siege_value_mult_addition_per_tier = 0.075
-@very_high_siege_value_mult_addition_per_tier = 0.10
+@low_siege_value_mult_addition_per_tier = 0.005
+@normal_siege_value_mult_addition_per_tier = 0.01
+@high_siege_value_mult_addition_per_tier = 0.05
+@very_high_siege_value_mult_addition_per_tier = 0.02
 
 ##################
 # Movement Speed #
