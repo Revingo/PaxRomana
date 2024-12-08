@@ -1,0 +1,12 @@
+﻿set_co-consul_first_time = {
+	random_vassal = {
+		add_character_flag = co-consul_flag
+
+		save_scope_as = co-consul_scope
+	}
+
+	set_variable = {
+		name = co-consul
+		value = scope:co-consul_scope
+	}
+}

@@ -1,1 +1,16 @@
-﻿
+﻿are_there_any_consuls = {
+	OR = {
+		AND = {
+			has_government = res_publica_government
+			has_variable = co-consul
+			var:co-consul = $POSSIBLE_CONSUL$
+		}
+		AND = {
+			liege = {
+				has_government = res_publica_government
+			}
+			liege = $POSSIBLE_CONSUL$
+			has_character_flag = co-consul_flag
+		}
+	}
+}

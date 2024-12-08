@@ -1,0 +1,5 @@
+﻿on_game_start = {
+	on_actions = {
+		res_publica_on_start
+	}
+}

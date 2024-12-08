@@ -1,0 +1,22 @@
+﻿res_publica_government = {
+	government_rules = {
+		council = no
+		rulers_should_have_dynasty = yes
+		legitimacy = no
+		use_as_base_on_landed = yes
+		use_as_base_on_rank_up = yes
+	}
+
+	can_get_government = {
+		highest_held_title_tier > 2
+		vassal_count >= 4
+	}
+
+	ai = {
+		arrange_marriage = no
+		perform_religious_reformation = no
+	}
+
+	flag = government_is_res_publica
+	color = hsv{ 0.3 0.77 0.47 }
+}

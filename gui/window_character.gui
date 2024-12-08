@@ -40,12 +40,13 @@ window = {
 		# Character box
 		widget = {
 			name = "main_characters"
-			datacontext = "[GetIllustration( 'character_view_bg' )]"
+			
 			layoutpolicy_horizontal = expanding
 			size = { 0 305 }
 
 
 			widget = {
+				datacontext = "[GetIllustration( 'character_view_bg' )]"
 				size = { 100% 100% }
 				using = Animation_Character_Window_Refresh
 
@@ -67,11 +68,78 @@ window = {
 
 			### Primary Spouse
 			container_secondary = {
-				visible = "[CharacterWindow.ShouldShowSecondary]"
+				datacontext = "[GetIllustration( 'character_view_bg' )]"
+				visible = "[And(CharacterWindow.ShouldShowSecondary, Not(Or(GetScriptedGui('any_co-consul_vassal_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End), GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End))))]"
+			}
+
+			## Co-Consul Vassal
+			vbox = {
+				datacontext = "[CharacterWindow.GetCharacter.MakeScope.Var('co-consul').Char]"
+				position = { 110 0 }
+				portrait_character_view_main = {
+					visible = "[GetScriptedGui('any_co-consul_vassal_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)]"
+					datacontext = "[GetIllustration( 'character_view_bg' )]"
+					parentanchor = bottom|left
+					
+	
+					using = Animation_Character_Window_Refresh_Short
+	
+					blockoverride "portrait_opinion"
+					{
+						#vbox = {
+						#	max_width = 5
+						#	layoutpolicy_horizontal = shrinking
+							vassal_stance_icon = {
+								name = "vassal_stance"
+								size = { 20 20 }
+							}
+							spacer = {
+								size = { 10 10 }
+							}
+							text_label_center = {
+								raw_text = "Co-Consul"
+							}
+						#}
+						
+					}
+				}
+			}
+
+			## Co-Consul Liege
+			vbox = {
+				datacontext = "[CharacterWindow.GetCharacter.GetLiege]"
+				position = { 110 0 }
+				portrait_character_view_main = {
+					visible = "[GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)]"
+					datacontext = "[GetIllustration( 'character_view_bg' )]"
+					parentanchor = bottom|left
+					
+	
+					using = Animation_Character_Window_Refresh_Short
+	
+					blockoverride "portrait_opinion"
+					{
+						#vbox = {
+						#	max_width = 5
+						#	layoutpolicy_horizontal = shrinking
+						vassal_stance_icon = {
+							name = "vassal_stance"
+							size = { 20 20 }
+						}
+						spacer = {
+							size = { 10 10 }
+						}
+						text_label_center = {
+							raw_text = "Co-Consul"
+						}
+					#}
+					}
+				}
 			}
 
 			### Main Character
 			portrait_character_view_main = {
+				datacontext = "[GetIllustration( 'character_view_bg' )]"
 				name = "tutorial_highlight_main_character_button"
 				parentanchor = bottom|left
 				position = { 0 0 }
@@ -86,9 +154,10 @@ window = {
 					}
 				}
 			}
+			
 
 			secondary_widget = {
-				visible = "[CharacterWindow.ShouldShowSecondary]"
+				visible = "[And(CharacterWindow.ShouldShowSecondary, Not(Or(GetScriptedGui('any_co-consul_vassal_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End), GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End))))]"
 				position = { 250 0 }
 			}
 
@@ -213,7 +282,7 @@ window = {
 				vbox = {
 					name = "liege"
 					datacontext = "[CharacterWindow.GetCharacter.GetLiegeEvenWhenDead]"
-					visible = "[CharacterWindow.HasLiegeEvenWhenDead]"
+					visible = "[And(CharacterWindow.HasLiegeEvenWhenDead, Not(GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)))]"
 					allow_outside = yes
 
 					margin_right = 20
@@ -829,8 +898,9 @@ window = {
 							margin_top = 1
 
 							text_single = {
+								visible = "[Not(Or(GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End), GetScriptedGui('any_co-consul_vassal_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)))]"
 								name = "character_name"
-								raw_text = "[Character.GetUINameNotMeNoTooltip], "
+								raw_text = "[Character.GetUINameNotMeNoTooltip]"
 								margin_left = 2
 								max_width = 398
 								fontsize = 20
@@ -839,7 +909,59 @@ window = {
 								default_format = "#medium"
 								tooltip = "[Character.GetUINameNotMeNoTooltip]"
 							}
-
+							hbox = {
+								name = "character_name_consul_vassal"
+								visible = "[GetScriptedGui('any_co-consul_vassal_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)]"
+								text_single = {
+									raw_text = "Consul [Character.GetFirstNameNoTooltip]"
+									margin_left = 2
+									max_width = 398
+									fontsize = 20
+									fontsize_min = 14
+									align = nobaseline
+									default_format = "#high"
+									
+								}
+								text_single = {
+									raw_text = " of [Character.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+									margin_left = 2
+									max_width = 398
+									fontsize = 20
+									fontsize_min = 14
+									align = nobaseline
+									default_format = "medium"
+									
+								}
+								using = tooltip_se
+								tooltip = "Consul [Character.GetFirstNameNoTooltip] of [Character.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+							}
+							hbox = {
+								name = "character_name_consul_liege"
+								visible = "[GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)]"
+								text_single = {
+									raw_text = "Consul [Character.GetFirstNameNoTooltip]"
+									margin_left = 2
+									max_width = 398
+									fontsize = 20
+									fontsize_min = 14
+									align = nobaseline
+									default_format = "#high"
+									
+								}
+								text_single = {
+									raw_text = " of [Character.GetLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+									margin_left = 2
+									max_width = 398
+									fontsize = 20
+									fontsize_min = 14
+									align = nobaseline
+									default_format = "medium"
+									
+								}
+								using = tooltip_se
+								tooltip = "Consul [Character.GetFirstNameNoTooltip] of [Character.GetLiege.GetPrimaryTitle.GetBaseNameNoTierNoTooltip]"
+							}
+				
 							text_single = {
 								name = "character_age"
 								raw_text = " [Character.GetAge]"
@@ -1220,9 +1342,10 @@ window = {
 					layoutpolicy_horizontal = expanding
 					layoutpolicy_vertical = expanding
 
+					## NO RES PUBLICA CO-CONSUL
 					vbox = {
 						name = "realm_shield"
-						visible = "[Character.HasLandedTitles]"
+						visible = "[And(Character.HasLandedTitles, Not(GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( Character.MakeScope ).End)))]"
 						layoutpolicy_vertical = expanding
 						spacing = 4
 						margin_top = -4
@@ -1335,6 +1458,122 @@ window = {
 						expand = {}
 					}
 
+					## LIEGE RES PUBLICA CO-CONSUL
+					vbox = {
+						name = "realm_shield_co-consul"
+						visible = "[And(Character.HasLandedTitles, GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( Character.MakeScope ).End))]"
+						layoutpolicy_vertical = expanding
+						spacing = 4
+						margin_top = -4
+
+						using = Animation_Character_Window_Refresh
+
+						coa_realm_medium_crown = {
+							datacontext = "[Character.GetLiege]"
+
+							blockoverride "coa_button"
+							{
+								name = "realm_shield_co-consul"
+								tooltip = "[Character.GetLiege.GetDefaultRealmFlagTooltipPrimaryTitleClickInfo]"
+								onclick = "[DefaultOnCoatOfArmsClick(Character.GetLiege.GetPrimaryTitle.GetID)]"
+							}
+						}
+
+						hbox = {
+							vbox = {
+								datacontext = "[CharacterWindow.GetCharacter]"
+								visible = "[And( Not( Character.GetPrimaryTitle.HasFaction ), And( Character.HasLandedTitles, Character.IsAlive ) )]"
+								tooltip = "[Character.GetDomainLimitTooltip]"
+								spacing = -2
+	
+								background = {
+									visible = "[GreaterThan_int32( Character.GetDomainSize, Character.GetDomainLimit )]"
+									using = Status_Bad
+								}
+	
+								icon = {
+									name = "domain_icon_co-consul"
+									size = { 30 30 }
+									texture = "gfx/interface/icons/icon_domain.dds"
+								}
+	
+								text_single = {
+									name = "domain_limit_co-consul"
+									text = "[Character.GetDomainSize]/[Character.GetDomainLimit]"
+									default_format = "#high"
+									align = center|nobaseline
+								}
+							}
+
+							spacer = {
+								size = { 15 0 }
+							}
+
+							vbox = {
+								visible = "[Character.HasLandedTitles]"
+								tooltip = "PAX_AUCTORITAS_TOOLTIP"
+								min_width = 15
+								spacing = 2
+		
+								icon = {
+									name = "icon_auctoritas_co-consul"
+									size = { 30 30 }
+									texture = "gfx/interface/icons/icon_auctoritas.dds"
+								}
+		
+								text_single = {
+									name = "auctoritas_co-consul"
+									text = "[GuiScope.SetRoot( Character.MakeScope ).ScriptValue('auctoritas_value')|0]"
+									default_format = "#high"
+									align = center|nobaseline
+									fontsize_min = 12
+									max_width = 50
+								}
+							}
+						}
+						
+
+						flowcontainer = {
+							margin = { 3 2 }
+							ignoreinvisible = yes
+
+							background = {
+								using = Background_Area_Dark
+							}
+
+							flowcontainer = {
+								visible = "[Character.IsTheocraticLessee]"
+								tooltip = "CV_THEOCRACY_LESSEE_TOOLTIP"
+								spacing = -2
+								direction = vertical
+
+								icon = {
+									name = "theocracy_lessee_info_co-consul"
+									texture = "gfx/interface/icons/icon_holding_church.dds"
+									size = { 30 30 }
+								}
+
+								text_single = {
+									name = "domain_limit_co-consul"
+									parentanchor = hcenter
+									text = "[Character.GetNumTitlesFromTheocraticLease]"
+									default_format = "#high"
+									align = center|nobaseline
+								}
+							}
+
+							icon = {
+								name = "religious_head_info_co-consul"
+								visible = "[Character.IsReligiousHead]"
+								size = { 30 30 }
+								texture = "gfx/interface/icons/icon_head_of_faith_income.dds"
+								tooltip = "CV_THEOCRACY_RELIGIOUS_HEAD_TOOLTIP"
+							}
+						}
+
+						expand = {}
+					}
+
 					vbox = {
 						layoutpolicy_horizontal = expanding
 						layoutpolicy_vertical = expanding
@@ -1374,10 +1613,19 @@ window = {
 								}
 							}
 
+							## NO RES PUBLICA LIEGE CO-CONSUL
 							realm_name_and_type_vbox = {
 								name = "realm_name_and_type"
-								visible = "[Character.HasLandedTitles]"
+								visible = "[And(Character.HasLandedTitles, Not(GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)))]"
 								datacontext = "[Character.GetPrimaryTitle]"
+								max_width = 250
+							}
+
+							## RES PUBLICA LIEGE CO-CONSUL
+							realm_name_and_type_vbox = {
+								name = "realm_name_and_type_co-consul"
+								visible = "[And(Character.HasLandedTitles, GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End))]"
+								datacontext = "[Character.GetLiege.GetPrimaryTitle]"
 								max_width = 250
 							}
 
@@ -4252,7 +4500,7 @@ types CharacterWindow
 
 		text_single = {
 			name = "government_type"
-			visible = "[Not( Title.HasFaction )]"
+			visible = "[And(Not( Title.HasFaction ), Not(GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End)))]"
 			layoutpolicy_horizontal = expanding
 			autoresize = no
 			text = "CV_REALM_TYPE"
@@ -4260,6 +4508,23 @@ types CharacterWindow
 			align = nobaseline
 			fontsize_min = 14
 		}
+
+		hbox = {
+			visible = "[And(Not( Title.HasFaction ), GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( CharacterWindow.GetCharacter.MakeScope ).End))]"
+			
+			layoutpolicy_horizontal = expanding
+			text_single = {
+				datacontext = "[CharacterWindow.GetCharacter.GetLiege]"
+				name = "government_type_co-consul"
+				layoutpolicy_horizontal = expanding
+				autoresize = no
+				text = "CV_REALM_TYPE"
+				default_format = "#low"
+				align = nobaseline
+				fontsize_min = 14
+			}
+		}
+		
 	}
 
 	type button_marry_off = button {

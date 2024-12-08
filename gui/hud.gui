@@ -1675,8 +1675,10 @@ widget = {
 	}
 
 	## Bottom left CoA
+
+	## NO RES PUBLICA CO-CONSUL
 	coa_realm_medium_crown = {
-		visible = "[And(And(Not(IsGameViewOpen('barbershop')), And(And(IsDefaultGUIMode, GetPlayer.IsRuler), Not(GetVariableSystem.Exists( 'hide_ui_coa_bottom_left')))), Not( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('hide_ui_character_model').GetValue, '(CFixedPoint)0' ) ))]"
+		visible = "[And(And(And(Not(IsGameViewOpen('barbershop')), And(And(IsDefaultGUIMode, GetPlayer.IsRuler), Not(GetVariableSystem.Exists( 'hide_ui_coa_bottom_left')))), Not( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('hide_ui_character_model').GetValue, '(CFixedPoint)0' ) )), Not(GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End)))]"
 		visible_at_creation = no
 		parentanchor = bottom|left
 
@@ -1702,6 +1704,38 @@ widget = {
 		{
 			tooltip = "[GetPlayer.GetDefaultRealmFlagTooltipPrimaryTitleClickInfo]"
 			onclick = "[DefaultOnCoatOfArmsClick(GetPlayer.GetPrimaryTitle.GetID)]"
+		}
+	}
+
+	## LIEGE RES PUBLICA CO-CONSUL
+	coa_realm_medium_crown = {
+		visible = "[And(And(And(Not(IsGameViewOpen('barbershop')), And(And(IsDefaultGUIMode, GetPlayer.IsRuler), Not(GetVariableSystem.Exists( 'hide_ui_coa_bottom_left')))), Not( GreaterThan_CFixedPoint( GetPlayer.MakeScope.Var('hide_ui_character_model').GetValue, '(CFixedPoint)0' ) )), GetScriptedGui('has_co-consul_liege_scripted_gui').IsShown( GuiScope.SetRoot( GetPlayer.MakeScope ).End))]"
+		visible_at_creation = no
+		parentanchor = bottom|left
+		datacontext = "[GetPlayer.GetLiege]"
+
+		state = {
+			name = _show
+			using = Animation_Curve_Default
+			duration = 0.25
+
+			position = { 0 4 }
+			alpha = 1
+		}
+
+		state = {
+			name = _hide
+			using = Animation_Curve_Default
+			duration = 0.25
+
+			position = { 0 50 }
+			alpha = 0
+		}
+
+		blockoverride "coa_button"
+		{
+			tooltip = "[GetPlayer.GetLiege.GetDefaultRealmFlagTooltipPrimaryTitleClickInfo]"
+			onclick = "[DefaultOnCoatOfArmsClick(GetPlayer.GetLiege.GetPrimaryTitle.GetID)]"
 		}
 	}
 

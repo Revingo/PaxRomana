@@ -1,0 +1,46 @@
+﻿res_publica_indipendent = {
+	type = title
+	governments = { res_publica_government }
+	priority = 110
+	flavorization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
+}
+
+res_publica_vassal_title = {
+	type = title
+	governments = { res_publica_government }
+	priority = 100
+	flavorization_rules = {
+		top_liege = no
+	}
+}
+
+# This one doesn't work either, go figure
+res_publica_consul = {
+	type = character
+	governments = { res_publica_government }
+	priority = 5555555555555
+	flavorization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
+}
+
+# Probably this one doesn't work as well but can't test it right now
+res_publica_governor = {
+	type = character
+	governments = { res_publica_government }
+	priority = 100
+	flavorization_rules = {
+		top_liege = no
+	}
+}
+
+# Don't know why this is bugged even if there is no reason to be
+#res_publica_tributary = {
+#	type = title
+#	governments = { res_publica_government }
+#	priority = 100
+#}
