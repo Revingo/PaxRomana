@@ -1,4 +1,4 @@
-north_germans = {
+﻿north_germans = {
 	color = { 0.49 0.50 0.91 }
 	
 	ethos = ethos_bellicose

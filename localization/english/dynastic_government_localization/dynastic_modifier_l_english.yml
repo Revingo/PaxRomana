@@ -4,7 +4,7 @@
  nobles_revolt_character: "Nobles Revolt Effect"
  nobles_revolt_character_desc: "The Nobles have revolted and this character is now facing the consequences"
  citizens_revolt_character: "Citizens Revolt Effect"
- citizens_revolt_character: "The Citizens have revolted and this character is now facing the consequences"
+ citizens_revolt_character_desc: "The Citizens have revolted and this character is now facing the consequences"
  revolt_opinion: "Revolt"
  revolt_opinion_desc: "There is a sentiment of revolt in this settlement"
  herthquake_not_helped: "Citizens Against the Earthquake"

@@ -20,7 +20,7 @@
  dacian_devil_name: "Drukutas" #fictional
  dacian_devil_name_possessive: "Drukutas'" #fictional
  dacian_house_of_worship: "Zalmoxistam" #fictional
- dacian_house_of_worship: "Zalmoxistams" #fictional
+ dacian_house_of_worship_plural: "Zalmoxistams" #fictional
  dacian_religious_symbol: "The Moutains"
  dacian_religious_symbol_2: "The Snake"
  dacian_religious_symbol_3: "The Moon"

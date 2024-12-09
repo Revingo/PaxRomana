@@ -221,7 +221,6 @@
 			reformed_icon = slavic_reformed
 
 			holy_site = kiev
-			holy_site = novgorod
 			holy_site = barlad
 			holy_site = plock
 			holy_site = rugen

@@ -228,11 +228,6 @@
 			icon = kiratism
 			reformed_icon = kiratism_reformed
 			
-			holy_site = kathmandu
-			holy_site = ilam
-			holy_site = garwhal
-			holy_site = jumla
-			holy_site = varanasi
 			
 			doctrine = unreformed_faith_doctrine
 
@@ -246,11 +241,6 @@
 			icon = yumaism
 			reformed_icon = yumaism_reformed
 			
-			holy_site = kathmandu
-			holy_site = ilam
-			holy_site = garwhal
-			holy_site = jumla
-			holy_site = varanasi
 			
 			doctrine = unreformed_faith_doctrine
 			

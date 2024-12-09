@@ -1,0 +1,6 @@
+﻿l_english:
+ GOVERNMENT_auctoritas_500_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El] and a least 500 [auctoritas|E]."
+ GOVERNMENT_auctoritas_600_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El] and a least 600 [auctoritas|E]."
+ GOVERNMENT_auctoritas_700_and_tribal_or_city_state_tooltip: "You need to have a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El] and a least 700 [auctoritas|E]."
+ is_city-state_or_tribal: "You need a [GetGovernment('tribal_government').GetName] or a [GetGovernment('city-state_government').GetName] type of [government|El]"
+ GOVERNMENT_auctoritas_1500_tooltip: "You need at least 1500 [auctoritas|E]"

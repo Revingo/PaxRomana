@@ -1,0 +1,28 @@
+﻿get_levy_from_military_camps = {
+
+	categories = {
+		tweaks
+	}
+	
+	default = 80_percent_levy_m_camps
+
+	
+	80_percent_levy_m_camps = {
+		apply_modifier = all:80_percent_levy_m_camps_modifier
+	}
+	90_percent_levy_m_camps = {
+		apply_modifier = all:90_percent_levy_m_camps_modifier
+	}
+	100_percent_levy_m_camps = {
+		apply_modifier = all:100_percent_levy_m_camps_modifier
+	}
+	50_percent_levy_m_camps = {
+		apply_modifier = all:50_percent_levy_m_camps_modifier
+	}
+	60_percent_levy_m_camps = {
+		apply_modifier = all:60_percent_levy_m_camps_modifier
+	}
+	70_percent_levy_m_camps = {
+		apply_modifier = all:70_percent_levy_m_camps_modifier
+	}
+}

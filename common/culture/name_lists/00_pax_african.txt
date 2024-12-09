@@ -1,4 +1,4 @@
-name_list_nubian = {
+﻿name_list_nubian = {
 
     cadet_dynasty_names = {
         "dynn_Arkamani"
@@ -74,73 +74,73 @@ name_list_nubian = {
 name_list_blemmyan = {
 
     cadet_dynasty_names = {
-        "dynn_Achilles"
-        "dynn_Hermod"
-        "dynn_Thrax"
-        "dynn_Zenon"
-        "dynn_Ares"
-        "dynn_Brutus"
-        "dynn_Damian"
-        "dynn_Eryx"
-        "dynn_Hyperion"
-        "dynn_Icarus"
-        "dynn_Jason"
-        "dynn_Leonidas"
-        "dynn_Neptune"
-        "dynn_Pyrrhus"
-        "dynn_Sabinus"
-        "dynn_Teucer"
-        "dynn_Xenon"
-        "dynn_Apollo"
-        "dynn_Helios"
-        "dynn_Orpheus"
+        "dynn_Anedjib"
+        "dynn_Amasis"
+        "dynn_Balasi"
+        "dynn_Harsiotef"
+        "dynn_Kushite"
+        "dynn_Menkheperre"
+        "dynn_Nesbanebdjed"
+        "dynn_Piye"
+        "dynn_Shankhdakhete"
+        "dynn_Taharqa"
+        "dynn_Tanutamani"
+        "dynn_Tekenw"
+        "dynn_Thutmose"
+        "dynn_Wadjkare"
+        "dynn_Akhraten"
+        "dynn_Bakhenranef"
+        "dynn_Hekanakht"
+        "dynn_Iyibkhentre"
+        "dynn_Shemu"
+        "dynn_Sobekhotep"
     }
 
     dynasty_names = {
-        "dynn_Achilles"
-        "dynn_Hermod"
-        "dynn_Thrax"
-        "dynn_Zenon"
-        "dynn_Ares"
-        "dynn_Brutus"
-        "dynn_Damian"
-        "dynn_Eryx"
-        "dynn_Hyperion"
-        "dynn_Icarus"
-        "dynn_Jason"
-        "dynn_Leonidas"
-        "dynn_Neptune"
-        "dynn_Pyrrhus"
-        "dynn_Sabinus"
-        "dynn_Teucer"
-        "dynn_Xenon"
-        "dynn_Apollo"
-        "dynn_Helios"
-        "dynn_Orpheus"
-        "dynn_Marcus"
+        "dynn_Anedjib"
+        "dynn_Amasis"
+        "dynn_Balasi"
+        "dynn_Harsiotef"
+        "dynn_Kushite"
+        "dynn_Menkheperre"
+        "dynn_Nesbanebdjed"
+        "dynn_Piye"
+        "dynn_Shankhdakhete"
+        "dynn_Taharqa"
+        "dynn_Tanutamani"
+        "dynn_Tekenw"
+        "dynn_Thutmose"
+        "dynn_Wadjkare"
+        "dynn_Akhraten"
+        "dynn_Bakhenranef"
+        "dynn_Hekanakht"
+        "dynn_Iyibkhentre"
+        "dynn_Shemu"
+        "dynn_Sobekhotep"
+        "dynn_Senwosret"
     }
 
     male_names = {
-        Aeneas Agapetos Alexander Andros Antiochus Aristides Asclepius Bacchus Caius Cassius Dionysius Eudoxus Heracles
-        Leonidas Lysander Melchior Nereus Orpheus Philo Pyrrhus Ptolemy Saturnus Thrax Zeus
+        Aboro Amani Astabar Balasi Dabaka Djedka Gebu Harsiotef Kharamadoye Khonsu Menna Mentuhotep Nahu Neferkare Nesamun
+        Piye Qore Rahotep Siaspiqa Taharqa Tantamani Wadjwer Yakbim Zakhrawotep
     }
 
     female_names = {
-        Andromeda Calypso Cassandra Daphne Electra Eurydice Harmonia Helen Hypatia Iphigenia Jocasta Lysandra Medea
-        Melina Nysa Phoebe Selene Thalia Xanthe
+        Abana Amanitore Apedemak Atasamey Bentresh Bintanath Djefat Iput Karomama Khababash Kiya Makeda Nefrukekht Nesharu
+        Nubemhat Satamun Tabiry Tadukhipa Tiye Wedjarenes
     }
 
     dynasty_of_location_prefix = "dynnp_of"
-    patronym_prefix_male = "dynnpat_pre_filius"
+    patronym_prefix_male = "dynnpat_pre_sa"
 
     # Chance of male children being named after their paternal or maternal grandfather, or their father. Sum must not exceed 100.
-    pat_grf_name_chance = 30
-    mat_grf_name_chance = 10
-    father_name_chance = 60
+    pat_grf_name_chance = 40
+    mat_grf_name_chance = 20
+    father_name_chance = 40
     
     # Chance of female children being named after their paternal or maternal grandmother, or their mother. Sum must not exceed 100.
-    pat_grm_name_chance = 40
-    mat_grm_name_chance = 30
+    pat_grm_name_chance = 35
+    mat_grm_name_chance = 35
     mother_name_chance = 30
 }
 

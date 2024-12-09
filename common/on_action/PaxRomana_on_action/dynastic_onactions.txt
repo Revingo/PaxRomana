@@ -44,7 +44,7 @@
 					if = {
 						limit = {
 							AND = {
-								root.var:army_leader.martial < this.martial
+								prev.var:army_leader.martial < this.martial
 								age > 16
 							}
 						}
@@ -61,7 +61,7 @@
 					if = {
 						limit = { 
 							AND = {
-								root.var:nobles_leader.stewardship < this.stewardship
+								prev.var:nobles_leader.stewardship < this.stewardship
 								age > 16
 							}
 						}
@@ -78,7 +78,7 @@
 					if = {
 						limit = {
 							AND = {
-								root.var:citizens_leader.diplomacy < this.diplomacy 
+								prev.var:citizens_leader.diplomacy < this.diplomacy 
 								age > 16
 							}
 						}
@@ -459,14 +459,14 @@ on_dynastic_ruler_title_lost = {
 
 on_dynastic_title_gain = {
 	trigger = {
-		AND = {
+		#AND = {
+		exists = scope:previous_holder
 			scope:previous_holder = {
-				exists = yes
 				is_landed = yes
 				has_government = dynastic_government
 			}
 			scope:title = scope:previous_holder.primary_title
-		}
+		#}
 	}
 	effect = {
 		set_variable = {

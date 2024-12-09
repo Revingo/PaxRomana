@@ -1,4 +1,4 @@
-arabian_religion = {
+﻿arabian_religion = {
 	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine

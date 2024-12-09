@@ -1,4 +1,4 @@
-name_list_celtic = {
+﻿name_list_celtic = {
 
     cadet_dynasty_names = {
         "dynn_Cassivellaunus"

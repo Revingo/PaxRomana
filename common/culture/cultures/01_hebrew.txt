@@ -1,4 +1,4 @@
-hebrew = {
+﻿hebrew = {
 	color = hebrew
 
 	ethos = ethos_spiritual

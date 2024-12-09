@@ -6,7 +6,6 @@
  culture_parameter_unlock_maa_horse_archers:0 "Can recruit [GetMaA('horse_archers').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_mubarizun:0 "Can recruit [GetMaA('mubarizun').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_mulaththamun:0 "Can recruit [GetMaA('mulaththamun').GetName] as [men_at_arms|E]"
- culture_parameter_unlock_maa_archers_of_the_nile:0 "Can recruit [GetMaA('archers_of_the_nile').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_hussar:0 "Can recruit [GetMaA('hussar').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_horn_warrior:0 "Can recruit [GetMaA('horn_warrior').GetName] as [men_at_arms|E]"
  culture_parameter_unlock_maa_bush_hunter:0 "Can recruit [GetMaA('bush_hunter').GetName] as [men_at_arms|E]"

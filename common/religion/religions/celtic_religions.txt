@@ -1,4 +1,4 @@
-celtic_religion = {
+﻿celtic_religion = {
 	family = rf_pagan
 
 	doctrine = pagan_hostility_doctrine
@@ -227,8 +227,13 @@ celtic_religion = {
 			holy_site = ynys_mon
 
 			doctrine = tenet_ritual_celebrations
-			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
+			# Bhakti, else Ancestor Worship.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_bhakti
+				fallback_doctrine = tenet_ancestor_worship
+			}
 		}
 
 		brythonnic_druidism = { #brythonnic
@@ -247,8 +252,13 @@ celtic_religion = {
 			holy_site = mynydd
 
 			doctrine = tenet_megaliths
-			doctrine = tenet_ancestor_worship
 			doctrine = tenet_sanctity_of_nature
+			# Bhakti, else Ancestor Worship.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_bhakti
+				fallback_doctrine = tenet_ancestor_worship
+			}
 		}
 
 		irish_druidism = { #irish
@@ -266,9 +276,14 @@ celtic_religion = {
 			holy_site = hill_of_tara
 			holy_site = mynydd
 
-			doctrine = tenet_adorcism
 			doctrine = tenet_reincarnation
 			doctrine = tenet_sanctity_of_nature
+			# Bhakti, else Ancestor Worship.
+			doctrine_selection_pair = {
+				requires_dlc_flag = the_northern_lords
+				doctrine = tenet_bhakti
+				fallback_doctrine = tenet_ancestor_worship
+			}
 		}
 	}
 }

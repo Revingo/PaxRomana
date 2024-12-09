@@ -1,0 +1,8 @@
+﻿on_game_start_PAX_setup = {
+	effect = {
+		add_to_global_variable_list = {
+			name = laamps_tally
+			target = title:dummy_landless_title
+		}
+	}
+}

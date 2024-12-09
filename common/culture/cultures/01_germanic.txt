@@ -1,4 +1,4 @@
-north_sea_germans = {
+﻿north_sea_germans = {
 	color = { 0.60 0.65 0.91 }
 	
 	ethos = ethos_bellicose
@@ -67,6 +67,35 @@ elbe_germans = {
 		tradition_pastoralists
 		tradition_things
 		tradition_tribe_unity
+	}
+	
+	name_list = name_list_germanic
+	
+	coa_gfx = { norse_coa_gfx western_coa_gfx }
+	building_gfx = { norse_building_gfx }
+	clothing_gfx = { fp1_norse_clothing_gfx northern_clothing_gfx }
+	unit_gfx = { norse_unit_gfx }
+	
+	ethnicities = {
+		70 = caucasian_northern_blond
+		15 = caucasian_northern_ginger
+		10 = caucasian_northern_brown_hair
+		5 = caucasian_northern_dark_hair
+	}
+}
+
+rhen_germans = {
+	color = { 0.65 0.65 0.42 }
+	
+	ethos = ethos_communal
+	heritage = heritage_german
+	language = language_germanic
+	martial_custom = martial_custom_male_only
+	traditions = {
+		tradition_forest_folk
+        tradition_forest_fighters
+        tradition_medicinal_plants
+        tradition_hit_and_run
 	}
 	
 	name_list = name_list_germanic

@@ -226,10 +226,7 @@
 			icon = manichean
 
 			holy_site = ahvaz
-			holy_site = yijinai # As most of China is not on the map, this works to represent the large Chinese following of the faith
-			holy_site = khotan # While Jerusalem was important to early Manicheans, by CK's timeframe, Central Asia was much more important
 			holy_site = samarkand
-			holy_site = udabhanda
 
 			doctrine = tenet_mendicant_preachers # Manicheans preached very far East
 			doctrine = tenet_adaptive

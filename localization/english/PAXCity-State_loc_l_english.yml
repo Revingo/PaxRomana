@@ -1,6 +1,7 @@
 ﻿l_english:
  #Flavorization
  city-state_government: "City-State"
+ city-state_government_with_icon: "@government_type_city-state! $city-state_government$"
  city-state_government_adjective: "City-State"
  city-state_government_desc: "$game_concept_city-state_desc$\n\n#F City-States may look weak, but they are the reminder that the union is strength. When in a [league|E] they may be more formidable than other kind of [governments|E]."
  city-state_government_obbligations: "From [liege|E] [prestige_level|E]"
@@ -47,8 +48,8 @@
  left_league_opinion: "You left the [league|E]"
  banned_me_from_league_opinion: "Banned me from [league|E]"
  usurped_me_from_league_opinion: "Usurped my [league|E]'s leadership"
- league_funds: "[league|E]'s Funds"
- league_funds_desc: "This character is taking a part some of his [gold|E] income for the benefits of the [league|E]."
+ league_funds_modifier: "[league|E]'s Funds"
+ league_funds_modifier_desc: "This character is taking a part some of his [gold|E] income for the benefits of the [league|E]."
 
  #Events Localization
  league_interaction.0001: "Enter [league|E] proposal accepted!"
