@@ -2,6 +2,7 @@ e_roman_respublica = {
     488.1.1 = { 
 		change_development_level = 6
 		holder = rc_3
+		government = res_publica_government
 	}
 }
 k_roman_italia = {
@@ -16,6 +17,38 @@ d_latium = {
 		change_development_level = 6
 		holder = rc_3
 		liege = e_roman_respublica
+	}
+}
+d_calabria = {
+	488.1.1 = {
+		change_development_level = 6
+		holder = rc_1
+		liege = e_roman_respublica
+		government = res_publica_government
+	}
+}
+d_apulia = {
+	488.1.1 = {
+		change_development_level = 6
+		holder = rc_4
+		liege = e_roman_respublica
+		government = res_publica_government
+	}
+}
+d_ancona = {
+	488.1.1 = {
+		change_development_level = 6
+		holder = rc_5
+		liege = e_roman_respublica
+		government = res_publica_government
+	}
+}
+d_spoleto = {
+	488.1.1 = {
+		change_development_level = 6
+		holder = rc_6
+		liege = e_roman_respublica
+		government = res_publica_government
 	}
 }
 

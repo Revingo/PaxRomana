@@ -1,0 +1,49 @@
+﻿
+
+## Specific Titles Flavorization
+city-state_county = {
+	type = title
+	tier = county
+	governments = { city-state_government }
+	priority = 100
+	flavourization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
+}
+
+city-state_duchy = {
+	type = title
+	tier = duchy
+	governments = { city-state_government }
+	priority = 100
+	flavourization_rules = {
+		only_indipendent = yes
+		top_liege = no
+	}
+}
+
+city-state_count = {
+	type = character
+	tier = county
+	governments = { city-state_government }
+	priority = 100
+	flavourization_rules = {
+		only_indipendent = yes
+		only_holder = yes
+		top_liege = yes
+	}
+}
+
+city-state_duke = {
+	type = character
+	tier = duchy
+	governments = { city-state_government }
+	priority = 100
+	flavourization_rules = {
+		only_indipendent = yes
+		only_holder = yes
+		top_liege = yes
+	}
+}
+

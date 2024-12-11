@@ -9009,7 +9009,7 @@
 	holding = tribal_holding
 }
 2784 = {
-	holding = none
+	holding = castle_holding
 }
 2785 = {
 	holding = none

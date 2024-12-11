@@ -7,6 +7,11 @@ city-state = {
 	alias = { city-state_government city-states }
 }
 
+res_publica = {
+	parent = government
+	alias = { res_publica_government }
+}
+
 dynastic = {
 	parent = government
 	alias = { dynastic_government }

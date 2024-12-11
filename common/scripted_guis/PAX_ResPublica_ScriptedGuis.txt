@@ -1,0 +1,22 @@
+﻿any_co-consul_vassal_scripted_gui = {
+	scope = character
+
+	is_shown = {
+		any_vassal = {
+			has_character_flag = co-consul_flag
+		}
+	}
+}
+
+has_co-consul_liege_scripted_gui = {
+	scope = character
+
+	is_shown = {
+		liege = {
+			AND = {
+				has_variable = co-consul
+				var:co-consul = root
+			}
+		}
+	}
+}

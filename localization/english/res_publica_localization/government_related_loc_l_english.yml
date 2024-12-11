@@ -1,0 +1,12 @@
+﻿l_english:
+ res_publica_government: "Res Publica"
+ res_publica_government_with_icon: "@government_type_res_publica! $res_publica_government$"
+ res_publica_government_adjective: "Res Publican"
+ res_publica_government_desc: "$game_concept_res_publica_desc$\n\n#F Momentary Res Publica desc#!"
+ res_publica_government_obbligations: "From [liege|E] [prestige_level|E]"
+ government_is_res_publica: "[government|E] type is [GetGovernment( 'res_publica_government' ).GetName]" 
+ res_publica_indipendent: "$res_publica_government$"
+ res_publica_consul: "Consul"
+ res_publica_governor: "Governor"
+ res_publica_tributary: "Tributary State"
+ res_publica_region: "Region"

@@ -1,0 +1,44 @@
+﻿tribal_county = {
+	type = title
+	tier = county
+	governments = { tribal_government }
+	priority = 110
+	flavourization_rules = {
+		only_holder = yes
+		top_liege = no
+	}
+}
+
+tribal_duchy = {
+	type = title
+	tier = duchy
+	governments = { tribal_government }
+	priority = 110
+	flavourization_rules = {
+		only_holder = yes
+		top_liege = no
+	}
+}
+
+tribal_count = {
+	type = character
+	tier = county
+	governments = { tribal_government }
+	priority = 110
+	flavourization_rules = {
+		only_holder = yes
+		top_liege = no
+	}
+}
+
+tribal_duke = {
+	type = character
+	tier = duchy
+	governments = { tribal_government }
+	priority = 110
+	flavourization_rules = {
+		only_holder = yes
+		top_liege = no
+	}
+}
+
