@@ -284,7 +284,6 @@ c_messina = {
 	488.1.1 = { 
 		change_development_level = 6
 		holder = uc_1
-		government = city-state_government
 	}
 }
 
@@ -292,7 +291,6 @@ c_siracusa = {
 	478.1.1 = { 
 		change_development_level = 6
 		holder = gc_1
-		government = city-state_government
 	}
 }
 

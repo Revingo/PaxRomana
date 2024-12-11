@@ -2149,3 +2149,273 @@ language_merotisch = {
 	
 	color = pax_ethiopian
 }
+
+language_hismaic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hismaic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hismaic }
+			multiply = 10
+		}
+	}
+	
+	color = hismaic
+}
+
+language_dumaitic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_dumaitic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_dumaitic }
+			multiply = 10
+		}
+	}
+	
+	color = dumaitic
+}
+
+language_taymanitic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_taymanitic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_taymanitic }
+			multiply = 10
+		}
+	}
+	
+	color = taymanitic
+}
+
+language_hasaitic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hasaitic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hasaitic }
+			multiply = 10
+		}
+	}
+	
+	color = hasaitic
+}
+
+language_ethiosemitian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_ethiosemitian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_ethiosemitian }
+			multiply = 10
+		}
+	}
+	
+	color = ethiosemitic
+}
+
+language_eastern_sudanic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_eastern_sudanic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_eastern_sudanic }
+			multiply = 10
+		}
+	}
+	
+	color = nubian
+}
+
+language_sabean = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sabean
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sabean }
+			multiply = 10
+		}
+	}
+	
+	color = sabean
+}
+
+language_minaean = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_minaean
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_minaean }
+			multiply = 10
+		}
+	}
+	
+	color = minaean
+}
+
+language_thamudic = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_thamudic
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_thamudic }
+			multiply = 10
+		}
+	}
+	
+	color = northern-thamudic
+}
+
+language_qataban = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_qataban
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_qataban }
+			multiply = 10
+		}
+	}
+	
+	color = northern-thamudic
+}
+
+language_hadramautian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_hadramautian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_hadramautian }
+			multiply = 10
+		}
+	}
+	
+	color = hadramaut
+}
+
+language_magan = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_magan
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_magan }
+			multiply = 10
+		}
+	}
+	
+	color = magan
+}
+
+language_carpi = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_carpi
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_carpi }
+			multiply = 10
+		}
+	}
+	
+	color = carpi
+}
+
+language_sogdian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_sogdian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_sogdian }
+			multiply = 10
+		}
+	}
+	
+	color = pax_sogdian
+}
+
+language_kharesmian = {
+	type = language
+	is_shown = {
+		language_is_shown_trigger = {
+			LANGUAGE = language_kharesmian
+		}
+	}
+	ai_will_do = {
+		value = 10
+		if = {
+			limit = { has_cultural_pillar = language_kharesmian }
+			multiply = 10
+		}
+	}
+	
+	color = pax_kharesmian
+}

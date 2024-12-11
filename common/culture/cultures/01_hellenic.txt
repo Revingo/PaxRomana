@@ -48,11 +48,12 @@ molossian = {
 		10 = mediterranean_byzantine
 	}
 }
+
 paeonian = {
 	color = { 0.54 0.22 0.92 }
 	
-	ethos = ethos_bellicose
-	heritage = heritage_hellenic
+	ethos = ethos_stoic
+	heritage = heritage_balcan
 	language = language_greek
 	martial_custom = martial_custom_male_only
 	traditions = {

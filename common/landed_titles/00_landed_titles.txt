@@ -25851,6 +25851,11 @@ e_arabia = {
 			c_qatif = {
 				color = { 18 104 28 }
 
+				b_thaj = {
+					province = 4877
+
+					color = { 18 104 28 }
+				}
 				b_al-qatif = {
 					province = 4875
 
@@ -25863,11 +25868,6 @@ e_arabia = {
 				}
 				b_al-jubayl = {
 					province = 4876
-
-					color = { 18 104 28 }
-				}
-				b_thaj = {
-					province = 4877
 
 					color = { 18 104 28 }
 				}
