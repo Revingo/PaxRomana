@@ -24,6 +24,7 @@ d_calabria = {
 		change_development_level = 6
 		holder = rc_1
 		liege = e_roman_respublica
+		government = res_publica_government
 	}
 }
 d_apulia = {
@@ -31,6 +32,7 @@ d_apulia = {
 		change_development_level = 6
 		holder = rc_4
 		liege = e_roman_respublica
+		government = res_publica_government
 	}
 }
 d_ancona = {
@@ -38,6 +40,7 @@ d_ancona = {
 		change_development_level = 6
 		holder = rc_5
 		liege = e_roman_respublica
+		government = res_publica_government
 	}
 }
 d_spoleto = {
@@ -45,6 +48,7 @@ d_spoleto = {
 		change_development_level = 6
 		holder = rc_6
 		liege = e_roman_respublica
+		government = res_publica_government
 	}
 }
 
@@ -280,6 +284,7 @@ c_messina = {
 	488.1.1 = { 
 		change_development_level = 6
 		holder = uc_1
+		government = city-state_government
 	}
 }
 
@@ -287,6 +292,7 @@ c_siracusa = {
 	478.1.1 = { 
 		change_development_level = 6
 		holder = gc_1
+		government = city-state_government
 	}
 }
 

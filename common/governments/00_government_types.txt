@@ -488,7 +488,7 @@ military_government = {
 
 	supply_limit_mult_for_others = 2
 
-	fallback = 4
+	fallback = 5
 
 	ai = {
 		arrange_marriage = no

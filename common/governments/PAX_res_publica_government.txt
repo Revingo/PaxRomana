@@ -5,11 +5,25 @@
 		legitimacy = no
 		use_as_base_on_landed = yes
 		use_as_base_on_rank_up = yes
+		administrative = yes
+		primary_holding = countie_capital_city_holding
+		required_county_holdings = { countie_capital_city_holding }
+		#landless_playable = yes #Changes government when you get land
 	}
+
+	fallback = 4
 
 	can_get_government = {
 		highest_held_title_tier > 2
 		vassal_count >= 4
+	}
+
+	# Will later change it to like senatum or something
+	domicile_type = estate
+
+	vassal_contract = {
+		administrative_obligations
+		administrative_themes
 	}
 
 	ai = {
@@ -17,6 +31,9 @@
 		perform_religious_reformation = no
 	}
 
+	flag = government_has_influence
+	flag = government_has_title_men_at_arms
+	flag = government_has_powerful_families
 	flag = government_is_res_publica
 	color = hsv{ 0.3 0.77 0.47 }
 }

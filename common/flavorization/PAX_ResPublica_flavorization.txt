@@ -2,18 +2,10 @@
 	type = title
 	governments = { res_publica_government }
 	priority = 110
-	flavorization_rules = {
+	flavourization_rules = {
 		only_indipendent = yes
-		top_liege = no
-	}
-}
-
-res_publica_vassal_title = {
-	type = title
-	governments = { res_publica_government }
-	priority = 100
-	flavorization_rules = {
-		top_liege = no
+		only_holder = yes
+		top_liege = yes
 	}
 }
 
@@ -21,10 +13,11 @@ res_publica_vassal_title = {
 res_publica_consul = {
 	type = character
 	governments = { res_publica_government }
-	priority = 5555555555555
-	flavorization_rules = {
+	priority = 110
+	flavourization_rules = {
 		only_indipendent = yes
-		top_liege = no
+		only_holder = yes
+		top_liege = yes
 	}
 }
 
@@ -32,9 +25,22 @@ res_publica_consul = {
 res_publica_governor = {
 	type = character
 	governments = { res_publica_government }
-	priority = 100
-	flavorization_rules = {
+	priority = 120
+	flavourization_rules = {
 		top_liege = no
+		only_holder = yes
+		only_vassals = yes
+	}
+}
+
+res_publica_region = {
+	type = title
+	governments = { res_publica_government }
+	priority = 120
+	flavourization_rules = {
+		top_liege = no
+		only_holder = yes
+		only_vassals = yes
 	}
 }
 
