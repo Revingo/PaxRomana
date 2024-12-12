@@ -1,7 +1,10 @@
 ﻿res_publica_on_start = {
 	effect = {
 		every_ruler = {
-			limit = { has_government = res_publica_government }
+			limit = { 
+				has_government = res_publica_government
+				is_indipendent = yes
+			}
 
 			if = {
 				limit = {
@@ -12,10 +15,8 @@
 					}
 				}
 
-				set_co-consul_first_time = yes
+				set_respublica_first_time = yes
 			}
-
-			create_alliance = this.var:co-consul
 		}
 	}
 }

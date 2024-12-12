@@ -137,6 +137,12 @@ c_bologna = {
 		holder = pc_3
 	}
 }
+c_casentino = {
+	488.1.1 = { 
+		change_development_level = 6
+		holder = pc_3
+	}
+}
 c_ferrara = {
 	488.1.1 = { 
 		change_development_level = 6
@@ -144,6 +150,14 @@ c_ferrara = {
 		liege = d_emilia
 	}
 }
+c_ravenna = {
+	488.1.1 = { 
+		change_development_level = 6
+		holder = pc_7
+		liege = d_emilia
+	}
+}
+
 
 d_genoa = {
 	488.1.1 = { 
@@ -160,6 +174,18 @@ c_luni = {
 	}
 }
 c_genoa = {
+	488.1.1 = { 
+		change_development_level = 6
+		holder = pc_4
+	}
+}
+c_lucca = {
+	488.1.1 = { 
+		change_development_level = 6
+		holder = pc_4
+	}
+}
+c_firenze = {
 	488.1.1 = { 
 		change_development_level = 6
 		holder = pc_4
@@ -284,6 +310,7 @@ c_messina = {
 	488.1.1 = { 
 		change_development_level = 6
 		holder = uc_1
+		government = city-state_government
 	}
 }
 
@@ -291,6 +318,7 @@ c_siracusa = {
 	478.1.1 = { 
 		change_development_level = 6
 		holder = gc_1
+		government = city-state_government
 	}
 }
 

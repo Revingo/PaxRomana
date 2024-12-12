@@ -1,0 +1,108 @@
+﻿# Co-Emperors.
+## Specific to anyone with Byzantine elective.
+## Permanent, powerful, and scales benefits to both parties with SoP.
+co_consulship = {
+	# Handled via content - this is only for power sharing arrangements we want to start automatically.
+	start = { always = yes }
+
+	end = {
+		# is a dictatorship trigger
+		# mandate has ended
+	}
+
+	# Mandates
+	## Just the standard suite for now
+	mandate = fill_coffers
+	mandate = swell_armies
+	mandate = promote_authority
+	
+	## Aptitudes.
+	aptitude_score = {
+		add = mandate_type_qualification:fill_coffers
+		add = mandate_type_qualification:swell_armies
+		add = mandate_type_qualification:promote_authority
+	}
+	
+	# Scales of Power
+	## 000
+	power_level = {
+		swing = 0
+		parameter = unlock_syphon_treasury_interaction
+		parameter = unlock_shift_privileges_interaction
+		parameter = unlock_diarch_imprison_interaction
+		parameter = diarch_more_efficient_administrative_emperor_promotion_candidate_mild
+		parameter = diarch_children_born_in_purple_if_culturally_appropriate
+	}
+	## 020
+	power_level = {
+		swing = 20
+		parameter = unlock_diarch_revoke_title_interaction
+		parameter = unlock_diarch_retract_vassal_interaction
+		parameter = unlock_adjust_imperial_bureaucracy_interaction
+		parameter = diarch_more_efficient_administrative_emperor_promotion_candidate_medium
+	}
+	## 040
+	power_level = {
+		swing = 40
+		parameter = unlock_diarch_demand_kingdom_interaction
+		parameter = unlock_scapegoat_counterpart_interaction
+		parameter = liege_pays_currency_surcharge_for_mundane_interactions_mild
+		parameter = diarch_more_efficient_administrative_emperor_promotion_candidate_major
+	}
+	## 60
+	power_level = {
+		swing = 60
+		parameter = unlock_diarch_requests_military_expedition_interaction
+		parameter = liege_pays_currency_surcharge_for_mundane_interactions_medium
+		parameter = diarch_more_efficient_administrative_emperor_promotion_candidate_massive
+	}
+	## 080
+	power_level = {
+		swing = 80
+		parameter = liege_pays_currency_surcharge_for_mundane_interactions_major
+		parameter = regents_can_try_to_overthrow_present_lieges
+		parameter = regents_can_try_to_overthrow_present_lieges_help
+	}
+
+	# Trend towards an even balance of power — most of the time.
+	swing_balance = { add = adult_co_ruler_power_balance_scaling_value }
+
+	# No succession here.
+	succession = no
+
+	# Container for hidden parameters.
+	power_level = {
+		swing = 0
+		hidden_parameter = diarchy_is_co_rulership
+		hidden_parameter = diarchy_type_is_co_emperorship
+		hidden_parameter = mandate_tempo_slow
+	}
+
+	loyalty_score = { add = diarch_loyalty_score_type_co_emperorship_value }
+
+	end_interaction = systematically_maim_character_interaction
+
+	liege_modifier = {
+		name = from_diarch_monthly_influence_bonus
+		monthly_influence_mult = 0.2
+		scale = {
+			add = diarch.years_as_diarch
+			divide = co_emperor_scale_years_in_job_value
+			round = yes
+			# Add 1 so that we get incomplete 5 years rather than making you wait for the first 5.
+			add = 1
+		}
+	}
+
+	diarch_modifier = {
+		name = to_diarch_monthly_influence_add_bonus
+		monthly_influence = 1
+		scale = {
+			add = diarch.years_as_diarch
+			divide = co_emperor_scale_years_in_job_value
+			round = yes
+			# Add 1 so that we get incomplete 5 years rather than making you wait for the first 5.
+			add = 1
+		}
+	}
+}

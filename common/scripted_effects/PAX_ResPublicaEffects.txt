@@ -1,4 +1,41 @@
-﻿set_co-consul_first_time = {
+﻿create_new_Co-ConsulShip_story_cycle = {
+	create_story = {
+		type = Co-Consulship_StoryCycle
+		save_scope_as = co-consulship_story_cycle
+	}
+
+	scope:co-consulship_story_cycle = {
+		set_variable = {
+			name = res_publica_title
+			value = scope:root.top_liege.primary_title
+		}
+
+		set_variable = {
+			name = res_publica_consul
+			value = scope:root.top_liege
+		}
+	}
+}
+
+create_new_ConsulShip_story_cycle = {
+	create_story = {
+		type = Consulship_StoryCycle
+		save_scope_as = consulship_story_cycle
+	}
+	scope:consulship_story_cycle = {
+		set_variable = {
+			name = res_publica_title
+			value = scope:root.primary_title
+		}
+
+		set_variable = {
+			name = res_publica_co-consul
+			value = scope:root.var:co-consul
+		}
+	}
+}
+
+set_respublica_first_time = {
 	random_vassal = {
 		add_character_flag = co-consul_flag
 
@@ -8,5 +45,11 @@
 	set_variable = {
 		name = co-consul
 		value = scope:co-consul_scope
+	}
+
+	create_new_ConsulShip_story_cycle = yes
+
+	scope:co-consul_scope = {
+		create_new_Co-ConsulShip_story_cycle = yes
 	}
 }

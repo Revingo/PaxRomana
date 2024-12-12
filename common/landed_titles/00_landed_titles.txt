@@ -452,11 +452,6 @@ e_roman_respublica = {
 
 					color = { 230 155 15 }
 				}
-				b_vallombrosa = {
-					province = 1767
-
-					color = { 230 155 15 }
-				}
 				b_cortona = {
 					province = 1787
 
@@ -741,10 +736,23 @@ e_roman_respublica = {
 
 					color = { 232 190 25 }
 				}
-				b_impruneta = {
-					province = 1782
+				b_vallombrosa = {
+					province = 1767
 
-					color = { 232 190 25 }
+					color = { 230 155 15 }
+				}
+			}
+			c_pisa = {
+				color = { 180 186 30 }
+				b_livorno = {
+					province = 1780
+
+					color = { 180 186 30 }
+				}
+				b_piombino = {
+					province = 1784
+
+					color = { 180 186 30 }
 				}
 				b_empoli = {
 					province = 1786
@@ -755,25 +763,6 @@ e_roman_respublica = {
 					province = 1781
 
 					color = { 232 190 25 }
-				}
-			}
-			c_pisa = {
-				color = { 180 186 30 }
-
-				b_pisa = {
-					province = 1760
-
-					color = { 180 186 30 }
-				}
-				b_livorno = {
-					province = 1780
-
-					color = { 180 186 30 }
-				}
-				b_piombino = {
-					province = 1784
-
-					color = { 180 186 30 }
 				}
 			}
 			c_lucca = {
@@ -837,6 +826,11 @@ e_roman_respublica = {
 					province = 5545
 
 					color = { 205 175 25 }
+				}
+				b_impruneta = {
+					province = 1782
+
+					color = { 232 190 25 }
 				}
 			}
 			c_orbetello = {
@@ -1369,6 +1363,11 @@ e_roman_respublica = {
 					province = 1755
 
 					color = { 215 120 130 }
+				}
+				b_pisa = {
+					province = 1760
+
+					color = { 180 186 30 }
 				}
 				b_chiavari = {
 					province = 1710

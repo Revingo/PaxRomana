@@ -224,9 +224,6 @@
 	religion = r_hellenic
 	holding = tribal_holding
 }
-1767 = {
-	holding = none
-}
 1787 = {
 	holding = none
 }
@@ -390,25 +387,23 @@
 	religion = r_hellenic
 	holding = tribal_holding
 }
-1782 = {
+
+1767 = {
+	holding = none
+}
+#c_pisa
+1780 = {
+	culture = etruscan
+	religion = r_hellenic
+	holding = tribal_holding
+}
+1784 = {
 	holding = none
 }
 1786 = {
 	holding = none
 }
 1781 = {
-	holding = none
-}
-#c_pisa
-1760 = {
-	culture = etruscan
-	religion = r_hellenic
-	holding = tribal_holding
-}
-1780 = {
-	holding = none
-}
-1784 = {
 	holding = none
 }
 #c_lucca
@@ -448,6 +443,9 @@
 	holding = none
 }
 5545 = {
+	holding = none
+}
+1782 = {
 	holding = none
 }
 #c_orbetello
@@ -740,6 +738,11 @@
 1755 = {
 	culture = gallic_alpina
 	religion = druidism
+	holding = tribal_holding
+}
+1760 = {
+	culture = etruscan
+	religion = r_hellenic
 	holding = tribal_holding
 }
 1710 = {

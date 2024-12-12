@@ -1,0 +1,13 @@
+Dictatorship_StoryCycle = {
+	on_setup = {}
+	
+	on_end = {}
+
+	# Dictatorship Becomes Res Publica again
+	on_owner_death = {}
+
+	# Returns the Dictatorship to a Republic into a year if the Dictator is not a Dictator Vitae
+	effect_group = {
+		years = 1
+	}
+}

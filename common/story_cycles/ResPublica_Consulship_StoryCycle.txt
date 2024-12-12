@@ -1,0 +1,24 @@
+﻿Consulship_StoryCycle = {
+	on_setup = {}
+
+	
+	on_end = {}
+
+	# Res Publica Becomes Dictatorship
+	on_owner_death = {}
+
+	# New Election Effect Group
+	effect_group = {
+		years = 2
+	}
+}
+
+Co-Consulship_StoryCycle = {
+	on_setup = {}
+
+	
+	on_end = {}
+
+	# Res Publica Becomes Dictatorship
+	on_owner_death = {}
+}
