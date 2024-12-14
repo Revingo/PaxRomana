@@ -10,3 +10,5 @@
  res_publica_governor: "Governor"
  res_publica_tributary: "Tributary State"
  res_publica_region: "Region"
+ co-consulship_diarchy_type: "Co-Consulship"
+ co-consulship_diarch_title: "Co-Consul"

@@ -1,4 +1,4 @@
-# This is just a dummy, we will not use this file for succession as it is handled in story_cycles
+﻿# This is just a dummy, we will not use this file for succession as it is handled in story_cycles
 respublica_consul = {
 	default_candidates = { }
 	candidate_score = {

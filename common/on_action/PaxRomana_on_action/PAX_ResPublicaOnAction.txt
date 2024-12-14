@@ -3,7 +3,8 @@
 		every_ruler = {
 			limit = { 
 				has_government = res_publica_government
-				is_indipendent = yes
+				#is_indipendent = yes
+				this = top_liege
 			}
 
 			if = {

@@ -1,4 +1,22 @@
-﻿### Legal trigger list
+﻿
+####################
+# Council Triggers #
+####################
+can_be_councillor_basics_trigger = {
+	is_capable_adult = yes
+	is_imprisoned = no
+	is_at_war_with_liege = no
+	trigger_if = {
+		limit = { has_variable = block_hire_councillor }
+		NOT = { var:block_hire_councillor = liege }
+	}
+	NOT = { has_character_flag = co-consul_flag }
+}
+
+
+##################
+# Legal Triggers #
+##################
 
 opposes_succession_law_change_trigger = {
 	is_imprisoned = no

@@ -49,7 +49,17 @@ set_respublica_first_time = {
 
 	create_new_ConsulShip_story_cycle = yes
 
+	start_diarchy = co-consulship
+
+	set_diarch = scope:co-consul_scope
+
+	set_diarchy_swing = 40
+
 	scope:co-consul_scope = {
 		create_new_Co-ConsulShip_story_cycle = yes
+		#set_diarchy_type = co_consulship
+		
 	}
+
+	
 }

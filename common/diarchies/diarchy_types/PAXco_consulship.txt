@@ -1,7 +1,7 @@
 ﻿# Co-Emperors.
 ## Specific to anyone with Byzantine elective.
 ## Permanent, powerful, and scales benefits to both parties with SoP.
-co_consulship = {
+co-consulship = {
 	# Handled via content - this is only for power sharing arrangements we want to start automatically.
 	start = { always = yes }
 
