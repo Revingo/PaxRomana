@@ -10,6 +10,8 @@
 		tradition_formation_fighting
 		tradition_legalistic
 		tradition_noble_adoption
+		tradition_culture_blending
+		tradition_family_business
 	}
 
 	name_list = name_list_pax_roman
