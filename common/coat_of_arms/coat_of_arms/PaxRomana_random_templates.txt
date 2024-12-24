@@ -1,0 +1,109 @@
+template = {
+
+
+	gallic_single_circle_charge = {
+		pattern = "pattern_solid.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+		color3 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.5 0.48 } scale = { 0.55 0.55 }  }
+		}
+		colored_emblem = {
+			texture = list "gallic_circle_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.5 0.48 } scale = { 0.78 0.78 }  }
+		}		
+	}
+	gallic_single_inverted_circle_charge = {
+		pattern = "pattern_solid.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+		color3 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.5 0.48 } scale = { 0.55 0.55 }  }
+		}
+		colored_emblem = {
+			texture = list "gallic_inverted_circle_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.5 0.48 } scale = { 0.78 0.78 }  }
+		}		
+	}
+	gallic_single_charge = {
+		pattern = "pattern_solid.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+		color3 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.5 0.5 } scale = { 0.8 0.8 }  }
+		}	
+	}
+	gallic_double_charge = {
+		pattern = "pattern_solid.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+		color3 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 }  }
+		}	
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 }  }
+		}	
+	}
+	gallic_triple_charge = {
+		pattern = "pattern_solid.dds"
+		color1 = list "normal_colors"
+		color2 = list "metal_colors"
+		color3 = list "metal_colors"
+
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.25 0.5 } scale = { 0.5 0.5 }  }
+		}	
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.50 0.25 } scale = { 0.25 0.25 }  }
+		}	
+		colored_emblem = {
+			texture = list "gallic_charge_list"
+			color1 = color2
+			color2 = color2
+			color3 = color1
+			instance = { position = { 0.75 0.5 } scale = { 0.5 0.5 }  }
+		}	
+	}
+}
