@@ -18,10 +18,10 @@ ce_andhra_01.dds = { colors = 1 category = figures}
 ce_antlers_01.dds = { colors = 1 category = animals}
 ce_argead_empire.dds = { colors = 1 category = state}
 ce_armenia_symbol.dds = { colors = 1 category = state}
-ce_aryan_01.dds = { colors = 1 category = religion}
-ce_aryan_02.dds = { colors = 1 category = religion}
-ce_aryan_03.dds = { colors = 1 category = religion}
-ce_assur.dds = { colors = 3 category = religion}
+ce_aryan_01.dds = { colors = 1 category = faiths}
+ce_aryan_02.dds = { colors = 1 category = faiths}
+ce_aryan_03.dds = { colors = 1 category = faiths}
+ce_assur.dds = { colors = 3 category = faiths}
 ce_bactrian_01.dds = { colors = 1 category = state}
 ce_bactrian_02.dds = { colors = 1 category = state}
 ce_bactrian_03.dds = { colors = 1 category = state}
@@ -55,7 +55,7 @@ ce_circle_concentric_01.dds = { colors = 1 category = patterns}
 ce_circle_concentric_02.dds = { colors = 1 category = patterns}
 ce_circle_cross.dds = { colors = 1 category = patterns}
 ce_circle_wheel_01.dds = { colors = 1 category = patterns}
-ce_commagene.dds = { colors = 1 category = religion}
+ce_commagene.dds = { colors = 1 category = faiths}
 ce_crescent_01.dds = { colors = 1 category = patterns}
 ce_crescent_02.dds = { colors = 1 category = patterns}
 ce_dacian_01.dds = { colors = 1 category = state}
@@ -73,13 +73,13 @@ ce_eagle_gothic.dds = { colors = 3 category = animals}
 ce_eagle_parthian_left.dds = { colors = 1 category = animals}
 ce_eagle_parthian_right.dds = { colors = 1 category = animals}
 ce_egypt.dds = { colors = 1 category = state}
-ce_egyptian_01.dds = { colors = 1 category = symbolic}
-ce_egyptian_02.dds = { colors = 1 category = symbolic}
-ce_egyptian_03.dds = { colors = 1 category = symbolic}
-ce_egyptian_04.dds = { colors = 1 category = symbolic}
-ce_egyptian_05.dds = { colors = 1 category = symbolic}
-ce_egyptian_06.dds = { colors = 1 category = symbolic}
-ce_egyptian_07.dds = { colors = 1 category = symbolic}
+ce_egyptian_01.dds = { colors = 1 category = manmade}
+ce_egyptian_02.dds = { colors = 1 category = manmade}
+ce_egyptian_03.dds = { colors = 1 category = manmade}
+ce_egyptian_04.dds = { colors = 1 category = manmade}
+ce_egyptian_05.dds = { colors = 1 category = manmade}
+ce_egyptian_06.dds = { colors = 1 category = manmade}
+ce_egyptian_07.dds = { colors = 1 category = manmade}
 ce_elephant_01.dds = { colors = 1 category = animals}
 ce_elephant_02.dds = { colors = 1 category = animals}
 ce_epirus.dds = { colors = 1 category = state}
@@ -92,10 +92,10 @@ ce_flower_05.dds = { colors = 1 category = floral}
 ce_flower_06.dds = { colors = 2 category = floral}
 ce_flower_07.dds = { colors = 1 category = floral}
 ce_flower_08.dds = { colors = 1 category = floral}
-ce_gandaberunda_01.dds = { colors = 1 category = religion}
+ce_gandaberunda_01.dds = { colors = 1 category = faiths}
 ce_goat_macedon.dds = { colors = 3 category = animals}
 ce_goatfish_01.dds = { colors = 1 category = animals}
-ce_goddess_01.dds = { colors = 2 category = religion}
+ce_goddess_01.dds = { colors = 2 category = faiths}
 ce_gryphon_01.dds = { colors = 1 category = animals}
 ce_gryphon_02.dds = { colors = 2 category = animals}
 ce_gryphon_03.dds = { colors = 1 category = animals}
@@ -117,20 +117,20 @@ ce_horse_04.dds = { colors = 1 category = animals}
 ce_horse_05.dds = { colors = 1 category = animals}
 ce_horse_06.dds = { colors = 1 category = animals}
 ce_horse_07.dds = { colors = 1 category = animals}
-ce_ianus_01.dds = { colors = 1 category = religion}
+ce_ianus_01.dds = { colors = 1 category = faiths}
 ce_illyrian_1.dds = { colors = 1 category = state}
 ce_inverted_circle.dds = { colors = 1 category = patterns}
-ce_janus.dds = { colors = 1 category = religion}
-ce_judea_symbol.dds = { colors = 1 category = religion}
-ce_knot_01.dds = { colors = 1 category = religion}
-ce_knot_02.dds = { colors = 1 category = religion}
-ce_knot_03.dds = { colors = 1 category = religion}
-ce_kor.dds = { colors = 2 category = religion}
-ce_kor_1.dds = { colors = 2 category = religion}
-ce_kor_2.dds = { colors = 2 category = religion}
-ce_lamassu_01.dds = { colors = 1 category = religion}
-ce_lammasu.dds = { colors = 3 category = religion}
-ce_lauburu_01.dds = { colors = 1 category = religion}
+ce_janus.dds = { colors = 1 category = faiths}
+ce_judea_symbol.dds = { colors = 1 category = faiths}
+ce_knot_01.dds = { colors = 1 category = faiths}
+ce_knot_02.dds = { colors = 1 category = faiths}
+ce_knot_03.dds = { colors = 1 category = faiths}
+ce_kor.dds = { colors = 2 category = faiths}
+ce_kor_1.dds = { colors = 2 category = faiths}
+ce_kor_2.dds = { colors = 2 category = faiths}
+ce_lamassu_01.dds = { colors = 1 category = faiths}
+ce_lammasu.dds = { colors = 3 category = faiths}
+ce_lauburu_01.dds = { colors = 1 category = faiths}
 ce_leg_mac.dds = { colors = 3 category = animals}
 ce_lion.dds = { colors = 1 category = animals}
 ce_luperca_01.dds = { colors = 2 category = animals}
@@ -167,7 +167,7 @@ ce_phrygia.dds = { colors = 2 category = state}
 ce_pirates.dds = { colors = 2 category = warfare}
 ce_pontus.dds = { colors = 1 category = state}
 ce_pottery_01.dds = { colors = 1 category = figures}
-ce_punic_cadiceus.dds = { colors = 1 category = religion}
+ce_punic_cadiceus.dds = { colors = 1 category = faiths}
 ce_quadskelion_01.dds = { colors = 1 category = figures}
 ce_rhodes.dds = { colors = 2 category = state}
 ce_roman_eagle.dds = { colors = 1 category = state}
@@ -176,9 +176,9 @@ ce_samnite.dds = { colors = 2 category = state}
 ce_scorpion_01.dds = { colors = 1 category = animals}
 ce_scythian_panther.dds = { colors = 1 category = animals}
 ce_selucid_crossbow.dds = { colors = 1 category = warfare}
-ce_shell_01.dds = { colors = 1 category = religion}
+ce_shell_01.dds = { colors = 1 category = faiths}
 ce_ship_01.dds = { colors = 1 category = warfare}
-ce_simurgh.dds = { colors = 1 category = religion}
+ce_simurgh.dds = { colors = 1 category = faiths}
 ce_snake_01.dds = { colors = 1 category = animals}
 ce_snake_02.dds = { colors = 1 category = animals}
 ce_sparta.dds = { colors = 2 category = state}
@@ -190,17 +190,17 @@ ce_square_03.dds = { colors = 1 category = patterns}
 ce_square_04.dds = { colors = 1 category = patterns}
 ce_star_4.dds = { colors = 1 category = patterns}
 ce_star_8.dds = { colors = 1 category = patterns}
-ce_stone_01.dds = { colors = 1 category = religion}
+ce_stone_01.dds = { colors = 1 category = faiths}
 ce_sun_argead.dds = { colors = 1 category = state}
 ce_sun_parthian.dds = { colors = 1 category = state}
 ce_sword_01.dds = { colors = 2 category = warfare}
 ce_sword_02.dds = { colors = 1 category = warfare}
 ce_syracuse.dds = { colors = 2 category = state}
-ce_taijitu.dds = { colors = 2 category = religion}
-ce_tanit.dds = { colors = 1 category = religion}
-ce_tanit_01.dds = { colors = 1 category = religion}
-ce_tanit_02.dds = { colors = 1 category = religion}
-ce_tanit_03.dds = { colors = 2 category = religion}
+ce_taijitu.dds = { colors = 2 category = faiths}
+ce_tanit.dds = { colors = 1 category = faiths}
+ce_tanit_01.dds = { colors = 1 category = faiths}
+ce_tanit_02.dds = { colors = 1 category = faiths}
+ce_tanit_03.dds = { colors = 2 category = faiths}
 ce_tetrasquel.dds = { colors = 1 category = patterns}
 ce_thrace.dds = { colors = 1 category = state}
 ce_thunder_01.dds = { colors = 1 category = patterns}
@@ -208,10 +208,10 @@ ce_thunder_02.dds = { colors = 1 category = patterns}
 ce_tiger_01.dds = { colors = 1 category = animals}
 ce_tree_01.dds = { colors = 1 category = floral}
 ce_trident_01.dds = { colors = 1 category = figures}
-ce_triskelion_01.dds = { colors = 1 category = religion}
-ce_triskelion_02.dds = { colors = 1 category = religion}
-ce_walknut.dds = { colors = 3 category = religion}
-ce_water_nymph_01.dds = { colors = 1 category = religion}
+ce_triskelion_01.dds = { colors = 1 category = faiths}
+ce_triskelion_02.dds = { colors = 1 category = faiths}
+ce_walknut.dds = { colors = 3 category = faiths}
+ce_water_nymph_01.dds = { colors = 1 category = faiths}
 ce_wheel_01.dds = { colors = 1 category = patterns}
 ce_wheel_02.dds = { colors = 1 category = patterns}
 ce_wheel_03.dds = { colors = 1 category = patterns}
@@ -223,3 +223,31 @@ ce_writing_greek_beta.dds = { colors = 1 category = writing}
 ce_xiphos_sword_01.dds = { colors = 1 category = warfare}
 ce_xiphos_sword_02.dds = { colors = 1 category = warfare}
 ireland.dds = { colors = 2 category = state}
+ce_letter_a.dds = { colors = 1 category = writing }
+ce_letter_alpha.dds = { colors = 1 category = writing }
+ce_letter_b.dds = { colors = 1 category = writing }
+ce_letter_c.dds = { colors = 1 category = writing }
+ce_letter_d.dds = { colors = 1 category = writing }
+ce_letter_e.dds = { colors = 1 category = writing }
+ce_letter_f.dds = { colors = 1 category = writing }
+ce_letter_g.dds = { colors = 1 category = writing }
+ce_letter_h.dds = { colors = 1 category = writing }
+ce_letter_i.dds = { colors = 1 category = writing }
+ce_letter_j.dds = { colors = 1 category = writing }
+ce_letter_k.dds = { colors = 1 category = writing }
+ce_letter_l.dds = { colors = 1 category = writing }
+ce_letter_m.dds = { colors = 1 category = writing }
+ce_letter_n.dds = { colors = 1 category = writing }
+ce_letter_o.dds = { colors = 1 category = writing }
+ce_letter_omega.dds = { colors = 1 category = writing }
+ce_letter_p.dds = { colors = 1 category = writing }
+ce_letter_q.dds = { colors = 1 category = writing }
+ce_letter_r.dds = { colors = 1 category = writing }
+ce_letter_s.dds = { colors = 1 category = writing }
+ce_letter_t.dds = { colors = 1 category = writing }
+ce_letter_u.dds = { colors = 1 category = writing }
+ce_letter_v.dds = { colors = 1 category = writing }
+ce_letter_w.dds = { colors = 1 category = writing }
+ce_letter_x.dds = { colors = 1 category = writing }
+ce_letter_y.dds = { colors = 1 category = writing }
+ce_letter_z.dds = { colors = 1 category = writing }

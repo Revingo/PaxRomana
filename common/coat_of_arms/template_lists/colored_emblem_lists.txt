@@ -3211,7 +3211,7 @@ colored_emblem_texture_lists = {
 		10 = "ce_bow_01.dds"
 		10 = "ce_sword_01.dds"
 		10 = "ce_sword_02.dds"
-
+		10 = "ce_horns_01.dds"
 		special_selection = {
 			trigger = {
 				coa_druidism_trigger = yes
@@ -3235,4 +3235,68 @@ colored_emblem_texture_lists = {
 	gallic_inverted_circle_list = {
 		10 = "ce_inverted_circle.dds"
 	}	
+
+
+	italic_charge_list = {
+		10 = "ce_dog_head.dds"
+		10 = "ce_bull_02.dds"
+		10 = "ce_bull_01.dds"
+		10 = "ce_goatfish_01.dds"
+		10 = "ce_lion.dds"
+		10 = "ce_wolf_01.dds"
+		10 = "ce_wolf_face.dds"
+
+		
+		25 = "ce_amphora.dds"
+		25 = "ce_pottery_01.dds"
+
+		10 = "ce_olive_branch.dds"
+		special_selection = {
+			trigger = {
+				coa_hellenic_trigger = yes
+			}
+
+			25 = "ce_hellenic_1.dds"
+			25 = "ce_hellenic_2.dds"
+			25 = "ce_hellenic_3.dds"
+			25 = "ce_hellenic_4.dds"
+			25 = "ce_hellenic_5.dds"
+			25 = "ce_heraklea_pontica.dds"
+		}
+	}
+	italic_circle_list = {
+		10 = "ce_circle_01.dds"
+		10 = "ce_inverted_circle.dds"
+		10 = "ce_circle_concentric_01.dds"
+		10 = "ce_circle_concentric_02.dds"	
+	}
+	roman_charge_list = {
+		10 = "ce_dog_head.dds"
+		10 = "ce_bull_02.dds"
+		10 = "ce_bull_01.dds"
+		10 = "ce_goatfish_01.dds"
+		10 = "ce_lion.dds"
+		10 = "ce_wolf_01.dds"
+		10 = "ce_wolf_face.dds"
+
+		
+		25 = "ce_amphora.dds"
+		25 = "ce_pottery_01.dds"
+
+		10 = "ce_roman_eagle.dds"
+		10 = "ce_olive_branch.dds"
+		special_selection = {
+			trigger = {
+				coa_hellenic_trigger = yes
+			}
+
+			25 = "ce_hellenic_1.dds"
+			25 = "ce_hellenic_2.dds"
+			25 = "ce_hellenic_3.dds"
+			25 = "ce_hellenic_4.dds"
+			25 = "ce_hellenic_5.dds"
+			25 = "ce_heraklea_pontica.dds"
+		}
+	}
+
 }
