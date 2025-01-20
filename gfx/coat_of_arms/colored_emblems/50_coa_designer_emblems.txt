@@ -251,3 +251,9 @@ ce_letter_w.dds = { colors = 1 category = writing }
 ce_letter_x.dds = { colors = 1 category = writing }
 ce_letter_y.dds = { colors = 1 category = writing }
 ce_letter_z.dds = { colors = 1 category = writing }
+
+ce_axe.dds= { colors = 2 category = warfare }
+ce_axe_long.dds= { colors = 2 category = warfare }
+ce_mena_axe_fess.dds = { colors = 1 category = warfare }
+ce_mena_chalice_axe_penbox.dds= { colors = 1 category = warfare }
+ce_mena_axe.dds= { colors = 1 category = warfare }

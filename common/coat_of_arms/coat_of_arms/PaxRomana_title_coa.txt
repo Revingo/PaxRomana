@@ -33,7 +33,21 @@ e_gallia = {
             }
         }
 }
-#e_gallia_roman
+e_gallia_roman = {
+    pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_roman_eagle.dds"
+		instance={
+			scale={ 0.850000 0.850000 }
+		}
+
+	}
+
+}
 #e_germania
 #e_hispania
 #e_hispania_roman
@@ -55,6 +69,58 @@ e_alexander_makedon = {
     
         }
 
+}
+k_makedon = {
+
+        pattern="pattern_solid.dds"
+        color1=blue
+        color2=yellow
+        color3=blue
+        colored_emblem={
+            color1=yellow
+            texture="ce_sun_argead.dds"
+            instance={
+                scale={ 0.700000 0.700000 }
+            }
+    
+        }
+
+}
+k_persia = {
+	pattern="pattern_solid.dds"
+	color1=yellow
+	color2=white
+	color3=red
+	colored_emblem={
+		color1=green
+		texture="ce_lamassu_01.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+    }
+}
+
+
+
+
+
+
+
+#Counties#
+c_laconia={
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=yellow_light
+		color2=yellow
+		texture="ce_sparta.dds"
+		instance={
+			scale={ 0.700000 0.700000 }
+		}
+
+	}
 }
 
 ##UNUSED TITLE COAS##
