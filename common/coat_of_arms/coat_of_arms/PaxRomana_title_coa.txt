@@ -1,0 +1,94 @@
+#
+#Title Coas for PaxRomana
+#
+#
+
+
+e_roman_respublica = {
+    pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_roman_eagle.dds"
+		instance={
+			scale={ 0.850000 0.850000 }
+		}
+
+	}
+
+}
+e_gallia = {
+        pattern="pattern__solid_designer.dds"
+        color1=green
+        color2=white
+        color3=green
+        colored_emblem={
+            color1=yellow_light
+            color2=red
+            texture="ce_boar_02.dds"
+            instance={
+                scale={ 0.650000 0.650000 }
+            }
+        }
+}
+#e_gallia_roman
+#e_germania
+#e_hispania
+#e_hispania_roman
+#e_britannia
+#e_britannia_roman
+#e_hellen
+e_alexander_makedon = {
+
+        pattern="pattern_solid.dds"
+        color1=blue
+        color2=yellow
+        color3=blue
+        colored_emblem={
+            color1=yellow
+            texture="ce_sun_argead.dds"
+            instance={
+                scale={ 0.700000 0.700000 }
+            }
+    
+        }
+
+}
+
+##UNUSED TITLE COAS##
+#
+# THESE ARE MADE JUST INCASE THEY'LL BE USED
+# UNTIL THEY ARE USED THEY'LL BE SLASHED OUT
+
+#k_carthage = {
+#        pattern="pattern__solid_designer.dds"
+#        color1=white
+#        color2=white
+#        color3=blue
+#        colored_emblem={
+#            color1=yellow
+#            texture="ce_tanit.dds"
+#            instance={
+#                scale={ 0.590000 0.590000 }
+#            }
+#    
+#        }
+#    
+#        colored_emblem={
+#            color1=black
+#            texture="ce_tanit.dds"
+#            instance={
+#                scale={ 0.570000 0.570000 }
+#                depth=1.010000
+#            }
+#    
+#        }
+#}
+
+#
+#k_magna_grecia = {}
+#k_roman_italia = {}
+#k_cisalpine_gaul = {}
+#k_gallia_narbonense = {}
