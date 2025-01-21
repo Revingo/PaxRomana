@@ -112,3 +112,15 @@ din_23 = {
 	name = dynn_fabius_maximus
 	culture = pax_roman
 }
+din_24 = {
+	name = dynn_argead
+	culture = makedonian
+}
+din_25 = {
+	name = dynn_ptolemy
+	culture = makedonian
+}
+din_26 = {
+	name = dynn_lysimachus
+	culture = makedonian
+}
