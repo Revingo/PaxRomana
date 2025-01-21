@@ -14,7 +14,7 @@
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -43,7 +43,7 @@ noric_celts = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -73,7 +73,7 @@ gallic_narbonensis = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -102,7 +102,7 @@ gallic_comato = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -131,7 +131,7 @@ gallic_belgica = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -161,7 +161,7 @@ gallic_veneti  = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -191,7 +191,7 @@ brythonic = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -221,7 +221,7 @@ pictish = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -251,7 +251,7 @@ gaelic = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -280,7 +280,7 @@ celtiberian = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -310,7 +310,7 @@ gallaecian = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
@@ -400,7 +400,7 @@ gallic_illyrian = {
 	#name_list = name_list_pax_celtic
 	name_list = name_list_celtic
 	
-	coa_gfx = { frankish_group_coa_gfx western_coa_gfx }
+	coa_gfx = { gallic_group_coa_gfx }
 	building_gfx = { western_building_gfx }
 	clothing_gfx = { northern_clothing_gfx }
 	unit_gfx = { western_unit_gfx }
