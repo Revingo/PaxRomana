@@ -18,12 +18,214 @@ rc_2 = {
 	}
 }
 
-rc_3 = {
-	name = "Gurges"
+#fabia
+##vibulana (main branch)
+rc_14 = {
+	name = "Caeso" # Caeso Fabius, earliest(?) recorded Fabius
 	dynasty = din_23
 	religion = r_hellenic
 	culture = pax_roman
+	240.1.1 = { 
+		birth = yes
+	}
+	320.1.1 = {
+		death = yes
+	}
+}
+rc_15 = {
+	name = "Quintus" # Quintus Fabius Vibulanus (consul 485, 482 BC)
+	dynasty_house = house_fabia_vibulana
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_14
+	270.1.1 = { 
+		birth = yes
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+rc_11 = {
+	name = "Caeso" # Caeso Fabius Vibulanus (consul 484, 481, 479 BC)
+	dynasty_house = house_fabia_vibulana
+		religion = r_hellenic
+	culture = pax_roman
+	father = rc_14
+	274.1.1 = { 
+		birth = yes
+	}
+	349.1.1 = {
+		death = yes
+	}
+}
+rc_12 = {
+	name = "Marcus" # Marcus Fabius Vibulanus (consul 483, 480 BC)
+	dynasty_house = house_fabia_vibulana
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_14
+	275.1.1 = { 
+		birth = yes
+	}
+	360.1.1 = {
+		death = yes
+	}
+}
+rc_16 = {
+	name = "Quintus" # Quintus Fabius Vibulanus (consul 467, 465, 459 BC)
+	dynasty_house = house_fabia_vibulana
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_12
+	310.1.1 = { 
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+rc_17 = {
+	name = "Marcus" # Marcus Fabius Vibulanus (consul 442, consualr tribune  433 BC)
+	dynasty_house = house_fabia_vibulana
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_16
+	335.1.1 = { 
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+rc_18 = {
+	name = "Quintus" # quintus Fabius Vibulanus (consul 432 BC)
+	dynasty_house = house_fabia_vibulana
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_16
+	340.1.1 = { 
+		birth = yes
+	}
+	405.1.1 = {
+		death = yes
+	}
+}
+rc_19 = {
+	name = "Gnaeus" # gnaeus Fabius Vibulanus (consul 421 BC)
+	dynasty_house = house_fabia_vibulana
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_16
+	350.1.1 = { 
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+##maxima
+rc_3 = {
+	name = "Gurges" #Quintus Fabius Maximus Gurges (consul 265 BC)
+	dynasty_house = house_fabia_maxima
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_4
 	443.1.1 = { # 310 BCE
 		birth = yes
 	}
 }
+rc_4 = {
+	name = "Quintus" #Quintus Fabius Maximus Gurges (consul 292 BC)
+	dynasty_house = house_fabia_maxima
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_5
+	400.1.1 = { 
+		birth = yes
+	}
+}
+rc_5 = {
+	name = "Quintus" #Quintus Fabius Maximus Rullianus (consul 322, 310, 308, 297, 295 BC)
+	dynasty_house = house_fabia_maxima
+	religion = r_hellenic
+	culture = pax_roman
+	 father = rc_7
+	410.1.1 = { 
+		birth = yes
+	}
+
+470.1.1 = {
+	death = yes
+}
+}
+rc_9 = {
+	name = "Quintus" #Quintus Fabius Maximus Gurges (curule aedile 267 BC)
+	dynasty_house = house_fabia_maxima
+	religion = r_hellenic
+	culture = pax_roman
+	 father = rc_3
+	465.1.1 = { 
+		birth = yes
+	}
+}
+rc_10 = {
+	name = "Quintus" #Quintus Fabius Maximus Verrucosus Cunctator (consul 233, 228, 215, 214 and 109 BC)
+	dynasty_house = house_fabia_maxima
+	religion = r_hellenic
+	culture = pax_roman
+	 father = rc_9
+	480.1.1 = { 
+		birth = yes
+	}
+}
+##ambusta
+rc_6 = {
+	name = "Fabia"
+	dynasty_house = house_fabia_ambusta
+	religion = r_hellenic
+	culture = pax_roman
+	female = yes
+	father = rc_5
+	388.1.1 = { 
+		birth = yes
+	}
+}
+rc_7 = {
+	name = "Marcus" #Marcus Fabius Ambustus (consul 360, 356 and 354 BC)
+	dynasty_house = house_fabia_ambusta
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_8
+	384.1.1 = { 
+		birth = yes
+	}
+440.1.1 = {
+	death = yes
+}
+}
+rc_8 = {
+	name = "Marcus" # Marcus Fabius Ambustus pontifex maximus 390 BC
+	dynasty_house = house_fabia_ambusta
+	religion = r_hellenic
+	culture = pax_roman
+	350.1.1 = { 
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+rc_13 = {
+	name = "Quintus" #Quintus Fabius Ambustus (consular tribune 390)
+	dynasty_house = house_fabia_ambusta
+	religion = r_hellenic
+	culture = pax_roman
+	father = rc_8
+	390.1.1 = { 
+		birth = yes
+	}
+	444.1.1 = {
+		death = yes
+	}
+}
+

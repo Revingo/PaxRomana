@@ -23,3 +23,941 @@ mc_2 = {
 		death = yes
 	}
 }
+# Argead dynasty
+mc_3 = {
+	name = "Amyntas" # Amyntas I of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	200.1.1 = {
+		birth = yes
+	}
+	260.1.1 = {
+		death = yes
+	}
+}
+mc_4 = {
+	name = "Alexandros" # Alexander I of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_3
+	230.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+mc_6 = {
+	name = "Gygaea" # wife of the Persian general Bubares. they had a son named Amyntas- could be included as either Persian or Macedonian?
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	father = mc_3
+	230.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		death = yes
+	}
+}
+
+mc_5 = {
+	name = "Perdiccas" # Perdiccas II of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_4
+	260.1.1 = {
+		birth = yes
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+mc_7 = {
+	name = "Menelaus" # father of Amyntas II
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_4
+	270.1.1 = {
+		birth = yes
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+mc_8 = {
+	name = "Philip"
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_4
+	275.1.1 = {
+		birth = yes
+	}
+	325.1.1 = {
+		death = yes
+	}
+}
+mc_9 = {
+	name = "Amyntas" #grandfather of Amyntas III
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_4
+	276.1.1 = {
+		birth = yes
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+mc_10 = {
+	name = "Alcetas" #Alcetas II 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_4
+	276.1.1 = {
+		birth = yes
+	}
+	335.1.1 = {
+		death = yes
+	}
+}
+mc_11 = {
+	name = "Stratonice" #wife of Seuthes II of Thrace
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	father = mc_4
+	273.1.1 = {
+		birth = yes
+	}
+	330.1.1 = {
+		death = yes
+	}
+}
+mc_12 = {
+	name = "Symache" #first wife of Perddicas II
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	280.1.1 = {
+		birth = yes
+	}
+	300.1.1 = {
+		add_spouse = mc_5
+	}
+	309.1.1 = {
+		death = yes
+	}
+}
+mc_13 = {
+	name = "Cleopatra" #second wife of Perddicas II
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	285.1.1 = {
+		birth = yes
+	}
+	310.1.1 = {
+		add_spouse = mc_5
+	}
+	340.1.1 = {
+		death = yes
+	}
+}
+
+mc_14 = {
+	name = "Archelaus" # Archelaus I of Macedon 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_5
+	mother = mc_12
+	301.1.1 = {
+		birth = yes
+	}
+	360.1.1 = {
+		death = yes
+	}
+}
+mc_15 = {
+	name = "Aeropus" # Aeropus II of Macedon 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_5
+	310.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+mc_16 = {
+	name = "Orestes" # Orestes of Macedon 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_14
+
+	348.1.1 = {
+		birth = yes
+	}
+	365.1.1 = {
+		death = yes
+	}
+}
+mc_17 = {
+	name = "Argaeus" # Argaeus II of Macedon 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_14
+
+	355.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+mc_18 = {
+	name = "Pausanius" # Argaeus of Macedon 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_15
+
+	355.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+mc_19 = {
+	name = "Amyntas" # Amyntas II of Macedon 
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_7
+
+	300.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+mc_20 = {
+	name = "Arrhidaeus" # father of Amyntas III
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_9
+
+	310.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		death = yes
+	}
+}
+mc_21 = {
+	name = "Amyntas" # Amyntas III of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_20
+
+	330.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		add_spouse = mc_22
+	}
+	385.1.1 = {
+		add_spouse = mc_27
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+mc_22 = {
+	name = "Eurydice" # princess of Lynkestis - culture tbc
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	350.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+mc_23 = {
+	name = "Alexander" # Alexander I of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_22
+
+	380.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+mc_24 = {
+	name = "Perdiccas" # Perdiccas III of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_22
+
+	330.1.1 = {
+		birth = yes
+	}
+	393.1.1 = {
+		death = yes
+	}
+}
+mc_25 = {
+	name = "Philippos" # Philip II of Macedon
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_22
+	398.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		add_spouse = mc_31
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+mc_26 = {
+	name = "Eurynoe" # daughter of Amynas III
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_22
+	female = yes
+	398.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+mc_27 = {
+	name = "Gygaea" # second wife oF Amynas III
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	360.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+mc_28 = {
+	name = "Menelaus" # half brother of Philip II
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_27
+	399.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+mc_29 = {
+	name = "Archelaus " # half brother of Philip II
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_27
+	400.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		death = yes
+	}
+}
+mc_30 = {
+	name = "Arrhidaeus" # half brother of Philip II
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_21
+	mother = mc_27
+	398.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		death = yes
+	}
+}
+mc_31 = {
+	name = "Cleopatra Eurdyice" # final wife of Philip II- only confirmed Macedonian. Olympias - Epirote.
+	religion = h_hellenic
+	culture = makedonian
+female = yes
+	410.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+mc_32 = {
+	name = "Alexander" # ALEXANDER THE GREAT
+	father = mc_25
+	religion = h_hellenic
+	culture = makedonian
+	dynasty = din_24
+	420.1.1 = {
+		birth = yes
+	}
+	453.1.1 = {
+		death = yes
+	}
+}
+mc_33 = {
+	name = "Amyntas" # Amyntas iv of Macedon
+	father = mc_24
+	religion = h_hellenic
+	culture = makedonian
+	dynasty = din_24
+	392.1.1 = {
+		birth = yes
+	}
+	417.1.1 = {
+		death = yes
+	}
+}
+mc_34 = {
+	name = "Philippus" # Philip III of Macedon
+	father = mc_25
+	religion = h_hellenic
+	culture = makedonian
+	dynasty = din_24
+	425.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+mc_35 = {
+	name = "Cynane" # half siter of Alexander
+	father = mc_25
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	dynasty = din_24
+	423.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		add_spouse =  mc_33
+	}
+	450.1.1 = {
+		death = yes
+	}
+}
+mc_36 = {
+	name = "Thessalonike" # Wife of Cassander
+	dynasty = din_24
+	father = mc_25
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	428.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+mc_37 = {
+	name = "Caranus" # half brother of Alexander
+	dynasty = din_24
+	father = mc_25
+	religion = h_hellenic
+	culture = makedonian
+	435.1.1 = {
+		birth = yes
+	}
+	451.1.1 = {
+		death = yes
+	}
+}
+mc_38 = {
+	name = "Europa" # half sister of Alexander
+	dynasty = din_24
+	female = yes
+	father = mc_25
+	mother = mc_31
+	religion = h_hellenic
+	culture = makedonian
+	449.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+mc_39 = {
+	name = "Alexander" # ALexander IV of Macedon, son of Roxana
+	father = mc_32
+	religion = h_hellenic
+	culture = makedonian
+	dynasty = din_24
+	454.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+mc_40 = {
+	name = "Eurydice" # wife of Philip III
+	dynasty = din_24
+	father = mc_33
+	mother = mc_35
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	415.1.1 = {
+		birth = yes
+	}
+	430.1.1 = {
+		add_spouse = mc_34
+	}
+	435.1.1 = {
+		death = yes
+	}
+}
+
+mc_41 = {
+	name = "Arsinoe" # mother of Ptolemy I
+	dynasty = din_24
+	religion = h_hellenic
+	culture = makedonian
+	female = yes
+	360.1.1 = {
+		birth = yes
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+#antipatrids (argead house)
+mc_57 = {
+	name = "Iollas" # father of Antipater
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	320.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+mc_46 = {
+	name = "Antipatrus" # Antipater, regent of Macedon
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_57
+	340.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+mc_47 = {
+	name = "Cassander" # Antipaters brother
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_57
+	343.1.1 = {
+		birth = yes
+	}
+	420.1.1 = {
+		death = yes
+	}
+}
+mc_48 = {
+	name = "Cassander" # Cassander I of Macedon
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	400.1.1 = {
+		birth = yes
+	}
+	440.1.1 = {
+		add_spouse = mc_36
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+mc_49 = {
+	name = "Antigone" 
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_47
+	female = yes
+	400.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+mc_50 = {
+	name = "Berenice" # fourth wife of ptolemy I
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	mother = mc_49
+	female = yes
+	420.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		add_spouse = mc_43
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+mc_55 = {
+	name = "Phila" # wife of Demetrius I
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	female = yes
+	400.1.1 = {
+		birth = yes
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+mc_51 = {
+	name = "Eurydice" # third wife of ptolemy I
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	female = yes
+	420.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		add_spouse = mc_43
+	}
+	480.1.1 = {
+		death = yes
+	}
+}
+mc_56 = {
+	name = "Iollas" # Cassanders brother
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	405.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+mc_58 = {
+	name = "Pleistarchus" # Cassanders brother, governor of Cilicia /Caria
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	407.1.1 = {
+		birth = yes
+	}
+	469.1.1 = {
+		death = yes
+	}
+}
+mc_59 = {
+	name = "Nicaea" # wife of Perdiccas and later Lysimachus
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	female = yes
+	408.1.1 = {
+		birth = yes
+	}
+	471.1.1 = {
+		death = yes
+	}
+}
+mc_60 = {
+	name = "Philippus" # father of Antipater Etesias
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_46
+	female = yes
+	409.1.1 = {
+		birth = yes
+	}
+	465.1.1 = {
+		death = yes
+	}
+}
+mc_61 = {
+	name = "Alexandros" # Alexander V of Macedon
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_48
+	mother = mc_36
+	420.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		add_spouse = mc_54
+	}
+	465.1.1 = {
+		death = yes
+	}
+}
+mc_62 = {
+	name = "Philippus" # Philip IV of Macedon
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_48
+	mother = mc_36
+	418.1.1 = {
+		birth = yes
+	}
+	445.1.1 = {
+		death = yes
+	}
+}
+mc_63 = {
+	name = "Antipatrus" # Antipater I of Macedon
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_48
+	mother = mc_36
+	421.1.1 = {
+		birth = yes
+	}
+	455.1.1 = {
+		death = yes
+	}
+}
+mc_64 = {
+	name = "Antipatrus" # Antipater Etesias
+	dynasty_house = house_antipatrid
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_60
+	421.1.1 = {
+		birth = yes
+	}
+	475.1.1 = {
+		death = yes
+	}
+}
+#ptolemaic
+mc_42 = {
+	name = "Lagus" # father of Ptolemy I
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	350.1.1 = {
+		birth = yes
+	}
+	390.1.1 = {
+		add_spouse = mc_41
+	}
+	410.1.1 = {
+		death = yes
+	}
+}
+mc_43 = {
+	name = "Ptolemaius" # Ptolemy I
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_42
+	mother = mc_41
+	395.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+mc_44 = {
+	name = "Ptolemaius" # Ptolemy II
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_43
+	mother = mc_50
+	430.1.1 = {
+		birth = yes
+	}
+	510.1.1 = {
+		death = yes
+	}
+}
+mc_45 = {
+	name = "Arsinoe" # Arsinoe II
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_43
+	mother = mc_50
+	female = yes
+	435.1.1 = {
+		birth = yes
+	}
+	460.1.1 = {
+		add_spouse = mc_44
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+mc_52 = {
+	name = "Ptolemaius" # Ptolemy Ceraunus
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_43
+	mother = mc_51
+	425.1.1 = {
+		birth = yes
+	}
+	450.1.1 = {
+		add_spouse = mc_45
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+mc_53 = {
+	name = "Meleagrus" # Ptolemy Ceraunus
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_43
+	mother = mc_51
+	427.1.1 = {
+		birth = yes
+	}
+	465.1.1 = {
+		death = yes
+	}
+}
+mc_54 = {
+	name = "Lysandra" # wife of Alexander V
+	dynasty = din_25
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_43
+	female = yes
+	429.1.1 = {
+		birth = yes
+	}
+	470.1.1 = {
+		death = yes
+	}
+}
+
+# Lysimachid dynasty
+
+mc_65 = {
+	name = "Alcimachus" # Grandfather of Lysimachus
+	dynasty = din_26
+	religion = h_hellenic
+	culture = makedonian # probably acctually Greek but placeholder for now
+	320.1.1 = {
+		birth = yes
+	}
+	380.1.1 = {
+		death = yes
+	}
+}
+mc_66 = {
+	name = "Agathocles" # father of Lysimachus
+	dynasty = din_26
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_65
+	355.1.1 = {
+		birth = yes
+	}
+	400.1.1 = {
+		death = yes
+	}
+}
+mc_67 = {
+	name = "Lysimachus" # the one and only
+	dynasty = din_26
+	religion = h_hellenic
+	culture = makedonian
+	father = mc_66
+	390.1.1 = {
+		birth = yes
+	}
+	428.1.1 = { #c. 321 BC
+		add_spouse = mc_59
+
+	}
+	430.1.1 = {
+		add_spouse = mc_45 #c. 300 BC
+	}
+	460.1.1 = {
+		death = yes
+	}
+}
+
+# non-dynastic
