@@ -412,7 +412,5 @@ ce_religion_pagan_suomenusko.dds = { colors = 1 category = faiths }
 
 
 #Created by Austin :) shameless plug for art#
-ce_mithras.dds = {colors = 2 category = faiths}
-ce_mithras_flatter.dds = {colors = 2 category = faiths}
-#ce_stag.dds= {colors = 2 category = animals}
+ce_mithras_flatter_simpler.dds = {colors = 2 category = faiths}
 ce_shield_round.dds = {colors = 1 category = warfare}

@@ -3237,7 +3237,7 @@ colored_emblem_texture_lists = {
 	}	
 
 
-	italic_charge_list = {
+	latin_charge_list = {
 		10 = "ce_dog_head.dds"
 		10 = "ce_bull_02.dds"
 		10 = "ce_bull_01.dds"
@@ -3264,7 +3264,7 @@ colored_emblem_texture_lists = {
 			25 = "ce_heraklea_pontica.dds"
 		}
 	}
-	italic_circle_list = {
+	latin_circle_list = {
 		10 = "ce_circle_01.dds"
 		10 = "ce_inverted_circle.dds"
 		10 = "ce_circle_concentric_01.dds"
