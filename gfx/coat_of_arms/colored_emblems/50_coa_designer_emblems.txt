@@ -82,6 +82,10 @@ ce_egyptian_06.dds = { colors = 1 category = manmade}
 ce_egyptian_07.dds = { colors = 1 category = manmade}
 ce_elephant_01.dds = { colors = 1 category = animals}
 ce_elephant_02.dds = { colors = 1 category = animals}
+ce_elephant.dds = { colors = 1 category = animals}
+ce_elephant_head.dds = { colors = 2 category = animals}
+ce_elephant_indian.dds = { colors = 3 category = animals}
+ce_elephant_indian_02.dds = { colors = 3 category = animals}
 ce_epirus.dds = { colors = 1 category = state}
 ce_fish_01.dds = { colors = 1 category = animals}
 ce_flower_01.dds = { colors = 1 category = floral}
@@ -251,9 +255,164 @@ ce_letter_w.dds = { colors = 1 category = writing }
 ce_letter_x.dds = { colors = 1 category = writing }
 ce_letter_y.dds = { colors = 1 category = writing }
 ce_letter_z.dds = { colors = 1 category = writing }
-
 ce_axe.dds= { colors = 2 category = warfare }
 ce_axe_long.dds= { colors = 2 category = warfare }
 ce_mena_axe_fess.dds = { colors = 1 category = warfare }
 ce_mena_chalice_axe_penbox.dds= { colors = 1 category = warfare }
 ce_mena_axe.dds= { colors = 1 category = warfare }
+ce_african_cross_adiukru.dds = {colors = 1 category = faiths}
+ce_african_crescent_star.dds = {colors = 1 category = faiths}
+ce_african_circles.dds = {colors = 1 category = patterns}
+ce_african_ceremonial_mask_02.dds = {colors = 1 category = manmade}
+ce_african_ceremonial_mask.dds = {colors = 1 category = manmade}
+ce_african_takrur.dds = { colors = 1 category = manmade }
+ce_african_bird.dds = { colors = 1 category = animals }
+ce_african_gecko.dds = { colors = 1 category = animals }
+ce_african_ram_horns_02.dds = { colors = 1 category = animals }
+ce_african_turtle.dds = { colors = 1 category = animals }
+ce_african_yoruba_snake.dds = { colors = 1 category = animals }
+ce_african_asetena.dds = { colors = 1 category = abstract }
+ce_african_builder_god.dds = { colors = 1 category = abstract }
+ce_african_duguwa.dds = { colors = 1 category = abstract }
+ce_african_dwennimmen.dds = { colors = 1 category = abstract }
+ce_african_fu_ti.dds = { colors = 1 category = abstract }
+ce_african_habe.dds = { colors = 1 category = abstract }
+ce_african_hidoox.dds = { colors = 1 category = abstract }
+ce_african_jaaniw.dds = { colors = 1 category = abstract }
+ce_african_ja_ir.dds = { colors = 1 category = abstract }
+ce_african_karaka.dds = { colors = 1 category = abstract }
+ce_african_koh.dds = { colors = 1 category = abstract }
+ce_african_mende.dds = { colors = 1 category = abstract }
+ce_african_mrammuo.dds = { colors = 1 category = abstract }
+ce_african_omnipotence.dds = { colors = 1 category = abstract }
+ce_african_otumfuo.dds = { colors = 1 category = abstract }
+ce_african_snake.dds = { colors = 1 category = abstract }
+ce_african_tamfo.dds = { colors = 1 category = abstract }
+ce_african_valor.dds = { colors = 1 category = abstract }
+ce_african_wawa_aba.dds = { colors = 1 category = abstract }
+ce_african_circles.dds = { colors = 1 category = circles_spirals }
+ce_african_frame_01.dds = { colors = 2 category = circles_spirals }
+ce_african_frame_02.dds = { colors = 2 category = circles_spirals }
+ce_african_frame_03.dds = { colors = 2 category = circles_spirals }
+ce_african_frame_04.dds = { colors = 2 category = circles_spirals }
+ce_african_frame_05.dds = { colors = 2 category = circles_spirals }
+ce_african_kara.dds = { colors = 1 category = circles_spirals }
+ce_african_kile.dds = { colors = 1 category = circles_spirals }
+ce_african_matemasie.dds = { colors = 1 category = circles_spirals }
+ce_african_mpuannum.dds = { colors = 1 category = circles_spirals }
+ce_african_munun_ti.dds = { colors = 1 category = circles_spirals }
+ce_african_ram_horns.dds = { colors = 1 category = circles_spirals }
+ce_african_star_igbo.dds = { colors = 1 category = circles_spirals }
+ce_african_venus.dds = { colors = 1 category = circles_spirals }
+ce_african_cross_adiukru.dds = { colors = 1 category = crosses_and_knots }
+ce_african_cross_ghana.dds = { colors = 1 category = crosses_and_knots }
+ce_african_cross_gur.dds = { colors = 1 category = crosses_and_knots }
+ce_african_cross_jenne.dds = { colors = 1 category = crosses_and_knots }
+ce_african_cross_nu2.dds = { colors = 1 category = crosses_and_knots }
+ce_african_cross_yoruba.dds = { colors = 1 category = crosses_and_knots }
+ce_african_knot_hausa.dds = { colors = 1 category = crosses_and_knots }
+ce_african_crescent_star.dds = { colors = 1 category = nature }
+ce_african_fern.dds = { colors = 1 category = nature }
+ce_african_flower.dds = { colors = 1 category = nature }
+ce_african_igi_oye_tree.dds = { colors = 1 category = nature }
+ce_african_mako.dds = { colors = 1 category = nature }
+ce_african_star_borgu.dds = { colors = 1 category = nature }
+ce_african_star_gurma.dds = { colors = 1 category = nature }
+ce_african_star_toro.dds = { colors = 1 category = nature }
+ce_african_pattern_01.dds = { colors = 2 category = patterns }
+ce_african_pattern_02.dds = { colors = 2 category = patterns }
+ce_african_pattern_03.dds = { colors = 2 category = patterns }
+ce_african_pattern_04.dds = { colors = 2 category = patterns }
+ce_african_pattern_05.dds = { colors = 2 category = patterns }
+ce_african_pattern_06.dds = { colors = 2 category = patterns }
+ce_african_pattern_07.dds = { colors = 2 category = patterns }
+ce_african_pattern_08.dds = { colors = 2 category = patterns }
+ce_african_pattern_chevrons_01.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_02.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_03.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_04.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_05.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_06.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_07.dds = { colors = 2 category = patterns }
+ce_african_pattern_dancetty_08.dds = { colors = 2 category = patterns }
+ce_african_pattern_lozengy_01.dds = { colors = 2 category = patterns }
+ce_african_pattern_lozengy_02.dds = { colors = 2 category = patterns }
+ce_african_pattern_lozengy_03.dds = { colors = 2 category = patterns }
+ce_african_pattern_lozengy_04.dds = { colors = 2 category = patterns }
+ce_african_pattern_triangles_01.dds = { colors = 2 category = patterns }
+ce_african_pattern_triangles_02.dds = { colors = 2 category = patterns }
+ce_african_pattern_triangles_03.dds = { colors = 2 category = patterns }
+ce_african_pattern_undy.dds = { colors = 2 category = patterns }
+ce_african_pattern_undy_02.dds = { colors = 2 category = patterns }
+ce_column.dds = { colors = 1 category = manmade }
+ce_column_banner.dds = { colors = 2 category = manmade }
+
+ce_dragon.dds = {colors = 3 category = animals}
+ce_frame_circle_borre_doted.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_double.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_double_knots.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_double_knots_02.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_double_knots_03.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_single.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_single_knots.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_borre_single_knots_02.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_broa.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_urnes_pitney.dds = { colors = 2 category = circles_spirals }
+ce_frame_circle_urnes_runes.dds = { colors = 2 category = circles_spirals }
+ce_norse_bird_alstad.dds = { colors = 2 category = animals }
+ce_norse_fenrir_tullstorp.dds = { colors = 3 category = animals }
+ce_norse_odins_raven.dds = { colors = 2 category = animals }
+ce_norse_raven.dds = { colors = 1 category = animals }
+ce_norse_triskele_beasts.dds = { colors = 1 category = animals }
+ce_norse_triskele_boars.dds = { colors = 1 category = animals }
+ce_norse_triskele_ravens.dds = { colors = 1 category = animals }
+ce_norse_triskele_snakes.dds = { colors = 1 category = animals }
+ce_norse_spirals.dds = { colors = 1 category = circles_spirals }
+ce_norse_gungnir.dds = { colors = 1 category = crosses_and_knots }
+ce_norse_odroerir_lillbjars.dds = { colors = 2 category = crosses_and_knots }
+ce_norse_odroerir_snoldelev.dds = { colors = 3 category = crosses_and_knots }
+ce_norse_sun_cross_getinge.dds = { colors = 1 category = crosses_and_knots }
+ce_norse_triquetra.dds = { colors = 2 category = crosses_and_knots }
+ce_norse_longship.dds = { colors = 1 category = manmade }
+ce_norse_longship_figureheads.dds = { colors = 1 category = manmade }
+ce_norse_longship_gotland.dds = { colors = 3 category = manmade }
+ce_norse_longship_gotland_shields.dds = { colors = 3 category = manmade }
+ce_norse_longship_shields.dds = { colors = 2 category = manmade }
+ce_norse_mjolnir_kobelev.dds = { colors = 1 category = manmade }
+ce_norse_mjolnir_odeshog.dds = { colors = 1 category = manmade }
+ce_norse_mjolnir_romersdal.dds = { colors = 1 category = manmade }
+ce_norse_mjolnir_skane.dds = { colors = 2 category = manmade }
+ce_norse_spiral_06_thin.dds = { colors = 2 category = patterns }
+ce_norse_frame_urnes.dds = { colors = 2 category = writing }
+ce_triskelion.dds = { colors = 2 category = crosses_and_knots }
+ce_triskel.dds = { colors = 1 category = crosses_and_knots }
+ce_triskel_02.dds = { colors = 1 category = crosses_and_knots }
+ce_triskel_iron.dds = { colors = 1 category = crosses_and_knots }
+ce_wyvern.dds= { colors = 3 category = animals }
+ce_wyvern_rising.dds= { colors = 3 category = animals }
+ce_yggdrasil.dds = { colors = 1 category = faiths }
+ce_religion_pagan_hellenic.dds = {colors = 1 category = faiths}
+
+
+ce_religion_kushism.dds = { colors = 1 category = animals }
+ce_religion_waaqism.dds = { colors = 1 category = faiths }
+ce_religion_waldensian.dds = { colors = 2 category = faiths }
+ce_religion_west_african_bori.dds = { colors = 2 category = faiths }
+ce_religion_yazidism.dds = { colors = 2 category = faiths }
+ce_religion_yoruba.dds = { colors = 1 category = faiths }
+ce_religion_zoroastrianism_generic_faravahar.dds = { colors = 2 category = faiths }
+ce_religion_pagan_tengri.dds = { colors = 1 category = faiths }
+ce_religion_pagan_westafrican.dds = { colors = 1 category = faiths }
+ce_religion_pagan_zunist.dds = { colors = 1 category = faiths }
+ce_religion_pagan_generic.dds = { colors = 1 category = faiths }
+ce_religion_pagan_romuva.dds = { colors = 1 category = faiths }
+ce_religion_pagan_suomenusko.dds = { colors = 1 category = faiths }
+
+
+
+#Created by Austin :) shameless plug for art#
+ce_mithras.dds = {colors = 2 category = faiths}
+ce_mithras_flatter.dds = {colors = 2 category = faiths}
+#ce_stag.dds= {colors = 2 category = animals}
+ce_shield_round.dds = {colors = 1 category = warfare}

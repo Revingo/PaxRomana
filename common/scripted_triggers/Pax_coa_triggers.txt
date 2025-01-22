@@ -1,0 +1,30 @@
+﻿#This will be used to trigger a coa change for land that historically
+#became under roman control. So as long as any liege above a title has
+#the roman republic or empire, their coa will change hopefully :)
+
+
+
+
+#
+coa_roman_control_trigger = {
+	AND = {
+		exists = root
+
+		OR = {
+			#
+			# Put a trigger here for forming the proper province.
+			# Makes more sense than just with conquest.
+			any_liege_or_above = {
+				primary_title = {
+					this = title:e_roman_respublica
+				}
+			}
+			#Fallback
+			any_liege_or_above = {
+				primary_title = {
+					this = title:e_roman_empire
+				}
+			}
+		}
+	}
+}
