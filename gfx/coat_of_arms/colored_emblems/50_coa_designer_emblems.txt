@@ -410,7 +410,31 @@ ce_religion_pagan_romuva.dds = { colors = 1 category = faiths }
 ce_religion_pagan_suomenusko.dds = { colors = 1 category = faiths }
 
 
+ce_letter_alep.dds = {colors = 1 category = writing}
+ce_letter_bet.dds = {colors = 1 category = writing}
+ce_letter_dalet.dds = {colors = 1 category = writing}
+ce_letter_gimel.dds = {colors = 1 category = writing}
+ce_letter_he.dds = {colors = 1 category = writing}
+ce_letter_waw.dds = {colors = 1 category = writing}
+ce_letter_zan.dds = {colors = 1 category = writing}
+ce_letter_het.dds = {colors = 1 category = writing}
+ce_letter_tet.dds = {colors = 1 category = writing}
+ce_letter_yod.dds = {colors = 1 category = writing}
+ce_letter_kap.dds = {colors = 1 category = writing}
+ce_letter_lamed.dds = {colors = 1 category = writing}
+ce_letter_mem.dds = {colors = 1 category = writing}
+ce_letter_nun.dds = {colors = 1 category = writing}
+ce_letter_samek.dds = {colors = 1 category = writing}
+ce_letter_ayin.dds = {colors = 1 category = writing}
+ce_letter_pe.dds = {colors = 1 category = writing}
+ce_letter_sade.dds = {colors = 1 category = writing}
+ce_letter_qop.dds = {colors = 1 category = writing}
+ce_letter_res.dds = {colors = 1 category = writing}
+
+
+
+
+
 
 #Created by Austin :) shameless plug for art#
 ce_mithras_flatter_simpler.dds = {colors = 2 category = faiths}
-ce_shield_round.dds = {colors = 1 category = warfare}

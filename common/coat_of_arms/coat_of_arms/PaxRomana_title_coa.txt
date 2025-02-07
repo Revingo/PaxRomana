@@ -247,30 +247,46 @@ e_eastern_sarmatae = { #Extremely Temporary
 
 
 ##Kingdom Titles##
+k_aegyptus ={
+	#Fallback
+	pattern="pattern_solid.dds"
+	color1=yellow_light
+	color2=white
+	color3=black
+	colored_emblem={
+		color1=yellow
+		texture="ce_egyptian_06.dds"
+		instance={
+			position={ 0.330000 0.500000 }
+			scale={ 0.700000 0.700000 }
+			depth=1.010000
+		}
 
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_egyptian_03.dds"
+		instance={
+			position={ 0.700000 0.500000 }
+			scale={ 0.710000 0.710000 }
+		}
+
+	}
+
+
+}
 k_aegyptus_ptolemaic = {
 	pattern="pattern_solid.dds"
 	color1=blue
 	color2=yellow
 	color3=black
 	colored_emblem={
-		color1=yellow
-		texture="ce_epirus.dds"
-		instance={
-			position={ 0.450000 0.810000 }
-			scale={ 0.520000 0.520000 }
-			depth=1.010000
-			rotation=147
-		}
-
-	}
-
-	colored_emblem={
 		color1=yellow_light
 		texture="ce_eagle_01.dds"
 		instance={
-			position={ 0.580000 0.500000 }
-			scale={ 0.810000 0.810000 }
+			position={ 0.510000 0.500000 }
+			scale={ 0.660000 0.660000 }
 		}
 
 	}
@@ -279,54 +295,44 @@ k_aegyptus_ptolemaic = {
 		color1=black
 		texture="ce_eagle_01.dds"
 		instance={
-			position={ 0.600000 0.520000 }
-			scale={ 0.810000 0.810000 }
-			depth=2.010000
+			position={ 0.520000 0.520000 }
+			scale={ 0.710000 0.710000 }
+			depth=1.010000
 		}
 
 	}
 
-	colored_emblem={
-		color1=yellow_light
-		texture="ce_sun_parthian.dds"
-		instance={
-			position={ 0.060000 0.070000 }
-			scale={ 0.820000 0.820000 }
-			depth=3.010000
-		}
-
-	}
 }
-k_makedon = {
+k_aegyptus_roman = {
 
 	pattern="pattern_solid.dds"
-	color1=purple
+	color1=yellow_light
+	color2=yellow
+	color3=black
+	colored_emblem={
+		color1=red
+		texture="ce_roman_eagle.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.790000 0.790000 }
+		}
+
+	}
+
+
+}
+
+k_makedon = {
+	pattern="pattern_solid.dds"
+	color1=blue
 	color2=yellow
 	color3=black
 	colored_emblem={
 		color1=yellow_light
-		color2=yellow_light
-		texture="ce_phrygia.dds"
-	}
-
-	colored_emblem={
-		color1=black
-		color2=black
-		texture="ce_phrygia.dds"
-		instance={
-			position={ 0.510000 0.530000 }
-			depth=1.010000
-		}
-
-	}
-
-	colored_emblem={
-		color1=yellow_light
 		texture="ce_sun_parthian.dds"
 		instance={
-			position={ 0.060000 0.070000 }
-			scale={ 0.820000 0.820000 }
-			depth=2.010000
+			position={ 0.500000 0.460000 }
+			scale={ 0.750000 0.750000 }
 		}
 
 	}
@@ -346,7 +352,34 @@ k_persia = {
     }
 }
 
+k_magna_grecia = {
 
+	pattern="pattern_vertical_stripes_02.dds"
+	color1=orange
+	color2=brown
+	color3=red
+	colored_emblem={
+		color1=yellow
+		color2=orange
+		texture="ce_phrygia.dds"
+		instance={
+			position={ 0.500000 0.600000 }
+			scale={ 0.360000 0.360000 }
+			rotation=10
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		texture="ce_amphora.dds"
+		instance={
+			depth=1.010000
+		}
+
+	}
+
+}
 
 #Counties#
 c_laconia={
@@ -396,7 +429,7 @@ c_laconia={
 #}
 
 #
-#k_magna_grecia = {}
+#
 #k_roman_italia = {}
 #k_cisalpine_gaul = {}
 #k_gallia_narbonense = {}
@@ -438,5 +471,5 @@ k_seleukia = {
 	}
 
 }
-#k_aegyptus ={}
+
 #k_bophorus ={}
