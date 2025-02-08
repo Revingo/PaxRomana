@@ -431,7 +431,7 @@ ce_letter_sade.dds = {colors = 1 category = writing}
 ce_letter_qop.dds = {colors = 1 category = writing}
 ce_letter_res.dds = {colors = 1 category = writing}
 
-
+ce_chi_rho.dds = {colors = 1 category = faiths}
 
 
 

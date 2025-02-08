@@ -2,3 +2,20 @@
 
 #ROMAN BASED COAS
 
+k_magna_grecia = {
+    item = {
+        trigger = {
+            coa_switch_to_roman_trigger = yes
+        }
+        coat_of_arms = k_magna_grecia_roman
+    }
+}
+
+k_roman_italia = {
+    item = {
+        trigger = {
+            coa_switch_to_roman_trigger = yes
+        }
+        coat_of_arms = k_roman_italia
+    }
+}

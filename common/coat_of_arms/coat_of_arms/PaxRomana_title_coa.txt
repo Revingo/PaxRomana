@@ -380,6 +380,178 @@ k_magna_grecia = {
 	}
 
 }
+k_magna_grecia_roman = {
+
+	pattern="pattern__solid_designer.dds"
+	color1=red
+	color2=yellow
+	color3=green
+	colored_emblem={
+		color1=yellow_light
+		texture="ce_roman_eagle.dds"
+		instance={
+			position={ 0.500000 0.440000 }
+			scale={ 0.690000 0.690000 }
+		}
+
+	}
+
+	colored_emblem={
+		color1=black
+		color2=grey
+		texture="ce_african_frame_03.dds"
+		instance={
+			position={ 0.500000 0.460000 }
+			depth=1.010000
+		}
+
+	}
+
+}
+#k_roman_italia_non_roman = {
+#	pattern="pattern_solid.dds"
+#	color1=red
+#	color2=yellow
+#	color3=blue
+#	colored_emblem={
+#		color1=yellow
+#		texture="ce_letter_i.dds"
+#		instance={
+#			position={ 0.610000 0.810000 }
+#			scale={ 0.170000 0.170000 }
+#			depth=1.010000
+#		}
+#
+#		instance={
+#			position={ 0.280000 0.810000 }
+#			scale={ 0.170000 0.170000 }
+#			depth=5.010000
+#		}
+#
+#	}
+#
+#	colored_emblem={
+#		color1=yellow
+#		texture="ce_roman_eagle.dds"
+#		instance={
+#			position={ 0.500000 0.400000 }
+#			scale={ 0.850000 0.850000 }
+#			depth=6.010000
+#		}
+#
+#	}
+#
+#	colored_emblem={
+#		color1=yellow
+#		texture="ce_letter_t.dds"
+#		instance={
+#			position={ 0.350000 0.810000 }
+#			scale={ 0.160000 0.160000 }
+#			depth=4.010000
+#		}
+#
+#	}
+#
+#	colored_emblem={
+#		color1=yellow
+#		texture="ce_letter_l.dds"
+#		instance={
+#			position={ 0.540000 0.810000 }
+#			scale={ 0.170000 0.170000 }
+#			depth=2.010000
+#		}
+#
+#	}
+#
+#	colored_emblem={
+#		color1=yellow
+#		texture="ce_letter_a.dds"
+#		instance={
+#			position={ 0.690000 0.810000 }
+#			scale={ 0.180000 0.180000 }
+#		}
+#
+#		instance={
+#			position={ 0.440000 0.810000 }
+#			scale={ 0.170000 0.170000 }
+#			depth=3.010000
+#		}
+#
+#	}
+#
+#}
+k_roman_italia = {
+	pattern="pattern_solid.dds"
+	color1=red
+	color2=yellow
+	color3=blue
+	colored_emblem={
+		color1=yellow
+		texture="ce_letter_i.dds"
+		instance={
+			position={ 0.610000 0.810000 }
+			scale={ 0.170000 0.170000 }
+			depth=1.010000
+		}
+
+		instance={
+			position={ 0.280000 0.810000 }
+			scale={ 0.170000 0.170000 }
+			depth=5.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_roman_eagle.dds"
+		instance={
+			position={ 0.500000 0.400000 }
+			scale={ 0.850000 0.850000 }
+			depth=6.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_letter_t.dds"
+		instance={
+			position={ 0.350000 0.810000 }
+			scale={ 0.160000 0.160000 }
+			depth=4.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_letter_l.dds"
+		instance={
+			position={ 0.540000 0.810000 }
+			scale={ 0.170000 0.170000 }
+			depth=2.010000
+		}
+
+	}
+
+	colored_emblem={
+		color1=yellow
+		texture="ce_letter_a.dds"
+		instance={
+			position={ 0.690000 0.810000 }
+			scale={ 0.180000 0.180000 }
+		}
+
+		instance={
+			position={ 0.440000 0.810000 }
+			scale={ 0.170000 0.170000 }
+			depth=3.010000
+		}
+
+	}
+
+}
 
 #Counties#
 c_laconia={
