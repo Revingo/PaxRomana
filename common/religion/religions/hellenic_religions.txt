@@ -48,9 +48,9 @@
 
 	holy_order_names = {
 		{ name = "holy_order_myrmidons" }
-		{ name = "holy_order_priesthood_of_ares" }
-		{ name = "holy_order_tridents_of_poseidon"}
-		{ name = "holy_order_archons_of_apollo"}
+		{ name = "holy_order_priesthood_of_ares" coat_of_arms = ho_priesthood_ares }
+		{ name = "holy_order_tridents_of_poseidon" coat_of_arms = ho_tridents_poseidon}
+		{ name = "holy_order_archons_of_apollo" coat_of_arms = ho_archons_apollo}
 		{ name = "holy_order_serpents_of_hades"}
 	}
 
